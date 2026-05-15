@@ -1,16 +1,17 @@
 {
   "generated_at": "2026-05-15T22:00:00+08:00",
   "date": "2026-05-15",
-  "price_now": "$449.13",
-  "change_today": "+1.32%",
-  "change_today_dollar": "+$5.83",
-  "change_today_positive": true,
-  "market_cap": "$1.44T",
+  "price_now": "$443.30",
+  "price_note": "Confirmed May 14 official close. May 15 US market is still open; intraday prices not used per briefing rules.",
+  "change_today": "-0.44%",
+  "change_today_dollar": "-$1.97",
+  "change_today_positive": false,
+  "market_cap": "$1.42T",
   "week_52_high": "$498.83",
   "week_52_low": "$273.21",
-  "volume_today": "82.4M",
+  "volume_today": "45.0M",
   "volume_avg_30d": "60.3M",
-  "volume_vs_avg": "above average",
+  "volume_vs_avg": "below average",
   "next_earnings_date": "2026-07-22",
 
   "news": {
@@ -57,10 +58,10 @@
 
   "analysis_7d": {
     "price_start": "$397.00",
-    "price_end": "$449.13",
+    "price_end": "$443.30",
     "period_high": "$452.00",
     "period_low": "$397.00",
-    "change_pct": "+13.1%",
+    "change_pct": "+11.6%",
     "trend": "uptrend",
     "rsi": 67.4,
     "rsi_label": "Approaching warm — still bullish but watch for fatigue near 70",
@@ -87,10 +88,10 @@
 
   "analysis_30d": {
     "price_start": "$360.00",
-    "price_end": "$449.13",
+    "price_end": "$443.30",
     "period_high": "$452.00",
     "period_low": "$352.08",
-    "change_pct": "+24.8%",
+    "change_pct": "+23.1%",
     "trend": "uptrend",
     "key_levels": {
       "support": "$420",
@@ -204,6 +205,6 @@
     { "date": "May 12", "close": 433.45, "color": "red" },
     { "date": "May 13", "close": 445.27, "color": "green" },
     { "date": "May 14", "close": 443.30, "color": "red" },
-    { "date": "May 15", "close": 449.13, "color": "green" }
+    { "date": "May 15", "close": null, "color": "dim", "note": "Market open — no confirmed close yet" }
   ]
 }

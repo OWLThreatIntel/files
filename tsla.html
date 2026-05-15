@@ -198,16 +198,17 @@ footer a{color:var(--gold-dim);text-decoration:none}
 const DATA = {
   "generated_at": "2026-05-15T22:00:00+08:00",
   "date": "2026-05-15",
-  "price_now": "$449.13",
-  "change_today": "+1.32%",
-  "change_today_dollar": "+$5.83",
-  "change_today_positive": true,
-  "market_cap": "$1.44T",
+  "price_now": "$443.30",
+  "price_note": "Confirmed May 14 official close. May 15 US market open — intraday not used.",
+  "change_today": "-0.44%",
+  "change_today_dollar": "-$1.97",
+  "change_today_positive": false,
+  "market_cap": "$1.42T",
   "week_52_high": "$498.83",
   "week_52_low": "$273.21",
-  "volume_today": "82.4M",
+  "volume_today": "45.0M",
   "volume_avg_30d": "60.3M",
-  "volume_vs_avg": "above average",
+  "volume_vs_avg": "below average",
   "next_earnings_date": "2026-07-22",
   "news": {
     "sentiment_label": "Cautiously Bullish",
@@ -221,8 +222,8 @@ const DATA = {
     ]
   },
   "analysis_7d": {
-    "price_start": "$397.00","price_end": "$449.13","period_high": "$452.00","period_low": "$397.00",
-    "change_pct": "+13.1%","trend": "uptrend",
+    "price_start": "$397.00","price_end": "$443.30","period_high": "$452.00","period_low": "$397.00",
+    "change_pct": "+11.6%","trend": "uptrend",
     "rsi": 67.4,"rsi_label": "Approaching warm — still bullish but watch for fatigue near 70","rsi_color": "yellow",
     "macd_signal": "Bullish — buying momentum confirmed, MACD line above signal line",
     "ma_5d": "$445.20","ma_5d_position": "above",
@@ -241,8 +242,8 @@ const DATA = {
     "summary": "Tesla had a powerful seven-day run, gaining more than 13% and pushing firmly above all key moving averages. The standout event was a 7.4% single-session surge on May 8 — the kind of big move that signals a meaningful catalyst. A brief 2.6% pullback on May 12 triggered by robotaxi glitch headlines was absorbed by buyers within 48 hours, a healthy sign the bull trend has strong underlying support. Volume jumped above its 30-day average, confirming real buying conviction. The one caution: the RSI at 67.4 is approaching the 70 level where stocks sometimes pause to catch their breath before moving higher."
   },
   "analysis_30d": {
-    "price_start": "$360.00","price_end": "$449.13","period_high": "$452.00","period_low": "$352.08",
-    "change_pct": "+24.8%","trend": "uptrend",
+    "price_start": "$360.00","price_end": "$443.30","period_high": "$452.00","period_low": "$352.08",
+    "change_pct": "+23.1%","trend": "uptrend",
     "key_levels": {
       "support": "$420","support_reason": "Each time the stock has pulled back this month, buyers have stepped in firmly around $420 — like a trampoline that keeps pushing it back up",
       "resistance": "$460–$470","resistance_reason": "Sellers have appeared each time the price approaches this band, creating a ceiling — clearing it would put the all-time high near $499 in range"
@@ -299,7 +300,7 @@ const DATA = {
     {"date":"May 12","close":433.45,"color":"red"},
     {"date":"May 13","close":445.27,"color":"green"},
     {"date":"May 14","close":443.30,"color":"red"},
-    {"date":"May 15","close":449.13,"color":"green"}
+    {"date":"May 15","close":null,"color":"dim"}
   ]
 };
 </script>
@@ -422,7 +423,7 @@ document.getElementById('recBanner').innerHTML = `
   </div>`;
 
 // CHART
-const cd = DATA.price_chart;
+const cd = DATA.price_chart.filter(d=>d.close !== null && d.close !== undefined);
 const prices = cd.map(d=>d.close);
 const labels = cd.map(d=>d.date);
 const mn = Math.min(...prices), mx = Math.max(...prices);
