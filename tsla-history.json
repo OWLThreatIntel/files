@@ -236,5 +236,122 @@
         { "date": "May 15", "close": 449.13, "color": "green" }
       ]
     }
+    ,
+    {
+      "date": "2026-05-15",
+      "generated_at": "2026-05-15T16:30:00+08:00",
+      "price_now": "$449.13",
+      "change_today": "+1.31%",
+      "change_today_positive": true,
+      "market_cap": "$1.46T",
+      "week_52_high": "$498.83",
+      "week_52_low": "$273.21",
+      "volume": "95.8M",
+
+      "news": {
+        "sentiment_label": "Bullish",
+        "sentiment_summary": "Tesla's sentiment in mid-May 2026 is firmly bullish, driven by three converging catalysts: a decisive Q1 earnings beat in April, an accelerating robotaxi rollout now covering Dallas and Houston, and high-level diplomatic momentum around China FSD regulatory approval following Elon Musk's state visit to Beijing alongside President Trump. The stock has surged over 24% in the past 30 days, reclaiming all of its late-2025 correction losses. Near-term turbulence on May 12 — sparked by robotaxi operational glitches and Panasonic battery supply concerns — was absorbed within 48 hours, suggesting strong dip-buying demand.",
+        "items": [
+          {
+            "headline": "Musk Joins Trump's Beijing Visit — China FSD Approval Could Be a Game-Changer",
+            "summary": "Elon Musk accompanied President Trump on a high-profile state visit to Beijing, meeting with Xi Jinping and top regulators. Investors are optimistic that Chinese authorities will approve Tesla's Full Self-Driving software, which would unlock a massive new software subscription revenue stream in the world's largest EV market.",
+            "source": "Invezz / FX Leaders",
+            "date": "2026-05-14",
+            "sentiment": "bullish"
+          },
+          {
+            "headline": "Tesla Q1 2026 Earnings Beat: EPS $0.41, Gross Margin Hits 21.1%, FSD Subs +51% YoY",
+            "summary": "Tesla beat Q1 2026 consensus estimates with non-GAAP EPS of $0.41 versus the $0.36 expected, and revenue of $22.39B (+16% YoY). Automotive gross margin reached 21.1% — the highest in over a year — while FSD active subscriptions grew 51% year-over-year to 1.28 million.",
+            "source": "Tesla IR / CNBC",
+            "date": "2026-04-22",
+            "sentiment": "bullish"
+          },
+          {
+            "headline": "Piper Sandler: Tesla Worth $400 Without Optimus — Meaning Robot Business Is 'Free'",
+            "summary": "Analyst Alexander Potter at Piper Sandler argued that Tesla's 17 core product lines justify around $400 per share alone. At current prices near $445, investors are effectively getting the Optimus humanoid robot program for free. The firm reiterated a $500 price target.",
+            "source": "Piper Sandler / TIKR / Yahoo Finance",
+            "date": "2026-05-11",
+            "sentiment": "bullish"
+          },
+          {
+            "headline": "Tesla Sinks 5% Intraday on Robotaxi Glitches and Battery Delay Reports",
+            "summary": "TSLA fell as much as 5% intraday on May 12 before closing down 2.6% at $433.45, after reports surfaced of long wait times and ride cancellations in the Dallas and Houston robotaxi zones. The stock recovered fully within two sessions.",
+            "source": "24/7 Wall St. / Yahoo Finance",
+            "date": "2026-05-12",
+            "sentiment": "bearish"
+          },
+          {
+            "headline": "Robotaxi Expansion Accelerates: Dallas, Houston Live — Five More Cities Queued",
+            "summary": "Tesla's unsupervised robotaxi fleet has grown from 9 vehicles in early April to 39 by mid-May. Dallas and Houston zones went live on April 18, paid miles nearly doubled quarter-over-quarter, and Tesla is preparing launches in Phoenix, Miami, Orlando, Tampa, and Las Vegas.",
+            "source": "The Motley Fool / HeyGoTrade",
+            "date": "2026-05-13",
+            "sentiment": "bullish"
+          }
+        ]
+      },
+
+      "analysis_7d": {
+        "price_start": "$397.00",
+        "price_end": "$449.13",
+        "change_pct": "+13.1%",
+        "trend": "uptrend",
+        "technical_signals": [
+          "All 12 moving averages on Strong Buy — zero bearish signals",
+          "RSI approaching 70 — bullish momentum, watch for overbought conditions",
+          "Price above 5-day ($445), 50-day ($416), and 200-day ($383) MAs — bullish golden stack",
+          "Key support zone: $428–$435; immediate resistance: $460–$470",
+          "Bullish-to-bearish options sentiment ratio 79:21"
+        ],
+        "summary": "Tesla had a powerful seven-day run, gaining over 13% from the $397 range and pushing firmly above all key moving averages. The standout moment was a 7.4% single-session surge on May 8, followed by a brief pullback on May 12 that buyers absorbed within 48 hours. The RSI is hovering near 70, suggesting brief consolidation may precede the next leg higher."
+      },
+
+      "analysis_30d": {
+        "price_start": "$360.00",
+        "price_end": "$449.13",
+        "change_pct": "+24.8%",
+        "trend": "uptrend",
+        "key_levels": { "support": "$420", "resistance": "$460–$470" },
+        "notable_events": [
+          "Apr 2: Q1 delivery miss — 358K vehicles vs 365K consensus",
+          "Apr 17: TSLA hits cycle low near $352 — tail end of 32% correction from Dec 2025 highs",
+          "Apr 22: Q1 2026 earnings beat — 21.1% gross margin; 200-day MA holds as support",
+          "May 8: Major breakout surge (+7.4%) through April highs on heavy volume",
+          "May 11: Piper Sandler Optimus note + Musk China trip news — fresh +4% catalyst"
+        ],
+        "summary": "Tesla's 30-day story is a compelling V-shaped recovery, bouncing from the $352 cycle low on April 17 and adding over 24% to reach $449. Q1 earnings marked the turning point, with the 200-day MA holding as institutional support. The stock now sits in a strong golden stack configuration above all major moving averages."
+      },
+
+      "outlook": {
+        "analyst_consensus": "Moderate Buy",
+        "avg_price_target": "$410",
+        "target_range": "$125 – $600",
+        "catalysts": [
+          "China FSD regulatory approval — Musk's Beijing visit could unlock hundreds of millions of potential subscribers",
+          "Q2 2026 delivery report (early July) — key test of whether volume recovery is durable",
+          "Optimus humanoid robot production reveal (July–August 2026) — targeting several thousand units by year-end",
+          "Multi-city robotaxi expansion to Phoenix, Miami, Orlando, Tampa, Las Vegas — 12 US states by year-end",
+          "AI5 inference chip rollout and Cybercab volume ramp at Gigafactory Texas"
+        ],
+        "macro_factors": [
+          "US-China trade tensions: tariff negotiations affect supply chain costs and China FSD approval timeline",
+          "Federal Reserve interest rate policy pressures Tesla's ~416x trailing P/E multiple",
+          "Intensifying EV competition from BYD, NIO, and legacy automakers globally"
+        ],
+        "summary": "Tesla at $449 trades above the average analyst price target of ~$410, meaning the market prices in significant AI and autonomy optionality. The bull case ($600, Wedbush) envisions Tesla dominating autonomous mobility plus an Optimus robotics empire. The bear case ($125, GLJ Research) argues the valuation is disconnected from fundamentals. The next 3–6 months are a critical execution window."
+      },
+
+      "price_chart": [
+        { "date": "May 04", "close": 404.00, "color": "red" },
+        { "date": "May 05", "close": 399.00, "color": "red" },
+        { "date": "May 06", "close": 397.00, "color": "red" },
+        { "date": "May 07", "close": 398.94, "color": "green" },
+        { "date": "May 08", "close": 428.50, "color": "green" },
+        { "date": "May 11", "close": 445.00, "color": "green" },
+        { "date": "May 12", "close": 433.45, "color": "red" },
+        { "date": "May 13", "close": 440.00, "color": "green" },
+        { "date": "May 14", "close": 443.30, "color": "green" },
+        { "date": "May 15", "close": 449.13, "color": "green" }
+      ]
+    }
   ]
 }
