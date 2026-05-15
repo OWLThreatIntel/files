@@ -501,6 +501,112 @@
         { "date": "May 14", "close": 443.30, "color": "red" },
         { "date": "May 15", "close": 449.13, "color": "green" }
       ]
+    },
+    {
+      "date": "2026-05-15",
+      "generated_at": "2026-05-15T22:00:00+08:00",
+      "price_now": "$449.13",
+      "change_today": "+1.32%",
+      "change_today_positive": true,
+      "market_cap": "$1.44T",
+      "week_52_high": "$498.83",
+      "week_52_low": "$273.21",
+      "volume_today": "82.4M",
+      "volume_avg_30d": "60.3M",
+      "volume_vs_avg": "above average",
+      "next_earnings_date": "2026-07-22",
+      "news": {
+        "sentiment_label": "Cautiously Bullish",
+        "sentiment_summary": "Tesla's market narrative in mid-May 2026 is firmly bullish, driven by solid Q1 earnings, an accelerating robotaxi fleet expansion, and high-level diplomatic momentum around China FSD approval. The stock has rallied 24%+ in 30 days and now trades above the average analyst target, meaning expectations are high and execution must continue to deliver.",
+        "items": [
+          { "headline": "Musk Joins Trump's Beijing State Visit — China FSD Approval Could Unlock Massive Revenue", "source": "Invezz / FX Leaders", "date": "2026-05-14", "sentiment": "bullish" },
+          { "headline": "Tesla Q1 2026 Earnings Beat: EPS $0.41 vs $0.36 Estimate, Gross Margin 21.1%", "source": "Tesla IR / CNBC", "date": "2026-04-22", "sentiment": "bullish" },
+          { "headline": "Tesla Robotaxi Fleet Grows to 39 Vehicles — Five More Cities Queued for H1 2026", "source": "The Motley Fool / HeyGoTrade", "date": "2026-05-13", "sentiment": "bullish" },
+          { "headline": "Tesla Sinks 5% Intraday on Robotaxi Glitches and Panasonic Battery Delay Reports", "source": "24/7 Wall St.", "date": "2026-05-12", "sentiment": "bearish" },
+          { "headline": "Piper Sandler: Tesla Core Business Worth ~$400 — Optimus Robot Is 'Free' at Current Prices", "source": "Piper Sandler / Yahoo Finance", "date": "2026-05-11", "sentiment": "bullish" }
+        ]
+      },
+      "analysis_7d": {
+        "price_start": "$397.00",
+        "price_end": "$449.13",
+        "period_high": "$452.00",
+        "period_low": "$397.00",
+        "change_pct": "+13.1%",
+        "trend": "uptrend",
+        "rsi": 67.4,
+        "rsi_label": "Approaching warm — still bullish but watch for fatigue near 70",
+        "rsi_color": "yellow",
+        "macd_signal": "Bullish — buying momentum confirmed, MACD line above signal line",
+        "ma_5d": "$445.20",
+        "ma_5d_position": "above",
+        "ma_50d": "$416.75",
+        "ma_50d_position": "above",
+        "ma_200d": "$383.23",
+        "ma_200d_position": "above",
+        "ma_cross_status": "Golden Cross — 50-day average above 200-day average, long-term bullish",
+        "bollinger_position": "Upper half — price running warm near top of recent channel",
+        "volume_trend": "Above average — 82.4M vs 60.3M 30-day avg, buying looks genuine",
+        "summary": "Tesla gained 13%+ in seven sessions, pushing above all key moving averages on above-average volume. The standout was a 7.4% surge on May 8, with the subsequent May 12 dip absorbed quickly — a sign of strong dip-buying demand. RSI at 67.4 is healthy but approaching the 70 rest zone."
+      },
+      "analysis_30d": {
+        "price_start": "$360.00",
+        "price_end": "$449.13",
+        "period_high": "$452.00",
+        "period_low": "$352.08",
+        "change_pct": "+24.8%",
+        "trend": "uptrend",
+        "key_levels": { "support": "$420", "resistance": "$460–$470" },
+        "ma_50d": "$416.75",
+        "ma_50d_position": "above",
+        "ma_200d": "$383.23",
+        "ma_200d_position": "above",
+        "rsi": 67.4,
+        "macd_signal": "Bullish",
+        "notable_events": [
+          "Apr 17: TSLA hit $352 — lowest since September 2025",
+          "Apr 22: Q1 2026 earnings beat; 200-day MA held as institutional support",
+          "May 8: Major breakout +7.4% on heavy volume",
+          "May 11: Piper Sandler note + Musk China trip sparked +4% catalyst",
+          "May 12: Intraday -5% on robotaxi glitches — recovered within 48 hours"
+        ],
+        "summary": "Tesla's 30-day story is a sharp V-shaped recovery from $352 to $449, driven by Q1 earnings, robotaxi expansion, and China FSD diplomacy. The golden stack configuration (price above all three MAs) remains intact."
+      },
+      "outlook": {
+        "analyst_consensus": "Moderate Buy",
+        "analyst_buy_count": 15,
+        "analyst_hold_count": 11,
+        "analyst_sell_count": 5,
+        "avg_price_target": "$407",
+        "median_price_target": "$400",
+        "high_price_target": "$600",
+        "high_price_target_firm": "Wedbush",
+        "low_price_target": "$125",
+        "low_price_target_firm": "GLJ Research",
+        "recent_rating_change": "Morgan Stanley downgraded citing valuation; UBS held Neutral at $352 target (Apr 14)",
+        "next_earnings_date": "2026-07-22",
+        "next_earnings_eps_estimate": "$0.42",
+        "next_earnings_revenue_estimate": "$24.52B"
+      },
+      "recommendation": {
+        "signal": "HOLD",
+        "confidence": "Medium",
+        "time_horizon": "Short-term (1–4 weeks)",
+        "bullish_signals_count": 8,
+        "bearish_signals_count": 6,
+        "key_risk": "China FSD delay or robotaxi reliability issues could trigger 10–15% pullback from current stretched levels."
+      },
+      "price_chart": [
+        { "date": "May 04", "close": 404.00, "color": "red" },
+        { "date": "May 05", "close": 399.00, "color": "red" },
+        { "date": "May 06", "close": 397.00, "color": "red" },
+        { "date": "May 07", "close": 398.94, "color": "green" },
+        { "date": "May 08", "close": 428.50, "color": "green" },
+        { "date": "May 11", "close": 445.00, "color": "green" },
+        { "date": "May 12", "close": 433.45, "color": "red" },
+        { "date": "May 13", "close": 445.27, "color": "green" },
+        { "date": "May 14", "close": 443.30, "color": "red" },
+        { "date": "May 15", "close": 449.13, "color": "green" }
+      ]
     }
   ]
 }
