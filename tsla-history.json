@@ -608,6 +608,144 @@
         { "date": "May 14", "close": 443.30, "color": "red" },
         { "date": "May 15", "close": 449.13, "color": "green" }
       ]
+    },
+    {
+      "date": "2026-05-15",
+      "generated_at": "2026-05-15T23:30:00+08:00",
+      "price_now": "$443.30",
+      "change_today": "-0.44%",
+      "change_today_positive": false,
+      "market_cap": "$1.42T",
+      "week_52_high": "$498.83",
+      "week_52_low": "$273.21",
+      "volume_today": "45.2M",
+      "volume_avg_30d": "60.3M",
+      "volume_vs_avg": "below average",
+      "next_earnings_date": "2026-07-22",
+      "notes": "Using confirmed May 14, 2026 closing price. May 15 US market open intraday near $449.",
+      "news": {
+        "sentiment_label": "Cautiously Bullish",
+        "sentiment_summary": "Tesla's story in mid-May 2026 is one of a dramatic recovery — the stock has surged more than 22% from its April 14 lows, powered by a solid Q1 2026 earnings beat, an accelerating robotaxi rollout now covering Dallas and Houston, and high-stakes diplomatic momentum around China FSD approval as Elon Musk joins Trump's Beijing state visit. The mood is bullish but not euphoric: the stock now trades above the average analyst price target of $407, meaning execution must continue to deliver.",
+        "items": [
+          {
+            "headline": "Tesla Surges Toward $445 — China Growth, Strong Q1 Earnings, and Robotaxi Hype Fuel Momentum",
+            "summary": "Tesla shares continued their powerful recovery rally heading into mid-May, propelled by a Q1 2026 earnings beat, rapid robotaxi fleet expansion now covering Dallas and Houston, and growing optimism that Musk's trip to Beijing will unlock Full Self-Driving software approval in China.",
+            "source": "FX Leaders",
+            "date": "2026-05-14",
+            "sentiment": "bullish"
+          },
+          {
+            "headline": "Here's When Tesla's Robotaxi Rollout Will Really Ramp Up",
+            "summary": "The Motley Fool examined Tesla's robotaxi expansion timeline, noting the fleet has grown from 9 to 39 unsupervised vehicles in under six weeks. Future launches are queued for Phoenix, Miami, Orlando, Tampa, and Las Vegas — a faster pace than many sceptics expected.",
+            "source": "The Motley Fool",
+            "date": "2026-05-14",
+            "sentiment": "bullish"
+          },
+          {
+            "headline": "Tesla Sinks 5% Intraday as Musk Heads to China; Robotaxi Glitches and Battery Delays Surface",
+            "summary": "Shares fell as much as 5% intraday on May 12, settling down 2.6% at $433.45, after reports of long wait times and trip cancellations in Dallas and Houston robotaxi zones. Panasonic battery supply constraints are throttling Cybercab production. The stock recovered fully within two sessions.",
+            "source": "24/7 Wall St.",
+            "date": "2026-05-12",
+            "sentiment": "bearish"
+          },
+          {
+            "headline": "Tesla Stock Slips Ahead of Musk's Trip to China with Trump Trade Delegation",
+            "summary": "TSLA dipped briefly on May 13 as traders grew cautious ahead of Musk's Beijing visit with President Trump. Key-person risk concerns weighed on sentiment briefly before buyers stepped back in the next session.",
+            "source": "Yahoo Finance",
+            "date": "2026-05-13",
+            "sentiment": "bearish"
+          },
+          {
+            "headline": "Finally, Some Good News for Tesla Investors — Q1 2026 Earnings Beat Wall Street",
+            "summary": "Tesla reported Q1 2026 EPS of $0.41 vs the $0.36 estimate, with revenue of $22.39B (+16% YoY). Automotive gross margin recovered to 21.1% — highest in over a year — and FSD active subscriptions grew 51% YoY to 1.28M.",
+            "source": "The Motley Fool / Tesla IR",
+            "date": "2026-05-03",
+            "sentiment": "bullish"
+          }
+        ]
+      },
+      "analysis_7d": {
+        "price_start": "$397.00",
+        "price_end": "$443.30",
+        "period_high": "$445.27",
+        "period_low": "$397.00",
+        "change_pct": "+11.7%",
+        "trend": "uptrend",
+        "rsi": 62.4,
+        "rsi_label": "Healthy momentum — room to run before hitting overbought territory",
+        "rsi_color": "green",
+        "macd_signal": "Bullish — MACD line above signal line, buying momentum confirmed",
+        "ma_5d": "$445.20",
+        "ma_5d_position": "below",
+        "ma_50d": "$416.75",
+        "ma_50d_position": "above",
+        "ma_200d": "$383.23",
+        "ma_200d_position": "above",
+        "ma_cross_status": "Golden Cross — 50-day average ($416.75) sits above 200-day average ($383.23)",
+        "bollinger_position": "Upper half — price approaching upper band near $450, running warm but not extreme",
+        "volume_trend": "Below average — 45.2M vs 60.3M 30-day average",
+        "summary": "Tesla gained nearly 12% in seven sessions from $397 to $443. A powerful May 8 surge (+7.4%) drove the breakout; the May 12 pullback was absorbed in two sessions. RSI at 62.4 is healthy with room to run. Golden Cross remains intact."
+      },
+      "analysis_30d": {
+        "price_start": "$362.00",
+        "price_end": "$443.30",
+        "period_high": "$452.00",
+        "period_low": "$352.08",
+        "change_pct": "+22.5%",
+        "trend": "uptrend",
+        "key_levels": { "support": "$420", "resistance": "$450" },
+        "ma_50d": "$416.75",
+        "ma_50d_position": "above",
+        "ma_200d": "$383.23",
+        "ma_200d_position": "above",
+        "rsi": 62.4,
+        "macd_signal": "Bullish",
+        "notable_events": [
+          "Apr 17: TSLA hits $352.08 — lowest since September 2025",
+          "Apr 22: Q1 2026 earnings beat triggers V-shaped recovery; 200-day MA holds as support",
+          "May 8: Breakout surge (+7.4%) through April highs on volume",
+          "May 11: Musk China trip + Piper Sandler 'Optimus is free' note — +4% catalyst",
+          "May 12: Intraday -5% on robotaxi glitches — recovered within 48 hours"
+        ],
+        "summary": "Tesla's 30-day story is a textbook V-shaped recovery from $352 cycle low to $443, driven by earnings beat, robotaxi expansion, and China FSD diplomacy. 200-day MA held as institutional support. Golden stack configuration intact."
+      },
+      "outlook": {
+        "analyst_consensus": "Moderate Buy",
+        "analyst_buy_count": 16,
+        "analyst_hold_count": 11,
+        "analyst_sell_count": 5,
+        "avg_price_target": "$407",
+        "median_price_target": "$400",
+        "high_price_target": "$600",
+        "high_price_target_firm": "Wedbush",
+        "low_price_target": "$24.86",
+        "low_price_target_firm": "GLJ Research",
+        "recent_rating_change": "Morgan Stanley downgraded citing stretched valuation (May 2026); UBS maintained Neutral Apr 23",
+        "next_earnings_date": "2026-07-22",
+        "next_earnings_eps_estimate": "$0.42",
+        "next_earnings_revenue_estimate": "$24.52B"
+      },
+      "recommendation": {
+        "signal": "HOLD",
+        "confidence": "Medium",
+        "time_horizon": "Medium-term (1–3 months)",
+        "bullish_signals_count": 7,
+        "bearish_signals_count": 4,
+        "key_risk": "A robotaxi safety incident, China FSD delay, or weak Q2 delivery report could trigger a 10–15% pullback.",
+        "disclaimer": "⚠️ This is not financial advice. This is an AI-generated analysis for informational and educational purposes only. Always do your own research and consult a licensed financial advisor before making any investment decisions."
+      },
+      "price_chart": [
+        { "date": "May 01", "close": 406.00, "color": "green" },
+        { "date": "May 04", "close": 404.00, "color": "red" },
+        { "date": "May 05", "close": 399.00, "color": "red" },
+        { "date": "May 06", "close": 397.00, "color": "red" },
+        { "date": "May 07", "close": 398.94, "color": "green" },
+        { "date": "May 08", "close": 428.50, "color": "green" },
+        { "date": "May 11", "close": 445.00, "color": "green" },
+        { "date": "May 12", "close": 433.45, "color": "red" },
+        { "date": "May 13", "close": 445.27, "color": "green" },
+        { "date": "May 14", "close": 443.30, "color": "red" }
+      ]
     }
   ]
 }

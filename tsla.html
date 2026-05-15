@@ -22,7 +22,7 @@ body{background:var(--bg);color:var(--text);font-family:'IBM Plex Mono',monospac
 .fade{animation:fadeIn .6s ease both}
 .f1{animation-delay:.05s}.f2{animation-delay:.13s}.f3{animation-delay:.21s}
 .f4{animation-delay:.29s}.f5{animation-delay:.37s}.f6{animation-delay:.45s}
-.f7{animation-delay:.53s}.f8{animation-delay:.61s}
+.f7{animation-delay:.53s}.f8{animation-delay:.61s}.f9{animation-delay:.69s}
 
 /* TOP BAR */
 .topbar{position:sticky;top:0;z-index:100;background:rgba(8,10,15,.93);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:12px 24px;display:flex;align-items:center;gap:14px}
@@ -51,6 +51,7 @@ h2::after{content:'';flex:1;height:1px;background:var(--border)}
 .hstat-v{font-size:18px;font-weight:600}
 .hstat-v.gold{color:var(--gold)}
 .hstat-s{font-size:11px;color:var(--text-dim);margin-top:2px}
+.notes-banner{background:rgba(212,168,75,.08);border:1px solid rgba(212,168,75,.25);border-radius:8px;padding:10px 14px;font-size:12px;color:var(--gold);margin-top:16px}
 
 /* RECOMMENDATION */
 .rec{border-radius:14px;padding:28px 32px}
@@ -80,6 +81,8 @@ h2::after{content:'';flex:1;height:1px;background:var(--border)}
 .card-title{font-family:'Syne',sans-serif;font-size:13px;font-weight:700;color:var(--text-dim);text-transform:uppercase;letter-spacing:.1em;margin-bottom:4px}
 .card-sub{font-size:12px;color:var(--text-dim);margin-bottom:18px}
 .chart-wrap{position:relative;height:200px}
+.chart-wrap.tall{height:240px}
+.history-msg{background:var(--bg2);border:1px solid var(--border);border-radius:14px;padding:24px;color:var(--text-dim);font-size:13px}
 
 /* TECH PILLS */
 .tpills{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
@@ -196,101 +199,105 @@ footer a{color:var(--gold-dim);text-decoration:none}
 
 <script>
 const DATA = {
-  "generated_at": "2026-05-15T22:00:00+08:00",
+  "generated_at": "2026-05-15T23:30:00+08:00",
   "date": "2026-05-15",
   "price_now": "$443.30",
-  "price_note": "Confirmed May 14 official close. May 15 US market open — intraday not used.",
   "change_today": "-0.44%",
-  "change_today_dollar": "-$1.97",
   "change_today_positive": false,
   "market_cap": "$1.42T",
   "week_52_high": "$498.83",
   "week_52_low": "$273.21",
-  "volume_today": "45.0M",
+  "volume_today": "45.2M",
   "volume_avg_30d": "60.3M",
   "volume_vs_avg": "below average",
   "next_earnings_date": "2026-07-22",
+  "notes": "Using confirmed May 14, 2026 closing price. May 15 US market open intraday with trading near $449.",
   "news": {
     "sentiment_label": "Cautiously Bullish",
-    "sentiment_summary": "Tesla's market narrative in mid-May 2026 is firmly bullish, driven by solid Q1 earnings, an accelerating robotaxi fleet expansion, and high-level diplomatic momentum around China Full Self-Driving approval. Elon Musk's state visit to Beijing alongside President Trump has investors optimistic about unlocking the world's largest EV market for FSD software subscriptions. The robotaxi fleet has grown from 9 to 39 vehicles since early April, with five more U.S. cities queued for launch. The key note of caution: the stock has already rallied over 24% in 30 days and now trades above the average analyst price target — meaning expectations are high and execution must continue to deliver. Any slip in China FSD talks, robotaxi reliability, or battery supply could trigger a sharp pullback.",
+    "sentiment_summary": "Tesla's story in mid-May 2026 is one of a dramatic recovery — the stock has surged more than 22% from its April 14 lows, powered by a solid Q1 2026 earnings beat, an accelerating robotaxi rollout now covering Dallas and Houston, and high-stakes diplomatic momentum around China FSD regulatory approval as Elon Musk joins Trump's Beijing state visit. The mood is bullish but not euphoric: the stock now trades above the average analyst price target of $407, meaning expectations are high and execution must continue to deliver. Operational hiccups in the robotaxi program and Panasonic battery supply constraints are the main near-term concerns keeping some investors cautious.",
     "items": [
-      {"headline":"Musk Joins Trump's Beijing State Visit — China FSD Approval Could Unlock Massive Revenue","summary":"Elon Musk accompanied President Trump on an official state visit to Beijing, meeting with Xi Jinping and senior regulators. Tesla expects FSD regulatory approval in China sometime in Q3 2026 — a multi-billion dollar software subscription opportunity that could unlock hundreds of millions of potential subscribers and significantly re-rate the stock if greenlit.","source":"Invezz / FX Leaders","date":"2026-05-14","sentiment":"bullish"},
-      {"headline":"Tesla Q1 2026 Earnings Beat: EPS $0.41 vs $0.36 Estimate, Gross Margin Expands to 21.1%","summary":"Tesla reported Q1 2026 non-GAAP EPS of $0.41, beating the $0.36 consensus, with revenue of $22.39B (+16% YoY). Automotive gross margin surged to 21.1% — the highest in over a year — while FSD active subscriptions grew 51% YoY to 1.28 million. The main drag: higher capex guidance of $25B+ for 2026 and negative free cash flow expected for the remaining three quarters.","source":"Tesla IR / CNBC / Electrek","date":"2026-04-22","sentiment":"bullish"},
-      {"headline":"Tesla Robotaxi Fleet Grows to 39 Vehicles — Five More Cities Queued for H1 2026","summary":"Tesla's unsupervised robotaxi fleet has expanded from 9 vehicles in early April 2026 to 39 by mid-May, with Dallas and Houston zones live since April 18. Paid robotaxi miles nearly doubled quarter-over-quarter. Phoenix, Miami, Orlando, Tampa, and Las Vegas are next in line, with 12 US states targeted by year-end 2026.","source":"The Motley Fool / HeyGoTrade","date":"2026-05-13","sentiment":"bullish"},
-      {"headline":"Tesla Sinks 5% Intraday on Robotaxi Glitches and Panasonic Battery Delay Reports","summary":"TSLA fell as much as 5% intraday on May 12, closing down 2.6% at $433.45, after reports of long wait times and trip cancellations emerged in the Dallas and Houston robotaxi zones. Panasonic battery supply constraints are also throttling the Cybercab and Tesla Semi production ramps. The stock fully recovered within two sessions.","source":"24/7 Wall St. / Invezz","date":"2026-05-12","sentiment":"bearish"},
-      {"headline":"Piper Sandler: Tesla's Core Business Worth ~$400 — Optimus Robot Is 'Free' at Current Prices","summary":"Analyst Alexander Potter at Piper Sandler argued that Tesla's 17 core product lines justify around $400 per share alone. At current prices near $449, investors are effectively getting the Optimus humanoid robot program at no extra cost. The firm reiterated a $500 price target.","source":"Piper Sandler / TIKR / Yahoo Finance","date":"2026-05-11","sentiment":"bullish"}
+      {"headline":"Tesla Surges Toward $445 — China Growth, Strong Q1 Earnings, and Robotaxi Hype Fuel Momentum","summary":"Tesla shares continued their powerful recovery rally heading into mid-May, propelled by three big themes: a Q1 2026 earnings beat, rapid robotaxi fleet expansion now covering Dallas and Houston, and growing optimism that Musk's trip to Beijing with Trump will unlock Full Self-Driving software approval in China — potentially the company's largest untapped software market.","source":"FX Leaders","date":"2026-05-14","sentiment":"bullish"},
+      {"headline":"Here's When Tesla's Robotaxi Rollout Will Really Ramp Up","summary":"The Motley Fool examined Tesla's robotaxi expansion timeline, noting the fleet has grown from just 9 to 39 unsupervised vehicles in under six weeks. Future launches are queued for Phoenix, Miami, Orlando, Tampa, and Las Vegas, with a target of 12 US states covered by year-end 2026 — a pace outrunning many sceptics' expectations.","source":"The Motley Fool","date":"2026-05-14","sentiment":"bullish"},
+      {"headline":"Tesla Sinks 5% Intraday as Musk Heads to China; Robotaxi Glitches and Battery Delays Surface","summary":"Shares fell as much as 5% intraday on May 12, settling down 2.6% at $433.45, after reports of long wait times and trip cancellations in Dallas and Houston robotaxi zones. Panasonic battery supply constraints are also throttling Cybercab production. The stock recovered fully within two sessions.","source":"24/7 Wall St.","date":"2026-05-12","sentiment":"bearish"},
+      {"headline":"Tesla Stock Slips Ahead of Musk's Trip to China with Trump Trade Delegation","summary":"TSLA dipped briefly on May 13 as traders grew cautious ahead of Musk's Beijing visit as part of Trump's official trade delegation. Key-person risk concerns weighed on sentiment, though bulls argue the China FSD approval opportunity more than offsets the short-term distraction risk.","source":"Yahoo Finance","date":"2026-05-13","sentiment":"bearish"},
+      {"headline":"Finally, Some Good News for Tesla Investors — Q1 2026 Earnings Beat Wall Street","summary":"Tesla reported Q1 2026 EPS of $0.41 versus the $0.36 consensus estimate, with revenue of $22.39B (up 16% year-over-year). Automotive gross margin recovered sharply to 21.1% — the highest in over a year — and FSD active subscriptions grew 51% year-over-year to 1.28 million. The beat reignited the bull case for the autonomy story.","source":"The Motley Fool / Tesla IR","date":"2026-05-03","sentiment":"bullish"}
     ]
   },
   "analysis_7d": {
-    "price_start": "$397.00","price_end": "$443.30","period_high": "$452.00","period_low": "$397.00",
-    "change_pct": "+11.6%","trend": "uptrend",
-    "rsi": 67.4,"rsi_label": "Approaching warm — still bullish but watch for fatigue near 70","rsi_color": "yellow",
-    "macd_signal": "Bullish — buying momentum confirmed, MACD line above signal line",
-    "ma_5d": "$445.20","ma_5d_position": "above",
+    "price_start": "$397.00","price_end": "$443.30","period_high": "$445.27","period_low": "$397.00",
+    "change_pct": "+11.7%","trend": "uptrend",
+    "rsi": 62.4,"rsi_label": "Healthy momentum — room to run before hitting overbought territory","rsi_color": "green",
+    "macd_signal": "Bullish — MACD line above signal line, buying momentum confirmed",
+    "ma_5d": "$445.20","ma_5d_position": "below",
     "ma_50d": "$416.75","ma_50d_position": "above",
     "ma_200d": "$383.23","ma_200d_position": "above",
-    "ma_cross_status": "Golden Cross — 50-day average above 200-day average, long-term bullish alignment",
-    "bollinger_position": "Upper half — price running warm near top of recent channel",
-    "volume_trend": "Above average — 82.4M vs 60.3M 30-day avg, buying looks genuine",
+    "ma_cross_status": "Golden Cross — 50-day average ($416.75) sits above 200-day average ($383.23), a long-term bullish signal",
+    "bollinger_position": "Upper half — price approaching upper band near $450, running warm but not extreme",
+    "volume_trend": "Below average — 45.2M vs 60.3M 30-day average",
     "technical_signals": [
-      "Price above 5-day ($445), 50-day ($417), and 200-day ($383) MAs — bullish golden stack",
-      "RSI at 67.4 — healthy and bullish, approaching but not yet at the 70 fatigue threshold",
-      "MACD line above signal line — buyers firmly in control of short-term momentum",
-      "Above-average volume confirms the up move — real buyers stepping in, not low-volume drift",
-      "Golden Cross in place (50-day MA above 200-day MA) — long-term bullish signal"
+      "Price above 50-day and 200-day moving averages — medium and long-term trends both pointing up",
+      "Golden Cross in place — the 50-day average ($416.75) is well above the 200-day ($383.23), a bullish structural signal",
+      "RSI at 62.4 — sitting comfortably in the 40–70 healthy zone, with room to climb before getting overheated",
+      "MACD bullish crossover confirmed — momentum is building in the buyers' favour",
+      "Minor caution: price is fractionally below the 5-day moving average ($445.20), suggesting a short-term pause after the week's run"
     ],
-    "summary": "Tesla had a powerful seven-day run, gaining more than 13% and pushing firmly above all key moving averages. The standout event was a 7.4% single-session surge on May 8 — the kind of big move that signals a meaningful catalyst. A brief 2.6% pullback on May 12 triggered by robotaxi glitch headlines was absorbed by buyers within 48 hours, a healthy sign the bull trend has strong underlying support. Volume jumped above its 30-day average, confirming real buying conviction. The one caution: the RSI at 67.4 is approaching the 70 level where stocks sometimes pause to catch their breath before moving higher."
+    "summary": "Tesla had a strong seven-day run, gaining nearly 12% from the $397 range to $443. The highlight was a powerful surge through $428 on May 8, driven by robotaxi expansion news and improved sentiment after the Q1 2026 earnings beat. A brief 2.6% pullback on May 12 — triggered by reports of robotaxi glitches and Musk's China trip — was absorbed within two sessions, a healthy sign that buyers are treating dips as opportunities. Think of it like a hiker who stumbled briefly on a rock but kept moving uphill. The RSI at 62.4 is like a runner at mile 8 of a 10-mile race — still strong and in rhythm, not gasping. The Golden Cross remains intact, meaning the longer-term structural picture is positive. The only mild caution is the price slipping just below its 5-day average after Thursday's close, suggesting a brief pause before the next directional move."
   },
   "analysis_30d": {
-    "price_start": "$360.00","price_end": "$443.30","period_high": "$452.00","period_low": "$352.08",
-    "change_pct": "+23.1%","trend": "uptrend",
+    "price_start": "$362.00","price_end": "$443.30","period_high": "$452.00","period_low": "$352.08",
+    "change_pct": "+22.5%","trend": "uptrend",
     "key_levels": {
-      "support": "$420","support_reason": "Each time the stock has pulled back this month, buyers have stepped in firmly around $420 — like a trampoline that keeps pushing it back up",
-      "resistance": "$460–$470","resistance_reason": "Sellers have appeared each time the price approaches this band, creating a ceiling — clearing it would put the all-time high near $499 in range"
+      "support": "$420",
+      "support_reason": "The $420–$430 zone held twice as buyers stepped in strongly after dips — this is the 'trampoline' the bulls are defending",
+      "resistance": "$450",
+      "resistance_reason": "Price has approached $450 multiple times without sustained follow-through — sellers are active near the upper Bollinger Band at this level"
     },
     "ma_50d": "$416.75","ma_50d_position": "above",
     "ma_200d": "$383.23","ma_200d_position": "above",
-    "rsi": 67.4,"rsi_label": "Approaching warm — momentum strong but edging toward overbought","rsi_color": "yellow",
-    "macd_signal": "Bullish — momentum trend intact over the full 30-day period",
+    "rsi": 62.4,"rsi_label": "Neutral to bullish — healthy and in the sweet spot","rsi_color": "green",
+    "macd_signal": "Bullish — momentum turned positive in late April and has held throughout May",
     "notable_events": [
-      "Apr 17: TSLA hit $352 — lowest price since September 2025, tail end of December 2025 correction",
-      "Apr 22: Q1 2026 earnings beat reversed sentiment; 200-day MA held as institutional support",
-      "May 8: Major breakout surge (+7.4%) through April highs on heavy above-average volume",
-      "May 11: Piper Sandler note + Musk China trip reports sparked +4% catalyst",
-      "May 12: Brief -2.6% intraday reversal on robotaxi glitch reports — fully recovered within 48 hours"
+      "Apr 14: TSLA near $362 — bottom of a 32% correction from December 2025 all-time highs",
+      "Apr 17: TSLA hits $352.08 — lowest level since September 2025",
+      "Apr 22: Q1 2026 earnings beat (EPS $0.41 vs $0.36) triggers V-shaped recovery; 200-day MA holds as institutional support",
+      "May 8: Major single-session surge (+7.4%) through April highs — breakout confirmed on volume",
+      "May 11: Musk China trip confirmed + Piper Sandler 'Optimus is free' note — combined +4% catalyst",
+      "May 12: Intraday -5% on robotaxi glitches and battery delay reports — recovered within 48 hours",
+      "May 13–14: Consolidation above $440 as Musk departs for Beijing state visit"
     ],
-    "summary": "Zoom out to the full month and Tesla tells a compelling V-shaped recovery story. The stock bottomed near $352 on April 17, the tail end of a 32% slide from its December 2025 all-time high near $499. Q1 earnings on April 22 marked the definitive floor, with the 200-day moving average holding firm as long-term institutional buyers stepped in. From there, the stock climbed over 24% in three weeks, powered by robotaxi fleet growth, global FSD regulatory progress, and the high-profile China FSD diplomacy story. The stock now sits in a 'golden stack' — above its short, medium, and long-term moving averages simultaneously."
+    "summary": "Zoom out to the full 30 days and Tesla's story is a textbook V-shaped recovery. The stock entered mid-April near its lowest levels since September 2025, still unwinding a 32% correction from December 2025 all-time highs near $499. The April 22 Q1 earnings report marked the turning point: EPS beat by 14%, gross margins recovered to 21.1%, and FSD subscriptions were up 51% year-over-year. From there, a near-straight-line climb of 22%+ unfolded over three weeks, fuelled by robotaxi fleet expansion, China diplomatic momentum, and key analyst notes reframing Tesla as an AI and robotics company. A critical technical milestone came when the 200-day moving average (the long-term trend barometer near $383) was tested right after earnings and held firm — a classic sign that long-term investors stepped in decisively. The $450–$460 zone is now the key test: clearing it convincingly on strong volume would open the door toward the all-time high near $499."
   },
   "outlook": {
     "analyst_consensus": "Moderate Buy",
-    "analyst_buy_count": 15,"analyst_hold_count": 11,"analyst_sell_count": 5,
+    "analyst_buy_count": 16,"analyst_hold_count": 11,"analyst_sell_count": 5,
     "avg_price_target": "$407","median_price_target": "$400",
     "high_price_target": "$600","high_price_target_firm": "Wedbush",
-    "low_price_target": "$125","low_price_target_firm": "GLJ Research",
-    "recent_rating_change": "Morgan Stanley downgraded TSLA citing elevated valuation; UBS maintained Neutral at a $352 target (Apr 14) — both see the stock as stretched above $440",
+    "low_price_target": "$24.86","low_price_target_firm": "GLJ Research",
+    "recent_rating_change": "Morgan Stanley downgraded TSLA citing stretched valuation (May 2026); UBS maintained Neutral on April 23",
     "next_earnings_date": "2026-07-22","next_earnings_eps_estimate": "$0.42","next_earnings_revenue_estimate": "$24.52B",
     "catalysts": [
-      {"event":"China Full Self-Driving regulatory approval","timing":"Q3 2026 (expected)","impact":"bullish potential","detail":"If Chinese regulators approve Tesla's FSD software, it opens the world's largest auto market to software subscription revenue — potentially adding hundreds of millions of dollars annually and re-rating the stock significantly higher."},
-      {"event":"Q2 2026 vehicle delivery report","timing":"Early July 2026","impact":"bullish or bearish","detail":"Q2 deliveries will be the first test of whether demand is genuinely recovering. Analysts expect around 400K–420K vehicles. A miss could undercut the recovery narrative and trigger a sharp correction."},
-      {"event":"Q2 2026 quarterly earnings report","timing":"July 22, 2026","impact":"bullish potential","detail":"Analysts expect EPS of $0.42 and revenue of $24.52B. Key watch: whether Tesla can sustain gross margins above 20% and disclose any initial robotaxi revenue."},
-      {"event":"Optimus humanoid robot production reveal","timing":"July–August 2026","impact":"bullish potential","detail":"Tesla has guided for first-generation Optimus robots to begin production at Fremont. Any meaningful update on volume or revenue potential could be a major positive re-rating catalyst."},
-      {"event":"Cybercab volume production ramp at Gigafactory Texas","timing":"H2 2026","impact":"bullish or bearish","detail":"Tesla has begun producing Cybercab units but volume ramp is gated by Panasonic battery supply. Resolving this bottleneck accelerates robotaxi revenue; continued delays disappoint investors."}
+      {"event":"China FSD Regulatory Approval","timing":"Expected Q3 2026 (possibly July)","impact":"bullish potential","detail":"Musk's Beijing state visit with Trump is seen as the clearest opportunity yet to unlock Full Self-Driving approval in China. Approval would open a software subscription business in the world's largest EV market — potentially a multi-billion dollar annual revenue stream that could materially re-rate the stock."},
+      {"event":"Q2 2026 Earnings Report","timing":"July 22, 2026","impact":"bullish potential","detail":"Analysts expect EPS of $0.42 and revenue of $24.52B. The key questions: can automotive gross margins hold above 20%, and will Tesla disclose robotaxi revenue for the first time? Either outcome could be a significant catalyst."},
+      {"event":"Robotaxi Multi-City Expansion (Phoenix, Miami, Orlando, Tampa, Las Vegas)","timing":"Q2–Q3 2026","impact":"bullish potential","detail":"Each new city launch validates the autonomous technology and expands the revenue base. The fleet has grown from 9 to 39 vehicles in six weeks — the pace of scaling is the key variable investors are tracking."},
+      {"event":"Optimus Humanoid Robot Production Reveal","timing":"July–August 2026","impact":"bullish potential","detail":"Tesla plans to reveal first-generation Optimus factory production at Fremont in mid-2026, targeting thousands of units by year-end. Credible production numbers could unlock significant valuation upside as the market starts pricing in a real robotics business."},
+      {"event":"Cybercab Volume Ramp at Gigafactory Texas","timing":"H2 2026","impact":"bearish risk","detail":"Panasonic battery supply constraints are currently the gating factor on Cybercab volume production. Any significant delay would disappoint market expectations and could trigger a meaningful sell-off in the shares."}
     ],
     "macro_factors": [
-      {"factor":"US-China trade tensions and tariff negotiations","impact":"bearish","detail":"Ongoing tariff uncertainty raises Tesla's supply chain costs. The diplomatic outcome of Musk's Beijing visit will determine whether China FSD approval arrives in Q3 2026 or gets pushed further out — a binary catalyst for the stock."},
-      {"factor":"Federal Reserve interest rate environment","impact":"bearish","detail":"Tesla trades at a forward P/E of about 208x — extremely expensive. High interest rates make investors less willing to pay a huge premium for future growth. Any signal that rates stay higher for longer puts direct pressure on Tesla's valuation."},
-      {"factor":"Intensifying global EV competition","impact":"bearish","detail":"BYD, NIO, and legacy automakers like GM and Ford are aggressively expanding EV lineups. Tesla's pricing power in the mainstream vehicle market is under sustained pressure — why the bull case increasingly depends on autonomy software and Optimus."}
+      {"factor":"US-China Trade Tensions and Tariff Policy","impact":"bearish","detail":"Ongoing tariff negotiations affect Tesla's battery and component supply chain costs. Escalation could squeeze margins — but resolution via Musk's Beijing diplomacy would be a major positive catalyst."},
+      {"factor":"Federal Reserve Interest Rate Policy","impact":"bearish","detail":"Tesla trades at a very high earnings multiple that is sensitive to interest rate expectations. Higher-for-longer rates compress the value of future cash flows and put sustained pressure on high-multiple growth stocks like TSLA."},
+      {"factor":"Intensifying EV Competition from BYD and Chinese Automakers","impact":"bearish","detail":"BYD and other Chinese EV makers continue to gain global market share. Tesla's China sales fell nearly 10% year-over-year in April, highlighting the pressure from domestic competition in the world's most important EV market."}
     ],
-    "summary": "Tesla in mid-May 2026 is effectively two companies priced as one. The first is a maturing EV automaker facing genuine margin pressure from global competition — a business analysts value at around $400 per share. The second is an AI and autonomous transportation company in the early innings of a potentially enormous new market — the business that justifies the premium. The stock currently trades above the average analyst target, meaning the market is pricing in execution that hasn't happened yet. The next three to six months are a critical 'show-me' period: does China FSD approval come through in Q3? Does the robotaxi service scale reliably to 12 states? Does Q2 earnings show the first glimmer of robotaxi revenue? Get two or three right and the all-time high near $499 is within reach. Get them wrong and the stock could retrace most of its recent 24% gains and retest the $400 area."
+    "summary": "Tesla's next 3–6 months will be defined by whether it can execute on two big promises: a credible robotaxi business and FSD approval in China. The stock is already trading above the average analyst price target of $407, which means Wall Street's consensus is essentially 'we think you've run a bit ahead of yourself.' That's not a sell signal — the bull case of $600 (Wedbush) captures the enormous optionality if robotaxi and Optimus scale as Musk envisions. But it does mean any stumble — a robotaxi safety incident, a China regulatory disappointment, or a weak Q2 delivery report — could trigger a meaningful pullback from current levels. China FSD approval and the Q2 earnings report on July 22 are the two biggest near-term events that could reset the story in either direction. Long-term investors with a 1–2 year horizon can be patient here; short-term traders should watch the $450–$460 resistance zone closely as the next critical test."
   },
   "recommendation": {
-    "signal": "HOLD","confidence": "Medium","time_horizon": "Short-term (1–4 weeks)",
-    "bullish_signals_count": 8,"bearish_signals_count": 6,
-    "reasoning": "Tesla's technical picture is genuinely impressive — the stock is above all three key moving averages, volume is confirming the moves, MACD is bullish, and the Golden Cross is in place. News flow is dominated by positive catalysts: Q1 earnings beat, robotaxi expansion to new cities, and Musk's China FSD diplomacy. All of that argues for BUY. But what keeps this a HOLD is valuation: the stock has already rallied 24% in 30 days and is now trading roughly 10% above the average analyst price target of $407. When the stock trades above what most professionals think it's worth, you need perfect execution just to hold your gains. The RSI at 67.4 is approaching 70 — where momentum often stalls. Free cash flow will be negative for the rest of 2026. For existing shareholders this is a stock to hold. For new buyers, patience and waiting for a pullback to the $420–$430 support zone would offer a more attractive risk-reward entry.",
-    "key_risk": "If China FSD regulatory approval is delayed beyond Q3 2026, or if robotaxi operational problems worsen and attract regulatory scrutiny, the stock could retrace 10–15% back toward $380–$400 quickly — the recent rally has priced in a lot of optimism.",
+    "signal": "HOLD","confidence": "Medium","time_horizon": "Medium-term (1–3 months)",
+    "bullish_signals_count": 7,"bearish_signals_count": 4,
+    "reasoning": "The technical picture is mostly constructive: Tesla is trading above its 50-day and 200-day moving averages, the Golden Cross is in place, RSI is in the healthy 40–70 zone at 62.4, and MACD is confirming bullish momentum. The fundamental backdrop has improved — Q1 2026 margins hit 21.1%, the robotaxi fleet is expanding faster than many expected, and the China FSD catalyst is closer than ever. However, the stock is now trading above the average analyst price target of $407, meaning the consensus sees near-term upside as limited. A recent Morgan Stanley downgrade citing valuation, combined with below-average volume on recent pullback days, adds to the caution. The Golden Cross and recovery momentum suggest the path of least resistance is still higher over the medium term, but the risk-reward is less compelling at $443 than it was at $362 a month ago. A HOLD reflects a stock doing many things right that needs to prove it can clear the $450–$460 resistance zone with conviction before the bulls regain full control.",
+    "key_risk": "A robotaxi safety incident, China FSD regulatory delay, or weak Q2 2026 delivery report (expected early July) could trigger a 10–15% pullback from current stretched valuation levels.",
     "disclaimer": "⚠️ This is not financial advice. This is an AI-generated analysis for informational and educational purposes only. Always do your own research and consult a licensed financial advisor before making any investment decisions."
   },
   "price_chart": [
+    {"date":"May 01","close":406.00,"color":"green"},
     {"date":"May 04","close":404.00,"color":"red"},
     {"date":"May 05","close":399.00,"color":"red"},
     {"date":"May 06","close":397.00,"color":"red"},
@@ -299,10 +306,19 @@ const DATA = {
     {"date":"May 11","close":445.00,"color":"green"},
     {"date":"May 12","close":433.45,"color":"red"},
     {"date":"May 13","close":445.27,"color":"green"},
-    {"date":"May 14","close":443.30,"color":"red"},
-    {"date":"May 15","close":null,"color":"dim"}
+    {"date":"May 14","close":443.30,"color":"red"}
   ]
 };
+
+const HISTORY = [
+  {"date":"2026-05-15","price_now":"$442.32"},
+  {"date":"2026-05-15","price_now":"$449.13"},
+  {"date":"2026-05-15","price_now":"$449.13"},
+  {"date":"2026-05-15","price_now":"$449.13"},
+  {"date":"2026-05-15","price_now":"$449.13"},
+  {"date":"2026-05-15","price_now":"$443.30"},
+  {"date":"2026-05-15","price_now":"$443.30"}
+];
 </script>
 
 <!-- TOP BAR -->
@@ -323,6 +339,7 @@ const DATA = {
     <div class="hero-price" id="heroPrice"></div>
     <div id="heroChange"></div>
     <div class="hero-grid" id="heroGrid"></div>
+    <div id="heroNotes"></div>
   </section>
 
   <!-- RECOMMENDATION -->
@@ -331,43 +348,49 @@ const DATA = {
     <div id="recBanner"></div>
   </section>
 
-  <!-- PRICE CHART -->
+  <!-- PRICE CHART — LAST 10 SESSIONS -->
   <section class="fade f3">
-    <h2>Price Chart</h2>
+    <h2>Price Chart — Last 10 Sessions</h2>
     <div class="chart-card">
-      <div class="card-title">Last 10 Sessions</div>
+      <div class="card-title">Last 10 Trading Sessions</div>
       <div class="card-sub" id="chartSub"></div>
       <div class="chart-wrap"><canvas id="priceChart"></canvas></div>
     </div>
   </section>
 
-  <!-- TECH SNAPSHOT -->
+  <!-- HISTORICAL PRICE TREND — LAST 30 DAYS -->
   <section class="fade f4">
+    <h2>Historical Price Trend</h2>
+    <div id="historySection"></div>
+  </section>
+
+  <!-- TECH SNAPSHOT -->
+  <section class="fade f5">
     <h2>Technical Snapshot</h2>
     <div class="tpills" id="techPills"></div>
   </section>
 
   <!-- NEWS -->
-  <section class="fade f5">
+  <section class="fade f6">
     <h2>Latest News</h2>
     <div id="newsSection"></div>
   </section>
 
   <!-- ANALYSIS -->
-  <section class="fade f6">
+  <section class="fade f7">
     <h2>Technical Analysis</h2>
     <div class="agrid" id="analysisGrid"></div>
   </section>
 
   <!-- OUTLOOK -->
-  <section class="fade f7">
+  <section class="fade f8">
     <h2>Trends &amp; Outlook</h2>
     <div id="outlookSection"></div>
   </section>
 
   <!-- FOOTER -->
-  <footer class="fade f8">
-    <div>Generated by Claude Code Routine &middot; <a href="https://github.com/OWLThreatIntel/OWLThreatIntel" target="_blank">OWLThreatIntel/OWLThreatIntel</a></div>
+  <footer class="fade f9">
+    <div>Generated by Claude Code Routine &middot; <a href="https://github.com/OWLThreatIntel/files" target="_blank">OWLThreatIntel/files</a></div>
     <div id="footerDisc" style="max-width:680px;margin:10px auto 0"></div>
   </footer>
 
@@ -381,14 +404,14 @@ document.getElementById('genDate').textContent = 'May 15, 2026';
 document.getElementById('heroPrice').textContent = DATA.price_now;
 const isUp = DATA.change_today_positive;
 document.getElementById('heroChange').innerHTML =
-  `<span class="hero-change ${isUp?'up':'dn'}">${isUp?'▲':'▼'} ${DATA.change_today}${DATA.change_today_dollar?' ('+DATA.change_today_dollar+')':''}</span>`;
+  `<span class="hero-change ${isUp?'up':'dn'}">${isUp?'▲':'▼'} ${DATA.change_today}</span>`;
 
 const heroItems = [
   {l:'Market Cap', v:DATA.market_cap, cls:'gold'},
   {l:'52W High', v:DATA.week_52_high},
   {l:'52W Low',  v:DATA.week_52_low},
   {l:'Volume Today', v:DATA.volume_today, s:`vs ${DATA.volume_avg_30d} avg · ${DATA.volume_vs_avg}`},
-  {l:'Next Earnings', v:DATA.next_earnings_date, s:'Q2 2026 estimate'}
+  {l:'Next Earnings', v:DATA.next_earnings_date, s:'Q2 2026 · Jul 22'}
 ];
 document.getElementById('heroGrid').innerHTML = heroItems.map(i=>`
   <div class="hstat">
@@ -396,6 +419,10 @@ document.getElementById('heroGrid').innerHTML = heroItems.map(i=>`
     <div class="hstat-v ${i.cls||''}">${i.v}</div>
     ${i.s?`<div class="hstat-s">${i.s}</div>`:''}
   </div>`).join('');
+
+if(DATA.notes){
+  document.getElementById('heroNotes').innerHTML=`<div class="notes-banner">ℹ ${DATA.notes}</div>`;
+}
 
 // RECOMMENDATION
 const rec = DATA.recommendation;
@@ -422,7 +449,7 @@ document.getElementById('recBanner').innerHTML = `
     <div class="rec-disc">${rec.disclaimer}</div>
   </div>`;
 
-// CHART
+// PRICE CHART (last 10 sessions)
 const cd = DATA.price_chart.filter(d=>d.close !== null && d.close !== undefined);
 const prices = cd.map(d=>d.close);
 const labels = cd.map(d=>d.date);
@@ -459,24 +486,62 @@ new Chart(document.getElementById('priceChart'),{
   }
 });
 
+// HISTORY CHART (30-day trend)
+const recent30 = HISTORY.slice(-30);
+if(recent30.length < 2){
+  document.getElementById('historySection').innerHTML =
+    `<div class="history-msg">More history will appear after a few daily runs.</div>`;
+} else {
+  const hPrices = recent30.map(e=>parseFloat(e.price_now.replace('$','')));
+  const hLabels = recent30.map((e,i)=>{
+    const d=new Date(e.date);
+    return `${d.toLocaleDateString('en-US',{month:'short',day:'numeric'})} #${i+1}`;
+  });
+  const hMn=Math.min(...hPrices), hMx=Math.max(...hPrices);
+  document.getElementById('historySection').innerHTML=`
+    <div class="chart-card">
+      <div class="card-title">30-Day Closing Price History</div>
+      <div class="card-sub">Range: $${hMn.toFixed(2)} – $${hMx.toFixed(2)} across ${recent30.length} recorded sessions</div>
+      <div class="chart-wrap tall"><canvas id="historyChart"></canvas></div>
+    </div>`;
+  new Chart(document.getElementById('historyChart'),{
+    type:'line',
+    data:{labels:hLabels,datasets:[{
+      data:hPrices,borderWidth:2,borderColor:'rgba(212,168,75,.7)',
+      backgroundColor:'rgba(212,168,75,.04)',fill:true,tension:.35,
+      pointBackgroundColor:'rgba(212,168,75,.8)',pointBorderColor:'rgba(212,168,75,.8)',
+      pointRadius:4,pointHoverRadius:6
+    }]},
+    options:{
+      responsive:true,maintainAspectRatio:false,
+      plugins:{
+        legend:{display:false},
+        tooltip:{
+          backgroundColor:'#141820',borderColor:'#1e2330',borderWidth:1,
+          titleColor:'#eef0f5',bodyColor:'#d4a84b',
+          callbacks:{label:c=>' $'+c.parsed.y.toFixed(2)}
+        }
+      },
+      scales:{
+        x:{ticks:{color:'#8a8fa0',font:{family:'IBM Plex Mono',size:10},maxRotation:45},grid:{color:'rgba(30,35,48,.8)'}},
+        y:{ticks:{color:'#8a8fa0',font:{family:'IBM Plex Mono',size:11},callback:v=>'$'+v.toFixed(0)},
+           grid:{color:'rgba(30,35,48,.8)'},suggestedMin:hMn-5,suggestedMax:hMx+5}
+      }
+    }
+  });
+}
+
 // TECH PILLS
 const a7 = DATA.analysis_7d;
-function tpc(v){
-  const s=(v||'').toLowerCase();
-  if(s==='above'||s.includes('golden')||s.includes('bullish')||s.includes('above'))return 'tg';
-  if(s==='below'||s.includes('death')||s.includes('bearish')||s.includes('below'))return 'tr';
-  if(s.includes('yellow')||s.includes('warm')||s.includes('upper'))return 'to';
-  return 'td';
-}
 function rsiC(v){return v>70||v<30?'tr':v>65||v<35?'to':'tg';}
 const pills=[
   {l:'RSI-14',d:`${a7.rsi}`,c:rsiC(a7.rsi)},
   {l:'MACD',d:a7.macd_signal.includes('Bullish')?'Bullish ▲':'Bearish ▼',c:a7.macd_signal.includes('Bullish')?'tg':'tr'},
-  {l:'5d MA',d:`${a7.ma_5d_position.charAt(0).toUpperCase()+a7.ma_5d_position.slice(1)} (${a7.ma_5d})`,c:tpc(a7.ma_5d_position)},
-  {l:'50d MA',d:`${a7.ma_50d_position.charAt(0).toUpperCase()+a7.ma_50d_position.slice(1)} (${a7.ma_50d})`,c:tpc(a7.ma_50d_position)},
-  {l:'200d MA',d:`${a7.ma_200d_position.charAt(0).toUpperCase()+a7.ma_200d_position.slice(1)} (${a7.ma_200d})`,c:tpc(a7.ma_200d_position)},
+  {l:'5d MA',d:`${a7.ma_5d_position==='above'?'Above':'Below'} (${a7.ma_5d})`,c:a7.ma_5d_position==='above'?'tg':'tr'},
+  {l:'50d MA',d:`${a7.ma_50d_position==='above'?'Above':'Below'} (${a7.ma_50d})`,c:a7.ma_50d_position==='above'?'tg':'tr'},
+  {l:'200d MA',d:`${a7.ma_200d_position==='above'?'Above':'Below'} (${a7.ma_200d})`,c:a7.ma_200d_position==='above'?'tg':'tr'},
   {l:'MA Cross',d:a7.ma_cross_status.includes('Golden')?'Golden Cross ✓':'Death Cross ✗',c:a7.ma_cross_status.includes('Golden')?'tg':'tr'},
-  {l:'Volume',d:DATA.volume_vs_avg.charAt(0).toUpperCase()+DATA.volume_vs_avg.slice(1),c:DATA.volume_vs_avg==='above average'?'tg':'td'},
+  {l:'Volume',d:DATA.volume_vs_avg==='above average'?'Above Avg':'Below Avg',c:DATA.volume_vs_avg==='above average'?'tg':'td'},
   {l:'Bollinger',d:a7.bollinger_position.split('—')[0].trim(),c:a7.bollinger_position.toLowerCase().includes('upper')?'to':'tg'}
 ];
 document.getElementById('techPills').innerHTML=pills.map(p=>`
@@ -526,17 +591,14 @@ function aCard(period, d, is7){
         <span>Oversold (0)</span><span>30 | 70</span><span>Overbought (100)</span>
       </div>
     </div>`;
-
   const macdCls=d.macd_signal&&d.macd_signal.includes('Bullish')?'bg':'br';
   const macdLbl=d.macd_signal&&d.macd_signal.includes('Bullish')?'Bullish':'Bearish';
-
   const maHtml=`
     <div class="ma-pills">
       ${is7&&d.ma_5d?`<span class="mpill ${d.ma_5d_position}">5d (${d.ma_5d}) ${d.ma_5d_position==='above'?'↑':'↓'}</span>`:''}
       <span class="mpill ${d.ma_50d_position||'above'}">50d (${d.ma_50d||'$416.75'}) ${(d.ma_50d_position||'above')==='above'?'↑':'↓'}</span>
       <span class="mpill ${d.ma_200d_position||'above'}">200d (${d.ma_200d||'$383.23'}) ${(d.ma_200d_position||'above')==='above'?'↑':'↓'}</span>
     </div>`;
-
   let klHtml='';
   if(d.key_levels){
     const kl=d.key_levels;
@@ -551,16 +613,13 @@ function aCard(period, d, is7){
           <div class="kl-why">${kl.resistance_reason||''}</div>
         </div>
       </div>`;}
-
   const sigHtml=(d.technical_signals&&d.technical_signals.length)?
     `<ul class="sigs">${d.technical_signals.map(s=>`<li>${s}</li>`).join('')}</ul>`:'';
-
   const evHtml=(d.notable_events&&d.notable_events.length)?`
     <div style="margin:12px 0">
       <div style="font-size:11px;color:var(--text-dim);text-transform:uppercase;letter-spacing:.06em;margin-bottom:6px">Notable Events</div>
       <ul class="evlist">${d.notable_events.map(e=>`<li>${e}</li>`).join('')}</ul>
     </div>`:'';
-
   return `
     <div class="acard">
       <div class="aperiod">${period}</div>
@@ -582,7 +641,6 @@ const tot=o.analyst_buy_count+o.analyst_hold_count+o.analyst_sell_count;
 const bp=(o.analyst_buy_count/tot*100).toFixed(0);
 const hp=(o.analyst_hold_count/tot*100).toFixed(0);
 const sp=(o.analyst_sell_count/tot*100).toFixed(0);
-
 const catHtml=o.catalysts.map(c=>{
   const iCls=c.impact.includes('bullish')?'bg':c.impact.includes('bearish')?'br':'bd';
   return `<div class="cat">
@@ -590,7 +648,6 @@ const catHtml=o.catalysts.map(c=>{
     <div style="margin-bottom:6px"><span class="badge ${iCls}" style="font-size:11px">${c.impact}</span></div>
     <div class="cat-det">${c.detail}</div>
   </div>`}).join('');
-
 const macHtml=o.macro_factors.map(m=>`
   <div class="mitem ${m.impact}">
     <div class="mitem-top">
@@ -599,7 +656,6 @@ const macHtml=o.macro_factors.map(m=>`
     </div>
     <div class="mdet">${m.detail}</div>
   </div>`).join('');
-
 document.getElementById('outlookSection').innerHTML=`
   <div class="ogrid">
     <div class="ocard">
