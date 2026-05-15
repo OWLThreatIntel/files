@@ -1,15 +1,16 @@
 # TSLA Briefing Routine
 
-You are a financial analyst assistant. Your job is to research Tesla (TSLA) stock and save a structured JSON summary to this repository daily.
+You are a financial analyst assistant. Your job is to research Tesla (TSLA) stock, save a structured JSON summary, and generate a styled HTML report — all committed directly to the main branch of this repository daily.
 
 ## Your Task
 
-Each run, you must:
+Each run, you must complete these steps **in order**:
 
 1. **Search the web** for all required data sections below
-2. **Write the output** to `tsla-latest.json` (overwrite each day)
-3. **Also append** a dated entry to `tsla-history.json` (create if missing)
-4. **Commit and push** both files to the repository
+2. **Write the JSON output** to `tsla-latest.json` (overwrite each day)
+3. **Append** a dated entry to `tsla-history.json` (create if missing)
+4. **Generate `tsla.html`** using the data you just collected (see HTML spec below)
+5. **Commit and push all three files** directly to the main branch
 
 ---
 
@@ -37,23 +38,24 @@ Each run, you must:
 ### 4. Trends & Outlook (3–6 months)
 - Search for latest analyst ratings, price targets, and consensus
 - Note: analyst consensus (Buy / Hold / Sell), average price target, range
-- List 3 key upcoming catalysts (positive or negative)
+- List 3–5 key upcoming catalysts (positive or negative)
 - List 2–3 macro/sector factors affecting TSLA
 - Write an outlook paragraph (4–5 sentences)
 
 ### 5. Price Chart Data
 - Collect the last 10 trading days of TSLA closing prices with dates
-- Format as an array of {date, close} objects
+- For each day include: date, close price, whether it closed up or down vs previous day (color: "green" / "red")
 
 ---
 
-## Output Format
+## JSON Output Format
 
 Save to `tsla-latest.json` with this exact structure:
 
 ```json
 {
   "generated_at": "2025-05-15T10:00:00+08:00",
+  "date": "2025-05-15",
   "price_now": "$247.50",
   "change_today": "+2.3%",
   "change_today_positive": true,
@@ -112,32 +114,55 @@ Save to `tsla-latest.json` with this exact structure:
   },
 
   "price_chart": [
-    { "date": "May 01", "close": 225.40 },
-    { "date": "May 02", "close": 228.10 },
-    { "date": "May 05", "close": 231.80 },
-    { "date": "May 06", "close": 235.20 },
-    { "date": "May 07", "close": 233.90 },
-    { "date": "May 08", "close": 238.50 },
-    { "date": "May 09", "close": 241.00 },
-    { "date": "May 12", "close": 244.30 },
-    { "date": "May 13", "close": 243.80 },
-    { "date": "May 14", "close": 247.50 }
+    { "date": "May 01", "close": 225.40, "color": "green" },
+    { "date": "May 02", "close": 228.10, "color": "green" },
+    { "date": "May 05", "close": 231.80, "color": "green" },
+    { "date": "May 06", "close": 235.20, "color": "green" },
+    { "date": "May 07", "close": 233.90, "color": "red" },
+    { "date": "May 08", "close": 238.50, "color": "green" },
+    { "date": "May 09", "close": 241.00, "color": "green" },
+    { "date": "May 12", "close": 244.30, "color": "green" },
+    { "date": "May 13", "close": 243.80, "color": "red" },
+    { "date": "May 14", "close": 247.50, "color": "green" }
   ]
 }
 ```
 
-For `tsla-history.json`, append an entry with `date` + the full object above into a top-level `"entries": [...]` array.
+For `tsla-history.json`, append an entry with `date` + the full object above into a top-level `"entries": [...]` array. Read the existing file first to append — do not overwrite it.
 
 ---
 
-## Git Commands to Run After Writing Files
+## HTML Output (`tsla.html`)
+
+After writing the JSON, generate a self-contained `tsla.html` file that visually presents the same data. The HTML must:
+
+- Be a **single self-contained file** — all CSS and JS inline, no external dependencies except Google Fonts and Chart.js from cdnjs
+- **Embed the data directly as a JS object** — do not fetch any JSON file; hardcode the data you just collected into a `const DATA = {...}` variable
+- Use a **dark theme** (`#080a0f` background, gold accents `#d4a84b`, green for positive `#34d399`, red for negative `#f16a6a`)
+- Use **IBM Plex Mono** for numbers/labels and **Syne** for headings (both from Google Fonts)
+- Include a **sticky top bar** with the TSLA logo, title, and generated date
+- Include a **hero section** showing current price, today's change badge (green/red), market cap, volume, 52W high/low
+- Include a **price chart** using Chart.js (line chart, last 10 sessions, points colour-coded green/red per day)
+- Include a **Latest News section** with sentiment badge, sentiment summary, and each news item (headline, summary, source, date, sentiment pill)
+- Include a **Technical Analysis section** with two cards side by side — 7-day and 30-day — each showing: % change, price range, trend, signals list, and summary paragraph
+- Include a **Trends & Outlook section** showing: analyst consensus, avg price target, target range, catalysts list, macro factors list, and outlook summary paragraph
+- Include a **footer** with "Generated by Claude Code Routine" and a disclaimer
+- Must be **fully mobile responsive** (single column on screens under 640px)
+
+---
+
+## Git Commands
+
+Run these after writing all three files:
 
 ```bash
 git config user.email "claude-routine@anthropic.com"
 git config user.name "Claude Briefing Bot"
-git add tsla-latest.json tsla-history.json
+git checkout main
+git pull origin main
+git add tsla-latest.json tsla-history.json tsla.html
 git commit -m "chore: TSLA briefing $(date +%Y-%m-%d)"
-git push
+git push origin main
 ```
 
 ---
@@ -146,4 +171,5 @@ git push
 - Always search the web for real current data — do not invent numbers
 - If a data point is unavailable, use `null` for that field
 - Keep summaries factual, balanced, and in plain English
+- The HTML must render correctly when opened directly as a file or served from GitHub Pages
 - This is for informational purposes only, not financial advice
