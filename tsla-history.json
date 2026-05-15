@@ -389,6 +389,118 @@
         { "date": "May 14", "close": 443.30, "color": "red" },
         { "date": "May 15", "close": 449.13, "color": "green" }
       ]
+    },
+    {
+      "date": "2026-05-15",
+      "generated_at": "2026-05-15T19:00:00+08:00",
+      "price_now": "$449.13",
+      "change_today": "+1.32%",
+      "change_today_positive": true,
+      "market_cap": "$1.44T",
+      "week_52_high": "$498.83",
+      "week_52_low": "$273.21",
+      "volume": "82.4M",
+      "notes": "price_now is the May 15 intraday price; May 14 confirmed close was $443.30. May 15 closes the week on a bullish note.",
+      "news": {
+        "sentiment_label": "Cautiously Bullish",
+        "sentiment_summary": "Tesla sentiment in mid-May 2026 is firmly bullish, powered by three converging catalysts: a decisive Q1 earnings beat in April, an accelerating robotaxi rollout now active in Dallas and Houston, and high-stakes diplomatic momentum around China FSD approval during Elon Musk's state visit to Beijing alongside President Trump. The stock has gained over 24% in 30 days. Near-term turbulence on May 12 — sparked by robotaxi operational glitches and Panasonic battery supply concerns — was absorbed within 48 hours, underlining strong dip-buying demand. The dominant market narrative has firmly shifted from EV-maker commodity concerns to AI, autonomy, and robotics optimism.",
+        "items": [
+          {
+            "headline": "Musk Joins Trump's Beijing State Visit — China FSD Approval Could Unlock Massive Revenue",
+            "summary": "Elon Musk accompanied President Trump on an official state visit to Beijing, meeting with Xi Jinping and regulators. Tesla executives expect FSD regulatory approval in China sometime in Q3 2026 after an earlier window passed without clearance — a multi-billion dollar software subscription opportunity that could re-rate the stock significantly if greenlit.",
+            "source": "Invezz / FX Leaders",
+            "date": "2026-05-14",
+            "sentiment": "bullish"
+          },
+          {
+            "headline": "Tesla Q1 2026 Earnings Beat: EPS $0.41 vs $0.36 Estimate, Gross Margin Expands to 21.1%",
+            "summary": "Tesla beat Q1 2026 consensus estimates with non-GAAP EPS of $0.41 versus the $0.36 expected, and revenue of $22.39B (+16% YoY). Automotive gross margin reached 21.1% — the highest in over a year — while FSD active subscriptions grew 51% year-over-year to 1.28 million. Higher capex guidance of $25B+ for full year was the main drag.",
+            "source": "Tesla IR / CNBC / Electrek",
+            "date": "2026-04-22",
+            "sentiment": "bullish"
+          },
+          {
+            "headline": "Piper Sandler: Tesla's Core Business Worth ~$400; Optimus Robot Is 'Free' at Current Prices",
+            "summary": "Analyst Alexander Potter at Piper Sandler argued that Tesla's 17 core product lines justify around $400 per share alone. At current prices near $445–449, investors are effectively getting the Optimus humanoid robot program at no additional cost. The firm reiterated a $500 price target.",
+            "source": "Piper Sandler / TIKR / Yahoo Finance",
+            "date": "2026-05-11",
+            "sentiment": "bullish"
+          },
+          {
+            "headline": "Tesla Sinks 5% Intraday on Robotaxi Glitches and Panasonic Battery Delay Reports",
+            "summary": "TSLA fell as much as 5% intraday on May 12, closing down 2.6% at $433.45, after reports of long wait times and ride cancellations in Dallas and Houston robotaxi zones. Panasonic battery supply constraints are also throttling Cybercab and Tesla Semi production ramps. The stock fully recovered within two sessions.",
+            "source": "24/7 Wall St. / Invezz",
+            "date": "2026-05-12",
+            "sentiment": "bearish"
+          },
+          {
+            "headline": "Tesla Robotaxi Fleet Grows to 39 Vehicles — Five More Cities Queued for H1 2026 Launch",
+            "summary": "Tesla's unsupervised robotaxi fleet has grown from 9 vehicles in early April 2026 to 39 by mid-May, with Dallas and Houston zones live since April 18. Paid robotaxi miles nearly doubled quarter-over-quarter per Q1 disclosure. Phoenix, Miami, Orlando, Tampa, and Las Vegas are next in queue, with 12 US states targeted by year-end 2026.",
+            "source": "The Motley Fool / HeyGoTrade",
+            "date": "2026-05-13",
+            "sentiment": "bullish"
+          }
+        ]
+      },
+      "analysis_7d": {
+        "price_start": "$397.00",
+        "price_end": "$449.13",
+        "change_pct": "+13.1%",
+        "trend": "uptrend",
+        "technical_signals": [
+          "All 12 moving averages (MA5 through MA200) signal Buy — zero bearish signals across all timeframes",
+          "RSI at ~70 — approaching overbought territory; momentum is strong but stretched",
+          "Price above 5-day MA ($445), 50-day MA ($416), and 200-day MA ($383) — bullish 'golden stack'",
+          "Key support zone: $428–$435; immediate resistance band: $460–$470",
+          "Bullish-to-bearish options sentiment ratio: 79% bull vs 21% bear"
+        ],
+        "summary": "Tesla had a powerful seven-day run, gaining over 13% from the $397 range and trading well above all key moving averages. The standout move was a 7.4% single-session surge on May 8, fuelled by robotaxi expansion news and improving sentiment post-Q1 earnings. A brief 2.6% pullback on May 12 was absorbed by buyers within two sessions. The RSI is hovering near 70 — still running strong but approaching a rest zone."
+      },
+      "analysis_30d": {
+        "price_start": "$360.00",
+        "price_end": "$449.13",
+        "change_pct": "+24.8%",
+        "trend": "uptrend",
+        "key_levels": { "support": "$420–$430", "resistance": "$460–$470" },
+        "notable_events": [
+          "Apr 17: TSLA hits cycle low near $352 — lowest since September 2025",
+          "Apr 22: Q1 2026 earnings beat reverses sentiment; 200-day MA holds as support",
+          "May 8: Major breakout surge (+7.4%) through April highs on heavy volume",
+          "May 11: Piper Sandler 'Optimus is free' + Musk China trip reports spark +4% catalyst",
+          "May 12: Intraday -5% drop on robotaxi glitches — recovered within 48 hours"
+        ],
+        "summary": "Tesla's 30-day story is a sharp V-shaped recovery, bouncing from the $352 cycle low on April 17 and adding over 24% to reach $449. Q1 earnings marked the turning point, with the 200-day MA holding as institutional support. The stock now sits in a strong golden stack configuration above all major moving averages, with $460–$470 as next key resistance."
+      },
+      "outlook": {
+        "analyst_consensus": "Moderate Buy",
+        "avg_price_target": "$410",
+        "target_range": "$125 – $600",
+        "catalysts": [
+          "China FSD regulatory approval (Q3 2026 expected) — could unlock hundreds of millions of potential subscribers",
+          "Q2 2026 delivery report (expected early July 2026)",
+          "Q2 2026 earnings (July 29, 2026) — focus on first disclosed robotaxi revenue",
+          "Optimus humanoid robot production reveal (July–August 2026)",
+          "Multi-city robotaxi expansion: Phoenix, Miami, Orlando, Tampa, Las Vegas H1 2026"
+        ],
+        "macro_factors": [
+          "US-China trade tensions and tariff uncertainty affecting supply chain and FSD approval timing",
+          "Federal Reserve interest rate policy weighing on Tesla's high-growth valuation",
+          "Intensifying EV competition from BYD, NIO, and legacy automakers"
+        ],
+        "summary": "Tesla at ~$449 trades above the average analyst price target of ~$410, pricing in significant AI and robotics optionality. The bull case ($600) envisions autonomous mobility dominance plus a humanoid robotics empire; the bear case ($125) argues valuation is disconnected from near-term fundamentals. The next 3–6 months are a critical execution window: more city launches, sustained margins above 20%, and first robotaxi revenue disclosures are needed to justify current levels."
+      },
+      "price_chart": [
+        { "date": "May 04", "close": 404.00, "color": "red" },
+        { "date": "May 05", "close": 399.00, "color": "red" },
+        { "date": "May 06", "close": 397.00, "color": "red" },
+        { "date": "May 07", "close": 398.94, "color": "green" },
+        { "date": "May 08", "close": 428.50, "color": "green" },
+        { "date": "May 11", "close": 445.00, "color": "green" },
+        { "date": "May 12", "close": 433.45, "color": "red" },
+        { "date": "May 13", "close": 445.27, "color": "green" },
+        { "date": "May 14", "close": 443.30, "color": "red" },
+        { "date": "May 15", "close": 449.13, "color": "green" }
+      ]
     }
   ]
 }

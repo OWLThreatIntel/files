@@ -11,27 +11,27 @@
   <style>
     :root {
       --bg: #0d0f14;
-      --surface: #171a20;
-      --surface2: #1c1f27;
-      --border: #252830;
-      --border2: #2e323d;
+      --surface: #131720;
+      --surface2: #1a1f2e;
+      --border: #242938;
+      --border2: #2e3547;
       --red: #e31937;
-      --red-dim: rgba(227,25,55,0.12);
-      --red-glow: rgba(227,25,55,0.25);
+      --red-dim: rgba(227,25,55,0.10);
+      --red-glow: rgba(227,25,55,0.22);
       --green: #30d990;
-      --green-dim: rgba(48,217,144,0.12);
+      --green-dim: rgba(48,217,144,0.10);
       --neg: #f16a6a;
-      --neg-dim: rgba(241,106,106,0.12);
+      --neg-dim: rgba(241,106,106,0.10);
       --gold: #d4a84b;
+      --gold-dim: rgba(212,168,75,0.12);
       --text: #e8eaed;
-      --muted: #7e8290;
-      --mono: 'IBM Plex Mono', 'Courier New', monospace;
+      --muted: #7e8499;
+      --mono: 'IBM Plex Mono', monospace;
       --head: 'Syne', system-ui, sans-serif;
-      --body: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      --body: system-ui, -apple-system, sans-serif;
     }
 
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
     html { scroll-behavior: smooth; }
 
     body {
@@ -39,895 +39,893 @@
       color: var(--text);
       font-family: var(--body);
       font-size: 15px;
-      line-height: 1.6;
+      line-height: 1.65;
       min-height: 100vh;
       -webkit-font-smoothing: antialiased;
     }
 
-    /* ── Header ── */
+    /* ── HEADER ── */
     .hdr {
       position: sticky;
       top: 0;
-      z-index: 200;
-      height: 58px;
-      background: rgba(13,15,20,0.9);
-      backdrop-filter: blur(16px);
-      -webkit-backdrop-filter: blur(16px);
+      z-index: 100;
+      background: rgba(13,15,20,0.92);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--border);
+      padding: 0 1.5rem;
+      height: 56px;
       display: flex;
       align-items: center;
-      padding: 0 28px;
-      gap: 14px;
+      justify-content: space-between;
+      gap: 1rem;
     }
 
-    .hdr-logo { display: flex; align-items: center; gap: 10px; }
+    .hdr-left {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
 
-    .hdr-name {
+    .hdr-logo {
+      width: 30px;
+      height: 30px;
+      background: var(--red);
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+
+    .hdr-logo svg { width: 18px; height: 18px; fill: white; }
+
+    .hdr-title {
       font-family: var(--head);
-      font-weight: 800;
-      font-size: 17px;
-      color: var(--text);
-      letter-spacing: 0.04em;
+      font-weight: 700;
+      font-size: 1rem;
+      letter-spacing: 0.02em;
     }
 
-    .hdr-sep { width: 1px; height: 20px; background: var(--border2); margin: 0 4px; }
+    .hdr-title span { color: var(--red); }
 
-    .hdr-sub {
+    .hdr-meta {
       font-family: var(--mono);
-      font-size: 11px;
+      font-size: 0.7rem;
       color: var(--muted);
-      letter-spacing: 0.06em;
+      white-space: nowrap;
     }
 
-    .hdr-right {
-      margin-left: auto;
-      display: flex;
-      align-items: center;
-      gap: 8px;
+    /* ── LAYOUT ── */
+    .container {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 4rem;
     }
 
-    .live-dot {
-      width: 7px; height: 7px;
-      border-radius: 50%;
-      background: var(--green);
-      box-shadow: 0 0 6px var(--green);
-      animation: pulse 2s infinite;
-    }
-
-    @keyframes pulse {
-      0%, 100% { opacity: 1; }
-      50% { opacity: 0.35; }
-    }
-
-    .hdr-date { font-family: var(--mono); font-size: 11px; color: var(--muted); }
-
-    /* ── Container ── */
-    .wrap { max-width: 1120px; margin: 0 auto; padding: 0 28px; }
-
-    /* ── Hero ── */
+    /* ── HERO ── */
     .hero {
-      border-bottom: 1px solid var(--border);
-      padding: 56px 0 44px;
+      background: linear-gradient(135deg, var(--surface) 0%, #0f1420 100%);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 2rem;
+      margin-bottom: 1.5rem;
       position: relative;
       overflow: hidden;
     }
 
-    .hero::after {
+    .hero::before {
       content: '';
       position: absolute;
-      inset: 0;
-      background:
-        radial-gradient(ellipse 55% 70% at 100% 0%, rgba(227,25,55,0.06) 0%, transparent 70%),
-        radial-gradient(ellipse 40% 50% at 0% 100%, rgba(48,217,144,0.03) 0%, transparent 60%);
+      top: -60px;
+      right: -60px;
+      width: 200px;
+      height: 200px;
+      background: radial-gradient(circle, var(--red-glow), transparent 70%);
       pointer-events: none;
+    }
+
+    .hero-top {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
     }
 
     .hero-ticker {
       font-family: var(--mono);
-      font-size: 12px;
-      letter-spacing: 0.18em;
+      font-size: 0.7rem;
       color: var(--muted);
-      margin-bottom: 12px;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
-
-    .exchange-tag {
-      background: var(--surface);
-      border: 1px solid var(--border2);
-      padding: 2px 8px;
-      border-radius: 4px;
-      font-size: 10px;
-      color: var(--muted);
-      letter-spacing: 0.04em;
-    }
-
-    .hero-price-row {
-      display: flex;
-      align-items: baseline;
-      gap: 18px;
-      flex-wrap: wrap;
-      margin-bottom: 10px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 0.25rem;
     }
 
     .hero-price {
-      font-family: var(--mono);
-      font-size: clamp(50px, 8.5vw, 84px);
-      font-weight: 600;
-      color: #fff;
+      font-family: var(--head);
+      font-size: clamp(2.4rem, 6vw, 3.6rem);
+      font-weight: 800;
       line-height: 1;
-      letter-spacing: -0.02em;
+      color: var(--text);
     }
 
-    .change-chip {
+    .hero-change {
       display: inline-flex;
       align-items: center;
-      gap: 5px;
+      gap: 0.35rem;
+      padding: 0.3rem 0.7rem;
+      border-radius: 6px;
       font-family: var(--mono);
-      font-size: 17px;
-      font-weight: 500;
-      padding: 7px 18px;
-      border-radius: 8px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      margin-top: 0.5rem;
     }
 
-    .change-chip.up {
-      background: var(--green-dim);
-      color: var(--green);
-      border: 1px solid rgba(48,217,144,0.25);
-    }
+    .hero-change.pos { background: var(--green-dim); color: var(--green); }
+    .hero-change.neg { background: var(--neg-dim); color: var(--neg); }
 
-    .change-chip.dn {
-      background: var(--neg-dim);
-      color: var(--neg);
-      border: 1px solid rgba(241,106,106,0.25);
-    }
-
-    .hero-sub {
-      font-family: var(--mono);
-      font-size: 12px;
-      color: var(--muted);
-      margin-bottom: 36px;
-    }
-
-    .stats-bar {
+    .hero-stats {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      gap: 1px;
-      background: var(--border);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      overflow: hidden;
+      gap: 1rem;
     }
 
-    .stat-cell {
-      background: var(--surface);
-      padding: 18px 20px;
-      transition: background 0.15s;
-    }
-
-    .stat-cell:hover { background: var(--surface2); }
-
-    .stat-lbl {
-      font-family: var(--mono);
-      font-size: 10px;
-      text-transform: uppercase;
-      letter-spacing: 0.12em;
+    .hero-stat { }
+    .hero-stat-label {
+      font-size: 0.7rem;
       color: var(--muted);
-      margin-bottom: 6px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.2rem;
     }
-
-    .stat-val {
+    .hero-stat-value {
       font-family: var(--mono);
-      font-size: 19px;
+      font-size: 0.9rem;
       font-weight: 600;
       color: var(--text);
     }
 
-    .stat-val.hi { color: var(--green); }
-    .stat-val.lo { color: var(--neg); }
+    /* ── SECTION HEADERS ── */
+    .section {
+      margin-bottom: 1.5rem;
+    }
 
-    /* ── Sections ── */
-    .section { padding: 48px 0; }
-    .section + .section { border-top: 1px solid var(--border); }
-
-    .sec-head {
+    .section-hdr {
       display: flex;
       align-items: center;
-      gap: 12px;
-      margin-bottom: 24px;
+      gap: 0.6rem;
+      margin-bottom: 1rem;
     }
 
-    .sec-tag {
-      font-family: var(--mono);
-      font-size: 10px;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.18em;
-      color: var(--red);
-      padding: 3px 10px;
-      border: 1px solid var(--red-dim);
-      border-radius: 4px;
-      background: var(--red-dim);
-    }
-
-    .sec-title {
+    .section-hdr h2 {
       font-family: var(--head);
-      font-size: 22px;
+      font-size: 1.05rem;
       font-weight: 700;
       color: var(--text);
     }
 
-    /* ── Card ── */
-    .card {
+    .section-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--red);
+      flex-shrink: 0;
+    }
+
+    /* ── CHART ── */
+    .chart-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.5rem;
+    }
+
+    .chart-wrap {
+      position: relative;
+      height: 220px;
+    }
+
+    /* ── NEWS ── */
+    .sentiment-bar {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .sentiment-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.35rem;
+      padding: 0.3rem 0.8rem;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    .sentiment-badge.bullish { background: var(--green-dim); color: var(--green); border: 1px solid rgba(48,217,144,0.2); }
+    .sentiment-badge.bearish { background: var(--neg-dim); color: var(--neg); border: 1px solid rgba(241,106,106,0.2); }
+    .sentiment-badge.neutral { background: var(--gold-dim); color: var(--gold); border: 1px solid rgba(212,168,75,0.2); }
+
+    .sentiment-summary {
+      font-size: 0.85rem;
+      color: var(--muted);
+      line-height: 1.6;
+      padding: 0.75rem 1rem;
+      background: var(--surface2);
+      border-radius: 10px;
+      border-left: 3px solid var(--red);
+      margin-bottom: 1rem;
+    }
+
+    .news-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+    }
+
+    .news-item {
       background: var(--surface);
       border: 1px solid var(--border);
       border-radius: 12px;
-      overflow: hidden;
+      padding: 1rem 1.1rem;
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 0.5rem;
+      align-items: start;
+      transition: border-color 0.2s;
     }
 
-    /* ── Chart ── */
-    .chart-card { padding: 24px 24px 16px; }
+    .news-item:hover { border-color: var(--border2); }
 
-    .chart-header {
+    .news-item.bullish { border-left: 3px solid var(--green); }
+    .news-item.bearish { border-left: 3px solid var(--neg); }
+    .news-item.neutral { border-left: 3px solid var(--gold); }
+
+    .news-headline {
+      font-size: 0.88rem;
+      font-weight: 600;
+      color: var(--text);
+      line-height: 1.4;
+      margin-bottom: 0.3rem;
+    }
+
+    .news-body {
+      font-size: 0.8rem;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .news-meta {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      gap: 0.4rem;
+      min-width: 90px;
+    }
+
+    .news-source {
+      font-family: var(--mono);
+      font-size: 0.65rem;
+      color: var(--muted);
+      text-align: right;
+    }
+
+    .pill {
+      display: inline-block;
+      padding: 0.15rem 0.55rem;
+      border-radius: 10px;
+      font-size: 0.65rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    .pill.bullish { background: var(--green-dim); color: var(--green); }
+    .pill.bearish { background: var(--neg-dim); color: var(--neg); }
+    .pill.neutral { background: var(--gold-dim); color: var(--gold); }
+
+    /* ── ANALYSIS CARDS ── */
+    .analysis-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    .analysis-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.25rem;
+    }
+
+    .analysis-card-title {
+      font-family: var(--head);
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 0.75rem;
+    }
+
+    .analysis-kv {
       display: flex;
       justify-content: space-between;
-      align-items: flex-start;
-      margin-bottom: 20px;
-      flex-wrap: wrap;
-      gap: 8px;
-    }
-
-    .chart-title {
-      font-family: var(--head);
-      font-size: 15px;
-      font-weight: 700;
-      color: var(--text);
-    }
-
-    .chart-range { font-family: var(--mono); font-size: 11px; color: var(--muted); margin-top: 3px; }
-
-    .chart-legend {
-      display: flex;
-      gap: 14px;
       align-items: center;
+      padding: 0.35rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.8rem;
     }
 
-    .legend-item {
+    .analysis-kv:last-of-type { border-bottom: none; }
+
+    .analysis-kv-label { color: var(--muted); }
+    .analysis-kv-value { font-family: var(--mono); font-weight: 600; }
+    .analysis-kv-value.pos { color: var(--green); }
+    .analysis-kv-value.neg { color: var(--neg); }
+    .analysis-kv-value.neutral { color: var(--gold); }
+
+    .analysis-change-banner {
+      background: var(--green-dim);
+      border: 1px solid rgba(48,217,144,0.15);
+      border-radius: 8px;
+      padding: 0.6rem 0.9rem;
+      margin-bottom: 0.75rem;
       display: flex;
       align-items: center;
-      gap: 5px;
+      justify-content: space-between;
+    }
+
+    .analysis-change-banner .big-num {
       font-family: var(--mono);
-      font-size: 11px;
+      font-size: 1.35rem;
+      font-weight: 600;
+      color: var(--green);
+    }
+
+    .analysis-change-banner .range {
+      font-family: var(--mono);
+      font-size: 0.72rem;
       color: var(--muted);
+      text-align: right;
     }
 
-    .legend-dot { width: 8px; height: 8px; border-radius: 50%; }
-
-    .chart-wrap { position: relative; height: 260px; }
-
-    /* ── News ── */
-    .sentiment-banner {
+    .signals-list {
+      list-style: none;
+      margin: 0.75rem 0;
       display: flex;
-      align-items: flex-start;
-      gap: 14px;
-      padding: 18px 20px;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      margin-bottom: 16px;
+      flex-direction: column;
+      gap: 0.4rem;
     }
 
-    .s-pill {
-      flex-shrink: 0;
-      font-family: var(--mono);
-      font-size: 10px;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.1em;
-      padding: 4px 12px;
-      border-radius: 100px;
-    }
-
-    .s-pill.bullish { background: var(--green-dim); color: var(--green); border: 1px solid rgba(48,217,144,0.3); }
-    .s-pill.bearish { background: var(--neg-dim); color: var(--neg); border: 1px solid rgba(241,106,106,0.3); }
-    .s-pill.neutral { background: rgba(126,130,144,0.12); color: var(--muted); border: 1px solid var(--border2); }
-
-    .s-summary { font-size: 13px; color: var(--muted); line-height: 1.65; }
-
-    .news-stack { display: flex; flex-direction: column; gap: 10px; }
-
-    .news-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-left: 3px solid transparent;
-      border-radius: 12px;
-      padding: 18px 20px;
-      transition: background 0.15s;
-    }
-
-    .news-card:hover { background: var(--surface2); }
-    .news-card.bullish { border-left-color: var(--green); }
-    .news-card.bearish { border-left-color: var(--neg); }
-    .news-card.neutral { border-left-color: var(--border2); }
-
-    .news-hl {
-      font-family: var(--head);
-      font-size: 15px;
-      font-weight: 600;
-      color: var(--text);
-      margin-bottom: 7px;
+    .signals-list li {
+      font-size: 0.76rem;
+      color: var(--muted);
+      padding-left: 1rem;
+      position: relative;
       line-height: 1.4;
     }
 
-    .news-body { font-size: 13px; color: var(--muted); line-height: 1.65; margin-bottom: 12px; }
-
-    .news-foot {
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      flex-wrap: wrap;
-    }
-
-    .news-src { font-family: var(--mono); font-size: 11px; color: var(--muted); }
-    .news-dt { font-family: var(--mono); font-size: 11px; color: var(--border2); }
-
-    .n-pill {
-      font-family: var(--mono);
-      font-size: 10px;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      padding: 2px 9px;
-      border-radius: 100px;
-      margin-left: auto;
-    }
-
-    .n-pill.bullish { background: var(--green-dim); color: var(--green); border: 1px solid rgba(48,217,144,0.25); }
-    .n-pill.bearish { background: var(--neg-dim); color: var(--neg); border: 1px solid rgba(241,106,106,0.25); }
-    .n-pill.neutral { background: rgba(126,130,144,0.1); color: var(--muted); border: 1px solid var(--border2); }
-
-    /* ── Technical Analysis ── */
-    .ta-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-
-    .ta-card { padding: 24px; }
-
-    .ta-badge {
-      display: inline-block;
-      font-family: var(--mono);
-      font-size: 10px;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.14em;
-      padding: 3px 10px;
-      border-radius: 4px;
-      margin-bottom: 16px;
-      background: var(--red-dim);
-      color: var(--red);
-      border: 1px solid rgba(227,25,55,0.2);
-    }
-
-    .ta-title {
-      font-family: var(--head);
-      font-size: 18px;
-      font-weight: 700;
-      color: var(--text);
-      margin-bottom: 18px;
-    }
-
-    .ta-row {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 9px 0;
-      border-bottom: 1px solid var(--border);
-      font-family: var(--mono);
-      font-size: 12px;
-    }
-
-    .ta-lbl { color: var(--muted); }
-    .ta-val { color: var(--text); font-weight: 500; }
-    .ta-val.pos { color: var(--green); }
-    .ta-val.neg { color: var(--neg); }
-
-    .trend-pill {
-      font-family: var(--mono);
-      font-size: 10px;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      padding: 3px 10px;
-      border-radius: 100px;
-      background: var(--green-dim);
-      color: var(--green);
-      border: 1px solid rgba(48,217,144,0.25);
-    }
-
-    .signals { list-style: none; margin: 14px 0; display: flex; flex-direction: column; gap: 7px; }
-
-    .signals li {
-      font-size: 12px;
-      color: var(--muted);
-      padding-left: 18px;
-      position: relative;
-      line-height: 1.5;
-    }
-
-    .signals li::before {
-      content: '▸';
+    .signals-list li::before {
+      content: '›';
       position: absolute;
       left: 0;
       color: var(--red);
-      font-size: 10px;
-      top: 2px;
+      font-weight: 700;
     }
 
-    .ta-summary {
-      font-size: 13px;
+    .analysis-summary {
+      font-size: 0.8rem;
       color: var(--muted);
-      line-height: 1.7;
+      line-height: 1.6;
+      margin-top: 0.75rem;
+      padding-top: 0.75rem;
       border-top: 1px solid var(--border);
-      padding-top: 14px;
-      margin-top: 6px;
     }
 
-    .events-list { list-style: none; display: flex; flex-direction: column; gap: 6px; margin: 12px 0; }
+    /* ── OUTLOOK ── */
+    .outlook-card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.25rem;
+    }
+
+    .outlook-top {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      margin-bottom: 1rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .outlook-stat-label {
+      font-size: 0.68rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.2rem;
+    }
+
+    .outlook-stat-value {
+      font-family: var(--mono);
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--gold);
+    }
+
+    .outlook-stat-sub {
+      font-family: var(--mono);
+      font-size: 0.68rem;
+      color: var(--muted);
+      margin-top: 0.1rem;
+    }
+
+    .outlook-cols {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+      margin-bottom: 1rem;
+    }
+
+    .outlook-list-title {
+      font-size: 0.72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 0.5rem;
+    }
+
+    .outlook-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.45rem;
+    }
+
+    .outlook-list li {
+      font-size: 0.78rem;
+      color: var(--text);
+      padding-left: 1.1rem;
+      position: relative;
+      line-height: 1.45;
+    }
+
+    .outlook-list.catalysts li::before {
+      content: '⚡';
+      position: absolute;
+      left: 0;
+      font-size: 0.65rem;
+    }
+
+    .outlook-list.macro li::before {
+      content: '⚠';
+      position: absolute;
+      left: 0;
+      font-size: 0.65rem;
+      color: var(--gold);
+    }
+
+    .outlook-summary {
+      font-size: 0.82rem;
+      color: var(--muted);
+      line-height: 1.65;
+      padding: 0.85rem 1rem;
+      background: var(--surface2);
+      border-radius: 10px;
+      border-left: 3px solid var(--gold);
+    }
+
+    /* ── FOOTER ── */
+    .footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      border-top: 1px solid var(--border);
+      margin-top: 2rem;
+    }
+
+    .footer p {
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      color: var(--muted);
+      line-height: 1.8;
+    }
+
+    .footer .brand {
+      color: var(--red);
+      font-weight: 600;
+    }
+
+    /* ── TREND BADGE ── */
+    .trend-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      padding: 0.2rem 0.6rem;
+      border-radius: 5px;
+      font-family: var(--mono);
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+
+    .trend-badge.up { background: var(--green-dim); color: var(--green); }
+    .trend-badge.down { background: var(--neg-dim); color: var(--neg); }
+    .trend-badge.side { background: var(--gold-dim); color: var(--gold); }
+
+    /* ── NOTABLE EVENTS ── */
+    .events-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.35rem;
+      margin: 0.6rem 0;
+    }
 
     .events-list li {
-      font-size: 12px;
+      font-size: 0.74rem;
       color: var(--muted);
-      padding: 8px 10px 8px 14px;
-      background: var(--surface2);
-      border-radius: 6px;
-      border-left: 2px solid var(--border2);
+      padding-left: 1rem;
+      position: relative;
       line-height: 1.4;
     }
 
-    .support-resistance {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 8px;
-      margin: 12px 0;
+    .events-list li::before {
+      content: '—';
+      position: absolute;
+      left: 0;
+      color: var(--red);
     }
 
-    .sr-box {
-      background: var(--surface2);
-      border-radius: 8px;
-      padding: 12px 14px;
-      border: 1px solid var(--border);
-      text-align: center;
+    /* ── DIVIDER ── */
+    .divider {
+      height: 1px;
+      background: var(--border);
+      margin: 1.5rem 0;
     }
 
-    .sr-lbl { font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin-bottom: 4px; }
-    .sr-val { font-family: var(--mono); font-size: 16px; font-weight: 600; }
-    .sr-val.sup { color: var(--green); }
-    .sr-val.res { color: var(--neg); }
-
-    /* ── Outlook ── */
-    .outlook-grid { display: grid; grid-template-columns: 260px 1fr; gap: 16px; align-items: start; }
-
-    .consensus-card { padding: 24px; text-align: center; }
-
-    .c-lbl { font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--muted); margin-bottom: 10px; }
-
-    .c-val { font-family: var(--head); font-size: 26px; font-weight: 800; color: var(--text); margin-bottom: 20px; }
-
-    .target-block { border-top: 1px solid var(--border); padding-top: 18px; }
-
-    .t-lbl { font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--muted); margin-bottom: 6px; }
-
-    .t-val { font-family: var(--mono); font-size: 34px; font-weight: 600; color: var(--gold); letter-spacing: -0.01em; }
-
-    .t-range { font-family: var(--mono); font-size: 11px; color: var(--muted); margin-top: 4px; }
-
-    .market-note {
-      font-size: 12px;
-      color: var(--muted);
-      margin-top: 14px;
-      padding: 10px 12px;
-      background: var(--surface2);
-      border-radius: 6px;
-      border: 1px solid var(--border);
-      line-height: 1.5;
-    }
-
-    .market-note strong { color: var(--neg); }
-
-    .outlook-detail { padding: 24px; display: flex; flex-direction: column; gap: 20px; }
-
-    .od-section-lbl { font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--muted); margin-bottom: 10px; }
-
-    .catalyst-list { list-style: none; display: flex; flex-direction: column; }
-
-    .catalyst-list li {
-      display: flex;
-      gap: 12px;
-      align-items: flex-start;
-      padding: 10px 0;
-      border-bottom: 1px solid var(--border);
-      font-size: 13px;
-      color: var(--text);
-      line-height: 1.5;
-    }
-
-    .catalyst-list li:last-child { border-bottom: none; }
-
-    .cat-dot {
-      flex-shrink: 0;
-      width: 8px; height: 8px;
-      border-radius: 50%;
-      background: var(--red);
-      margin-top: 6px;
-    }
-
-    .macro-list { list-style: none; display: flex; flex-direction: column; }
-
-    .macro-list li {
-      display: flex;
-      gap: 12px;
-      align-items: flex-start;
-      padding: 9px 0;
-      border-bottom: 1px solid var(--border);
-      font-size: 13px;
-      color: var(--muted);
-      line-height: 1.5;
-    }
-
-    .macro-list li:last-child { border-bottom: none; }
-
-    .macro-dot { flex-shrink: 0; width: 6px; height: 6px; border-radius: 50%; background: var(--muted); margin-top: 8px; }
-
-    .outlook-summary {
-      font-size: 13px;
-      color: var(--muted);
-      line-height: 1.75;
-      background: var(--surface2);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 18px 20px;
-    }
-
-    /* ── Divider ── */
-    .divider { height: 1px; background: linear-gradient(to right, transparent, var(--border), transparent); }
-
-    /* ── Footer ── */
-    .footer {
-      border-top: 1px solid var(--border);
-      padding: 24px 28px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 10px;
-    }
-
-    .footer-brand { display: flex; align-items: center; gap: 8px; }
-
-    .footer-txt { font-family: var(--mono); font-size: 12px; color: var(--muted); }
-
-    .footer-disclaimer {
-      font-family: var(--mono);
-      font-size: 11px;
-      color: var(--border2);
-      max-width: 500px;
-      text-align: right;
-      line-height: 1.5;
-    }
-
-    /* ── Responsive ── */
-    @media (max-width: 768px) {
-      .wrap { padding: 0 16px; }
-      .hdr { padding: 0 16px; }
-      .hdr-sep, .hdr-sub { display: none; }
-      .stats-bar { grid-template-columns: 1fr 1fr; }
-      .outlook-grid { grid-template-columns: 1fr; }
-      .consensus-card { text-align: left; }
-      .footer { flex-direction: column; align-items: flex-start; }
-      .footer-disclaimer { text-align: left; max-width: 100%; }
-    }
-
+    /* ── RESPONSIVE ── */
     @media (max-width: 640px) {
-      .ta-grid { grid-template-columns: 1fr; }
-      .hero-price { font-size: 50px; }
-    }
-
-    @media (max-width: 420px) {
-      .stats-bar { grid-template-columns: 1fr; }
+      .container { padding: 1.25rem 0.85rem 3rem; }
+      .hero { padding: 1.25rem; }
+      .hero-stats { grid-template-columns: repeat(2, 1fr); }
+      .analysis-grid { grid-template-columns: 1fr; }
+      .outlook-top { grid-template-columns: repeat(2, 1fr); }
+      .outlook-cols { grid-template-columns: 1fr; }
+      .news-item { grid-template-columns: 1fr; }
+      .news-meta { flex-direction: row; align-items: center; justify-content: flex-start; min-width: unset; }
+      .hdr-meta { display: none; }
     }
   </style>
 </head>
 <body>
 
-<!-- HEADER -->
+<!-- ── HEADER ── -->
 <header class="hdr">
-  <div class="hdr-logo">
-    <svg viewBox="0 0 342 512" width="20" height="20" fill="#e31937" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-      <path d="M0 50.5C57.3 66.3 96 95.7 104.6 128H237.4C246 95.7 284.7 66.3 342 50.5c-2.3-16.8-5.5-33-8.4-50.5H8.4C5.5 17.5 2.3 33.7 0 50.5zM171 480L96.4 128h149.2L171 480z"/>
-    </svg>
-    <span class="hdr-name">TSLA</span>
+  <div class="hdr-left">
+    <div class="hdr-logo">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/>
+      </svg>
+    </div>
+    <div class="hdr-title"><span>TSLA</span> Market Briefing</div>
   </div>
-  <div class="hdr-sep"></div>
-  <span class="hdr-sub">Market Briefing</span>
-  <div class="hdr-right">
-    <div class="live-dot"></div>
-    <span class="hdr-date">May 15, 2026</span>
-  </div>
+  <div class="hdr-meta">Generated May 15, 2026 · 19:00 HKT</div>
 </header>
 
-<!-- HERO -->
-<section class="hero">
-  <div class="wrap">
-    <div class="hero-ticker">
-      NASDAQ: TSLA <span class="exchange-tag">Tesla, Inc.</span>
-    </div>
-    <div class="hero-price-row">
-      <div class="hero-price">$449.13</div>
-      <div class="change-chip up">&#9650; +1.31% today</div>
-    </div>
-    <div class="hero-sub">As of May 15, 2026 market close &nbsp;&middot;&nbsp; Data sourced from public market information</div>
-    <div class="stats-bar">
-      <div class="stat-cell">
-        <div class="stat-lbl">Market Cap</div>
-        <div class="stat-val">$1.46T</div>
-      </div>
-      <div class="stat-cell">
-        <div class="stat-lbl">Volume</div>
-        <div class="stat-val">95.8M</div>
-      </div>
-      <div class="stat-cell">
-        <div class="stat-lbl">52W High</div>
-        <div class="stat-val hi">$498.83</div>
-      </div>
-      <div class="stat-cell">
-        <div class="stat-lbl">52W Low</div>
-        <div class="stat-val lo">$273.21</div>
-      </div>
-    </div>
-  </div>
-</section>
+<!-- ── MAIN ── -->
+<main class="container">
 
-<!-- PRICE CHART -->
-<section class="section">
-  <div class="wrap">
-    <div class="sec-head">
-      <span class="sec-tag">Chart</span>
-      <h2 class="sec-title">Price History</h2>
-    </div>
-    <div class="card chart-card">
-      <div class="chart-header">
-        <div>
-          <div class="chart-title">TSLA &mdash; Last 10 Trading Sessions</div>
-          <div class="chart-range">May 4 &ndash; May 15, 2026 &nbsp;&middot;&nbsp; Closing prices (USD)</div>
-        </div>
-        <div class="chart-legend">
-          <div class="legend-item"><div class="legend-dot" style="background:#30d990;"></div> Up day</div>
-          <div class="legend-item"><div class="legend-dot" style="background:#f16a6a;"></div> Down day</div>
-        </div>
+  <!-- HERO -->
+  <section class="hero section">
+    <div class="hero-top">
+      <div>
+        <div class="hero-ticker">NASDAQ: TSLA</div>
+        <div class="hero-price">$449.13</div>
+        <span class="hero-change pos">▲ +1.32% today</span>
       </div>
+      <div style="text-align:right;">
+        <div style="font-family:var(--mono);font-size:0.68rem;color:var(--muted);margin-bottom:0.4rem;">May 15, 2026 Close</div>
+        <div style="font-family:var(--mono);font-size:0.78rem;color:var(--muted);">Prev close: <span style="color:var(--text)">$443.30</span></div>
+        <div style="font-family:var(--mono);font-size:0.78rem;color:var(--muted);margin-top:0.2rem;">+$5.83 / +1.32%</div>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <div class="hero-stat-label">Market Cap</div>
+        <div class="hero-stat-value">$1.44T</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-label">Volume</div>
+        <div class="hero-stat-value">82.4M</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-label">52W High</div>
+        <div class="hero-stat-value" style="color:var(--green)">$498.83</div>
+      </div>
+      <div class="hero-stat">
+        <div class="hero-stat-label">52W Low</div>
+        <div class="hero-stat-value" style="color:var(--neg)">$273.21</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICE CHART -->
+  <section class="section">
+    <div class="section-hdr">
+      <div class="section-dot"></div>
+      <h2>Price Chart — Last 10 Sessions</h2>
+    </div>
+    <div class="chart-card">
       <div class="chart-wrap">
         <canvas id="priceChart"></canvas>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<div class="divider"></div>
-
-<!-- LATEST NEWS -->
-<section class="section">
-  <div class="wrap">
-    <div class="sec-head">
-      <span class="sec-tag">News</span>
-      <h2 class="sec-title">Latest News &amp; Sentiment</h2>
+  <!-- LATEST NEWS -->
+  <section class="section">
+    <div class="section-hdr">
+      <div class="section-dot"></div>
+      <h2>Latest News &amp; Sentiment</h2>
     </div>
 
-    <div class="sentiment-banner">
-      <div class="s-pill bullish">Bullish</div>
-      <p class="s-summary">Tesla's sentiment in mid-May 2026 is firmly bullish, driven by three converging catalysts: a decisive Q1 earnings beat in April, an accelerating robotaxi rollout now covering Dallas and Houston, and high-level diplomatic momentum around China FSD regulatory approval following Elon Musk's state visit to Beijing alongside President Trump. The stock has surged over 24% in the past 30 days, reclaiming all of its late-2025 correction losses. Near-term turbulence on May 12 &mdash; sparked by robotaxi operational glitches and Panasonic battery supply concerns &mdash; was absorbed within 48 hours, suggesting strong dip-buying demand. Overall, the market is firmly pricing in Tesla's AI and autonomy story, though the stock now trades above the average analyst price target, raising the bar on execution.</p>
+    <div class="sentiment-bar">
+      <span class="sentiment-badge bullish">⬆ Cautiously Bullish</span>
     </div>
 
-    <div class="news-stack">
+    <div class="sentiment-summary">
+      Tesla sentiment in mid-May 2026 is firmly bullish, powered by three converging catalysts: a decisive Q1 earnings beat in April, an accelerating robotaxi rollout now active in Dallas and Houston, and high-stakes diplomatic momentum around China FSD approval during Elon Musk's state visit to Beijing alongside President Trump. The stock has gained over 24% in 30 days. Near-term turbulence on May 12 — sparked by robotaxi operational glitches and Panasonic battery supply concerns — was absorbed within 48 hours, underlining strong dip-buying demand. The dominant market narrative has firmly shifted from EV-maker commodity concerns to AI, autonomy, and robotics optimism.
+    </div>
 
-      <div class="news-card bullish">
-        <div class="news-hl">Musk Joins Trump's Beijing Visit &mdash; China FSD Approval Could Be a Game-Changer</div>
-        <div class="news-body">Elon Musk accompanied President Trump on a high-profile state visit to Beijing, meeting with Xi Jinping and top regulators. Investors are optimistic that Chinese authorities will approve Tesla's Full Self-Driving software, which would unlock a massive new software subscription revenue stream in the world's largest EV market and potentially re-rate the stock significantly higher. Analysts estimate China FSD approval could unlock &sim;2 million potential subscribers.</div>
-        <div class="news-foot">
-          <span class="news-src">Invezz / FX Leaders</span>
-          <span class="news-dt">May 14, 2026</span>
-          <span class="n-pill bullish">Bullish</span>
+    <div class="news-grid">
+
+      <div class="news-item bullish">
+        <div>
+          <div class="news-headline">Musk Joins Trump's Beijing State Visit — China FSD Approval Could Unlock Massive Revenue</div>
+          <div class="news-body">Elon Musk accompanied President Trump on an official state visit to Beijing, meeting with Xi Jinping and regulators. Tesla executives expect FSD regulatory approval in China sometime in Q3 2026 after an earlier window passed without clearance — a multi-billion dollar software subscription opportunity that could re-rate the stock significantly if greenlit.</div>
+        </div>
+        <div class="news-meta">
+          <div class="news-source">Invezz / FX Leaders</div>
+          <div class="news-source">May 14, 2026</div>
+          <span class="pill bullish">Bullish</span>
         </div>
       </div>
 
-      <div class="news-card bullish">
-        <div class="news-hl">Tesla Q1 2026 Earnings Beat: EPS $0.41, Gross Margin 21.1%, FSD Subscriptions +51% YoY</div>
-        <div class="news-body">Tesla beat Q1 2026 consensus estimates with non-GAAP EPS of $0.41 versus the $0.36 expected, and revenue of $22.39B (+16% YoY). Automotive gross margin reached 21.1% &mdash; the highest in over a year &mdash; while FSD active subscriptions grew 51% year-over-year to 1.28 million, validating the software monetisation strategy. Energy storage deployments missed on Panasonic battery constraints.</div>
-        <div class="news-foot">
-          <span class="news-src">Tesla IR / CNBC</span>
-          <span class="news-dt">Apr 22, 2026</span>
-          <span class="n-pill bullish">Bullish</span>
+      <div class="news-item bullish">
+        <div>
+          <div class="news-headline">Tesla Q1 2026 Earnings Beat: EPS $0.41 vs $0.36 Estimate, Gross Margin Expands to 21.1%</div>
+          <div class="news-body">Tesla beat Q1 2026 consensus estimates with non-GAAP EPS of $0.41 versus the $0.36 expected, and revenue of $22.39B (+16% YoY). Automotive gross margin reached 21.1% — the highest in over a year — while FSD active subscriptions grew 51% year-over-year to 1.28 million. Higher capex guidance of $25B+ for the full year was the main drag on post-earnings sentiment.</div>
+        </div>
+        <div class="news-meta">
+          <div class="news-source">Tesla IR / CNBC</div>
+          <div class="news-source">Apr 22, 2026</div>
+          <span class="pill bullish">Bullish</span>
         </div>
       </div>
 
-      <div class="news-card bullish">
-        <div class="news-hl">Piper Sandler: Tesla Worth $400 Without Optimus &mdash; Meaning the Robot Business Is "Free"</div>
-        <div class="news-body">Analyst Alexander Potter at Piper Sandler argued that Tesla's 17 core product lines &mdash; from vehicles and energy storage to FSD subscriptions and robotaxi &mdash; justify around $400 per share alone. At current prices near $449, investors are effectively getting the Optimus humanoid robot program for free. The firm reiterated a $500 price target, with $100 per share attributed to Optimus alone.</div>
-        <div class="news-foot">
-          <span class="news-src">Piper Sandler / Yahoo Finance</span>
-          <span class="news-dt">May 11, 2026</span>
-          <span class="n-pill bullish">Bullish</span>
+      <div class="news-item bullish">
+        <div>
+          <div class="news-headline">Piper Sandler: Tesla's Core Business Worth ~$400; Optimus Robot Is 'Free' at Current Prices</div>
+          <div class="news-body">Analyst Alexander Potter at Piper Sandler argued that Tesla's 17 core product lines — from vehicles and energy storage to FSD subscriptions and robotaxi — justify around $400 per share alone. At current prices near $445–449, investors are effectively getting the Optimus humanoid robot program at no additional cost. The firm reiterated a $500 price target.</div>
+        </div>
+        <div class="news-meta">
+          <div class="news-source">Piper Sandler / TIKR</div>
+          <div class="news-source">May 11, 2026</div>
+          <span class="pill bullish">Bullish</span>
         </div>
       </div>
 
-      <div class="news-card bearish">
-        <div class="news-hl">Tesla Sinks 5% Intraday on Robotaxi Glitches and Panasonic Battery Delay Reports</div>
-        <div class="news-body">TSLA fell as much as 5% intraday on May 12 before closing down 2.6% at $433.45, after reports surfaced of long wait times and ride cancellations in the Dallas and Houston robotaxi zones. Panasonic battery production delays &mdash; threatening the Cybercab, Tesla Semi, and Megapack 3 ramps &mdash; added to investor unease. The stock recovered fully within two sessions, demonstrating strong dip-buying demand.</div>
-        <div class="news-foot">
-          <span class="news-src">24/7 Wall St. / Yahoo Finance</span>
-          <span class="news-dt">May 12, 2026</span>
-          <span class="n-pill bearish">Bearish</span>
+      <div class="news-item bearish">
+        <div>
+          <div class="news-headline">Tesla Sinks 5% Intraday on Robotaxi Glitches and Panasonic Battery Delay Reports</div>
+          <div class="news-body">TSLA fell as much as 5% intraday on May 12, closing down 2.6% at $433.45, after reports of long wait times and ride cancellations in Dallas and Houston robotaxi zones. Panasonic battery supply constraints are also throttling Cybercab and Tesla Semi production ramps, adding execution risk to the autonomous vehicle timeline. The stock fully recovered within two sessions.</div>
+        </div>
+        <div class="news-meta">
+          <div class="news-source">24/7 Wall St.</div>
+          <div class="news-source">May 12, 2026</div>
+          <span class="pill bearish">Bearish</span>
         </div>
       </div>
 
-      <div class="news-card bullish">
-        <div class="news-hl">Robotaxi Expansion Accelerates: Dallas &amp; Houston Live &mdash; Five More Cities Queued</div>
-        <div class="news-body">Tesla's unsupervised robotaxi fleet has grown from 9 vehicles in early April to 39 by mid-May. Dallas and Houston zones went live on April 18, paid miles nearly doubled quarter-over-quarter per Q1 results, and Tesla is preparing launches in Phoenix, Miami, Orlando, Tampa, and Las Vegas &mdash; with a dozen US states targeted by end-2026. The company's first large-scale Optimus factory preparation begins in Q2.</div>
-        <div class="news-foot">
-          <span class="news-src">The Motley Fool / HeyGoTrade</span>
-          <span class="news-dt">May 13, 2026</span>
-          <span class="n-pill bullish">Bullish</span>
+      <div class="news-item bullish">
+        <div>
+          <div class="news-headline">Tesla Robotaxi Fleet Grows to 39 Vehicles — Five More Cities Queued for H1 2026 Launch</div>
+          <div class="news-body">Tesla's unsupervised robotaxi fleet has grown from 9 vehicles in early April 2026 to 39 by mid-May, with Dallas and Houston zones live since April 18. Paid robotaxi miles nearly doubled quarter-over-quarter per Q1 disclosure. Phoenix, Miami, Orlando, Tampa, and Las Vegas are next in queue, with 12 US states targeted by year-end 2026.</div>
+        </div>
+        <div class="news-meta">
+          <div class="news-source">The Motley Fool</div>
+          <div class="news-source">May 13, 2026</div>
+          <span class="pill bullish">Bullish</span>
         </div>
       </div>
 
     </div>
-  </div>
-</section>
+  </section>
 
-<div class="divider"></div>
-
-<!-- TECHNICAL ANALYSIS -->
-<section class="section">
-  <div class="wrap">
-    <div class="sec-head">
-      <span class="sec-tag">Technical</span>
-      <h2 class="sec-title">Technical Analysis</h2>
+  <!-- TECHNICAL ANALYSIS -->
+  <section class="section">
+    <div class="section-hdr">
+      <div class="section-dot"></div>
+      <h2>Technical Analysis</h2>
     </div>
-    <div class="ta-grid">
 
-      <!-- 7-day -->
-      <div class="card ta-card">
-        <div class="ta-badge">7-Day View</div>
-        <div class="ta-title">Short-Term Trend</div>
+    <div class="analysis-grid">
 
-        <div class="ta-row"><span class="ta-lbl">Price 7 days ago</span><span class="ta-val">$397.00</span></div>
-        <div class="ta-row"><span class="ta-lbl">Latest close</span><span class="ta-val">$449.13</span></div>
-        <div class="ta-row"><span class="ta-lbl">7-day change</span><span class="ta-val pos">+13.1%</span></div>
-        <div class="ta-row" style="border-bottom:none;"><span class="ta-lbl">Trend</span><span class="trend-pill">Uptrend &#8679;</span></div>
+      <!-- 7-Day Card -->
+      <div class="analysis-card">
+        <div class="analysis-card-title">7-Day View</div>
 
-        <ul class="signals">
-          <li>All 12 moving averages on Strong Buy &mdash; zero bearish signals</li>
-          <li>RSI approaching 70 &mdash; bullish momentum, watch for overbought conditions</li>
-          <li>Price above 5-day ($445), 50-day ($416), and 200-day ($383) MAs &mdash; golden stack</li>
-          <li>Key support: $428&ndash;$435 &nbsp;&middot;&nbsp; Resistance: $460&ndash;$470</li>
-          <li>Bullish-to-bearish options sentiment ratio 79:21</li>
+        <div class="analysis-change-banner">
+          <div>
+            <div style="font-size:0.68rem;color:var(--muted);margin-bottom:0.15rem;">7-Day Gain</div>
+            <div class="big-num">+13.1%</div>
+          </div>
+          <div class="range">
+            <div>Start: $397.00</div>
+            <div>End: $449.13</div>
+          </div>
+        </div>
+
+        <div class="analysis-kv">
+          <span class="analysis-kv-label">Trend</span>
+          <span class="trend-badge up">▲ Uptrend</span>
+        </div>
+        <div class="analysis-kv">
+          <span class="analysis-kv-label">RSI (14)</span>
+          <span class="analysis-kv-value neutral">~70 — Near Overbought</span>
+        </div>
+        <div class="analysis-kv">
+          <span class="analysis-kv-label">MA Signal</span>
+          <span class="analysis-kv-value pos">12/12 BUY</span>
+        </div>
+        <div class="analysis-kv">
+          <span class="analysis-kv-label">Support</span>
+          <span class="analysis-kv-value">$428–$435</span>
+        </div>
+        <div class="analysis-kv">
+          <span class="analysis-kv-label">Resistance</span>
+          <span class="analysis-kv-value">$460–$470</span>
+        </div>
+
+        <ul class="signals-list">
+          <li>All 12 moving averages (MA5–MA200) signal Buy — zero bearish signals</li>
+          <li>RSI ~70 — approaching overbought; momentum stretched but still bullish</li>
+          <li>Price above 5-day ($445), 50-day ($416) &amp; 200-day ($383) MAs — "golden stack"</li>
+          <li>Options sentiment: 79% bullish vs 21% bearish</li>
+          <li>May 8: +7.4% single-session surge on heavy volume — rare momentum spike</li>
         </ul>
 
-        <div class="ta-summary">
-          Tesla had a powerful seven-day run, gaining over 13% from the $397 range and pushing firmly above all key moving averages. The standout moment was a 7.4% single-session surge on May 8 &mdash; the kind of volume-backed breakout that signals genuine institutional buying, not just retail enthusiasm. A sharp 5% intraday drop on May 12, tied to Musk's Beijing departure and robotaxi concerns, was completely erased within 48 hours &mdash; that resilience tells you demand for shares is strong. The RSI near 70 often leads to brief sideways consolidation before a fresh leg higher. The weight of evidence points upward.
+        <div class="analysis-summary">
+          Tesla had a powerful seven-day run, gaining over 13% from the $397 range and trading well above all key moving averages. The standout move was a 7.4% single-session surge on May 8. A brief 2.6% pullback on May 12 was absorbed by buyers within two sessions — a healthy sign. The RSI is hovering near 70: still running strong but starting to breathe hard. A short consolidation in the $430–$450 range before the next push would be entirely normal.
         </div>
       </div>
 
-      <!-- 30-day -->
-      <div class="card ta-card">
-        <div class="ta-badge">30-Day View</div>
-        <div class="ta-title">Medium-Term Trend</div>
+      <!-- 30-Day Card -->
+      <div class="analysis-card">
+        <div class="analysis-card-title">30-Day View</div>
 
-        <div class="ta-row"><span class="ta-lbl">Price 30 days ago</span><span class="ta-val">$360.00</span></div>
-        <div class="ta-row"><span class="ta-lbl">Latest close</span><span class="ta-val">$449.13</span></div>
-        <div class="ta-row"><span class="ta-lbl">30-day change</span><span class="ta-val pos">+24.8%</span></div>
-        <div class="ta-row"><span class="ta-lbl">Trend</span><span class="trend-pill">Uptrend &#8679;</span></div>
-        <div class="ta-row" style="border-bottom:none;"><span class="ta-lbl">Cycle low (Apr 17)</span><span class="ta-val">$352.08</span></div>
-
-        <div class="support-resistance">
-          <div class="sr-box">
-            <div class="sr-lbl">Support</div>
-            <div class="sr-val sup">$420</div>
+        <div class="analysis-change-banner">
+          <div>
+            <div style="font-size:0.68rem;color:var(--muted);margin-bottom:0.15rem;">30-Day Gain</div>
+            <div class="big-num">+24.8%</div>
           </div>
-          <div class="sr-box">
-            <div class="sr-lbl">Resistance</div>
-            <div class="sr-val res">$460&ndash;$470</div>
+          <div class="range">
+            <div>Start: $360.00</div>
+            <div>End: $449.13</div>
           </div>
         </div>
 
-        <div class="od-section-lbl">Key events this month</div>
+        <div class="analysis-kv">
+          <span class="analysis-kv-label">Trend</span>
+          <span class="trend-badge up">▲ Strong Uptrend</span>
+        </div>
+        <div class="analysis-kv">
+          <span class="analysis-kv-label">Support</span>
+          <span class="analysis-kv-value">$420–$430</span>
+        </div>
+        <div class="analysis-kv">
+          <span class="analysis-kv-label">Resistance</span>
+          <span class="analysis-kv-value">$460–$470</span>
+        </div>
+        <div class="analysis-kv">
+          <span class="analysis-kv-label">April Low</span>
+          <span class="analysis-kv-value neg">$352.08 (Apr 17)</span>
+        </div>
+        <div class="analysis-kv">
+          <span class="analysis-kv-label">Recovery</span>
+          <span class="analysis-kv-value pos">+27.6% from low</span>
+        </div>
+
         <ul class="events-list">
-          <li>Apr 2 &mdash; Q1 delivery miss: 358K vs 365K consensus</li>
-          <li>Apr 17 &mdash; Cycle low near $352; tail of &minus;32% correction</li>
-          <li>Apr 18 &mdash; Dallas &amp; Houston robotaxi zones go live</li>
-          <li>Apr 22 &mdash; Q1 earnings beat; 200-day MA holds as support</li>
-          <li>May 8 &mdash; Major breakout surge +7.4% on heavy volume</li>
-          <li>May 12 &mdash; Brief &minus;2.6% pullback; recovered in 2 sessions</li>
+          <li>Apr 17: TSLA hits cycle low $352 — lowest since Sep 2025</li>
+          <li>Apr 22: Q1 earnings beat; 200-day MA holds as firm support</li>
+          <li>May 8: Major breakout surge (+7.4%) on heavy volume</li>
+          <li>May 11: Piper Sandler "Optimus is free" + Musk China trip → +4%</li>
+          <li>May 12: Intraday -5% on robotaxi glitches — recovered in 48h</li>
         </ul>
 
-        <div class="ta-summary">
-          The 30-day chart tells a compelling comeback story. Tesla entered April unwinding a brutal 32% correction from December 2025 highs, with sentiment at a low ebb. The bottom was set at $352 on April 17, and from there the stock has not looked back. Q1 earnings on April 22 were the inflection point &mdash; the 200-day moving average held as support, signalling that institutional investors stepped in decisively. The stock now trades well above all major moving averages &mdash; a &ldquo;golden stack&rdquo; configuration that tends to attract further institutional buying. The $460&ndash;$470 resistance band is the next key test; beyond that, the 52-week high of $498.83 comes into view.
+        <div class="analysis-summary">
+          Zoom out to the full month and Tesla's story is one of a sharp V-shaped recovery. The stock bottomed near $352 on April 17 before Q1 earnings on April 22 marked the definitive floor. From there, a near-straight-line 24%+ climb powered by robotaxi expansion, global FSD progress, and Musk's China diplomacy. The 200-day moving average near $383 held as institutional support — a classic bullish signal. Next key target: $460–$470; break above that and the Dec 2025 all-time high of $498 comes into view.
         </div>
       </div>
 
     </div>
-  </div>
-</section>
+  </section>
 
-<div class="divider"></div>
-
-<!-- OUTLOOK -->
-<section class="section">
-  <div class="wrap">
-    <div class="sec-head">
-      <span class="sec-tag">Outlook</span>
-      <h2 class="sec-title">Trends &amp; Outlook (3&ndash;6 Months)</h2>
+  <!-- TRENDS & OUTLOOK -->
+  <section class="section">
+    <div class="section-hdr">
+      <div class="section-dot"></div>
+      <h2>Trends &amp; Outlook (3–6 Months)</h2>
     </div>
-    <div class="outlook-grid">
 
-      <div class="card consensus-card">
-        <div class="c-lbl">Analyst Consensus</div>
-        <div class="c-val">Moderate Buy</div>
-        <div class="target-block">
-          <div class="t-lbl">Average Price Target</div>
-          <div class="t-val">$410</div>
-          <div class="t-range">Range: $125 &ndash; $600</div>
-        </div>
-        <div class="market-note">
-          TSLA trades at <strong>$449</strong>, which is <strong>9.5% above</strong> the average analyst target &mdash; meaning the market is pricing in AI and autonomy optionality beyond base fundamentals.
-        </div>
-      </div>
-
-      <div class="card outlook-detail">
-
+    <div class="outlook-card">
+      <div class="outlook-top">
         <div>
-          <div class="od-section-lbl">Upcoming Catalysts</div>
-          <ul class="catalyst-list">
-            <li><div class="cat-dot"></div>China FSD regulatory approval &mdash; Musk's Beijing visit could unlock hundreds of millions of potential subscribers</li>
-            <li><div class="cat-dot"></div>Q2 2026 delivery report (early July) &mdash; key test of whether volume recovery is durable post-correction</li>
-            <li><div class="cat-dot"></div>Optimus humanoid robot production reveal (July&ndash;August 2026) &mdash; targeting several thousand units by year-end</li>
-            <li><div class="cat-dot"></div>Multi-city robotaxi expansion to Phoenix, Miami, Orlando, Tampa, Las Vegas &mdash; 12 US states by year-end</li>
-            <li><div class="cat-dot"></div>AI5 inference chip rollout and Cybercab volume ramp at Gigafactory Texas</li>
+          <div class="outlook-stat-label">Analyst Consensus</div>
+          <div class="outlook-stat-value">Moderate Buy</div>
+          <div class="outlook-stat-sub">27% Strong Buy · 23% Buy · 35% Hold</div>
+        </div>
+        <div>
+          <div class="outlook-stat-label">Avg Price Target</div>
+          <div class="outlook-stat-value">$410</div>
+          <div class="outlook-stat-sub">Current: $449 — 8.5% above consensus</div>
+        </div>
+        <div>
+          <div class="outlook-stat-label">Target Range</div>
+          <div class="outlook-stat-value">$125–$600</div>
+          <div class="outlook-stat-sub">Bear: $125 · Bull: $600 (Wedbush)</div>
+        </div>
+      </div>
+
+      <div class="outlook-cols">
+        <div>
+          <div class="outlook-list-title">Key Catalysts</div>
+          <ul class="outlook-list catalysts">
+            <li>China FSD regulatory approval (Q3 2026 expected) — hundreds of millions of potential subscribers</li>
+            <li>Q2 2026 delivery report (early July) — demand recovery test</li>
+            <li>Q2 2026 earnings (July 29) — focus on first robotaxi revenue disclosure</li>
+            <li>Optimus production reveal &amp; initial ramp (July–Aug 2026)</li>
+            <li>Robotaxi expansion to Phoenix, Miami, Orlando, Tampa, Las Vegas — 12 states by year-end</li>
           </ul>
         </div>
-
         <div>
-          <div class="od-section-lbl">Macro &amp; Sector Factors</div>
-          <ul class="macro-list">
-            <li><div class="macro-dot"></div>US-China trade tensions: ongoing tariff negotiations affect Tesla's supply chain costs and the FSD approval timeline</li>
-            <li><div class="macro-dot"></div>Federal Reserve interest rate policy: a high-rate environment pressures Tesla's elevated valuation and EV loan affordability</li>
-            <li><div class="macro-dot"></div>Intensifying EV competition from BYD, NIO, and legacy automakers accelerating EV programs globally</li>
+          <div class="outlook-list-title">Macro Risks</div>
+          <ul class="outlook-list macro">
+            <li>US-China trade tensions &amp; tariffs affecting supply chain and FSD approval timing</li>
+            <li>Federal Reserve rate policy weighing on Tesla's ~400x trailing P/E valuation</li>
+            <li>Intensifying EV competition from BYD, NIO, and legacy automakers globally</li>
           </ul>
         </div>
+      </div>
 
-        <div class="outlook-summary">
-          Tesla at $449 now trades above the average Wall Street price target of &sim;$410, meaning the market is pricing in significant optionality from AI, autonomous driving, and humanoid robotics. The bull case &mdash; anchored by Wedbush's $600 target &mdash; envisions Tesla becoming the world's dominant autonomous mobility platform, with Optimus adding a potential trillion-dollar robotics business on top. The bear case, led by GLJ Research at $125, argues that the elevated trailing P/E is utterly disconnected from near-term fundamentals and that robotaxi and Optimus face multi-year execution risk. The next 3&ndash;6 months are a critical &ldquo;show me&rdquo; window: the market needs sequential robotaxi revenue growth, Optimus production proof points, and ideally a China FSD green light to justify the premium. Key risks include a robotaxi safety incident triggering regulatory action, battery supply constraints capping Cybercab production, and Musk's divided attention across multiple ventures.
-        </div>
-
+      <div class="outlook-summary">
+        Tesla at ~$449 trades above the average analyst price target of ~$410, meaning the market is pricing in significant optionality from AI, robotaxi, and Optimus. The bull case of $600 (Wedbush) envisions Tesla dominating autonomous mobility plus a humanoid robotics empire. The bear case ($125, GLJ Research) argues the valuation is completely disconnected from near-term fundamentals. The next 3–6 months are a critical "show me" period: the market needs execution proof — more city launches, sustained automotive gross margins above 20%, and ideally first disclosed robotaxi revenue in Q2 results — to justify current levels and push toward all-time highs. Key risks include Panasonic battery delays on Cybercab, a potential robotaxi safety incident triggering a regulatory pause, and Elon Musk's divided attention across multiple ventures.
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- FOOTER -->
+</main>
+
+<!-- ── FOOTER ── -->
 <footer class="footer">
-  <div class="footer-brand">
-    <svg viewBox="0 0 342 512" width="14" height="14" fill="#e31937" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-      <path d="M0 50.5C57.3 66.3 96 95.7 104.6 128H237.4C246 95.7 284.7 66.3 342 50.5c-2.3-16.8-5.5-33-8.4-50.5H8.4C5.5 17.5 2.3 33.7 0 50.5zM171 480L96.4 128h149.2L171 480z"/>
-    </svg>
-    <span class="footer-txt">Generated by Claude Code Routine &nbsp;&middot;&nbsp; May 15, 2026</span>
-  </div>
-  <span class="footer-disclaimer">
-    For informational purposes only. Not financial advice. Data sourced from public market information.
-    Always conduct your own research before making investment decisions.
-  </span>
+  <p><span class="brand">Generated by Claude Code Routine</span> · May 15, 2026</p>
+  <p>For informational purposes only. Not financial advice. Data sourced from public web searches.</p>
+  <p>Sources: Invezz · FX Leaders · The Motley Fool · 24/7 Wall St. · Piper Sandler · Tesla IR · CNBC · Electrek</p>
 </footer>
 
-<!-- SCRIPTS -->
 <script>
-  var DATA = {
+  const DATA = {
     price_chart: [
       { date: "May 04", close: 404.00, color: "red" },
       { date: "May 05", close: 399.00, color: "red" },
@@ -943,40 +941,42 @@
   };
 
   (function() {
-    var canvas = document.getElementById('priceChart');
-    if (!canvas) return;
-    var ctx = canvas.getContext('2d');
+    const labels = DATA.price_chart.map(d => d.date);
+    const prices = DATA.price_chart.map(d => d.close);
 
-    var labels = DATA.price_chart.map(function(d) { return d.date; });
-    var closes = DATA.price_chart.map(function(d) { return d.close; });
-    var pointColors = DATA.price_chart.map(function(d) { return d.color === 'green' ? '#30d990' : '#f16a6a'; });
+    const GREEN = '#30d990';
+    const RED   = '#f16a6a';
+    const GREY  = 'rgba(126,132,153,0.4)';
 
-    var minVal = Math.min.apply(null, closes) - 18;
-    var maxVal = Math.max.apply(null, closes) + 18;
+    const pointBg  = DATA.price_chart.map(d => d.color === 'green' ? GREEN : RED);
+    const pointBdr = pointBg;
 
-    var gradient = ctx.createLinearGradient(0, 0, 0, 260);
-    gradient.addColorStop(0, 'rgba(227,25,55,0.20)');
-    gradient.addColorStop(0.6, 'rgba(227,25,55,0.05)');
-    gradient.addColorStop(1, 'rgba(227,25,55,0.00)');
+    const gradientPlugin = {
+      id: 'lineGradient',
+      beforeDatasetsDraw(chart) {}
+    };
+
+    const ctx = document.getElementById('priceChart').getContext('2d');
+    const grad = ctx.createLinearGradient(0, 0, 0, 220);
+    grad.addColorStop(0, 'rgba(227,25,55,0.18)');
+    grad.addColorStop(1, 'rgba(227,25,55,0.00)');
 
     new Chart(ctx, {
       type: 'line',
       data: {
-        labels: labels,
+        labels,
         datasets: [{
-          data: closes,
+          label: 'TSLA Close',
+          data: prices,
           borderColor: '#e31937',
-          borderWidth: 2.5,
-          backgroundColor: gradient,
-          fill: true,
+          borderWidth: 2,
+          pointBackgroundColor: pointBg,
+          pointBorderColor: pointBdr,
+          pointRadius: 5,
+          pointHoverRadius: 7,
           tension: 0.35,
-          pointRadius: 6,
-          pointHoverRadius: 9,
-          pointBackgroundColor: pointColors,
-          pointBorderColor: pointColors,
-          pointBorderWidth: 0,
-          pointHoverBorderColor: '#fff',
-          pointHoverBorderWidth: 2
+          fill: true,
+          backgroundColor: grad
         }]
       },
       options: {
@@ -986,54 +986,46 @@
         plugins: {
           legend: { display: false },
           tooltip: {
-            backgroundColor: '#1c1f27',
-            borderColor: '#2e323d',
+            backgroundColor: '#131720',
+            borderColor: '#242938',
             borderWidth: 1,
-            titleFont: { family: "'IBM Plex Mono', monospace", size: 11, weight: '400' },
-            bodyFont: { family: "'IBM Plex Mono', monospace", size: 14, weight: '600' },
-            titleColor: '#7e8290',
+            titleColor: '#7e8499',
             bodyColor: '#e8eaed',
-            padding: 14,
+            titleFont: { family: "'IBM Plex Mono', monospace", size: 11 },
+            bodyFont: { family: "'IBM Plex Mono', monospace", size: 12, weight: '600' },
+            padding: 10,
             displayColors: false,
             callbacks: {
-              title: function(items) { return items[0].label; },
-              label: function(item) {
-                var val = item.parsed.y;
-                var idx = item.dataIndex;
-                var colorLabel = DATA.price_chart[idx].color;
-                var arrow = colorLabel === 'green' ? '▲' : '▼';
-                return ' ' + arrow + '  $' + val.toFixed(2);
+              title: items => items[0].label,
+              label: item => {
+                const d = DATA.price_chart[item.dataIndex];
+                const arrow = d.color === 'green' ? '▲' : '▼';
+                return `${arrow} $${item.raw.toFixed(2)}`;
               }
             }
           }
         },
         scales: {
           x: {
-            grid: { color: 'rgba(37,40,48,0.7)', drawBorder: false },
+            grid: { color: 'rgba(36,41,56,0.6)', drawBorder: false },
             ticks: {
-              color: '#7e8290',
-              font: { family: "'IBM Plex Mono', monospace", size: 11 },
-              maxRotation: 0
-            },
-            border: { color: 'transparent' }
+              color: '#7e8499',
+              font: { family: "'IBM Plex Mono', monospace", size: 10 }
+            }
           },
           y: {
-            min: minVal,
-            max: maxVal,
             position: 'right',
-            grid: { color: 'rgba(37,40,48,0.7)', drawBorder: false },
+            grid: { color: 'rgba(36,41,56,0.6)', drawBorder: false },
             ticks: {
-              color: '#7e8290',
-              font: { family: "'IBM Plex Mono', monospace", size: 11 },
-              callback: function(v) { return '$' + v.toFixed(0); }
-            },
-            border: { color: 'transparent' }
+              color: '#7e8499',
+              font: { family: "'IBM Plex Mono', monospace", size: 10 },
+              callback: v => '$' + v.toFixed(0)
+            }
           }
         }
       }
     });
   })();
 </script>
-
 </body>
 </html>
