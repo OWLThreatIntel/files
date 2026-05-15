@@ -352,6 +352,43 @@
         { "date": "May 14", "close": 443.30, "color": "green" },
         { "date": "May 15", "close": 449.13, "color": "green" }
       ]
+    },
+    {
+      "date": "2026-05-15",
+      "generated_at": "2026-05-15T16:30:00+08:00",
+      "price_now": "$449.13",
+      "change_today": "+1.31%",
+      "change_today_positive": true,
+      "market_cap": "$1.46T",
+      "week_52_high": "$498.83",
+      "week_52_low": "$273.21",
+      "volume": "95.8M",
+      "news": {
+        "sentiment_label": "Bullish",
+        "sentiment_summary": "Tesla's sentiment in mid-May 2026 is firmly bullish, driven by three converging catalysts: a decisive Q1 earnings beat in April, an accelerating robotaxi rollout now covering Dallas and Houston, and high-level diplomatic momentum around China FSD regulatory approval following Elon Musk's state visit to Beijing alongside President Trump. The stock has surged over 24% in the past 30 days.",
+        "items": [
+          { "headline": "Musk Joins Trump's Beijing Visit — China FSD Approval Could Be a Game-Changer", "source": "Invezz", "date": "2026-05-14", "sentiment": "bullish" },
+          { "headline": "Tesla Q1 2026 Earnings Beat: EPS $0.41, Gross Margin 21.1%, FSD Subs +51% YoY", "source": "Tesla IR / CNBC", "date": "2026-04-22", "sentiment": "bullish" },
+          { "headline": "Piper Sandler: Tesla Worth $400 Without Optimus — Robot Business Is 'Free'", "source": "Piper Sandler", "date": "2026-05-11", "sentiment": "bullish" },
+          { "headline": "Tesla Sinks 5% Intraday on Robotaxi Glitches and Battery Delay Reports", "source": "24/7 Wall St.", "date": "2026-05-12", "sentiment": "bearish" },
+          { "headline": "Robotaxi Expansion Accelerates: Dallas & Houston Live — Five More Cities Queued", "source": "The Motley Fool", "date": "2026-05-13", "sentiment": "bullish" }
+        ]
+      },
+      "analysis_7d": { "price_start": "$397.00", "price_end": "$449.13", "change_pct": "+13.1%", "trend": "uptrend" },
+      "analysis_30d": { "price_start": "$360.00", "price_end": "$449.13", "change_pct": "+24.8%", "trend": "uptrend" },
+      "outlook": { "analyst_consensus": "Moderate Buy", "avg_price_target": "$410", "target_range": "$125 – $600" },
+      "price_chart": [
+        { "date": "May 04", "close": 404.00, "color": "red" },
+        { "date": "May 05", "close": 399.00, "color": "red" },
+        { "date": "May 06", "close": 397.00, "color": "red" },
+        { "date": "May 07", "close": 398.94, "color": "green" },
+        { "date": "May 08", "close": 428.50, "color": "green" },
+        { "date": "May 11", "close": 445.00, "color": "green" },
+        { "date": "May 12", "close": 433.45, "color": "red" },
+        { "date": "May 13", "close": 445.27, "color": "green" },
+        { "date": "May 14", "close": 443.30, "color": "red" },
+        { "date": "May 15", "close": 449.13, "color": "green" }
+      ]
     }
   ]
 }
