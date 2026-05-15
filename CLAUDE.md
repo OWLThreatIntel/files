@@ -43,8 +43,15 @@ Each run, you must complete these steps **in order**:
 - Write an outlook paragraph (4–5 sentences)
 
 ### 5. Price Chart Data
-- Collect the last 10 trading days of TSLA closing prices with dates
-- For each day include: date, close price, whether it closed up or down vs previous day (color: "green" / "red")
+- Collect the last 10 trading days of TSLA **confirmed closing prices** with dates
+- **Use only official closing prices** — not intraday quotes, pre-market, or after-hours prices.
+  Phrases like "trading at", "current price", or "last price" in search results may be
+  intraday snapshots; prefer sources that explicitly say "close" or "closing price".
+- If today's market session is still open, use the previous session's confirmed close as
+  `price_now` and note it as such. Do not use a live quote as the closing price.
+- Cross-check `price_now` against at least two independent sources before using it.
+  If sources disagree by more than $2, pick the lower/more conservative figure and flag
+  the discrepancy in the `notes` field.
 
 ---
 
@@ -173,3 +180,9 @@ git push origin main
 - Keep summaries factual, balanced, and in plain English
 - The HTML must render correctly when opened directly as a file or served from GitHub Pages
 - This is for informational purposes only, not financial advice
+- **Do not inherit numbers from existing files.** The data in `tsla-latest.json` or
+  `tsla-history.json` may be from a previous run and should be treated as stale.
+  Always source `price_now` and chart prices from fresh web searches for this run.
+- **Distinguish intraday from close.** If a search result says "TSLA is trading at X"
+  without specifying it is a closing price, treat it as an intraday quote and keep
+  searching for the confirmed official close.
