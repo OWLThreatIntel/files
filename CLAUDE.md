@@ -394,11 +394,10 @@ git push origin main
 ---
 
 ## Golden Rules
-
 - **Never invent numbers.** If you cannot find a data point after two searches, use `null`.
 - **Never reuse numbers from existing files.** Previous files are stale — always search fresh.
-- **Always use confirmed closing prices.** "Trading at" = intraday quote = not a close. Keep searching until you find an official close.
-- **Cross-check price across at least two sources** before using it.
+- **Never use a price tagged as "trading at", "current price", or "intraday"** as the closing price. Only accept prices explicitly confirmed as "close", "closing price", or "previous close".
+- When cross-checking, search specifically for "TSLA confirmed closing price [date]" and require at least two independent sources to agree before using a number.
 - **Write everything in plain English.** If you use a technical term, explain it immediately in simple words.
 - **The recommendation must be data-driven.** Use the scoring guide. Show your bullish vs bearish signal count.
 - **Always include the disclaimer** wherever the recommendation appears — both in the JSON and prominently in the HTML.
