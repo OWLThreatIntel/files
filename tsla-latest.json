@@ -1,203 +1,201 @@
 {
-  "generated_at": "2026-05-15T23:30:00+08:00",
-  "date": "2026-05-15",
-  "price_now": "$443.30",
-  "change_today": "-0.44%",
+  "generated_at": "2026-05-16T08:00:00+08:00",
+  "date": "2026-05-16",
+  "price_now": "$424.45",
+  "change_today": "-4.25%",
   "change_today_positive": false,
-  "market_cap": "$1.42T",
+  "market_cap": "$1.36T",
   "week_52_high": "$498.83",
   "week_52_low": "$273.21",
-  "volume_today": "45.2M",
-  "volume_avg_30d": "60.3M",
+  "volume_today": "52.1M",
+  "volume_avg_30d": "59.8M",
   "volume_vs_avg": "below average",
   "next_earnings_date": "2026-07-22",
-  "notes": "Using confirmed May 14, 2026 closing price. May 15 US market open intraday with trading near $449.",
+  "notes": "Minor price discrepancy across sources (−3.73% to −4.80% reported); confirmed lower close of $424.45 used per GuruFocus. Previous confirmed close: $443.30 (May 14).",
 
   "news": {
-    "sentiment_label": "Cautiously Bullish",
-    "sentiment_summary": "Tesla's story in mid-May 2026 is one of a dramatic recovery — the stock has surged more than 22% from its April 14 lows, powered by a solid Q1 2026 earnings beat, an accelerating robotaxi rollout now covering Dallas and Houston, and high-stakes diplomatic momentum around China FSD regulatory approval as Elon Musk joins Trump's Beijing state visit. The mood is bullish but not euphoric: the stock is now trading above the average analyst price target of $407, meaning expectations are high and execution must deliver. Operational hiccups in the robotaxi program (long wait times and trip cancellations in Dallas and Houston) and Panasonic battery supply constraints are the main near-term concerns keeping some investors cautious.",
+    "sentiment_label": "Moderately Bearish",
+    "sentiment_summary": "Tesla's mood took a sharp negative turn on May 15, 2026, as three regulatory and operational headwinds hit simultaneously: the US auto safety regulator escalated its Full Self-Driving probe to 3.2 million vehicles, Tesla disclosed two Robotaxi crashes involving remote teleoperators to safety regulators, and an Australian court warned Tesla of severe consequences for stonewalling a vehicle-defects lawsuit. The stock fell 4.25% — its worst single-day drop in weeks. Sentiment on Reddit and financial forums has tilted bearish, with the composite sentiment index at 40.83, down 17 points over the past 30 days. The underlying robotaxi expansion story remains real (39 vehicles running, Cybercab production started), but investor patience with execution failures is thinning ahead of the Q2 earnings test in July.",
     "items": [
       {
-        "headline": "Tesla Surges Toward $445 — China Growth, Strong Q1 Earnings, and Robotaxi Hype Fuel Momentum",
-        "summary": "Tesla shares continued their powerful recovery rally heading into mid-May, propelled by three big themes: a Q1 2026 earnings beat, rapid robotaxi fleet expansion now covering Dallas and Houston, and growing optimism that Elon Musk's trip to Beijing with President Trump will unlock Full Self-Driving software approval in China — potentially the company's largest untapped software market. The stock is approaching its best levels since March 2026.",
-        "source": "FX Leaders",
-        "date": "2026-05-14",
-        "sentiment": "bullish"
+        "headline": "NHTSA Escalates Full Self-Driving Safety Probe to 3.2 Million Tesla Vehicles",
+        "summary": "The US auto safety regulator (NHTSA — the government watchdog that oversees vehicle safety recalls) escalated its investigation into Tesla's Full Self-Driving software across 3.2 million vehicles, citing concerns the system may fail to detect or warn drivers in poor visibility conditions like fog, heavy rain, or direct sunlight glare. If the probe leads to a formal recall, Tesla would face enormous repair costs and a direct threat to its most valuable future revenue story.",
+        "source": "Reuters / NHTSA",
+        "date": "2026-05-15",
+        "sentiment": "bearish"
       },
       {
-        "headline": "Here's When Tesla's Robotaxi Rollout Will Really Ramp Up",
-        "summary": "The Motley Fool examined Tesla's robotaxi expansion timeline, noting the fleet has grown from just 9 to 39 unsupervised vehicles in under six weeks. Future launches are queued for Phoenix, Miami, Orlando, Tampa, and Las Vegas, with a target of 12 US states covered by year-end 2026 — a pace that is outrunning the expectations of many sceptics who doubted Tesla's ability to scale autonomous operations.",
-        "source": "The Motley Fool",
-        "date": "2026-05-14",
-        "sentiment": "bullish"
+        "headline": "Tesla Discloses Two Robotaxi Crashes Involving Teleoperators to Safety Regulators",
+        "summary": "Newly unredacted documents filed with NHTSA confirmed that Tesla's Robotaxis crashed at least twice since July 2025 while being remotely controlled by human teleoperators — employees who take over steering remotely when the autonomous system gets confused. The incidents had been buried in regulatory filings but surfaced via a public records request. The disclosure raises immediate safety and liability questions about the commercial Robotaxi service.",
+        "source": "TechCrunch",
+        "date": "2026-05-15",
+        "sentiment": "bearish"
       },
       {
-        "headline": "Tesla Sinks 5% Intraday as Musk Heads to China; Robotaxi Glitches and Battery Delays Surface",
-        "summary": "Shares fell as much as 5% intraday on May 12, settling down 2.6% at $433.45, after reports of long wait times and trip cancellations in the Dallas and Houston robotaxi zones emerged. Panasonic battery supply constraints are also throttling Cybercab and Tesla Semi production ramps. The stock recovered fully within two sessions — a sign that buyers are treating dips as entry points.",
-        "source": "24/7 Wall St.",
+        "headline": "Australian Court Warns Tesla Over Non-Cooperation in Vehicle Defects Lawsuit",
+        "summary": "An Australian court hearing a class-action lawsuit about alleged Tesla vehicle defects — including phantom braking (the car suddenly stopping for no visible reason), misleading battery range claims, and overstated autonomous capabilities — sharply criticized Tesla for barely cooperating with the legal discovery process. The judge issued a public warning of severe consequences if Tesla continues withholding evidence from plaintiffs and the court.",
+        "source": "Reuters Australia",
+        "date": "2026-05-15",
+        "sentiment": "bearish"
+      },
+      {
+        "headline": "Tesla Robotaxi Shows Serious Reliability Problems in Texas City Tests",
+        "summary": "Reuters journalists testing Tesla's Robotaxi service across Dallas, Houston, and Austin found alarming reliability gaps: in one documented case in Dallas, a ride that should have taken 20 minutes took nearly two hours due to wrong drop-off points, long wait times, and basic navigation failures. The findings raise serious questions about whether the service is genuinely ready to scale to more cities and handle real commercial volumes.",
+        "source": "Reuters / Electrek",
         "date": "2026-05-12",
         "sentiment": "bearish"
       },
       {
-        "headline": "Tesla Stock Slips Ahead of Musk's Trip to China with Trump Trade Delegation",
-        "summary": "TSLA dipped briefly on May 13 as traders grew cautious ahead of Elon Musk's high-profile Beijing visit as part of President Trump's official state trade delegation. Key-person risk concerns — Musk runs Tesla, SpaceX, and DOGE simultaneously — weighed on sentiment, though bulls argue the China FSD approval opportunity more than offsets the short-term distraction risk.",
-        "source": "Yahoo Finance",
-        "date": "2026-05-13",
-        "sentiment": "bearish"
-      },
-      {
-        "headline": "Finally, Some Good News for Tesla Investors — Q1 2026 Earnings Beat Wall Street",
-        "summary": "Tesla reported Q1 2026 EPS of $0.41 versus the $0.36 consensus estimate, with revenue of $22.39B (up 16% year-over-year). Automotive gross margin recovered sharply to 21.1% — the highest in over a year — and FSD active subscriptions grew 51% year-over-year to 1.28 million. The beat broke a streak of disappointing quarters and reignited the bull case for the autonomy story.",
-        "source": "The Motley Fool / Tesla IR",
-        "date": "2026-05-03",
+        "headline": "Tesla Starts Cybercab Production at Giga Texas; Robotaxi Fleet Grows to 39 Vehicles",
+        "summary": "On a positive note, Tesla confirmed volume production of its purpose-built Cybercab at Gigafactory Texas, with units spotted being transported by Tesla Semi trucks for the first time. The unsupervised robotaxi fleet grew rapidly from 9 vehicles in early April to 39 by mid-May. Five more US cities (Phoenix, Miami, Orlando, Tampa, Las Vegas) are in the launch queue, with a target of 12 states covered by year-end 2026.",
+        "source": "Bloomberg / TechXplore",
+        "date": "2026-05-08",
         "sentiment": "bullish"
       }
     ]
   },
 
   "analysis_7d": {
-    "price_start": "$397.00",
-    "price_end": "$443.30",
+    "price_start": "$398.94",
+    "price_end": "$424.45",
     "period_high": "$445.27",
-    "period_low": "$397.00",
-    "change_pct": "+11.7%",
-    "trend": "uptrend",
-    "rsi": 62.4,
-    "rsi_label": "Healthy momentum — room to run before hitting overbought territory",
+    "period_low": "$398.94",
+    "change_pct": "+6.4%",
+    "trend": "uptrend with sharp late-week pullback",
+    "rsi": 46.2,
+    "rsi_label": "Neutral — momentum has cooled from last week's near-overbought highs",
     "rsi_color": "green",
-    "macd_signal": "Bullish — MACD line above signal line, buying momentum confirmed",
-    "ma_5d": "$445.20",
+    "macd_signal": "Bearish crossover forming — buying momentum is fading after May 15 sell-off",
+    "ma_5d": "$438.30",
     "ma_5d_position": "below",
     "ma_50d": "$416.75",
     "ma_50d_position": "above",
     "ma_200d": "$383.23",
     "ma_200d_position": "above",
-    "ma_cross_status": "Golden Cross — 50-day average ($416.75) sits above 200-day average ($383.23), a long-term bullish signal",
-    "bollinger_position": "Upper half — price approaching upper band near $450, running warm but not extreme",
-    "volume_trend": "Below average — 45.2M vs 60.3M 30-day average, modest lack of conviction on Thursday's slight dip",
+    "ma_cross_status": "Golden Cross — 50-day average ($416.75) sits above 200-day average ($383.23), a long-term bullish alignment",
+    "bollinger_position": "Near lower band — price dropped to the bottom of the Bollinger channel after Friday's sell-off, historically a short-term bounce zone",
+    "volume_trend": "Below average — 52.1M vs 59.8M 30-day average; the sell-off on lighter volume slightly reduces its conviction",
     "technical_signals": [
-      "Price above 50-day and 200-day moving averages — medium and long-term trends both pointing up",
-      "Golden Cross in place — the 50-day average ($416.75) is well above the 200-day ($383.23), a bullish structural signal",
-      "RSI at 62.4 — sitting comfortably in the 40–70 healthy zone, with room to climb before getting overheated",
-      "MACD bullish crossover confirmed — momentum is building in the buyers' favour",
-      "Minor caution: price is fractionally below the 5-day moving average ($445.20), suggesting a short-term pause after the week's run"
+      "Price above 50-day and 200-day moving averages — medium and long-term trend still intact",
+      "Price fell below the 5-day moving average ($438.30) after Friday's 4.25% drop — short-term momentum broken",
+      "RSI at 46.2 — neutral territory, down from near 70 last week; the speedometer has slowed",
+      "MACD forming early bearish crossover — the buying pressure from the May 8 surge is now fading",
+      "Price near the lower Bollinger Band (~$424) — a level that has historically attracted short-term buyers looking for a bounce"
     ],
-    "summary": "Tesla had a strong seven-day run, gaining nearly 12% from the $397 range to $443. The highlight was a powerful surge through $428 on May 8, driven by robotaxi expansion news and improved sentiment after the Q1 2026 earnings beat. A brief 2.6% pullback on May 12 — triggered by reports of robotaxi glitches and Musk's China trip — was absorbed within two sessions, a healthy sign that buyers are treating dips as opportunities. Think of it like a hiker who stumbled briefly on a rock but kept moving uphill. The RSI at 62.4 is like a runner at mile 8 of a 10-mile race — still strong and in rhythm, not gasping. The Golden Cross remains intact, meaning the longer-term structural picture is positive. The only mild caution is the price slipping just below its 5-day average after Thursday's close, suggesting a brief pause before the next directional move."
+    "summary": "Tesla started the week powerfully, surging from $398.94 on May 7 to a peak of $445.27 on May 13 — an 11.6% run driven by robotaxi expansion news and post-earnings momentum. But the week ended badly: a flood of negative regulatory and operational headlines on Friday triggered a 4.25% single-day sell-off, wiping out three days of gains in one session. The RSI speedometer has fallen from near-overbought 70 down to a neutral 46 — think of a sprinter who ran hard all week and then tripped near the finish line. The 50-day and 200-day moving averages remain supportive below the current price, but the short-term picture has turned cloudy and needs a few more days to clarify direction."
   },
 
   "analysis_30d": {
-    "price_start": "$362.00",
-    "price_end": "$443.30",
-    "period_high": "$452.00",
+    "price_start": "$372.00",
+    "price_end": "$424.45",
+    "period_high": "$445.27",
     "period_low": "$352.08",
-    "change_pct": "+22.5%",
+    "change_pct": "+14.1%",
     "trend": "uptrend",
     "key_levels": {
-      "support": "$420",
-      "support_reason": "The $420–$430 zone held twice as buyers stepped in strongly after dips — this is the 'trampoline' the bulls are defending",
-      "resistance": "$450",
-      "resistance_reason": "Price has approached $450 multiple times without sustained follow-through — sellers are active near the upper Bollinger Band around this level"
+      "support": "$400–416",
+      "support_reason": "The $400 zone converted from resistance to support in late April as buyers repeatedly stepped in here; the 50-day moving average at $416.75 provides additional mechanical support — each time the stock has approached this level in recent weeks, buyers have stepped in",
+      "resistance": "$445–450",
+      "resistance_reason": "Sellers emerged forcefully twice near this zone — stock hit $445.27 on May 13 before failing, and was repelled near $445 on May 11 as well; this price zone is a well-established ceiling that needs to be cleared on strong volume to matter"
     },
     "ma_50d": "$416.75",
     "ma_50d_position": "above",
     "ma_200d": "$383.23",
     "ma_200d_position": "above",
-    "rsi": 62.4,
-    "rsi_label": "Neutral to bullish — healthy and in the sweet spot",
+    "rsi": 46.2,
+    "rsi_label": "Neutral — momentum has moderated meaningfully from the week's peak",
     "rsi_color": "green",
-    "macd_signal": "Bullish — momentum turned positive in late April and has held throughout May",
+    "macd_signal": "Bearish — momentum indicators showing fatigue after the week-long rally",
     "notable_events": [
-      "Apr 14: TSLA near $362 — bottom of a 32% correction from December 2025 all-time highs",
-      "Apr 17: TSLA hits $352.08 — lowest level since September 2025",
-      "Apr 22: Q1 2026 earnings beat (EPS $0.41 vs $0.36) triggers V-shaped recovery; 200-day MA holds as institutional support",
-      "May 8: Major single-session surge (+7.4%) through April highs — breakout confirmed on volume",
-      "May 11: Musk China trip confirmed + Piper Sandler 'Optimus is free' note — combined +4% catalyst",
-      "May 12: Intraday -5% on robotaxi glitches and battery delay reports — recovered within 48 hours",
-      "May 13–14: Consolidation above $440 as Musk departs for Beijing state visit"
+      "Apr 17: TSLA hits $352.08 — cycle low, lowest since September 2025",
+      "Apr 22: Q1 2026 earnings beat (EPS $0.41 vs $0.36 est.) triggers V-shaped recovery; 200-day MA holds as support",
+      "May 8: Major +7.4% single-session surge through April highs; Cybercab production begins at Giga Texas",
+      "May 11: Elon Musk joins Trump's Beijing state visit — China FSD approval hopes spark +4%",
+      "May 13: Stock hits 30-day high of $445.27, then stalls at resistance",
+      "May 15: Triple shock (NHTSA FSD probe escalation + Robotaxi crash disclosures + Australian lawsuit) → −4.25% single day"
     ],
-    "summary": "Zoom out to the full 30 days and Tesla's story is a textbook V-shaped recovery. The stock entered mid-April near its lowest levels since September 2025, still unwinding a 32% correction from December 2025 all-time highs near $499. The April 22 Q1 earnings report marked the turning point: EPS beat by 14%, gross margins recovered to 21.1%, and FSD subscriptions were up 51% year-over-year. From there, a near-straight-line climb of 22%+ unfolded over three weeks, fuelled by robotaxi fleet expansion, China diplomatic momentum, and key analyst notes reframing Tesla as an AI and robotics company rather than just a car maker. A critical technical milestone came when the 200-day moving average (the long-term trend barometer, sitting near $383) was tested right after earnings and held firm — a classic sign that long-term investors stepped in decisively. The $450–$460 zone is now the key test: clearing it convincingly on strong volume would open the door toward the all-time high territory near $499."
+    "summary": "Zoom out to the full month and Tesla's story has been a dramatic V-shaped recovery followed by a sharp Friday reversal. Starting from the April 17 cycle low of $352, the stock climbed 26% to reach $445 by May 13 — a powerful three-week rally driven by a Q1 earnings beat, Cybercab production launch, and robotaxi fleet expansion. But Friday's triple regulatory and operational shock reminded investors that the self-driving dream still carries serious execution risks. The stock now sits roughly $8 above the 50-day moving average ($416.75) — that moving average is like a trampoline: each time the stock has approached it this year, buyers have stepped in. Whether that holds as support over the coming week will be the key test of whether the April-to-May recovery story remains intact."
   },
 
   "outlook": {
-    "analyst_consensus": "Moderate Buy",
+    "analyst_consensus": "Hold",
     "analyst_buy_count": 16,
     "analyst_hold_count": 11,
     "analyst_sell_count": 5,
-    "avg_price_target": "$407",
+    "avg_price_target": "$403.59",
     "median_price_target": "$400",
     "high_price_target": "$600",
-    "high_price_target_firm": "Wedbush",
-    "low_price_target": "$24.86",
+    "high_price_target_firm": "Wedbush (Dan Ives, April 23, 2026)",
+    "low_price_target": "$115",
     "low_price_target_firm": "GLJ Research",
-    "recent_rating_change": "Morgan Stanley downgraded TSLA citing stretched valuation (May 2026); UBS maintained Neutral on April 23",
+    "recent_rating_change": "Goldman Sachs cut price target from $405 to $375, maintained Hold rating (May 2026)",
     "next_earnings_date": "2026-07-22",
     "next_earnings_eps_estimate": "$0.42",
     "next_earnings_revenue_estimate": "$24.52B",
     "catalysts": [
       {
-        "event": "China FSD Regulatory Approval",
-        "timing": "Expected Q3 2026 (possibly July)",
-        "impact": "bullish potential",
-        "detail": "Musk's Beijing state visit with Trump is seen as the clearest opportunity yet to unlock Full Self-Driving approval in China. Approval would open a software subscription business in the world's largest EV market — a potential multi-billion dollar annual revenue stream that could materially re-rate the stock."
-      },
-      {
         "event": "Q2 2026 Earnings Report",
         "timing": "July 22, 2026",
         "impact": "bullish potential",
-        "detail": "Analysts expect EPS of $0.42 and revenue of $24.52B. The key question is whether automotive gross margins can hold above 20% and whether Tesla will disclose robotaxi revenue for the first time — either outcome could be a significant catalyst."
+        "detail": "Analysts expect EPS of $0.42 and revenue of $24.52B — modest growth from Q1. The real focus: will Tesla disclose the first meaningful robotaxi revenue? Even a small figure could spark a significant re-rating of the stock if it proves the business model is real and scaling."
       },
       {
-        "event": "Robotaxi Multi-City Expansion (Phoenix, Miami, Orlando, Tampa, Las Vegas)",
-        "timing": "Q2–Q3 2026",
-        "impact": "bullish potential",
-        "detail": "Each new city launch validates the autonomous technology and expands the revenue base. The fleet has grown from 9 to 39 vehicles in six weeks — the pace of scaling is the key variable investors are tracking."
-      },
-      {
-        "event": "Optimus Humanoid Robot Production Reveal",
-        "timing": "July–August 2026",
-        "impact": "bullish potential",
-        "detail": "Tesla plans to reveal first-generation Optimus factory production at Fremont in mid-2026, targeting thousands of units by year-end. Credible production numbers could unlock significant valuation upside as the market starts pricing in a real robotics business."
-      },
-      {
-        "event": "Cybercab Volume Ramp at Gigafactory Texas",
-        "timing": "H2 2026",
+        "event": "NHTSA FSD Investigation Outcome",
+        "timing": "Unknown — could be several months",
         "impact": "bearish risk",
-        "detail": "Panasonic battery supply constraints are currently the gating factor on Cybercab volume production. Any significant delay would disappoint market expectations and could trigger a meaningful sell-off in the shares."
+        "detail": "The escalated probe into 3.2 million FSD-equipped Teslas is the biggest near-term regulatory wildcard. A formal recall order or FSD software restriction would directly undermine Tesla's most important long-term revenue story and could trigger a large sell-off."
+      },
+      {
+        "event": "China FSD Regulatory Approval",
+        "timing": "Q3 2026 (estimated)",
+        "impact": "bullish potential",
+        "detail": "Elon Musk's May Beijing visit with President Trump is a major attempted catalyst. FSD approval in China could unlock hundreds of millions of potential subscribers in the world's largest auto market — a multi-billion dollar annual software revenue opportunity."
+      },
+      {
+        "event": "Robotaxi Expansion to New US Cities",
+        "timing": "June–August 2026",
+        "impact": "bullish potential",
+        "detail": "Tesla is preparing Robotaxi launches in Phoenix, Miami, Orlando, Tampa, and Las Vegas. Each successful new city launch validates that the operational problems seen in Dallas are being resolved and builds the case that the service can scale nationally."
+      },
+      {
+        "event": "Cybercab Volume Production Ramp",
+        "timing": "H2 2026",
+        "impact": "bullish potential",
+        "detail": "Tesla has started Cybercab production at Giga Texas with a long-term target of 2 million units per year. A confirmed large-scale production ramp with concrete delivery numbers would be a major catalyst — especially if Panasonic battery supply constraints are resolved."
       }
     ],
     "macro_factors": [
       {
-        "factor": "US-China Trade Tensions and Tariff Policy",
+        "factor": "US Interest Rate Environment",
         "impact": "bearish",
-        "detail": "Ongoing tariff negotiations affect Tesla's battery and component supply chain costs. Escalation could squeeze margins — but resolution via Musk's Beijing diplomacy would be a major positive catalyst."
+        "detail": "Higher-for-longer US interest rates weigh on Tesla's elevated valuation (roughly 90x forward earnings), as investors discount far-future cash flows more heavily when they can earn more from safer bonds today."
       },
       {
-        "factor": "Federal Reserve Interest Rate Policy",
+        "factor": "US-China Trade Tensions",
         "impact": "bearish",
-        "detail": "Tesla trades at a very high earnings multiple that is sensitive to interest rate expectations. Higher-for-longer rates compress the value of future cash flows and put sustained pressure on high-multiple growth stocks like TSLA."
+        "detail": "Ongoing trade friction creates uncertainty for Tesla's Shanghai Gigafactory operations, battery supply chain costs, and the critical China FSD regulatory approval process — all of which are central to the bull thesis."
       },
       {
-        "factor": "Intensifying EV Competition from BYD and Chinese Automakers",
+        "factor": "Global EV Competition Intensifying",
         "impact": "bearish",
-        "detail": "BYD and other Chinese EV makers continue to gain global market share. Tesla's China sales fell nearly 10% year-over-year in April, highlighting the pressure from domestic competition in the world's most important EV market."
+        "detail": "BYD is outselling Tesla in China and gaining global market share, while legacy automakers ramp EV production. This competitive pressure threatens Tesla's pricing power in its core vehicle business."
       }
     ],
-    "summary": "Tesla's next 3–6 months will be defined by whether it can execute on two big promises: a credible robotaxi business and FSD approval in China. The stock is already trading above the average analyst price target of $407, which means Wall Street's consensus is essentially 'we think you've run a bit ahead of yourself.' That's not a sell signal — the bull case of $600 (Wedbush) captures the enormous optionality if robotaxi and Optimus scale as Musk envisions. But it does mean any stumble — a robotaxi safety incident, a China regulatory disappointment, or a weak Q2 delivery report — could trigger a meaningful pullback from current levels. China FSD approval and the Q2 earnings report on July 22 are the two biggest near-term events that could reset the story in either direction. Long-term investors with a 1–2 year horizon can be patient here; short-term traders should watch the $450–$460 resistance zone closely as the next critical test."
+    "summary": "Tesla's next 3–6 months will be defined by a fundamental question: can it execute on the robotaxi promise fast enough to justify its premium valuation? The stock at $424.45 already trades above the average analyst price target of $403.59 — meaning Wall Street consensus prices in no more upside at current levels. The Wedbush bull case at $600 envisions robotaxi dominating urban mobility plus an Optimus robotics empire; the GLJ bear case at $115 argues the valuation is entirely disconnected from the EV business fundamentals. Friday's triple-negative headline day (NHTSA probe, crash disclosures, Australian lawsuit) narrowed the path to the bull case. The two most important signals to watch are the NHTSA FSD probe outcome and Q2 delivery numbers in early July — together they will tell us whether Tesla's autonomous driving story is accelerating or stalling."
   },
 
   "recommendation": {
     "signal": "HOLD",
     "confidence": "Medium",
-    "time_horizon": "Medium-term (1–3 months)",
-    "bullish_signals_count": 7,
-    "bearish_signals_count": 4,
-    "reasoning": "The technical picture is mostly constructive: Tesla is trading above its 50-day and 200-day moving averages, the Golden Cross is in place, RSI is in the healthy 40–70 zone at 62.4, and MACD is confirming bullish momentum. The fundamental backdrop has improved — Q1 2026 margins hit 21.1%, the robotaxi fleet is expanding faster than many expected, and the China FSD catalyst is closer than ever. However, the stock is now trading above the average analyst price target of $407, meaning the consensus sees near-term upside as limited. A recent Morgan Stanley downgrade citing valuation, combined with below-average volume on recent pullback days, adds to the caution. The Golden Cross and recovery momentum suggest the path of least resistance is still higher over the medium term, but the risk-reward is less compelling at $443 than it was at $362 a month ago. A HOLD reflects a stock doing many things right that needs to prove it can clear the $450–$460 resistance zone with conviction before the bulls regain full control.",
-    "key_risk": "A robotaxi safety incident, China FSD regulatory delay, or weak Q2 2026 delivery report (expected early July) could trigger a 10–15% pullback from current stretched valuation levels.",
+    "time_horizon": "Short-term (1–4 weeks)",
+    "bullish_signals_count": 6,
+    "bearish_signals_count": 6,
+    "reasoning": "The signal scorecard is an exact 6-6 tie — which is precisely why HOLD is the only honest call right now. On the bullish side: Tesla is still trading above its 50-day average ($416.75) and 200-day average ($383.23), the Golden Cross alignment remains intact, Q1 earnings beat expectations, and Cybercab production is underway. On the bearish side: the stock fell below its 5-day moving average after Friday's drop, MACD is forming a bearish crossover, three separate regulatory and legal problems arrived on the same day, and the average analyst price target ($403.59) is actually below the current stock price — meaning Wall Street consensus already sees the stock as slightly overvalued. Confidence is Medium because this could flip quickly in either direction: a positive NHTSA ruling or China FSD approval could re-ignite the rally, while further regulatory escalation could push the stock to test the 50-day average support around $417. The right move right now is to watch and wait for the next clear signal rather than add at these levels.",
+    "key_risk": "The NHTSA FSD probe escalation to 3.2 million vehicles is the single biggest wildcard. A formal recall order or FSD software restriction would directly undermine Tesla's most important long-term revenue story and could trigger a 15–25% correction from current levels.",
     "disclaimer": "⚠️ This is not financial advice. This is an AI-generated analysis for informational and educational purposes only. Always do your own research and consult a licensed financial advisor before making any investment decisions."
   },
 
   "price_chart": [
-    { "date": "May 01", "close": 406.00, "color": "green" },
     { "date": "May 04", "close": 404.00, "color": "red" },
     { "date": "May 05", "close": 399.00, "color": "red" },
     { "date": "May 06", "close": 397.00, "color": "red" },
@@ -206,6 +204,7 @@
     { "date": "May 11", "close": 445.00, "color": "green" },
     { "date": "May 12", "close": 433.45, "color": "red" },
     { "date": "May 13", "close": 445.27, "color": "green" },
-    { "date": "May 14", "close": 443.30, "color": "red" }
+    { "date": "May 14", "close": 443.30, "color": "red" },
+    { "date": "May 15", "close": 424.45, "color": "red" }
   ]
 }

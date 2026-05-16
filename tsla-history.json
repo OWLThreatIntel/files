@@ -746,6 +746,115 @@
         { "date": "May 13", "close": 445.27, "color": "green" },
         { "date": "May 14", "close": 443.30, "color": "red" }
       ]
+    },
+    {
+      "date": "2026-05-16",
+      "generated_at": "2026-05-16T08:00:00+08:00",
+      "price_now": "$424.45",
+      "change_today": "-4.25%",
+      "change_today_positive": false,
+      "market_cap": "$1.36T",
+      "week_52_high": "$498.83",
+      "week_52_low": "$273.21",
+      "volume_today": "52.1M",
+      "volume_avg_30d": "59.8M",
+      "volume_vs_avg": "below average",
+      "next_earnings_date": "2026-07-22",
+      "notes": "Minor price discrepancy across sources (−3.73% to −4.80% reported); confirmed lower close of $424.45 used. Previous confirmed close: $443.30 (May 14).",
+      "news": {
+        "sentiment_label": "Moderately Bearish",
+        "sentiment_summary": "Tesla's mood took a sharp negative turn on May 15, 2026, as three regulatory and operational headwinds hit simultaneously: the NHTSA escalated its Full Self-Driving probe to 3.2 million vehicles, Tesla disclosed two Robotaxi crashes involving teleoperators, and an Australian court warned Tesla over non-cooperation in a vehicle defects lawsuit. The stock fell 4.25% — its worst single-day drop in weeks. The composite sentiment index sits at 40.83, down 17 points in 30 days.",
+        "items": [
+          { "headline": "NHTSA Escalates FSD Safety Probe to 3.2 Million Tesla Vehicles", "source": "Reuters / NHTSA", "date": "2026-05-15", "sentiment": "bearish" },
+          { "headline": "Tesla Discloses Two Robotaxi Crashes Involving Teleoperators to Safety Regulators", "source": "TechCrunch", "date": "2026-05-15", "sentiment": "bearish" },
+          { "headline": "Australian Court Warns Tesla Over Non-Cooperation in Vehicle Defects Lawsuit", "source": "Reuters Australia", "date": "2026-05-15", "sentiment": "bearish" },
+          { "headline": "Tesla Robotaxi Shows Serious Reliability Problems in Texas City Tests", "source": "Reuters / Electrek", "date": "2026-05-12", "sentiment": "bearish" },
+          { "headline": "Tesla Starts Cybercab Production at Giga Texas; Robotaxi Fleet Grows to 39 Vehicles", "source": "Bloomberg / TechXplore", "date": "2026-05-08", "sentiment": "bullish" }
+        ]
+      },
+      "analysis_7d": {
+        "price_start": "$398.94",
+        "price_end": "$424.45",
+        "period_high": "$445.27",
+        "period_low": "$398.94",
+        "change_pct": "+6.4%",
+        "trend": "uptrend with sharp late-week pullback",
+        "rsi": 46.2,
+        "rsi_label": "Neutral — momentum cooled from near-overbought highs",
+        "rsi_color": "green",
+        "macd_signal": "Bearish crossover forming — buying momentum fading after May 15 sell-off",
+        "ma_5d": "$438.30",
+        "ma_5d_position": "below",
+        "ma_50d": "$416.75",
+        "ma_50d_position": "above",
+        "ma_200d": "$383.23",
+        "ma_200d_position": "above",
+        "ma_cross_status": "Golden Cross — 50-day ($416.75) above 200-day ($383.23), long-term bullish",
+        "bollinger_position": "Near lower band — dropped to bottom of Bollinger channel after Friday sell-off",
+        "volume_trend": "Below average — 52.1M vs 59.8M 30-day avg",
+        "summary": "Tesla started the week powerfully (up 11.6% to $445.27 by May 13) before a flood of negative regulatory headlines on Friday triggered a 4.25% single-day reversal. The RSI fell from near-70 overbought to a neutral 46. The 50-day and 200-day MAs remain supportive below."
+      },
+      "analysis_30d": {
+        "price_start": "$372.00",
+        "price_end": "$424.45",
+        "period_high": "$445.27",
+        "period_low": "$352.08",
+        "change_pct": "+14.1%",
+        "trend": "uptrend",
+        "key_levels": { "support": "$400–416", "resistance": "$445–450" },
+        "ma_50d": "$416.75",
+        "ma_50d_position": "above",
+        "ma_200d": "$383.23",
+        "ma_200d_position": "above",
+        "rsi": 46.2,
+        "macd_signal": "Bearish — momentum indicators showing fatigue",
+        "notable_events": [
+          "Apr 17: TSLA hits $352.08 — cycle low, lowest since September 2025",
+          "Apr 22: Q1 2026 earnings beat triggers V-shaped recovery; 200-day MA holds as support",
+          "May 8: +7.4% surge; Cybercab production begins at Giga Texas",
+          "May 11: Musk joins Trump's Beijing visit — China FSD hopes spark +4%",
+          "May 13: 30-day high $445.27; stalls at resistance",
+          "May 15: NHTSA probe + Robotaxi crash disclosures + Australian lawsuit → −4.25%"
+        ],
+        "summary": "A dramatic V-shaped recovery (Apr 17 low $352 to May 13 high $445) followed by a sharp Friday reversal on triple regulatory shock. 50-day MA at $416.75 is the next key support test."
+      },
+      "outlook": {
+        "analyst_consensus": "Hold",
+        "analyst_buy_count": 16,
+        "analyst_hold_count": 11,
+        "analyst_sell_count": 5,
+        "avg_price_target": "$403.59",
+        "median_price_target": "$400",
+        "high_price_target": "$600",
+        "high_price_target_firm": "Wedbush",
+        "low_price_target": "$115",
+        "low_price_target_firm": "GLJ Research",
+        "recent_rating_change": "Goldman Sachs cut PT from $405 to $375, maintained Hold (May 2026)",
+        "next_earnings_date": "2026-07-22",
+        "next_earnings_eps_estimate": "$0.42",
+        "next_earnings_revenue_estimate": "$24.52B"
+      },
+      "recommendation": {
+        "signal": "HOLD",
+        "confidence": "Medium",
+        "time_horizon": "Short-term (1–4 weeks)",
+        "bullish_signals_count": 6,
+        "bearish_signals_count": 6,
+        "key_risk": "NHTSA FSD probe escalation — a formal recall could trigger 15–25% correction.",
+        "disclaimer": "⚠️ This is not financial advice. This is an AI-generated analysis for informational and educational purposes only. Always do your own research and consult a licensed financial advisor before making any investment decisions."
+      },
+      "price_chart": [
+        { "date": "May 04", "close": 404.00, "color": "red" },
+        { "date": "May 05", "close": 399.00, "color": "red" },
+        { "date": "May 06", "close": 397.00, "color": "red" },
+        { "date": "May 07", "close": 398.94, "color": "green" },
+        { "date": "May 08", "close": 428.50, "color": "green" },
+        { "date": "May 11", "close": 445.00, "color": "green" },
+        { "date": "May 12", "close": 433.45, "color": "red" },
+        { "date": "May 13", "close": 445.27, "color": "green" },
+        { "date": "May 14", "close": 443.30, "color": "red" },
+        { "date": "May 15", "close": 424.45, "color": "red" }
+      ]
     }
   ]
 }
