@@ -116,6 +116,27 @@ For each cybersecurity item, include:
 - Severity level (CRITICAL / HIGH / MEDIUM / INFORMATIONAL)
 - Direct link to the source article
 
+#### 2f. Section AI Summary (MANDATORY for every section)
+
+After you have gathered all stories for a section, synthesise a short **AI-generated section summary** that tells the reader "what's happening in this part of the world right now" in plain English. This site is built for readers who don't like long essays but still want to stay informed — the summary is what they read if they only read one thing.
+
+Write one summary for each of the five sections: `top_stories`, `singapore`, `wars`, `hantavirus`, `cybersecurity`.
+
+Rules for the summary:
+- **Length:** 2–4 sentences. Hard cap at ~80 words. No walls of text.
+- **Tone:** Plain, conversational English. Like explaining the day's news to a friend over coffee. No jargon without unpacking it.
+- **Substance:** Connect the dots across the stories — name the dominant theme, the biggest development, and (if relevant) what to watch next. Do NOT just restate headlines one by one.
+- **Section-specific framing:**
+  - `top_stories`: the global mood / dominant story of the day
+  - `singapore`: what locals most need to know (weather, advisories, policies)
+  - `wars`: the state of play across all theatres — who escalated, who's de-escalating
+  - `hantavirus`: the outbreak's trajectory and what the risk looks like for readers
+  - `cybersecurity`: which threats matter most this cycle and who should patch what
+- **Freshness:** The summary must reflect the stories you actually gathered this run — never copy yesterday's.
+- **Never invent.** If a section is quiet, say so honestly ("A slow news day for Singapore — only weather and a routine advisory.").
+
+Store each summary in the JSON under `sections.<key>.ai_summary` (see schema below).
+
 ### 3. Write the JSON File
 
 Write today's news to `data/news_YYYY-MM-DD.json` and `data/latest.json`.
@@ -133,6 +154,7 @@ Follow this JSON schema:
   "sections": {
     "top_stories": {
       "label": "Top Stories",
+      "ai_summary": "2–4 sentence plain-English digest of the day's top stories. Required.",
       "stories": [
         {
           "id": "ts1",
@@ -146,10 +168,12 @@ Follow this JSON schema:
     },
     "singapore": {
       "label": "Singapore",
+      "ai_summary": "2–4 sentence plain-English digest of what Singaporeans most need to know today. Required.",
       "stories": [...]
     },
     "wars": {
       "label": "Wars & Conflicts",
+      "ai_summary": "2–4 sentence plain-English digest of the state of play across all theatres. Required.",
       "theatres": [
         {
           "name": "...",
@@ -162,10 +186,12 @@ Follow this JSON schema:
     },
     "hantavirus": {
       "label": "Hantavirus Outbreak",
+      "ai_summary": "2–4 sentence plain-English digest of the outbreak's trajectory and risk picture. Required.",
       "stories": [...]
     },
     "cybersecurity": {
       "label": "CyberSecurity",
+      "ai_summary": "2–4 sentence plain-English digest of which threats matter most this cycle. Required.",
       "stories": [
         {
           "id": "cs1",
@@ -183,6 +209,8 @@ Follow this JSON schema:
   }
 }
 ```
+
+> **Important:** `ai_summary` is required for every section. Never ship a section without one. If a section has only one story, the summary should still exist (it can simply contextualise that single story).
 
 ### 4. Write the HTML File
 
@@ -209,9 +237,14 @@ Design guidelines:
 Include in the HTML:
 - Header showing Daily News Briefing, date, and green live indicator dot
 - Sticky horizontal scrollable nav tabs with story count badges
+- **AI Section Summary callout (REQUIRED for every section):** A clearly-styled summary block rendered **directly above the card grid** of each section. This is the TL;DR for readers who don't want to read all the cards.
+  - Pull the text from `sections.<key>.ai_summary` in the JSON
+  - Style as a soft callout/banner: subtle surface background, left accent bar in the section's accent colour (blue / green / red / cyan / purple), a small "AI Summary" or sparkle label, and the summary text in slightly larger, readable type (~15–16px)
+  - Must appear above the Wars timelines and above the Hantavirus stat bar as well
+  - Must be visually distinct from the story cards — readers should immediately recognise it as a digest, not a story
 - Card grid (3 columns on desktop, 1 on mobile) for each section
 - For Wars: vertical timeline per theatre with today's entry highlighted
-- For Hantavirus: stat bar (cases / deaths / countries) above cards
+- For Hantavirus: stat bar (cases / deaths / countries) above cards (but still below the AI summary)
 - For CyberSec: CVE code pill, CVSS score, severity badge on each card
 - Direct links to source articles on each card
 - Footer stating AI generated
@@ -291,6 +324,7 @@ claude --print "Follow the instructions in WORLD.md to generate today's Daily Ne
 - **CVE details:** Always include CVE identifier, CVSS score, and severity if available.
 - **Singapore-first:** Prioritise local sources (CNA, Straits Times, Mothership) for Singapore stories.
 - **Scale to news volume:** On slow news days, fewer stories is fine. On major news days, include more.
+- **AI summary per section:** Every section MUST ship with a fresh 2–4 sentence `ai_summary` rendered above its card grid. This is the headline product — readers who only have 30 seconds should still walk away informed.
 
 ---
 
