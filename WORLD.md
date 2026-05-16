@@ -15,7 +15,7 @@
 
 ## Overview
 
-This repository hosts **SG Morning Brief** — a daily AI-compiled news digest published three times daily at **09:00,15:00,21:00 SGT** via a Claude Code routine.
+This repository hosts **Daily News Briefing** — a daily AI-compiled news digest published three times daily at **09:00,15:00,21:00 SGT** via a Claude Code routine.
 
 Claude reads news from the internet, compiles it into a structured JSON file and a mobile-friendly HTML page, then commits directly to the `main` branch. GitHub Pages serves the HTML at the repo's Pages URL.
 
@@ -127,7 +127,7 @@ Follow this JSON schema:
   "meta": {
     "date": "YYYY-MM-DD",
     "generated_at": "YYYY-MM-DDTHH:MM:SS+08:00",
-    "edition": "Singapore Morning Edition",
+    "edition": "Daily News Briefing",
     "sources": ["list of sources used"]
   },
   "sections": {
@@ -256,7 +256,7 @@ cd <repo>
 git checkout main && git pull origin main
 
 # Run Claude Code
-claude --print "Follow the instructions in WORLD.md to generate today's SG Morning Brief and commit it to main." \
+claude --print "Follow the instructions in WORLD.md to generate today's Daily News Briefing and commit it to main." \
   --allowedTools "WebSearch,WebFetch,Bash,Write" \
   --max-turns 80
 ```
