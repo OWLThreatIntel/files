@@ -404,9 +404,9 @@
 const DATA = {
   "meta": {
     "date": "2026-05-16",
-    "generated_at": "2026-05-16T20:15:00+08:00",
+    "generated_at": "2026-05-16T23:30:00+08:00",
     "edition": "Daily News Briefing",
-    "cycle": "21:00 SGT",
+    "cycle": "Late refresh",
     "sources": [
       "Channel NewsAsia",
       "The Straits Times",
@@ -418,16 +418,17 @@ const DATA = {
       "CNB",
       "LTA",
       "HDB",
+      "weather.gov.sg",
       "Al Jazeera",
       "CNN",
       "Reuters",
       "PBS NewsHour",
-      "Times of Israel",
       "BBC",
       "CNBC",
       "TheStreet",
       "BleepingComputer",
       "The Hacker News",
+      "Security Affairs",
       "CISA",
       "Fortinet",
       "WHO",
@@ -439,24 +440,33 @@ const DATA = {
       "Wikipedia",
       "Russia Matters",
       "EMPR",
-      "KrebsOnSecurity"
+      "KrebsOnSecurity",
+      "EBU Eurovision"
     ]
   },
   "sections": {
     "top_stories": {
       "label": "Top Stories",
-      "ai_summary": "The world heads into Saturday night with two big shocks still echoing: Trump's Beijing summit ended without real deals, and Wall Street closed Friday firmly red as Treasury yields climbed and oil sat above $109 a barrel. The Strait of Hormuz remains effectively shut, Cuba has literally run out of diesel and is enduring 22-hour blackouts, and Russia has restarted its drone war on Ukraine. The common thread is a global system running on fumes — fragile ceasefires, fragile fuel supplies and fragile market nerves all at once.",
+      "ai_summary": "Saturday closes with three big stories pulling in different directions: Israel killed Hamas' top military commander in Gaza despite the fragile ceasefire, Trump left Beijing without real breakthroughs on Iran or Taiwan, and Wall Street ended the week firmly red on inflation jitters. Energy is the through-line — the Strait of Hormuz remains effectively shut, oil is sitting above $109, and Cuba is now in a full diesel collapse with 22-hour blackouts. Markets and ceasefires both look brittle going into next week.",
       "stories": [
         {
           "id": "ts1",
-          "headline": "Trump leaves Beijing summit with handshakes but no breakthrough on Iran, Taiwan or trade",
-          "category": "US-China",
-          "summary": "President Trump wrapped a two-day summit with Xi Jinping with a tentative 200-jet Boeing order and a vague 'strategic stability' framework, but no firm deals on the Strait of Hormuz, Taiwan arms or tariffs. Markets sold off because investors had priced in more. Trump kept the pending Taiwan arms package as a 'negotiating chip'.",
+          "headline": "Israel kills Hamas' top military commander al-Haddad in Gaza City strike despite ceasefire",
+          "category": "Middle East",
+          "summary": "Israeli forces struck Gaza City on Friday evening, killing Izz al-Din al-Haddad, the head of Hamas' military wing and one of the last living architects of the October 7, 2023 attacks. Hamas confirmed his death and called it a 'treacherous assassination'. The strike killed at least seven and injured more than 50 — the heaviest blow to the fragile US-brokered Gaza ceasefire so far.",
           "source": "CNN",
-          "url": "https://www.cnn.com/2026/05/15/world/video/trump-leaves-china-summit-with-iran-taiwan-and-trade-in-focus-hnk-digvid"
+          "url": "https://www.cnn.com/2026/05/15/middleeast/israel-gaza-hamas-strike-latam-intl"
         },
         {
           "id": "ts2",
+          "headline": "Trump leaves Beijing summit with handshakes but no breakthrough on Iran, Taiwan or trade",
+          "category": "US-China",
+          "summary": "President Trump wrapped a two-day summit with Xi Jinping with a tentative 200-jet Boeing order and a vague 'strategic stability' framework, but no firm deals on the Strait of Hormuz, Taiwan arms or tariffs. Markets sold off because investors had priced in more. Trump kept the pending Taiwan arms package as a 'negotiating chip', while Xi warned that mishandling Taiwan would put the relationship in 'great jeopardy'.",
+          "source": "CNBC",
+          "url": "https://www.cnbc.com/2026/05/14/trump-xi-beijing-summit-trade-taiwan-ai-iran-rare-earths-tariffs.html"
+        },
+        {
+          "id": "ts3",
           "headline": "Oil ends week above $109 as Strait of Hormuz stays effectively shut",
           "category": "Energy",
           "summary": "Brent crude closed Friday at $107.04 and ran above $109 intraday, ending up 8.1% on the week as tanker traffic through Hormuz stayed at roughly 5% of normal. The IEA warned the market could remain severely undersupplied until October even if the shooting stops next month. India has already hiked petrol and diesel prices.",
@@ -464,7 +474,7 @@ const DATA = {
           "url": "https://www.aljazeera.com/economy/2026/5/5/oil-prices-surge-as-violence-flares-in-strait-of-hormuz"
         },
         {
-          "id": "ts3",
+          "id": "ts4",
           "headline": "Wall Street sinks on inflation jitters; Nasdaq drops 1.5%, Dow off 537 points",
           "category": "Markets",
           "summary": "The S&P 500 fell 1.24% to 7,408.50, the Nasdaq slid 1.54% to 26,225.14 and the Dow dropped 1.07% to 49,526.17 on Friday. Investors took profit on chip stocks after recent highs — Intel fell more than 6%, Micron 6.6%, AMD 5.7%, Nvidia 4.4% — as Treasury yields and oil weighed on sentiment.",
@@ -472,7 +482,7 @@ const DATA = {
           "url": "https://www.cnbc.com/2026/05/14/stock-market-today-live-updates.html"
         },
         {
-          "id": "ts4",
+          "id": "ts5",
           "headline": "Cuba runs out of diesel; Havana faces blackouts of up to 22 hours, protests break out",
           "category": "Energy crisis",
           "summary": "Cuba's energy minister confirmed on Thursday the island has run out of diesel and fuel oil after only one Russian tanker reached the country since January. Parts of Havana saw outages over 19 hours a day; eastern Cuba went fully dark. Small protests broke out in neighbourhoods west of the capital — a rare sight under the communist government.",
@@ -480,7 +490,7 @@ const DATA = {
           "url": "https://www.aljazeera.com/news/2026/5/14/absolutely-no-fuel-cuba-hit-by-blackouts-protests-amid-power-outages"
         },
         {
-          "id": "ts5",
+          "id": "ts6",
           "headline": "Russia fires more than 200 drones at Ukraine overnight as three-day truce collapses",
           "category": "Russia-Ukraine",
           "summary": "Zelenskyy said Russia launched over 200 drones at Ukrainian cities hours after a US-brokered three-day truce expired. Russia hit a record 8,000+ drones launched last month — the most since the 2022 invasion began. A prisoner swap of 1,000 each side did go through during the truce window.",
@@ -488,7 +498,15 @@ const DATA = {
           "url": "https://www.aljazeera.com/news/2026/5/12/zelenskyy-says-russia-fired-over-200-drones-at-ukraine-as-truce-expires"
         },
         {
-          "id": "ts6",
+          "id": "ts7",
+          "headline": "Eurovision 2026 Grand Final goes live from Vienna under tight security",
+          "category": "Culture",
+          "summary": "The Eurovision Song Contest Grand Final airs tonight from Wiener Stadthalle in Vienna, with 25 acts performing in front of a TV audience expected to top 160 million. Police have ringed the venue after weeks of protests over Israel's participation. Pre-contest press polls put Australia narrowly ahead of Sweden and France.",
+          "source": "BBC",
+          "url": "https://eurovisionworld.com/eurovision/2026"
+        },
+        {
+          "id": "ts8",
           "headline": "Hantavirus cruise ship Americans now isolating in Nebraska; 16 in federal quarantine unit",
           "category": "Health",
           "summary": "Eighteen US passengers from the MV Hondius arrived back in the US this week on a government repatriation flight to Offutt Air Force Base. Sixteen are at the National Quarantine Unit at Nebraska Medical Center; one mildly positive case is in biocontainment. WHO still pegs global public risk as low. Three deaths confirmed so far.",
@@ -545,15 +563,23 @@ const DATA = {
           "id": "sg6",
           "headline": "Weather outlook: short thundery showers most afternoons for the rest of May",
           "category": "Weather",
-          "summary": "The Meteorological Service Singapore says inter-monsoon conditions will prevail through end-May. Expect short, thundery afternoon showers on most days, with Sumatra squalls possible during the pre-dawn and morning hours on a few days — those bring widespread thunder and gusty winds. Daytime temperatures stay in the typical 25–34°C band.",
+          "summary": "The Meteorological Service Singapore says inter-monsoon conditions will prevail through end-May. Expect short, thundery afternoon showers on most days, with Sumatra squalls possible during the pre-dawn and morning hours on a few days — those bring widespread thunder and gusty winds. Daytime highs sit in the 33–34°C band, occasionally hitting 35°C.",
           "source": "weather.gov.sg",
           "url": "https://www.weather.gov.sg/weather-fortnightly-outlook/"
+        },
+        {
+          "id": "sg7",
+          "headline": "Swatch x Audemars Piguet 'Royal Pop' launch draws queues at MBS, Ion and VivoCity",
+          "category": "Lifestyle",
+          "summary": "The much-hyped Swatch x Audemars Piguet 'Royal Pop' collaboration went on sale this morning at Marina Bay Sands, Ion Orchard and VivoCity. Carousell users were charging anywhere from S$40 to S$988 to queue on someone's behalf. Swatch says supplies are deliberately limited to manage demand.",
+          "source": "Mothership",
+          "url": "https://mothership.sg/2026/05/swatch-audemars-piguet-queue-carousell/"
         }
       ]
     },
     "wars": {
       "label": "Wars & Conflicts",
-      "ai_summary": "Three live theatres and the picture is messy: the Ukraine ceasefire collapsed within hours of expiring and drones are flying again at record volume; the US-Israel war on Iran has the Strait of Hormuz still effectively shut, with Tehran saying it cannot trust Washington; the Lebanon ceasefire just got a 45-day extension, but Gaza remains stuck with near-daily Israeli strikes and Hamas refusing to disarm. Nothing is escalating to all-out today, but nothing is de-escalating either.",
+      "ai_summary": "Three live theatres, all unsettled. The Ukraine ceasefire collapsed within hours of expiring and drones are flying again at record volume. The US-Israel war on Iran has the Strait of Hormuz still effectively shut, with Tehran saying it cannot trust Washington. And in Gaza, Israel just killed Hamas' top military commander al-Haddad despite a US-brokered ceasefire, while the Israel-Lebanon ceasefire got a 45-day extension. Nothing is exploding into all-out war today, but nothing is calming down either.",
       "theatres": [
         {
           "name": "Russia–Ukraine War",
@@ -588,7 +614,11 @@ const DATA = {
               "event": "Truce expires; Zelenskyy reports more than 200 drones launched at Ukraine overnight"
             },
             {
-              "date": "May 13–15 2026",
+              "date": "May 13 2026",
+              "event": "Ukraine strikes Russian gas facilities in Orenburg, 1,500km from the border, in retaliation"
+            },
+            {
+              "date": "May 14–16 2026",
               "event": "Russia logs 257 combat engagements in a single day; 8,000+ drones launched last month — a war record"
             }
           ]
@@ -623,17 +653,21 @@ const DATA = {
             },
             {
               "date": "May 14 2026",
-              "event": "US starts effort to guide stranded ships through the strait; Trump claims US — not Iran — controls Hormuz"
+              "event": "US starts effort to guide stranded ships through the strait; Chinese vessels allowed to sail Hormuz as Trump meets Xi; Netanyahu makes a secret UAE visit"
             },
             {
               "date": "May 15 2026",
               "event": "Iran FM Araghchi says Tehran 'cannot trust the Americans at all' but is trying to keep the shaky ceasefire alive"
+            },
+            {
+              "date": "May 16 2026",
+              "event": "Tensions flare again — a ship anchored off the UAE is seized and taken toward Iran; another is attacked"
             }
           ]
         },
         {
           "name": "Israel–Lebanon / Gaza",
-          "status": "Lebanon ceasefire extended 45 days; Gaza in slow-burn breakdown",
+          "status": "Lebanon ceasefire extended 45 days; Gaza ceasefire shaken by killing of Hamas military chief",
           "timeline": [
             {
               "date": "Oct 2025",
@@ -661,11 +695,15 @@ const DATA = {
             },
             {
               "date": "May 15 2026",
-              "event": "US-mediated talks at the State Department produce a 45-day extension of the Israel–Lebanon ceasefire; next political round set for June 2–3, Pentagon security track May 29"
+              "event": "US-mediated talks produce a 45-day extension of the Israel–Lebanon ceasefire; next political round set for June 2–3, Pentagon security track May 29"
             },
             {
               "date": "May 15 2026",
-              "event": "IDF issues evacuation warnings for Lebanese villages ahead of strikes targeting alleged Hezbollah violations"
+              "event": "Israel strikes Gaza City and kills Hamas military wing chief Izz al-Din al-Haddad along with at least six others; Hamas confirms his death"
+            },
+            {
+              "date": "May 16 2026",
+              "event": "Hamas vows retaliation; mediators scramble to keep the Gaza ceasefire intact"
             }
           ]
         }
@@ -673,13 +711,13 @@ const DATA = {
     },
     "hantavirus": {
       "label": "Hantavirus Outbreak",
-      "ai_summary": "The MV Hondius outbreak now stands at 11 cases (8 confirmed) and 3 deaths from Andes hantavirus, a Latin American strain. Eighteen Americans have been flown home — most are in Nebraska's federal quarantine unit, one is mildly positive and in biocontainment, and another symptomatic couple was sent on to Emory. WHO still calls the public risk low, but the 42-day incubation window means more cases could surface in the next few weeks.",
+      "ai_summary": "The MV Hondius outbreak now stands at 11 cases (8 confirmed) and 3 deaths from Andes hantavirus, a Latin American strain. Eighteen Americans have been flown home — most are in Nebraska's federal quarantine unit, one is mildly positive and in biocontainment, and a symptomatic couple was sent on to Emory. The ship itself is due to dock in the Netherlands on May 18 for final disinfection. WHO still calls the public risk low, but the 42-day incubation window means more cases could surface in the next few weeks.",
       "stats": {
         "cases_total": 11,
         "confirmed": 8,
         "suspected": 3,
         "deaths": 3,
-        "countries_affected": 9
+        "countries_affected": 12
       },
       "stories": [
         {
@@ -700,6 +738,14 @@ const DATA = {
         },
         {
           "id": "hv3",
+          "headline": "MV Hondius due to dock in the Netherlands on May 18 for final disinfection",
+          "category": "Ship status",
+          "summary": "The Dutch-flagged cruise ship is currently at sea after disembarking passengers and is scheduled to make its final stop at a Netherlands port on May 18. Dutch and EU authorities will board for a deep-clean and rodent-control sweep before the ship is allowed to return to service.",
+          "source": "ECDC",
+          "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
+        },
+        {
+          "id": "hv4",
           "headline": "ECDC keeps EU risk assessment at low but flags ongoing monitoring",
           "category": "Risk assessment",
           "summary": "ECDC's May 15 update keeps the EU/EEA risk rating low because human-to-human transmission of Andes virus requires very close contact. With passengers and crew from 23 countries (nine of them EU/EEA), authorities continue daily monitoring and contact tracing. New cases are still possible within the 42-day incubation window.",
@@ -707,7 +753,7 @@ const DATA = {
           "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
         },
         {
-          "id": "hv4",
+          "id": "hv5",
           "headline": "Boston travel influencer documenting 42-day quarantine from inside Omaha unit",
           "category": "Human story",
           "summary": "Jake Rosmarin, a Boston-based travel influencer, has chosen to ride out the full 42-day Andes incubation period inside the federal quarantine unit at Nebraska Medical Center rather than self-isolate. His daily video updates have become one of the most-watched human looks inside America's only federal hantavirus quarantine facility.",
@@ -718,43 +764,65 @@ const DATA = {
     },
     "cybersecurity": {
       "label": "CyberSecurity",
-      "ai_summary": "Two domain-controller-class flaws and one ransomware-driven LMS breach are the headlines this cycle. Microsoft's May Patch Tuesday landed quietly with 120 fixes and no zero-days — but a fresh Exchange zero-day (CVE-2026-42897) surfaced two days later and is being actively exploited. Patch enterprise edge first: Cisco SD-WAN (CVE-2026-20182), Fortinet FortiClient EMS (CVE-2026-35616) and Windows Netlogon (CVE-2026-41089, wormable). On the breach front, ShinyHunters claims 275M records from Canvas LMS — the largest education-sector breach on record.",
+      "ai_summary": "Patch enterprise edge first this cycle. CISA's KEV deadline for the critical Cisco SD-WAN auth-bypass (CVE-2026-20182, CVSS 10.0) lands tomorrow — federal agencies must remediate by May 17. Microsoft's May Patch Tuesday closed 120 flaws including a wormable Netlogon RCE, and a fresh Exchange zero-day (CVE-2026-42897) surfaced two days later under active exploitation. The story of the cycle, though, is Google's disclosure of the first known AI-developed zero-day — a 2FA bypass that was about to be used in a mass-exploitation event.",
       "stories": [
         {
           "id": "cs1",
+          "headline": "Cisco Catalyst SD-WAN auth-bypass actively exploited — federal KEV deadline tomorrow",
+          "category": "Zero-day",
+          "cve": "CVE-2026-20182",
+          "cvss": 10.0,
+          "severity": "CRITICAL",
+          "summary": "Cisco warned that an authentication bypass in Catalyst SD-WAN Controller is being exploited in zero-day attacks to gain administrative privileges. CISA added the flaw to the Known Exploited Vulnerabilities catalog and ordered federal civilian agencies to remediate by May 17. Cisco attributes the activity to UAT-8616, the same cluster deploying JSP-based 'XenShell' web shells on compromised devices.",
+          "source": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks/"
+        },
+        {
+          "id": "cs2",
+          "headline": "Google detects first known AI-developed zero-day — a 2FA bypass primed for mass exploitation",
+          "category": "AI security",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Google said it identified an unknown threat actor using a zero-day exploit that was likely generated by an AI system — the first time AI has been seen used in the wild to discover a vulnerability and build a working exploit. The flaw is a 2FA bypass in a popular open-source sysadmin tool. Google says it intervened before the actor could launch a planned mass-exploitation event.",
+          "source": "The Hacker News",
+          "url": "https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html"
+        },
+        {
+          "id": "cs3",
           "headline": "Critical wormable Windows Netlogon RCE in May Patch Tuesday",
           "category": "Vulnerability",
           "cve": "CVE-2026-41089",
           "cvss": 9.8,
           "severity": "CRITICAL",
-          "summary": "A stack-based buffer overflow in Windows Netlogon allows unauthenticated remote code execution against domain controllers — and Microsoft has flagged it as wormable. There is no zero-day exploitation yet, but a wormable DC bug is precisely the kind of flaw that becomes the next NotPetya if patches are delayed. Patch Tuesday addressed 120 flaws total this month with no other actively exploited zero-days.",
+          "summary": "A stack-based buffer overflow in Windows Netlogon allows unauthenticated remote code execution against domain controllers — and Microsoft has flagged it as wormable. No zero-day exploitation yet, but a wormable DC bug is precisely the kind of flaw that becomes the next NotPetya if patches are delayed. Patch Tuesday addressed 120 flaws total with 17 rated Critical.",
           "source": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-may-2026-patch-tuesday-fixes-120-flaws-no-zero-days/"
         },
         {
-          "id": "cs2",
+          "id": "cs4",
           "headline": "Microsoft confirms Exchange Server zero-day under active exploitation",
           "category": "Zero-day",
           "cve": "CVE-2026-42897",
+          "cvss": 8.1,
+          "severity": "HIGH",
+          "summary": "Just two days after the quiet May Patch Tuesday, Microsoft confirmed in-the-wild exploitation of a new on-premises Exchange Server flaw. The bug is a spoofing vulnerability stemming from a cross-site scripting flaw. Admins should monitor Microsoft's advisories closely and apply the out-of-band fix as soon as it ships; Exchange remains one of the most-targeted enterprise services.",
+          "source": "The Hacker News",
+          "url": "https://thehackernews.com/2026/05/microsoft-confirms-exchange-server.html"
+        },
+        {
+          "id": "cs5",
+          "headline": "Windows zero-days 'YellowKey' and 'GreenPlasma' disclosed — BitLocker bypass and CTFMON privilege escalation",
+          "category": "Zero-day",
+          "cve": null,
           "cvss": null,
           "severity": "HIGH",
-          "summary": "Just two days after the quiet May Patch Tuesday, Microsoft confirmed in-the-wild exploitation of a new Exchange Server flaw. No attack details have been published. Admins should monitor Microsoft's advisories and apply the out-of-band fix as soon as it ships; Exchange continues to be one of the most-targeted enterprise services.",
-          "source": "Security Affairs",
-          "url": "https://securityaffairs.com/192204/security/cve-2026-42897-microsoft-confirms-active-exploitation-of-exchange-server-zero-day.html"
+          "summary": "An anonymous researcher disclosed two more Windows zero-days codenamed YellowKey (a BitLocker bypass that gives access to protected drives) and GreenPlasma (a privilege escalation via the Windows Collaborative Translation Framework, CTFMON). Microsoft has patched the BitLocker side; ensure every endpoint is on the latest cumulative update, because full-disk encryption is no help if the OS can be tricked into unlocking it.",
+          "source": "The Hacker News",
+          "url": "https://thehackernews.com/2026/05/windows-zero-days-expose-bitlocker.html"
         },
         {
-          "id": "cs3",
-          "headline": "Cisco Catalyst SD-WAN Controller actively exploited zero-day",
-          "category": "Zero-day",
-          "cve": "CVE-2026-20182",
-          "cvss": 9.8,
-          "severity": "CRITICAL",
-          "summary": "Cisco warned that an authentication bypass in Catalyst SD-WAN Controller is being exploited in zero-day attacks to gain administrative privileges. The flaw lets attackers walk straight into the management plane of SD-WAN deployments and pivot across enterprise sites. Patches are available; emergency rollout strongly recommended.",
-          "source": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks/"
-        },
-        {
-          "id": "cs4",
+          "id": "cs6",
           "headline": "FortiClient EMS critical flaw actively exploited; CISA mandates fix",
           "category": "Vulnerability",
           "cve": "CVE-2026-35616",
@@ -765,7 +833,7 @@ const DATA = {
           "url": "https://www.bleepingcomputer.com/news/security/new-fortinet-forticlient-ems-flaw-cve-2026-35616-exploited-in-attacks/"
         },
         {
-          "id": "cs5",
+          "id": "cs7",
           "headline": "ShinyHunters claim 275M-record breach of Canvas LMS — largest ever in education",
           "category": "Data breach",
           "cve": null,
@@ -774,28 +842,6 @@ const DATA = {
           "summary": "The ShinyHunters ransomware group says it has stolen roughly 275 million records — students, teachers, staff — from Canvas, the learning management system run by Instructure. Canvas was hit again on May 7, with its login page briefly replaced by a ransom note. Reports say 8,809 universities, schools and ministries are affected, making it the largest ed-tech breach on record.",
           "source": "KrebsOnSecurity",
           "url": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/"
-        },
-        {
-          "id": "cs6",
-          "headline": "Chrome zero-day in WebGPU 'Dawn' patched after in-the-wild exploitation",
-          "category": "Zero-day",
-          "cve": "CVE-2026-5281",
-          "cvss": null,
-          "severity": "HIGH",
-          "summary": "Google shipped a Chrome update fixing 21 flaws including a use-after-free zero-day in Dawn, Chrome's WebGPU implementation. The bug was being exploited in the wild — restart Chrome to apply the fix. Enterprises pushing managed Chrome updates should prioritise this patch.",
-          "source": "The Hacker News",
-          "url": "https://thehackernews.com/2026/04/new-chrome-zero-day-cve-2026-5281-under.html"
-        },
-        {
-          "id": "cs7",
-          "headline": "Windows BitLocker 'BlueHammer' zero-day gives access to protected drives",
-          "category": "Zero-day",
-          "cve": "CVE-2026-33825",
-          "cvss": null,
-          "severity": "HIGH",
-          "summary": "Microsoft patched the BlueHammer BitLocker bypass last month after researcher proof-of-concept exploits surfaced, while a second related issue ('RedSun') appears to have been silently patched without an advisory. Bottom line: ensure all Windows endpoints are on the latest cumulative update — full-disk encryption is no help if the OS itself can be tricked into unlocking it.",
-          "source": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/windows-bitlocker-zero-day-gives-access-to-protected-drives-poc-released/"
         },
         {
           "id": "cs8",
