@@ -23,7 +23,7 @@ Claude reads news from the internet, compiles it into a structured JSON file and
 
 ## Schedule
 
-- **Time:** 09:00 SGT (UTC+8) every day
+- **Time:** 09:00,15:00,21:00 SGT (UTC+8) every day
 - **Trigger:** Cron job, GitHub Actions scheduled workflow, or an external scheduler calling `claude` CLI
 - **Output committed to:** `main` branch, root of repository
 
