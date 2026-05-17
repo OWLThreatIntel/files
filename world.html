@@ -21,1083 +21,427 @@
     --sg: #3fb950;
     --health: #76e3ea;
     --cyber: #bc8cff;
-    --critical: #ff4d4d;
-    --high: #ff8a3d;
-    --medium: #f0c674;
+    --critical: #f85149;
+    --high: #db7c1f;
+    --medium: #d29922;
     --info: #58a6ff;
   }
   * { box-sizing: border-box; }
-  html, body { margin: 0; padding: 0; }
-  body {
-    font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
-    background: var(--bg);
-    color: var(--text);
-    line-height: 1.55;
-    -webkit-font-smoothing: antialiased;
-    min-height: 100vh;
-  }
-  a { color: var(--accent); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-  code, .mono { font-family: 'JetBrains Mono', ui-monospace, Menlo, monospace; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: 'Inter', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+  a { color: inherit; text-decoration: none; }
+  .container { max-width: 1200px; margin: 0 auto; padding: 0 16px; }
 
-  /* HEADER */
-  header.top {
-    position: sticky; top: 0; z-index: 50;
-    background: rgba(13,17,23,0.92);
-    backdrop-filter: saturate(140%) blur(10px);
+  header {
+    padding: 28px 0 14px;
     border-bottom: 1px solid var(--line);
+    background: linear-gradient(180deg, #0d1117 0%, #0d1117 100%);
   }
-  .top-inner {
-    max-width: 1180px; margin: 0 auto;
-    padding: 14px 20px 0 20px;
-    display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
-  }
-  .brand {
-    display: flex; align-items: center; gap: 12px; min-width: 0;
-  }
-  .logo {
-    width: 36px; height: 36px;
-    border-radius: 10px;
-    background: linear-gradient(135deg, #58a6ff, #bc8cff);
-    display: flex; align-items: center; justify-content: center;
-    font-weight: 800; color: #0d1117; font-size: 17px;
-  }
-  .title {
-    font-size: 18px; font-weight: 700; letter-spacing: -0.01em;
-  }
-  .title .accent { color: var(--accent); }
-  .meta {
-    color: var(--muted); font-size: 13px; margin-left: auto;
-    display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
-  }
-  .live-dot {
-    width: 8px; height: 8px; border-radius: 50%; background: var(--sg);
-    box-shadow: 0 0 0 0 rgba(63,185,80,0.7);
-    animation: pulse 2s infinite;
-  }
-  @keyframes pulse {
-    0%   { box-shadow: 0 0 0 0 rgba(63,185,80,0.7); }
-    70%  { box-shadow: 0 0 0 10px rgba(63,185,80,0); }
-    100% { box-shadow: 0 0 0 0 rgba(63,185,80,0); }
-  }
+  .header-row { display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap: wrap; }
+  .brand { display:flex; align-items:center; gap:12px; }
+  .brand .dot { width:10px; height:10px; border-radius:50%; background: var(--sg); box-shadow: 0 0 12px var(--sg); animation: pulse 1.6s infinite; }
+  @keyframes pulse { 0%,100% { opacity: 1; transform: scale(1); } 50% { opacity: 0.5; transform: scale(0.85); } }
+  h1 { font-size: 26px; margin: 0; font-weight: 800; letter-spacing: -0.5px; }
+  h1 span { color: var(--accent); }
+  .meta-line { color: var(--muted); font-size: 13px; font-family: 'JetBrains Mono', monospace; }
+  .live-pill { display:inline-flex; align-items:center; gap:6px; background: rgba(63,185,80,0.12); color: var(--sg); padding:4px 10px; border-radius: 999px; font-size: 12px; font-weight: 600; }
 
-  /* TABS */
   nav.tabs {
-    max-width: 1180px; margin: 0 auto;
-    padding: 12px 20px 14px 20px;
-    display: flex; gap: 8px; overflow-x: auto;
-    scrollbar-width: none;
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(13,17,23,0.92); backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--line);
+    overflow-x: auto; white-space: nowrap;
   }
-  nav.tabs::-webkit-scrollbar { display: none; }
-  .tab {
-    flex: 0 0 auto;
-    padding: 8px 14px; border-radius: 999px;
-    background: var(--surface);
-    color: var(--text); border: 1px solid var(--line);
-    cursor: pointer; font-size: 14px; font-weight: 500;
-    white-space: nowrap;
-    transition: background 0.15s, border-color 0.15s, color 0.15s;
+  nav.tabs .container { display:flex; gap: 4px; padding: 8px 16px; }
+  nav.tabs button {
+    background: transparent; border: 0; color: var(--muted);
+    font-family: inherit; font-size: 14px; font-weight: 600;
+    padding: 10px 14px; border-radius: 10px; cursor: pointer;
+    display:inline-flex; align-items:center; gap:8px;
+    transition: all .15s ease;
   }
-  .tab:hover { background: var(--surface-2); }
-  .tab .count {
-    margin-left: 8px;
-    background: rgba(255,255,255,0.06);
-    border-radius: 999px;
-    padding: 2px 8px;
-    font-size: 12px;
-    color: var(--muted);
-    font-family: 'JetBrains Mono', monospace;
+  nav.tabs button:hover { color: var(--text); background: var(--surface); }
+  nav.tabs button.active { background: var(--surface); color: var(--text); box-shadow: inset 0 -2px 0 var(--accent); }
+  nav.tabs .count {
+    background: var(--surface-2); color: var(--muted);
+    font-size: 11px; padding: 2px 7px; border-radius: 999px; font-family: 'JetBrains Mono', monospace;
   }
-  .tab[aria-selected="true"] { background: var(--accent); color: #0d1117; border-color: var(--accent); }
-  .tab[aria-selected="true"] .count { background: rgba(13,17,23,0.2); color: #0d1117; }
-  .tab[data-section="wars"][aria-selected="true"]       { background: var(--war);    border-color: var(--war);    color: #0d1117; }
-  .tab[data-section="singapore"][aria-selected="true"]  { background: var(--sg);     border-color: var(--sg);     color: #0d1117; }
-  .tab[data-section="hantavirus"][aria-selected="true"] { background: var(--health); border-color: var(--health); color: #0d1117; }
-  .tab[data-section="cybersecurity"][aria-selected="true"]{ background: var(--cyber);  border-color: var(--cyber);  color: #0d1117; }
+  nav.tabs button.active .count { background: rgba(88,166,255,0.18); color: var(--accent); }
 
-  /* MAIN */
-  main { max-width: 1180px; margin: 0 auto; padding: 24px 20px 64px 20px; }
-  section.page { display: none; animation: fadein 0.35s ease both; }
-  section.page.active { display: block; }
-  @keyframes fadein {
-    from { opacity: 0; transform: translateY(6px); }
-    to   { opacity: 1; transform: translateY(0); }
-  }
-  .section-head { display: flex; align-items: baseline; gap: 12px; margin-bottom: 8px; flex-wrap: wrap; }
-  .section-head h2 { margin: 0; font-size: 24px; letter-spacing: -0.02em; }
-  .section-head .sub { color: var(--muted); font-size: 13px; }
+  section.tab-panel { display:none; padding: 24px 0 60px; animation: fadeIn 0.3s ease; }
+  section.tab-panel.active { display:block; }
+  @keyframes fadeIn { from { opacity:0; transform: translateY(6px);} to { opacity:1; transform: translateY(0);} }
 
-  /* AI SUMMARY CALLOUT */
-  .ai-callout {
-    position: relative;
-    background: linear-gradient(180deg, rgba(88,166,255,0.06), rgba(88,166,255,0.02));
+  h2.section-title { font-size: 22px; margin: 0 0 12px; letter-spacing: -0.3px; font-weight: 700; }
+  .section-title .accent-bar { display:inline-block; width:6px; height:22px; border-radius: 3px; margin-right:10px; vertical-align: middle; }
+
+  .ai-summary {
+    display: grid; grid-template-columns: 6px 1fr; gap: 14px;
+    background: linear-gradient(135deg, rgba(88,166,255,0.06), rgba(88,166,255,0.02));
     border: 1px solid var(--line);
-    border-left: 4px solid var(--accent);
-    border-radius: 12px;
-    padding: 16px 18px;
-    margin: 14px 0 22px 0;
+    border-radius: 14px; padding: 16px 18px; margin: 8px 0 22px;
   }
-  .ai-callout[data-accent="war"]    { border-left-color: var(--war);    background: linear-gradient(180deg, rgba(255,123,114,0.07), rgba(255,123,114,0.02)); }
-  .ai-callout[data-accent="sg"]     { border-left-color: var(--sg);     background: linear-gradient(180deg, rgba(63,185,80,0.07), rgba(63,185,80,0.02)); }
-  .ai-callout[data-accent="health"] { border-left-color: var(--health); background: linear-gradient(180deg, rgba(118,227,234,0.07), rgba(118,227,234,0.02)); }
-  .ai-callout[data-accent="cyber"]  { border-left-color: var(--cyber);  background: linear-gradient(180deg, rgba(188,140,255,0.07), rgba(188,140,255,0.02)); }
-  .ai-label {
-    display: inline-flex; align-items: center; gap: 6px;
-    font-size: 11px; font-weight: 600; letter-spacing: 0.06em;
-    text-transform: uppercase;
+  .ai-summary .accent-bar { background: var(--accent); border-radius: 3px; }
+  .ai-summary .body { display:flex; flex-direction:column; gap:6px; }
+  .ai-summary .label {
+    display:inline-flex; align-items:center; gap:6px;
+    font-size: 11px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase;
     color: var(--accent);
-    margin-bottom: 6px;
   }
-  .ai-callout[data-accent="war"]    .ai-label { color: var(--war); }
-  .ai-callout[data-accent="sg"]     .ai-label { color: var(--sg); }
-  .ai-callout[data-accent="health"] .ai-label { color: var(--health); }
-  .ai-callout[data-accent="cyber"]  .ai-label { color: var(--cyber); }
-  .ai-body { font-size: 15.5px; line-height: 1.6; color: var(--text); }
+  .ai-summary .label::before { content: "✦"; font-size: 12px; }
+  .ai-summary .text { font-size: 15.5px; line-height: 1.55; color: var(--text); }
 
-  /* CARD GRID */
-  .grid {
-    display: grid;
-    gap: 14px;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-  @media (max-width: 900px) { .grid { grid-template-columns: repeat(2, minmax(0,1fr)); } }
-  @media (max-width: 640px) { .grid { grid-template-columns: 1fr; } }
+  .ai-summary.sg { background: linear-gradient(135deg, rgba(63,185,80,0.07), rgba(63,185,80,0.02)); }
+  .ai-summary.sg .accent-bar { background: var(--sg); }
+  .ai-summary.sg .label { color: var(--sg); }
+  .ai-summary.war { background: linear-gradient(135deg, rgba(255,123,114,0.07), rgba(255,123,114,0.02)); }
+  .ai-summary.war .accent-bar { background: var(--war); }
+  .ai-summary.war .label { color: var(--war); }
+  .ai-summary.health { background: linear-gradient(135deg, rgba(118,227,234,0.07), rgba(118,227,234,0.02)); }
+  .ai-summary.health .accent-bar { background: var(--health); }
+  .ai-summary.health .label { color: var(--health); }
+  .ai-summary.cyber { background: linear-gradient(135deg, rgba(188,140,255,0.07), rgba(188,140,255,0.02)); }
+  .ai-summary.cyber .accent-bar { background: var(--cyber); }
+  .ai-summary.cyber .label { color: var(--cyber); }
+
+  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  @media (max-width: 960px) { .grid { grid-template-columns: repeat(2, 1fr);} }
+  @media (max-width: 640px) { .grid { grid-template-columns: 1fr;} nav.tabs button { padding: 8px 10px; font-size: 13px;} h1 { font-size: 21px;} }
 
   .card {
     background: var(--surface);
     border: 1px solid var(--line);
-    border-radius: 12px;
-    padding: 16px;
-    display: flex; flex-direction: column;
-    transition: transform 0.18s ease, border-color 0.18s ease;
-  }
-  .card:hover { transform: translateY(-2px); border-color: #3a4150; }
-  .card .cat {
-    display: inline-block;
-    font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase;
-    color: var(--muted); margin-bottom: 6px;
-  }
-  .card h3 {
-    margin: 2px 0 10px 0;
-    font-size: 16.5px; line-height: 1.35;
-    letter-spacing: -0.01em;
-  }
-  .card p { margin: 0 0 12px 0; font-size: 14px; color: #cbd5df; }
-  .card .footer {
-    margin-top: auto;
-    display: flex; align-items: center; justify-content: space-between;
-    gap: 10px;
-    font-size: 12.5px; color: var(--muted);
-  }
-  .card .footer a { color: var(--accent); font-weight: 500; }
-
-  /* SEVERITY BADGES */
-  .badge {
-    display: inline-flex; align-items: center;
-    padding: 2px 8px; border-radius: 999px;
-    font-size: 11px; font-weight: 700; letter-spacing: 0.04em;
-    text-transform: uppercase;
-  }
-  .badge.CRITICAL { background: rgba(255,77,77,0.18); color: var(--critical); border: 1px solid rgba(255,77,77,0.4); }
-  .badge.HIGH     { background: rgba(255,138,61,0.18); color: var(--high); border: 1px solid rgba(255,138,61,0.4); }
-  .badge.MEDIUM   { background: rgba(240,198,116,0.18); color: var(--medium); border: 1px solid rgba(240,198,116,0.4); }
-  .badge.INFORMATIONAL { background: rgba(88,166,255,0.18); color: var(--info); border: 1px solid rgba(88,166,255,0.4); }
-
-  .cve-pill {
-    display: inline-flex; align-items: center; gap: 6px;
-    font-family: 'JetBrains Mono', monospace;
-    background: rgba(188,140,255,0.12);
-    border: 1px solid rgba(188,140,255,0.35);
-    color: var(--cyber);
-    padding: 2px 8px; border-radius: 6px;
-    font-size: 11.5px; font-weight: 600;
-  }
-  .cvss-pill {
-    font-family: 'JetBrains Mono', monospace;
-    background: rgba(255,255,255,0.05);
-    border: 1px solid var(--line);
-    padding: 2px 8px; border-radius: 6px;
-    font-size: 11.5px; color: var(--text); font-weight: 600;
-  }
-
-  .pill-row { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
-
-  /* TIMELINE */
-  .theatre {
-    background: var(--surface);
-    border: 1px solid var(--line);
     border-radius: 14px;
-    padding: 18px 18px 8px 18px;
-    margin-bottom: 18px;
+    padding: 16px;
+    transition: border-color .15s ease, transform .15s ease;
+    display:flex; flex-direction:column; gap:10px;
   }
-  .theatre h3 {
-    margin: 0 0 4px 0; font-size: 18px; letter-spacing: -0.01em;
-    display: flex; align-items: center; gap: 10px;
+  .card:hover { border-color: var(--accent); transform: translateY(-1px); }
+  .card .cat {
+    font-size: 11px; font-weight: 600; letter-spacing: 0.04em; text-transform: uppercase;
+    color: var(--accent);
   }
-  .theatre .status {
-    font-size: 12.5px; color: var(--muted);
-    padding-bottom: 12px;
-    border-bottom: 1px dashed var(--line);
-    margin-bottom: 12px;
+  .card.sg .cat { color: var(--sg); }
+  .card.war .cat { color: var(--war); }
+  .card.health .cat { color: var(--health); }
+  .card.cyber .cat { color: var(--cyber); }
+  .card h3 { margin: 0; font-size: 16px; line-height: 1.35; font-weight: 700; }
+  .card p { margin: 0; color: var(--muted); font-size: 14px; line-height: 1.55; }
+  .card .meta { display:flex; flex-wrap: wrap; gap: 6px; align-items: center; margin-top: auto; padding-top: 8px; border-top: 1px dashed var(--line); }
+  .card .source { font-size: 12px; color: var(--muted); font-family: 'JetBrains Mono', monospace; }
+  .card .read-more {
+    margin-left: auto; font-size: 12px; color: var(--accent); font-weight: 600;
   }
-  .timeline {
-    list-style: none; padding: 0 0 0 18px; margin: 0;
-    border-left: 2px solid #2a3140;
-    position: relative;
-  }
-  .timeline li {
-    position: relative;
-    padding: 4px 0 14px 14px;
-  }
-  .timeline li::before {
-    content: ""; position: absolute;
-    left: -22px; top: 10px;
-    width: 10px; height: 10px;
-    background: var(--surface); border: 2px solid var(--war);
-    border-radius: 50%;
-  }
-  .timeline li:last-child::before {
-    background: var(--war);
-    box-shadow: 0 0 0 4px rgba(255,123,114,0.18);
-  }
-  .timeline .date {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 12px; color: var(--war); font-weight: 600;
-    margin-right: 8px;
-  }
-  .timeline .ev { font-size: 14px; color: #d4dbe5; }
-  .timeline li:last-child .ev { color: var(--text); font-weight: 600; }
 
-  /* STAT BAR (hantavirus) */
-  .stats {
-    display: grid; grid-template-columns: repeat(5, minmax(0, 1fr));
-    gap: 10px; margin-bottom: 22px;
+  /* Cyber-specific styling */
+  .pill { display:inline-flex; align-items:center; gap:4px; padding:3px 8px; border-radius: 6px; font-size:11px; font-weight: 700; font-family: 'JetBrains Mono', monospace; letter-spacing: 0.04em; }
+  .badge-critical { background: rgba(248,81,73,0.12); color: var(--critical); border: 1px solid rgba(248,81,73,0.3); }
+  .badge-high { background: rgba(219,124,31,0.12); color: var(--high); border: 1px solid rgba(219,124,31,0.3); }
+  .badge-medium { background: rgba(210,153,34,0.12); color: var(--medium); border: 1px solid rgba(210,153,34,0.3); }
+  .badge-info { background: rgba(88,166,255,0.12); color: var(--info); border: 1px solid rgba(88,166,255,0.3); }
+  .cve-pill { background: var(--surface-2); color: var(--cyber); border:1px solid var(--line); }
+  .cvss-pill { background: var(--surface-2); color: var(--text); border:1px solid var(--line); }
+
+  /* Wars: timeline */
+  .theatre { background: var(--surface); border:1px solid var(--line); border-radius:14px; padding: 18px; margin-bottom: 18px; }
+  .theatre h3 { margin: 0 0 4px; font-size: 18px; font-weight: 700; }
+  .theatre .status { font-size: 13px; color: var(--war); font-weight: 600; margin-bottom: 14px; font-family: 'JetBrains Mono', monospace; }
+  .timeline { position: relative; padding-left: 22px; }
+  .timeline::before {
+    content: ""; position: absolute; left: 6px; top: 6px; bottom: 6px;
+    width: 2px; background: var(--line);
   }
-  @media (max-width: 640px) { .stats { grid-template-columns: repeat(2, 1fr); } }
+  .timeline .entry { position: relative; padding: 6px 0 10px; }
+  .timeline .entry::before {
+    content: ""; position: absolute; left: -22px; top: 10px;
+    width: 10px; height: 10px; border-radius: 50%;
+    background: var(--surface-2); border: 2px solid var(--war);
+  }
+  .timeline .entry.today::before { background: var(--war); box-shadow: 0 0 0 4px rgba(255,123,114,0.18); }
+  .timeline .date { font-family: 'JetBrains Mono', monospace; font-size: 12px; color: var(--war); font-weight: 600; }
+  .timeline .event { font-size: 14px; line-height: 1.55; color: var(--text); margin-top: 2px; }
+
+  /* Hantavirus stat bar */
+  .stat-bar { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 4px 0 24px; }
+  @media (max-width: 640px) { .stat-bar { grid-template-columns: repeat(2, 1fr); } }
   .stat {
-    background: var(--surface);
-    border: 1px solid var(--line);
-    border-left: 3px solid var(--health);
-    border-radius: 12px;
-    padding: 14px;
+    background: var(--surface); border:1px solid var(--line);
+    border-radius: 14px; padding: 14px; display:flex; flex-direction:column; gap:4px;
   }
-  .stat .num {
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 26px; font-weight: 700; color: var(--health);
-  }
-  .stat .lbl {
-    font-size: 12px; color: var(--muted); margin-top: 2px;
-    text-transform: uppercase; letter-spacing: 0.06em;
-  }
+  .stat .num { font-family: 'JetBrains Mono', monospace; font-size: 28px; font-weight: 700; color: var(--health); }
+  .stat .lbl { font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.06em; }
+  .stat.deaths .num { color: var(--war); }
+  .stat.confirmed .num { color: var(--health); }
+  .stat.suspected .num { color: var(--medium); }
+  .stat.countries .num { color: var(--accent); }
 
-  /* FOOTER */
-  footer {
-    border-top: 1px solid var(--line);
-    padding: 24px 20px;
-    margin-top: 40px;
-    text-align: center;
-    color: var(--muted);
-    font-size: 12.5px;
-  }
-  footer .src-list {
-    margin-top: 10px;
-    font-family: 'JetBrains Mono', monospace;
-    font-size: 11.5px;
-    line-height: 1.7;
-    word-wrap: break-word;
-  }
-
-  @media (max-width: 640px) {
-    .top-inner { padding: 12px 16px 0 16px; }
-    nav.tabs { padding: 10px 16px 12px 16px; }
-    main { padding: 18px 16px 48px 16px; }
-    .section-head h2 { font-size: 21px; }
-    .card h3 { font-size: 16px; }
-    .meta { font-size: 12px; }
-  }
+  footer { padding: 22px 0 40px; border-top: 1px solid var(--line); color: var(--muted); font-size: 13px; text-align: center; }
+  footer p { margin: 6px 0; }
 </style>
 </head>
 <body>
 
-<header class="top">
-  <div class="top-inner">
+<header>
+  <div class="container header-row">
     <div class="brand">
-      <div class="logo">DN</div>
-      <div class="title">Daily News <span class="accent">Briefing</span></div>
+      <span class="dot"></span>
+      <h1>Daily News <span>Briefing</span></h1>
     </div>
-    <div class="meta">
-      <span class="live-dot" aria-label="live"></span>
-      <span id="meta-date">—</span>
-      <span>·</span>
-      <span id="meta-cycle">—</span>
+    <div style="display:flex; gap:10px; align-items:center; flex-wrap: wrap;">
+      <span class="meta-line" id="dateLine"></span>
+      <span class="live-pill"><span class="dot" style="width:6px;height:6px;background:var(--sg);box-shadow:0 0 8px var(--sg);"></span> Live</span>
     </div>
   </div>
-  <nav class="tabs" role="tablist" aria-label="Sections">
-    <button class="tab" role="tab" data-section="top_stories"    aria-selected="true">Top Stories <span class="count" id="c-top_stories">0</span></button>
-    <button class="tab" role="tab" data-section="singapore"      aria-selected="false">Singapore <span class="count" id="c-singapore">0</span></button>
-    <button class="tab" role="tab" data-section="wars"           aria-selected="false">Wars <span class="count" id="c-wars">0</span></button>
-    <button class="tab" role="tab" data-section="hantavirus"     aria-selected="false">Hantavirus <span class="count" id="c-hantavirus">0</span></button>
-    <button class="tab" role="tab" data-section="cybersecurity"  aria-selected="false">CyberSec <span class="count" id="c-cybersecurity">0</span></button>
-  </nav>
 </header>
 
-<main>
-  <!-- Top Stories -->
-  <section class="page active" id="page-top_stories" role="tabpanel" aria-labelledby="tab-top_stories">
-    <div class="section-head"><h2>Top Stories</h2><span class="sub">Major world stories of the day</span></div>
-    <div class="ai-callout" data-accent="default">
-      <div class="ai-label">✨ AI Summary</div>
-      <div class="ai-body" id="sum-top_stories"></div>
-    </div>
-    <div class="grid" id="grid-top_stories"></div>
+<nav class="tabs" aria-label="News sections">
+  <div class="container">
+    <button class="active" data-tab="top_stories" aria-controls="panel-top_stories" aria-selected="true">Top Stories <span class="count" id="cnt-top_stories">0</span></button>
+    <button data-tab="singapore" aria-controls="panel-singapore" aria-selected="false">Singapore <span class="count" id="cnt-singapore">0</span></button>
+    <button data-tab="wars" aria-controls="panel-wars" aria-selected="false">Wars <span class="count" id="cnt-wars">0</span></button>
+    <button data-tab="hantavirus" aria-controls="panel-hantavirus" aria-selected="false">Hantavirus <span class="count" id="cnt-hantavirus">0</span></button>
+    <button data-tab="cybersecurity" aria-controls="panel-cybersecurity" aria-selected="false">CyberSec <span class="count" id="cnt-cybersecurity">0</span></button>
+  </div>
+</nav>
+
+<main class="container">
+
+  <section class="tab-panel active" id="panel-top_stories" role="tabpanel">
+    <h2 class="section-title"><span class="accent-bar" style="background:var(--accent);"></span>Top Stories</h2>
+    <div class="ai-summary" id="aiTop"></div>
+    <div class="grid" id="gridTop"></div>
   </section>
 
-  <!-- Singapore -->
-  <section class="page" id="page-singapore" role="tabpanel" aria-labelledby="tab-singapore">
-    <div class="section-head"><h2>Singapore</h2><span class="sub">Local news, weather, policy & advisories</span></div>
-    <div class="ai-callout" data-accent="sg">
-      <div class="ai-label">✨ AI Summary</div>
-      <div class="ai-body" id="sum-singapore"></div>
-    </div>
-    <div class="grid" id="grid-singapore"></div>
+  <section class="tab-panel" id="panel-singapore" role="tabpanel">
+    <h2 class="section-title"><span class="accent-bar" style="background:var(--sg);"></span>Singapore</h2>
+    <div class="ai-summary sg" id="aiSg"></div>
+    <div class="grid" id="gridSg"></div>
   </section>
 
-  <!-- Wars -->
-  <section class="page" id="page-wars" role="tabpanel" aria-labelledby="tab-wars">
-    <div class="section-head"><h2>Wars &amp; Conflicts</h2><span class="sub">Active theatres with chronological context</span></div>
-    <div class="ai-callout" data-accent="war">
-      <div class="ai-label">✨ AI Summary</div>
-      <div class="ai-body" id="sum-wars"></div>
-    </div>
+  <section class="tab-panel" id="panel-wars" role="tabpanel">
+    <h2 class="section-title"><span class="accent-bar" style="background:var(--war);"></span>Wars &amp; Conflicts</h2>
+    <div class="ai-summary war" id="aiWars"></div>
     <div id="theatres"></div>
   </section>
 
-  <!-- Hantavirus -->
-  <section class="page" id="page-hantavirus" role="tabpanel" aria-labelledby="tab-hantavirus">
-    <div class="section-head"><h2>Hantavirus Outbreak</h2><span class="sub">MV Hondius cluster &amp; WHO updates</span></div>
-    <div class="ai-callout" data-accent="health">
-      <div class="ai-label">✨ AI Summary</div>
-      <div class="ai-body" id="sum-hantavirus"></div>
-    </div>
-    <div class="stats" id="stats-hantavirus"></div>
-    <div class="grid" id="grid-hantavirus"></div>
+  <section class="tab-panel" id="panel-hantavirus" role="tabpanel">
+    <h2 class="section-title"><span class="accent-bar" style="background:var(--health);"></span>Hantavirus Outbreak</h2>
+    <div class="ai-summary health" id="aiHt"></div>
+    <div class="stat-bar" id="statBar"></div>
+    <div class="grid" id="gridHt"></div>
   </section>
 
-  <!-- CyberSec -->
-  <section class="page" id="page-cybersecurity" role="tabpanel" aria-labelledby="tab-cybersecurity">
-    <div class="section-head"><h2>CyberSecurity</h2><span class="sub">New CVEs, zero-days, breaches</span></div>
-    <div class="ai-callout" data-accent="cyber">
-      <div class="ai-label">✨ AI Summary</div>
-      <div class="ai-body" id="sum-cybersecurity"></div>
-    </div>
-    <div class="grid" id="grid-cybersecurity"></div>
+  <section class="tab-panel" id="panel-cybersecurity" role="tabpanel">
+    <h2 class="section-title"><span class="accent-bar" style="background:var(--cyber);"></span>CyberSecurity</h2>
+    <div class="ai-summary cyber" id="aiCs"></div>
+    <div class="grid" id="gridCs"></div>
   </section>
+
 </main>
 
 <footer>
-  <div>Daily News Briefing · AI-compiled with <strong>Claude</strong></div>
-  <div style="margin-top:6px;">Always verify against original sources before acting. This page is an automated digest, not a primary source.</div>
-
+  <p>Generated by Claude · AI-compiled briefing for informational purposes only.</p>
+  <p style="font-size:11px;">Always verify breaking news with primary sources. Not financial, medical, or legal advice.</p>
 </footer>
 
 <script>
 const DATA = {
   "meta": {
     "date": "2026-05-17",
-    "generated_at": "2026-05-17T13:15:00+08:00",
+    "generated_at": "2026-05-17T21:00:00+08:00",
     "edition": "Daily News Briefing",
-    "cycle": "Afternoon brief",
-    "sources": [
-      "Channel NewsAsia",
-      "The Straits Times",
-      "Mothership",
-      "NEA",
-      "PUB",
-      "MOH",
-      "HDB",
-      "LTA",
-      "CSA",
-      "CDA",
-      "weather.gov.sg",
-      "Al Jazeera",
-      "CNN",
-      "CNBC",
-      "Reuters",
-      "BBC",
-      "PBS NewsHour",
-      "NPR",
-      "RTÉ",
-      "TheStreet",
-      "EMPR Media",
-      "Times of Israel",
-      "Russia Matters",
-      "Centre for European Reform",
-      "Wikipedia",
-      "Bloomberg",
-      "BleepingComputer",
-      "The Hacker News",
-      "SecurityWeek",
-      "Help Net Security",
-      "CISA",
-      "Cisco",
-      "Microsoft",
-      "Tenable",
-      "Red Hat",
-      "Security Boulevard",
-      "TanStack",
-      "StepSecurity",
-      "ZDI",
-      "WHO",
-      "ECDC",
-      "CDC",
-      "Africa CDC",
-      "CIDRAP",
-      "Cruise Industry News",
-      "Oceanwide Expeditions",
-      "Washington Post",
-      "Xinhua",
-      "Motorist Singapore",
-      "UN News",
-      "America Magazine",
-      "Manila Times",
-      "Euronews"
-    ]
+    "cycle": "Evening brief"
   },
   "sections": {
     "top_stories": {
       "label": "Top Stories",
-      "ai_summary": "The big news today: the WHO has officially declared the DR Congo–Uganda Ebola outbreak a public health emergency of international concern — the highest level of alarm — citing cross-border spread and no approved Bundibugyo vaccine. Meanwhile, President Trump rattled markets and capitals with an AI-generated 'calm before the storm' image hinting at fresh Iran strikes, even as Brent crude held above $108 with the Strait of Hormuz still essentially shut. In Gaza, mourners buried Hamas military chief al-Haddad as Israel and Hamas exchanged angry rhetoric, and the Pentagon confirmed plans to pull 5,000 troops out of Germany. The day's lighter notes: Bulgaria's Dara wins Eurovision in Vienna and centrist Nicusor Dan wins Romania's presidential runoff.",
+      "ai_summary": "The big global headline today is the WHO declaring the Ebola outbreak in DR Congo and Uganda a Public Health Emergency of International Concern — a rare and serious step. Elsewhere, Israel killed Hamas's military chief Izz al-Din al-Haddad in Gaza, Russia continued punishing missile strikes on Ukrainian cities after a brief truce, and the Trump–Xi summit in Beijing wrapped up signalling a fragile thaw in trade tensions. On a lighter note, Bulgaria pulled off a record-margin win at Eurovision.",
       "stories": [
-        {
-          "id": "ts1",
-          "headline": "WHO declares Congo–Uganda Ebola outbreak a global public health emergency",
-          "category": "Health",
-          "summary": "The World Health Organization on Sunday declared the Bundibugyo strain Ebola outbreak in DR Congo and Uganda a 'public health emergency of international concern' — its highest level of alarm. As of Saturday, 80 suspected deaths, 8 lab-confirmed cases and 246 suspected cases were logged in Congo's Ituri province, with two confirmed cases (one fatal) in Kampala and one in Kinshasa. WHO called it 'extraordinary' because there is no approved vaccine or therapeutic for the Bundibugyo strain.",
-          "source": "Bloomberg",
-          "url": "https://www.bloomberg.com/news/articles/2026-05-17/who-declares-congo-uganda-ebola-outbreak-global-health-emergency"
-        },
-        {
-          "id": "ts2",
-          "headline": "Trump posts 'calm before the storm' image as Iran war could resume within days",
-          "category": "Middle East",
-          "summary": "President Trump shared an AI-generated graphic of himself on a US warship in rough seas captioned 'It Was The Calm Before The Storm', alongside an animation of a US warship firing at an Iranian-flagged aircraft. The posts come amid reports the White House is finalising contingency plans for renewed strikes on Iran, with Israel and the IDF/Mossad in 'intensive' coordination. The April 17 conditional ceasefire technically expires today.",
-          "source": "Times of Israel",
-          "url": "https://www.timesofisrael.com/liveblog_entry/trump-shares-image-warning-of-calm-before-the-storm-amid-reports-iran-war-could-resume/"
-        },
-        {
-          "id": "ts3",
-          "headline": "Strait of Hormuz still effectively shut — Brent crude holds above $108",
-          "category": "Energy",
-          "summary": "Iran's blockade of the Strait of Hormuz remains in force, with tanker traffic running at roughly 5% of normal and Brent crude finishing the week at $108–$109 after an 8.1% weekly gain. The IEA warned this week that the oil market could stay severely undersupplied through October even if the fighting stops next month. The EIA now expects Brent to average $106 in May and June.",
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/economy/2026/5/5/oil-prices-surge-as-violence-flares-in-strait-of-hormuz"
-        },
-        {
-          "id": "ts4",
-          "headline": "Hamas buries military chief al-Haddad in Gaza City; Israel braces for retaliation",
-          "category": "Middle East",
-          "summary": "Hundreds of Palestinians gathered Saturday at the Al-Aqsa Martyrs Mosque to bury Hamas military wing chief Izz al-Din al-Haddad — one of the last surviving architects of the October 7, 2023 attacks — alongside his wife and daughter, who were killed in Friday's Israeli airstrike on al-Rimal. Hamas confirmed his death and called it a 'treacherous' ceasefire breach. The IDF Southern Command is on heightened alert.",
-          "source": "Xinhua",
-          "url": "https://english.news.cn/20260517/21b8253a163440999676b45b77950ee5/c.html"
-        },
-        {
-          "id": "ts5",
-          "headline": "Pentagon to pull 5,000 US troops from Germany; Stryker Brigade hit first",
-          "category": "Defence",
-          "summary": "The US Defense Department has announced plans to withdraw about 5,000 of the roughly 39,000 American soldiers currently stationed in Germany, with the Stryker Brigade at the Vilseck base named as the first unit affected, per Bayerischer Rundfunk. The move comes as Trump pressures NATO allies to take on more conventional defence and as the Pentagon repositions for a sustained Iran posture.",
-          "source": "Euronews",
-          "url": "https://www.euronews.com/"
-        },
-        {
-          "id": "ts6",
-          "headline": "Pope Leo XIV: AI-directed warfare is dragging the world into a 'spiral of annihilation'",
-          "category": "Vatican",
-          "summary": "In his first university address as Pope, Leo XIV used a visit to Rome's La Sapienza on Thursday to condemn surging investment in AI weapons and high-tech militarisation. He named Ukraine, Gaza, Lebanon and Iran as evidence of an 'inhuman' fusion of war and technology, and called for monitoring frameworks so AI 'does not absolve humans of responsibility for their choices'. He is reportedly drafting his first encyclical on AI.",
-          "source": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/world/pope-leo-condemns-use-of-ai-warfare-and-the-spiral-of-annihilation-it-brings"
-        },
-        {
-          "id": "ts7",
-          "headline": "Russia and Ukraine resume drone war; Romania finds unexploded projectile near border",
-          "category": "Russia-Ukraine",
-          "summary": "Ukraine reports 263 combat engagements over the last 24 hours and Russia continues nightly drone barrages after the Trump-brokered three-day Victory Day truce expired on May 12. Romania's defence ministry confirmed an unexploded 'reactive projectile' was found on private property near its Ukraine border, raising fresh NATO-spillover worries. Three civilians were killed and 63 injured in overnight strikes on Odesa and Kharkiv.",
-          "source": "EMPR Media",
-          "url": "https://empr.media/news/war/russia-ukraine-war-updates-key-developments-as-of-may-16-2026/"
-        },
-        {
-          "id": "ts8",
-          "headline": "Trump–Xi Beijing summit ends with thin deal; markets fall sharply",
-          "category": "Markets",
-          "summary": "The two-day Trump–Xi summit in Beijing wrapped Friday with a stabilisation framework, a Chinese pledge to buy 200 Boeing jets (down from a floated 500) and a commitment to import US beef and farm goods — but no breakthrough on tariffs, Taiwan or Iran. Wall Street took the underwhelming outcome poorly: the Dow fell 537 points (-1.07%) to 49,526, the S&P 500 lost 1.24% and the Nasdaq fell 1.54%.",
-          "source": "Washington Post",
-          "url": "https://www.washingtonpost.com/national/2026/05/14/china-trump-xi-summit-beijing/fdddd82c-5004-11f1-97e7-22c6c29ff0d8_story.html"
-        },
-        {
-          "id": "ts9",
-          "headline": "Bulgaria's Dara wins Eurovision 2026 with 'Bangaranga' in Vienna",
-          "category": "Culture",
-          "summary": "Bulgarian singer Dara took the 70th Eurovision Song Contest at Vienna's Wiener Stadthalle with her catchy anthem 'Bangaranga', finishing on 516 points. Israel's Noam Bettan finished a close second with 'Michelle' on the strength of a massive public vote. The final, held Saturday night, was the lighter counterweight to a week dominated by war and market turbulence.",
-          "source": "RTÉ",
-          "url": "https://www.rte.ie/entertainment/2026/0516/1573733-bulgaria-wins-eurovision-song-contest-in-vienna.html"
-        },
-        {
-          "id": "ts10",
-          "headline": "Centrist Nicusor Dan defeats far-right Simion in Romania's presidential runoff",
-          "category": "World Politics",
-          "summary": "Bucharest mayor Nicusor Dan won Romania's presidential runoff with 53.6% on 65% turnout, beating hard-right nationalist George Simion in a result that calmed EU fears of another populist takeover on the bloc's eastern flank. Poland meanwhile heads to a June 1 runoff after nationalist historian Karol Nawrocki edged Civic Platform's Rafal Trzaskowski in the first round.",
-          "source": "Centre for European Reform",
-          "url": "https://www.cer.eu/insights/elections-poland-and-romania-what-do-results-mean-europe"
-        }
+        { "id":"ts1","headline":"WHO declares Ebola outbreak in DR Congo and Uganda a global health emergency","category":"Health","summary":"The World Health Organization on May 17 declared the Bundibugyo-strain Ebola outbreak in DR Congo and Uganda a Public Health Emergency of International Concern. Eight confirmed cases, 246 suspected cases and around 80 suspected deaths have been reported, with two confirmed cases (one fatal) in Uganda's capital Kampala. There are currently no approved vaccines or therapeutics for the Bundibugyo strain.","source":"WHO / Al Jazeera","url":"https://www.who.int/news/item/17-05-2026-epidemic-of-ebola-disease-in-the-democratic-republic-of-the-congo-and-uganda-determined-a-public-health-emergency-of-international-concern" },
+        { "id":"ts2","headline":"Israel kills Hamas military chief Izz al-Din al-Haddad in Gaza City strike","category":"Middle East","summary":"Israel confirmed on May 16 that an airstrike in western Gaza City killed Izz al-Din al-Haddad, head of Hamas's military wing and one of the last surviving architects of the October 7 attacks. Hamas confirmed his death along with that of his wife and daughter, calling the loss 'profound'. Seven people were killed and dozens injured at the strike sites, according to Palestinian medical officials.","source":"CBS News / Times of Israel","url":"https://www.cbsnews.com/news/izz-al-din-al-haddad-hamas-commander-killed-gaza-hamas-israel/" },
+        { "id":"ts3","headline":"Russia hammers Kyiv with overnight missiles and drones, death toll hits 24","category":"Wars","summary":"Russia launched a massive combined attack with hundreds of drones and dozens of missiles on Kyiv overnight on May 13–14, collapsing a nine-storey residential block in Darnytsia. At least 24 people were killed, including three children, and 48 more injured — the deadliest strike on the capital in months. Zelenskyy ordered the military to prepare a response and Ukraine struck Russian gas facilities 1,500 km from the border in retaliation.","source":"CNN / Kyiv Independent","url":"https://www.cnn.com/2026/05/14/europe/ukraine-kyiv-apartment-building-russian-attacks-intl" },
+        { "id":"ts4","headline":"Trump–Xi summit in Beijing wraps with tariff truce expected to be extended","category":"Geopolitics","summary":"Presidents Trump and Xi concluded a two-day summit in Beijing on May 15, signalling support for stable relations and an extension of the one-year trade truce reached last October. China is expected to ramp up purchases of US soybeans, beef and Boeing jets, while US tariffs on Chinese goods remain elevated at an average of 47.5 percent. Xi warned that mishandling Taiwan could put the relationship 'in great jeopardy'.","source":"CNBC","url":"https://www.cnbc.com/2026/05/14/trump-xi-beijing-summit-trade-taiwan-ai-iran-rare-earths-tariffs.html" },
+        { "id":"ts5","headline":"Bulgaria wins Eurovision 2026 with record-margin victory","category":"Culture","summary":"Bulgarian pop star Dara won the Eurovision Song Contest in Vienna on May 16 with the song 'Bangaranga', finishing a record 173 points ahead of Israel's Noam Bettan — the largest winning margin in the contest's history. Israel finished second despite boycott protests, and the UK came last. Next year's contest will be held in Bulgaria.","source":"CNN / Billboard","url":"https://www.cnn.com/2026/05/16/entertainment/bulgaria-eurovision-2026-final-intl" },
+        { "id":"ts6","headline":"Trump renews bomb threat against Iran as US–Iran peace memo stalls","category":"Middle East","summary":"President Trump on May 16 again threatened renewed strikes on Iran while pushing for a 14-point one-page memo brokered by Pakistan that would end the war, declare a 30-day negotiating window, and impose a moratorium on Iran's nuclear enrichment. Tehran continues to favour a staggered, phased approach. The ceasefire remains, in Trump's words, 'on massive life support'.","source":"Times of Israel","url":"https://www.timesofisrael.com/us-iran-said-closing-in-on-framework-for-permanent-deal-as-trump-renews-bomb-threats/" }
       ]
     },
     "singapore": {
-      "label": "Singapore",
-      "ai_summary": "A quiet Sunday at home: NEA's afternoon forecast points to thundery showers mainly over the north and west, so umbrellas if you're heading out. The big local stories all came in earlier this weekend — dengue cases are down 66% year-on-year but the peak season is just starting, May's first COE bidding pushed Cat B above $126,000, and MOE says no Singapore student data has yet leaked in the global Canvas LMS breach. NCID is still holding the two Hondius cruise passengers under quarantine, both still testing negative for hantavirus.",
+      "label":"Singapore",
+      "ai_summary":"Singapore's biggest local story tonight is the police revealing footage of an AI deepfake Zoom scam that mimicked PM Lawrence Wong and cost one victim US$3.8 million. Expect thundery showers across the north and west into the evening. Beyond that, freshly released COE prices show Cat A and Cat B premiums above S$124,000, and the CDA is still tracking two residents quarantined after the MV Hondius hantavirus outbreak.",
       "stories": [
-        {
-          "id": "sg1",
-          "headline": "Sunday forecast: thundery showers mainly over north and west Singapore",
-          "category": "Weather",
-          "summary": "NEA's afternoon forecast points to thundery showers mainly over northern and western Singapore in the late afternoon. Daytime temperatures will sit around 33–34°C, in line with the inter-monsoon period which is expected to bring short, heavy afternoon thunderstorms on most days through end-May. Drivers in the west should keep an eye on PUB's Telegram channel for flash-flood alerts.",
-          "source": "weather.gov.sg",
-          "url": "https://www.weather.gov.sg/home/"
-        },
-        {
-          "id": "sg2",
-          "headline": "Dengue cases down 66% so far in 2026, but peak season is just starting",
-          "category": "Health",
-          "summary": "Singapore has logged just over 600 dengue cases from January to mid-May — a 66% drop versus the same period last year, NEA said. The improvement is credited largely to the expanded Wolbachia mosquito programme. But with the traditional dengue peak of May–October now underway, the agency is urging residents to remove stagnant water at home; one dengue death has been recorded so far this year.",
-          "source": "Xinhua / NEA",
-          "url": "https://english.news.cn/asiapacific/20260516/a34b1b20eeb241a4960ca768f0a4a7b7/c.html"
-        },
-        {
-          "id": "sg3",
-          "headline": "COE premiums rise across every category in May's first bidding",
-          "category": "Cost of living",
-          "summary": "The first Certificate of Entitlement bidding round for May closed on May 6 with premiums up across the board. Category A (smaller cars) ended at $124,790, Cat B (bigger cars) at $126,236, Cat C (commercial) at $87,479 and Open (Cat E) hit a new high of $127,700. Strong dealer demand keeps new-car ownership painfully expensive heading into the second half of 2026.",
-          "source": "Motorist Singapore",
-          "url": "https://www.motorist.sg/article/5834/may-2026-coe-results-1st-bidding-the-coe-horse-ran-hot-and-high-with-premiums-for-the-car-categories-and-commercial-vehicle-category-zooming-to-new-heights"
-        },
-        {
-          "id": "sg4",
-          "headline": "MOE: no sensitive Singapore student data leaked yet in global Canvas hack",
-          "category": "Policy",
-          "summary": "The Ministry of Education said on Friday that, so far, no sensitive information from Singapore students has been leaked in the global Canvas learning-platform breach. Hacking group ShinyHunters claimed to have stolen 3.65TB of data from 275 million users worldwide, with NUS and SIM named on affected-institution lists. The Cyber Security Agency is monitoring and supporting affected organisations.",
-          "source": "CSA / The Star",
-          "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/05/08/nus-sim-among-top-singapore-institutions-named-in-global-data-breach-list"
-        },
-        {
-          "id": "sg5",
-          "headline": "Both Singapore Hondius passengers still asymptomatic at NCID",
-          "category": "Health",
-          "summary": "Both Singapore residents who were aboard the MV Hondius continue to test negative for hantavirus and remain at the National Centre for Infectious Diseases under a 30-day quarantine from their last exposure, followed by phone surveillance to day 45. CDA again reiterated there is no evidence of community transmission and the public risk remains low.",
-          "source": "Singapore CDA",
-          "url": "https://www.cda.gov.sg/news-and-events/both-singapore-residents-onboard-mv-hondius-tested-negative-for-hantavirus/"
-        },
-        {
-          "id": "sg6",
-          "headline": "18,000 more HDB flats picked for Home Improvement Programme upgrades",
-          "category": "Housing",
-          "summary": "Roughly 18,000 ageing HDB flats across Singapore have been picked for upgrading works under the Home Improvement Programme. The works fix common ageing problems like leaky pipes, ceiling leaks and outdated wiring, with essential repairs fully funded by the government. Each flat's works typically take 10 working days or less once their precinct begins.",
-          "source": "HDB",
-          "url": "https://www.hdb.gov.sg/hdb-pulse/news/2026/close-to-29000-hdb-households-to-benefit-from-upgrading-projects-to-enhance-their-neighbourhoods"
-        },
-        {
-          "id": "sg7",
-          "headline": "Parliament passes Cross-Border Railways Bill, paving way for Johor RTS Link",
-          "category": "Policy",
-          "summary": "Singapore's Parliament passed the Cross-Border Railways (Border Control Co-Location) Bill, setting out how immigration and customs operations on both sides of the Causeway will work for the upcoming Johor Bahru–Singapore RTS Link. The legislation is a key step toward the RTS Link becoming operational by end-2026, expected to ease cross-border commuting for tens of thousands daily.",
-          "source": "Singapore Parliament",
-          "url": "https://mediaselangor.com/en/2026/05/355590"
-        },
-        {
-          "id": "sg8",
-          "headline": "Singapore International Festival of Arts runs through May 30",
-          "category": "Lifestyle",
-          "summary": "The Singapore International Festival of Arts (SIFA) is mid-way through its 2026 run, May 15–30, with theatre, dance and visual-arts programmes across multiple venues. Boutiques Singapore: The Spring Summer Edition 2026 also runs this weekend at the F1 Pit Building. A welcome bit of weekend distraction from a tense global news cycle.",
-          "source": "Time Out Singapore",
-          "url": "https://www.timeout.com/singapore/things-to-do/things-to-do-in-singapore-this-weekend"
-        }
+        { "id":"sg1","headline":"Police detail AI deepfake Zoom scam mimicking PM Wong; victim lost S$4.9 million","category":"Crime / Scams","summary":"Singapore Police on May 17 released details of a sophisticated scam in which fraudsters used a deepfake AI-generated Zoom call impersonating PM Lawrence Wong and senior officials. Victims received WhatsApp messages from someone posing as the cabinet secretary inviting them to a 'meeting' on funding linked to the Strait of Hormuz crisis. One victim alone lost at least S$4.9 million (US$3.8 million).","source":"Malay Mail / SCMP","url":"https://www.scmp.com/news/asia/southeast-asia/article/3353868/how-victim-lost-us38-million-singapore-deepfake-zoom-scam-impersonating-pm-wong" },
+        { "id":"sg2","headline":"Thundery showers expected across northern and western Singapore","category":"Weather","summary":"The Meteorological Service Singapore forecasts thundery showers mainly over northern and western parts of the island in the late afternoon and evening of May 17. The wider fortnightly outlook keeps short-duration thundery showers on most afternoons. PUB has urged residents to subscribe to flash flood alerts via Telegram and SMS.","source":"weather.gov.sg / PUB","url":"https://www.weather.gov.sg/home/" },
+        { "id":"sg3","headline":"CDA: two Singapore residents from MV Hondius cruise still in quarantine at NCID","category":"Health","summary":"The Communicable Diseases Agency confirmed that two Singapore residents who had been onboard the hantavirus-hit cruise ship MV Hondius remain isolated at the National Centre for Infectious Diseases. Both are awaiting test results; if negative, they will face a 30-day quarantine plus 45 days of phone surveillance. CDA says public risk in Singapore remains low.","source":"CDA Singapore","url":"https://www.cda.gov.sg/news-and-events/public-health-measures-activated-for-two-singapore-residents-onboard-mv-hondius/" },
+        { "id":"sg4","headline":"COE prices: Cat A closes at S$124,790, Cat B at S$126,236 in May round one","category":"Transport","summary":"LTA's first Certificate of Entitlement bidding exercise of May 2026 closed with Cat A (smaller cars) at S$124,790 and Cat B (larger and luxury cars) at S$126,236. Cat C (commercial vehicles) closed at S$87,479, Cat D (motorcycles) at S$9,452, and Open Cat E at S$127,700. The May–July quota is up 1 percent on the previous quarter.","source":"LTA","url":"https://www.lta.gov.sg/content/ltagov/en/newsroom/2026/4/news-releases/certificate-of-entitlement--coes--quota-for-may-2026-to-july-202.html" },
+        { "id":"sg5","headline":"Carbon tax hike could lift HDB utility bills by about S$3 a month","category":"Cost of Living","summary":"Singapore's planned carbon tax increase from S$25 to S$45 per tonne is expected to push monthly utility bills for a typical four-room HDB flat up by about S$3 by 2030, according to government estimates. To cushion the impact, the government is paying out up to S$380 a year in U-Save rebates, with more than 950,000 HDB households receiving payments in January.","source":"Yahoo News Singapore","url":"https://sg.news.yahoo.com/live/singapores-higher-carbon-tax-may-lift-hdb-utility-bills-lta-says-trumps-board-of-peace-draws-skepticism-from-allies-singapore-live-news-022448422.html" }
       ]
     },
     "wars": {
-      "label": "Wars & Conflicts",
-      "ai_summary": "All three live theatres are on a knife edge today. Trump's 'calm before the storm' image suggests the US is genuinely weighing a fresh strike on Iran as the April ceasefire technically expires; Hormuz remains shut. In Ukraine, Russia is still bombing day and night after the Victory Day truce collapsed, and an unexploded projectile turning up on Romanian soil is a new spillover worry. In Gaza, Hamas has just buried military chief al-Haddad and vowed revenge — though sources concede they lack the rockets to follow through — while the Israel–Lebanon truce was extended 45 days but daily strikes continue on both sides.",
-      "theatres": [
+      "label":"Wars & Conflicts",
+      "ai_summary":"All three active theatres look ugly tonight. Russia is back to mass overnight strikes on Kyiv after its US-brokered truce collapsed, Israel just decapitated Hamas's military wing in Gaza, and the US–Iran ceasefire is hanging on talks mediated by Pakistan. Putin keeps hinting the war is 'coming to an end' while bombing apartment blocks; Trump keeps threatening Iran while pushing a peace memo. Watch the ceasefire deadline this week.",
+      "theatres":[
         {
-          "name": "Russia–Ukraine War",
-          "status": "Active — Victory Day truce collapsed; record drone war resumed; first NATO-territory projectile of the month",
-          "timeline": [
-            {
-              "date": "Feb 24 2022",
-              "event": "Russia launches full-scale invasion of Ukraine"
-            },
-            {
-              "date": "Apr 2022",
-              "event": "Russian Black Sea flagship Moskva sunk by Ukrainian Neptune missiles"
-            },
-            {
-              "date": "Jun 2023",
-              "event": "Kakhovka Dam destroyed, flooding 240 sq mi; Ukraine launches failed counteroffensive"
-            },
-            {
-              "date": "Feb 18 2024",
-              "event": "Russia takes full control of Avdiivka after months of grinding combat"
-            },
-            {
-              "date": "Aug 2024",
-              "event": "Ukraine launches surprise Kursk Offensive into Russian territory"
-            },
-            {
-              "date": "Aug 15 2025",
-              "event": "Putin and Trump hold first Russia-US summit in four years in Alaska to discuss ending the war"
-            },
-            {
-              "date": "May 9–11 2026",
-              "event": "Trump brokers 72-hour Victory Day truce; both sides accuse the other of violations during the pause"
-            },
-            {
-              "date": "May 12 2026",
-              "event": "Truce expires; Russia immediately fires 216+ drones at Ukraine including civilian infrastructure, killing 1"
-            },
-            {
-              "date": "May 14–15 2026",
-              "event": "Russia launches 1,560+ drones over two days — biggest sustained aerial assault of the war; Ukraine retaliates with 355-drone barrage that sets Rosneft's Ryazan oil refinery ablaze, killing 4"
-            },
-            {
-              "date": "May 16 2026",
-              "event": "US waiver on Russian oil purchases expires at 12:01am EDT; 3 killed and 63 injured in overnight Russian strikes on Odesa and Kharkiv; Ukrainian drone kills a civilian in Belgorod"
-            },
-            {
-              "date": "May 17 2026",
-              "event": "Romania confirms an unexploded 'reactive projectile' on private property near its Ukraine border; Ukraine reports 263 combat engagements in the past 24 hours; Moldova's President Sandu warns Putin's Transnistria passport decree is a 'recruitment tool' for the war"
-            }
+          "name":"Russia–Ukraine War",
+          "status":"Active — US-brokered 3-day truce expired, mass strikes resumed",
+          "timeline":[
+            {"date":"2022-02-24","event":"Russia launches full-scale invasion of Ukraine."},
+            {"date":"2026-04","event":"Russia launches a record 8,000+ drones at Ukraine, highest monthly total since the war began."},
+            {"date":"2026-05-04","event":"Russia and Ukraine declare competing ceasefires; both immediately accuse each other of violations."},
+            {"date":"2026-05-09","event":"US brokers a 3-day ceasefire and 1,000-prisoner swap, running May 9–11."},
+            {"date":"2026-05-10","event":"Putin publicly suggests the war is 'coming to an end' and offers to meet Zelenskyy in a third country."},
+            {"date":"2026-05-12","event":"Truce expires; Russia fires more than 200 drones overnight at Ukraine. Zelenskyy says Russia has no intention of ending the war."},
+            {"date":"2026-05-13","event":"Russia launches at least 800 drones in waves; combined strike on Kyiv begins in daytime."},
+            {"date":"2026-05-14","event":"Russian missile and drone barrage on Kyiv kills at least 24, including 3 children; nine-storey apartment block collapses in Darnytsia."},
+            {"date":"2026-05-14","event":"Ukraine strikes Russian gas facilities in Orenburg region, more than 1,500 km from the border, in retaliation."},
+            {"date":"2026-05-16","event":"Ukraine claims to have intercepted six Russian Kinzhal hypersonic missiles."},
+            {"date":"2026-05-17","event":"Fighting continues — Ukraine reports 234 combat engagements, 95 Russian airstrikes and 300 guided bombs in the past 24 hours.","today":true}
           ]
         },
         {
-          "name": "US/Israel–Iran (Strait of Hormuz crisis)",
-          "status": "Conditional ceasefire technically expires today; Trump posts 'calm before the storm' imagery; strait still ~5% of normal traffic",
-          "timeline": [
-            {
-              "date": "Jun 2025",
-              "event": "12-Day War: Israel and US strike Iranian nuclear sites; ceasefire reached"
-            },
-            {
-              "date": "Feb 28 2026",
-              "event": "Israel and US launch new joint air campaign against Iran; Supreme Leader Ali Khamenei killed in strikes"
-            },
-            {
-              "date": "Mar 2026",
-              "event": "Mojtaba Khamenei installed as new Supreme Leader; Iran begins blocking Hormuz and strikes US bases and Arab states"
-            },
-            {
-              "date": "Apr 8 2026",
-              "event": "Conditional US-Iran ceasefire declared, contingent on reopening of Hormuz"
-            },
-            {
-              "date": "Apr 17 2026",
-              "event": "Ceasefire formally begins, set to last 30 days through May 17"
-            },
-            {
-              "date": "Apr 22 2026",
-              "event": "Iran seizes two vessels in Hormuz after a container ship comes under fire off Oman"
-            },
-            {
-              "date": "May 3–4 2026",
-              "event": "Trump orders US Navy to escort commercial ships through Hormuz; Iran threatens attacks"
-            },
-            {
-              "date": "May 7 2026",
-              "event": "US says it intercepted Iranian attacks on three US Navy ships in the Strait"
-            },
-            {
-              "date": "May 11 2026",
-              "event": "Trump rejects Iran's counter-proposal on nuclear program, calls ceasefire 'on massive life support'"
-            },
-            {
-              "date": "May 14–15 2026",
-              "event": "Indian cargo ship carrying livestock sunk off Oman; 'unauthorised personnel' board a UAE-anchored vessel and steer it toward Iran; Trump-Xi summit ends without an Iran deal"
-            },
-            {
-              "date": "May 16 2026",
-              "event": "UK confirms it has deployed drones, fighter aircraft and a Royal Navy warship to escort Hormuz shipping; Tehran says it will soon unveil a Hormuz toll mechanism"
-            },
-            {
-              "date": "May 17 2026",
-              "event": "Conditional ceasefire window technically expires; Trump posts AI-generated 'calm before the storm' image and an animation of a US warship firing on an Iranian aircraft; NYT reports US/Israel finalising plans for potential renewed strikes; Brent crude holds above $108"
-            }
+          "name":"US/Israel–Iran (Strait of Hormuz)",
+          "status":"Active — ceasefire shaky, US–Iran negotiations via Pakistan ongoing",
+          "timeline":[
+            {"date":"2026-02-28","event":"US and Israel launch joint airstrikes on Iran, killing Supreme Leader Ali Khamenei and several officials. War begins."},
+            {"date":"2026-04-07","event":"US–Iran ceasefire announced; Iran's foreign minister declares Strait of Hormuz open. Oil prices fall 11% in one day."},
+            {"date":"2026-04-19","event":"Strait of Hormuz tensions reignite; US and Iranian forces exchange attacks on commercial shipping."},
+            {"date":"2026-05-04","event":"Iran attacks UAE; US sinks 7 small Iranian boats; commercial vessels attacked in the strait."},
+            {"date":"2026-05-06","event":"US and Iran begin work on a one-page, 14-point memo via Pakistani mediators to end the war."},
+            {"date":"2026-05-07","event":"First Chinese oil tanker attacked in the Strait of Hormuz as the conflict widens."},
+            {"date":"2026-05-08","event":"Iran seizes a tanker in the Gulf of Oman; US 'disables' two Iranian ships."},
+            {"date":"2026-05-11","event":"Trump says the ceasefire is on 'massive life support' after rejecting Tehran's counter-proposal."},
+            {"date":"2026-05-16","event":"Trump threatens new strikes if Iran doesn't accept a deal; both sides still talking via Pakistan."},
+            {"date":"2026-05-17","event":"US naval blockade of Iranian ports remains in place; ceasefire deadline looms mid-week.","today":true}
           ]
         },
         {
-          "name": "Israel–Gaza / Lebanon",
-          "status": "Gaza ceasefire shaken after killing of Hamas chief al-Haddad; Lebanon truce extended 45 days but daily strikes continue",
-          "timeline": [
-            {
-              "date": "Oct 7 2023",
-              "event": "Hamas-led attack on southern Israel kills ~1,200 and takes 250+ hostages, triggering Gaza war"
-            },
-            {
-              "date": "Sep–Oct 2024",
-              "event": "Israel kills Hezbollah chief Nasrallah; pager-attack campaign and ground invasion of southern Lebanon"
-            },
-            {
-              "date": "May 2025",
-              "event": "Israel kills Hamas Gaza commander Mohammad Sinwar; Izz al-Din al-Haddad takes over military wing"
-            },
-            {
-              "date": "Oct 2025",
-              "event": "US-brokered Gaza ceasefire takes effect; hostage releases begin under Trump's Gaza plan"
-            },
-            {
-              "date": "Apr 16 2026",
-              "event": "Israel and Lebanon agree to formal ceasefire amid wider 2026 Lebanon war"
-            },
-            {
-              "date": "Apr 23 2026",
-              "event": "Trump announces first 3-week extension of Israel-Lebanon ceasefire"
-            },
-            {
-              "date": "May 14 2026",
-              "event": "Direct Israel-Lebanon talks open in Washington; Lebanon expresses cautious optimism"
-            },
-            {
-              "date": "May 15 2026",
-              "event": "Israel strikes al-Rimal in Gaza City, killing Hamas military chief Izz al-Din al-Haddad with his wife, daughter and 7 others; Israel-Lebanon ceasefire extended another 45 days"
-            },
-            {
-              "date": "May 16 2026",
-              "event": "Hundreds attend al-Haddad's funeral starting at the Al-Aqsa Martyrs Mosque in Gaza City; Hamas confirms his death and calls it a 'treacherous' ceasefire breach; IDF Southern Command on heightened alert; IDF soldier killed by Hezbollah mortar in southern Lebanon"
-            },
-            {
-              "date": "May 17 2026",
-              "event": "Hamas sources concede they lack the rocket capability to retaliate at scale; Israeli strikes continue in Gaza City (3 women and a child reported killed) and on Tyre outskirts despite both ceasefires nominally in force"
-            }
+          "name":"Israel–Gaza / Lebanon",
+          "status":"Active — Israel kills Hamas military chief; Lebanon truce extended",
+          "timeline":[
+            {"date":"2023-10-07","event":"Hamas-led attacks on Israel kill ~1,200 and take ~250 hostages, triggering the Gaza war."},
+            {"date":"2025-05","event":"Mohammed Sinwar killed; Izz al-Din al-Haddad takes over Hamas's military wing."},
+            {"date":"2026-05-15","event":"Israeli strike in western Gaza City kills Haddad — last surviving Oct 7 architect — alongside his wife and daughter. Seven killed in total."},
+            {"date":"2026-05-15","event":"Israel–Lebanon truce extended for a further 45 days."},
+            {"date":"2026-05-16","event":"IDF and Hamas both confirm Haddad's death; Hamas calls the loss 'profound'."},
+            {"date":"2026-05-17","event":"Total death toll from Israeli strikes in Lebanon since war began passes 2,800; over 1 million displaced.","today":true}
           ]
         }
       ]
     },
     "hantavirus": {
-      "label": "Hantavirus Outbreak",
-      "ai_summary": "Two big health stories collide today. The MV Hondius hantavirus outbreak is still stable at 10–11 cases and 3 deaths, with the ship now sailing toward Rotterdam for a weeks-long disinfection. But the much bigger story is WHO's declaration today of the DR Congo–Uganda Ebola Bundibugyo outbreak as a public health emergency of international concern — 80 suspected deaths and confirmed cases as far as Kampala and Kinshasa, with no approved vaccine for this strain. Both outbreaks remain low-risk for the general public outside the affected regions.",
-      "stats": {
-        "cases_total": 11,
-        "confirmed": 8,
-        "suspected": 3,
-        "deaths": 3,
-        "countries_affected": 16
-      },
-      "stories": [
-        {
-          "id": "hv1",
-          "headline": "WHO declares DR Congo–Uganda Ebola Bundibugyo outbreak a global public health emergency",
-          "category": "WHO PHEIC",
-          "summary": "On May 17, WHO's Director-General formally declared the Ebola Bundibugyo outbreak in DR Congo and Uganda a Public Health Emergency of International Concern (PHEIC) — its highest level of alarm. Drivers: cross-border transmission to Kampala and Kinshasa, clusters of unexplained deaths, and the absence of any approved vaccine or therapeutic for the Bundibugyo strain. WHO stressed it does not yet meet the threshold of a 'pandemic emergency'.",
-          "source": "WHO",
-          "url": "https://www.who.int/news/item/17-05-2026-epidemic-of-ebola-disease-in-the-democratic-republic-of-the-congo-and-uganda-determined-a-public-health-emergency-of-international-concern"
-        },
-        {
-          "id": "hv2",
-          "headline": "Ebola outbreak case count: 8 confirmed, 246 suspected, 80 suspected deaths",
-          "category": "Ebola — Congo/Uganda",
-          "summary": "As of Saturday, 80 suspected deaths, 8 lab-confirmed cases and 246 suspected cases had been reported across at least three health zones in Congo's Ituri province (Bunia, Rwampara, Mongbwalu). Uganda has reported two lab-confirmed cases including one death in Kampala, and Kinshasa has logged one confirmed case in a traveller from Ituri. The high positivity rate (8 of 13 samples) suggests the true outbreak is larger than detected.",
-          "source": "CNN",
-          "url": "https://www.cnn.com/2026/05/16/africa/congo-uganda-ebola-international-concern-intl-hnk"
-        },
-        {
-          "id": "hv3",
-          "headline": "MV Hondius arrives in Rotterdam tonight for weeks-long medical-grade disinfection",
-          "category": "Hondius status",
-          "summary": "After leaving Tenerife on May 11, the hantavirus-stricken Dutch expedition ship is scheduled to dock at the Port of Rotterdam on Sunday evening or Monday with 25 crew, two RIVM medics and the body of one deceased passenger on board. None of those onboard are showing symptoms. A specialist disinfection following RIVM and WHO protocols will then take several weeks before the vessel can return to service.",
-          "source": "Cruise Industry News",
-          "url": "https://cruiseindustrynews.com/cruise-news/2026/05/update-hondius-arrives-in-rotterdam-on-may-18/"
-        },
-        {
-          "id": "hv4",
-          "headline": "WHO holds Hondius hantavirus count at 10–11 cases with 3 deaths; risk still rated low",
-          "category": "Hantavirus update",
-          "summary": "WHO's latest update lists 8 laboratory-confirmed Andes virus cases, 2 probable and 1 inconclusive, plus 3 deaths (a Dutch couple and a German woman) spread across 16 countries through cases, contacts or origin investigation. The agency still rates global public-health risk as low, but Director-General Tedros warned more cases may yet appear given the virus's 6-week incubation window as passengers return home.",
-          "source": "WHO",
-          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON601"
-        },
-        {
-          "id": "hv5",
-          "headline": "CDC monitoring 41 Americans for hantavirus; 18 cruise passengers stay asymptomatic in Nebraska",
-          "category": "Quarantine",
-          "summary": "CDC said on May 14 that 41 people across the United States are under monitoring, including the 18 former Hondius passengers housed at the University of Nebraska Medical Center's National Quarantine Unit in Omaha — the only federally funded quarantine facility in the country. A previously 'confirmed' US case has been downgraded to inconclusive after retesting, and CDC says there are no confirmed Andes virus cases on US soil. High-risk contacts must stay home through the full 42-day incubation window.",
-          "source": "Washington Post",
-          "url": "https://www.washingtonpost.com/health/2026/05/14/how-cdc-determines-if-someone-is-hantavirus-risk/"
-        },
-        {
-          "id": "hv6",
-          "headline": "ECDC keeps Europe risk 'very low' as genomic data confirms single Hondius source",
-          "category": "Risk assessment",
-          "summary": "ECDC's May 16 threat assessment reiterates that the risk to the general European population is very low and widespread transmission is not expected. Fresh genetic sequencing strongly links all confirmed Hondius cases to a single original source of infection — most likely environmental exposure of the index passenger in Argentina before boarding — and confirms the strain is not a new variant.",
-          "source": "ECDC",
-          "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
-        },
-        {
-          "id": "hv7",
-          "headline": "Singapore's two Hondius residents test negative, complete isolation at NCID",
-          "category": "Singapore",
-          "summary": "Both Singapore residents who were aboard the MV Hondius have tested negative for hantavirus and are being held at the National Centre for Infectious Diseases for a 30-day quarantine from their last date of exposure, followed by phone surveillance to day 45. The Communicable Diseases Agency reiterated that there is no evidence of community transmission in Singapore and the public risk remains low.",
-          "source": "Singapore CDA",
-          "url": "https://www.cda.gov.sg/news-and-events/both-singapore-residents-onboard-mv-hondius-tested-negative-for-hantavirus/"
-        },
-        {
-          "id": "hv8",
-          "headline": "Mpox and H5N1 outbreaks continue in the background",
-          "category": "Other outbreaks",
-          "summary": "Africa CDC reports more than 9,000 mpox cases (1,480 lab-confirmed) and 53 deaths across 22 African Union countries so far in 2026, with DRC, Madagascar, Guinea, Liberia and Ghana driving most new cases. WHO has logged 13 H5N1/swine flu human cases globally in Q1 2026, including a fatal H5N1 case in a Bangladeshi child and three cases in Cambodia. Neither pathogen is showing sustained human-to-human spread and global risk assessments stay low.",
-          "source": "CIDRAP",
-          "url": "https://www.cidrap.umn.edu/avian-influenza-bird-flu/who-reports-h5n1-death-among-variant-zoonotic-flu-cases-seen-year"
-        }
+      "label":"Hantavirus Outbreak",
+      "ai_summary":"The MV Hondius outbreak has stabilised at 8 confirmed cases, 2 suspected and 3 deaths, but the geographic footprint keeps widening — former passengers are now hospitalised or quarantined in at least 12 countries. WHO calls the epidemic risk low because the Andes virus needs close, sustained contact to spread, but the case fatality rate for past Andes outbreaks runs 20–40%. Singapore's two cases remain in isolation at NCID.",
+      "stats":{ "confirmed_cases":8, "suspected_cases":2, "deaths":3, "countries_affected":12 },
+      "stories":[
+        { "id":"ht1","headline":"MV Hondius outbreak: 8 confirmed cases, 3 deaths across 12 countries","category":"Outbreak Tracker","summary":"As of mid-May, the WHO and ECDC report 8 confirmed and 2 suspected Andes hantavirus cases from the Dutch cruise ship MV Hondius, with three deaths (two confirmed Andes virus). Former passengers are hospitalised or quarantined in Australia, Canada, France, Germany, the Netherlands, Saint Helena, Singapore, South Africa, Spain, Switzerland, Turkey, and the United States.","source":"WHO","url":"https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON600" },
+        { "id":"ht2","headline":"Singapore's two MV Hondius passengers still in quarantine at NCID","category":"Singapore","summary":"The CDA continues to monitor two Singapore residents who were aboard the MV Hondius. Both are isolated at the National Centre for Infectious Diseases pending test results. If negative, they face 30 days of quarantine plus 45 days of phone surveillance. CDA reiterates that public risk in Singapore is low.","source":"CDA Singapore","url":"https://www.cda.gov.sg/news-and-events/public-health-measures-activated-for-two-singapore-residents-onboard-mv-hondius/" },
+        { "id":"ht3","headline":"Andes virus: the only hantavirus known to spread between humans","category":"Science","summary":"Unlike other hantaviruses, the Andes virus can transmit between people via close, sustained contact and may be airborne. Past Andes outbreaks have had case fatality rates of 20–40 percent, which is why WHO has flagged the outbreak even though it has not yet declared a formal emergency response level. WHO has shipped 2,500 diagnostic kits from Argentina to labs in five countries.","source":"WHO / Johns Hopkins","url":"https://hub.jhu.edu/2026/05/08/hantavirus-outbreak-dutch-ship-hondius/" },
+        { "id":"ht4","headline":"WHO's response to the MV Hondius cluster","category":"WHO","summary":"WHO Director-General Tedros has signalled travel to Tenerife to oversee disembarkment efforts, with repatriation flights planned. WHO emphasises the epidemic risk is low for the general public, given the virus's reliance on close, sustained contact.","source":"WHO","url":"https://www.who.int/news/item/07-05-2026-who-s-response-to-hantavirus-cases-linked-to-a-cruise-ship" }
       ]
     },
     "cybersecurity": {
-      "label": "CyberSecurity",
-      "ai_summary": "Active exploitation dominates this cycle. Cisco's CVSS 10.0 SD-WAN auth-bypass (CVE-2026-20182) hits its CISA federal patch deadline today, linked to threat cluster UAT-8616. Microsoft Exchange zero-day CVE-2026-42897 is being exploited in the wild against on-prem servers, and a fresh anonymous disclosure pair — BitLocker bypass 'YellowKey' and CTFMON privilege-escalation 'GreenPlasma' — adds new Windows risk. ShinyHunters' 275M-record Canvas extortion ended with Instructure paying the ransom, and the strategic story remains Google's confirmation of the first AI-developed zero-day caught in the wild — LLM-assisted exploit-writing has crossed from theory into operational use.",
-      "stories": [
-        {
-          "id": "cs1",
-          "headline": "CISA federal deadline today for Cisco SD-WAN auth-bypass exploited by UAT-8616",
-          "category": "Zero-day",
-          "cve": "CVE-2026-20182",
-          "cvss": 10.0,
-          "severity": "CRITICAL",
-          "summary": "CISA's May 17 patch deadline for federal agencies expires today for the maximum-severity Cisco Catalyst SD-WAN Controller/Manager authentication bypass. Active exploitation has been attributed with high confidence to threat cluster UAT-8616, which abuses the vdaemon DTLS service (UDP 12346) to inject an attacker-controlled SSH key into the vmanage-admin account and then log in over NETCONF. Patch immediately.",
-          "source": "The Hacker News",
-          "url": "https://thehackernews.com/2026/05/cisa-adds-cisco-sd-wan-cve-2026-20182.html"
-        },
-        {
-          "id": "cs2",
-          "headline": "Microsoft Exchange Server zero-day CVE-2026-42897 exploited in the wild",
-          "category": "Zero-day",
-          "cve": "CVE-2026-42897",
-          "cvss": 8.1,
-          "severity": "HIGH",
-          "summary": "Microsoft disclosed an actively exploited spoofing/XSS zero-day affecting Exchange Server Subscription Edition, 2016 and 2019. Attackers send a specially crafted email that, when opened in Outlook Web Access, executes arbitrary JavaScript in the victim's browser context — enabling credential theft and lateral movement against on-prem mail. Apply the out-of-band fix as soon as it ships.",
-          "source": "Eastern Herald",
-          "url": "https://easternherald.com/2026/05/17/microsoft-exchange-zero-day-active-attacks-2026/"
-        },
-        {
-          "id": "cs3",
-          "headline": "Windows BitLocker bypass 'YellowKey' and CTFMON LPE 'GreenPlasma' disclosed",
-          "category": "Zero-day",
-          "cve": null,
-          "cvss": null,
-          "severity": "HIGH",
-          "summary": "An anonymous researcher dropped a pair of Windows zero-days: 'YellowKey' allows an attacker with physical access to bypass BitLocker on protected drives (PoC public), and 'GreenPlasma' is a local privilege escalation in the Windows Collaborative Translation Framework (CTFMON). Microsoft is investigating; in the meantime, enterprises should rotate recovery keys and audit physical access controls.",
-          "source": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/windows-bitlocker-zero-day-gives-access-to-protected-drives-poc-released/"
-        },
-        {
-          "id": "cs4",
-          "headline": "Microsoft May Patch Tuesday fixes wormable Netlogon RCE and DNS Client RCE",
-          "category": "Vulnerability",
-          "cve": "CVE-2026-41089",
-          "cvss": 9.8,
-          "severity": "CRITICAL",
-          "summary": "Microsoft's May 2026 Patch Tuesday addressed roughly 120–138 flaws, headlined by CVE-2026-41089 — an unauthenticated stack buffer overflow in Windows Netlogon that lets an attacker execute code on a domain controller with no user interaction — and CVE-2026-41096, a heap overflow in the Windows DNS Client triggered by a crafted DNS response. Both are wormable, both pose enterprise-wide pre-auth risk. Patch DCs first.",
-          "source": "The Hacker News",
-          "url": "https://thehackernews.com/2026/05/microsoft-patches-138-vulnerabilities.html"
-        },
-        {
-          "id": "cs5",
-          "headline": "Google GTIG catches first AI-developed zero-day in the wild — a 2FA bypass",
-          "category": "AI security",
-          "cve": null,
-          "cvss": null,
-          "severity": "HIGH",
-          "summary": "Google's Threat Intelligence Group says it disrupted an unknown actor using an LLM-generated Python exploit that bypassed two-factor authentication on a popular open-source sysadmin tool. The script bore telltale LLM fingerprints — including a hallucinated CVSS score and textbook-Pythonic style — and exploited a hard-coded trust assumption, the kind of semantic logic flaw LLMs excel at finding. Google says Gemini was not used.",
-          "source": "The Hacker News",
-          "url": "https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html"
-        },
-        {
-          "id": "cs6",
-          "headline": "'Fragnesia' / 'Dirty Frag' Linux kernel LPE grants root on all major distros",
-          "category": "Vulnerability",
-          "cve": "CVE-2026-46300",
-          "cvss": null,
-          "severity": "HIGH",
-          "summary": "A new local privilege-escalation flaw in the Linux kernel's XFRM ESP-in-TCP subsystem lets an unprivileged user corrupt cached pages of read-only setuid files (like /usr/bin/su) to gain root, with a working PoC already public. It is an unintended side effect of the original Dirty Frag fix and affects kernels released before May 13, 2026 across AlmaLinux, Amazon Linux, Debian, Red Hat, SUSE and Ubuntu.",
-          "source": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/new-linux-dirty-frag-zero-day-with-poc-exploit-gives-root-privileges/"
-        },
-        {
-          "id": "cs7",
-          "headline": "Instructure pays ShinyHunters ransom after 275M-record Canvas LMS breach",
-          "category": "Data breach",
-          "cve": null,
-          "cvss": null,
-          "severity": "CRITICAL",
-          "summary": "Instructure reached an agreement with ShinyHunters on May 11 — one day before the leak deadline — paying a ransom to stop publication of 3.65TB of Canvas data covering ~275 million students, teachers and staff across 8,809 institutions. The exposure stemmed from a Free-For-Teacher Canvas flaw and included names, institutional emails, student IDs and inbox messages; a second wave on May 7 defaced login portals at ~330 schools.",
-          "source": "The Hacker News",
-          "url": "https://thehackernews.com/2026/05/instructure-reaches-ransom-agreement.html"
-        },
-        {
-          "id": "cs8",
-          "headline": "node-ipc npm package backdoored with credential-stealer in supply-chain attack",
-          "category": "Supply chain",
-          "cve": null,
-          "cvss": null,
-          "severity": "HIGH",
-          "summary": "Three malicious versions of node-ipc (9.1.6, 9.2.3, 12.0.1) — a foundational Node.js IPC library with 10M+ weekly downloads — were published to npm on May 14 by a newly-added maintainer account. Each carried an identical 80KB obfuscated credential-stealing payload. The incident lands days after the TanStack 'Mini Shai-Hulud' worm compromised 42 packages and rippled into Mistral AI, UiPath and OpenAI dev environments.",
-          "source": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/"
-        },
-        {
-          "id": "cs9",
-          "headline": "'Bleeding Llama' flaw in Ollama exposes ~300,000 AI servers to memory leaks",
-          "category": "Vulnerability",
-          "cve": "CVE-2026-7482",
-          "cvss": 9.1,
-          "severity": "CRITICAL",
-          "summary": "A heap out-of-bounds read in Ollama's GGUF model loader lets an unauthenticated remote attacker leak the server's entire process memory using just three API calls to /api/create and /api/push — exposing environment variables, API keys, system prompts and concurrent user conversations. Researchers identified roughly 300,000 internet-exposed servers; the issue is fixed in Ollama 0.17.1.",
-          "source": "The Hacker News",
-          "url": "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html"
-        },
-        {
-          "id": "cs10",
-          "headline": "Pwn2Own Berlin 2026 closes with $908K paid for 39 zero-days; Exchange falls for $200K",
-          "category": "Research",
-          "cve": null,
-          "cvss": null,
-          "severity": "INFORMATIONAL",
-          "summary": "Pwn2Own Berlin 2026 paid out over $908,000 across 39 unique zero-days in two days. The standout was Orange Tsai (DEVCORE) earning $200,000 for chaining three bugs into SYSTEM-level RCE on Microsoft Exchange; Windows 11 was popped four times and AI platforms LiteLLM, NVIDIA Megatron Bridge, OpenAI Codex, Chroma and LM Studio all fell. The event hit capacity for the first time in 19 years.",
-          "source": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/pwn2own-day-two-hackers-demo-microsoft-exchange-windows-11-red-had-enterprise-linux-zero-days/"
-        }
+      "label":"CyberSecurity",
+      "ai_summary":"Two themes dominate this cycle: a maxed-out Cisco SD-WAN zero-day with a federal patch deadline tonight, and the first confirmed real-world use of AI to build a zero-day exploit. CISA added Cisco's CVE-2026-20182 (CVSS 10.0) to its KEV list and ordered agencies to patch by May 17, while Google says it caught hackers using an AI model to generate a 2FA-bypass zero-day. Microsoft's May Patch Tuesday closed 120 flaws with no zero-days; Fortinet, SAP, and Linux all shipped critical fixes.",
+      "stories":[
+        { "id":"cs1","headline":"Cisco Catalyst SD-WAN authentication bypass actively exploited (CVE-2026-20182)","category":"Critical Zero-Day","cve":"CVE-2026-20182","cvss":10.0,"severity":"CRITICAL","summary":"Cisco warns that a critical authentication bypass in Catalyst SD-WAN Controller is being exploited in zero-day attacks, letting remote attackers log in as a high-privileged internal user and manipulate SD-WAN fabric configuration. CISA added it to the KEV catalog and ordered federal agencies to patch by today, May 17. Upgrade is the only remediation — no workaround exists.","source":"BleepingComputer","url":"https://www.bleepingcomputer.com/news/security/cisco-warns-of-new-critical-sd-wan-flaw-exploited-in-zero-day-attacks/" },
+        { "id":"cs2","headline":"Google: hackers used AI to build first known zero-day 2FA bypass exploit","category":"AI Threats","cve":null,"cvss":null,"severity":"HIGH","summary":"Google's Threat Intelligence Group says it identified a threat actor using an AI model to discover and write a zero-day exploit that bypasses two-factor authentication. The criminal group was reportedly preparing a mass-exploitation event before Google's counter-discovery neutralised the campaign. It is the first confirmed real-world case of AI-assisted exploit generation.","source":"The Hacker News","url":"https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html" },
+        { "id":"cs3","headline":"Microsoft May Patch Tuesday fixes 120 flaws, no zero-days disclosed","category":"Patch Tuesday","cve":null,"cvss":null,"severity":"HIGH","summary":"Microsoft's May 2026 Patch Tuesday released on May 12 fixes 120 vulnerabilities across Windows, Office, Azure and developer tools, with no actively exploited zero-days this cycle. Admins are urged to prioritise remote-code-execution and elevation-of-privilege flaws, particularly in Windows Server.","source":"BleepingComputer","url":"https://www.bleepingcomputer.com/news/microsoft/microsoft-may-2026-patch-tuesday-fixes-120-flaws-no-zero-days/" },
+        { "id":"cs4","headline":"Linux kernel privilege-escalation flaw 'Fragnasia' added to CISA KEV","category":"Active Exploitation","cve":"CVE-2026-31431","cvss":7.8,"severity":"HIGH","summary":"Linux distros are rolling out patches for a high-severity kernel local privilege escalation tracked as CVE-2026-31431 (nicknamed 'Fragnasia') that lets unprivileged local users become root. CISA has added the bug to its Known Exploited Vulnerabilities catalogue based on evidence of active exploitation.","source":"The Hacker News","url":"https://thehackernews.com/2026/05/cisa-adds-actively-exploited-linux-root.html" },
+        { "id":"cs5","headline":"Fortinet patches critical FortiSandbox auth bypass (CVE-2026-26083)","category":"Vendor Patch","cve":"CVE-2026-26083","cvss":9.8,"severity":"CRITICAL","summary":"Fortinet's May 12 advisory closes five vulnerabilities across FortiAP, FortiOS and FortiSandbox, including CVE-2026-26083, an unauthenticated missing-authorisation flaw in FortiSandbox that exposes restricted GUI functionality and sandbox analysis data. A second critical flaw (CVE-2026-44277, CVSS 9.1) affects FortiAuthenticator.","source":"SecurityWeek","url":"https://www.securityweek.com/cisco-patches-another-sd-wan-zero-day-the-sixth-exploited-in-2026/" },
+        { "id":"cs6","headline":"OpenAI confirms breach in TanStack supply-chain attack","category":"Breach","cve":null,"cvss":null,"severity":"HIGH","summary":"OpenAI says two employee devices were compromised in the recent TanStack supply-chain attack, which poisoned hundreds of npm and PyPI packages. The company has rotated its code-signing certificates as a precaution. The attack is being treated as one of the largest npm/PyPI compromises this year.","source":"BleepingComputer","url":"https://www.bleepingcomputer.com/news/security/openai-confirms-security-breach-in-tanstack-supply-chain-attack/" },
+        { "id":"cs7","headline":"Windows BitLocker 'YellowKey' zero-day exposes encrypted drives","category":"Zero-Day","cve":null,"cvss":null,"severity":"HIGH","summary":"An anonymous researcher disclosed two Windows zero-days, codenamed YellowKey (a BitLocker bypass in the Windows Recovery Environment) and GreenPlasma (CTFMON privilege escalation). YellowKey affects Windows 11 and Windows Server 2022/2025 and is described as functioning 'like a backdoor' to encrypted drives. A proof of concept has been released.","source":"BleepingComputer","url":"https://www.bleepingcomputer.com/news/security/windows-bitlocker-zero-day-gives-access-to-protected-drives-poc-released/" }
       ]
     }
   }
 };
 
-function el(tag, props={}, ...children) {
-  const e = document.createElement(tag);
-  for (const k in props) {
-    if (k === 'class') e.className = props[k];
-    else if (k === 'html') e.innerHTML = props[k];
-    else if (k.startsWith('on')) e.addEventListener(k.slice(2), props[k]);
-    else e.setAttribute(k, props[k]);
-  }
-  for (const c of children) if (c != null) e.append(c.nodeType ? c : document.createTextNode(c));
-  return e;
+// --- Render
+function el(html) { const t = document.createElement('template'); t.innerHTML = html.trim(); return t.content.firstElementChild; }
+function escapeHtml(s) { return String(s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+function severityBadge(sev){ if(!sev) return ''; const k = sev.toLowerCase(); return `<span class="pill badge-${k}">${escapeHtml(sev)}</span>`; }
+
+function renderCard(item, cls){
+  const cveHtml = item.cve ? `<span class="pill cve-pill">${escapeHtml(item.cve)}</span>` : '';
+  const cvssHtml = (item.cvss !== undefined && item.cvss !== null) ? `<span class="pill cvss-pill">CVSS ${item.cvss}</span>` : '';
+  const sevHtml = item.severity ? severityBadge(item.severity) : '';
+  return `
+    <a class="card ${cls}" href="${escapeHtml(item.url)}" target="_blank" rel="noopener">
+      <div class="cat">${escapeHtml(item.category || '')}</div>
+      <h3>${escapeHtml(item.headline)}</h3>
+      <p>${escapeHtml(item.summary)}</p>
+      <div class="meta">
+        ${cveHtml}${cvssHtml}${sevHtml}
+        <span class="source">${escapeHtml(item.source || '')}</span>
+        <span class="read-more">Read →</span>
+      </div>
+    </a>`;
 }
 
-function renderCard(item, opts={}) {
-  const card = el('div', { class: 'card' });
-  // Top pills (CVE / CVSS / severity)
-  if (item.cve || item.severity) {
-    const row = el('div', { class: 'pill-row' });
-    if (item.cve) row.append(el('span', { class: 'cve-pill' }, item.cve));
-    if (typeof item.cvss === 'number') row.append(el('span', { class: 'cvss-pill' }, 'CVSS ' + item.cvss));
-    if (item.severity) row.append(el('span', { class: 'badge ' + item.severity }, item.severity));
-    card.append(row);
-  }
-  if (item.category) card.append(el('span', { class: 'cat' }, item.category));
-  card.append(el('h3', {}, item.headline));
-  card.append(el('p', {}, item.summary));
-  const foot = el('div', { class: 'footer' });
-  foot.append(el('span', {}, item.source || ''));
-  if (item.url) {
-    const a = el('a', { href: item.url, target: '_blank', rel: 'noopener noreferrer' }, 'Read source ↗');
-    foot.append(a);
-  }
-  card.append(foot);
-  return card;
+function setSummary(target, sec){
+  const el = document.getElementById(target);
+  el.innerHTML = `<div class="accent-bar"></div><div class="body"><div class="label">AI Summary</div><div class="text">${escapeHtml(sec.ai_summary || '')}</div></div>`;
 }
 
-function renderTheatre(th) {
-  const wrap = el('div', { class: 'theatre' });
-  wrap.append(el('h3', {}, th.name));
-  wrap.append(el('div', { class: 'status' }, th.status));
-  const ul = el('ul', { class: 'timeline' });
-  for (const ev of th.timeline) {
-    const li = el('li');
-    li.append(el('span', { class: 'date mono' }, ev.date));
-    li.append(el('span', { class: 'ev' }, ev.event));
-    ul.append(li);
-  }
-  wrap.append(ul);
-  return wrap;
+function fillGrid(target, items, cls){
+  document.getElementById(target).innerHTML = items.map(i => renderCard(i, cls)).join('');
 }
 
-function renderStats(stats) {
-  const out = document.getElementById('stats-hantavirus');
-  out.innerHTML = '';
-  if (!stats) return;
-  const fields = [
-    { key: 'cases_total',   lbl: 'Total cases' },
-    { key: 'confirmed',     lbl: 'Confirmed' },
-    { key: 'suspected',     lbl: 'Suspected' },
-    { key: 'deaths',        lbl: 'Deaths' },
-    { key: 'countries_affected', lbl: 'Countries' },
-  ];
-  for (const f of fields) {
-    const v = stats[f.key];
-    if (v == null) continue;
-    const s = el('div', { class: 'stat' });
-    s.append(el('div', { class: 'num' }, String(v)));
-    s.append(el('div', { class: 'lbl' }, f.lbl));
-    out.append(s);
-  }
-}
+// Top stories
+setSummary('aiTop', DATA.sections.top_stories);
+fillGrid('gridTop', DATA.sections.top_stories.stories, '');
+document.getElementById('cnt-top_stories').textContent = DATA.sections.top_stories.stories.length;
 
-function setSection(key) {
-  document.querySelectorAll('.tab').forEach(t => t.setAttribute('aria-selected', t.dataset.section === key ? 'true' : 'false'));
-  document.querySelectorAll('.page').forEach(p => p.classList.toggle('active', p.id === 'page-' + key));
-  if (history.replaceState) history.replaceState(null, '', '#' + key);
-}
+// Singapore
+setSummary('aiSg', DATA.sections.singapore);
+fillGrid('gridSg', DATA.sections.singapore.stories, 'sg');
+document.getElementById('cnt-singapore').textContent = DATA.sections.singapore.stories.length;
 
-function init() {
-  if (!DATA || !DATA.sections) {
-    document.querySelector('main').innerHTML = '<p style="color:var(--muted)">No briefing data available.</p>';
-    return;
-  }
+// Wars
+setSummary('aiWars', DATA.sections.wars);
+const theatresHtml = DATA.sections.wars.theatres.map(t => `
+  <div class="theatre">
+    <h3>${escapeHtml(t.name)}</h3>
+    <div class="status">${escapeHtml(t.status)}</div>
+    <div class="timeline">
+      ${t.timeline.map(e => `
+        <div class="entry ${e.today?'today':''}">
+          <div class="date">${escapeHtml(e.date)}</div>
+          <div class="event">${escapeHtml(e.event)}</div>
+        </div>`).join('')}
+    </div>
+  </div>`).join('');
+document.getElementById('theatres').innerHTML = theatresHtml;
+document.getElementById('cnt-wars').textContent = DATA.sections.wars.theatres.length;
 
-  // Meta
-  document.getElementById('meta-date').textContent = DATA.meta.date || '';
-  document.getElementById('meta-cycle').textContent = DATA.meta.cycle || DATA.meta.edition || '';
+// Hantavirus
+setSummary('aiHt', DATA.sections.hantavirus);
+const s = DATA.sections.hantavirus.stats;
+document.getElementById('statBar').innerHTML = `
+  <div class="stat confirmed"><div class="num">${s.confirmed_cases}</div><div class="lbl">Confirmed</div></div>
+  <div class="stat suspected"><div class="num">${s.suspected_cases}</div><div class="lbl">Suspected</div></div>
+  <div class="stat deaths"><div class="num">${s.deaths}</div><div class="lbl">Deaths</div></div>
+  <div class="stat countries"><div class="num">${s.countries_affected}</div><div class="lbl">Countries</div></div>`;
+fillGrid('gridHt', DATA.sections.hantavirus.stories, 'health');
+document.getElementById('cnt-hantavirus').textContent = DATA.sections.hantavirus.stories.length;
 
-  // Summaries
-  document.getElementById('sum-top_stories').textContent = DATA.sections.top_stories.ai_summary || '';
-  document.getElementById('sum-singapore').textContent   = DATA.sections.singapore.ai_summary   || '';
-  document.getElementById('sum-wars').textContent        = DATA.sections.wars.ai_summary        || '';
-  document.getElementById('sum-hantavirus').textContent  = DATA.sections.hantavirus.ai_summary  || '';
-  document.getElementById('sum-cybersecurity').textContent = DATA.sections.cybersecurity.ai_summary || '';
+// Cybersecurity
+setSummary('aiCs', DATA.sections.cybersecurity);
+fillGrid('gridCs', DATA.sections.cybersecurity.stories, 'cyber');
+document.getElementById('cnt-cybersecurity').textContent = DATA.sections.cybersecurity.stories.length;
 
-  // Cards
-  const sections = ['top_stories', 'singapore', 'hantavirus', 'cybersecurity'];
-  for (const s of sections) {
-    const grid = document.getElementById('grid-' + s);
-    grid.innerHTML = '';
-    const items = (DATA.sections[s] && DATA.sections[s].stories) || [];
-    for (const it of items) grid.append(renderCard(it));
-    document.getElementById('c-' + s).textContent = items.length;
-  }
+// Date line
+const d = new Date(DATA.meta.generated_at);
+const fmt = d.toLocaleString('en-SG', { weekday: 'short', day: '2-digit', month: 'short', year: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false, timeZone: 'Asia/Singapore' });
+document.getElementById('dateLine').textContent = `${DATA.meta.cycle} · ${fmt} SGT`;
 
-  // Wars
-  const tWrap = document.getElementById('theatres');
-  tWrap.innerHTML = '';
-  const theatres = (DATA.sections.wars && DATA.sections.wars.theatres) || [];
-  for (const t of theatres) tWrap.append(renderTheatre(t));
-  document.getElementById('c-wars').textContent = theatres.length;
-
-  // Hantavirus stats
-  renderStats(DATA.sections.hantavirus.stats);
-
-
-
-  // Tab handling
-  document.querySelectorAll('.tab').forEach(t => {
-    t.addEventListener('click', () => setSection(t.dataset.section));
+// Tab switching
+document.querySelectorAll('nav.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('nav.tabs button').forEach(b => { b.classList.remove('active'); b.setAttribute('aria-selected','false'); });
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+    btn.classList.add('active');
+    btn.setAttribute('aria-selected','true');
+    document.getElementById('panel-' + btn.dataset.tab).classList.add('active');
   });
-
-  // Hash routing
-  const initial = (location.hash || '#top_stories').slice(1);
-  if (document.getElementById('page-' + initial)) setSection(initial);
-}
-document.addEventListener('DOMContentLoaded', init);
+});
 </script>
 
 </body>
