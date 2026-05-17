@@ -1,9 +1,9 @@
 {
   "meta": {
     "date": "2026-05-17",
-    "generated_at": "2026-05-17T11:30:00+08:00",
+    "generated_at": "2026-05-17T13:15:00+08:00",
     "edition": "Daily News Briefing",
-    "cycle": "Morning brief",
+    "cycle": "Afternoon brief",
     "sources": [
       "Channel NewsAsia",
       "The Straits Times",
@@ -26,11 +26,11 @@
       "RTÉ",
       "TheStreet",
       "EMPR Media",
-      "Moscow Times",
       "Times of Israel",
       "Russia Matters",
       "Centre for European Reform",
       "Wikipedia",
+      "Bloomberg",
       "BleepingComputer",
       "The Hacker News",
       "SecurityWeek",
@@ -54,110 +54,113 @@
       "Washington Post",
       "Xinhua",
       "Motorist Singapore",
-      "UN News"
+      "UN News",
+      "America Magazine",
+      "Manila Times",
+      "Euronews"
     ]
   },
   "sections": {
     "top_stories": {
       "label": "Top Stories",
-      "ai_summary": "Sunday's global picture is shaped by two unresolved wars squeezing the world economy. Iran's blockade of the Strait of Hormuz is the largest oil supply disruption in history — roughly 10% of global supply offline — pushing Brent above $109 and dragging US stocks sharply lower on Friday. Israel's strike that killed Hamas military chief al-Haddad has shaken the Gaza ceasefire just as Russia and Ukraine resumed massive drone exchanges. Lighter notes: Bulgaria's Dara won Eurovision in Vienna and Romania's centrists held the line in a closely watched runoff.",
+      "ai_summary": "The big news today: the WHO has officially declared the DR Congo–Uganda Ebola outbreak a public health emergency of international concern — the highest level of alarm — citing cross-border spread and no approved Bundibugyo vaccine. Meanwhile, President Trump rattled markets and capitals with an AI-generated 'calm before the storm' image hinting at fresh Iran strikes, even as Brent crude held above $108 with the Strait of Hormuz still essentially shut. In Gaza, mourners buried Hamas military chief al-Haddad as Israel and Hamas exchanged angry rhetoric, and the Pentagon confirmed plans to pull 5,000 troops out of Germany. The day's lighter notes: Bulgaria's Dara wins Eurovision in Vienna and centrist Nicusor Dan wins Romania's presidential runoff.",
       "stories": [
         {
           "id": "ts1",
-          "headline": "Strait of Hormuz still shut as Brent crude jumps past $109 — biggest oil disruption ever",
-          "category": "Energy",
-          "summary": "Iran's blockade of the Strait of Hormuz has cut roughly 10 million barrels a day of Gulf exports — about 10% of world consumption — making it the largest oil-supply disruption in history. Only 2 to 5 tankers a day are squeezing through versus around 70 before the war, pushing Brent up 8.1% on the week to about $109 and WTI to roughly $106. The IEA warns the market could stay severely undersupplied through October even if the fighting stops next month.",
-          "source": "CNBC",
-          "url": "https://www.cnbc.com/amp/2026/05/16/oil-inventory-stockpile-iran-war-strait-hormuz.html"
+          "headline": "WHO declares Congo–Uganda Ebola outbreak a global public health emergency",
+          "category": "Health",
+          "summary": "The World Health Organization on Sunday declared the Bundibugyo strain Ebola outbreak in DR Congo and Uganda a 'public health emergency of international concern' — its highest level of alarm. As of Saturday, 80 suspected deaths, 8 lab-confirmed cases and 246 suspected cases were logged in Congo's Ituri province, with two confirmed cases (one fatal) in Kampala and one in Kinshasa. WHO called it 'extraordinary' because there is no approved vaccine or therapeutic for the Bundibugyo strain.",
+          "source": "Bloomberg",
+          "url": "https://www.bloomberg.com/news/articles/2026-05-17/who-declares-congo-uganda-ebola-outbreak-global-health-emergency"
         },
         {
           "id": "ts2",
-          "headline": "Khamenei rejects Trump's nuclear proposal as the Iran war drags into its 11th week",
+          "headline": "Trump posts 'calm before the storm' image as Iran war could resume within days",
           "category": "Middle East",
-          "summary": "Iran's new Supreme Leader Mojtaba Khamenei publicly rejected a US nuclear proposal sent by President Trump, calling it 'excessive and outrageous' and accusing Washington of lying about wanting peace. Iran held parallel talks with European powers in Istanbul, while Pakistan's Interior Minister visited Tehran trying to revive stalled US–Iran negotiations being mediated through Islamabad. The standoff keeps the Hormuz blockade — and the regional war — firmly in place.",
-          "source": "PBS NewsHour",
-          "url": "https://www.pbs.org/newshour/world/irans-supreme-leader-rejects-talks-after-trump-sends-letter-seeking-new-nuclear-deal"
+          "summary": "President Trump shared an AI-generated graphic of himself on a US warship in rough seas captioned 'It Was The Calm Before The Storm', alongside an animation of a US warship firing at an Iranian-flagged aircraft. The posts come amid reports the White House is finalising contingency plans for renewed strikes on Iran, with Israel and the IDF/Mossad in 'intensive' coordination. The April 17 conditional ceasefire technically expires today.",
+          "source": "Times of Israel",
+          "url": "https://www.timesofisrael.com/liveblog_entry/trump-shares-image-warning-of-calm-before-the-storm-amid-reports-iran-war-could-resume/"
         },
         {
           "id": "ts3",
-          "headline": "Israel kills Hamas military chief Izz al-Din al-Haddad in Gaza City strike",
-          "category": "Middle East",
-          "summary": "Three Israeli fighter jets dropped 13 bombs on a Gaza City target on Friday, killing Izz al-Din al-Haddad — the head of Hamas' military wing and one of the last surviving architects of the October 7, 2023 attacks. At least seven other people were killed and more than 50 wounded, further fraying the US-brokered ceasefire. A joint funeral was held in Gaza today; Hamas has vowed retaliation.",
-          "source": "CNN",
-          "url": "https://www.cnn.com/2026/05/15/middleeast/israel-gaza-hamas-strike-latam-intl"
+          "headline": "Strait of Hormuz still effectively shut — Brent crude holds above $108",
+          "category": "Energy",
+          "summary": "Iran's blockade of the Strait of Hormuz remains in force, with tanker traffic running at roughly 5% of normal and Brent crude finishing the week at $108–$109 after an 8.1% weekly gain. The IEA warned this week that the oil market could stay severely undersupplied through October even if the fighting stops next month. The EIA now expects Brent to average $106 in May and June.",
+          "source": "Al Jazeera",
+          "url": "https://www.aljazeera.com/economy/2026/5/5/oil-prices-surge-as-violence-flares-in-strait-of-hormuz"
         },
         {
           "id": "ts4",
-          "headline": "Wall Street tumbles after Trump–Xi summit ends without breakthrough; Dow loses 537 points",
-          "category": "Markets",
-          "summary": "US stocks dropped sharply on Friday after the two-day Trump–Xi summit in Beijing wrapped up with no major trade or tariff deal. The Dow fell 1.07% to 49,526, the S&P 500 shed 1.24% to 7,408 and the Nasdaq lost 1.54% to 26,225, weighed down by tech selling and rising Treasury yields. Xi warned that mishandling Taiwan could put the entire US-China relationship 'in great jeopardy'.",
-          "source": "TheStreet",
-          "url": "https://www.thestreet.com/latest-news/stock-market-today-may-15-2026-updates"
+          "headline": "Hamas buries military chief al-Haddad in Gaza City; Israel braces for retaliation",
+          "category": "Middle East",
+          "summary": "Hundreds of Palestinians gathered Saturday at the Al-Aqsa Martyrs Mosque to bury Hamas military wing chief Izz al-Din al-Haddad — one of the last surviving architects of the October 7, 2023 attacks — alongside his wife and daughter, who were killed in Friday's Israeli airstrike on al-Rimal. Hamas confirmed his death and called it a 'treacherous' ceasefire breach. The IDF Southern Command is on heightened alert.",
+          "source": "Xinhua",
+          "url": "https://english.news.cn/20260517/21b8253a163440999676b45b77950ee5/c.html"
         },
         {
           "id": "ts5",
-          "headline": "Russia and Ukraine trade drone and missile strikes as Putin hints war 'may be ending'",
+          "headline": "Pentagon to pull 5,000 US troops from Germany; Stryker Brigade hit first",
+          "category": "Defence",
+          "summary": "The US Defense Department has announced plans to withdraw about 5,000 of the roughly 39,000 American soldiers currently stationed in Germany, with the Stryker Brigade at the Vilseck base named as the first unit affected, per Bayerischer Rundfunk. The move comes as Trump pressures NATO allies to take on more conventional defence and as the Pentagon repositions for a sustained Iran posture.",
+          "source": "Euronews",
+          "url": "https://www.euronews.com/"
+        },
+        {
+          "id": "ts6",
+          "headline": "Pope Leo XIV: AI-directed warfare is dragging the world into a 'spiral of annihilation'",
+          "category": "Vatican",
+          "summary": "In his first university address as Pope, Leo XIV used a visit to Rome's La Sapienza on Thursday to condemn surging investment in AI weapons and high-tech militarisation. He named Ukraine, Gaza, Lebanon and Iran as evidence of an 'inhuman' fusion of war and technology, and called for monitoring frameworks so AI 'does not absolve humans of responsibility for their choices'. He is reportedly drafting his first encyclical on AI.",
+          "source": "PBS NewsHour",
+          "url": "https://www.pbs.org/newshour/world/pope-leo-condemns-use-of-ai-warfare-and-the-spiral-of-annihilation-it-brings"
+        },
+        {
+          "id": "ts7",
+          "headline": "Russia and Ukraine resume drone war; Romania finds unexploded projectile near border",
           "category": "Russia-Ukraine",
-          "summary": "Ukrainian air defences shot down 269 of 294 Russian drones overnight, while Russian missile strikes hit industrial sites in Kryvyi Rih and Kharkiv. The fighting continues even after Putin claimed the war was 'coming to an end' and a Trump-brokered three-day Victory Day truce earlier this month. Analysts warn Putin's softer tone should not be mistaken for any real concession on his demand that Ukraine cede the Donbas.",
+          "summary": "Ukraine reports 263 combat engagements over the last 24 hours and Russia continues nightly drone barrages after the Trump-brokered three-day Victory Day truce expired on May 12. Romania's defence ministry confirmed an unexploded 'reactive projectile' was found on private property near its Ukraine border, raising fresh NATO-spillover worries. Three civilians were killed and 63 injured in overnight strikes on Odesa and Kharkiv.",
           "source": "EMPR Media",
           "url": "https://empr.media/news/war/russia-ukraine-war-updates-key-developments-as-of-may-16-2026/"
         },
         {
-          "id": "ts6",
+          "id": "ts8",
+          "headline": "Trump–Xi Beijing summit ends with thin deal; markets fall sharply",
+          "category": "Markets",
+          "summary": "The two-day Trump–Xi summit in Beijing wrapped Friday with a stabilisation framework, a Chinese pledge to buy 200 Boeing jets (down from a floated 500) and a commitment to import US beef and farm goods — but no breakthrough on tariffs, Taiwan or Iran. Wall Street took the underwhelming outcome poorly: the Dow fell 537 points (-1.07%) to 49,526, the S&P 500 lost 1.24% and the Nasdaq fell 1.54%.",
+          "source": "Washington Post",
+          "url": "https://www.washingtonpost.com/national/2026/05/14/china-trump-xi-summit-beijing/fdddd82c-5004-11f1-97e7-22c6c29ff0d8_story.html"
+        },
+        {
+          "id": "ts9",
           "headline": "Bulgaria's Dara wins Eurovision 2026 with 'Bangaranga' in Vienna",
           "category": "Culture",
-          "summary": "Bulgarian singer Dara took the 70th Eurovision Song Contest at Vienna's Wiener Stadthalle with her catchy anthem 'Bangaranga', finishing on 516 points. Israel's Noam Bettan finished a close second with 'Michelle'. The final, held Saturday night, was the lighter counterweight to a week dominated by war and market turbulence.",
+          "summary": "Bulgarian singer Dara took the 70th Eurovision Song Contest at Vienna's Wiener Stadthalle with her catchy anthem 'Bangaranga', finishing on 516 points. Israel's Noam Bettan finished a close second with 'Michelle' on the strength of a massive public vote. The final, held Saturday night, was the lighter counterweight to a week dominated by war and market turbulence.",
           "source": "RTÉ",
           "url": "https://www.rte.ie/entertainment/2026/0516/1573733-bulgaria-wins-eurovision-song-contest-in-vienna.html"
         },
         {
-          "id": "ts7",
+          "id": "ts10",
           "headline": "Centrist Nicusor Dan defeats far-right Simion in Romania's presidential runoff",
           "category": "World Politics",
-          "summary": "Bucharest mayor Nicusor Dan won Romania's presidential runoff with 53.6% on a 65% turnout, beating hard-right nationalist George Simion in a result that calmed EU fears of another populist takeover on the bloc's eastern flank. In Poland meanwhile, nationalist historian Karol Nawrocki edged Civic Platform's Rafal Trzaskowski in the first round, sending them to a June 1 runoff. Together the two votes broadly leave Europe's eastern political balance unchanged.",
+          "summary": "Bucharest mayor Nicusor Dan won Romania's presidential runoff with 53.6% on 65% turnout, beating hard-right nationalist George Simion in a result that calmed EU fears of another populist takeover on the bloc's eastern flank. Poland meanwhile heads to a June 1 runoff after nationalist historian Karol Nawrocki edged Civic Platform's Rafal Trzaskowski in the first round.",
           "source": "Centre for European Reform",
           "url": "https://www.cer.eu/insights/elections-poland-and-romania-what-do-results-mean-europe"
-        },
-        {
-          "id": "ts8",
-          "headline": "New Ebola Bundibugyo outbreak in DRC kills 87, spreads to Uganda",
-          "category": "Health",
-          "summary": "The WHO confirmed an outbreak of the rare Bundibugyo strain of Ebola in DR Congo's Ituri province, with 336 suspected cases and 87 deaths so far. Unlike Congo's earlier outbreaks, this strain has no approved vaccine and existing treatments are not designed for it. A Congolese patient has already died in neighbouring Uganda, prompting cross-border surveillance and a $500,000 WHO emergency disbursement.",
-          "source": "NPR",
-          "url": "https://www.npr.org/2026/05/16/g-s1-122494/a-new-ebola-outbreak-has-already-killed-87-people"
-        },
-        {
-          "id": "ts9",
-          "headline": "Cuba endures 22-hour blackouts as fuel runs out and protests erupt in Havana",
-          "category": "Energy crisis",
-          "summary": "Cuba's national grid suffered a major failure that knocked out power across its eastern provinces, with Havana residents enduring up to 22 hours a day without electricity. Officials say the country has fully exhausted diesel and fuel-oil reserves after burning through a 100,000-tonne Russian crude shipment delivered in March. Small protests have broken out in Havana over food, fuel and power shortages, with the government blaming US sanctions.",
-          "source": "Al Jazeera",
-          "url": "https://www.aljazeera.com/video/newsfeed/2026/5/14/cuba-plunged-deeper-into-fuel-crisis-amid-22-hour-blackouts"
         }
       ]
     },
     "singapore": {
       "label": "Singapore",
-      "ai_summary": "A classic inter-monsoon Sunday in Singapore: short but heavy afternoon thunderstorms expected most days through end-May, with PUB issuing a flash-flood alert for Jurong West after Saturday's downpour. Dengue cases are down 66% year-on-year, but NEA warns the May–October peak season has only just begun. Drivers got bad news from the first May COE bidding, with Cat B passing $126,000. Meanwhile MOE says no sensitive Singapore student data has yet leaked in the global Canvas LMS breach affecting NUS, SIM and others.",
+      "ai_summary": "A quiet Sunday at home: NEA's afternoon forecast points to thundery showers mainly over the north and west, so umbrellas if you're heading out. The big local stories all came in earlier this weekend — dengue cases are down 66% year-on-year but the peak season is just starting, May's first COE bidding pushed Cat B above $126,000, and MOE says no Singapore student data has yet leaked in the global Canvas LMS breach. NCID is still holding the two Hondius cruise passengers under quarantine, both still testing negative for hantavirus.",
       "stories": [
         {
           "id": "sg1",
-          "headline": "Thundery showers expected on most afternoons for the rest of May, NEA says",
+          "headline": "Sunday forecast: thundery showers mainly over north and west Singapore",
           "category": "Weather",
-          "summary": "Singapore is in its inter-monsoon period, so the National Environment Agency expects short, heavy afternoon thunderstorms on most days through end-May, sometimes stretching into the evening. Daytime highs will sit around 33–34°C, with a few days hitting 35°C. Pre-dawn Sumatra squalls could also bring sudden gusty downpours on a few mornings — keep an umbrella handy.",
-          "source": "NEA",
-          "url": "https://www.nea.gov.sg/media/news/advisories/index/thundery-showers-expected-on-most-days-for-the-rest-of-may-2026"
+          "summary": "NEA's afternoon forecast points to thundery showers mainly over northern and western Singapore in the late afternoon. Daytime temperatures will sit around 33–34°C, in line with the inter-monsoon period which is expected to bring short, heavy afternoon thunderstorms on most days through end-May. Drivers in the west should keep an eye on PUB's Telegram channel for flash-flood alerts.",
+          "source": "weather.gov.sg",
+          "url": "https://www.weather.gov.sg/home/"
         },
         {
           "id": "sg2",
-          "headline": "PUB issues flash-flood alert for Jurong West after heavy morning rain",
-          "category": "Public safety",
-          "summary": "National water agency PUB told motorists on Saturday morning to avoid an area in Jurong West after heavy rain caused a sudden deluge. Flash floods are a recurring risk in the island's west during this monsoon transition, with several similar alerts already this year. Drivers are reminded never to drive through flooded roads.",
-          "source": "Mothership",
-          "url": "https://mothership.sg/2026/02/pub-flash-flood-west-singapore/"
-        },
-        {
-          "id": "sg3",
           "headline": "Dengue cases down 66% so far in 2026, but peak season is just starting",
           "category": "Health",
           "summary": "Singapore has logged just over 600 dengue cases from January to mid-May — a 66% drop versus the same period last year, NEA said. The improvement is credited largely to the expanded Wolbachia mosquito programme. But with the traditional dengue peak of May–October now underway, the agency is urging residents to remove stagnant water at home; one dengue death has been recorded so far this year.",
@@ -165,24 +168,32 @@
           "url": "https://english.news.cn/asiapacific/20260516/a34b1b20eeb241a4960ca768f0a4a7b7/c.html"
         },
         {
-          "id": "sg4",
+          "id": "sg3",
           "headline": "COE premiums rise across every category in May's first bidding",
           "category": "Cost of living",
-          "summary": "The first Certificate of Entitlement bidding round for May closed on Tuesday with premiums up across the board. Category A (smaller cars) ended at $124,790, Cat B (bigger cars) at $126,236, and Open (Cat E) hit a new high of $127,700. Strong dealer demand keeps new-car ownership painfully expensive heading into the second half of 2026.",
+          "summary": "The first Certificate of Entitlement bidding round for May closed on May 6 with premiums up across the board. Category A (smaller cars) ended at $124,790, Cat B (bigger cars) at $126,236, Cat C (commercial) at $87,479 and Open (Cat E) hit a new high of $127,700. Strong dealer demand keeps new-car ownership painfully expensive heading into the second half of 2026.",
           "source": "Motorist Singapore",
           "url": "https://www.motorist.sg/article/5834/may-2026-coe-results-1st-bidding-the-coe-horse-ran-hot-and-high-with-premiums-for-the-car-categories-and-commercial-vehicle-category-zooming-to-new-heights"
         },
         {
-          "id": "sg5",
+          "id": "sg4",
           "headline": "MOE: no sensitive Singapore student data leaked yet in global Canvas hack",
           "category": "Policy",
           "summary": "The Ministry of Education said on Friday that, so far, no sensitive information from Singapore students has been leaked in the global Canvas learning-platform breach. Hacking group ShinyHunters claimed to have stolen 3.65TB of data from 275 million users worldwide, with NUS and SIM named on affected-institution lists. The Cyber Security Agency is monitoring and supporting affected organisations.",
-          "source": "The Star / CSA",
+          "source": "CSA / The Star",
           "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/05/08/nus-sim-among-top-singapore-institutions-named-in-global-data-breach-list"
         },
         {
+          "id": "sg5",
+          "headline": "Both Singapore Hondius passengers still asymptomatic at NCID",
+          "category": "Health",
+          "summary": "Both Singapore residents who were aboard the MV Hondius continue to test negative for hantavirus and remain at the National Centre for Infectious Diseases under a 30-day quarantine from their last exposure, followed by phone surveillance to day 45. CDA again reiterated there is no evidence of community transmission and the public risk remains low.",
+          "source": "Singapore CDA",
+          "url": "https://www.cda.gov.sg/news-and-events/both-singapore-residents-onboard-mv-hondius-tested-negative-for-hantavirus/"
+        },
+        {
           "id": "sg6",
-          "headline": "About 18,000 HDB flats selected for next round of Home Improvement Programme upgrades",
+          "headline": "18,000 more HDB flats picked for Home Improvement Programme upgrades",
           "category": "Housing",
           "summary": "Roughly 18,000 ageing HDB flats across Singapore have been picked for upgrading works under the Home Improvement Programme. The works fix common ageing problems like leaky pipes, ceiling leaks and outdated wiring, with essential repairs fully funded by the government. Each flat's works typically take 10 working days or less once their precinct begins.",
           "source": "HDB",
@@ -192,27 +203,27 @@
           "id": "sg7",
           "headline": "Parliament passes Cross-Border Railways Bill, paving way for Johor RTS Link",
           "category": "Policy",
-          "summary": "Singapore's Parliament passed the Cross-Border Railways (Border Control Co-Location) Bill, setting out how immigration and customs operations on both sides of the Causeway will work for the upcoming Johor Bahru–Singapore RTS Link. The legislation is a key step toward the RTS Link becoming operational by end-2026, which is expected to ease cross-border commuting for tens of thousands daily.",
+          "summary": "Singapore's Parliament passed the Cross-Border Railways (Border Control Co-Location) Bill, setting out how immigration and customs operations on both sides of the Causeway will work for the upcoming Johor Bahru–Singapore RTS Link. The legislation is a key step toward the RTS Link becoming operational by end-2026, expected to ease cross-border commuting for tens of thousands daily.",
           "source": "Singapore Parliament",
           "url": "https://mediaselangor.com/en/2026/05/355590"
         },
         {
           "id": "sg8",
-          "headline": "Circle Line keeps shorter Sunday hours as final CCL6 testing wraps up",
-          "category": "Transport",
-          "summary": "LTA's adjusted Circle Line schedule continues this weekend — services ended at 11pm Saturday and only resume at 9am on Sunday to allow final testing for Circle Line Stage 6 (CCL6). Shuttle buses 36 and 37 are running between HarbourFront, Bishan and Promenade from 5am–9am Sunday for affected commuters. The temporary adjustments end after May 17.",
-          "source": "LTA",
-          "url": "https://www.lta.gov.sg/content/ltagov/en/newsroom/2026/3/news-releases/train-service-adjustments-in-preparation-for-circle-line-stage-6.html"
+          "headline": "Singapore International Festival of Arts runs through May 30",
+          "category": "Lifestyle",
+          "summary": "The Singapore International Festival of Arts (SIFA) is mid-way through its 2026 run, May 15–30, with theatre, dance and visual-arts programmes across multiple venues. Boutiques Singapore: The Spring Summer Edition 2026 also runs this weekend at the F1 Pit Building. A welcome bit of weekend distraction from a tense global news cycle.",
+          "source": "Time Out Singapore",
+          "url": "https://www.timeout.com/singapore/things-to-do/things-to-do-in-singapore-this-weekend"
         }
       ]
     },
     "wars": {
       "label": "Wars & Conflicts",
-      "ai_summary": "Three live theatres, all unsettled. The Ukraine ceasefire collapsed after the May 9–11 Victory Day truce; Russia is firing record drone barrages and Ukraine struck a Rosneft refinery deep inside Russia. In the Gulf, the US–Iran ceasefire is on what Trump called 'massive life support' — Hormuz is still effectively shut and the UK has just deployed warships to escort traffic. In Gaza, Israel's killing of Hamas military chief al-Haddad has shaken the October ceasefire, with a joint funeral held today; Israel–Lebanon's separate truce was extended 45 days but daily strikes continue. Net read: Russia and Israel are this weekend's escalators; Trump's three brokered truces are all under severe strain.",
+      "ai_summary": "All three live theatres are on a knife edge today. Trump's 'calm before the storm' image suggests the US is genuinely weighing a fresh strike on Iran as the April ceasefire technically expires; Hormuz remains shut. In Ukraine, Russia is still bombing day and night after the Victory Day truce collapsed, and an unexploded projectile turning up on Romanian soil is a new spillover worry. In Gaza, Hamas has just buried military chief al-Haddad and vowed revenge — though sources concede they lack the rockets to follow through — while the Israel–Lebanon truce was extended 45 days but daily strikes continue on both sides.",
       "theatres": [
         {
           "name": "Russia–Ukraine War",
-          "status": "Active — US-brokered Victory Day truce collapsed; record drone war resumed",
+          "status": "Active — Victory Day truce collapsed; record drone war resumed; first NATO-territory projectile of the month",
           "timeline": [
             { "date": "Feb 24 2022", "event": "Russia launches full-scale invasion of Ukraine" },
             { "date": "Apr 2022", "event": "Russian Black Sea flagship Moskva sunk by Ukrainian Neptune missiles" },
@@ -224,29 +235,30 @@
             { "date": "May 12 2026", "event": "Truce expires; Russia immediately fires 216+ drones at Ukraine including civilian infrastructure, killing 1" },
             { "date": "May 14–15 2026", "event": "Russia launches 1,560+ drones over two days — biggest sustained aerial assault of the war; Ukraine retaliates with 355-drone barrage that sets Rosneft's Ryazan oil refinery ablaze, killing 4" },
             { "date": "May 16 2026", "event": "US waiver on Russian oil purchases expires at 12:01am EDT; 3 killed and 63 injured in overnight Russian strikes on Odesa and Kharkiv; Ukrainian drone kills a civilian in Belgorod" },
-            { "date": "May 17 2026", "event": "Romania reports an unexploded 'reactive projectile' near its Ukraine border; Ukraine reports 263 combat engagements in past 24 hours as Russia continues bombardment with no return to talks" }
+            { "date": "May 17 2026", "event": "Romania confirms an unexploded 'reactive projectile' on private property near its Ukraine border; Ukraine reports 263 combat engagements in the past 24 hours; Moldova's President Sandu warns Putin's Transnistria passport decree is a 'recruitment tool' for the war" }
           ]
         },
         {
           "name": "US/Israel–Iran (Strait of Hormuz crisis)",
-          "status": "Conditional ceasefire on 'massive life support'; strait still ~5% of normal traffic",
+          "status": "Conditional ceasefire technically expires today; Trump posts 'calm before the storm' imagery; strait still ~5% of normal traffic",
           "timeline": [
             { "date": "Jun 2025", "event": "12-Day War: Israel and US strike Iranian nuclear sites; ceasefire reached" },
             { "date": "Feb 28 2026", "event": "Israel and US launch new joint air campaign against Iran; Supreme Leader Ali Khamenei killed in strikes" },
             { "date": "Mar 2026", "event": "Mojtaba Khamenei installed as new Supreme Leader; Iran begins blocking Hormuz and strikes US bases and Arab states" },
             { "date": "Apr 8 2026", "event": "Conditional US-Iran ceasefire declared, contingent on reopening of Hormuz" },
+            { "date": "Apr 17 2026", "event": "Ceasefire formally begins, set to last 30 days through May 17" },
             { "date": "Apr 22 2026", "event": "Iran seizes two vessels in Hormuz after a container ship comes under fire off Oman" },
             { "date": "May 3–4 2026", "event": "Trump orders US Navy to escort commercial ships through Hormuz; Iran threatens attacks" },
             { "date": "May 7 2026", "event": "US says it intercepted Iranian attacks on three US Navy ships in the Strait" },
             { "date": "May 11 2026", "event": "Trump rejects Iran's counter-proposal on nuclear program, calls ceasefire 'on massive life support'" },
-            { "date": "May 14–15 2026", "event": "Indian cargo ship carrying livestock sunk off Oman; 'unauthorised personnel' board a UAE-anchored vessel and steer it toward Iran" },
-            { "date": "May 16 2026", "event": "Tehran says it will soon unveil a Hormuz toll mechanism; UK confirms deployment of drones, fighter aircraft and a Royal Navy warship to escort shipping; Trump says he discussed Iran with Xi" },
-            { "date": "May 17 2026", "event": "Ceasefire holds in name only — Hormuz still effectively closed at ~8 ships/day; NYT reports Israel and US intensifying preparations for potential fresh attacks on Iran as soon as next week" }
+            { "date": "May 14–15 2026", "event": "Indian cargo ship carrying livestock sunk off Oman; 'unauthorised personnel' board a UAE-anchored vessel and steer it toward Iran; Trump-Xi summit ends without an Iran deal" },
+            { "date": "May 16 2026", "event": "UK confirms it has deployed drones, fighter aircraft and a Royal Navy warship to escort Hormuz shipping; Tehran says it will soon unveil a Hormuz toll mechanism" },
+            { "date": "May 17 2026", "event": "Conditional ceasefire window technically expires; Trump posts AI-generated 'calm before the storm' image and an animation of a US warship firing on an Iranian aircraft; NYT reports US/Israel finalising plans for potential renewed strikes; Brent crude holds above $108" }
           ]
         },
         {
           "name": "Israel–Gaza / Lebanon",
-          "status": "Gaza ceasefire badly strained after killing of Hamas chief al-Haddad; Lebanon truce extended 45 days",
+          "status": "Gaza ceasefire shaken after killing of Hamas chief al-Haddad; Lebanon truce extended 45 days but daily strikes continue",
           "timeline": [
             { "date": "Oct 7 2023", "event": "Hamas-led attack on southern Israel kills ~1,200 and takes 250+ hostages, triggering Gaza war" },
             { "date": "Sep–Oct 2024", "event": "Israel kills Hezbollah chief Nasrallah; pager-attack campaign and ground invasion of southern Lebanon" },
@@ -256,15 +268,15 @@
             { "date": "Apr 23 2026", "event": "Trump announces first 3-week extension of Israel-Lebanon ceasefire" },
             { "date": "May 14 2026", "event": "Direct Israel-Lebanon talks open in Washington; Lebanon expresses cautious optimism" },
             { "date": "May 15 2026", "event": "Israel strikes al-Rimal in Gaza City, killing Hamas military chief Izz al-Din al-Haddad with his wife, daughter and 7 others; Israel-Lebanon ceasefire extended another 45 days" },
-            { "date": "May 16 2026", "event": "Hamas confirms al-Haddad's death and calls it a 'treacherous' breach of the ceasefire; IDF Southern Command on heightened alert for retaliation; IDF soldier killed by Hezbollah mortar in southern Lebanon" },
-            { "date": "May 17 2026", "event": "Joint funeral held for al-Haddad and family in Gaza; Hamas sources concede they lack rocket capability to retaliate; Israeli strikes continue in Gaza City (3 women and a child reported killed) and on Tyre outskirts despite both ceasefires nominally in force" }
+            { "date": "May 16 2026", "event": "Hundreds attend al-Haddad's funeral starting at the Al-Aqsa Martyrs Mosque in Gaza City; Hamas confirms his death and calls it a 'treacherous' ceasefire breach; IDF Southern Command on heightened alert; IDF soldier killed by Hezbollah mortar in southern Lebanon" },
+            { "date": "May 17 2026", "event": "Hamas sources concede they lack the rocket capability to retaliate at scale; Israeli strikes continue in Gaza City (3 women and a child reported killed) and on Tyre outskirts despite both ceasefires nominally in force" }
           ]
         }
       ]
     },
     "hantavirus": {
       "label": "Hantavirus Outbreak",
-      "ai_summary": "The MV Hondius Andes hantavirus outbreak appears to be stabilising rather than spreading. WHO's latest tally sits at 10–11 cases (8 confirmed) with 3 deaths and no new cases in several days, as repatriated passengers move through the incubation window. The ship itself is arriving in Rotterdam tonight or Monday for a multi-week medical-grade disinfection. WHO and ECDC still rate global risk as low, but CDC is monitoring 41 Americans across the 6-week incubation — the next fortnight remains the critical surveillance window.",
+      "ai_summary": "Two big health stories collide today. The MV Hondius hantavirus outbreak is still stable at 10–11 cases and 3 deaths, with the ship now sailing toward Rotterdam for a weeks-long disinfection. But the much bigger story is WHO's declaration today of the DR Congo–Uganda Ebola Bundibugyo outbreak as a public health emergency of international concern — 80 suspected deaths and confirmed cases as far as Kampala and Kinshasa, with no approved vaccine for this strain. Both outbreaks remain low-risk for the general public outside the affected regions.",
       "stats": {
         "cases_total": 11,
         "confirmed": 8,
@@ -275,48 +287,64 @@
       "stories": [
         {
           "id": "hv1",
-          "headline": "MV Hondius arriving in Rotterdam tonight for weeks-long disinfection",
-          "category": "Ship status",
-          "summary": "After leaving Tenerife on May 11, the hantavirus-stricken Dutch expedition ship is scheduled to dock at the Port of Rotterdam on Sunday evening or Monday with 25 crew, two RIVM medics and the body of one deceased passenger on board. None of those onboard are showing symptoms. Once docked, a specialist will carry out a medical-grade disinfection following RIVM and WHO protocols — a process expected to take several weeks before the vessel can return to service.",
+          "headline": "WHO declares DR Congo–Uganda Ebola Bundibugyo outbreak a global public health emergency",
+          "category": "WHO PHEIC",
+          "summary": "On May 17, WHO's Director-General formally declared the Ebola Bundibugyo outbreak in DR Congo and Uganda a Public Health Emergency of International Concern (PHEIC) — its highest level of alarm. Drivers: cross-border transmission to Kampala and Kinshasa, clusters of unexplained deaths, and the absence of any approved vaccine or therapeutic for the Bundibugyo strain. WHO stressed it does not yet meet the threshold of a 'pandemic emergency'.",
+          "source": "WHO",
+          "url": "https://www.who.int/news/item/17-05-2026-epidemic-of-ebola-disease-in-the-democratic-republic-of-the-congo-and-uganda-determined-a-public-health-emergency-of-international-concern"
+        },
+        {
+          "id": "hv2",
+          "headline": "Ebola outbreak case count: 8 confirmed, 246 suspected, 80 suspected deaths",
+          "category": "Ebola — Congo/Uganda",
+          "summary": "As of Saturday, 80 suspected deaths, 8 lab-confirmed cases and 246 suspected cases had been reported across at least three health zones in Congo's Ituri province (Bunia, Rwampara, Mongbwalu). Uganda has reported two lab-confirmed cases including one death in Kampala, and Kinshasa has logged one confirmed case in a traveller from Ituri. The high positivity rate (8 of 13 samples) suggests the true outbreak is larger than detected.",
+          "source": "CNN",
+          "url": "https://www.cnn.com/2026/05/16/africa/congo-uganda-ebola-international-concern-intl-hnk"
+        },
+        {
+          "id": "hv3",
+          "headline": "MV Hondius arrives in Rotterdam tonight for weeks-long medical-grade disinfection",
+          "category": "Hondius status",
+          "summary": "After leaving Tenerife on May 11, the hantavirus-stricken Dutch expedition ship is scheduled to dock at the Port of Rotterdam on Sunday evening or Monday with 25 crew, two RIVM medics and the body of one deceased passenger on board. None of those onboard are showing symptoms. A specialist disinfection following RIVM and WHO protocols will then take several weeks before the vessel can return to service.",
           "source": "Cruise Industry News",
           "url": "https://cruiseindustrynews.com/cruise-news/2026/05/update-hondius-arrives-in-rotterdam-on-may-18/"
         },
         {
-          "id": "hv2",
-          "headline": "WHO holds case count at 10–11 with 3 deaths; risk remains low",
-          "category": "WHO update",
+          "id": "hv4",
+          "headline": "WHO holds Hondius hantavirus count at 10–11 cases with 3 deaths; risk still rated low",
+          "category": "Hantavirus update",
           "summary": "WHO's latest update lists 8 laboratory-confirmed Andes virus cases, 2 probable and 1 inconclusive, plus 3 deaths (a Dutch couple and a German woman) spread across 16 countries through cases, contacts or origin investigation. The agency still rates global public-health risk as low, but Director-General Tedros warned more cases may yet appear given the virus's 6-week incubation window as passengers return home.",
           "source": "WHO",
           "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON601"
         },
         {
-          "id": "hv3",
-          "headline": "CDC monitoring 41 Americans; 18 cruise passengers stay asymptomatic in Nebraska",
+          "id": "hv5",
+          "headline": "CDC monitoring 41 Americans for hantavirus; 18 cruise passengers stay asymptomatic in Nebraska",
           "category": "Quarantine",
           "summary": "CDC said on May 14 that 41 people across the United States are under monitoring, including the 18 former Hondius passengers housed at the University of Nebraska Medical Center's National Quarantine Unit in Omaha — the only federally funded quarantine facility in the country. A previously 'confirmed' US case has been downgraded to inconclusive after retesting, and CDC says there are no confirmed Andes virus cases on US soil. High-risk contacts must stay home through the full 42-day incubation window.",
           "source": "Washington Post",
           "url": "https://www.washingtonpost.com/health/2026/05/14/how-cdc-determines-if-someone-is-hantavirus-risk/"
         },
         {
-          "id": "hv4",
-          "headline": "ECDC keeps risk to Europe 'very low' as genomic data confirms single source",
+          "id": "hv6",
+          "headline": "ECDC keeps Europe risk 'very low' as genomic data confirms single Hondius source",
           "category": "Risk assessment",
-          "summary": "ECDC's May 16 threat assessment reiterates that the risk to the general European population is very low and widespread transmission is not expected. Fresh genetic sequencing strongly links all confirmed cases to a single original source of infection — most likely environmental exposure of the index passenger in Argentina before boarding — and confirms the strain is not a new variant.",
+          "summary": "ECDC's May 16 threat assessment reiterates that the risk to the general European population is very low and widespread transmission is not expected. Fresh genetic sequencing strongly links all confirmed Hondius cases to a single original source of infection — most likely environmental exposure of the index passenger in Argentina before boarding — and confirms the strain is not a new variant.",
           "source": "ECDC",
           "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
         },
         {
-          "id": "hv5",
+          "id": "hv7",
           "headline": "Singapore's two Hondius residents test negative, complete isolation at NCID",
-          "category": "Human story",
+          "category": "Singapore",
           "summary": "Both Singapore residents who were aboard the MV Hondius have tested negative for hantavirus and are being held at the National Centre for Infectious Diseases for a 30-day quarantine from their last date of exposure, followed by phone surveillance to day 45. The Communicable Diseases Agency reiterated that there is no evidence of community transmission in Singapore and the public risk remains low.",
           "source": "Singapore CDA",
           "url": "https://www.cda.gov.sg/news-and-events/both-singapore-residents-onboard-mv-hondius-tested-negative-for-hantavirus/"
         },
         {
-          "id": "hv6",
+          "id": "hv8",
           "headline": "Mpox and H5N1 outbreaks continue in the background",
-          "category": "WHO update",
+          "category": "Other outbreaks",
           "summary": "Africa CDC reports more than 9,000 mpox cases (1,480 lab-confirmed) and 53 deaths across 22 African Union countries so far in 2026, with DRC, Madagascar, Guinea, Liberia and Ghana driving most new cases. WHO has logged 13 H5N1/swine flu human cases globally in Q1 2026, including a fatal H5N1 case in a Bangladeshi child and three cases in Cambodia. Neither pathogen is showing sustained human-to-human spread and global risk assessments stay low.",
           "source": "CIDRAP",
           "url": "https://www.cidrap.umn.edu/avian-influenza-bird-flu/who-reports-h5n1-death-among-variant-zoonotic-flu-cases-seen-year"
@@ -325,7 +353,7 @@
     },
     "cybersecurity": {
       "label": "CyberSecurity",
-      "ai_summary": "Active exploitation dominates this cycle. Cisco's CVSS 10.0 SD-WAN auth-bypass (CVE-2026-20182) hits its CISA federal patch deadline today, now linked to threat cluster UAT-8616. Microsoft Exchange zero-day CVE-2026-42897 and the new Linux 'Fragnesia' kernel root flaw (CVE-2026-46300) — ironically spawned by the Dirty Frag patch — give attackers fresh footholds. ShinyHunters' 275M-record Canvas extortion ended with Instructure paying the ransom, and two npm supply-chain compromises continue to ripple through the JS ecosystem. The strategic story, though, is Google confirming the first AI-developed zero-day caught in the wild — LLM-assisted exploit-writing has crossed from theory into operational use.",
+      "ai_summary": "Active exploitation dominates this cycle. Cisco's CVSS 10.0 SD-WAN auth-bypass (CVE-2026-20182) hits its CISA federal patch deadline today, linked to threat cluster UAT-8616. Microsoft Exchange zero-day CVE-2026-42897 is being exploited in the wild against on-prem servers, and a fresh anonymous disclosure pair — BitLocker bypass 'YellowKey' and CTFMON privilege-escalation 'GreenPlasma' — adds new Windows risk. ShinyHunters' 275M-record Canvas extortion ended with Instructure paying the ransom, and the strategic story remains Google's confirmation of the first AI-developed zero-day caught in the wild — LLM-assisted exploit-writing has crossed from theory into operational use.",
       "stories": [
         {
           "id": "cs1",
@@ -346,11 +374,22 @@
           "cvss": 8.1,
           "severity": "HIGH",
           "summary": "Microsoft disclosed an actively exploited spoofing/XSS zero-day affecting Exchange Server Subscription Edition, 2016 and 2019. Attackers send a specially crafted email that, when opened in Outlook Web Access, executes arbitrary JavaScript in the victim's browser context — enabling credential theft and lateral movement against on-prem mail. Apply the out-of-band fix as soon as it ships.",
-          "source": "SecurityWeek",
-          "url": "https://www.securityweek.com/microsoft-warns-of-exchange-server-zero-day-exploited-in-the-wild/"
+          "source": "Eastern Herald",
+          "url": "https://easternherald.com/2026/05/17/microsoft-exchange-zero-day-active-attacks-2026/"
         },
         {
           "id": "cs3",
+          "headline": "Windows BitLocker bypass 'YellowKey' and CTFMON LPE 'GreenPlasma' disclosed",
+          "category": "Zero-day",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "An anonymous researcher dropped a pair of Windows zero-days: 'YellowKey' allows an attacker with physical access to bypass BitLocker on protected drives (PoC public), and 'GreenPlasma' is a local privilege escalation in the Windows Collaborative Translation Framework (CTFMON). Microsoft is investigating; in the meantime, enterprises should rotate recovery keys and audit physical access controls.",
+          "source": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/windows-bitlocker-zero-day-gives-access-to-protected-drives-poc-released/"
+        },
+        {
+          "id": "cs4",
           "headline": "Microsoft May Patch Tuesday fixes wormable Netlogon RCE and DNS Client RCE",
           "category": "Vulnerability",
           "cve": "CVE-2026-41089",
@@ -361,7 +400,7 @@
           "url": "https://thehackernews.com/2026/05/microsoft-patches-138-vulnerabilities.html"
         },
         {
-          "id": "cs4",
+          "id": "cs5",
           "headline": "Google GTIG catches first AI-developed zero-day in the wild — a 2FA bypass",
           "category": "AI security",
           "cve": null,
@@ -372,18 +411,18 @@
           "url": "https://thehackernews.com/2026/05/hackers-used-ai-to-develop-first-known.html"
         },
         {
-          "id": "cs5",
-          "headline": "'Fragnesia' Linux kernel LPE grants root on all major distros — born from Dirty Frag patch",
+          "id": "cs6",
+          "headline": "'Fragnesia' / 'Dirty Frag' Linux kernel LPE grants root on all major distros",
           "category": "Vulnerability",
           "cve": "CVE-2026-46300",
           "cvss": null,
           "severity": "HIGH",
-          "summary": "A new local privilege-escalation flaw in the Linux kernel's XFRM ESP-in-TCP subsystem lets an unprivileged user corrupt cached pages of read-only setuid files (like /usr/bin/su) to gain root, with a working PoC already public. Fragnesia is an unintended side effect of the original Dirty Frag fix and affects kernels released before May 13, 2026 across AlmaLinux, Amazon Linux, Debian, Red Hat, SUSE and Ubuntu.",
+          "summary": "A new local privilege-escalation flaw in the Linux kernel's XFRM ESP-in-TCP subsystem lets an unprivileged user corrupt cached pages of read-only setuid files (like /usr/bin/su) to gain root, with a working PoC already public. It is an unintended side effect of the original Dirty Frag fix and affects kernels released before May 13, 2026 across AlmaLinux, Amazon Linux, Debian, Red Hat, SUSE and Ubuntu.",
           "source": "BleepingComputer",
           "url": "https://www.bleepingcomputer.com/news/security/new-linux-dirty-frag-zero-day-with-poc-exploit-gives-root-privileges/"
         },
         {
-          "id": "cs6",
+          "id": "cs7",
           "headline": "Instructure pays ShinyHunters ransom after 275M-record Canvas LMS breach",
           "category": "Data breach",
           "cve": null,
@@ -394,7 +433,7 @@
           "url": "https://thehackernews.com/2026/05/instructure-reaches-ransom-agreement.html"
         },
         {
-          "id": "cs7",
+          "id": "cs8",
           "headline": "node-ipc npm package backdoored with credential-stealer in supply-chain attack",
           "category": "Supply chain",
           "cve": null,
@@ -405,7 +444,7 @@
           "url": "https://www.bleepingcomputer.com/news/security/"
         },
         {
-          "id": "cs8",
+          "id": "cs9",
           "headline": "'Bleeding Llama' flaw in Ollama exposes ~300,000 AI servers to memory leaks",
           "category": "Vulnerability",
           "cve": "CVE-2026-7482",
@@ -414,17 +453,6 @@
           "summary": "A heap out-of-bounds read in Ollama's GGUF model loader lets an unauthenticated remote attacker leak the server's entire process memory using just three API calls to /api/create and /api/push — exposing environment variables, API keys, system prompts and concurrent user conversations. Researchers identified roughly 300,000 internet-exposed servers; the issue is fixed in Ollama 0.17.1.",
           "source": "The Hacker News",
           "url": "https://thehackernews.com/2026/05/ollama-out-of-bounds-read-vulnerability.html"
-        },
-        {
-          "id": "cs9",
-          "headline": "West Pharmaceutical begins restoring operations after disruptive ransomware attack",
-          "category": "Ransomware",
-          "cve": null,
-          "cvss": null,
-          "severity": "HIGH",
-          "summary": "West Pharmaceutical Services confirmed in an SEC filing that attackers exfiltrated data and encrypted systems after breaching its network on May 4, forcing the company to shut down on-prem infrastructure and disrupting manufacturing, shipping and receiving at multiple global facilities. The company has engaged Palo Alto Unit 42 and is now restarting critical systems; no ransomware group has publicly claimed the attack, suggesting a possible quiet settlement.",
-          "source": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/west-pharmaceutical-says-hackers-stole-data-encrypted-systems/"
         },
         {
           "id": "cs10",
