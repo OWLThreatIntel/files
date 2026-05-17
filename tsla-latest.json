@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-16T23:30:00+08:00",
-  "date": "2026-05-16",
+  "generated_at": "2026-05-17T16:00:00+08:00",
+  "date": "2026-05-17",
   "price_now": "$422.24",
   "change_today": "-4.75%",
   "change_today_positive": false,
@@ -11,46 +11,46 @@
   "volume_avg_30d": "59.8M",
   "volume_vs_avg": "below average",
   "next_earnings_date": "2026-07-22",
-  "notes": "Today is Saturday 2026-05-16, US markets are closed. The figures use Friday May 15's confirmed close. Sources varied: Yahoo Finance and Morningstar report $422.24 (-4.75%) while GuruFocus reports $424.45 (-4.8%) — a $2.21 gap that just exceeds the $2 cross-check threshold, so the lower figure is used per policy.",
+  "notes": "Today is Sunday 2026-05-17. US markets are closed, so the price snapshot is Friday May 15's confirmed close. Sources cross-checked: Yahoo Finance and Morningstar agree at $422.24 (-4.75%); GuruFocus reports $424.45 (-4.8%); Cryptonomist/Foreign Policy Journal cite $428.72 (-3.73%). The $6.48 spread exceeds the $2 cross-check threshold, so per policy the lowest figure ($422.24) is used and the discrepancy is flagged here.",
 
   "news": {
-    "sentiment_label": "Moderately Bearish",
-    "sentiment_summary": "Sentiment turned sharply cautious heading into the weekend after Friday's -4.75% slide wiped out a week of gains. The trigger was the Trump-Xi Beijing summit ending with no China Full Self-Driving (FSD) regulatory breakthrough — a development bulls had been positioning for all week. Layered on top: Tesla's CFO confirmed the company will burn cash for the rest of 2026 due to a record $25 billion capital spending plan, and US regulators forced a recall of 218,868 vehicles for a rearview-camera software glitch. The bullish robotaxi story is still alive — the unsupervised fleet has more than quadrupled from 9 to 39 vehicles since April and is expanding into a dozen states by year-end — but investors want to see revenue, not just press releases, before pushing the stock back toward $500.",
+    "sentiment_label": "Bearish",
+    "sentiment_summary": "Sentiment heading into Monday's open has soured. The weekend has been spent re-reading Friday's headline triple-whammy — no China FSD greenlight from the Trump-Xi summit, the CFO's confirmation of negative free cash flow for the rest of 2026, and a 218,868-vehicle NHTSA rearview-camera recall — and the digestion is not flattering to bulls. The robotaxi growth story is still real (the fleet has more than quadrupled in six weeks and Optimus V3 production lines are being installed at Fremont), but with a trailing P/E around 416x there is almost no margin for the kind of execution slip that Q1's 50,000-unit inventory build represents. Wall Street's consensus target of $403.86 now sits 4% below Friday's close — the first time in six weeks that analysts have collectively become more cautious than the market.",
     "items": [
       {
-        "headline": "Tesla Drops 4.75% as Trump-Xi Beijing Summit Ends Without China FSD Approval",
-        "summary": "Tesla shares slumped Friday after a three-day Trump-Xi summit in Beijing ended without the regulatory greenlight for Full Self-Driving in China that the market had effectively priced in. Elon Musk had even joined the delegation on Air Force One. China FSD approval matters because it would let Tesla charge subscription fees against rivals BYD, Xiaomi, and Huawei that bundle similar features for free. With no breakthrough, the 'China premium' that had built into the stock unwound in a single session.",
-        "source": "Foreign Policy Journal / TS2 Tech",
+        "headline": "Wall Street Consensus Target Falls Below Spot Price for First Time in 6 Weeks",
+        "summary": "After Friday's 4.75% selloff, Tesla's last close ($422.24) is now 4% above the average analyst 12-month price target of $403.86 (per TipRanks aggregation of 29 analysts). That is the first time since the early-April rally began that the Street's consensus has been less bullish than the market itself. The implication: Wall Street as a whole now thinks the stock has more downside than upside over the next year, even if individual bulls like Wedbush ($600) and bears like GLJ ($25) continue to disagree wildly.",
+        "source": "TipRanks / Public.com",
+        "date": "2026-05-16",
+        "sentiment": "bearish"
+      },
+      {
+        "headline": "Optimus V3 Production Lines Being Installed at Fremont; Reveal Slated for Late July",
+        "summary": "Tesla has begun installing first-generation Optimus humanoid robot production lines at its Fremont, California facility, with the V3 robot expected to be unveiled in late July or early August 2026 alongside Q2 earnings. Initial capacity is targeted at 1 million units a year, scaling to 10 million from a second factory at Giga Texas by 2027. V3 confirmed specs: 37 joints (9 more than V2), 1.2 m/s walking speed, and 22-degree-of-freedom dexterous hands with sub-millimeter precision. This is the strongest tangible Optimus update Tesla has provided since the platform was announced.",
+        "source": "Tesla / The Robot Report / eWeek",
         "date": "2026-05-15",
-        "sentiment": "bearish"
-      },
-      {
-        "headline": "Tesla CFO Confirms Negative Free Cash Flow For Rest of 2026 on $25B Capex Plan",
-        "summary": "CFO Vaibhav Taneja told investors free cash flow will be negative through the remaining quarters of 2026 because of a record $25 billion capital spending plan — roughly triple Tesla's 2025 budget. The money is going into Cybercab production lines, Optimus humanoid robots, and AI data centres. Wall Street still projects Tesla ends 2026 with about $22.5 billion in net cash, so it can afford the burn — but two years of negative cash flow makes the valuation harder to defend if the AI bets disappoint.",
-        "source": "TechCrunch / BigGo Finance",
-        "date": "2026-05-14",
-        "sentiment": "bearish"
-      },
-      {
-        "headline": "Robotaxi Fleet Hits 39 Vehicles; Tesla Targets ~12 US States by Year-End",
-        "summary": "Tesla's unsupervised robotaxi service has scaled from 9 vehicles in early April to 39 by mid-May, with Dallas and Houston now live alongside Austin. Phoenix, Miami, Orlando, Tampa, and Las Vegas are being prepared next. The Motley Fool reports the goal is roughly a dozen US states by year-end. Musk also confirmed FSD v15 — the version needed for 'very large-scale unsupervised' driving — will arrive by early 2027, resetting earlier expectations of a 2026 ramp.",
-        "source": "The Motley Fool",
-        "date": "2026-05-14",
         "sentiment": "bullish"
       },
       {
-        "headline": "Tesla Recalls 218,868 Vehicles Over Rearview-Camera Software Delay",
-        "summary": "NHTSA forced a recall of 218,868 Model 3, Y, S, and X vehicles after Tesla identified a software bug that could delay the rearview camera image by up to 11 seconds when reversing — a federal safety violation. Crucially, Tesla says 99.92% of affected vehicles already received the over-the-air fix, and no accidents or injuries have been reported. The impact is more reputational than financial, but it lands at an awkward time as Tesla pushes regulators worldwide to trust its self-driving software.",
-        "source": "Autoblog / Reuters",
-        "date": "2026-05-13",
+        "headline": "Robotaxi Crash Tally Disclosed: 17 Incidents Since Austin Launch",
+        "summary": "Newly unredacted NHTSA filings show Tesla's unsupervised robotaxi fleet has recorded 17 crashes since the Austin launch in mid-2025. No fatalities or serious injuries are reported, but reviewers flagged repeated navigation glitches and long wait times during recent test rides in Dallas and Houston. The disclosure lands a week before Tesla is expected to confirm new city launches in Phoenix, Miami, Orlando, Tampa, and Las Vegas — and it gives regulators ammunition just as Tesla pushes for FSD approvals in Europe and (still) China.",
+        "source": "NHTSA / TS2 Tech",
+        "date": "2026-05-16",
         "sentiment": "bearish"
       },
       {
-        "headline": "RBC: FSD Subscriptions Up 51% YoY, Europe and China Approvals Eyed in Q2-Q3",
-        "summary": "RBC Capital reiterated Outperform after noting Full Self-Driving subscriptions grew 51% year-on-year in Q1 2026. The bank expects regulatory approvals for FSD in parts of Europe and China during Q2 and Q3 2026, and highlighted Belgium's Flanders region just granting Tesla approval to begin road-testing FSD. Subscription growth is high-margin recurring revenue — exactly the kind that investors want to see funding the $25 billion capex bill.",
-        "source": "RBC Capital / Yahoo Finance",
-        "date": "2026-05-12",
+        "headline": "Cybercab Car Wash Construction Begins Near Las Vegas",
+        "summary": "Tesla has broken ground on a dedicated Cybercab car wash facility in Clark County, Nevada, just outside Las Vegas — a small but symbolically important sign that the company is building physical infrastructure for the robotaxi fleet's seven-city rollout. The Las Vegas launch is one of five new cities Tesla has lined up for the second half of 2026, alongside Phoenix, Miami, Orlando, and Tampa. Bulls see this as proof that the deployment is real, not a slideshow.",
+        "source": "Teslarati / Clark County Records",
+        "date": "2026-05-16",
         "sentiment": "bullish"
+      },
+      {
+        "headline": "30-Year Treasury Yield Holds Above 5% — Pressure on All Long-Duration Growth Names",
+        "summary": "The 30-year US Treasury yield closed Friday above 5% for the second consecutive session, a level that materially raises the discount rate applied to long-duration growth stocks. For Tesla — whose valuation rests heavily on cash flows from robotaxi, Optimus, and FSD that mostly arrive after 2028 — higher long rates are a direct headwind. The bond move helped to amplify Friday's TSLA decline beyond what the China FSD news alone would have justified.",
+        "source": "Foreign Policy Journal / Bloomberg",
+        "date": "2026-05-16",
+        "sentiment": "bearish"
       }
     ]
   },
@@ -61,28 +61,29 @@
     "period_high": "$445.27",
     "period_low": "$398.30",
     "change_pct": "+6.0%",
-    "trend": "choppy uptrend ending in a sharp pullback",
-    "rsi": 45.2,
-    "rsi_label": "Neutral — cooled off after Friday's drop, plenty of room to move either way",
+    "trend": "uptrend interrupted by a sharp Friday reversal",
+    "rsi": 43.8,
+    "rsi_label": "Neutral — Friday's drop reset the speedometer; not yet oversold but momentum is gone",
     "rsi_color": "green",
-    "macd_signal": "Bullish but fading — Friday's plunge has the MACD line bending back toward the signal line",
-    "ma_5d": "$435.40",
+    "macd_signal": "Bullish but rolling over — the MACD line has bent sharply back toward the signal line and a bearish crossover is plausible early next week",
+    "ma_5d": "$430.85",
     "ma_5d_position": "below",
-    "ma_50d": "$428.20",
-    "ma_50d_position": "below",
-    "ma_200d": "$418.30",
+    "ma_50d": "$416.75",
+    "ma_50d_position": "above",
+    "ma_200d": "$383.23",
     "ma_200d_position": "above",
-    "ma_cross_status": "Golden Cross intact — 50-day MA still sits above 200-day MA, the long-term bullish setup is preserved",
-    "bollinger_position": "Middle of the band — Friday's drop pulled price away from the upper band ($449.52) back toward the centre line ($400.29)",
-    "volume_trend": "Friday volume of 52.1M was below the 59.8M 30-day average — the drop happened on lighter volume, which is mildly reassuring (no panic capitulation)",
+    "ma_cross_status": "Golden Cross intact — the 50-day MA ($416.75) sits well above the 200-day MA ($383.23), the long-term bullish setup is preserved",
+    "bollinger_position": "Lower-half / middle of the band — Friday's drop pulled price below the Bollinger mid-line near $440 and away from the upper band near $456",
+    "volume_trend": "Friday's 52.1M traded shares was meaningfully below the 59.8M 30-day average — a heavy down day on lighter-than-usual volume is a tell that this was profit-taking, not panic capitulation",
     "technical_signals": [
-      "Price is below the 5-day and 50-day moving averages — short and medium term momentum has rolled over",
-      "Price is still above the 200-day moving average ($418.30) — the long-term uptrend is intact, but only just",
-      "RSI at 45.2 — neither overbought nor oversold; the speedometer has reset to neutral after Friday's deceleration",
-      "MACD line is still above signal but converging quickly — momentum is weakening, watch for a possible bearish crossover next week",
-      "Friday's 4.75% decline happened on below-average volume, suggesting profit-taking rather than panic selling"
+      "Price closed below the 5-day moving average ($430.85) — the short-term trend has flipped negative",
+      "Price is still above the 50-day moving average ($416.75) by about $5.50 — the medium-term setup is intact but the cushion is thin",
+      "Price sits comfortably above the 200-day moving average ($383.23) — long-term uptrend is firmly in place",
+      "RSI at 43.8 — neutral; the post-drop reset leaves room to go either way next week",
+      "MACD bullish but converging quickly — watch for a bearish crossover early in the week as a confirmation signal",
+      "Down day on below-average volume suggests profit-taking rather than panic selling"
     ],
-    "summary": "Tesla had a tale-of-two-halves week: a steady climb from around $398 to a Wednesday high of $445 fuelled by China-summit optimism, then a violent Friday reversal that erased most of those gains. The good news is the long-term setup is still intact — Tesla is sitting above its 200-day average and the Golden Cross is still in place. The not-so-good news is that price has slipped below the 5-day and 50-day averages, RSI has cooled to a flat 45, and MACD momentum is starting to roll over. Friday's drop happened on lighter-than-usual volume which suggests it was traders booking profits rather than mass panic selling — but next week needs to defend $418 (the 200-day line) or the short-term picture turns ugly."
+    "summary": "Tesla's week was a textbook 'rally, blow-off, reversal' pattern. The stock climbed steadily from around $398 to a Wednesday high of $445 on China-summit optimism, then surrendered most of those gains in a single Friday session after the summit ended without the expected FSD approval. The encouraging part is that the long-term setup — Golden Cross intact, price comfortably above the 200-day average — is undisturbed, and Friday's drop happened on lighter-than-usual volume which argues against a panic exit. The discouraging part is that the short-term picture has clearly turned: price is below its 5-day average, RSI has cooled to a flat 44, and MACD momentum is rolling over. Next week's key battle is the $416-$418 zone where the 50-day MA and recent support converge; defending that holds the medium-term trend, breaking it opens a path back to the high-$390s."
   },
 
   "analysis_30d": {
@@ -91,95 +92,96 @@
     "period_high": "$465.80",
     "period_low": "$355.10",
     "change_pct": "+16.5%",
-    "trend": "uptrend, but losing steam at the top",
+    "trend": "broad uptrend cooling at the highs",
     "key_levels": {
-      "support": "$418",
-      "support_reason": "Lines up with the 200-day moving average and a cluster of buyer activity from late April — the natural trampoline if selling continues",
+      "support": "$416",
+      "support_reason": "Where the 50-day moving average ($416.75) and the early-May breakout zone converge — the natural trampoline if selling continues. A weekly close below this level would be the first real crack in the rebound story.",
       "resistance": "$450",
-      "resistance_reason": "The level where last week's rally stalled and sellers reappeared — a glass ceiling to clear before bulls can target the recent highs"
+      "resistance_reason": "Last week's intraday rally stalled here twice. Sellers reappeared at $445-$450 on Wednesday and Thursday before the Friday reversal — a glass ceiling that must be cleared before bulls can target the April highs near $466."
     },
-    "ma_50d": "$428.20",
-    "ma_50d_position": "below",
-    "ma_200d": "$418.30",
+    "ma_50d": "$416.75",
+    "ma_50d_position": "above",
+    "ma_200d": "$383.23",
     "ma_200d_position": "above",
-    "rsi": 48.6,
-    "rsi_label": "Neutral — the post-rally cooldown has reset momentum",
+    "rsi": 47.2,
+    "rsi_label": "Neutral — Friday's pullback cooled an otherwise stretched month",
     "rsi_color": "green",
-    "macd_signal": "Bullish but weakening — daily MACD is starting to roll over",
+    "macd_signal": "Bullish but weakening — the daily MACD histogram is shrinking and a crossover would not be a surprise",
     "notable_events": [
-      "Apr 22: Q1 2026 earnings — EPS beat ($0.41 vs $0.36 est) and revenue beat ($22.39B vs $22.35B est), but deliveries missed at 358K and inventory swelled by 50K+",
-      "May 03-08: Stock rallied from ~$400 toward $445 on robotaxi expansion headlines (fleet grew from 9 to 39 vehicles in six weeks)",
-      "May 12: Mid-week setback after operational glitches in Dallas/Houston robotaxi zones; recovered same week",
-      "May 15: -4.75% single-day drop after Trump-Xi summit ended without China FSD approval"
+      "Apr 22: Q1 2026 earnings — EPS beat ($0.41 vs $0.36 est) and revenue beat ($22.39B vs $22.35B est), but deliveries missed at 358K and inventory swelled by more than 50K units (largest single-quarter build in Tesla history)",
+      "May 02-09: Robotaxi rally — stock climbed from $392 to $434 as fleet expanded from 9 to 39 vehicles and Dallas/Houston went live",
+      "May 12: Mid-week pullback to $412 on Dallas/Houston operational glitches and Panasonic battery delays",
+      "May 13-14: Sharp rebound to $443 on RBC's reiteration of Outperform (FSD subs +51% YoY)",
+      "May 15: -4.75% single-day reversal after Trump-Xi Beijing summit ended without China FSD approval; 30-year Treasury yield breaking 5% added discount-rate pressure"
     ],
-    "summary": "Zooming out to the month, Tesla is up roughly 16% — a strong number that masks a very emotional ride. The story has been: Q1 earnings beat → robotaxi fleet quadruples → bulls extrapolate the China FSD approval that never came. Now the stock is consolidating between $418 (the 200-day average, a key floor) and $450 (the new ceiling). For the trend to stay healthy, Tesla needs to defend $418 next week; if it cracks, the next stop is probably the high-$390s. The fundamental story — FSD subscriptions +51% YoY, robotaxi cities multiplying — remains genuinely compelling, but the easy money on the rebound has been made and execution now has to take over from narrative."
+    "summary": "The 30-day picture is still a recovery story — Tesla is up 16.5% — but it is increasingly a story with cracks visible at the edges. The narrative drivers (Q1 earnings beat, robotaxi fleet quadrupling, FSD subs +51%) remain genuinely powerful, but each successive rally leg has met more resistance and Friday's reversal was the first clear sign that the easy money has been made. The stock is now caught in a $416-$450 consolidation range bordered below by the 50-day moving average and above by last week's failed breakout zone. The trend remains 'up' but it has lost its swagger; until either China FSD approval lands or Q2 numbers force a re-rate, expect choppier two-way action and smaller daily moves."
   },
 
   "outlook": {
-    "analyst_consensus": "Hold (leaning Buy)",
+    "analyst_consensus": "Hold (slight Buy tilt)",
     "analyst_buy_count": 12,
     "analyst_hold_count": 12,
     "analyst_sell_count": 5,
-    "avg_price_target": "$405",
+    "avg_price_target": "$403.86",
     "median_price_target": "$398",
     "high_price_target": "$600",
     "high_price_target_firm": "Wedbush (Dan Ives)",
-    "low_price_target": "$24.86",
+    "low_price_target": "$25.53",
     "low_price_target_firm": "GLJ Research (Gordon Johnson)",
-    "recent_rating_change": "RBC Capital reiterated Outperform on May 12, citing 51% YoY growth in FSD subscriptions and expected regulatory approvals in Europe and China over Q2-Q3 2026",
+    "recent_rating_change": "RBC Capital reiterated Outperform on May 12 citing 51% YoY growth in FSD subscriptions; Wedbush reiterated $600 high target on April 23; Morgan Stanley sits at $425 (raised from $410 in December)",
     "next_earnings_date": "2026-07-22",
     "next_earnings_eps_estimate": "$0.42",
     "next_earnings_revenue_estimate": "$24.52B",
     "catalysts": [
       {
+        "event": "Q2 2026 Delivery Report",
+        "timing": "First week of July 2026",
+        "impact": "high — could go either way",
+        "detail": "Street consensus sits at 390K-420K deliveries, a 9-17% sequential lift from Q1's 358K. Anything below 390K would confirm the slowdown thesis and likely re-test recent lows; a number above 420K would re-energise the bull case."
+      },
+      {
         "event": "Q2 2026 Earnings Report",
         "timing": "July 22, 2026",
         "impact": "high — could go either way",
-        "detail": "Wall Street wants to see auto gross margin recover above 17% and proof that the $25B capex is translating into Cybercab/robotaxi revenue. A miss on either front could reset the AI premium quickly."
+        "detail": "EPS estimate $0.42 on $24.52B revenue. Wall Street wants auto gross margin back above 17% and visible early Cybercab revenue. A miss on either undermines the $25B capex case."
+      },
+      {
+        "event": "Optimus V3 Public Reveal",
+        "timing": "Late July / early August 2026",
+        "impact": "bullish potential",
+        "detail": "First-gen Optimus production lines are being installed at Fremont now, with the V3 unveiling expected alongside Q2 earnings. A credible demo and a real production timeline would re-anchor the long-term AI thesis."
       },
       {
         "event": "China FSD Regulatory Decision",
-        "timing": "Q2-Q3 2026",
+        "timing": "Q2-Q3 2026 (delayed after May 15 summit)",
         "impact": "bullish potential",
-        "detail": "Approval would let Tesla charge for FSD subscriptions in the world's largest EV market — and would reverse Friday's selloff overnight. Rejection is now mostly priced in."
+        "detail": "Approval would let Tesla monetise FSD in the world's largest EV market and would reverse Friday's selloff overnight. Rejection — or further silence — is now largely priced in."
       },
       {
         "event": "Robotaxi City Launches",
-        "timing": "Phoenix, Miami, Orlando, Tampa, Las Vegas — rolling Q2-Q4 2026",
+        "timing": "Phoenix, Miami, Orlando, Tampa, Las Vegas — rolling H2 2026",
         "impact": "bullish potential",
-        "detail": "Each new city is a tangible proof point that the autonomy thesis is real. But any safety incident in a new city would be a major setback to the narrative."
-      },
-      {
-        "event": "FSD v15 Software Release",
-        "timing": "Early 2027 (Musk's latest guidance)",
-        "impact": "bullish potential",
-        "detail": "Musk says v15 is required for 'very large-scale unsupervised' driving. The slip from 2026 to 2027 has already reset expectations, so further delays would hurt — on-time delivery is the new bullish surprise."
-      },
-      {
-        "event": "Cybercab Mass Production Ramp",
-        "timing": "H2 2026",
-        "impact": "bullish potential",
-        "detail": "70+ finished Cybercab units have been spotted at Giga Texas. Confirmation of high-volume production would validate the $25B capex plan and silence the cash-burn critics."
+        "detail": "Each new city is a tangible proof point. But the freshly disclosed 17-crash tally raises the cost of any safety incident in a high-profile launch market."
       }
     ],
     "macro_factors": [
       {
-        "factor": "US-China trade tensions",
+        "factor": "Long-end US interest rates",
         "impact": "bearish",
-        "detail": "The Beijing summit failed to deliver FSD approval and could herald a colder trade backdrop, which would raise battery costs and slow China sales"
+        "detail": "30-year Treasury yields above 5% raise the discount rate applied to Tesla's late-decade cash flows from robotaxi and Optimus — a direct valuation headwind for AI-premium names"
       },
       {
-        "factor": "Federal Reserve interest rate path",
-        "impact": "neutral-to-bullish",
-        "detail": "Markets are pricing in further rate cuts in H2 2026, which would lower the discount rate applied to Tesla's long-duration AI cash flows and help the valuation"
+        "factor": "US-China trade and tech relations",
+        "impact": "bearish",
+        "detail": "The Beijing summit produced no FSD deal and signals a colder China backdrop, threatening Tesla's Shanghai-built export volumes and its already-shrunken 3% China NEV market share"
       },
       {
-        "factor": "EV demand normalization in Europe and the US",
+        "factor": "Global EV demand and pricing",
         "impact": "bearish",
-        "detail": "After two years of soft demand growth, Tesla's auto business needs price stability — any new round of cuts to clear the 50K+ inventory build would crimp margins"
+        "detail": "Europe deliveries fell ~49% YoY in Q1 on subsidy cuts and Chinese EV competition; Tesla's 50K+ inventory build raises the odds of another round of price cuts to clear stock, which would compress margins"
       }
     ],
-    "summary": "The next three to six months will be defined by whether Tesla can convert narrative into numbers. The robotaxi fleet is real, FSD subscriptions are growing 51% YoY, and Cybercab production is visibly accelerating — but the analyst consensus price target of $405 sits below Friday's close of $422, meaning Wall Street as a whole thinks the stock has run a bit ahead of fundamentals. The wild dispersion between targets (Wedbush at $600, GLJ at $25) tells you this is a faith-based stock right now: bulls and bears are using the same data to reach opposite conclusions. The Q2 earnings report on July 22 is the next big tell. Until then, expect choppy trading in the $400-$450 zone unless either China FSD approval lands (bull case) or a robotaxi safety incident hits the wires (bear case)."
+    "summary": "The next three to six months are about whether Tesla can turn narrative into numbers — and for the first time in six weeks, Wall Street as a whole is sceptical. The consensus 12-month target of $403.86 now sits 4% below Friday's close, meaning the median analyst expects negative returns from here. Bulls will point to genuine progress: the robotaxi fleet is real and expanding, Optimus V3 production lines are being installed, FSD subscriptions are growing 51% YoY. Bears will counter with a 416x trailing P/E, 50K+ inventory build, no China FSD, and negative free cash flow for the rest of 2026. The Q2 delivery report in early July is the next hard catalyst; until then expect choppy trading inside a $400-$450 range, with breakouts requiring either a China FSD surprise (bull case) or a robotaxi safety incident (bear case)."
   },
 
   "recommendation": {
@@ -188,8 +190,8 @@
     "time_horizon": "Short-term (1-4 weeks)",
     "bullish_signals_count": 4,
     "bearish_signals_count": 5,
-    "reasoning": "The picture is genuinely mixed and that's why the call is HOLD rather than BUY or SELL. On the bullish side: the Golden Cross is intact, price is still above the 200-day average, RSI has reset to a healthy neutral, and the fundamental robotaxi/FSD story keeps adding proof points. On the bearish side: Friday's -4.75% drop pushed price below both the 5-day and 50-day moving averages, MACD momentum is rolling over, analyst consensus ($405 avg target) sits below the current price, and key catalysts (China FSD approval, Q2 earnings) are still weeks away. Confidence is Medium not High because both bull and bear scenarios are credible and could be resolved in either direction by a single headline. What would change the call: a decisive break above $450 with volume would flip to BUY; a break below $418 (the 200-day) would flip to SELL.",
-    "key_risk": "A failure to defend the $418 200-day moving average next week would mean both the medium and long-term uptrends are broken at the same time, which historically triggers a much sharper drawdown toward the high-$300s.",
+    "reasoning": "The signal balance has tilted incrementally more bearish over the weekend but not enough to flip the call. Bullish: the Golden Cross is intact, price is comfortably above both the 50-day and 200-day moving averages, RSI is neutral with room to move either way, and the fundamental robotaxi/Optimus/FSD story keeps adding tangible proof points (39-vehicle fleet, V3 production lines installed, Cybercab car wash breaking ground). Bearish: Friday's -4.75% drop pushed price below the 5-day MA and broke the rally structure, MACD momentum is rolling over, the analyst consensus target ($403.86) now sits below the spot price for the first time in six weeks, 30-year yields above 5% are a direct headwind to long-duration growth, and Tesla still has no China FSD approval despite a high-profile summit attempt. Confidence is Medium because both scenarios remain credible and a single news catalyst (China FSD landing, or a robotaxi safety incident) could resolve the picture either way within days. What flips this call: a decisive break above $450 with above-average volume turns this BUY; a weekly close below $416 (the 50-day MA) turns it SELL.",
+    "key_risk": "A failure to defend the $416 50-day moving average next week would close the medium-term cushion that has supported the rebound since early May, opening a probable retest of the high-$390s where the early-May breakout originated. Given that Wall Street's consensus target is already below the spot price, there is little analyst-target support to cushion any deeper drawdown.",
     "disclaimer": "⚠️ This is not financial advice. This is an AI-generated analysis for informational and educational purposes only. Always do your own research and consult a licensed financial advisor before making any investment decisions."
   },
 
