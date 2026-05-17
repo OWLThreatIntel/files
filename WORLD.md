@@ -82,10 +82,11 @@ Prioritise these Singapore topics (not exhaustive):
 - Government policies, bills, parliamentary news
 - Health advisories (MOH, CDA)
 - Weather alerts (NEA, PUB flood alerts)
+- COE prices
 - Housing (HDB), transport (LTA), cost of living
 - Trending local social discussions
 - Crime and court news
-- Singapore's foreign relations (Malaysia, China, ASEAN)
+- Singapore's foreign relations (Malaysia, China, ASEAN, US)
 
 #### 2c. Wars & Conflicts
 For each active war theatre, compile a **chronological sequence of events** — not just today's news. Provide context from how the conflict started through to the latest developments. Current theatres:
@@ -131,7 +132,7 @@ Rules for the summary:
   - `singapore`: what locals most need to know (weather, advisories, policies)
   - `wars`: the state of play across all theatres — who escalated, who's de-escalating
   - `hantavirus`: the outbreak's trajectory and what the risk looks like for readers
-  - `cybersecurity`: which threats matter most this cycle and who should patch what
+  - `cybersecurity`: which threats matter most this cycle and why
 - **Freshness:** The summary must reflect the stories you actually gathered this run — never copy yesterday's.
 - **Never invent.** If a section is quiet, say so honestly ("A slow news day for Singapore — only weather and a routine advisory.").
 
@@ -235,7 +236,7 @@ Design guidelines:
 - HIGH badge: orange background
 
 Include in the HTML:
-- Header showing Daily News Briefing, date, and green live indicator dot
+- Header showing Daily News Briefing, the date/time generated, and green live indicator dot
 - Sticky horizontal scrollable nav tabs with story count badges
 - **AI Section Summary callout (REQUIRED for every section):** A clearly-styled summary block rendered **directly above the card grid** of each section. This is the TL;DR for readers who don't want to read all the cards.
   - Pull the text from `sections.<key>.ai_summary` in the JSON
@@ -247,7 +248,7 @@ Include in the HTML:
 - For Hantavirus: stat bar (cases / deaths / countries) above cards (but still below the AI summary)
 - For CyberSec: CVE code pill, CVSS score, severity badge on each card
 - Direct links to source articles on each card
-- Footer stating AI generated
+- Footer only stating AI generated, no need to include sources
 
 ### 5. Commit and Push to Main
 
