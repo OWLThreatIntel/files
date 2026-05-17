@@ -397,6 +397,7 @@
 <footer>
   <div>Daily News Briefing · AI-compiled with <strong>Claude</strong></div>
   <div style="margin-top:6px;">Always verify against original sources before acting. This page is an automated digest, not a primary source.</div>
+
 </footer>
 
 <script>
@@ -959,9 +960,7 @@ function init() {
   // Hantavirus stats
   renderStats(DATA.sections.hantavirus.stats);
 
-  // Sources footer
-  const srcs = (DATA.meta.sources || []).join(' · ');
-  document.getElementById('sources').textContent = 'Sources: ' + srcs;
+
 
   // Tab handling
   document.querySelectorAll('.tab').forEach(t => {
