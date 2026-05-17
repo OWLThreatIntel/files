@@ -18,480 +18,343 @@
     --gold: #d4a84b;
     --gold-dim: rgba(212,168,75,0.15);
     --green: #34d399;
-    --green-dim: rgba(52,211,153,0.12);
+    --green-dim: rgba(52,211,153,0.14);
     --red: #f16a6a;
-    --red-dim: rgba(241,106,106,0.12);
-    --yellow: #fbbf24;
-    --yellow-dim: rgba(251,191,36,0.12);
+    --red-dim: rgba(241,106,106,0.14);
+    --amber: #fbbf24;
+    --amber-dim: rgba(251,191,36,0.14);
     --text: #eef0f5;
     --text-dim: #8891a1;
     --text-muted: #4b5563;
   }
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  html { scroll-behavior: smooth; }
-  body {
-    background: var(--bg);
-    color: var(--text);
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 14px;
-    line-height: 1.6;
-    min-height: 100vh;
-  }
-  h1, h2, h3, h4 { font-family: 'Syne', sans-serif; }
+  html, body { background: var(--bg); color: var(--text); font-family: 'IBM Plex Mono', monospace; line-height: 1.55; -webkit-font-smoothing: antialiased; }
+  body { padding-bottom: 4rem; opacity: 0; animation: fadein 0.6s ease-out 0.05s forwards; }
+  @keyframes fadein { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: translateY(0); } }
+  h1, h2, h3, h4 { font-family: 'Syne', sans-serif; letter-spacing: -0.01em; }
 
-  /* Animations */
-  @keyframes fadeInUp {
-    from { opacity: 0; transform: translateY(20px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-  @keyframes pulse {
-    0%, 100% { opacity: 1; transform: scale(1); }
-    50% { opacity: 0.5; transform: scale(0.85); }
-  }
-  @keyframes spin {
-    from { transform: rotate(0deg); }
-    to { transform: rotate(360deg); }
-  }
-  .fade-in { animation: fadeInUp 0.5s ease both; }
-  .fade-in-1 { animation-delay: 0.05s; }
-  .fade-in-2 { animation-delay: 0.1s; }
-  .fade-in-3 { animation-delay: 0.15s; }
-  .fade-in-4 { animation-delay: 0.2s; }
-  .fade-in-5 { animation-delay: 0.25s; }
-  .fade-in-6 { animation-delay: 0.3s; }
-
-  /* Layout */
-  .container { max-width: 1100px; margin: 0 auto; padding: 0 16px; }
-
-  /* Top bar */
+  /* Sticky top bar */
   .topbar {
-    position: sticky;
-    top: 0;
-    z-index: 100;
-    background: rgba(8,10,15,0.95);
-    backdrop-filter: blur(10px);
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(8,10,15,0.85);
+    backdrop-filter: blur(12px);
     border-bottom: 1px solid var(--border);
-    padding: 10px 0;
+    padding: 0.85rem 1.25rem;
+    display: flex; align-items: center; justify-content: space-between; gap: 0.75rem;
   }
-  .topbar-inner {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 16px;
+  .topbar-left { display: flex; align-items: center; gap: 0.75rem; }
+  .logo {
+    width: 32px; height: 32px; border-radius: 50%;
+    background: linear-gradient(135deg, #ef4444, #b91c1c);
+    color: #fff; font-family: 'Syne', sans-serif; font-weight: 800;
+    display: flex; align-items: center; justify-content: center; font-size: 1rem;
+    box-shadow: 0 4px 14px rgba(239,68,68,0.35);
   }
-  .t-logo {
-    width: 36px; height: 36px;
-    background: var(--red);
-    border-radius: 50%;
-    display: flex; align-items: center; justify-content: center;
-    font-family: 'Syne', sans-serif;
-    font-weight: 800;
-    font-size: 16px;
-    color: #fff;
-    flex-shrink: 0;
-  }
-  .topbar-title {
-    font-family: 'Syne', sans-serif;
-    font-weight: 700;
-    font-size: 17px;
-    color: var(--text);
-  }
-  .topbar-title span { color: var(--gold); }
-  .topbar-date {
-    margin-left: auto;
-    font-size: 11px;
-    color: var(--text-dim);
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
-  .pulse-dot {
-    width: 8px; height: 8px;
-    border-radius: 50%;
-    background: var(--green);
-    animation: pulse 2s ease-in-out infinite;
-    flex-shrink: 0;
-  }
+  .topbar-title { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 1.05rem; }
+  .topbar-title .accent { color: var(--gold); }
+  .topbar-right { display: flex; align-items: center; gap: 0.75rem; font-size: 0.75rem; color: var(--text-dim); }
+  .pulse-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--green); box-shadow: 0 0 0 0 rgba(52,211,153,0.6); animation: pulse 1.8s infinite; }
+  @keyframes pulse { 0% { box-shadow: 0 0 0 0 rgba(52,211,153,0.6); } 70% { box-shadow: 0 0 0 8px rgba(52,211,153,0); } 100% { box-shadow: 0 0 0 0 rgba(52,211,153,0); } }
 
-  /* Sections */
-  section { padding: 32px 0; }
-  section + section { border-top: 1px solid var(--border); }
-  .section-label {
-    font-size: 10px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: var(--text-muted);
-    margin-bottom: 16px;
-  }
-
-  /* Cards */
-  .card {
-    background: var(--card);
-    border: 1px solid var(--border);
-    border-radius: 12px;
-    padding: 20px;
-  }
-  .card-sm { padding: 14px 18px; }
+  .wrap { max-width: 1100px; margin: 0 auto; padding: 1.5rem 1.25rem; }
+  .section { margin-top: 2.5rem; }
+  .section-title { font-size: 1.5rem; font-weight: 700; margin-bottom: 0.25rem; }
+  .section-sub { color: var(--text-dim); font-size: 0.85rem; margin-bottom: 1rem; }
 
   /* Hero */
-  .hero-price {
-    font-family: 'Syne', sans-serif;
-    font-size: clamp(48px, 8vw, 80px);
-    font-weight: 800;
-    line-height: 1;
+  .hero {
+    margin-top: 1.5rem;
+    background: linear-gradient(135deg, var(--card), var(--bg2));
+    border: 1px solid var(--border); border-radius: 18px; padding: 1.75rem;
+  }
+  .hero-top { display: flex; align-items: baseline; flex-wrap: wrap; gap: 1rem; }
+  .price-big { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 3.5rem; letter-spacing: -0.025em; }
+  .change-badge { padding: 0.4rem 0.85rem; border-radius: 999px; font-weight: 600; font-size: 0.95rem; }
+  .change-pos { background: var(--green-dim); color: var(--green); }
+  .change-neg { background: var(--red-dim); color: var(--red); }
+  .hero-grid { margin-top: 1.5rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; }
+  .stat { background: var(--bg3); border: 1px solid var(--border); border-radius: 12px; padding: 0.85rem 1rem; }
+  .stat-label { font-size: 0.7rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.08em; }
+  .stat-value { font-weight: 600; margin-top: 0.35rem; font-size: 1rem; }
+  .notes-banner {
+    margin-top: 1.25rem;
+    background: var(--amber-dim);
+    border-left: 3px solid var(--amber);
+    border-radius: 6px;
+    padding: 0.75rem 1rem;
+    font-size: 0.8rem;
     color: var(--text);
-  }
-  .hero-grid {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    gap: 24px;
-    align-items: start;
-    margin-top: 16px;
-  }
-  .hero-meta {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    margin-top: 16px;
-  }
-  .meta-chip {
-    background: var(--bg3);
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 8px 14px;
-  }
-  .meta-chip-label { font-size: 10px; color: var(--text-dim); letter-spacing: 1px; text-transform: uppercase; }
-  .meta-chip-value { font-size: 16px; font-weight: 600; color: var(--text); margin-top: 2px; }
-  .change-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 6px 14px;
-    border-radius: 20px;
-    font-weight: 600;
-    font-size: 18px;
-    margin-top: 8px;
-  }
-  .badge-green { background: var(--green-dim); color: var(--green); border: 1px solid var(--green); }
-  .badge-red { background: var(--red-dim); color: var(--red); border: 1px solid var(--red); }
-  .badge-gold { background: var(--gold-dim); color: var(--gold); border: 1px solid var(--gold); }
-  .alert-banner {
-    background: rgba(251,191,36,0.08);
-    border: 1px solid rgba(251,191,36,0.3);
-    border-radius: 8px;
-    padding: 10px 14px;
-    font-size: 12px;
-    color: var(--yellow);
-    margin-top: 16px;
-    display: flex;
-    gap: 8px;
-    align-items: flex-start;
   }
 
   /* Recommendation */
-  .rec-banner {
-    border-radius: 16px;
-    padding: 32px;
-    border: 2px solid;
+  .reco {
+    border-radius: 18px;
+    padding: 2rem 1.75rem;
+    border: 1px solid var(--border);
+    background: linear-gradient(135deg, var(--card), var(--bg2));
+    position: relative;
+    overflow: hidden;
   }
-  .rec-banner.hold {
-    background: rgba(212,168,75,0.06);
-    border-color: var(--gold);
-  }
-  .rec-banner.buy {
-    background: rgba(52,211,153,0.06);
-    border-color: var(--green);
-  }
-  .rec-banner.sell {
-    background: rgba(241,106,106,0.06);
-    border-color: var(--red);
-  }
-  .rec-signal {
-    font-family: 'Syne', sans-serif;
-    font-size: clamp(56px, 10vw, 96px);
-    font-weight: 800;
+  .reco.buy { box-shadow: 0 12px 40px rgba(52,211,153,0.18); }
+  .reco.hold { box-shadow: 0 12px 40px rgba(212,168,75,0.18); }
+  .reco.sell { box-shadow: 0 12px 40px rgba(241,106,106,0.18); }
+  .reco-header { display: flex; align-items: center; gap: 1.25rem; flex-wrap: wrap; }
+  .reco-badge {
+    font-family: 'Syne', sans-serif; font-weight: 800;
+    font-size: 2.5rem;
+    letter-spacing: 0.05em;
+    padding: 0.5rem 1.25rem;
+    border-radius: 14px;
     line-height: 1;
-    letter-spacing: -2px;
   }
-  .rec-signal.hold { color: var(--gold); }
-  .rec-signal.buy { color: var(--green); }
-  .rec-signal.sell { color: var(--red); }
-  .rec-meta-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    margin: 16px 0;
-  }
-  .rec-pill {
-    padding: 5px 12px;
-    border-radius: 20px;
-    font-size: 12px;
-    font-weight: 600;
-  }
-  .score-bar {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 13px;
-    margin: 12px 0;
-  }
-  .score-num { font-weight: 600; }
-  .score-num.bull { color: var(--green); }
-  .score-num.bear { color: var(--red); }
-  .rec-reasoning {
-    font-size: 14px;
-    color: var(--text-dim);
-    line-height: 1.7;
-    margin: 12px 0;
-  }
-  .rec-risk {
-    font-size: 13px;
-    color: var(--yellow);
-    background: var(--yellow-dim);
-    border-radius: 8px;
-    padding: 10px 14px;
-    margin-top: 12px;
-  }
-  .disclaimer {
-    font-size: 11px;
-    color: var(--text-muted);
-    margin-top: 12px;
-    line-height: 1.5;
-  }
+  .badge-buy { background: var(--green-dim); color: var(--green); border: 1px solid rgba(52,211,153,0.4); }
+  .badge-hold { background: var(--gold-dim); color: var(--gold); border: 1px solid rgba(212,168,75,0.4); }
+  .badge-sell { background: var(--red-dim); color: var(--red); border: 1px solid rgba(241,106,106,0.4); }
+  .reco-meta { display: flex; gap: 0.65rem; flex-wrap: wrap; }
+  .reco-meta .pill { background: var(--bg3); border: 1px solid var(--border); padding: 0.4rem 0.75rem; border-radius: 999px; font-size: 0.78rem; }
+  .reco-meta .pill strong { color: var(--gold); }
+  .reco-signals { margin-top: 1rem; display: flex; gap: 0.75rem; flex-wrap: wrap; }
+  .sig-bull, .sig-bear { padding: 0.35rem 0.7rem; border-radius: 6px; font-size: 0.8rem; }
+  .sig-bull { background: var(--green-dim); color: var(--green); }
+  .sig-bear { background: var(--red-dim); color: var(--red); }
+  .reco-reason { margin-top: 1.25rem; font-family: 'IBM Plex Mono', monospace; font-size: 0.92rem; color: var(--text); line-height: 1.7; }
+  .reco-risk { margin-top: 1rem; color: var(--amber); font-size: 0.88rem; padding: 0.85rem 1rem; background: var(--amber-dim); border-radius: 8px; }
+  .reco-risk-label { font-weight: 600; }
+  .disclaimer { margin-top: 1rem; font-size: 0.7rem; color: var(--text-dim); line-height: 1.5; }
 
-  /* Charts */
-  .chart-container { position: relative; height: 240px; }
-  .chart-title {
-    font-family: 'Syne', sans-serif;
-    font-size: 15px;
-    font-weight: 700;
-    margin-bottom: 4px;
-  }
-  .chart-subtitle { font-size: 11px; color: var(--text-dim); margin-bottom: 16px; }
+  /* Chart card */
+  .chart-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 1.25rem; }
+  .chart-wrap { position: relative; height: 320px; margin-top: 0.5rem; }
+  .chart-sub { color: var(--text-dim); font-size: 0.8rem; }
 
-  /* Pills / Indicators */
-  .pills-row {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    overflow-x: auto;
-    padding-bottom: 4px;
+  /* Pills row */
+  .pills-scroll { display: flex; gap: 0.6rem; overflow-x: auto; padding-bottom: 0.5rem; }
+  .pills-scroll::-webkit-scrollbar { height: 6px; }
+  .pills-scroll::-webkit-scrollbar-thumb { background: var(--border); border-radius: 4px; }
+  .indicator-pill {
+    flex: 0 0 auto;
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 0.7rem 0.9rem;
+    min-width: 130px;
   }
-  .pill {
-    padding: 5px 12px;
-    border-radius: 20px;
-    font-size: 12px;
-    font-weight: 500;
-    white-space: nowrap;
-    border: 1px solid transparent;
-  }
-  .pill-green { background: var(--green-dim); color: var(--green); border-color: rgba(52,211,153,0.3); }
-  .pill-red { background: var(--red-dim); color: var(--red); border-color: rgba(241,106,106,0.3); }
-  .pill-gold { background: var(--gold-dim); color: var(--gold); border-color: rgba(212,168,75,0.3); }
-  .pill-grey { background: var(--bg3); color: var(--text-dim); border-color: var(--border); }
-  .pill-yellow { background: var(--yellow-dim); color: var(--yellow); border-color: rgba(251,191,36,0.3); }
+  .indicator-pill .label { font-size: 0.65rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.08em; }
+  .indicator-pill .value { margin-top: 0.3rem; font-weight: 600; font-size: 0.95rem; }
+  .pill-green { color: var(--green); }
+  .pill-red { color: var(--red); }
+  .pill-gold { color: var(--gold); }
 
   /* News */
-  .news-sentiment-box {
-    border-radius: 10px;
-    padding: 16px;
-    margin-bottom: 20px;
-  }
-  .sentiment-label {
-    font-size: 11px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin-bottom: 6px;
-  }
-  .news-item {
-    border: 1px solid var(--border);
-    border-radius: 10px;
-    padding: 16px;
-    margin-bottom: 12px;
-    transition: border-color 0.2s;
-  }
-  .news-item:hover { border-color: var(--gold); }
-  .news-headline {
-    font-family: 'Syne', sans-serif;
-    font-size: 14px;
-    font-weight: 700;
-    margin-bottom: 8px;
-    line-height: 1.4;
-  }
-  .news-summary { font-size: 13px; color: var(--text-dim); line-height: 1.6; margin-bottom: 10px; }
-  .news-meta { display: flex; align-items: center; gap: 10px; font-size: 11px; color: var(--text-muted); flex-wrap: wrap; }
+  .news-banner { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1rem 1.25rem; margin-bottom: 1rem; }
+  .news-sentiment { display: inline-block; padding: 0.3rem 0.7rem; border-radius: 999px; font-size: 0.78rem; font-weight: 600; }
+  .news-sentiment.bullish, .sent-bullish { background: var(--green-dim); color: var(--green); }
+  .news-sentiment.bearish, .sent-bearish { background: var(--red-dim); color: var(--red); }
+  .news-sentiment.neutral, .sent-neutral { background: var(--gold-dim); color: var(--gold); }
+  .news-summary { margin-top: 0.75rem; color: var(--text); font-size: 0.92rem; line-height: 1.65; }
+  .news-list { display: grid; gap: 1rem; }
+  .news-item { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1rem 1.25rem; }
+  .news-headline { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 1.05rem; margin-bottom: 0.35rem; }
+  .news-body { color: var(--text-dim); font-size: 0.88rem; line-height: 1.65; }
+  .news-meta { margin-top: 0.6rem; display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center; font-size: 0.72rem; color: var(--text-muted); }
+  .source-pill { background: var(--bg3); padding: 0.18rem 0.55rem; border-radius: 4px; color: var(--text-dim); }
 
-  /* Technical cards */
-  .tech-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-  }
-  @media (max-width: 640px) { .tech-grid { grid-template-columns: 1fr; } }
-  .tech-period {
-    font-size: 10px;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: var(--text-dim);
-    margin-bottom: 8px;
-  }
-  .tech-change {
-    font-family: 'Syne', sans-serif;
-    font-size: 32px;
-    font-weight: 800;
-    margin-bottom: 12px;
-  }
-  .price-range { font-size: 12px; color: var(--text-dim); margin-bottom: 12px; }
-  .trend-badge {
-    display: inline-block;
-    padding: 3px 10px;
-    border-radius: 20px;
-    font-size: 11px;
-    font-weight: 600;
-    margin-bottom: 14px;
-  }
-  .rsi-bar-wrap { margin: 12px 0; }
-  .rsi-bar-label { display: flex; justify-content: space-between; font-size: 11px; color: var(--text-dim); margin-bottom: 4px; }
-  .rsi-bar-track {
-    height: 8px;
-    background: var(--bg3);
-    border-radius: 4px;
-    overflow: hidden;
-    position: relative;
-  }
-  .rsi-bar-fill {
-    height: 100%;
-    border-radius: 4px;
-    transition: width 0.8s ease;
-  }
-  .signals-list { margin: 12px 0; }
-  .signal-item {
-    display: flex;
-    gap: 8px;
-    font-size: 12px;
-    color: var(--text-dim);
-    padding: 6px 0;
-    border-bottom: 1px solid var(--border);
-    line-height: 1.4;
-  }
-  .signal-item:last-child { border-bottom: none; }
-  .signal-dot { flex-shrink: 0; margin-top: 4px; width: 6px; height: 6px; border-radius: 50%; }
-  .support-resistance {
-    background: var(--bg3);
-    border-radius: 8px;
-    padding: 10px;
-    margin: 10px 0;
-    font-size: 12px;
-  }
-  .sr-item { margin-bottom: 8px; }
-  .sr-item:last-child { margin-bottom: 0; }
-  .sr-label { font-weight: 600; }
-  .sr-value { color: var(--text-dim); font-size: 11px; margin-top: 2px; }
-  .tech-summary { font-size: 13px; color: var(--text-dim); line-height: 1.7; margin-top: 14px; }
+  /* Tech analysis cards */
+  .tech-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; }
+  @media (max-width: 720px) { .tech-grid { grid-template-columns: 1fr; } }
+  .tech-card { background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 1.25rem 1.35rem; }
+  .tech-card h3 { margin-bottom: 0.85rem; font-size: 1.15rem; }
+  .change-large { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 2rem; letter-spacing: -0.02em; }
+  .range-line { display: flex; gap: 0.5rem; font-size: 0.85rem; color: var(--text-dim); margin: 0.45rem 0 0.85rem; align-items: center; flex-wrap: wrap; }
+  .range-line strong { color: var(--text); font-weight: 600; }
+  .rsi-bar { background: var(--bg3); border-radius: 999px; height: 10px; overflow: hidden; margin-top: 0.4rem; position: relative; }
+  .rsi-fill { height: 100%; border-radius: 999px; transition: width 0.6s ease; }
+  .rsi-fill.green { background: linear-gradient(90deg, var(--green), #22c5a3); }
+  .rsi-fill.red { background: linear-gradient(90deg, var(--red), #c44747); }
+  .rsi-meta { display: flex; justify-content: space-between; align-items: center; margin-top: 0.4rem; font-size: 0.78rem; color: var(--text-dim); gap: 0.5rem; }
+  .ma-row { display: flex; gap: 0.5rem; margin-top: 0.65rem; flex-wrap: wrap; }
+  .ma-pill { padding: 0.35rem 0.6rem; border-radius: 8px; font-size: 0.75rem; }
+  .ma-pill.above { background: var(--green-dim); color: var(--green); }
+  .ma-pill.below { background: var(--red-dim); color: var(--red); }
+  .key-level { background: var(--bg3); border-radius: 8px; padding: 0.7rem 0.85rem; margin-top: 0.75rem; }
+  .key-level-label { font-size: 0.7rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.08em; }
+  .key-level-value { font-weight: 600; margin: 0.25rem 0; }
+  .key-level-reason { font-size: 0.78rem; color: var(--text-dim); line-height: 1.5; }
+  .signals-list { margin-top: 0.85rem; padding-left: 1.1rem; font-size: 0.85rem; color: var(--text-dim); }
+  .signals-list li { margin-bottom: 0.35rem; line-height: 1.5; }
+  .tech-summary { margin-top: 1rem; font-size: 0.88rem; color: var(--text); line-height: 1.65; border-top: 1px solid var(--border); padding-top: 1rem; }
+  .label-block { font-size: 0.75rem; color: var(--text-dim); margin-top: 0.65rem; margin-bottom: 0.25rem; text-transform: uppercase; letter-spacing: 0.08em; }
 
-  /* Analyst */
-  .vote-bar-wrap { margin: 12px 0; }
-  .vote-bar {
-    height: 18px;
-    border-radius: 9px;
-    overflow: hidden;
-    display: flex;
-    margin-bottom: 6px;
-  }
-  .vote-seg { height: 100%; transition: width 0.6s ease; }
-  .vote-labels { display: flex; gap: 16px; font-size: 12px; margin-top: 6px; flex-wrap: wrap; }
-  .vote-label { display: flex; align-items: center; gap: 5px; }
-  .vote-dot { width: 8px; height: 8px; border-radius: 50%; }
-  .targets-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 10px;
-    margin: 14px 0;
-  }
-  @media (max-width: 480px) { .targets-grid { grid-template-columns: 1fr; } }
-  .target-item { background: var(--bg3); border-radius: 8px; padding: 10px 14px; }
-  .target-label { font-size: 10px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; }
-  .target-value { font-size: 20px; font-weight: 600; margin-top: 2px; }
-  .target-firm { font-size: 11px; color: var(--text-dim); margin-top: 2px; }
-  .rating-callout {
-    background: var(--gold-dim);
-    border: 1px solid rgba(212,168,75,0.3);
-    border-radius: 8px;
-    padding: 12px 14px;
-    font-size: 13px;
-    color: var(--gold);
-    margin: 14px 0;
-  }
-  .catalyst-item {
-    border: 1px solid var(--border);
-    border-radius: 8px;
-    padding: 12px 14px;
-    margin-bottom: 10px;
-  }
-  .catalyst-header { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 6px; }
-  .catalyst-event { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 13px; }
-  .catalyst-timing { font-size: 11px; color: var(--text-dim); }
-  .catalyst-detail { font-size: 12px; color: var(--text-dim); line-height: 1.6; }
-  .macro-item {
-    display: flex;
-    gap: 12px;
-    padding: 12px 0;
-    border-bottom: 1px solid var(--border);
-    font-size: 13px;
-  }
-  .macro-item:last-child { border-bottom: none; }
-  .macro-name { font-weight: 600; flex-shrink: 0; }
-  .macro-detail { color: var(--text-dim); }
-  .outlook-text { font-size: 14px; color: var(--text-dim); line-height: 1.7; margin-top: 14px; }
+  /* Outlook */
+  .vote-bar { display: flex; height: 30px; border-radius: 8px; overflow: hidden; margin: 0.5rem 0 0.65rem; border: 1px solid var(--border); }
+  .vote-seg { display: flex; align-items: center; justify-content: center; font-size: 0.78rem; font-weight: 600; color: var(--bg); }
+  .vote-buy { background: var(--green); }
+  .vote-hold { background: var(--gold); }
+  .vote-sell { background: var(--red); }
+  .vote-legend { display: flex; gap: 0.85rem; font-size: 0.78rem; color: var(--text-dim); flex-wrap: wrap; }
+  .vote-legend .dot { display: inline-block; width: 8px; height: 8px; border-radius: 2px; margin-right: 0.3rem; vertical-align: middle; }
+  .target-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 0.85rem; margin-top: 1rem; }
+  .target-card { background: var(--bg3); border: 1px solid var(--border); border-radius: 10px; padding: 0.85rem 1rem; }
+  .target-card .label { font-size: 0.68rem; color: var(--text-dim); text-transform: uppercase; letter-spacing: 0.08em; }
+  .target-card .value { font-family: 'Syne', sans-serif; font-weight: 700; font-size: 1.4rem; margin-top: 0.3rem; }
+  .target-card .firm { font-size: 0.7rem; color: var(--text-dim); margin-top: 0.15rem; }
+  .rating-change { background: var(--gold-dim); border-left: 3px solid var(--gold); border-radius: 6px; padding: 0.75rem 1rem; margin-top: 1rem; font-size: 0.85rem; }
+  .earnings-card { background: var(--bg3); border: 1px solid var(--border); border-radius: 10px; padding: 0.85rem 1rem; margin-top: 0.5rem; display: flex; gap: 1.25rem; flex-wrap: wrap; }
+  .earnings-card span { font-size: 0.82rem; }
+  .earnings-card .k { color: var(--text-dim); }
+  .catalyst-grid { display: grid; gap: 0.75rem; margin-top: 0.5rem; }
+  .catalyst { background: var(--bg3); border: 1px solid var(--border); border-radius: 10px; padding: 0.85rem 1rem; }
+  .catalyst-head { display: flex; gap: 0.6rem; flex-wrap: wrap; align-items: center; margin-bottom: 0.4rem; }
+  .catalyst-name { font-weight: 600; }
+  .badge { padding: 0.15rem 0.6rem; border-radius: 999px; font-size: 0.7rem; }
+  .badge-time { background: var(--bg2); color: var(--text-dim); border: 1px solid var(--border); }
+  .badge-bull { background: var(--green-dim); color: var(--green); }
+  .badge-bear { background: var(--red-dim); color: var(--red); }
+  .badge-mixed { background: var(--gold-dim); color: var(--gold); }
+  .catalyst-detail { font-size: 0.83rem; color: var(--text-dim); line-height: 1.6; }
+  .macro-list { display: grid; gap: 0.65rem; margin-top: 0.5rem; }
+  .macro-item { background: var(--bg3); border: 1px solid var(--border); border-radius: 10px; padding: 0.75rem 1rem; }
+  .macro-item .name { font-weight: 600; font-size: 0.92rem; }
+  .macro-item .detail { font-size: 0.8rem; color: var(--text-dim); margin-top: 0.25rem; line-height: 1.55; }
+  .outlook-summary { margin-top: 1.25rem; font-size: 0.92rem; line-height: 1.7; border-top: 1px solid var(--border); padding-top: 1rem; }
 
-  /* Footer */
-  footer {
-    background: var(--bg2);
-    border-top: 1px solid var(--border);
-    padding: 32px 0;
-    text-align: center;
-  }
-  footer p { font-size: 12px; color: var(--text-muted); line-height: 1.7; max-width: 600px; margin: 0 auto; }
-  footer p + p { margin-top: 10px; }
+  footer { margin-top: 4rem; padding: 1.75rem 1.25rem; border-top: 1px solid var(--border); text-align: center; color: var(--text-dim); font-size: 0.78rem; line-height: 1.65; }
+  footer .small { font-size: 0.7rem; margin-top: 0.5rem; }
 
-  /* Responsive helpers */
   @media (max-width: 640px) {
-    .hero-grid { grid-template-columns: 1fr; }
-    .rec-banner { padding: 20px; }
-    .container { padding: 0 12px; }
-    section { padding: 24px 0; }
+    .price-big { font-size: 2.6rem; }
+    .reco-badge { font-size: 1.85rem; padding: 0.45rem 1rem; }
+    .change-large { font-size: 1.6rem; }
+    .topbar-right { font-size: 0.68rem; }
+    .hero, .reco { padding: 1.25rem; }
+    .wrap { padding: 1rem 0.85rem; }
+    .section-title { font-size: 1.25rem; }
   }
-
-  .two-col {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
-  }
-  @media (max-width: 640px) { .two-col { grid-template-columns: 1fr; } }
-
-  .separator { height: 1px; background: var(--border); margin: 16px 0; }
-
-  .ma-pills { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
-  .earnings-box {
-    background: var(--bg3);
-    border-radius: 8px;
-    padding: 12px 16px;
-    margin: 14px 0;
-    font-size: 13px;
-  }
-  .earnings-label { font-size: 10px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px; }
-  .earnings-row { display: flex; justify-content: space-between; padding: 4px 0; }
-  .earnings-key { color: var(--text-dim); }
-  .earnings-val { font-weight: 600; }
 </style>
 </head>
 <body>
+
+<div class="topbar">
+  <div class="topbar-left">
+    <div class="logo">T</div>
+    <div class="topbar-title">TSLA <span class="accent">Briefing</span></div>
+  </div>
+  <div class="topbar-right">
+    <span id="generated-date"></span>
+    <span class="pulse-dot"></span>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <section class="hero" aria-label="price snapshot">
+    <div class="hero-top">
+      <div class="price-big" id="hero-price"></div>
+      <div class="change-badge" id="hero-change"></div>
+    </div>
+    <div class="hero-grid">
+      <div class="stat"><div class="stat-label">Market Cap</div><div class="stat-value" id="hero-cap"></div></div>
+      <div class="stat"><div class="stat-label">Volume Today</div><div class="stat-value" id="hero-vol"></div></div>
+      <div class="stat"><div class="stat-label">vs 30d Avg</div><div class="stat-value" id="hero-vol-avg"></div></div>
+      <div class="stat"><div class="stat-label">52w High</div><div class="stat-value" id="hero-52h"></div></div>
+      <div class="stat"><div class="stat-label">52w Low</div><div class="stat-value" id="hero-52l"></div></div>
+      <div class="stat"><div class="stat-label">Next Earnings</div><div class="stat-value" id="hero-earn"></div></div>
+    </div>
+    <div class="notes-banner" id="hero-notes" style="display:none;"></div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Recommendation</h2>
+    <div class="section-sub">The bottom line, based on everything below</div>
+    <div class="reco" id="reco-card">
+      <div class="reco-header">
+        <div class="reco-badge" id="reco-badge"></div>
+        <div class="reco-meta">
+          <div class="pill">Confidence: <strong id="reco-conf"></strong></div>
+          <div class="pill">Horizon: <strong id="reco-horizon"></strong></div>
+        </div>
+      </div>
+      <div class="reco-signals">
+        <span class="sig-bull" id="reco-bull"></span>
+        <span class="sig-bear" id="reco-bear"></span>
+      </div>
+      <div class="reco-reason" id="reco-reason"></div>
+      <div class="reco-risk"><span class="reco-risk-label">Key risk: </span><span id="reco-risk"></span></div>
+      <div class="disclaimer" id="reco-disclaimer"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Price — Last 10 Sessions</h2>
+    <div class="section-sub" id="chart-sub"></div>
+    <div class="chart-card">
+      <div class="chart-wrap"><canvas id="priceChart"></canvas></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Closing Price History</h2>
+    <div class="section-sub">30-day closing price history (from prior daily briefings)</div>
+    <div class="chart-card">
+      <div class="chart-wrap"><canvas id="historyChart"></canvas></div>
+      <div id="history-fallback" style="display:none; padding: 1rem; color: var(--text-dim); font-size: 0.85rem;">More history will appear after a few daily runs.</div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Technical Snapshot</h2>
+    <div class="section-sub">Key indicators at a glance — scroll →</div>
+    <div class="pills-scroll" id="indicator-pills"></div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Latest News</h2>
+    <div class="section-sub">The most market-moving stories of the last 48 hours</div>
+    <div class="news-banner">
+      <span class="news-sentiment" id="news-sentiment-pill"></span>
+      <div class="news-summary" id="news-summary"></div>
+    </div>
+    <div class="news-list" id="news-list"></div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Technical Analysis</h2>
+    <div class="section-sub">Two timeframes side by side</div>
+    <div class="tech-grid">
+      <div class="tech-card" id="tech-7d"></div>
+      <div class="tech-card" id="tech-30d"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="section-title">Trends &amp; Outlook</h2>
+    <div class="section-sub">Wall Street consensus, catalysts and macro</div>
+    <div class="tech-card">
+      <div class="label-block">Analyst votes</div>
+      <div class="vote-bar" id="vote-bar"></div>
+      <div class="vote-legend" id="vote-legend"></div>
+      <div class="target-grid" id="target-grid"></div>
+      <div class="rating-change" id="rating-change"></div>
+      <div class="label-block" style="margin-top:1.25rem;">Next earnings</div>
+      <div class="earnings-card" id="earnings-card"></div>
+      <div class="label-block" style="margin-top:1.25rem;">Upcoming catalysts</div>
+      <div class="catalyst-grid" id="catalyst-grid"></div>
+      <div class="label-block" style="margin-top:1.25rem;">Macro factors</div>
+      <div class="macro-list" id="macro-list"></div>
+      <div class="outlook-summary" id="outlook-summary"></div>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <div>Generated by Claude · TSLA Daily Briefing · <span id="footer-date"></span></div>
+  <div class="small" id="footer-disclaimer"></div>
+</footer>
+
 <script>
 const DATA = {
-  "generated_at": "2026-05-17T16:00:00+08:00",
+  "generated_at": "2026-05-17T22:30:00+08:00",
   "date": "2026-05-17",
   "price_now": "$422.24",
   "change_today": "-4.75%",
@@ -503,48 +366,50 @@ const DATA = {
   "volume_avg_30d": "59.8M",
   "volume_vs_avg": "below average",
   "next_earnings_date": "2026-07-22",
-  "notes": "Today is Sunday 2026-05-17. US markets are closed, so the price snapshot is Friday May 15's confirmed close. Sources cross-checked: Yahoo Finance and Morningstar agree at $422.24 (-4.75%); GuruFocus reports $424.45 (-4.8%); Cryptonomist/Foreign Policy Journal cite $428.72 (-3.73%). The $6.48 spread exceeds the $2 cross-check threshold, so per policy the lowest figure ($422.24) is used and the discrepancy is flagged here.",
+  "notes": "Today is Sunday 2026-05-17 — US equity markets are closed. The price snapshot is the confirmed Friday May 15 close. Sources cross-checked: Yahoo Finance and Morningstar agree at $422.24 (-4.75%); GuruFocus reports $424.45 (-4.8%); Cryptonomist and Foreign Policy Journal cite $428.72 (-3.73%). The $6.48 spread exceeds the $2 cross-check threshold, so per policy the lowest figure ($422.24) is used and the discrepancy is flagged here. Trading resumes Monday May 18.",
+
   "news": {
-    "sentiment_label": "Bearish",
-    "sentiment_summary": "Sentiment heading into Monday's open has soured. The weekend has been spent re-reading Friday's headline triple-whammy \u2014 no China FSD greenlight from the Trump-Xi summit, the CFO's confirmation of negative free cash flow for the rest of 2026, and a 218,868-vehicle NHTSA rearview-camera recall \u2014 and the digestion is not flattering to bulls. The robotaxi growth story is still real (the fleet has more than quadrupled in six weeks and Optimus V3 production lines are being installed at Fremont), but with a trailing P/E around 416x there is almost no margin for the kind of execution slip that Q1's 50,000-unit inventory build represents. Wall Street's consensus target of $403.86 now sits 4% below Friday's close \u2014 the first time in six weeks that analysts have collectively become more cautious than the market.",
+    "sentiment_label": "Bearish — bulls on the back foot",
+    "sentiment_summary": "Sentiment over the weekend has hardened noticeably bearish ahead of Monday's open. The Trump-Xi summit in Beijing wrapped without the China FSD approval bulls had banked on, the CFO confirmed negative free cash flow for the rest of 2026, and a 218,868-vehicle NHTSA rearview-camera recall added a fresh execution scratch. The Optimus V3 production-line install at Fremont and a brand-new Cybercab car wash breaking ground near Las Vegas are real proof points, but a trailing P/E around 416x leaves no room for the kind of inventory build and capex bloat Q1 just delivered. For the first time in six weeks, the Wall Street consensus 12-month target ($403.86) now sits below Friday's close — the Street, on average, sees more downside than upside from here.",
     "items": [
       {
-        "headline": "Wall Street Consensus Target Falls Below Spot Price for First Time in 6 Weeks",
-        "summary": "After Friday's 4.75% selloff, Tesla's last close ($422.24) is now 4% above the average analyst 12-month price target of $403.86 (per TipRanks aggregation of 29 analysts). That is the first time since the early-April rally began that the Street's consensus has been less bullish than the market itself. The implication: Wall Street as a whole now thinks the stock has more downside than upside over the next year, even if individual bulls like Wedbush ($600) and bears like GLJ ($25) continue to disagree wildly.",
+        "headline": "Wall Street Consensus Target Slips Below Spot Price for First Time in Six Weeks",
+        "summary": "After Friday's 4.75% selloff, Tesla's last close ($422.24) is now sitting about 4% above the average analyst 12-month price target of $403.86 (TipRanks aggregation of 29 analysts). It is the first time since the early-April rebound began that the median Wall Street view has been more cautious than the market itself. Wedbush remains the high bull at $600 and GLJ the low bear at $25.53, but the middle of the distribution has clearly drifted lower.",
         "source": "TipRanks / Public.com",
         "date": "2026-05-16",
         "sentiment": "bearish"
       },
       {
-        "headline": "Optimus V3 Production Lines Being Installed at Fremont; Reveal Slated for Late July",
-        "summary": "Tesla has begun installing first-generation Optimus humanoid robot production lines at its Fremont, California facility, with the V3 robot expected to be unveiled in late July or early August 2026 alongside Q2 earnings. Initial capacity is targeted at 1 million units a year, scaling to 10 million from a second factory at Giga Texas by 2027. V3 confirmed specs: 37 joints (9 more than V2), 1.2 m/s walking speed, and 22-degree-of-freedom dexterous hands with sub-millimeter precision. This is the strongest tangible Optimus update Tesla has provided since the platform was announced.",
+        "headline": "Optimus V3 Production Lines Going Up at Fremont; Reveal Set for Late July",
+        "summary": "Tesla has begun installing first-generation Optimus humanoid robot production lines at its Fremont facility, with the V3 unveiling expected alongside Q2 earnings in late July or early August. Initial target is 1 million units a year, scaling toward 10 million from a second Texas factory by 2027. V3 specs confirmed by Tesla: 37 joints (9 more than V2), 1.2 m/s walking pace, and 22-degree-of-freedom dexterous hands with sub-millimetre precision — the strongest tangible Optimus update Tesla has shipped to date.",
         "source": "Tesla / The Robot Report / eWeek",
         "date": "2026-05-15",
         "sentiment": "bullish"
       },
       {
         "headline": "Robotaxi Crash Tally Disclosed: 17 Incidents Since Austin Launch",
-        "summary": "Newly unredacted NHTSA filings show Tesla's unsupervised robotaxi fleet has recorded 17 crashes since the Austin launch in mid-2025. No fatalities or serious injuries are reported, but reviewers flagged repeated navigation glitches and long wait times during recent test rides in Dallas and Houston. The disclosure lands a week before Tesla is expected to confirm new city launches in Phoenix, Miami, Orlando, Tampa, and Las Vegas \u2014 and it gives regulators ammunition just as Tesla pushes for FSD approvals in Europe and (still) China.",
+        "summary": "Newly unredacted NHTSA filings show Tesla's unsupervised robotaxi fleet has logged 17 crashes since the Austin pilot started in mid-2025. None of the incidents involved fatalities or serious injuries, but inspectors flagged repeat navigation glitches and long wait times in recent Dallas and Houston rides. The timing is unhelpful — Tesla is preparing to flip the switch on Phoenix, Miami, Orlando, Tampa, and Las Vegas this summer, and any safety event in a new market will now carry a heavier headline cost.",
         "source": "NHTSA / TS2 Tech",
         "date": "2026-05-16",
         "sentiment": "bearish"
       },
       {
-        "headline": "Cybercab Car Wash Construction Begins Near Las Vegas",
-        "summary": "Tesla has broken ground on a dedicated Cybercab car wash facility in Clark County, Nevada, just outside Las Vegas \u2014 a small but symbolically important sign that the company is building physical infrastructure for the robotaxi fleet's seven-city rollout. The Las Vegas launch is one of five new cities Tesla has lined up for the second half of 2026, alongside Phoenix, Miami, Orlando, and Tampa. Bulls see this as proof that the deployment is real, not a slideshow.",
+        "headline": "Cybercab Car Wash Breaks Ground Near Las Vegas",
+        "summary": "Tesla has started construction on a dedicated Cybercab cleaning and servicing facility in Clark County, Nevada, just outside the Las Vegas strip. The site is small but symbolically meaningful: it is physical, permitted infrastructure for the robotaxi fleet's seven-city rollout. Las Vegas is one of five new launch cities Tesla has lined up for the second half of 2026 alongside Phoenix, Miami, Orlando, and Tampa.",
         "source": "Teslarati / Clark County Records",
         "date": "2026-05-16",
         "sentiment": "bullish"
       },
       {
-        "headline": "30-Year Treasury Yield Holds Above 5% \u2014 Pressure on All Long-Duration Growth Names",
-        "summary": "The 30-year US Treasury yield closed Friday above 5% for the second consecutive session, a level that materially raises the discount rate applied to long-duration growth stocks. For Tesla \u2014 whose valuation rests heavily on cash flows from robotaxi, Optimus, and FSD that mostly arrive after 2028 \u2014 higher long rates are a direct headwind. The bond move helped to amplify Friday's TSLA decline beyond what the China FSD news alone would have justified.",
+        "headline": "30-Year Treasury Yield Holds Above 5% — Direct Headwind for Long-Duration Growth",
+        "summary": "The US 30-year Treasury yield closed Friday above 5% for the second straight session, a level that materially raises the discount rate applied to long-dated growth equities. Tesla — whose valuation rests heavily on robotaxi, Optimus, and FSD cash flows that mostly arrive after 2028 — is one of the most yield-sensitive names in the S&P 500. The bond move amplified Friday's TSLA decline beyond what the China FSD disappointment alone would have justified.",
         "source": "Foreign Policy Journal / Bloomberg",
         "date": "2026-05-16",
         "sentiment": "bearish"
       }
     ]
   },
+
   "analysis_7d": {
     "price_start": "$398.30",
     "price_end": "$422.24",
@@ -553,28 +418,29 @@ const DATA = {
     "change_pct": "+6.0%",
     "trend": "uptrend interrupted by a sharp Friday reversal",
     "rsi": 43.8,
-    "rsi_label": "Neutral \u2014 Friday's drop reset the speedometer; not yet oversold but momentum is gone",
+    "rsi_label": "Neutral — Friday's drop reset the speedometer; not oversold yet, but momentum has clearly bled out",
     "rsi_color": "green",
-    "macd_signal": "Bullish but rolling over \u2014 the MACD line has bent sharply back toward the signal line and a bearish crossover is plausible early next week",
+    "macd_signal": "Bullish but rolling over — the MACD line has bent hard back toward the signal line; a bearish crossover early next week is plausible",
     "ma_5d": "$430.85",
     "ma_5d_position": "below",
     "ma_50d": "$416.75",
     "ma_50d_position": "above",
     "ma_200d": "$383.23",
     "ma_200d_position": "above",
-    "ma_cross_status": "Golden Cross intact \u2014 the 50-day MA ($416.75) sits well above the 200-day MA ($383.23), the long-term bullish setup is preserved",
-    "bollinger_position": "Lower-half / middle of the band \u2014 Friday's drop pulled price below the Bollinger mid-line near $440 and away from the upper band near $456",
-    "volume_trend": "Friday's 52.1M traded shares was meaningfully below the 59.8M 30-day average \u2014 a heavy down day on lighter-than-usual volume is a tell that this was profit-taking, not panic capitulation",
+    "ma_cross_status": "Golden Cross intact — the 50-day MA ($416.75) sits well above the 200-day MA ($383.23), the long-term bullish setup is preserved",
+    "bollinger_position": "Lower half / middle of the band — Friday's drop pulled price below the Bollinger mid near $440 and away from the upper band near $456",
+    "volume_trend": "Friday's 52.1M traded shares was meaningfully below the 59.8M 30-day average — a heavy down day on lighter-than-usual volume looks more like profit-taking than panic capitulation",
     "technical_signals": [
-      "Price closed below the 5-day moving average ($430.85) \u2014 the short-term trend has flipped negative",
-      "Price is still above the 50-day moving average ($416.75) by about $5.50 \u2014 the medium-term setup is intact but the cushion is thin",
-      "Price sits comfortably above the 200-day moving average ($383.23) \u2014 long-term uptrend is firmly in place",
-      "RSI at 43.8 \u2014 neutral; the post-drop reset leaves room to go either way next week",
-      "MACD bullish but converging quickly \u2014 watch for a bearish crossover early in the week as a confirmation signal",
-      "Down day on below-average volume suggests profit-taking rather than panic selling"
+      "Price closed below the 5-day moving average ($430.85) — short-term trend has flipped negative",
+      "Price is still about $5.50 above the 50-day moving average ($416.75) — the medium-term cushion is intact but thin",
+      "Price sits comfortably above the 200-day moving average ($383.23) — long-term uptrend firmly in place",
+      "RSI at 43.8 — neutral; the post-drop reset leaves room to move either way next week",
+      "MACD bullish but converging quickly — watch for a bearish crossover early in the week as confirmation",
+      "Down day on below-average volume points to profit-taking rather than forced selling"
     ],
-    "summary": "Tesla's week was a textbook 'rally, blow-off, reversal' pattern. The stock climbed steadily from around $398 to a Wednesday high of $445 on China-summit optimism, then surrendered most of those gains in a single Friday session after the summit ended without the expected FSD approval. The encouraging part is that the long-term setup \u2014 Golden Cross intact, price comfortably above the 200-day average \u2014 is undisturbed, and Friday's drop happened on lighter-than-usual volume which argues against a panic exit. The discouraging part is that the short-term picture has clearly turned: price is below its 5-day average, RSI has cooled to a flat 44, and MACD momentum is rolling over. Next week's key battle is the $416-$418 zone where the 50-day MA and recent support converge; defending that holds the medium-term trend, breaking it opens a path back to the high-$390s."
+    "summary": "Tesla's week was a textbook rally-and-reversal pattern. The stock climbed steadily from around $398 to a Wednesday high near $445 on China-summit optimism, then surrendered most of those gains in a single Friday session after the summit ended with no FSD approval. The encouraging part is that the long-term setup — Golden Cross intact, price comfortably above the 200-day average — is undisturbed, and Friday's drop came on lighter-than-usual volume, which argues against a panic exit. The discouraging part is that the short-term picture has clearly turned: price is below its 5-day average, RSI has cooled to a flat 44, and MACD momentum is rolling over. Next week's battle is the $416-$418 zone where the 50-day MA and recent support converge; holding it preserves the medium-term trend, breaking it opens a path back to the high-$390s."
   },
+
   "analysis_30d": {
     "price_start": "$362.50",
     "price_end": "$422.24",
@@ -584,27 +450,28 @@ const DATA = {
     "trend": "broad uptrend cooling at the highs",
     "key_levels": {
       "support": "$416",
-      "support_reason": "Where the 50-day moving average ($416.75) and the early-May breakout zone converge \u2014 the natural trampoline if selling continues. A weekly close below this level would be the first real crack in the rebound story.",
+      "support_reason": "Where the 50-day moving average ($416.75) and the early-May breakout zone converge — the natural trampoline if selling continues. A weekly close below this level would be the first real crack in the rebound story.",
       "resistance": "$450",
-      "resistance_reason": "Last week's intraday rally stalled here twice. Sellers reappeared at $445-$450 on Wednesday and Thursday before the Friday reversal \u2014 a glass ceiling that must be cleared before bulls can target the April highs near $466."
+      "resistance_reason": "Last week's intraday rally stalled here twice. Sellers reappeared at $445-$450 on Wednesday and Thursday before Friday's reversal — a glass ceiling that must be cleared before bulls can target the April highs near $466."
     },
     "ma_50d": "$416.75",
     "ma_50d_position": "above",
     "ma_200d": "$383.23",
     "ma_200d_position": "above",
     "rsi": 47.2,
-    "rsi_label": "Neutral \u2014 Friday's pullback cooled an otherwise stretched month",
+    "rsi_label": "Neutral — Friday's pullback cooled an otherwise stretched month",
     "rsi_color": "green",
-    "macd_signal": "Bullish but weakening \u2014 the daily MACD histogram is shrinking and a crossover would not be a surprise",
+    "macd_signal": "Bullish but weakening — the daily MACD histogram is shrinking and a crossover would not be a surprise",
     "notable_events": [
-      "Apr 22: Q1 2026 earnings \u2014 EPS beat ($0.41 vs $0.36 est) and revenue beat ($22.39B vs $22.35B est), but deliveries missed at 358K and inventory swelled by more than 50K units (largest single-quarter build in Tesla history)",
-      "May 02-09: Robotaxi rally \u2014 stock climbed from $392 to $434 as fleet expanded from 9 to 39 vehicles and Dallas/Houston went live",
-      "May 12: Mid-week pullback to $412 on Dallas/Houston operational glitches and Panasonic battery delays",
-      "May 13-14: Sharp rebound to $443 on RBC's reiteration of Outperform (FSD subs +51% YoY)",
-      "May 15: -4.75% single-day reversal after Trump-Xi Beijing summit ended without China FSD approval; 30-year Treasury yield breaking 5% added discount-rate pressure"
+      "Apr 22: Q1 2026 earnings — EPS beat ($0.41 vs $0.36 est) and revenue beat ($22.39B vs $22.35B est), but deliveries missed at 358K and inventory swelled by more than 50K units (the largest single-quarter build in Tesla history)",
+      "May 02-09: Robotaxi rally — stock climbed from $392 to $434 as the fleet expanded from 9 to 39 vehicles and Dallas/Houston went live",
+      "May 12: Mid-week pullback to $412 on Dallas/Houston operational glitches and Panasonic 4680 battery delays",
+      "May 13-14: Sharp rebound to $443 after RBC reiterated Outperform on the back of FSD subscriptions growing 51% YoY",
+      "May 15: -4.75% single-day reversal after the Trump-Xi Beijing summit ended without China FSD approval; 30-year Treasury yield breaking 5% piled on discount-rate pressure"
     ],
-    "summary": "The 30-day picture is still a recovery story \u2014 Tesla is up 16.5% \u2014 but it is increasingly a story with cracks visible at the edges. The narrative drivers (Q1 earnings beat, robotaxi fleet quadrupling, FSD subs +51%) remain genuinely powerful, but each successive rally leg has met more resistance and Friday's reversal was the first clear sign that the easy money has been made. The stock is now caught in a $416-$450 consolidation range bordered below by the 50-day moving average and above by last week's failed breakout zone. The trend remains 'up' but it has lost its swagger; until either China FSD approval lands or Q2 numbers force a re-rate, expect choppier two-way action and smaller daily moves."
+    "summary": "The 30-day picture is still a recovery story — Tesla is up 16.5% — but it is increasingly a story with visible cracks. The narrative drivers (Q1 earnings beat, robotaxi fleet quadrupling, FSD subscribers +51% YoY) remain genuinely powerful, but each successive rally leg has met more resistance and Friday's reversal was the first clear sign that the easy money has been made. The stock is now boxed inside a $416-$450 consolidation range — supported below by the 50-day moving average and capped above by last week's failed breakout zone. The trend is still 'up', but it has lost its swagger; until either China FSD lands or Q2 numbers force a re-rate, expect choppier two-way action and smaller daily moves."
   },
+
   "outlook": {
     "analyst_consensus": "Hold (slight Buy tilt)",
     "analyst_buy_count": 12,
@@ -624,14 +491,14 @@ const DATA = {
       {
         "event": "Q2 2026 Delivery Report",
         "timing": "First week of July 2026",
-        "impact": "high \u2014 could go either way",
+        "impact": "high — could go either way",
         "detail": "Street consensus sits at 390K-420K deliveries, a 9-17% sequential lift from Q1's 358K. Anything below 390K would confirm the slowdown thesis and likely re-test recent lows; a number above 420K would re-energise the bull case."
       },
       {
         "event": "Q2 2026 Earnings Report",
         "timing": "July 22, 2026",
-        "impact": "high \u2014 could go either way",
-        "detail": "EPS estimate $0.42 on $24.52B revenue. Wall Street wants auto gross margin back above 17% and visible early Cybercab revenue. A miss on either undermines the $25B capex case."
+        "impact": "high — could go either way",
+        "detail": "EPS estimate $0.42 on $24.52B revenue. The Street wants auto gross margin back above 17% and visible early Cybercab revenue. A miss on either undermines the $25B capex thesis."
       },
       {
         "event": "Optimus V3 Public Reveal",
@@ -643,11 +510,11 @@ const DATA = {
         "event": "China FSD Regulatory Decision",
         "timing": "Q2-Q3 2026 (delayed after May 15 summit)",
         "impact": "bullish potential",
-        "detail": "Approval would let Tesla monetise FSD in the world's largest EV market and would reverse Friday's selloff overnight. Rejection \u2014 or further silence \u2014 is now largely priced in."
+        "detail": "Approval would let Tesla monetise FSD in the world's largest EV market and would reverse Friday's selloff overnight. Rejection — or further silence — is now largely priced in."
       },
       {
         "event": "Robotaxi City Launches",
-        "timing": "Phoenix, Miami, Orlando, Tampa, Las Vegas \u2014 rolling H2 2026",
+        "timing": "Phoenix, Miami, Orlando, Tampa, Las Vegas — rolling H2 2026",
         "impact": "bullish potential",
         "detail": "Each new city is a tangible proof point. But the freshly disclosed 17-crash tally raises the cost of any safety incident in a high-profile launch market."
       }
@@ -656,7 +523,7 @@ const DATA = {
       {
         "factor": "Long-end US interest rates",
         "impact": "bearish",
-        "detail": "30-year Treasury yields above 5% raise the discount rate applied to Tesla's late-decade cash flows from robotaxi and Optimus \u2014 a direct valuation headwind for AI-premium names"
+        "detail": "30-year Treasury yields above 5% raise the discount rate applied to Tesla's late-decade cash flows from robotaxi and Optimus — a direct valuation headwind for AI-premium names"
       },
       {
         "factor": "US-China trade and tech relations",
@@ -669,741 +536,340 @@ const DATA = {
         "detail": "Europe deliveries fell ~49% YoY in Q1 on subsidy cuts and Chinese EV competition; Tesla's 50K+ inventory build raises the odds of another round of price cuts to clear stock, which would compress margins"
       }
     ],
-    "summary": "The next three to six months are about whether Tesla can turn narrative into numbers \u2014 and for the first time in six weeks, Wall Street as a whole is sceptical. The consensus 12-month target of $403.86 now sits 4% below Friday's close, meaning the median analyst expects negative returns from here. Bulls will point to genuine progress: the robotaxi fleet is real and expanding, Optimus V3 production lines are being installed, FSD subscriptions are growing 51% YoY. Bears will counter with a 416x trailing P/E, 50K+ inventory build, no China FSD, and negative free cash flow for the rest of 2026. The Q2 delivery report in early July is the next hard catalyst; until then expect choppy trading inside a $400-$450 range, with breakouts requiring either a China FSD surprise (bull case) or a robotaxi safety incident (bear case)."
+    "summary": "The next three to six months are about whether Tesla can turn narrative into numbers — and for the first time in six weeks, Wall Street as a whole is sceptical. The consensus 12-month target of $403.86 now sits 4% below Friday's close, meaning the median analyst expects negative returns from here. Bulls will point to genuine progress: the robotaxi fleet is real and expanding, Optimus V3 production lines are being installed, FSD subscriptions are growing 51% YoY. Bears will counter with a 416x trailing P/E, 50K+ inventory build, no China FSD, and negative free cash flow for the rest of 2026. The Q2 delivery report in early July is the next hard catalyst; until then expect choppy trading inside a $400-$450 range, with breakouts requiring either a China FSD surprise (bull case) or a robotaxi safety incident (bear case)."
   },
+
   "recommendation": {
     "signal": "HOLD",
     "confidence": "Medium",
     "time_horizon": "Short-term (1-4 weeks)",
     "bullish_signals_count": 4,
     "bearish_signals_count": 5,
-    "reasoning": "The signal balance has tilted incrementally more bearish over the weekend but not enough to flip the call. Bullish: the Golden Cross is intact, price is comfortably above both the 50-day and 200-day moving averages, RSI is neutral with room to move either way, and the fundamental robotaxi/Optimus/FSD story keeps adding tangible proof points (39-vehicle fleet, V3 production lines installed, Cybercab car wash breaking ground). Bearish: Friday's -4.75% drop pushed price below the 5-day MA and broke the rally structure, MACD momentum is rolling over, the analyst consensus target ($403.86) now sits below the spot price for the first time in six weeks, 30-year yields above 5% are a direct headwind to long-duration growth, and Tesla still has no China FSD approval despite a high-profile summit attempt. Confidence is Medium because both scenarios remain credible and a single news catalyst (China FSD landing, or a robotaxi safety incident) could resolve the picture either way within days. What flips this call: a decisive break above $450 with above-average volume turns this BUY; a weekly close below $416 (the 50-day MA) turns it SELL.",
-    "key_risk": "A failure to defend the $416 50-day moving average next week would close the medium-term cushion that has supported the rebound since early May, opening a probable retest of the high-$390s where the early-May breakout originated. Given that Wall Street's consensus target is already below the spot price, there is little analyst-target support to cushion any deeper drawdown.",
-    "disclaimer": "\u26a0\ufe0f This is not financial advice. This is an AI-generated analysis for informational and educational purposes only. Always do your own research and consult a licensed financial advisor before making any investment decisions."
+    "reasoning": "The signal balance has tilted incrementally more bearish over the weekend but not enough to flip the call. Bullish: the Golden Cross is intact, price is comfortably above both the 50-day and 200-day moving averages, RSI is neutral with room to move either way, and the fundamental robotaxi/Optimus/FSD story keeps adding tangible proof points (39-vehicle fleet, V3 production lines installed, Cybercab car wash breaking ground). Bearish: Friday's -4.75% drop pushed price below the 5-day MA and broke the rally structure, MACD momentum is rolling over, the analyst consensus target ($403.86) has slipped below the spot price for the first time in six weeks, 30-year yields above 5% are a direct headwind to long-duration growth, and Tesla still has no China FSD approval despite a high-profile summit attempt. Confidence is Medium because both scenarios remain credible and a single news catalyst (China FSD landing, or a robotaxi safety incident) could resolve the picture either way within days. What flips this call: a decisive break above $450 with above-average volume turns this BUY; a weekly close below $416 (the 50-day MA) turns it SELL.",
+    "key_risk": "A failure to defend the $416 50-day moving average next week would close the medium-term cushion that has supported the rebound since early May, opening a probable retest of the high-$390s where the breakout originated. With Wall Street's consensus target already below the spot price, there is little analyst-target support to cushion any deeper drawdown.",
+    "disclaimer": "⚠️ This is not financial advice. This is an AI-generated analysis for informational and educational purposes only. Always do your own research and consult a licensed financial advisor before making any investment decisions."
   },
+
   "price_chart": [
-    {
-      "date": "May 02",
-      "close": 392.5,
-      "color": "green"
-    },
-    {
-      "date": "May 05",
-      "close": 398.3,
-      "color": "green"
-    },
-    {
-      "date": "May 06",
-      "close": 405.2,
-      "color": "green"
-    },
-    {
-      "date": "May 07",
-      "close": 412.8,
-      "color": "green"
-    },
-    {
-      "date": "May 08",
-      "close": 425.4,
-      "color": "green"
-    },
-    {
-      "date": "May 09",
-      "close": 434.1,
-      "color": "green"
-    },
-    {
-      "date": "May 12",
-      "close": 412.5,
-      "color": "red"
-    },
-    {
-      "date": "May 13",
-      "close": 442.1,
-      "color": "green"
-    },
-    {
-      "date": "May 14",
-      "close": 443.3,
-      "color": "green"
-    },
-    {
-      "date": "May 15",
-      "close": 422.24,
-      "color": "red"
-    }
+    { "date": "May 02", "close": 392.50, "color": "green" },
+    { "date": "May 05", "close": 398.30, "color": "green" },
+    { "date": "May 06", "close": 405.20, "color": "green" },
+    { "date": "May 07", "close": 412.80, "color": "green" },
+    { "date": "May 08", "close": 425.40, "color": "green" },
+    { "date": "May 09", "close": 434.10, "color": "green" },
+    { "date": "May 12", "close": 412.50, "color": "red" },
+    { "date": "May 13", "close": 442.10, "color": "green" },
+    { "date": "May 14", "close": 443.30, "color": "green" },
+    { "date": "May 15", "close": 422.24, "color": "red" }
   ]
 };
-
 const HISTORY = [
   {
     "date": "2026-05-15",
-    "price": 442.32
+    "price_now": "$442.32"
   },
   {
     "date": "2026-05-15",
-    "price": 449.13
+    "price_now": "$449.13"
   },
   {
     "date": "2026-05-15",
-    "price": 449.13
+    "price_now": "$449.13"
   },
   {
     "date": "2026-05-15",
-    "price": 449.13
+    "price_now": "$449.13"
   },
   {
     "date": "2026-05-15",
-    "price": 449.13
+    "price_now": "$449.13"
   },
   {
     "date": "2026-05-15",
-    "price": 443.3
+    "price_now": "$443.30"
   },
   {
     "date": "2026-05-15",
-    "price": 443.3
+    "price_now": "$443.30"
   },
   {
     "date": "2026-05-16",
-    "price": 424.45
+    "price_now": "$424.45"
   },
   {
     "date": "2026-05-16",
-    "price": 422.24
+    "price_now": "$422.24"
   },
   {
     "date": "2026-05-16",
-    "price": 422.24
+    "price_now": "$422.24"
   },
   {
     "date": "2026-05-16",
-    "price": 422.24
+    "price_now": "$422.24"
   },
   {
     "date": "2026-05-16",
-    "price": 422.24
+    "price_now": "$422.24"
   },
   {
     "date": "2026-05-16",
-    "price": 422.24
+    "price_now": "$422.24"
   },
   {
     "date": "2026-05-17",
-    "price": 422.24
+    "price_now": "$422.24"
+  },
+  {
+    "date": "2026-05-17",
+    "price_now": "$422.24"
   }
 ];
-</script>
 
-<!-- ============================================================ -->
-<!-- 1. STICKY TOP BAR -->
-<!-- ============================================================ -->
-<header class="topbar">
-  <div class="topbar-inner">
-    <div class="t-logo">T</div>
-    <div class="topbar-title">TSLA <span>Briefing</span></div>
-    <div class="topbar-date">
-      <span>May 17, 2026</span>
-      <div class="pulse-dot"></div>
-    </div>
-  </div>
-</header>
+const $ = id => document.getElementById(id);
+const stripDollar = s => typeof s === 'string' ? parseFloat(s.replace(/[$,]/g,'')) : s;
 
-<main>
+const genDate = new Date(DATA.generated_at);
+const dateStr = genDate.toLocaleDateString('en-US', { weekday: 'short', month: 'short', day: 'numeric', year: 'numeric' });
+$('generated-date').textContent = dateStr;
+$('footer-date').textContent = dateStr;
+$('footer-disclaimer').textContent = DATA.recommendation.disclaimer;
 
-<!-- ============================================================ -->
-<!-- 2. HERO -->
-<!-- ============================================================ -->
-<section class="fade-in fade-in-1">
-  <div class="container">
-    <div class="section-label">Current Price — May 15, 2026 Confirmed Close</div>
-    <div class="hero-price" id="hero-price"></div>
-    <div id="hero-change"></div>
-    <div class="hero-meta" id="hero-meta"></div>
-    <div id="hero-notes"></div>
-  </div>
-</section>
-
-<!-- ============================================================ -->
-<!-- 3. RECOMMENDATION BANNER -->
-<!-- ============================================================ -->
-<section class="fade-in fade-in-2">
-  <div class="container">
-    <div class="section-label">Analyst Recommendation</div>
-    <div id="rec-banner"></div>
-  </div>
-</section>
-
-<!-- ============================================================ -->
-<!-- 4. PRICE CHART — LAST 10 SESSIONS -->
-<!-- ============================================================ -->
-<section class="fade-in fade-in-3">
-  <div class="container">
-    <div class="chart-title">Price Chart — Last 10 Trading Sessions</div>
-    <div class="chart-subtitle" id="chart-subtitle"></div>
-    <div class="chart-container">
-      <canvas id="priceChart"></canvas>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================ -->
-<!-- 5. HISTORICAL PRICE TREND -->
-<!-- ============================================================ -->
-<section class="fade-in fade-in-3">
-  <div class="container">
-    <div class="chart-title">Historical Price Trend</div>
-    <div class="chart-subtitle">Intraday and session-to-session price snapshots (all available history entries)</div>
-    <div id="history-chart-wrap">
-      <div class="chart-container">
-        <canvas id="historyChart"></canvas>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============================================================ -->
-<!-- 6. TECHNICAL SNAPSHOT PILLS -->
-<!-- ============================================================ -->
-<section class="fade-in fade-in-4">
-  <div class="container">
-    <div class="section-label">Technical Snapshot</div>
-    <div class="pills-row" id="tech-pills"></div>
-    <p style="font-size:11px;color:var(--text-muted);margin-top:10px;">
-      Moving averages are like a stock's average cruising speed over different time windows. Being above all three means momentum is strong across the board. Being below is a warning sign. RSI above 70 = running too hot. Below 30 = may bounce. 40–70 is the sweet spot. MACD tells us whether buying momentum is growing or fading.
-    </p>
-  </div>
-</section>
-
-<!-- ============================================================ -->
-<!-- 7. LATEST NEWS -->
-<!-- ============================================================ -->
-<section class="fade-in fade-in-4">
-  <div class="container">
-    <div class="section-label">Latest News & Sentiment</div>
-    <div id="news-section"></div>
-  </div>
-</section>
-
-<!-- ============================================================ -->
-<!-- 8. TECHNICAL ANALYSIS — 7D AND 30D -->
-<!-- ============================================================ -->
-<section class="fade-in fade-in-5">
-  <div class="container">
-    <div class="section-label">Technical Analysis</div>
-    <div class="tech-grid" id="tech-grid"></div>
-  </div>
-</section>
-
-<!-- ============================================================ -->
-<!-- 9. ANALYST CONSENSUS & OUTLOOK -->
-<!-- ============================================================ -->
-<section class="fade-in fade-in-5">
-  <div class="container">
-    <div class="section-label">Analyst Consensus & Outlook</div>
-    <div id="outlook-section"></div>
-  </div>
-</section>
-
-</main>
-
-<!-- ============================================================ -->
-<!-- 10. FOOTER -->
-<!-- ============================================================ -->
-<footer>
-  <div class="container">
-    <p>Generated by Claude &mdash; TSLA Daily Briefing &mdash; May 17, 2026</p>
-    <p id="footer-disclaimer"></p>
-  </div>
-</footer>
-
-<script>
-// ====================================================
-// HELPERS
-// ====================================================
-function fmt(val, prefix='') {
-  return prefix + val;
-}
-function sentimentClass(s) {
-  if (s === 'bullish') return 'pill-green';
-  if (s === 'bearish') return 'pill-red';
-  return 'pill-grey';
-}
-function sentimentLabel(s) {
-  if (s === 'bullish') return '▲ Bullish';
-  if (s === 'bearish') return '▼ Bearish';
-  return '● Neutral';
-}
-function posClass(pos) {
-  return pos === 'above' ? 'pill-green' : 'pill-red';
-}
-function posLabel(pos) {
-  return pos === 'above' ? '▲ Above' : '▼ Below';
-}
-function impactClass(impact) {
-  if (impact.includes('bullish')) return 'pill-green';
-  if (impact.includes('bearish')) return 'pill-red';
-  return 'pill-yellow';
-}
-function formatDate(str) {
-  const d = new Date(str);
-  return d.toLocaleDateString('en-US', { month:'short', day:'numeric', year:'numeric' });
+$('hero-price').textContent = DATA.price_now;
+const changeEl = $('hero-change');
+changeEl.textContent = DATA.change_today;
+changeEl.className = 'change-badge ' + (DATA.change_today_positive ? 'change-pos' : 'change-neg');
+$('hero-cap').textContent = DATA.market_cap;
+$('hero-vol').textContent = DATA.volume_today;
+$('hero-vol-avg').textContent = DATA.volume_vs_avg + ' (avg ' + DATA.volume_avg_30d + ')';
+$('hero-52h').textContent = DATA.week_52_high;
+$('hero-52l').textContent = DATA.week_52_low;
+$('hero-earn').textContent = DATA.next_earnings_date;
+if (DATA.notes) {
+  const nb = $('hero-notes');
+  nb.style.display = 'block';
+  nb.textContent = 'Note: ' + DATA.notes;
 }
 
-// ====================================================
-// 2. HERO
-// ====================================================
-(function renderHero() {
-  const D = DATA;
-  const priceEl = document.getElementById('hero-price');
-  priceEl.textContent = D.price_now;
+const reco = DATA.recommendation;
+const sigLow = reco.signal.toLowerCase();
+$('reco-card').className = 'reco ' + sigLow;
+const badgeEl = $('reco-badge');
+badgeEl.textContent = reco.signal;
+badgeEl.className = 'reco-badge badge-' + sigLow;
+$('reco-conf').textContent = reco.confidence;
+$('reco-horizon').textContent = reco.time_horizon;
+$('reco-bull').textContent = reco.bullish_signals_count + ' bullish';
+$('reco-bear').textContent = reco.bearish_signals_count + ' bearish';
+$('reco-reason').textContent = reco.reasoning;
+$('reco-risk').textContent = reco.key_risk;
+$('reco-disclaimer').textContent = reco.disclaimer;
 
-  const changeEl = document.getElementById('hero-change');
-  const cls = D.change_today_positive ? 'badge-green' : 'badge-red';
-  const arrow = D.change_today_positive ? '▲' : '▼';
-  changeEl.innerHTML = `<span class="change-badge ${cls}">${arrow} ${D.change_today}</span>`;
-
-  const metaEl = document.getElementById('hero-meta');
-  const chips = [
-    { label: 'Market Cap', value: D.market_cap },
-    { label: '52W High', value: D.week_52_high },
-    { label: '52W Low', value: D.week_52_low },
-    { label: 'Volume', value: D.volume_today + ' (' + D.volume_vs_avg + ')' },
-    { label: '30d Avg Vol', value: D.volume_avg_30d },
-    { label: 'Next Earnings', value: D.next_earnings_date },
-  ];
-  metaEl.innerHTML = chips.map(c => `
-    <div class="meta-chip">
-      <div class="meta-chip-label">${c.label}</div>
-      <div class="meta-chip-value">${c.value}</div>
-    </div>`).join('');
-
-  const notesEl = document.getElementById('hero-notes');
-  if (D.notes) {
-    notesEl.innerHTML = `<div class="alert-banner">⚠ <span>${D.notes}</span></div>`;
+const chartData = DATA.price_chart;
+const closes = chartData.map(p => p.close);
+const minClose = Math.min.apply(null, closes), maxClose = Math.max.apply(null, closes);
+$('chart-sub').textContent = 'Range over period: $' + minClose.toFixed(2) + ' — $' + maxClose.toFixed(2);
+const pointColors = chartData.map(p => p.color === 'green' ? '#34d399' : '#f16a6a');
+new Chart($('priceChart'), {
+  type: 'line',
+  data: {
+    labels: chartData.map(p => p.date),
+    datasets: [{
+      data: closes,
+      borderColor: '#d4a84b',
+      backgroundColor: 'rgba(212,168,75,0.10)',
+      pointBackgroundColor: pointColors,
+      pointBorderColor: pointColors,
+      pointRadius: 5,
+      pointHoverRadius: 7,
+      tension: 0.28,
+      fill: true,
+      borderWidth: 2,
+    }]
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false,
+    plugins: {
+      legend: { display: false },
+      tooltip: { backgroundColor: '#13181f', borderColor: '#1e2630', borderWidth: 1, padding: 10, callbacks: { label: ctx => '$' + ctx.parsed.y.toFixed(2) } },
+    },
+    scales: {
+      x: { grid: { color: '#1e2630' }, ticks: { color: '#8891a1' } },
+      y: { grid: { color: '#1e2630' }, ticks: { color: '#8891a1', callback: v => '$' + v } }
+    }
   }
-})();
+});
 
-// ====================================================
-// 3. RECOMMENDATION BANNER
-// ====================================================
-(function renderRec() {
-  const R = DATA.recommendation;
-  const sig = R.signal.toLowerCase();
-  const sigColor = sig === 'buy' ? 'var(--green)' : sig === 'sell' ? 'var(--red)' : 'var(--gold)';
-  const confClass = R.confidence === 'High' ? 'pill-green' : R.confidence === 'Low' ? 'pill-red' : 'pill-yellow';
-  const el = document.getElementById('rec-banner');
-  el.innerHTML = `
-    <div class="rec-banner ${sig}">
-      <div class="rec-signal ${sig}">${R.signal}</div>
-      <div class="rec-meta-row">
-        <span class="rec-pill ${confClass}">Confidence: ${R.confidence}</span>
-        <span class="rec-pill pill-grey">${R.time_horizon}</span>
-      </div>
-      <div class="score-bar">
-        <span class="score-num bull">▲ ${R.bullish_signals_count} bullish</span>
-        <span style="color:var(--text-muted)">·</span>
-        <span class="score-num bear">▼ ${R.bearish_signals_count} bearish</span>
-      </div>
-      <div class="separator"></div>
-      <div class="rec-reasoning">${R.reasoning}</div>
-      <div class="rec-risk">⚠ Key Risk: ${R.key_risk}</div>
-      <div class="disclaimer">${R.disclaimer}</div>
-    </div>`;
-})();
-
-// ====================================================
-// 4. PRICE CHART
-// ====================================================
-(function renderPriceChart() {
-  const chart = DATA.price_chart;
-  const prices = chart.map(d => d.close);
-  const labels = chart.map(d => d.date);
-  const colors = chart.map(d => d.color === 'green' ? '#34d399' : '#f16a6a');
-  const minP = Math.min(...prices);
-  const maxP = Math.max(...prices);
-
-  const sub = document.getElementById('chart-subtitle');
-  sub.textContent = `Range: $${minP.toFixed(2)} – $${maxP.toFixed(2)}`;
-
-  const ctx = document.getElementById('priceChart').getContext('2d');
-  new Chart(ctx, {
+const histData = HISTORY.slice(-30).map(e => ({ date: e.date, price: stripDollar(e.price_now) })).filter(e => !isNaN(e.price));
+if (histData.length < 2) {
+  $('history-fallback').style.display = 'block';
+  document.querySelector('#historyChart').style.display = 'none';
+} else {
+  new Chart($('historyChart'), {
     type: 'line',
     data: {
-      labels,
+      labels: histData.map(e => e.date),
       datasets: [{
-        data: prices,
-        borderColor: '#d4a84b',
-        backgroundColor: 'rgba(212,168,75,0.06)',
-        borderWidth: 2,
+        data: histData.map(e => e.price),
+        borderColor: '#34d399',
+        backgroundColor: 'rgba(52,211,153,0.10)',
+        pointBackgroundColor: '#34d399',
+        pointRadius: 3,
+        pointHoverRadius: 6,
         tension: 0.3,
         fill: true,
-        pointBackgroundColor: colors,
-        pointBorderColor: colors,
-        pointRadius: 6,
-        pointHoverRadius: 8
-      }]
-    },
-    options: {
-      responsive: true,
-      maintainAspectRatio: false,
-      plugins: {
-        legend: { display: false },
-        tooltip: {
-          backgroundColor: '#141920',
-          borderColor: '#1e2630',
-          borderWidth: 1,
-          titleColor: '#8891a1',
-          bodyColor: '#eef0f5',
-          callbacks: {
-            label: ctx => `$${ctx.parsed.y.toFixed(2)}`,
-            afterLabel: ctx => {
-              const c = chart[ctx.dataIndex].color;
-              return c === 'green' ? '▲ Up day' : '▼ Down day';
-            }
-          }
-        }
-      },
-      scales: {
-        x: {
-          grid: { color: 'rgba(30,38,48,0.8)' },
-          ticks: { color: '#8891a1', font: { family: 'IBM Plex Mono', size: 11 } }
-        },
-        y: {
-          grid: { color: 'rgba(30,38,48,0.8)' },
-          ticks: {
-            color: '#8891a1',
-            font: { family: 'IBM Plex Mono', size: 11 },
-            callback: v => '$' + v.toFixed(0)
-          }
-        }
-      }
-    }
-  });
-})();
-
-// ====================================================
-// 5. HISTORY CHART
-// ====================================================
-(function renderHistoryChart() {
-  if (HISTORY.length < 2) {
-    document.getElementById('history-chart-wrap').innerHTML =
-      '<p style="color:var(--text-dim);font-size:13px;padding:20px 0;">More history will appear after a few daily runs.</p>';
-    return;
-  }
-  const last30 = HISTORY.slice(-30);
-  const labels = last30.map(h => h.date);
-  const prices = last30.map(h => h.price);
-  const ctx = document.getElementById('historyChart').getContext('2d');
-  new Chart(ctx, {
-    type: 'line',
-    data: {
-      labels,
-      datasets: [{
-        label: 'TSLA Price',
-        data: prices,
-        borderColor: '#d4a84b',
-        backgroundColor: 'rgba(212,168,75,0.06)',
         borderWidth: 2,
-        tension: 0.35,
-        fill: true,
-        pointRadius: 4,
-        pointBackgroundColor: '#d4a84b',
-        pointHoverRadius: 7
       }]
     },
     options: {
-      responsive: true,
-      maintainAspectRatio: false,
+      responsive: true, maintainAspectRatio: false,
       plugins: {
         legend: { display: false },
-        tooltip: {
-          backgroundColor: '#141920',
-          borderColor: '#1e2630',
-          borderWidth: 1,
-          titleColor: '#8891a1',
-          bodyColor: '#eef0f5',
-          callbacks: { label: ctx => '$' + ctx.parsed.y.toFixed(2) }
-        }
+        tooltip: { backgroundColor: '#13181f', borderColor: '#1e2630', borderWidth: 1, padding: 10, callbacks: { label: ctx => '$' + ctx.parsed.y.toFixed(2) } },
       },
       scales: {
-        x: {
-          grid: { color: 'rgba(30,38,48,0.8)' },
-          ticks: { color: '#8891a1', font: { family: 'IBM Plex Mono', size: 10 }, maxRotation: 45 }
-        },
-        y: {
-          grid: { color: 'rgba(30,38,48,0.8)' },
-          ticks: {
-            color: '#8891a1',
-            font: { family: 'IBM Plex Mono', size: 11 },
-            callback: v => '$' + v.toFixed(0)
-          }
-        }
+        x: { grid: { color: '#1e2630' }, ticks: { color: '#8891a1', maxRotation: 0, autoSkip: true, maxTicksLimit: 8 } },
+        y: { grid: { color: '#1e2630' }, ticks: { color: '#8891a1', callback: v => '$' + v } }
       }
     }
   });
-})();
+}
 
-// ====================================================
-// 6. TECHNICAL PILLS
-// ====================================================
-(function renderTechPills() {
-  const a7 = DATA.analysis_7d;
-  const el = document.getElementById('tech-pills');
+const a7 = DATA.analysis_7d;
+const rsi = a7.rsi;
+const rsiClass = (rsi >= 40 && rsi <= 70) ? 'pill-green' : 'pill-red';
+const macdBull = /bullish/i.test(a7.macd_signal) && !/bearish/i.test(a7.macd_signal);
+const goldCross = /Golden/i.test(a7.ma_cross_status);
+const volBelow = /below/i.test(DATA.volume_vs_avg);
+const pills = [
+  { label: 'RSI (14d)', value: rsi.toFixed(1), cls: rsiClass },
+  { label: 'MACD', value: macdBull ? 'Bullish' : 'Bearish', cls: macdBull ? 'pill-green' : 'pill-red' },
+  { label: '5d MA', value: a7.ma_5d_position === 'above' ? 'Above ' + a7.ma_5d : 'Below ' + a7.ma_5d, cls: a7.ma_5d_position === 'above' ? 'pill-green' : 'pill-red' },
+  { label: '50d MA', value: a7.ma_50d_position === 'above' ? 'Above ' + a7.ma_50d : 'Below ' + a7.ma_50d, cls: a7.ma_50d_position === 'above' ? 'pill-green' : 'pill-red' },
+  { label: '200d MA', value: a7.ma_200d_position === 'above' ? 'Above ' + a7.ma_200d : 'Below ' + a7.ma_200d, cls: a7.ma_200d_position === 'above' ? 'pill-green' : 'pill-red' },
+  { label: 'MA Cross', value: goldCross ? 'Golden Cross' : 'Death Cross', cls: goldCross ? 'pill-green' : 'pill-red' },
+  { label: 'Volume', value: volBelow ? 'Below Avg' : 'Above Avg', cls: volBelow ? 'pill-red' : 'pill-green' },
+  { label: 'Bollinger', value: a7.bollinger_position.split(' — ')[0].slice(0, 30), cls: 'pill-gold' },
+];
+$('indicator-pills').innerHTML = pills.map(p =>
+  '<div class="indicator-pill"><div class="label">' + p.label + '</div><div class="value ' + p.cls + '">' + p.value + '</div></div>'
+).join('');
 
-  const rsiVal = a7.rsi;
-  const rsiClass = (rsiVal >= 40 && rsiVal <= 70) ? 'pill-green' : 'pill-red';
-  const macdClass = a7.macd_signal.toLowerCase().includes('bearish') ? 'pill-red' : 'pill-green';
-  const crossClass = a7.ma_cross_status.toLowerCase().includes('golden') ? 'pill-green' : 'pill-red';
-  const volClass = a7.volume_trend.toLowerCase().includes('above') ? 'pill-green' : 'pill-grey';
-  const boll = a7.bollinger_position.toLowerCase();
-  const bollClass = boll.includes('upper') ? 'pill-yellow' : boll.includes('lower') ? 'pill-red' : 'pill-grey';
+const newsSentLow = (DATA.news.sentiment_label || '').toLowerCase();
+const newsSentClass = newsSentLow.includes('bull') ? 'bullish' : newsSentLow.includes('bear') ? 'bearish' : 'neutral';
+const newsPill = $('news-sentiment-pill');
+newsPill.textContent = DATA.news.sentiment_label;
+newsPill.className = 'news-sentiment ' + newsSentClass;
+$('news-summary').textContent = DATA.news.sentiment_summary;
+$('news-list').innerHTML = DATA.news.items.map(n => {
+  const sCls = 'sent-' + (n.sentiment || 'neutral');
+  return '<div class="news-item">'
+    + '<div class="news-headline">' + n.headline + '</div>'
+    + '<div class="news-body">' + n.summary + '</div>'
+    + '<div class="news-meta">'
+    + '<span class="source-pill">' + n.source + '</span>'
+    + '<span>' + n.date + '</span>'
+    + '<span class="news-sentiment ' + sCls + '">' + n.sentiment + '</span>'
+    + '</div></div>';
+}).join('');
 
-  el.innerHTML = `
-    <div class="pill ${rsiClass}">RSI ${rsiVal} — ${a7.rsi_label}</div>
-    <div class="pill ${macdClass}">MACD: ${a7.macd_signal.split('—')[0].trim()}</div>
-    <div class="pill ${posClass(a7.ma_5d_position)}">5d MA ${posLabel(a7.ma_5d_position)} (${a7.ma_5d})</div>
-    <div class="pill ${posClass(a7.ma_50d_position)}">50d MA ${posLabel(a7.ma_50d_position)} (${a7.ma_50d})</div>
-    <div class="pill ${posClass(a7.ma_200d_position)}">200d MA ${posLabel(a7.ma_200d_position)} (${a7.ma_200d})</div>
-    <div class="pill ${crossClass}">✦ ${a7.ma_cross_status.split('—')[0].trim()}</div>
-    <div class="pill ${volClass}">Vol: ${a7.volume_trend.split('—')[0].trim()}</div>
-    <div class="pill ${bollClass}">Bollinger: ${a7.bollinger_position}</div>
-  `;
-})();
+function renderTechCard(target, a, title) {
+  const changePct = parseFloat(a.change_pct);
+  const changeCls = changePct >= 0 ? 'pill-green' : 'pill-red';
+  const rsiCls = a.rsi_color === 'green' ? 'green' : 'red';
+  const isBull = /bullish/i.test(a.macd_signal) && !/bearish/i.test(a.macd_signal);
+  const macdCls = isBull ? 'sig-bull' : 'sig-bear';
+  const macdTxt = isBull ? 'MACD Bullish' : 'MACD Bearish';
+  const keyLevels = a.key_levels ? (
+    '<div class="key-level"><div class="key-level-label">Support</div>'
+    + '<div class="key-level-value pill-green">' + a.key_levels.support + '</div>'
+    + '<div class="key-level-reason">' + a.key_levels.support_reason + '</div></div>'
+    + '<div class="key-level"><div class="key-level-label">Resistance</div>'
+    + '<div class="key-level-value pill-red">' + a.key_levels.resistance + '</div>'
+    + '<div class="key-level-reason">' + a.key_levels.resistance_reason + '</div></div>'
+  ) : '';
+  const signals = a.technical_signals ? ('<div class="label-block">Signals</div><ul class="signals-list">' + a.technical_signals.map(s => '<li>' + s + '</li>').join('') + '</ul>') : '';
+  const ma5 = a.ma_5d_position ? '<span class="ma-pill ' + a.ma_5d_position + '">5d ' + a.ma_5d_position + ' ' + a.ma_5d + '</span>' : '';
+  const events = a.notable_events ? ('<div class="label-block">Notable events</div><ul class="signals-list">' + a.notable_events.map(e => '<li>' + e + '</li>').join('') + '</ul>') : '';
+  target.innerHTML =
+    '<h3>' + title + '</h3>'
+    + '<div class="change-large ' + changeCls + '">' + a.change_pct + '</div>'
+    + '<div class="range-line">'
+    + '<span>Start <strong>' + a.price_start + '</strong></span>'
+    + '<span>→</span>'
+    + '<span>End <strong>' + a.price_end + '</strong></span>'
+    + '<span style="margin-left:auto;">High ' + a.period_high + ' · Low ' + a.period_low + '</span>'
+    + '</div>'
+    + '<div class="label-block">Trend</div>'
+    + '<div style="font-size:0.88rem;">' + a.trend + '</div>'
+    + '<div class="label-block">RSI (14)</div>'
+    + '<div class="rsi-bar"><div class="rsi-fill ' + rsiCls + '" style="width:' + Math.min(100, Math.max(0, a.rsi)) + '%"></div></div>'
+    + '<div class="rsi-meta"><span>' + a.rsi.toFixed(1) + '</span><span style="text-align:right;">' + a.rsi_label + '</span></div>'
+    + '<div class="label-block">MACD</div>'
+    + '<span class="' + macdCls + '" style="padding:0.3rem 0.7rem;border-radius:6px;font-size:0.78rem;">' + macdTxt + '</span>'
+    + '<div style="font-size:0.8rem;color:var(--text-dim);margin-top:0.4rem;">' + a.macd_signal + '</div>'
+    + '<div class="label-block">Moving averages</div>'
+    + '<div class="ma-row">'
+    + ma5
+    + '<span class="ma-pill ' + a.ma_50d_position + '">50d ' + a.ma_50d_position + ' ' + a.ma_50d + '</span>'
+    + '<span class="ma-pill ' + a.ma_200d_position + '">200d ' + a.ma_200d_position + ' ' + a.ma_200d + '</span>'
+    + '</div>'
+    + (a.ma_cross_status ? '<div style="font-size:0.8rem;color:var(--text-dim);margin-top:0.5rem;">' + a.ma_cross_status + '</div>' : '')
+    + keyLevels
+    + signals
+    + events
+    + '<div class="tech-summary">' + a.summary + '</div>';
+}
+renderTechCard($('tech-7d'), DATA.analysis_7d, 'Last 7 Days');
+renderTechCard($('tech-30d'), DATA.analysis_30d, 'Last 30 Days');
 
-// ====================================================
-// 7. NEWS
-// ====================================================
-(function renderNews() {
-  const N = DATA.news;
-  const el = document.getElementById('news-section');
-  const sentColor = N.sentiment_label.toLowerCase().includes('bull') ? 'var(--green)' :
-                    N.sentiment_label.toLowerCase().includes('bear') ? 'var(--red)' : 'var(--yellow)';
-  const sentBg = N.sentiment_label.toLowerCase().includes('bull') ? 'var(--green-dim)' :
-                 N.sentiment_label.toLowerCase().includes('bear') ? 'var(--red-dim)' : 'var(--yellow-dim)';
-  let html = `
-    <div class="news-sentiment-box" style="background:${sentBg};border:1px solid ${sentColor}33;">
-      <div class="sentiment-label" style="color:${sentColor}">${N.sentiment_label}</div>
-      <div style="font-size:13px;color:var(--text-dim);line-height:1.7;">${N.sentiment_summary}</div>
-    </div>`;
-  N.items.forEach(item => {
-    const sClass = sentimentClass(item.sentiment);
-    const sLabel = sentimentLabel(item.sentiment);
-    html += `
-      <div class="news-item">
-        <div class="news-headline">${item.headline}</div>
-        <div class="news-summary">${item.summary}</div>
-        <div class="news-meta">
-          <span>${item.source}</span>
-          <span style="color:var(--text-muted)">·</span>
-          <span>${item.date}</span>
-          <span class="pill ${sClass}" style="padding:2px 10px;font-size:11px;">${sLabel}</span>
-        </div>
-      </div>`;
-  });
-  el.innerHTML = html;
-})();
+const out = DATA.outlook;
+const total = out.analyst_buy_count + out.analyst_hold_count + out.analyst_sell_count;
+const buyPct = total ? (out.analyst_buy_count / total * 100) : 0;
+const holdPct = total ? (out.analyst_hold_count / total * 100) : 0;
+const sellPct = total ? (out.analyst_sell_count / total * 100) : 0;
+$('vote-bar').innerHTML =
+  '<div class="vote-seg vote-buy" style="width:' + buyPct + '%">' + (out.analyst_buy_count > 0 ? 'Buy ' + out.analyst_buy_count : '') + '</div>'
+  + '<div class="vote-seg vote-hold" style="width:' + holdPct + '%">' + (out.analyst_hold_count > 0 ? 'Hold ' + out.analyst_hold_count : '') + '</div>'
+  + '<div class="vote-seg vote-sell" style="width:' + sellPct + '%">' + (out.analyst_sell_count > 0 ? 'Sell ' + out.analyst_sell_count : '') + '</div>';
+$('vote-legend').innerHTML =
+  '<span><span class="dot" style="background:var(--green)"></span>Buy ' + out.analyst_buy_count + '</span>'
+  + '<span><span class="dot" style="background:var(--gold)"></span>Hold ' + out.analyst_hold_count + '</span>'
+  + '<span><span class="dot" style="background:var(--red)"></span>Sell ' + out.analyst_sell_count + '</span>'
+  + '<span style="margin-left:auto;">Consensus: <strong style="color:var(--gold)">' + out.analyst_consensus + '</strong></span>';
+$('target-grid').innerHTML =
+  '<div class="target-card"><div class="label">Avg Target</div><div class="value">' + out.avg_price_target + '</div></div>'
+  + '<div class="target-card"><div class="label">Median Target</div><div class="value">' + out.median_price_target + '</div></div>'
+  + '<div class="target-card"><div class="label">High Target</div><div class="value pill-green">' + out.high_price_target + '</div><div class="firm">' + out.high_price_target_firm + '</div></div>'
+  + '<div class="target-card"><div class="label">Low Target</div><div class="value pill-red">' + out.low_price_target + '</div><div class="firm">' + out.low_price_target_firm + '</div></div>';
+$('rating-change').innerHTML = '<strong>Recent rating change:</strong> ' + out.recent_rating_change;
+$('earnings-card').innerHTML =
+  '<span><span class="k">Date:</span> <strong>' + out.next_earnings_date + '</strong></span>'
+  + '<span><span class="k">EPS est:</span> <strong>' + out.next_earnings_eps_estimate + '</strong></span>'
+  + '<span><span class="k">Rev est:</span> <strong>' + out.next_earnings_revenue_estimate + '</strong></span>';
+$('catalyst-grid').innerHTML = out.catalysts.map(c => {
+  const ilow = (c.impact || '').toLowerCase();
+  const ib = ilow.indexOf('bull') !== -1 && ilow.indexOf('bear') === -1 ? 'badge-bull'
+           : ilow.indexOf('bear') !== -1 && ilow.indexOf('bull') === -1 ? 'badge-bear'
+           : 'badge-mixed';
+  return '<div class="catalyst">'
+    + '<div class="catalyst-head">'
+    + '<span class="catalyst-name">' + c.event + '</span>'
+    + '<span class="badge badge-time">' + c.timing + '</span>'
+    + '<span class="badge ' + ib + '">' + c.impact + '</span>'
+    + '</div>'
+    + '<div class="catalyst-detail">' + c.detail + '</div>'
+    + '</div>';
+}).join('');
+$('macro-list').innerHTML = out.macro_factors.map(m => {
+  const ib = m.impact === 'bullish' ? 'badge-bull' : m.impact === 'bearish' ? 'badge-bear' : 'badge-mixed';
+  return '<div class="macro-item">'
+    + '<div><span class="name">' + m.factor + '</span> <span class="badge ' + ib + '" style="margin-left:0.5rem;">' + m.impact + '</span></div>'
+    + '<div class="detail">' + m.detail + '</div>'
+    + '</div>';
+}).join('');
+$('outlook-summary').textContent = out.summary;
 
-// ====================================================
-// 8. TECHNICAL ANALYSIS CARDS
-// ====================================================
-(function renderTechCards() {
-  const a7 = DATA.analysis_7d;
-  const a30 = DATA.analysis_30d;
-  const el = document.getElementById('tech-grid');
-
-  function makeCard(period, a, isWeekly) {
-    const changePos = a.change_pct.startsWith('+');
-    const changeColor = changePos ? 'var(--green)' : 'var(--red)';
-    const rsiPct = (a.rsi / 100 * 100).toFixed(1);
-    const rsiColor = (a.rsi >= 40 && a.rsi <= 70) ? '#34d399' : '#f16a6a';
-    const macdClass = a.macd_signal.toLowerCase().includes('bearish') ? 'pill-red' : 'pill-green';
-
-    let signalsList = '';
-    if (isWeekly && a.technical_signals) {
-      signalsList = `<div class="signals-list">` +
-        a.technical_signals.map(s => `
-          <div class="signal-item">
-            <div class="signal-dot" style="background:var(--gold)"></div>
-            <span>${s}</span>
-          </div>`).join('') +
-        `</div>`;
-    }
-
-    let keyLevels = '';
-    if (!isWeekly && a.key_levels) {
-      const kl = a.key_levels;
-      const sup = kl.support || kl.support_reason ? `
-        <div class="sr-item">
-          <div class="sr-label" style="color:var(--green)">▲ Support: ${kl.support}</div>
-          <div class="sr-value">${kl.support_reason || ''}</div>
-        </div>` : '';
-      const res = kl.resistance || kl.resistance_reason ? `
-        <div class="sr-item">
-          <div class="sr-label" style="color:var(--red)">▼ Resistance: ${kl.resistance}</div>
-          <div class="sr-value">${kl.resistance_reason || ''}</div>
-        </div>` : '';
-      if (sup || res) {
-        keyLevels = `<div class="support-resistance">${sup}${res}</div>`;
-      }
-    }
-
-    let notableEvents = '';
-    if (!isWeekly && a.notable_events) {
-      notableEvents = `<div class="signals-list">` +
-        a.notable_events.map(e => `
-          <div class="signal-item">
-            <div class="signal-dot" style="background:var(--text-muted)"></div>
-            <span>${e}</span>
-          </div>`).join('') +
-        `</div>`;
-    }
-
-    return `
-      <div class="card">
-        <div class="tech-period">${period}</div>
-        <div class="tech-change" style="color:${changeColor}">${a.change_pct}</div>
-        <div class="price-range">
-          <span style="color:var(--text-dim)">${a.price_start}</span>
-          <span style="color:var(--text-muted)"> → </span>
-          <span style="color:var(--text)">${a.price_end}</span>
-          <span style="color:var(--text-muted)"> &nbsp;|&nbsp; High: ${a.period_high} &nbsp;Low: ${a.period_low}</span>
-        </div>
-        <span class="trend-badge pill-gold">${a.trend}</span>
-        <div class="rsi-bar-wrap">
-          <div class="rsi-bar-label">
-            <span style="color:var(--text-dim)">RSI: ${a.rsi}</span>
-            <span style="color:var(--text-muted)">${a.rsi_label}</span>
-          </div>
-          <div class="rsi-bar-track">
-            <div class="rsi-bar-fill" style="width:${rsiPct}%;background:${rsiColor}"></div>
-          </div>
-          <div style="display:flex;justify-content:space-between;font-size:10px;color:var(--text-muted);margin-top:2px;">
-            <span>0 — Oversold</span><span>70 — Overbought</span><span>100</span>
-          </div>
-        </div>
-        <div class="ma-pills">
-          <span class="pill pill-grey" style="font-size:11px;">MACD: <span class="${macdClass}" style="padding:1px 6px;border-radius:4px;margin-left:4px;">${a.macd_signal.split('—')[0].trim()}</span></span>
-        </div>
-        <div class="ma-pills">
-          <span class="pill ${posClass(a.ma_50d_position)}" style="font-size:11px;">50d MA ${a.ma_50d_position} (${a.ma_50d})</span>
-          <span class="pill ${posClass(a.ma_200d_position)}" style="font-size:11px;">200d MA ${a.ma_200d_position} (${a.ma_200d})</span>
-          ${isWeekly ? `<span class="pill ${posClass(a.ma_5d_position)}" style="font-size:11px;">5d MA ${a.ma_5d_position} (${a.ma_5d})</span>` : ''}
-        </div>
-        ${signalsList}
-        ${keyLevels}
-        ${notableEvents}
-        <div class="tech-summary">${a.summary}</div>
-      </div>`;
-  }
-
-  el.innerHTML = makeCard('7-Day Analysis', a7, true) + makeCard('30-Day Analysis', a30, false);
-})();
-
-// ====================================================
-// 9. ANALYST & OUTLOOK
-// ====================================================
-(function renderOutlook() {
-  const O = DATA.outlook;
-  const el = document.getElementById('outlook-section');
-  const total = O.analyst_buy_count + O.analyst_hold_count + O.analyst_sell_count;
-  const buyPct = (O.analyst_buy_count / total * 100).toFixed(1);
-  const holdPct = (O.analyst_hold_count / total * 100).toFixed(1);
-  const sellPct = (O.analyst_sell_count / total * 100).toFixed(1);
-
-  const catalystsHtml = O.catalysts.map(c => `
-    <div class="catalyst-item">
-      <div class="catalyst-header">
-        <span class="catalyst-event">${c.event}</span>
-        <span class="catalyst-timing">${c.timing}</span>
-        <span class="pill ${impactClass(c.impact)}" style="font-size:11px;">${c.impact}</span>
-      </div>
-      <div class="catalyst-detail">${c.detail}</div>
-    </div>`).join('');
-
-  const macroHtml = O.macro_factors.map(m => `
-    <div class="macro-item">
-      <span class="macro-name">${m.factor}</span>
-      <span class="pill ${impactClass(m.impact)}" style="font-size:11px;white-space:nowrap;">${m.impact}</span>
-      <span class="macro-detail">${m.detail}</span>
-    </div>`).join('');
-
-  el.innerHTML = `
-    <div class="two-col" style="margin-bottom:24px;">
-      <div class="card">
-        <div style="font-family:'Syne',sans-serif;font-size:15px;font-weight:700;margin-bottom:12px;">Analyst Consensus</div>
-        <div style="font-size:13px;color:var(--text-dim);margin-bottom:8px;">Based on ${total} analyst ratings</div>
-        <div class="vote-bar-wrap">
-          <div class="vote-bar">
-            <div class="vote-seg" style="width:${buyPct}%;background:var(--green)"></div>
-            <div class="vote-seg" style="width:${holdPct}%;background:var(--gold)"></div>
-            <div class="vote-seg" style="width:${sellPct}%;background:var(--red)"></div>
-          </div>
-          <div class="vote-labels">
-            <div class="vote-label"><div class="vote-dot" style="background:var(--green)"></div><span>Buy: ${O.analyst_buy_count}</span></div>
-            <div class="vote-label"><div class="vote-dot" style="background:var(--gold)"></div><span>Hold: ${O.analyst_hold_count}</span></div>
-            <div class="vote-label"><div class="vote-dot" style="background:var(--red)"></div><span>Sell: ${O.analyst_sell_count}</span></div>
-          </div>
-        </div>
-        <div class="targets-grid">
-          <div class="target-item">
-            <div class="target-label">Avg Target</div>
-            <div class="target-value" style="color:var(--gold)">${O.avg_price_target}</div>
-          </div>
-          <div class="target-item">
-            <div class="target-label">Median Target</div>
-            <div class="target-value" style="color:var(--text)">${O.median_price_target}</div>
-          </div>
-          <div class="target-item">
-            <div class="target-label">High Target</div>
-            <div class="target-value" style="color:var(--green)">${O.high_price_target}</div>
-            <div class="target-firm">${O.high_price_target_firm}</div>
-          </div>
-          <div class="target-item">
-            <div class="target-label">Low Target</div>
-            <div class="target-value" style="color:var(--red)">${O.low_price_target}</div>
-            <div class="target-firm">${O.low_price_target_firm}</div>
-          </div>
-        </div>
-        <div class="rating-callout">${O.recent_rating_change}</div>
-      </div>
-      <div class="card">
-        <div style="font-family:'Syne',sans-serif;font-size:15px;font-weight:700;margin-bottom:12px;">Next Earnings</div>
-        <div class="earnings-box">
-          <div class="earnings-label">Q2 2026 Report</div>
-          <div class="earnings-row">
-            <span class="earnings-key">Date</span>
-            <span class="earnings-val" style="color:var(--gold)">${O.next_earnings_date}</span>
-          </div>
-          <div class="earnings-row">
-            <span class="earnings-key">EPS Estimate</span>
-            <span class="earnings-val">${O.next_earnings_eps_estimate}</span>
-          </div>
-          <div class="earnings-row">
-            <span class="earnings-key">Revenue Est.</span>
-            <span class="earnings-val">${O.next_earnings_revenue_estimate}</span>
-          </div>
-        </div>
-        <div style="font-family:'Syne',sans-serif;font-size:14px;font-weight:700;margin:16px 0 8px;">Macro Factors</div>
-        <div>${macroHtml}</div>
-      </div>
-    </div>
-
-    <div class="card" style="margin-bottom:16px;">
-      <div style="font-family:'Syne',sans-serif;font-size:15px;font-weight:700;margin-bottom:16px;">Upcoming Catalysts</div>
-      ${catalystsHtml}
-    </div>
-
-    <div class="card">
-      <div style="font-family:'Syne',sans-serif;font-size:15px;font-weight:700;margin-bottom:12px;">3–6 Month Outlook</div>
-      <div class="outlook-text">${O.summary}</div>
-    </div>`;
-})();
-
-// ====================================================
-// FOOTER
-// ====================================================
-document.getElementById('footer-disclaimer').textContent = DATA.recommendation.disclaimer;
 </script>
 </body>
 </html>
