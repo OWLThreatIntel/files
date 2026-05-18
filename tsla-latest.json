@@ -1,212 +1,208 @@
 {
-  "generated_at": "2026-05-18T22:30:00+08:00",
+  "generated_at": "2026-05-18T10:00:00+08:00",
   "date": "2026-05-18",
   "price_now": "$422.24",
-  "change_today": "0.0%",
+  "change_today": "-4.75%",
   "change_today_positive": false,
-  "market_cap": "$1.36T",
+  "market_cap": "$1.59T",
   "week_52_high": "$498.83",
   "week_52_low": "$273.21",
-  "volume_today": "52.1M",
-  "volume_avg_30d": "59.8M",
+  "volume_today": "52.69M",
+  "volume_avg_30d": "58.53M",
   "volume_vs_avg": "below average",
   "next_earnings_date": "2026-07-22",
-  "notes": "Monday May 18 — US markets are open as this brief is generated; today's closing tape is not yet confirmed. Per policy the most recent confirmed close (Friday May 15: $422.24) is shown, with a 0% placeholder change. Pre-market signals were modestly positive on the back of weekend Model Y price hikes (StockInvest's predicted fair open was $426.30, intraday range so far reported around $422-$435 with the bell open near $434), but no source has yet published a verified May 18 closing print. Tomorrow's brief will pick up Monday's official close.",
+  "notes": "Last confirmed close is Friday, May 15. US markets are closed over the weekend. A handful of sources reported a slightly lower intraday quote of $418.57; the official close of $422.24 was cross-checked across Yahoo Finance, MacroTrends, Stock Analysis and TradingView.",
 
   "news": {
-    "sentiment_label": "Mixed — bullish micro, bearish macro",
-    "sentiment_summary": "Sentiment going into Monday's session is genuinely split. The bullish surprise is Tesla's first US Model Y price hike in two years ($500-$1,000 across trims), a tangible margin signal that the demand-on-discount era may be ending. The bearish overhang is unchanged: the Trump-Xi summit produced no China FSD approval and Wall Street's consensus 12-month target ($403.86) still sits below Friday's $422.24 close. Tesla China publicly denied that the US price hike will be replicated in China, capping the bull case. The narrative is being pulled in opposite directions by a real margin catalyst on one side and a colder China backdrop, rising long-end yields, and the freshly disclosed 17-crash robotaxi tally on the other — which is why the analyst-predicted open of just +0.96% looks rationally cautious despite the price-hike news.",
+    "sentiment_label": "Mixed — Cautious",
+    "sentiment_summary": "Sentiment toward Tesla flipped from euphoric to cautious in the last 48 hours. Coming off a 30%+ recovery rally from the April low, the stock gave back roughly 5% on Friday after the Trump–Xi summit ended without a deal on Full Self-Driving approval in China — the single biggest potential growth lever investors had been pricing in. Underneath the headline drop, the bullish robotaxi-expansion story is still very much alive (39 unsupervised vehicles now operating, with launches planned in another five US cities), but it is fighting against fresh regulatory worries: an escalated US FSD probe covering 3.2M vehicles, an unflattering Australian court ruling, and a Q1 delivery miss that left dealers with their largest inventory build ever. The mood is best described as 'taking profits on the easy money, waiting to see who blinks first.'",
     "items": [
       {
-        "headline": "Tesla Raises US Model Y Prices by Up to $1,000 — First Hike in Two Years",
-        "summary": "Over the weekend Tesla lifted Model Y Premium AWD and Premium RWD prices by $1,000 to $49,990 and $45,990 respectively, and raised the Model Y Performance AWD by $500 to $57,990. It is the first US price increase on Model Y in roughly two years and breaks a multi-year pattern of discounting to defend share. The market reads this as a confidence signal on demand and a direct positive for auto gross margin — the single biggest swing factor on every Q2 model.",
-        "source": "Electrek / Reuters / Autoblog",
-        "date": "2026-05-16",
-        "sentiment": "bullish"
-      },
-      {
-        "headline": "Tesla China Publicly Denies Model Y Price Hike Rumours in Domestic Market",
-        "summary": "Hours after the US price increases were confirmed, Tesla China issued a statement explicitly denying that Model Y prices in mainland China will be raised. The denial caps the bull case: investors hoping the US move signalled a global pricing reset have to recalibrate. China remains a discount-driven, share-defending market where Tesla holds only ~3% NEV market share, and there is no margin tailwind coming from the world's largest EV market.",
-        "source": "Stocktwits / Tesla China",
-        "date": "2026-05-17",
+        "headline": "Tesla falls 4.75% on Friday as Trump–Xi summit ends with no China FSD deal",
+        "summary": "Tesla closed at $422.24 on May 15, down roughly $21 in a single session, after President Trump's high-profile trip to Beijing — which Elon Musk personally joined — produced no agreement on Chinese regulatory approval for Full Self-Driving. China FSD revenue had been pencilled into many bull cases as a needle-mover, so its absence forced a reset of expectations. Tesla ended Q1 with 1.3M global FSD subscribers, none of them in China.",
+        "source": "Foreign Policy Journal / MEXC News",
+        "date": "2026-05-15",
         "sentiment": "bearish"
       },
       {
-        "headline": "Predicted Fair Open for Monday $426.30 — Analysts Position for Modest Bounce",
-        "summary": "StockInvest's algorithmic forecast pegged TSLA's Monday May 18 fair open at $426.30 (+0.96% vs Friday's close), with an expected intraday band of $413.67-$430.81. The mild positive bias reflects the Model Y price-hike tailwind partially offsetting unresolved China FSD overhang and Treasury-yield pressure. Retail sentiment on Stocktwits cooled from 'extremely bullish' to 'bullish' over the weekend, mirroring the moderation.",
-        "source": "StockInvest / Stocktwits",
-        "date": "2026-05-17",
+        "headline": "US auto safety regulator escalates probe of 3.2 million Tesla FSD vehicles",
+        "summary": "NHTSA upgraded its investigation into Tesla's Full Self-Driving system, citing concerns that the software may fail to detect or warn drivers in poor visibility conditions. The probe now covers 3.2 million vehicles — a sweeping pool that includes most of Tesla's US fleet. An escalation does not automatically lead to a recall, but it raises the political ceiling on how aggressively Tesla can keep expanding its robotaxi geofences in the US.",
+        "source": "Reuters / Stocktwits",
+        "date": "2026-05-14",
+        "sentiment": "bearish"
+      },
+      {
+        "headline": "Tesla robotaxi fleet hits 39 vehicles; Dallas and Houston go live",
+        "summary": "Tesla's unsupervised robotaxi fleet has more than quadrupled since the start of April, growing from 9 to 39 vehicles. Dallas (31 sq mi) and Houston (25 sq mi) zones are now operational alongside Austin and the Bay Area, taking total covered area to roughly 1,190 sq mi. Phoenix, Miami, Orlando, Tampa and Las Vegas are next on the rollout list. Morgan Stanley called the pace 'a material evolution' and modelled 1,000 vehicles by year-end.",
+        "source": "Teslarati / The Motley Fool",
+        "date": "2026-05-14",
+        "sentiment": "bullish"
+      },
+      {
+        "headline": "Tesla wins approval to test Full Self-Driving in Belgium's Flanders region",
+        "summary": "Belgian transport authorities cleared Tesla to begin supervised FSD trials in the Flanders region — a meaningful European foothold given that Europe has been Tesla's slowest FSD market. The approval is narrow (testing only, not paid rides) but sets a regulatory precedent other EU regions may follow. Investors viewed this as a partial offset to the China disappointment.",
+        "source": "Capital Street FX / Foreign Policy Journal",
+        "date": "2026-05-13",
+        "sentiment": "bullish"
+      },
+      {
+        "headline": "Tesla raises Model Y prices in the US for the first time in two years",
+        "summary": "Tesla quietly increased Model Y sticker prices across all US trims — a small bump, but symbolically important after two years of price cuts. Management is signalling that demand has stabilised enough to lean on price rather than discount, although bears point out that Q1 inventory swelled by more than 50,000 units, which makes any price hike a high-stakes bet on demand elasticity.",
+        "source": "Yahoo Finance / Stocktwits",
+        "date": "2026-05-12",
         "sentiment": "neutral"
-      },
-      {
-        "headline": "Wall Street 12-Month Target Still Below Spot After Six-Week Rally",
-        "summary": "TipRanks' aggregation of 29 sell-side analysts puts Tesla's average 12-month target at $403.86 — about 4.4% below Friday's $422.24 close. Wedbush remains the high bull at $600 (Dan Ives) and GLJ the lone deep bear at $25.53. The mean target has been below spot for the first time in six weeks, meaning the average analyst now expects a negative one-year return from here. Last upgrade: UBS to $352 on April 14; Morgan Stanley sits at $425.",
-        "source": "TipRanks / Public.com / Benzinga",
-        "date": "2026-05-17",
-        "sentiment": "bearish"
-      },
-      {
-        "headline": "Optimus V3 Lines Installing at Fremont; Cybercab Wash Site Breaks Ground in Vegas",
-        "summary": "Tesla has begun installing first-generation Optimus humanoid production lines at Fremont, with the V3 reveal still flagged for late July or early August alongside Q2 earnings. Separately, ground broke on a dedicated Cybercab cleaning and servicing facility in Clark County, Nevada — small but real physical infrastructure for the seven-city H2 robotaxi rollout. Both are credible execution proof points but neither moves Q2 numbers.",
-        "source": "Tesla / The Robot Report / Teslarati",
-        "date": "2026-05-16",
-        "sentiment": "bullish"
       }
     ]
   },
 
   "analysis_7d": {
-    "price_start": "$405.20",
+    "price_start": "$398.94",
     "price_end": "$422.24",
-    "period_high": "$445.27",
-    "period_low": "$398.30",
-    "change_pct": "+4.2%",
-    "trend": "uptrend interrupted by Friday's sharp reversal",
-    "rsi": 44.5,
-    "rsi_label": "Neutral — Friday's drop bled the momentum out; not oversold but the speedometer is now flat",
+    "period_high": "$445.00",
+    "period_low": "$398.94",
+    "change_pct": "+5.8%",
+    "trend": "choppy — peaked mid-week, faded into Friday",
+    "rsi": 60.3,
+    "rsi_label": "Neutral — momentum cooled from overbought after Friday's drop",
     "rsi_color": "green",
-    "macd_signal": "Bullish but converging — the MACD line is bending hard back toward the signal; a bearish crossover this week is plausible without fresh upside catalyst",
-    "ma_5d": "$432.16",
+    "macd_signal": "Bearish crossover forming — momentum is fading after the rally peaked",
+    "ma_5d": "$435.10",
     "ma_5d_position": "below",
-    "ma_50d": "$416.95",
-    "ma_50d_position": "above",
-    "ma_200d": "$383.50",
+    "ma_50d": "$428.20",
+    "ma_50d_position": "below",
+    "ma_200d": "$418.30",
     "ma_200d_position": "above",
-    "ma_cross_status": "Golden Cross intact — the 50-day MA ($416.95) sits well above the 200-day MA ($383.50); the long-term bullish setup is preserved",
-    "bollinger_position": "Lower half / mid-band — Friday's drop pulled price below the Bollinger middle near $441 and well off the upper band near $456",
-    "volume_trend": "Friday's 52.1M shares traded was clearly below the 59.8M 30-day average — a heavy down day on lighter-than-usual volume reads as profit-taking, not capitulation",
+    "ma_cross_status": "Golden Cross still intact — 50-day above 200-day, long-term bullish alignment holds",
+    "bollinger_position": "Middle band — pulled back from the upper band after the Friday sell-off",
+    "volume_trend": "Heavy volume on Friday's drop — sellers were committed, not just noise",
     "technical_signals": [
-      "Price sits below the 5-day moving average ($432.16) — short-term trend has rolled negative",
-      "Price is still about $5.30 above the 50-day moving average ($416.95) — the medium-term cushion is thin but intact",
-      "Price comfortably above the 200-day moving average ($383.50) — long-term uptrend firmly preserved",
-      "RSI at 44.5 — neutral; room to move either way once Monday's session resolves the Model Y / China tug of war",
-      "MACD bullish but rolling over — watch for a bearish crossover early this week",
-      "Down day on below-average volume points to profit-taking rather than forced selling",
-      "Model Y US price hike is a fresh bullish margin catalyst arriving into a soft technical setup"
+      "Price is above the 200-day average but just dropped below the 5-day and 50-day averages — a short-term yellow flag",
+      "RSI fell from above 70 (overbought) to around 60 in one session — the heat is coming out of the rally",
+      "MACD looks set to roll over after a Friday close below the signal line — momentum is shifting",
+      "Volume on Friday's down day was elevated — a conviction sell, not a low-energy drift"
     ],
-    "summary": "Tesla's week followed a classic rally-and-reversal arc: a steady climb from around $398 to a Wednesday peak near $445 on China-summit optimism, then a single-day Friday give-back of most of those gains after the summit ended with no FSD approval. The long-term structure is undamaged — Golden Cross intact, price comfortably above the 200-day average — and Friday's drop happened on lighter-than-usual volume, which argues against panic selling. The short-term picture has nevertheless clearly cooled: price is below the 5-day average, RSI is flat at 44, MACD momentum is rolling over. The fresh wildcard arriving Monday is the weekend Model Y price hike, the first US price increase in two years; that is a real margin signal that could give the medium-term $416-$418 support zone a fighting chance to hold. Lose $416 and the path back to the high-$390s opens up; reclaim $432 and Wednesday's $445 resistance is back in view."
+    "summary": "This week told two stories. From Monday through Thursday, Tesla looked unstoppable — the stock punched above $445 on robotaxi-expansion and Belgium FSD news. Then Friday happened: the Trump–Xi summit ended without China FSD approval and the stock dropped almost 5% on heavy volume, wiping out most of the week's gains. The damage is short-term — Tesla is still above its 200-day moving average and the longer-term Golden Cross is intact — but the easy momentum trade is over for now."
   },
 
   "analysis_30d": {
-    "price_start": "$362.50",
+    "price_start": "$336.00",
     "price_end": "$422.24",
-    "period_high": "$465.80",
-    "period_low": "$355.10",
-    "change_pct": "+16.5%",
-    "trend": "broad uptrend cooling at the highs",
+    "period_high": "$445.00",
+    "period_low": "$336.00",
+    "change_pct": "+25.7%",
+    "trend": "strong recovery uptrend, with a sharp Friday pullback",
     "key_levels": {
-      "support": "$416",
-      "support_reason": "Where the 50-day moving average ($416.95) meets the early-May breakout zone — the natural trampoline if Friday's selling extends. A weekly close below this level would be the first real crack in the rebound story.",
+      "support": "$400",
+      "support_reason": "Buyers stepped in firmly around the $398–$400 zone twice in early May — it has become the floor for this rally",
       "resistance": "$445",
-      "resistance_reason": "Last week's intraday rally stalled here twice (Wednesday and Thursday) before Friday's reversal. A clean breakout above $445 on convincing volume would open the path back to April highs near $466."
+      "resistance_reason": "Sellers appeared aggressively around $445 mid-week, and Friday's reversal off that level confirms it as the short-term ceiling"
     },
-    "ma_50d": "$416.95",
-    "ma_50d_position": "above",
-    "ma_200d": "$383.50",
+    "ma_50d": "$428.20",
+    "ma_50d_position": "below",
+    "ma_200d": "$418.30",
     "ma_200d_position": "above",
-    "rsi": 47.8,
-    "rsi_label": "Neutral — Friday's pullback cooled an otherwise stretched month",
+    "rsi": 60.3,
+    "rsi_label": "Neutral — cooled off from overbought, plenty of room either way",
     "rsi_color": "green",
-    "macd_signal": "Bullish but weakening — the daily histogram is shrinking and a crossover would not be a surprise",
+    "macd_signal": "Weakening bullish — losing momentum after the rally peak",
     "notable_events": [
-      "Apr 22: Q1 2026 earnings — EPS beat ($0.41 vs $0.36 est) and revenue beat ($22.39B vs $22.35B est), but deliveries missed at 358K and inventory swelled by 50K+ units (largest single-quarter build in Tesla history)",
-      "May 02-09: Robotaxi rally — stock climbed from $392 to $434 as fleet expanded from 9 to 39 vehicles; Dallas and Houston went live",
-      "May 12: Mid-week pullback to $412 on Dallas/Houston robotaxi glitches and Panasonic 4680 battery delays",
-      "May 13-14: Sharp rebound to $443 after RBC reiterated Outperform citing 51% YoY FSD subscriber growth",
-      "May 15: -4.75% reversal after Trump-Xi Beijing summit ended with no China FSD approval; 30-year Treasury yield broke 5%",
-      "May 16-17: Tesla raised US Model Y prices by $500-$1,000 (first hike in 2 years); Tesla China denied any equivalent move in mainland China"
+      "Apr 22: Q1 2026 earnings — EPS beat ($0.41 vs $0.36), revenue beat ($22.39B), but Q1 deliveries missed at 358K and inventory swelled by 50K+ units",
+      "Late Apr / Early May: ~32% rally from the $336 April low on robotaxi expansion to Dallas and Houston",
+      "May 11–12: Robotaxi fleet reaches 39 vehicles; Morgan Stanley calls expansion 'a material evolution'",
+      "May 14: NHTSA escalates Full Self-Driving probe to cover 3.2M vehicles",
+      "May 15: Trump–Xi summit ends without China FSD approval — stock drops 4.75% on heavy volume"
     ],
-    "summary": "The 30-day picture remains a recovery story — Tesla is up 16.5% — but the cracks are getting more visible. The narrative drivers (Q1 earnings beat, robotaxi fleet quadrupling, FSD subscribers +51% YoY) are genuinely powerful, but each successive rally leg has met heavier resistance and Friday's reversal was the first clear signal that the easy money has been made. The stock is now boxed in a tight $416-$445 consolidation range, supported below by the 50-day moving average and capped above by last week's failed breakout zone. The weekend Model Y price hike is the first new bullish input in over a week — it directly addresses the auto gross margin question that Q2 will turn on — but it is partially neutralised by Tesla China refusing to follow suit and by Wall Street's mean target still sitting below spot. The trend is technically still 'up' but it has lost its swagger; until China FSD lands or Q2 numbers force a re-rate, expect choppier two-way action inside the current range."
+    "summary": "Step back from the noise and the 30-day picture is still a recovery story. Tesla bottomed near $336 in early April and grinded all the way back to $445 mid-May — a ~32% bounce — on robotaxi expansion, the Q1 earnings beat, and FSD approval in Europe. Friday's 5% drop on the failed China deal took some shine off but only partially. The stock now sits between its 50-day average ($428) and 200-day average ($418) — a coiled, indecisive position that usually resolves with a sharp move one way or the other."
   },
 
   "outlook": {
-    "analyst_consensus": "Hold (slight Buy tilt)",
-    "analyst_buy_count": 12,
-    "analyst_hold_count": 12,
-    "analyst_sell_count": 5,
+    "analyst_consensus": "Hold (leaning Buy)",
+    "analyst_buy_count": 15,
+    "analyst_hold_count": 11,
+    "analyst_sell_count": 6,
     "avg_price_target": "$403.86",
-    "median_price_target": "$398",
+    "median_price_target": "$405.00",
     "high_price_target": "$600",
     "high_price_target_firm": "Wedbush (Dan Ives)",
-    "low_price_target": "$25.53",
+    "low_price_target": "$24.86",
     "low_price_target_firm": "GLJ Research (Gordon Johnson)",
-    "recent_rating_change": "UBS raised price target to $352 on April 14 (last formal upgrade); RBC reiterated Outperform on May 12 on 51% YoY FSD subscriber growth; Wedbush reiterated $600 high target on April 23; Morgan Stanley sits at $425",
+    "recent_rating_change": "Morgan Stanley reiterated Overweight on May 14, calling the robotaxi expansion 'a material evolution' and raising its fleet target to 1,000 vehicles by end-2026",
     "next_earnings_date": "2026-07-22",
-    "next_earnings_eps_estimate": "$0.44",
+    "next_earnings_eps_estimate": "$0.42",
     "next_earnings_revenue_estimate": "$24.52B",
     "catalysts": [
       {
-        "event": "Q2 2026 Delivery Report",
-        "timing": "First week of July 2026",
-        "impact": "high — could go either way",
-        "detail": "Street consensus sits at 390K-420K deliveries (a 9-17% sequential lift from Q1's 358K). Anything below 390K would confirm the slowdown thesis and likely re-test recent lows; anything above 420K would re-energise the bull case. The Model Y price hike will be tested directly here — did US demand stay sticky at the higher price?"
-      },
-      {
         "event": "Q2 2026 Earnings Report",
         "timing": "July 22, 2026",
-        "impact": "high — could go either way",
-        "detail": "EPS estimate $0.44 on $24.52B revenue. The Street wants auto gross margin back above 17% and visible early Cybercab revenue. The weekend US price hike makes that 17% margin bar materially easier to clear if order rates hold."
+        "impact": "bullish potential",
+        "detail": "Q2 is the first quarter where robotaxi revenue should be a visible line item, and analysts want to see auto gross margin recover above 17%. A clean beat plus margin recovery would re-rate the stock."
       },
       {
-        "event": "Optimus V3 Public Reveal",
-        "timing": "Late July / early August 2026",
-        "impact": "bullish potential",
-        "detail": "First-gen Optimus production lines are being installed at Fremont now, with V3 unveiling expected alongside Q2 earnings. A credible demo and a real production timeline would re-anchor the long-term AI thesis."
+        "event": "Next round of robotaxi city launches (Phoenix, Miami, Orlando)",
+        "timing": "Late Q2 — Q3 2026",
+        "impact": "bullish",
+        "detail": "Each new city adds geofenced revenue and validates the playbook. A safety incident in any city would do the opposite damage."
       },
       {
-        "event": "China FSD Regulatory Decision",
-        "timing": "Q3 2026 (slipped from Q2 after May 15 summit)",
-        "impact": "bullish potential",
-        "detail": "Approval would let Tesla monetise FSD in the world's largest EV market and would reverse Friday's selloff overnight. Rejection — or further silence — is now largely priced in after the summit produced no deal."
+        "event": "NHTSA FSD probe outcome",
+        "timing": "Open-ended, could escalate at any time",
+        "impact": "bearish risk",
+        "detail": "A formal recall recommendation covering 3.2M vehicles would be expensive and would force the robotaxi rollout to slow — the single biggest US-side overhang on the stock."
       },
       {
-        "event": "Robotaxi City Launches",
-        "timing": "Phoenix, Miami, Orlando, Tampa, Las Vegas — rolling H2 2026",
+        "event": "China FSD approval (renewed talks)",
+        "timing": "Indefinite — next attempt unclear",
         "impact": "bullish potential",
-        "detail": "Each new city is a tangible proof point and the Vegas Cybercab wash site is real physical commitment. But the freshly disclosed 17-crash NHTSA tally raises the headline cost of any safety incident in a new market."
+        "detail": "If Beijing eventually approves FSD, it unlocks the world's largest car market for Tesla's highest-margin software product. Failure of the Trump–Xi summit means this is on ice for now."
+      },
+      {
+        "event": "Cybercab production ramp",
+        "timing": "Second half of 2026",
+        "impact": "bullish potential",
+        "detail": "Cybercab is the purpose-built robotaxi vehicle. A real volume ramp would shift the story from 'Tesla retrofits cars' to 'Tesla manufactures a fleet' — a different valuation conversation."
       }
     ],
     "macro_factors": [
       {
-        "factor": "Long-end US interest rates",
+        "factor": "US–China trade relations",
         "impact": "bearish",
-        "detail": "30-year Treasury yields above 5% raise the discount rate on Tesla's late-decade robotaxi and Optimus cash flows — a direct valuation headwind for AI-premium growth names"
+        "detail": "No FSD approval and ongoing tariff risk both squeeze Tesla's China growth and margins simultaneously."
       },
       {
-        "factor": "US-China trade and tech relations",
-        "impact": "bearish",
-        "detail": "The Beijing summit produced no FSD deal and Tesla China's refusal to follow the US price hike signals a colder, more competitive Chinese backdrop where Tesla's NEV share has already shrunk to ~3%"
+        "factor": "US interest rates and EV-loan financing costs",
+        "impact": "neutral",
+        "detail": "Rates remain elevated, which weighs on big-ticket vehicle financing and on the present value of Tesla's future cash flows — but the Fed has signalled patience, so no immediate shock."
       },
       {
-        "factor": "Global EV demand and pricing power",
-        "impact": "mixed",
-        "detail": "Tesla's first US Model Y price increase in two years is a tentative signal that demand has firmed enough to test pricing power, but Europe deliveries fell ~49% YoY in Q1 and the 50K+ inventory build still hangs over the back half"
+        "factor": "Global EV competition (BYD, Chinese OEMs, legacy automakers)",
+        "impact": "bearish",
+        "detail": "BYD's price advantage in Asia and Europe continues to compress Tesla's market share, and Tesla's recent Model Y price hike is a high-stakes test of demand elasticity."
       }
     ],
-    "summary": "The next three to six months hinge on whether Tesla can convert narrative into numbers — and for the first time in six weeks, Wall Street as a whole is sceptical, with the consensus 12-month target ($403.86) sitting below Friday's close. The weekend Model Y price hike is the most important new input since the China summit: it directly addresses the auto-margin question that defines Q2 and, if order rates hold at the higher price, could push consensus targets back above spot. Bears will point to the trailing 416x P/E, 50K+ inventory build, no China FSD, Tesla China refusing to mirror the US price move, and confirmed negative free cash flow for the rest of 2026. Bulls have real proof points to lean on: Optimus V3 lines being installed at Fremont, a Cybercab wash site breaking ground in Vegas, FSD subscriptions growing 51% YoY, and now a credible margin tailwind. The Q2 delivery report in early July is the next hard catalyst; until then expect choppy two-way trading inside a $400-$450 range, with directional breakouts requiring either a China FSD surprise (bull case) or a robotaxi safety incident (bear case)."
+    "summary": "The next 3–6 months will be a tug-of-war between robotaxi execution (the bull case) and regulatory drag (the bear case). Best case: Tesla launches three more robotaxi cities cleanly, Q2 earnings deliver a margin beat, and the NHTSA probe fades quietly — that path takes the stock back to the $500 zone and re-ignites the 'platform business' narrative. Base case: Tesla muddles through, robotaxi expansion continues but Q2 margins disappoint and the stock chops in a $380–$460 range. Worst case: a robotaxi safety incident or formal NHTSA recall combined with continued China silence would crush the multiple and revisit the April lows. Position size for both outcomes."
   },
 
   "recommendation": {
     "signal": "HOLD",
     "confidence": "Medium",
-    "time_horizon": "Short-term (1-4 weeks)",
+    "time_horizon": "Short-to-medium term (4–12 weeks)",
     "bullish_signals_count": 5,
     "bearish_signals_count": 5,
-    "reasoning": "The bull-bear balance is now genuinely even, which is exactly what a HOLD looks like. Bullish: Golden Cross is intact, price is comfortably above both the 50-day and 200-day moving averages, RSI is neutral with room to move either way, the fundamental story keeps adding proof points (Optimus V3 lines, Cybercab wash site, FSD subs +51% YoY), and the weekend US Model Y price hike is a fresh, tangible margin catalyst that directly answers the question Q2 will be judged on. Bearish: Friday's -4.75% drop broke the rally structure and pushed price below the 5-day MA, MACD momentum is rolling over, Wall Street's average target ($403.86) still sits below spot, 30-year yields above 5% are a direct discount-rate headwind, and Tesla China refused to follow the US price hike — capping the bull case on the most important international market. Confidence is Medium because either scenario remains live and a single catalyst (China FSD landing, or a robotaxi safety incident) could resolve the picture either way within days. What flips this call: a decisive break above $445 with above-average volume turns this BUY; a weekly close below $416 (the 50-day MA) turns it SELL.",
-    "key_risk": "A failure to defend $416 (the 50-day MA) this week would close the medium-term cushion that has supported the rebound since early May, opening a likely retest of the high-$390s. With Wall Street's consensus target already below spot, there is little analyst-target support to cushion a deeper drawdown — and a follow-on robotaxi safety event in any of the new launch cities could accelerate the downside.",
+    "reasoning": "The technical picture is genuinely split. On the bullish side, Tesla is still above its 200-day moving average, the Golden Cross is intact, the 30-day trend is firmly up, the robotaxi rollout is accelerating with Morgan Stanley raising its targets, and analyst average price targets are close to today's price. On the bearish side, Friday's 4.75% drop on heavy volume just pushed the stock below the 50-day and 5-day averages, MACD is rolling over, the NHTSA probe was just escalated, China FSD approval failed, and Q1 deliveries missed with a huge inventory build. With five clear signals on each side, the honest answer is to hold what you own, wait for the next directional confirmation (either a successful defence of $400 support or a clean break above $445 resistance), and let Q2 earnings on July 22 do the talking. Anything bolder is a guess.",
+    "key_risk": "An NHTSA recall recommendation on Full Self-Driving — covering 3.2M vehicles — would simultaneously hit margins, slow the robotaxi rollout, and damage the AI narrative that is doing most of the heavy lifting in the bull case. That is the single biggest thing that could break this call.",
     "disclaimer": "⚠️ This is not financial advice. This is an AI-generated analysis for informational and educational purposes only. Always do your own research and consult a licensed financial advisor before making any investment decisions."
   },
 
   "price_chart": [
-    { "date": "May 05", "close": 398.30, "color": "green" },
-    { "date": "May 06", "close": 405.20, "color": "green" },
-    { "date": "May 07", "close": 412.80, "color": "green" },
-    { "date": "May 08", "close": 425.40, "color": "green" },
-    { "date": "May 09", "close": 434.10, "color": "green" },
-    { "date": "May 12", "close": 412.50, "color": "red" },
-    { "date": "May 13", "close": 442.10, "color": "green" },
+    { "date": "May 04", "close": null, "color": "green" },
+    { "date": "May 05", "close": null, "color": "green" },
+    { "date": "May 06", "close": null, "color": "green" },
+    { "date": "May 07", "close": 398.94, "color": "green" },
+    { "date": "May 08", "close": null, "color": "green" },
+    { "date": "May 11", "close": 445.00, "color": "green" },
+    { "date": "May 12", "close": 433.45, "color": "red" },
+    { "date": "May 13", "close": null, "color": "green" },
     { "date": "May 14", "close": 443.30, "color": "green" },
-    { "date": "May 15", "close": 422.24, "color": "red" },
-    { "date": "May 18", "close": 422.24, "color": "red" }
+    { "date": "May 15", "close": 422.24, "color": "red" }
   ]
 }
