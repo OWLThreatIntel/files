@@ -103,7 +103,7 @@ Search for the latest on:
 - Any new global health outbreaks
 
 #### 2e. CyberSecurity
-Search **BleepingComputer** (`bleepingcomputer.com`) and **The Hacker News** (`thehackernews.com`) for the latest:
+Search **BleepingComputer** (`bleepingcomputer.com`), **The Hacker News** (`thehackernews.com`) and **Talkback** (`https://talkback.sh/vulns/`) for the latest:
 - New CVEs (especially CRITICAL/HIGH severity)
 - Zero-day vulnerabilities
 - Actively exploited flaws (CISA KEV additions)
