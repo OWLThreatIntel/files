@@ -1,139 +1,112 @@
 {
   "meta": {
     "date": "2026-06-14",
-    "generated_at": "2026-06-14T09:10:00+08:00",
+    "generated_at": "2026-06-14T15:00:00+08:00",
     "edition": "Daily News Briefing",
     "sources": [
-      "BBC", "Channel NewsAsia", "The Straits Times", "Mothership", "CBS News",
-      "WHO Disease Outbreak News", "ECDC", "The Hacker News", "BleepingComputer",
-      "CISA KEV", "NVD", "NEA (data.gov.sg)", "LTA (data.gov.sg)"
+      "CNA", "The Straits Times", "BBC", "Mothership", "Gov.sg / LTA / NEA",
+      "WHO Disease Outbreak News", "The Hacker News", "BleepingComputer",
+      "CISA KEV", "NVD", "Motorist.sg"
     ]
   },
   "sections": {
     "top_stories": {
       "label": "Top Stories",
-      "ai_summary": "The Middle East dominates: Trump says a US–Iran deal to end the war will be signed today, June 14, though Tehran is questioning the timing and protesters gathered outside Iran's foreign ministry. Fighting hasn't stopped — Israel is striking south and east Lebanon with broad evacuation warnings, and Ukraine hit a Russian Black Sea port overnight. Elsewhere, Trump heads to the G-7, the US says it killed a Tren de Aragua gang leader in Venezuela, and Washington ordered Anthropic to bar foreign-national access to its top AI models.",
+      "ai_summary": "The Middle East dominates: Trump says a US–Iran deal to end the war will be signed Sunday, though Tehran is publicly questioning the timing and protesters gathered outside its foreign ministry. World leaders are converging on a tense G7 in Switzerland — where voters are also deciding whether to cap the population at 10 million — amid Geneva protests. Elsewhere, a US air strike killed a Venezuelan gang leader, Anthropic pulled its top AI models on US government orders, and the New York Knicks ended a 50-year title drought.",
       "stories": [
         {
           "id": "ts1",
-          "headline": "Trump says US–Iran deal to end war will be signed June 14; Tehran questions timing",
+          "headline": "US and Iran inch closer to deal to end war; Trump says it will be signed Sunday, Tehran questions timing",
           "category": "Middle East",
-          "summary": "President Trump said an agreement to end the US–Iran war would be signed on Sunday, June 14, while Iranian officials publicly cast doubt on the timing. The framing of the deal remains contested between Washington and Tehran.",
-          "source": "BBC, CNA, The Straits Times",
-          "published_at": "2026-06-14T02:39+08:00",
-          "url": "https://www.bbc.com/news/articles/cvglmn49xz0o"
+          "summary": "President Trump said a deal to end the Middle East war would be signed on Sunday, but Iranian officials publicly questioned the timing as negotiators said the two sides were edging closer without a confirmed schedule. Dozens protested against the prospective deal outside Iran's foreign ministry.",
+          "source": "CNA, The Straits Times, BBC",
+          "published_at": "2026-06-14T12:40+08:00",
+          "url": "https://www.channelnewsasia.com/world/us-iran-inch-closer-deal-end-middle-east-war-timing-remains-unclear-6181876"
         },
         {
           "id": "ts2",
-          "headline": "Lebanon reports strikes on south and east as Israel issues broad evacuation warnings",
-          "category": "Middle East",
-          "summary": "Lebanese authorities reported Israeli air strikes on southern and eastern Lebanon after Israel issued wide evacuation warnings. Hezbollah said it confronted Israeli troops advancing in the south; casualty claims have not been independently verified.",
-          "source": "The Straits Times, CNA",
-          "published_at": "2026-06-14T07:25+08:00",
-          "url": "https://www.straitstimes.com/world/middle-east/lebanon-reports-strikes-on-south-east-as-israel-issues-broad-evacuation-warnings"
+          "headline": "Trump to meet Middle East leaders and join Ukraine session at G7 as protests grip Geneva",
+          "category": "Geopolitics",
+          "summary": "US officials said Trump will meet Middle East leaders and attend a Ukraine session at the G7 summit in Switzerland. Thousands of demonstrators were expected in Geneva ahead of the gathering.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-14T09:33+08:00",
+          "url": "https://www.channelnewsasia.com/world/protests-set-grip-geneva-ahead-g7-summit-6181861"
         },
         {
           "id": "ts3",
-          "headline": "Dozens protest peace deal outside Iran's foreign ministry",
-          "category": "Middle East",
-          "summary": "Iranian media reported that dozens gathered outside the foreign ministry in Tehran to protest the proposed deal with the United States, underscoring domestic opposition as the agreement is finalised.",
-          "source": "The Straits Times",
-          "published_at": "2026-06-14T07:15+08:00",
-          "url": "https://www.straitstimes.com/world/middle-east/dozens-protest-peace-deal-outside-iran-foreign-ministry-media"
+          "headline": "US air strike kills leader of Venezuela's Tren de Aragua gang, Trump says",
+          "category": "Americas",
+          "summary": "Trump said a US–Venezuela operation killed the leader of the Tren de Aragua criminal gang in an air strike. US authorities described the target as a senior figure in the transnational group.",
+          "source": "BBC, CNA",
+          "published_at": "2026-06-14T14:39+08:00",
+          "url": "https://www.bbc.com/news/articles/cp36z37knlko"
         },
         {
           "id": "ts4",
-          "headline": "Ukraine drone strike sparks fire at Russian port of Temryuk, one killed",
-          "category": "Russia–Ukraine",
-          "summary": "A Ukrainian drone strike on the Russian Black Sea port of Temryuk in Krasnodar killed one person and sparked a fire, the regional governor said, as Kyiv steps up long-range strikes on Russian ports and energy sites.",
-          "source": "CNA",
-          "published_at": "2026-06-14T01:16+08:00",
-          "url": "https://www.channelnewsasia.com/world/ukraine-drone-strikes-kills-one-sparks-fire-russian-port-temryuk-governor-says-6181026"
+          "headline": "Switzerland votes on proposal to cap population at 10 million",
+          "category": "Europe",
+          "summary": "Swiss voters are deciding in a referendum on a proposal to cap the country's population at 10 million, a measure backed by the right that would force curbs on immigration if approved.",
+          "source": "The Straits Times, BBC",
+          "published_at": "2026-06-14T13:36+08:00",
+          "url": "https://www.straitstimes.com/world/europe/switzerland-votes-on-proposal-to-cap-population-at-10-million"
         },
         {
           "id": "ts5",
-          "headline": "Trump to meet Middle East leaders and attend Ukraine session at G-7",
-          "category": "World Politics",
-          "summary": "US officials said President Trump will meet Middle East leaders and attend a session on Ukraine at the G-7 summit, as Washington pushes its diplomacy on both conflicts simultaneously.",
-          "source": "The Straits Times, CNA",
-          "published_at": "2026-06-13T23:13+08:00",
-          "url": "https://www.straitstimes.com/world/trump-to-meet-with-middle-east-leaders-attend-ukraine-session-at-g7-us-officials-say"
+          "headline": "Anthropic suspends advanced AI models after US government security order",
+          "category": "Technology",
+          "summary": "Anthropic said it would abruptly disable its most advanced models, Claude Fable 5 and Mythos 5, after the US government ordered it to suspend access for foreign nationals over national-security concerns.",
+          "source": "BBC, The Hacker News",
+          "published_at": "2026-06-14T00:28+08:00",
+          "url": "https://www.bbc.com/news/articles/c932g3v3e13o"
         },
         {
           "id": "ts6",
-          "headline": "US says operation in Venezuela killed Tren de Aragua gang leader",
-          "category": "Americas",
-          "summary": "President Trump said a US operation killed the leader of the Tren de Aragua gang in Venezuela. Independent confirmation of the strike's details was limited at the time of reporting.",
-          "source": "BBC, CNA",
-          "published_at": "2026-06-13T17:09+08:00",
-          "url": "https://www.bbc.com/news/articles/cp36z37knlko"
+          "headline": "Bangladesh PM picks Malaysia and China before India for debut overseas tour",
+          "category": "Asia",
+          "summary": "Bangladesh's prime minister chose Malaysia and China ahead of India for his first overseas trip, a sequencing CNA reports signals shifting regional alignments in South Asia.",
+          "source": "CNA",
+          "published_at": "2026-06-13T16:06+08:00",
+          "url": "https://www.channelnewsasia.com/asia/why-bangladesh-chose-malaysia-and-china-india-pm-rahmans-debut-tour-6181041"
         },
         {
           "id": "ts7",
           "headline": "Trump's name removed from Kennedy Center after court order",
-          "category": "US Politics",
-          "summary": "Trump's name was removed from the Kennedy Center in a predawn operation after a judge declined to halt the change, capping a legal back-and-forth over the renaming.",
+          "category": "United States",
+          "summary": "Trump's name was removed from Washington's Kennedy Center in a predawn operation after a judge declined to halt the change, capping a legal dispute over the naming.",
           "source": "BBC, CNA",
           "published_at": "2026-06-14T01:00+08:00",
           "url": "https://www.bbc.com/news/articles/c5yzd4dgxw4o"
         },
         {
           "id": "ts8",
-          "headline": "Iran sets funeral for late Supreme Leader Khamenei; burial on July 9",
-          "category": "Middle East",
-          "summary": "Iranian state TV said the funeral for the late Supreme Leader Ali Khamenei will begin July 4, with burial on July 9. The announcement follows the leadership transition in Tehran during the conflict with the US.",
-          "source": "The Straits Times",
-          "published_at": "2026-06-13T20:48+08:00",
-          "url": "https://www.straitstimes.com/world/middle-east/funeral-for-irans-late-supreme-leader-khamenei-to-begin-july-4-burial-set-for-july-9"
+          "headline": "New York Knicks win first NBA championship in over 50 years",
+          "category": "Sport",
+          "summary": "The New York Knicks claimed their first NBA title in more than five decades, ending one of the league's longest championship droughts.",
+          "source": "BBC",
+          "published_at": "2026-06-14T14:47+08:00",
+          "url": "https://www.bbc.com/news/articles/c78yw4zw19do"
         },
         {
           "id": "ts9",
-          "headline": "US orders Anthropic to bar foreign-national access to Fable, Mythos models",
-          "category": "Technology / Policy",
-          "summary": "The US government asked Anthropic to suspend access to its Fable 5 and Mythos 5 AI models for foreign nationals, citing national-security concerns. Anthropic moved to restrict the tools in response.",
-          "source": "BBC, The Hacker News, BleepingComputer",
-          "published_at": "2026-06-14T00:28+08:00",
-          "url": "https://www.bbc.com/news/articles/c932g3v3e13o"
-        },
-        {
-          "id": "ts10",
-          "headline": "US Justice Department approves Warner Bros' $111bn sale to Paramount",
-          "category": "Business",
-          "summary": "The US Justice Department approved the roughly $111 billion sale of Warner Bros to Paramount, clearing one of the largest media mergers in recent years.",
-          "source": "BBC",
-          "published_at": "2026-06-13T11:28+08:00",
-          "url": "https://www.bbc.com/news/articles/cjwgled9jxwo"
-        },
-        {
-          "id": "ts11",
-          "headline": "2026 World Cup kicks off; Qatar snatch late draw with Switzerland",
-          "category": "Sport",
-          "summary": "The expanded 2026 World Cup got underway, with Qatar scoring late to clinch a draw against Switzerland in the opener as host-nation matches drew large crowds.",
-          "source": "CNA",
-          "published_at": "2026-06-14T05:28+08:00",
-          "url": "https://www.channelnewsasia.com/world/qatar-score-late-clinch-draw-stunned-switzerland-in-world-cup-opener-6181576"
-        },
-        {
-          "id": "ts12",
-          "headline": "Switzerland votes on proposal to cap population at 10 million",
+          "headline": "British forces intercept Russian shadow-fleet oil tanker in English Channel",
           "category": "Europe",
-          "summary": "Swiss voters went to the polls on a proposal to cap the country's population at 10 million, a referendum that has reignited debate over immigration and growth.",
-          "source": "The Straits Times, BBC",
-          "published_at": "2026-06-14T08:03+08:00",
-          "url": "https://www.straitstimes.com/world/europe/switzerland-votes-on-proposal-to-cap-population-at-10-million"
+          "summary": "British forces intercepted a Russian \"shadow fleet\" oil tanker attempting to cross the English Channel, part of Western efforts to pressure the covert vessels used to move sanctioned Russian oil.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-14T14:38+08:00",
+          "url": "https://www.straitstimes.com/world/europe/british-forces-intercept-russian-shadow-fleet-oil-tanker-attempting-to-cross-english-channel"
         }
       ]
     },
     "singapore": {
       "label": "Singapore",
-      "ai_summary": "A busy local Sunday: LTA is warning drivers against using clips to keep seat belts slack, PSA paid a fine over a 2017 terminal worker's death while appealing the verdict, and Minister Sim Ann set out Singapore's targeted approach to online regulation. On the lighter side, \"forward deployed engineers\" are the hot new AI hire, and a Thai photographer was fined S$15,000 for droning over SAFTI. Expect thundery showers with highs around 34°C; COE stays pricey, with Cat A and Cat B both near S$127k.",
+      "ai_summary": "Transport rules lead the day: from June 15, Singapore's revised driving-licence requirements extend to all EVs up to 3,000kg, and LTA is warning against devices that keep seat belts slack. The government says it is taking a targeted, national-interest approach to online regulation. On the lighter side, CJ Hendry's Flower Market has been extended to June 15 by popular demand, (G)I-dle packed out their Syncopation concert, and a Tampines blender mishap had everyone wincing. Hot and stormy weather continues, with thundery showers and highs around 34°C.",
       "weather": {
         "forecast": "Thundery Showers",
         "temp_low": 26,
         "temp_high": 34,
         "humidity_low": 60,
         "humidity_high": 95,
-        "as_of": "2026-06-14T05:30+08:00",
+        "as_of": "2026-06-14T11:36+08:00",
         "source": "NEA",
         "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
       },
@@ -151,204 +124,141 @@
       "stories": [
         {
           "id": "sg1",
-          "headline": "LTA warns against using clips to keep seat belts slack",
-          "category": "Transport / Safety",
-          "summary": "The Land Transport Authority warned motorists against the practice of using clips and other devices to keep seat belts slack, saying it defeats the belt's safety function and can be an offence.",
+          "headline": "Revised driving-licence requirements extended to all EVs up to 3,000kg from June 15",
+          "category": "Transport",
+          "summary": "From June 15, Singapore's revised driving-licence requirements apply to all electric vehicles weighing up to 3,000kg, extending rules previously focused on heavier EVs as more such models hit the roads.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-14T12:45+08:00",
+          "effective_date": "2026-06-15",
+          "url": "https://www.straitstimes.com/singapore/revised-driving-licence-requirements-extended-to-all-heavier-evs-from-june-15"
+        },
+        {
+          "id": "sg2",
+          "headline": "LTA warns against keeping seat belts slack with clips and other devices",
+          "category": "Transport",
+          "summary": "The Land Transport Authority warned motorists against using clips and gadgets that keep seat belts slack, saying the practice undermines the belt's protection and can be an offence.",
           "source": "The Straits Times",
           "published_at": "2026-06-14T05:00+08:00",
           "url": "https://www.straitstimes.com/singapore/courts-crime/lta-warns-against-practice-of-keeping-seat-belts-slack-with-clips-and-other-devices"
         },
         {
-          "id": "sg2",
-          "headline": "PSA pays fine over 2017 Keppel Terminal worker death, but appeals verdict",
-          "category": "Courts / Workplace Safety",
-          "summary": "PSA paid a fine over a worker's death at Keppel Terminal in 2017 but is appealing the guilty verdict and sentence, continuing a long-running workplace-safety case.",
-          "source": "CNA",
-          "published_at": "2026-06-13T13:35+08:00",
-          "url": "https://www.channelnewsasia.com/singapore/psa-keppel-terminal-workplace-death-safety-fine-appeal-6180936"
-        },
-        {
           "id": "sg3",
-          "headline": "Singapore takes targeted approach to online regulation, says Sim Ann",
-          "category": "Government / Policy",
-          "summary": "Minister of State Sim Ann said Singapore takes a targeted approach to online regulation, focused on national interest rather than broad content controls, in remarks on the country's digital-governance stance.",
+          "headline": "Singapore takes targeted approach to online regulation, focused on national interest: Sim Ann",
+          "category": "Government",
+          "summary": "Senior Minister of State Sim Ann said Singapore takes a targeted approach to regulating online content, prioritising national interest rather than broad censorship.",
           "source": "The Straits Times",
-          "published_at": "2026-06-13T18:52+08:00",
+          "published_at": "2026-06-14T05:00+08:00",
           "url": "https://www.straitstimes.com/singapore/courts-crime/spore-takes-targeted-approach-to-online-regulation-focuses-on-national-interest-sim-ann"
         },
         {
           "id": "sg4",
-          "headline": "Pasir Ris-Changi residents to get discounted food and services under new programme",
-          "category": "Community / Cost of Living",
-          "summary": "A new programme will give Pasir Ris-Changi residents access to discounted food and services, aimed at easing cost-of-living pressures in the area.",
+          "headline": "Passenger rescued after being trapped in lorry following Woodlands accident",
+          "category": "Incident",
+          "summary": "A passenger was rescued after being trapped in a lorry following an accident in Woodlands, with emergency crews extricating the person at the scene.",
           "source": "The Straits Times",
-          "published_at": "2026-06-13T15:51+08:00",
-          "url": "https://www.straitstimes.com/singapore/community/pasir-ris-changi-residents-to-get-discounted-food-services-under-new-programme"
+          "published_at": "2026-06-14T13:55+08:00",
+          "url": "https://www.straitstimes.com/singapore/passenger-rescued-after-being-trapped-in-lorry-following-accident-in-woodlands"
         },
         {
           "id": "sg5",
-          "headline": "Singapore deeply saddened by death of Thai Princess Bajrakitiyabha",
-          "category": "Foreign Relations",
-          "summary": "The Singapore government said it was deeply saddened by the death of Thailand's Princess Bajrakitiyabha Mahidol, extending condolences as mourners gathered in Bangkok.",
+          "headline": "Pasir Ris-Changi residents to get discounted food and services under new programme",
+          "category": "Community",
+          "summary": "A new community programme will offer Pasir Ris-Changi residents discounts on food and services, aimed at easing cost-of-living pressures in the area.",
           "source": "The Straits Times",
-          "published_at": "2026-06-13T12:02+08:00",
-          "url": "https://www.straitstimes.com/singapore/singapore-govt-deeply-saddened-by-death-of-thai-princess-bajrakitiyabha-mahidol"
+          "published_at": "2026-06-13T18:52+08:00",
+          "url": "https://www.straitstimes.com/singapore/community/pasir-ris-changi-residents-to-get-discounted-food-services-under-new-programme"
         },
         {
           "id": "sg6",
-          "headline": "Photographer fined S$15,000 for flying drone over SAFTI, Pasir Laba Camp",
-          "category": "Courts / Trending",
-          "summary": "A freelance photographer was fined S$15,000 after flying a drone without a permit and capturing footage of SAFTI Military Institute and Pasir Laba Camp, a case that drew wide local attention.",
-          "source": "CNA, Mothership",
-          "published_at": "2026-06-13T12:01+08:00",
-          "url": "https://www.channelnewsasia.com/singapore/photographer-fined-15000-operated-drone-over-safti-pasir-laba-camp-6178981"
+          "headline": "Singapore study links gut health to fatty liver disease",
+          "category": "Health",
+          "summary": "A Singapore study has found associations between gut health and fatty liver disease, pointing to the microbiome as a potential factor researchers say warrants further investigation.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-14T12:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/health/the-proof-is-in-the-poo-spore-study-links-gut-health-to-fatty-liver-disease"
         },
         {
           "id": "sg7",
-          "headline": "The hottest new AI job: 'forward deployed engineers' in demand in Singapore",
-          "category": "Tech / Trending",
-          "summary": "Singapore employers are increasingly hiring \"forward deployed engineers\" — technical staff who embed with customers to deploy AI tools — as one of the hottest new roles in the local tech market.",
+          "headline": "CJ Hendry's Flower Market extended to June 15 amid 'overwhelming demand'",
+          "category": "Trending",
+          "summary": "Artist CJ Hendry's popular Flower Market installation has been extended to June 15 after what organisers called overwhelming demand from visitors.",
           "source": "The Straits Times",
-          "published_at": "2026-06-14T05:00+08:00",
-          "url": "https://www.straitstimes.com/tech/the-hottest-new-ai-job-forward-deployed-engineers-are-in-demand-in-singapore"
+          "published_at": "2026-06-14T10:32+08:00",
+          "url": "https://www.straitstimes.com/singapore/cj-hendrys-flower-market-extended-until-june-15-due-to-overwhelming-demand"
         },
         {
           "id": "sg8",
-          "headline": "Investors searching for former SEA Games ice hockey player over $9m loan",
-          "category": "Courts / Crime",
-          "summary": "Investors are trying to track down a former SEA Games ice hockey player over a $9 million loan, according to court-related reporting on the dispute.",
-          "source": "The Straits Times",
-          "published_at": "2026-06-14T05:00+08:00",
-          "url": "https://www.straitstimes.com/singapore/courts-crime/investors-looking-for-former-sea-games-ice-hockey-player-over-9m-loan"
+          "headline": "(G)I-dle bring charisma and powerful vocals — and a JJ Lin cover — to Singapore concert",
+          "category": "Entertainment",
+          "summary": "K-pop group (G)I-dle delivered immense charisma and powerful vocals at their Syncopation concert in Singapore, including a crowd-pleasing cover of JJ Lin, in a review of the show.",
+          "source": "CNA",
+          "published_at": "2026-06-14T11:11+08:00",
+          "url": "https://www.channelnewsasia.com/entertainment/i-dle-syncopation-singapore-concert-review-6181906"
+        },
+        {
+          "id": "sg9",
+          "headline": "Woman allegedly gets hand caught in blender at Tampines condo, taken to hospital",
+          "category": "Trending",
+          "summary": "A woman was taken to hospital after allegedly getting her hand caught in a blender at a Tampines condominium, an incident that drew attention online.",
+          "source": "Mothership",
+          "published_at": "2026-06-13T17:37+08:00",
+          "url": "https://mothership.sg/2026/06/woman-hand-blender-tropica/"
         }
       ]
     },
     "wars": {
       "label": "Wars & Conflicts",
-      "ai_summary": "The US–Iran war may be winding down on paper — Trump says a deal will be signed June 14 — but strikes continued through the week and Iran is publicly hedging on the timing. Israel has widened its air campaign in Lebanon with broad evacuation warnings, and Hezbollah says it clashed with advancing Israeli troops. In Ukraine, the pattern holds: Russian drone-and-missile barrages on Ukrainian cities, answered by Kyiv's deepening long-range strikes on Russian ports and energy infrastructure.",
+      "ai_summary": "The Israel–Iran/US track is the day's pivot: Trump says a deal to end the war will be signed Sunday, but Tehran is questioning the timing and military activity still flickers near the Strait of Hormuz. In Lebanon, Israel kept up strikes on the south and east with broad evacuation warnings. The Russia–Ukraine war grinds on, with a Ukrainian drone strike on a Russian port and a British interception of a Russian shadow-fleet tanker, even as Ukraine is set for a G7 session.",
       "theatres": [
         {
-          "name": "US–Iran Conflict (Strait of Hormuz)",
-          "status": "Trump says a deal to end the war will be signed June 14; Iran questions the timing as strikes continue and protesters oppose the agreement in Tehran.",
+          "name": "US / Israel–Iran (Strait of Hormuz)",
+          "status": "Peace deal said to be imminent but unconfirmed; Iran questions timing; sporadic military activity near the Strait of Hormuz",
           "timeline": [
-            {
-              "date": "2026-06-09",
-              "event": "Iran and Israel say they will pause strikes but warn of retaliation if a ceasefire is breached again.",
-              "source": "BBC",
-              "url": "https://www.bbc.com/news/articles/cj6ge150z5go"
-            },
-            {
-              "date": "2026-06-10",
-              "event": "US strikes Iran in response to the downing of a US military helicopter near the Strait of Hormuz.",
-              "source": "BBC",
-              "url": "https://www.bbc.com/news/articles/cze9359gglyo"
-            },
-            {
-              "date": "2026-06-12",
-              "event": "US and Iran exchange strikes across the Middle East for a second day; a US strike on an oil tanker kills three Indian sailors.",
-              "source": "BBC",
-              "url": "https://www.bbc.com/news/articles/cy73dr081p8o"
-            },
-            {
-              "date": "2026-06-13",
-              "event": "Israel carries out air strikes on Lebanon as Iran says a deal with the US is near; Iranian state TV sets the late Supreme Leader Khamenei's funeral for July 4, burial July 9.",
-              "source": "BBC, The Straits Times",
-              "url": "https://www.bbc.com/news/articles/c39y02x98k8o"
-            },
-            {
-              "date": "2026-06-14",
-              "event": "Trump says the deal will be signed today; Iran questions the timing and dozens protest outside the foreign ministry in Tehran.",
-              "source": "The Straits Times, CNA",
-              "url": "https://www.straitstimes.com/world/middle-east/trump-says-deal-to-end-war-will-be-signed-on-sunday-iran-questions-timing"
-            }
+            { "date": "2026-06-13", "event": "Trump said a deal to end the Middle East war would be signed on Sunday; Iran questioned the timing as a separate flare-up of military action was reported near the Strait of Hormuz.", "source": "CNA", "url": "https://www.channelnewsasia.com/world/united-states-iran-war-ceasefire-peace-deal-agreement-6181146" },
+            { "date": "2026-06-14", "event": "US and Iran said to be inching closer to a deal, with the timing still unclear.", "source": "The Straits Times", "url": "https://www.straitstimes.com/world/middle-east/us-iran-inch-closer-to-deal-timing-remains-unclear" },
+            { "date": "2026-06-14", "event": "Dozens protested against the prospective peace deal outside Iran's foreign ministry, according to local media.", "source": "The Straits Times", "url": "https://www.straitstimes.com/world/middle-east/dozens-protest-peace-deal-outside-iran-foreign-ministry-media" }
           ]
         },
         {
-          "name": "Israel–Lebanon (Hezbollah)",
-          "status": "Israel striking south and east Lebanon with broad evacuation warnings; Hezbollah says it confronted advancing Israeli troops. Casualty claims not independently verified.",
+          "name": "Israel–Lebanon / Gaza",
+          "status": "Israeli strikes on southern and eastern Lebanon continue amid broad evacuation warnings",
           "timeline": [
-            {
-              "date": "2026-06-10",
-              "event": "Israeli strikes in southern Lebanon kill 17, according to local reports.",
-              "source": "BBC",
-              "url": "https://www.bbc.com/news/articles/cpq3d44l907o"
-            },
-            {
-              "date": "2026-06-13",
-              "event": "Israel carries out air strikes on Lebanon, Lebanese state media says.",
-              "source": "BBC",
-              "url": "https://www.bbc.com/news/articles/c39y02x98k8o"
-            },
-            {
-              "date": "2026-06-14",
-              "event": "Lebanon reports strikes on the south and east as Israel issues broad evacuation warnings; Hezbollah says it confronted Israeli troops advancing in the south.",
-              "source": "The Straits Times, CNA",
-              "url": "https://www.straitstimes.com/world/middle-east/lebanon-reports-strikes-on-south-east-as-israel-issues-broad-evacuation-warnings"
-            }
+            { "date": "2026-06-13", "event": "Lebanon reported Israeli strikes on the south as Israel issued broad evacuation warnings.", "source": "CNA", "url": "https://www.channelnewsasia.com/world/lebanon-reports-strikes-south-israel-issues-broad-evacuation-warnings-6181136" },
+            { "date": "2026-06-14", "event": "Lebanon reported strikes on the south and east as Israel widened its evacuation warnings.", "source": "The Straits Times", "url": "https://www.straitstimes.com/world/middle-east/lebanon-reports-strikes-on-south-east-as-israel-issues-broad-evacuation-warnings" }
           ]
         },
         {
-          "name": "Russia–Ukraine War",
-          "status": "Russia continues drone-and-missile barrages on Ukrainian cities; Ukraine deepens long-range strikes on Russian ports and energy infrastructure.",
+          "name": "Russia–Ukraine",
+          "status": "War continues; Ukraine strikes Russian ports while the West targets the shadow fleet; Ukraine set for a G7 session",
           "timeline": [
-            {
-              "date": "2026-06-08",
-              "event": "Russia's fuel crisis intensifies as Ukraine steps up strikes on occupied territories, the BBC reports.",
-              "source": "BBC",
-              "url": "https://www.bbc.com/news/articles/cn75l36vdd8o"
-            },
-            {
-              "date": "2026-06-10",
-              "event": "Ukraine says its missiles hit a military plant deep inside Russia.",
-              "source": "BBC",
-              "url": "https://www.bbc.com/news/articles/c5yzm2nzgr2o"
-            },
-            {
-              "date": "2026-06-13",
-              "event": "Ukrainian officials report Russian overnight drone-and-missile attacks across the country, with casualties reported in several regions.",
-              "source": "CBS News",
-              "url": "https://www.cbsnews.com/news/russia-ukraine-war-major-attacks-missile-drone-kill-several-wound-dozens/"
-            },
-            {
-              "date": "2026-06-14",
-              "event": "A Ukrainian drone strike sparks a fire at Russia's Temryuk port in Krasnodar, killing one, the regional governor says.",
-              "source": "CNA",
-              "url": "https://www.channelnewsasia.com/world/ukraine-drone-strikes-kills-one-sparks-fire-russian-port-temryuk-governor-says-6181026"
-            }
+            { "date": "2026-06-13", "event": "A Ukrainian drone strike killed one person and sparked a fire at the Russian port of Temryuk, the regional governor said.", "source": "CNA", "url": "https://www.channelnewsasia.com/world/ukraine-drone-strikes-kills-one-sparks-fire-russian-port-temryuk-governor-says-6181026" },
+            { "date": "2026-06-14", "event": "British forces intercepted a Russian \"shadow fleet\" oil tanker attempting to cross the English Channel.", "source": "The Straits Times", "url": "https://www.straitstimes.com/world/europe/british-forces-intercept-russian-shadow-fleet-oil-tanker-attempting-to-cross-english-channel" },
+            { "date": "2026-06-14", "event": "US officials said Trump would attend a Ukraine session at the G7 summit in Switzerland.", "source": "CNA", "url": "https://www.channelnewsasia.com/world/trump-meet-middle-east-leaders-attend-ukraine-session-g7-us-officials-say-6181336" }
           ]
         }
       ]
     },
     "outbreaks": {
       "label": "Outbreaks",
-      "ai_summary": "The dominant outbreak is Bundibugyo Ebola in the Democratic Republic of the Congo and Uganda, which WHO says is climbing fast — 695 confirmed cases and 138 deaths as of its June 13 update, with the recent jump partly due to a backlog of samples now being tested. The earlier hantavirus cluster tied to the cruise ship M/V Hondius (13 cases, 3 deaths) has stayed quiet, with no new WHO update since late May. Ebola is the one to watch.",
+      "ai_summary": "The Bundibugyo Ebola epidemic in the Democratic Republic of the Congo and Uganda is escalating sharply: WHO's latest Disease Outbreak News (13 June) reports 695 confirmed cases and 138 deaths, with the rapid rise partly reflecting expanded testing of a backlog of samples. The DRC accounts for the overwhelming majority of cases. The earlier MV Hondius cruise-ship hantavirus cluster has had no new WHO update in over two weeks and appears to have stabilised, so it is not tracked as active this run.",
       "outbreaks": [
         {
-          "name": "Bundibugyo Ebola — DR Congo & Uganda",
-          "status": "Rising rapidly in DR Congo; cross-border cases in Uganda. Active.",
+          "name": "Bundibugyo virus (Ebola) — DR Congo & Uganda",
+          "status": "Escalating; cases rising rapidly in DR Congo, partly due to scaled-up testing",
           "cases": 695,
           "deaths": 138,
           "countries": 2,
           "as_of": "2026-06-13",
-          "scope_note": "Confirmed cases only, DRC + Uganda combined (DRC 676 cases/136 deaths; Uganda 19 cases/2 deaths); at least 37 recovered. Per WHO DON607 (DRC data as of 10 Jun, Uganda 11 Jun); the recent rise partly reflects testing of a backlog of samples."
-        },
-        {
-          "name": "Hantavirus cluster — M/V Hondius cruise ship",
-          "status": "No new WHO update since 28 May; cluster appears contained. Off-ship risk low.",
-          "cases": 13,
-          "deaths": 3,
-          "countries": "multi-country",
-          "as_of": "2026-05-27",
-          "scope_note": "11 confirmed + 2 probable cases, 3 deaths among passengers/crew of the Netherlands-flagged M/V Hondius (nationalities incl. Canada, Netherlands, Spain). Per WHO DON604; figures are now over two weeks old with no newer DON — treat as stale/contained."
+          "scope_note": "WHO DON607 (13 Jun 2026): 695 confirmed cases (676 DR Congo + 19 Uganda) and 138 deaths (incl. 2 in Uganda); at least 37 recovered. DRC figures as of 10 Jun, Uganda as of 11 Jun. Confirmed cases only."
         }
       ],
       "stories": [
         {
           "id": "ob1",
-          "headline": "WHO: Bundibugyo Ebola cases climb to 695 in DR Congo and Uganda",
+          "headline": "WHO: Bundibugyo Ebola cases surge to 695 with 138 deaths in DR Congo and Uganda",
           "category": "Ebola",
-          "summary": "In its June 13 Disease Outbreak News, WHO reported 695 confirmed Bundibugyo virus cases and 138 deaths across the DRC and Uganda, with 161 additional confirmed cases in the DRC since June 8 — a rise partly driven by testing of previously collected samples.",
-          "source": "WHO",
+          "summary": "WHO's latest Disease Outbreak News (13 June) reported 695 confirmed Bundibugyo virus disease cases and 138 deaths across the DRC and Uganda — a rapid increase since the 8 June report, driven in part by expanded testing of a backlog of samples. The DRC accounts for 676 cases; Uganda has 19. WHO says at least 37 people have recovered.",
+          "source": "WHO Disease Outbreak News (DON607)",
           "published_at": "2026-06-13",
           "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON607"
         }
@@ -356,151 +266,151 @@
     },
     "cybersecurity": {
       "label": "CyberSecurity",
-      "ai_summary": "Critical, unauthenticated RCE bugs lead the cycle: Splunk Enterprise (CVE-2026-20253, 9.8) and a maxed-out Ivanti Sentry flaw (CVE-2026-10520, 10.0) that CISA ordered patched within days, plus an actively exploited Oracle PeopleSoft zero-day (CVE-2026-35273) that ShinyHunters used to hit universities. Supply-chain and stealth campaigns are the other theme — 400+ hijacked Arch Linux AUR packages and a decade-long China-linked Linux login backdoor. A run of data breaches (Novo Nordisk, a French government messenger, a Japanese energy firm) rounds out the week.",
+      "ai_summary": "Patch priorities lead this cycle: critical unauthenticated RCE flaws in Splunk Enterprise (CVE-2026-20253, CVSS 9.8) and Ivanti Sentry (CVE-2026-10520, CVSS 10.0) headline a busy week, with Ivanti and an Oracle PeopleSoft zero-day (CVE-2026-35273) already exploited and added to CISA's KEV catalog. Supply-chain and AI-agent risks are prominent too — 400+ hijacked Arch Linux AUR packages, a decade-long Chinese auth-flow backdoor, and several AI coding-agent abuse techniques. Big breaches round it out, from Novo Nordisk to a French government messenger and a Japanese energy firm.",
       "stories": [
         {
           "id": "cs1",
-          "headline": "Critical Splunk Enterprise flaw lets attackers run code without authentication",
+          "headline": "Critical Splunk Enterprise flaw allows unauthenticated remote code execution",
           "category": "Vulnerability",
           "cve": "CVE-2026-20253",
           "cvss": 9.8,
           "severity": "CRITICAL",
-          "summary": "An unauthenticated flaw in Splunk Enterprise's PostgreSQL sidecar service lets attackers write arbitrary files and chain to remote code execution; AWS-hosted instances are vulnerable by default. Patched in 10.2.4 / 10.0.7; no public exploitation reported yet.",
-          "source": "The Hacker News, Splunk advisory",
+          "summary": "Splunk released updates for a critical flaw in Splunk Enterprise that allows unauthenticated file operations and remote code execution. Tracked as CVE-2026-20253 (CVSS 9.8), it should be patched promptly.",
+          "source": "The Hacker News",
           "published_at": "2026-06-13",
           "url": "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html"
         },
         {
           "id": "cs2",
-          "headline": "ShinyHunters exploits Oracle PeopleSoft zero-day to breach universities",
-          "category": "Exploited Zero-Day",
-          "cve": "CVE-2026-35273",
-          "cvss": 9.8,
-          "severity": "CRITICAL",
-          "summary": "The ShinyHunters extortion group is actively exploiting an unauthenticated RCE zero-day in Oracle PeopleSoft, allegedly breaching about 300 instances across 100+ organisations — most in US higher education, per Mandiant. CISA added it to the KEV catalog; Oracle has issued mitigations.",
-          "source": "The Hacker News, BleepingComputer, CISA KEV",
-          "published_at": "2026-06-12",
-          "url": "https://www.bleepingcomputer.com/news/security/oracle-mitigates-peoplesoft-zero-day-exploited-in-data-theft-attacks/"
+          "headline": "China-linked hackers backdoored Linux login software to spy on isolated network for nearly a decade",
+          "category": "Espionage",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers found China-linked attackers had hijacked the authentication flow of Linux login software, maintaining covert access to an isolated network for nearly ten years before discovery.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-13",
+          "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-hijack-auth-flow-spy-on-isolated-network-for-a-decade/"
         },
         {
           "id": "cs3",
-          "headline": "CISA orders feds to patch actively exploited Ivanti Sentry flaw within days",
+          "headline": "Over 400 Arch Linux AUR packages hijacked to deploy infostealer and eBPF rootkit",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Attackers took over more than 400 packages in the Arch User Repository (AUR) and rewrote their build scripts to install a Rust-based credential stealer — and an eBPF rootkit when run with root — on any machine that built them.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-13",
+          "url": "https://www.bleepingcomputer.com/news/security/over-400-arch-linux-packages-compromised-to-push-rootkit-infostealer/"
+        },
+        {
+          "id": "cs4",
+          "headline": "US orders Anthropic to suspend Fable 5 and Mythos 5 access for foreign nationals",
+          "category": "Policy",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Anthropic said it will disable its most advanced models, Claude Fable 5 and Mythos 5, after the US government ordered access suspended for foreign nationals on national-security grounds — a move with broad implications for AI users worldwide.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-13",
+          "url": "https://www.bleepingcomputer.com/news/security/us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos/"
+        },
+        {
+          "id": "cs5",
+          "headline": "ShinyHunters exploit Oracle PeopleSoft zero-day to breach universities",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-35273",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "The ShinyHunters extortion crew (tracked by Mandiant as UNC6240) exploited an Oracle PeopleSoft zero-day, CVE-2026-35273 (CVSS 9.8), to steal data, hitting universities hardest. CISA added the flaw to its Known Exploited Vulnerabilities catalog.",
+          "source": "The Hacker News, CISA KEV",
+          "published_at": "2026-06-12",
+          "url": "https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html"
+        },
+        {
+          "id": "cs6",
+          "headline": "CISA orders agencies to patch actively exploited Ivanti Sentry flaw",
           "category": "Exploited Vulnerability",
           "cve": "CVE-2026-10520",
           "cvss": 10.0,
           "severity": "CRITICAL",
-          "summary": "CISA gave federal agencies a short deadline to patch an actively exploited OS command-injection flaw in Ivanti Sentry, rated a maximum CVSS 10.0. The bug is in the KEV catalog and enables full device compromise.",
-          "source": "BleepingComputer, CISA KEV, NVD",
+          "summary": "CISA gave federal agencies three days to patch an actively exploited OS command-injection flaw in Ivanti Sentry, CVE-2026-10520 (CVSS 10.0), which lets an unauthenticated remote attacker gain root-level code execution.",
+          "source": "BleepingComputer, NVD, CISA KEV",
           "published_at": "2026-06-12",
           "url": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-3-days-to-patch-ivanti-flaw-exploited-in-attacks/"
         },
         {
-          "id": "cs4",
-          "headline": "Over 400 Arch Linux AUR packages hijacked to push infostealer and rootkit",
-          "category": "Supply-Chain Attack",
-          "cve": null,
-          "cvss": null,
-          "severity": "HIGH",
-          "summary": "Attackers compromised more than 400 packages in the Arch Linux User Repository (AUR) to deploy an infostealer and an eBPF-based rootkit on users' machines, a significant open-source supply-chain compromise.",
-          "source": "The Hacker News, BleepingComputer",
-          "published_at": "2026-06-13",
-          "url": "https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html"
-        },
-        {
-          "id": "cs5",
-          "headline": "China-linked hackers backdoored Linux login software to hide for nearly a decade",
-          "category": "Threat Campaign",
-          "cve": null,
-          "cvss": null,
-          "severity": "HIGH",
-          "summary": "Researchers say a China-linked group hijacked the authentication flow in Linux login software to maintain covert access to an isolated network for almost ten years, an unusually long-running stealth intrusion.",
-          "source": "The Hacker News, BleepingComputer",
-          "published_at": "2026-06-13",
-          "url": "https://thehackernews.com/2026/06/china-linked-hackers-backdoored-linux.html"
-        },
-        {
-          "id": "cs6",
-          "headline": "Novo Nordisk discloses breach of clinical trials data",
-          "category": "Data Breach",
-          "cve": null,
-          "cvss": null,
-          "severity": "HIGH",
-          "summary": "Pharmaceutical giant Novo Nordisk disclosed a security breach affecting clinical-trials data, raising concerns about exposure of sensitive medical research information.",
-          "source": "BleepingComputer",
-          "published_at": "2026-06-12",
-          "url": "https://www.bleepingcomputer.com/news/security/pharmaceutical-giant-novo-nordisk-discloses-security-breach/"
-        },
-        {
           "id": "cs7",
-          "headline": "Tchap messenger breach hits over 73,000 French government accounts",
-          "category": "Data Breach",
-          "cve": null,
-          "cvss": null,
-          "severity": "HIGH",
-          "summary": "France said a breach of its Tchap secure messenger affected more than 73,000 government employee accounts, exposing data from the state's in-house communications platform.",
-          "source": "BleepingComputer",
-          "published_at": "2026-06-12",
-          "url": "https://www.bleepingcomputer.com/news/security/french-govt-says-tchap-breach-affected-over-73-000-accounts/"
-        },
-        {
-          "id": "cs8",
-          "headline": "Japanese energy firm loses drive holding data of 10.9 million clients",
-          "category": "Data Breach",
-          "cve": null,
-          "cvss": null,
-          "severity": "MEDIUM",
-          "summary": "A Japanese energy company reported losing a storage drive containing the personal data of about 10.9 million customers, a large exposure of client information.",
-          "source": "BleepingComputer",
-          "published_at": "2026-06-11",
-          "url": "https://www.bleepingcomputer.com/news/security/japanese-energy-firm-loses-drive-with-data-of-109-million-clients/"
-        },
-        {
-          "id": "cs9",
-          "headline": "phpBB forum fixes authentication-bypass bug that lurked for a decade",
-          "category": "Vulnerability",
-          "cve": null,
-          "cvss": null,
-          "severity": "HIGH",
-          "summary": "The phpBB project patched an authentication-bypass vulnerability that had gone unnoticed for around ten years, a serious flaw for the many community forums that run the software.",
-          "source": "BleepingComputer",
-          "published_at": "2026-06-12",
-          "url": "https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/"
-        },
-        {
-          "id": "cs10",
-          "headline": "Agentjacking attack tricks AI coding agents into running malicious code",
-          "category": "AI Security",
-          "cve": null,
-          "cvss": null,
-          "severity": "MEDIUM",
-          "summary": "Researchers detailed an \"agentjacking\" technique that manipulates AI coding agents into executing attacker-supplied code, highlighting prompt-injection-style risks as developers adopt autonomous coding tools.",
-          "source": "The Hacker News",
-          "published_at": "2026-06-12",
-          "url": "https://thehackernews.com/2026/06/agentjacking-attack-tricks-ai-coding.html"
-        },
-        {
-          "id": "cs11",
           "headline": "LangGraph flaw chain exposes self-hosted AI agents to remote code execution",
           "category": "Vulnerability",
           "cve": null,
           "cvss": null,
           "severity": "HIGH",
-          "summary": "A chain of flaws in LangGraph can expose self-hosted AI agent deployments to remote code execution, putting organisations running their own agent frameworks at risk.",
+          "summary": "Researchers disclosed three now-patched flaws in LangChain's LangGraph framework, including a critical chain that could lead to remote code execution on self-hosted AI agents. Users should update to patched versions.",
           "source": "The Hacker News",
           "published_at": "2026-06-12",
           "url": "https://thehackernews.com/2026/06/langgraph-flaw-chain-exposes-self.html"
         },
         {
-          "id": "cs12",
-          "headline": "Google sues Chinese smishing network accused of using Gemini AI in phishing",
-          "category": "Legal / Threat Campaign",
+          "id": "cs8",
+          "headline": "phpBB forum fixes authentication-bypass bug present for a decade",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "The phpBB project patched an authentication-bypass vulnerability that had lurked in the popular open-source forum software for about a decade, prompting admins to update their installations.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-12",
+          "url": "https://www.bleepingcomputer.com/news/security/phpbb-forum-fixes-auth-bypass-bug-lurking-for-a-decade/"
+        },
+        {
+          "id": "cs9",
+          "headline": "Pharma giant Novo Nordisk discloses breach of clinical-trials data",
+          "category": "Data Breach",
           "cve": null,
           "cvss": null,
           "severity": "INFORMATIONAL",
-          "summary": "Google filed suit against a China-based smishing network it accuses of abusing its Gemini AI to scale text-message phishing campaigns, part of a wider push against AI-assisted fraud operations.",
+          "summary": "Novo Nordisk disclosed a security breach affecting clinical-trials data, the latest major healthcare/pharma organisation to report a data-exposure incident.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-12",
+          "url": "https://www.bleepingcomputer.com/news/security/pharmaceutical-giant-novo-nordisk-discloses-security-breach/"
+        },
+        {
+          "id": "cs10",
+          "headline": "French government says Tchap messenger breach affected over 73,000 accounts",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "France's government said a breach of its Tchap secure-messaging service affected more than 73,000 accounts, exposing user data tied to the state's internal communications platform.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-12",
+          "url": "https://www.bleepingcomputer.com/news/security/french-govt-says-tchap-breach-affected-over-73-000-accounts/"
+        },
+        {
+          "id": "cs11",
+          "headline": "Agentjacking attack tricks AI coding agents into running malicious code",
+          "category": "AI Security",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Tenet Security described \"Agentjacking,\" a new class of attack that can trick AI coding agents into running arbitrary code on developer machines, for example via a fake error message that steers the agent.",
           "source": "The Hacker News",
-          "published_at": "2026-06-13",
-          "url": "https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html"
+          "published_at": "2026-06-12",
+          "url": "https://thehackernews.com/2026/06/agentjacking-attack-tricks-ai-coding.html"
+        },
+        {
+          "id": "cs12",
+          "headline": "New GreatXML exploit bypasses Windows BitLocker via recovery-partition XML files",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A security researcher released GreatXML, a Windows BitLocker bypass abusing recovery-partition XML files, published a day after a related Microsoft Defender exploit by the same researcher.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-12",
+          "url": "https://thehackernews.com/2026/06/new-greatxml-exploit-bypasses-windows.html"
         },
         {
           "id": "cs13",
@@ -509,34 +419,58 @@
           "cve": null,
           "cvss": null,
           "severity": "INFORMATIONAL",
-          "summary": "An INTERPOL-coordinated operation dismantled the Sniper Dz phishing-as-a-service platform and arrested its administrator, disrupting infrastructure used to run large-scale credential-theft campaigns.",
+          "summary": "An INTERPOL-coordinated operation dismantled the Sniper Dz phishing-as-a-service platform and arrested its administrator, disrupting a tool used to run large-scale credential-theft campaigns.",
           "source": "The Hacker News",
           "published_at": "2026-06-12",
           "url": "https://thehackernews.com/2026/06/interpol-takes-down-sniper-dz-phishing.html"
         },
         {
           "id": "cs14",
+          "headline": "Maine breach-notification portal abused to publish fake disclosures",
+          "category": "Threat",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Maine disabled its data-breach notification portal after attackers abused it to publish fake breach disclosures, an unusual abuse of an official state transparency tool.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-12",
+          "url": "https://www.bleepingcomputer.com/news/security/maine-disables-data-breach-notification-portal-after-fake-disclosures/"
+        },
+        {
+          "id": "cs15",
+          "headline": "Japanese energy firm loses drive holding data of 10.9 million clients",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "A Japanese energy company reported losing a storage drive containing the data of 10.9 million clients, exposing a large volume of customer information.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-11",
+          "url": "https://www.bleepingcomputer.com/news/security/japanese-energy-firm-loses-drive-with-data-of-109-million-clients/"
+        },
+        {
+          "id": "cs16",
           "headline": "The Gentlemen ransomware claims 478 victims and can spread like a worm",
           "category": "Ransomware",
           "cve": null,
           "cvss": null,
           "severity": "HIGH",
-          "summary": "The Gentlemen ransomware operation claims 478 victims and includes worm-like self-propagation, letting it spread automatically across networks once it gains a foothold.",
+          "summary": "Analysis of The Gentlemen ransomware operation found it claims 478 victims and includes worm-like self-spreading capability, having grown from a RaaS affiliate leveraging schemes such as LockBit.",
           "source": "The Hacker News",
-          "published_at": "2026-06-12",
+          "published_at": "2026-06-11",
           "url": "https://thehackernews.com/2026/06/the-gentlemen-ransomware-claims-478.html"
         },
         {
-          "id": "cs15",
-          "headline": "GitHub to disable npm install scripts by default to curb supply-chain attacks",
-          "category": "Supply-Chain Defense",
+          "id": "cs17",
+          "headline": "OceanLotus targets Vietnamese investors with SPECTRALVIPER backdoor",
+          "category": "Threat Campaign",
           "cve": null,
           "cvss": null,
-          "severity": "INFORMATIONAL",
-          "summary": "GitHub said it will disable npm install scripts by default, removing a common vector that malicious packages use to auto-execute code during installation — a notable hardening of the JavaScript ecosystem.",
+          "severity": "MEDIUM",
+          "summary": "The Vietnam-aligned threat actor OceanLotus was tied to two campaigns deploying the SPECTRALVIPER backdoor against domestic entities and stock investors in a prolonged cyber-espionage operation.",
           "source": "The Hacker News",
           "published_at": "2026-06-11",
-          "url": "https://thehackernews.com/2026/06/github-to-disable-npm-install-scripts.html"
+          "url": "https://thehackernews.com/2026/06/oceanlotus-hits-vietnam-investors-with.html"
         }
       ]
     }
