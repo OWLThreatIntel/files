@@ -1,0 +1,1348 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+<title>Daily News Briefing</title>
+<meta name="theme-color" content="#FBFBFA" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  /* ===================================================================
+     SPOTLIGHT — editorial, asymmetric, monochrome-led social-proof idiom
+     applied to a daily news briefing. One hero story per section gets the
+     stage in a full-width feature; supporting stories sit in an even grid
+     below it. Accent is whisper-
+     quiet (a dot, a mark, a ring) — surfaces and ink do the talking.
+  ==================================================================== */
+  :root{
+    --ff-sans:'Hanken Grotesk',system-ui,-apple-system,sans-serif;
+    --ff-mono:'IBM Plex Mono',ui-monospace,'SF Mono',monospace;
+
+    /* type scale 12/13/14/16/18/20/24/36/48 */
+    --t-2xs:12px; --t-xs:13px; --t-sm:14px; --t-base:16px; --t-md:18px;
+    --t-lg:20px; --t-xl:24px; --t-2xl:36px; --t-3xl:48px;
+
+    /* spacing 4/8/12/16/24/32/48/64/128 */
+    --s-1:4px; --s-2:8px; --s-3:12px; --s-4:16px; --s-6:24px;
+    --s-8:32px; --s-12:48px; --s-16:64px; --s-32:128px;
+
+    --r:14px; --r-sm:10px; --r-xs:7px;
+
+    /* neutral surfaces — warm near-white */
+    --bg:#FBFBFA; --card:#FFFFFF; --card-2:#F6F6F4;
+    --border:#E7E6E2; --border-strong:#D8D7D2; --rule:#EEEDEA;
+    --fg:#161614; --fg-soft:#3A3A36; --muted:#73726C; --muted-2:#A3A29B;
+
+    --shadow-sm:0 1px 2px rgba(20,20,18,.05);
+    --shadow-lift:0 10px 34px -10px rgba(20,20,18,.16);
+
+    /* whisper-quiet per-section accents */
+    --a-top:#2563EB; --a-sg:#0E7A6E; --a-war:#C02626; --a-health:#7C49E0; --a-cyber:#B26008;
+
+    /* severity — low-chroma outline badges */
+    --sev-crit:#B42318; --sev-crit-bg:#FEF3F2; --sev-crit-bd:#FCCFCA;
+    --sev-high:#B45309; --sev-high-bg:#FFF8EF; --sev-high-bd:#F6D9AE;
+    --sev-med:#946A00;  --sev-med-bg:#FCFAEC;  --sev-med-bd:#EAE0A8;
+    --sev-info:#1D4ED8; --sev-info-bg:#F0F5FF; --sev-info-bd:#C7D8F8;
+
+    --maxw:1180px; --header-h:64px; --accent:var(--fg);
+  }
+  html[data-theme="dark"]{
+    --bg:#0C0C0D; --card:#161618; --card-2:#1C1C1F;
+    --border:#28282B; --border-strong:#3A3A3F; --rule:#202023;
+    --fg:#F4F4F1; --fg-soft:#CFCFCA; --muted:#9A9A94; --muted-2:#6A6A66;
+
+    --shadow-sm:0 1px 2px rgba(0,0,0,.5);
+    --shadow-lift:0 14px 40px -12px rgba(0,0,0,.7);
+
+    --a-top:#7AA7FF; --a-sg:#4FD2BE; --a-war:#FF8A8A; --a-health:#B79BFF; --a-cyber:#F2B968;
+
+    --sev-crit:#FCA5A1; --sev-crit-bg:#2A1413; --sev-crit-bd:#5A2623;
+    --sev-high:#F4B871; --sev-high-bg:#281B0F; --sev-high-bd:#523719;
+    --sev-med:#E9D98A;  --sev-med-bg:#23210E;  --sev-med-bd:#4A451E;
+    --sev-info:#9CC0FF; --sev-info-bg:#101B30; --sev-info-bd:#23386F;
+  }
+
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--bg); color:var(--fg);
+    font-family:var(--ff-sans); font-size:var(--t-base); font-weight:400; line-height:1.6;
+    -webkit-font-smoothing:antialiased; text-rendering:optimizeLegibility;
+    transition:background-color .25s, color .25s;
+  }
+  a{color:inherit;text-decoration:none}
+  ::selection{background:var(--fg);color:var(--bg)}
+  .wrap{max-width:var(--maxw);margin:0 auto;padding:0 var(--s-6)}
+  .container{max-width:var(--maxw);margin:0 auto;padding:0 var(--s-6) var(--s-32)}
+  :focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:3px}
+
+  /* ===================== masthead ===================== */
+  header.top{position:sticky;top:0;z-index:40;
+    background:color-mix(in srgb,var(--bg) 86%, transparent);
+    backdrop-filter:saturate(160%) blur(12px);-webkit-backdrop-filter:saturate(160%) blur(12px);
+    border-bottom:1px solid var(--rule)}
+  .masthead{display:flex;align-items:center;justify-content:space-between;gap:var(--s-4);
+    min-height:var(--header-h);padding:var(--s-3) 0}
+  .brand{display:flex;align-items:baseline;gap:var(--s-4);min-width:0}
+  .wordmark{font-weight:600;font-size:var(--t-md);letter-spacing:-.3px;color:var(--fg);white-space:nowrap}
+  .edition{font-family:var(--ff-mono);font-size:var(--t-2xs);color:var(--muted);letter-spacing:.2px;
+    border-left:1px solid var(--border);padding-left:var(--s-4);white-space:nowrap}
+  .head-actions{display:flex;align-items:center;gap:var(--s-3);flex:none}
+  .theme-btn{width:38px;height:38px;display:flex;align-items:center;justify-content:center;
+    border-radius:999px;background:var(--card);border:1px solid var(--border);
+    color:var(--fg-soft);cursor:pointer;transition:.18s ease;font-size:15px}
+  .theme-btn:hover{border-color:var(--border-strong);background:var(--card-2);box-shadow:var(--shadow-sm)}
+  .theme-btn .moon{display:none}
+  html[data-theme="dark"] .theme-btn .sun{display:none}
+  html[data-theme="dark"] .theme-btn .moon{display:block}
+  @media (max-width:600px){.edition{display:none}}
+
+  /* ===================== tabs ===================== */
+  nav.tabs{position:sticky;top:var(--header-h);z-index:35;
+    background:color-mix(in srgb,var(--bg) 86%, transparent);
+    backdrop-filter:saturate(160%) blur(10px);-webkit-backdrop-filter:saturate(160%) blur(10px);
+    border-bottom:1px solid var(--rule)}
+  .tabs-row{display:flex;gap:var(--s-8);overflow-x:auto;
+    max-width:var(--maxw);margin:0 auto;padding:0 var(--s-6);scrollbar-width:none}
+  .tabs-row::-webkit-scrollbar{display:none}
+  .tab{position:relative;flex:0 0 auto;display:inline-flex;align-items:center;gap:var(--s-2);
+    padding:var(--s-4) 0;background:transparent;border:0;color:var(--muted);
+    font-family:var(--ff-sans);font-weight:500;font-size:var(--t-sm);letter-spacing:.1px;
+    cursor:pointer;white-space:nowrap;transition:color .18s;min-height:44px}
+  .tab::after{content:"";position:absolute;left:0;right:0;bottom:-1px;height:2px;
+    background:var(--fg);transform:scaleX(0);transform-origin:left;transition:transform .22s ease}
+  .tab:hover{color:var(--fg)}
+  .tab .count{font-family:var(--ff-mono);font-size:var(--t-2xs);font-weight:400;color:var(--muted-2);letter-spacing:.3px}
+  .tab .pip{width:6px;height:6px;border-radius:50%;background:currentColor;opacity:0;transition:opacity .2s;color:var(--tab-accent,var(--fg))}
+  .tab[aria-selected="true"]{color:var(--fg);font-weight:600}
+  .tab[aria-selected="true"]::after{transform:scaleX(1)}
+  .tab[aria-selected="true"] .pip{opacity:1}
+  .tab[data-key="top_stories"]{--tab-accent:var(--a-top)}
+  .tab[data-key="singapore"]{--tab-accent:var(--a-sg)}
+  .tab[data-key="wars"]{--tab-accent:var(--a-war)}
+  .tab[data-key="outbreaks"]{--tab-accent:var(--a-health)}
+  .tab[data-key="cybersecurity"]{--tab-accent:var(--a-cyber)}
+
+  /* ===================== panels ===================== */
+  section.panel{display:none;padding-top:var(--s-16)}
+  section.panel.active{display:block}
+  @keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+
+  /* section header: number / title / tag */
+  .section-head{display:grid;grid-template-columns:auto 1fr auto;gap:var(--s-6);
+    align-items:end;margin-bottom:var(--s-12)}
+  .section-num{font-family:var(--ff-mono);font-size:var(--t-xs);color:var(--muted-2);
+    letter-spacing:.5px;font-weight:500;padding-bottom:10px}
+  .section-title{font-weight:600;font-size:var(--t-2xl);margin:0;letter-spacing:-1.2px;line-height:1.02;color:var(--fg)}
+  .section-tag{font-family:var(--ff-mono);font-size:var(--t-2xs);text-transform:uppercase;
+    letter-spacing:.18em;font-weight:500;color:var(--muted);padding-bottom:11px;
+    display:inline-flex;align-items:center;gap:var(--s-2)}
+  .section-tag::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--accent)}
+  @media (max-width:640px){
+    .section-head{grid-template-columns:1fr auto;gap:var(--s-3);margin-bottom:var(--s-8)}
+    .section-num{grid-column:1/-1;padding-bottom:0}
+    .section-title{font-size:var(--t-xl);letter-spacing:-.7px}
+  }
+
+  /* AI summary — full-width section lede with accent rail (brief house style) */
+  .ai-lede{display:grid;grid-template-columns:auto 1fr;gap:var(--s-4);
+    align-items:stretch;margin:0 0 var(--s-12)}
+  .ai-lede .rail{width:2px;border-radius:2px;background:var(--accent);align-self:stretch}
+  .ai-lede .col{display:grid;gap:var(--s-3);min-width:0}
+  .ai-lede .lbl{font-family:var(--ff-mono);font-size:var(--t-2xs);font-weight:600;
+    text-transform:uppercase;letter-spacing:.2em;color:var(--accent);
+    display:inline-flex;align-items:center;gap:var(--s-2)}
+  .ai-lede .lbl::before{content:"\2726"}
+  .ai-lede p{margin:0;font-size:var(--t-md);font-weight:400;line-height:1.62;
+    color:var(--fg-soft);letter-spacing:-.05px}
+  @media (max-width:640px){.ai-lede{margin-bottom:var(--s-8)} .ai-lede p{font-size:var(--t-base)}}
+
+  /* ===================== supporting grid ===================== */
+  .support-grid{display:grid;gap:var(--s-4);align-items:stretch;
+    grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}
+  @media (max-width:600px){.support-grid{grid-template-columns:1fr}}
+  /* staggered load */
+  .support-grid>*{animation:fade .5s ease both}
+  .support-grid>*:nth-child(1){animation-delay:.04s}
+  .support-grid>*:nth-child(2){animation-delay:.08s}
+  .support-grid>*:nth-child(3){animation-delay:.12s}
+  .support-grid>*:nth-child(4){animation-delay:.16s}
+  .support-grid>*:nth-child(5){animation-delay:.20s}
+
+  /* ===================== card ===================== */
+  .s-card{background:var(--card);border:1px solid var(--border);border-radius:var(--r);
+    box-shadow:var(--shadow-sm);padding:var(--s-6);min-width:0;
+    display:grid;grid-template-rows:auto 1fr auto;gap:var(--s-4);
+    transition:border-color .18s, box-shadow .2s, transform .2s}
+  .s-card:hover{border-color:var(--border-strong);box-shadow:var(--shadow-lift);transform:translateY(-2px)}
+
+  .s-card .eyebrow{font-family:var(--ff-mono);font-size:var(--t-2xs);color:var(--muted);
+    text-transform:uppercase;letter-spacing:.16em;font-weight:500}
+  .s-card .card-top{display:flex;flex-direction:column;align-items:flex-start;gap:var(--s-3)}
+  .s-card .card-top:empty{display:none}
+  .s-card .body{display:flex;flex-direction:column;gap:var(--s-3);min-width:0}
+  .s-card h3{margin:0;font-weight:600;font-size:var(--t-md);line-height:1.28;
+    letter-spacing:-.3px;color:var(--fg)}
+  .s-card .sum{margin:0;font-size:var(--t-sm);line-height:1.58;color:var(--fg-soft)}
+
+  /* attribution row pinned to the bottom */
+  .attrib{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:var(--s-3);
+    padding-top:var(--s-4);border-top:1px solid var(--rule)}
+  .avatar{width:38px;height:38px;border-radius:999px;display:grid;place-items:center;
+    background:var(--card-2);border:1px solid var(--border);
+    font-family:var(--ff-mono);font-size:var(--t-2xs);font-weight:600;color:var(--fg-soft);
+    letter-spacing:.3px;flex:none}
+  .cite{min-width:0;display:flex;flex-direction:column;line-height:1.25}
+  .cite .who{font-size:var(--t-xs);font-weight:600;color:var(--fg);font-style:normal;
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .cite .when{font-family:var(--ff-mono);font-size:11px;color:var(--muted);letter-spacing:.2px}
+  .read{font-size:var(--t-xs);font-weight:600;color:var(--fg);flex:none;
+    display:inline-flex;align-items:center;gap:4px;border-bottom:1px solid transparent;transition:gap .15s,border-color .15s,color .15s}
+  .read:hover{gap:8px;border-bottom-color:var(--accent);color:var(--accent)}
+
+  /* ===================== hero feature — the one spotlight, full width on top ===================== */
+  .hero-feature{background:linear-gradient(180deg,var(--card) 0%,color-mix(in srgb,var(--card-2) 55%,var(--card)) 100%);
+    border:1px solid var(--border);border-radius:var(--r);box-shadow:var(--shadow-sm);
+    padding:var(--s-8);margin-bottom:var(--s-4);
+    display:grid;grid-template-columns:1.05fr 1fr;gap:var(--s-12);align-items:stretch;
+    animation:fade .5s ease both;transition:border-color .18s,box-shadow .2s}
+  .hero-feature:hover{border-color:var(--border-strong);box-shadow:var(--shadow-lift)}
+  .hf-left{display:flex;flex-direction:column;gap:var(--s-4);min-width:0}
+  .hf-right{display:flex;flex-direction:column;gap:var(--s-6);min-width:0}
+  .hero-feature .feature{font-family:var(--ff-mono);font-size:var(--t-2xs);font-weight:600;
+    text-transform:uppercase;letter-spacing:.2em;color:var(--accent);
+    display:inline-flex;align-items:center;gap:var(--s-2)}
+  .hero-feature .feature::before{content:"";width:18px;height:1px;background:var(--accent)}
+  .hero-feature .eyebrow{font-family:var(--ff-mono);font-size:var(--t-2xs);color:var(--muted);
+    text-transform:uppercase;letter-spacing:.16em;font-weight:500}
+  .hero-feature h3{margin:0;font-size:clamp(var(--t-xl),2.4vw,var(--t-2xl));font-weight:600;
+    line-height:1.08;letter-spacing:-1px;color:var(--fg)}
+  .hero-feature .sum{margin:0;font-size:var(--t-md);line-height:1.62;color:var(--fg-soft)}
+  .hero-feature .attrib{margin-top:auto}
+  .hero-feature .avatar{width:46px;height:46px;font-size:var(--t-xs);
+    box-shadow:0 0 0 3px color-mix(in srgb,var(--accent) 16%,transparent)}
+  .hero-feature .cite .who{font-size:var(--t-sm)}
+  .hero-feature .read{font-size:var(--t-sm)}
+  @media (max-width:820px){
+    .hero-feature{grid-template-columns:1fr;gap:var(--s-6);padding:var(--s-6)}
+    .hero-feature .attrib{margin-top:0}
+  }
+
+  /* ===================== severity badges (cyber) ===================== */
+  .badges{display:flex;gap:var(--s-2);flex-wrap:wrap;align-items:center}
+  .badge{display:inline-flex;align-items:center;font-family:var(--ff-mono);
+    font-size:10.5px;font-weight:600;padding:3px 8px;border-radius:var(--r-xs);
+    letter-spacing:.04em;border:1px solid;text-transform:uppercase}
+  .badge.meta-b{background:var(--card-2);color:var(--muted);border-color:var(--border)}
+  .sev-CRITICAL{background:var(--sev-crit-bg);color:var(--sev-crit);border-color:var(--sev-crit-bd)}
+  .sev-HIGH{background:var(--sev-high-bg);color:var(--sev-high);border-color:var(--sev-high-bd)}
+  .sev-MEDIUM{background:var(--sev-med-bg);color:var(--sev-med);border-color:var(--sev-med-bd)}
+  .sev-INFORMATIONAL{background:var(--sev-info-bg);color:var(--sev-info);border-color:var(--sev-info-bd)}
+
+  /* ===================== wars: theatre cards + timeline ===================== */
+  .theatres{display:grid;gap:var(--s-6);animation:fade .4s ease both}
+  .theatre{background:var(--card);border:1px solid var(--border);border-radius:var(--r);
+    box-shadow:var(--shadow-sm);padding:var(--s-8)}
+  .theatre.lead{background:linear-gradient(180deg,var(--card) 0%,color-mix(in srgb,var(--card-2) 55%,var(--card)) 100%)}
+  @media (max-width:600px){.theatre{padding:var(--s-6)}}
+  .theatre-head{display:flex;flex-direction:column;align-items:flex-start;gap:var(--s-2);margin-bottom:var(--s-8)}
+  .theatre.lead .kicker{font-family:var(--ff-mono);font-size:var(--t-2xs);font-weight:600;
+    text-transform:uppercase;letter-spacing:.2em;color:var(--accent);margin-bottom:var(--s-1)}
+  .theatre h3{margin:0;font-weight:600;font-size:var(--t-xl);letter-spacing:-.5px;color:var(--fg)}
+  .theatre.lead h3{font-size:var(--t-2xl);letter-spacing:-1px}
+  .theatre .status{font-size:var(--t-sm);line-height:1.55;color:var(--fg-soft);max-width:80ch}
+  .theatre .status-pill{display:inline-flex;align-items:center;gap:var(--s-2);font-family:var(--ff-mono);
+    font-size:var(--t-2xs);text-transform:uppercase;letter-spacing:.14em;font-weight:600;color:var(--accent);margin-bottom:var(--s-2)}
+  .theatre .status-pill::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--accent)}
+
+  .timeline{position:relative;display:grid;grid-template-columns:104px var(--s-8) minmax(0,64ch);row-gap:var(--s-6)}
+  .timeline::before{content:"";position:absolute;left:calc(104px + var(--s-8)/2);top:9px;bottom:9px;
+    width:1px;background:var(--border-strong);transform:translateX(-.5px)}
+  .tl-item{display:contents}
+  .tl-item .date{grid-column:1;font-family:var(--ff-mono);font-size:11px;color:var(--muted);
+    letter-spacing:.3px;font-weight:500;text-align:right;padding-top:3px;align-self:start}
+  .tl-item.today .date{color:var(--accent);font-weight:600}
+  .tl-item .ev{grid-column:3;font-size:var(--t-sm);color:var(--fg-soft);line-height:1.6;align-self:start;position:relative}
+  .tl-item.today .ev{color:var(--fg)}
+  .tl-item .ev::before{content:"";position:absolute;left:calc(-1*var(--s-8)/2 - 4px);top:6px;
+    width:8px;height:8px;border-radius:50%;background:var(--card);border:1.5px solid var(--border-strong);box-sizing:border-box}
+  .tl-item.today .ev::before{background:var(--accent);border-color:var(--accent);
+    box-shadow:0 0 0 4px color-mix(in srgb,var(--accent) 16%,transparent)}
+  .tl-src{margin-top:5px;font-family:var(--ff-mono);font-size:10.5px;letter-spacing:.2px;color:var(--muted-2)}
+  .tl-src a{color:var(--muted);border-bottom:1px solid transparent;transition:.15s}
+  .tl-src a:hover{border-bottom-color:var(--accent);color:var(--fg-soft)}
+  @media (max-width:640px){
+    .timeline{grid-template-columns:74px var(--s-6) minmax(0,1fr)}
+    .timeline::before{left:calc(74px + var(--s-6)/2)}
+    .tl-item .ev::before{left:calc(-1*var(--s-6)/2 - 4px)}
+  }
+
+  /* ===================== outbreaks: quiet data band ===================== */
+  .stat-band{display:grid;gap:var(--s-4);grid-template-columns:1fr;margin-bottom:var(--s-12)}
+  @media (min-width:680px){.stat-band{grid-template-columns:repeat(2,1fr)}}
+  .ob-tile{background:var(--card);border:1px solid var(--border);border-radius:var(--r);
+    box-shadow:var(--shadow-sm);padding:var(--s-6);display:flex;flex-direction:column;gap:var(--s-4)}
+  .ob-tile .ob-name{font-weight:600;font-size:var(--t-base);letter-spacing:-.2px;color:var(--fg);line-height:1.3}
+  .ob-tile .ob-status{font-family:var(--ff-mono);font-size:11px;color:var(--muted);letter-spacing:.2px;line-height:1.5}
+  .ob-stats{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--rule)}
+  .ob-stat{padding:var(--s-3) var(--s-3) 0;border-right:1px solid var(--rule)}
+  .ob-stat:last-child{border-right:0}
+  .ob-stat .v{font-weight:600;font-size:var(--t-lg);letter-spacing:-.6px;color:var(--fg);
+    font-feature-settings:"tnum","lnum";line-height:1.1}
+  .ob-stat .l{font-family:var(--ff-mono);font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;margin-top:5px}
+  @media (max-width:560px){
+    .ob-stats{grid-template-columns:repeat(2,1fr)}
+    .ob-stat{padding-top:var(--s-3)}
+    .ob-stat:nth-child(2n){border-right:0}
+    .ob-stat:nth-child(1),.ob-stat:nth-child(2){border-bottom:1px solid var(--rule);padding-bottom:var(--s-3)}
+  }
+
+  /* ===================== singapore: weather strip + COE table ===================== */
+  .wx-strip{display:flex;align-items:center;gap:var(--s-4);flex-wrap:wrap;
+    background:var(--card);border:1px solid var(--border);border-left:3px solid var(--a-sg);
+    border-radius:var(--r);box-shadow:var(--shadow-sm);padding:var(--s-4) var(--s-6);margin-bottom:var(--s-6)}
+  .wx-ico{font-size:var(--t-lg);line-height:1}
+  .wx-main{font-weight:600;color:var(--fg)}
+  .wx-temp{font-family:var(--ff-mono);font-weight:600;color:var(--a-sg);font-feature-settings:"tnum","lnum"}
+  .wx-meta{font-family:var(--ff-mono);font-size:11px;color:var(--muted);margin-left:auto}
+  .wx-src{font-family:var(--ff-mono);font-size:11px;color:var(--muted);text-decoration:none;white-space:nowrap}
+  .wx-src:hover{color:var(--a-sg)}
+
+  .coe-card{background:var(--card);border:1px solid var(--border);border-radius:var(--r);
+    box-shadow:var(--shadow-sm);padding:var(--s-6);margin-bottom:var(--s-12)}
+  .coe-head{display:flex;flex-direction:column;gap:2px;margin-bottom:var(--s-4);
+    padding-bottom:var(--s-4);border-bottom:1px solid var(--rule)}
+  .coe-title{font-weight:600;font-size:var(--t-base);letter-spacing:-.2px;color:var(--fg)}
+  .coe-sub{font-family:var(--ff-mono);font-size:11px;color:var(--muted);letter-spacing:.2px}
+  .coe-rows{display:flex;flex-direction:column}
+  .coe-row{display:flex;align-items:center;justify-content:space-between;gap:var(--s-4);
+    padding:var(--s-3) 0;border-bottom:1px solid var(--rule)}
+  .coe-row:last-child{border-bottom:0}
+  .coe-cat{display:flex;flex-direction:column;gap:1px}
+  .coe-code{font-weight:600;color:var(--fg);font-size:var(--t-sm)}
+  .coe-label{font-family:var(--ff-mono);font-size:10px;color:var(--muted);letter-spacing:.02em}
+  .coe-val{display:flex;align-items:baseline;gap:var(--s-3);font-weight:600;
+    font-size:var(--t-lg);letter-spacing:-.4px;color:var(--fg);font-feature-settings:"tnum","lnum"}
+  .coe-chg{font-family:var(--ff-mono);font-size:11px;font-weight:600;letter-spacing:0}
+  .coe-chg.up{color:var(--a-war)}
+  .coe-chg.down{color:var(--a-sg)}
+  .coe-src{margin-top:var(--s-4);font-family:var(--ff-mono);font-size:11px}
+  .coe-src a{color:var(--muted);text-decoration:none}
+  .coe-src a:hover{color:var(--a-sg)}
+
+  /* ===================== footer ===================== */
+  footer{margin-top:var(--s-32);padding:var(--s-12) 0 var(--s-8);border-top:1px solid var(--border);text-align:center;color:var(--muted)}
+  footer .mono{font-family:var(--ff-mono);font-size:var(--t-2xs);color:var(--fg-soft);letter-spacing:.2px}
+  footer .disc{margin-top:var(--s-3);font-size:var(--t-2xs);color:var(--muted-2);max-width:540px;margin-left:auto;margin-right:auto;line-height:1.55}
+
+  @media (max-width:600px){
+    .container,.wrap,.tabs-row{padding-left:var(--s-4);padding-right:var(--s-4)}
+  }
+
+  @media (prefers-reduced-motion:reduce){
+    *,*::before,*::after{animation-duration:.001ms!important;transition-duration:.001ms!important}
+  }
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap masthead">
+    <div class="brand">
+      <span class="wordmark">The Daily Briefing</span>
+      <span class="edition" id="edition">&nbsp;</span>
+    </div>
+    <div class="head-actions">
+      <button class="theme-btn" id="theme-btn" type="button" aria-label="Toggle colour theme" title="Toggle theme">
+        <span class="sun" aria-hidden="true">☀</span><span class="moon" aria-hidden="true">☾</span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<nav class="tabs" aria-label="Sections">
+  <div class="tabs-row" id="tabs-row" role="tablist"></div>
+</nav>
+
+<main class="container" id="main"></main>
+
+<footer>
+  <div><span class="mono">AI-generated digest</span></div>
+  <div class="disc">Not financial or medical advice. Always verify critical information from the linked sources.</div>
+</footer>
+
+<script id="news-data" type="application/json">
+{
+  "meta": {
+    "date": "2026-07-01",
+    "generated_at": "2026-07-01T21:12:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "BBC", "Channel NewsAsia", "The Straits Times", "Mothership", "Al Jazeera",
+      "Kyiv Independent", "WHO Disease Outbreak News", "CISA KEV", "NVD",
+      "The Hacker News", "BleepingComputer", "LTA (data.gov.sg)", "NEA (data.gov.sg)"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "US courts and Trump dominated the day: the Supreme Court upheld birthright citizenship in a blow to Trump even as it handed him other wins, he disclosed over US$1 billion in crypto earnings, and Washington lifted an export ban on advanced AI tools including Anthropic's. A brutal European heatwave killed more than 1,000 people in Spain alone, Pakistan mourned 14 children in a school roof collapse, and US–Iran diplomacy quietly edged forward.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "US Supreme Court upholds birthright citizenship, dealing Trump a defeat",
+          "category": "World Politics",
+          "summary": "The US Supreme Court rejected the Trump administration's bid to restrict birthright citizenship, upholding the long-standing constitutional guarantee. The ruling was one of several major decisions as the term closed; the court handed Trump losses on some issues while expanding his power on others.",
+          "source": "BBC, CNA, The Straits Times",
+          "published_at": "2026-07-01T13:32+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cgmepnx1wzzo"
+        },
+        {
+          "id": "ts2",
+          "headline": "US and Iran open technical talks on peace deal and reopening Gulf shipping",
+          "category": "Middle East",
+          "summary": "The US and Iran entered technical-level negotiations aimed at securing a peace deal and restarting shipping through the Strait of Hormuz, with Trump saying the two sides were 'getting along very well.' Iran insists on retaining control over Hormuz and warned of an immediate response to any new threat.",
+          "source": "CNA, The Straits Times, BBC",
+          "published_at": "2026-07-01T16:44+08:00",
+          "url": "https://www.channelnewsasia.com/world/us-iran-talks-secure-peace-deal-restart-shipping-6224371"
+        },
+        {
+          "id": "ts3",
+          "headline": "Deadly European heatwave: Spain ties over 1,000 excess deaths to hottest June on record",
+          "category": "Climate",
+          "summary": "Spain attributed more than 1,000 excess deaths to heat during its second-hottest June ever, while Hungary, Slovakia and Portugal logged fresh temperature records amid a punishing heatwave. An EU monitor separately said the world's oceans broke a June heat record.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-07-01T16:30+08:00",
+          "url": "https://www.straitstimes.com/world/europe/spain-attributes-over-1000-excess-deaths-to-heat-in-second-hottestjune-ever"
+        },
+        {
+          "id": "ts4",
+          "headline": "Roof collapse kills 14 children at Pakistan tuition centre",
+          "category": "World",
+          "summary": "The roof of a tutoring centre collapsed in Pakistan, killing 14 children, authorities said. Rescuers searched the rubble as the cause of the collapse was investigated.",
+          "source": "BBC, CNA",
+          "published_at": "2026-07-01T03:36+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cr7x38lle1jo"
+        },
+        {
+          "id": "ts5",
+          "headline": "Trump earned more than US$1 billion from crypto in first year back in office",
+          "category": "US Politics",
+          "summary": "Financial filings show US President Donald Trump earned over US$1 billion from cryptocurrency ventures in 2025, his first year back in office, drawing fresh scrutiny over conflicts of interest.",
+          "source": "BBC, CNA",
+          "published_at": "2026-07-01T19:41+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cvgmv98ez3zo"
+        },
+        {
+          "id": "ts6",
+          "headline": "China imposes 'national security' rules on overseas investments",
+          "category": "China",
+          "summary": "China introduced new national-security rules governing outbound investments, tightening state oversight of how Chinese firms deploy capital abroad amid heightened geopolitical and trade tensions.",
+          "source": "CNA",
+          "published_at": "2026-07-01T16:50+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/china-national-security-overseas-investments-6224361"
+        },
+        {
+          "id": "ts7",
+          "headline": "US lifts export ban on Anthropic's advanced AI tools",
+          "category": "Technology",
+          "summary": "Anthropic said the US government has lifted an export ban on its advanced AI tools. The move eases restrictions that had been tied to concerns over misuse of frontier AI systems.",
+          "source": "BBC",
+          "published_at": "2026-07-01T11:39+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cdr42623e1do"
+        },
+        {
+          "id": "ts8",
+          "headline": "Amnesty says Sudan's RSF committed crimes against humanity in el-Fasher",
+          "category": "World",
+          "summary": "Amnesty International said the Rapid Support Forces committed crimes against humanity in the Sudanese city of el-Fasher, citing killings and abuses as the country's civil war grinds on.",
+          "source": "BBC",
+          "published_at": "2026-07-01T14:29+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cz9lqvx0z1vo"
+        },
+        {
+          "id": "ts9",
+          "headline": "Afghan Taliban launch strikes along Pakistan border as tensions escalate",
+          "category": "World",
+          "summary": "Afghanistan's Taliban launched strikes on the border with Pakistan amid rising tensions between the two neighbours, the latest flare-up in a series of cross-border clashes.",
+          "source": "BBC",
+          "published_at": "2026-07-01T07:49+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c621g086ek4o"
+        },
+        {
+          "id": "ts10",
+          "headline": "Three die in Mexico City World Cup celebrations",
+          "category": "World",
+          "summary": "At least three people died as huge crowds packed streets in Mexico City to celebrate the national team's World Cup progress, authorities said.",
+          "source": "BBC, The Straits Times, CNA",
+          "published_at": "2026-07-01T19:01+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cx2xjwj8p39o"
+        },
+        {
+          "id": "ts11",
+          "headline": "South Africa says over 900 arrested during nationwide anti-migrant protests",
+          "category": "World",
+          "summary": "South African authorities said more than 900 people were arrested as thousands marched in nationwide anti-immigration protests, with a heavy police presence deployed across cities.",
+          "source": "The Straits Times, BBC",
+          "published_at": "2026-07-01T19:30+08:00",
+          "url": "https://www.straitstimes.com/world/south-africa-says-over-900-arrested-during-nationwide-anti-migrant-protests"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "Cost of living and public safety led locally: HDB resale prices fell for a second straight quarter while private home prices edged up. A proposed Digital Infrastructure Bill would fine data centres and cloud providers up to S$1m, the non-emergency 1777 ambulance line closes from 2027, and PM Lawrence Wong makes a first-ever visit to Timor-Leste. Police warned of World Cup crypto scams, and NEA expects thundery showers. On the lighter side: a lizard found in a Wok Hey meal and long NDP-ticket queues.",
+      "weather": {
+        "forecast": "Thundery Showers",
+        "temp_low": 25,
+        "temp_high": 32,
+        "humidity_low": 65,
+        "humidity_high": 95,
+        "as_of": "2026-07-01T17:32+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jun 2026 · 2nd bidding",
+        "as_of": "2026-06-18",
+        "next_results": "2026-07-08",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          { "code": "A", "label": "Cars up to 1600cc & 130bhp", "premium": 123847, "change": -2162 },
+          { "code": "B", "label": "Cars above 1600cc or 130bhp", "premium": 123502, "change": -3487 }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "HDB resale prices fall for second straight quarter; private home prices edge up 0.5%",
+          "category": "Housing",
+          "summary": "Flash estimates show HDB resale prices dipped for a second consecutive quarter, while private residential prices rose 0.5%, a slower pace of increase — a sign of cooling in the public housing market.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-01T10:37+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/hdb-resale-private-property-home-prices-6223346"
+        },
+        {
+          "id": "sg2",
+          "headline": "Data centres, cloud providers could be fined up to S$1m under proposed Digital Infrastructure Bill",
+          "category": "Policy",
+          "summary": "A proposed Digital Infrastructure Bill would let regulators fine major data centres and cloud providers up to S$1 million for serious disruptions, part of moves to strengthen the resilience of Singapore's critical digital services.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-01T12:03+08:00",
+          "url": "https://www.straitstimes.com/tech/major-data-centres-cloud-providers-could-be-fined-up-to-1m-under-proposed-digital-infrastructure"
+        },
+        {
+          "id": "sg3",
+          "headline": "SCDF to cease non-emergency 1777 ambulance hotline from Jan 1, 2027",
+          "category": "Public Service",
+          "summary": "The SCDF will discontinue its non-emergency 1777 hotline for private ambulance services from Jan 1, 2027, directing the public to alternative arrangements. The 995 emergency line is unaffected.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-01T10:23+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/scdf-cease-1777-hotline-non-emergency-private-ambulance-phone-number-6223491"
+        },
+        {
+          "id": "sg4",
+          "headline": "Singapore to buy additional Hellfire missiles after US approves US$22.3m package",
+          "category": "Defence",
+          "summary": "Singapore is set to acquire additional Hellfire missiles for its Apache helicopters after the US approved a proposed US$22.3 million foreign military sale, MINDEF said.",
+          "source": "CNA",
+          "published_at": "2026-07-01T20:37+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/hellfire-missile-sale-singapore-apache-mindef-6223081"
+        },
+        {
+          "id": "sg5",
+          "headline": "PM Lawrence Wong to make first-ever visit by a Singapore PM to Timor-Leste",
+          "category": "Foreign Relations",
+          "summary": "Prime Minister Lawrence Wong will make the first-ever official visit by a Singapore PM to Timor-Leste from July 2 to 3, meeting its leaders as the country moves toward full ASEAN membership.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-07-01T15:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/politics/lawrence-wong-to-make-first-ever-visit-by-singapore-pm-to-timor-leste-from-july-2-to-3"
+        },
+        {
+          "id": "sg6",
+          "headline": "Nvidia chips case: 4 firms charged over false representations; S$56m in assets seized",
+          "category": "Crime",
+          "summary": "Four companies face charges over alleged false representations in a case involving the movement of Nvidia chips, with about S$56 million in assets seized. Police also barred the disposal of a S$55 million Good Class Bungalow linked to the case.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-07-01T13:33+08:00",
+          "url": "https://www.straitstimes.com/singapore/courts-crime/nvidia-chips-case-4-firms-charged-over-false-representation-accusations-56m-in-assets-seized"
+        },
+        {
+          "id": "sg7",
+          "headline": "Four charged after Singapore's largest seizure of illegally imported Kpods",
+          "category": "Crime",
+          "summary": "Four men face a total of five charges following what authorities described as Singapore's largest seizure of illegally imported Kpods — etomidate-laced vape pods — amid an intensifying crackdown on drug-laced vapes.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-01T14:02+08:00",
+          "url": "https://www.straitstimes.com/singapore/courts-crime/4-men-face-5-charges-in-total-after-singapores-largest-seizure-of-illegally-imported-kpods"
+        },
+        {
+          "id": "sg8",
+          "headline": "Life imprisonment for man who poured hot oil on roommate and stabbed him to death",
+          "category": "Courts",
+          "summary": "A man was sentenced to life imprisonment for murdering his roommate in a Redhill rental flat, pouring boiling oil on him and stabbing him after months of co-living disputes.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-01T14:19+08:00",
+          "url": "https://www.straitstimes.com/singapore/courts-crime/man-who-poured-hot-oil-on-flatmate-and-stabbed-him-to-death-gets-life-imprisonment"
+        },
+        {
+          "id": "sg9",
+          "headline": "Police warn of cryptocurrency scams leveraging the World Cup",
+          "category": "Advisory",
+          "summary": "The police warned of cryptocurrency scams exploiting World Cup interest, involving fake ticket and merchandise deals that trick victims into transferring crypto to scammers.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-01T18:04+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/spf-police-advisory-cryptocurrency-scams-world-cup-2026-6224431"
+        },
+        {
+          "id": "sg10",
+          "headline": "Woman finds lizard in Wok Hey fried rice; company says no sign of lizard activity at kiosk",
+          "category": "Trending",
+          "summary": "A customer said she found a lizard in her fried rice from a Wok Hey outlet at Tampines 1, sparking online chatter. The company said checks found 'no sign of lizard activity' at the kiosk and that it was investigating.",
+          "source": "Mothership",
+          "published_at": "2026-07-01T14:39+08:00",
+          "url": "https://mothership.sg/2026/07/lizard-fried-rice-tampines-1-wok-hey/"
+        },
+        {
+          "id": "sg11",
+          "headline": "Mixed reports of NDP ticket-collection queues, from quick to two-to-three hours",
+          "category": "Trending",
+          "summary": "Some Singaporeans said they queued two to three hours to collect National Day Parade tickets, while others reported the line moved quickly — a familiar seasonal talking point as NDP fever builds.",
+          "source": "Mothership",
+          "published_at": "2026-07-01T15:52+08:00",
+          "url": "https://mothership.sg/2026/07/ndp-tickets-long-queues/"
+        },
+        {
+          "id": "sg12",
+          "headline": "Golden Village to close Plaza Singapura outlet in August after 28 years",
+          "category": "Trending",
+          "summary": "Golden Village will shut its Plaza Singapura cinema in August after 28 years, marking the end of a long-running downtown movie venue and prompting nostalgia among longtime patrons.",
+          "source": "CNA",
+          "published_at": "2026-07-01T10:11+08:00",
+          "url": "https://www.channelnewsasia.com/living/golden-village-plaza-singapura-closing-gv-6223431"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "Ukraine pressed long-range strikes deep into Russia — hitting the Ufa oil refinery and a plant in Penza — while Russia kept up drone-and-missile barrages on Zaporizhzhia and Sumy; Kyiv also sealed a deal for 16 Swedish Gripen E jets. In the Gulf, the US and Iran opened technical talks on a peace deal and reopening shipping, though Tehran insists on controlling the Strait of Hormuz. Israel's defence minister said troops will remain 'indefinitely' in Lebanon, Syria and Gaza.",
+      "theatres": [
+        {
+          "name": "Russia–Ukraine War",
+          "status": "Grinding attritional war: Ukraine is striking oil refineries and defence plants deep inside Russia while Russia keeps up drone-and-missile barrages on Zaporizhzhia and Sumy. Kyiv also locked in a deal for 16 Swedish Gripen E fighter jets.",
+          "timeline": [
+            {
+              "date": "2022-02-24",
+              "event": "Russia launched a full-scale invasion of Ukraine, opening Europe's largest land war since 1945.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/world-europe-60506682"
+            },
+            {
+              "date": "2026-06-30",
+              "event": "Ukraine and Sweden signed an agreement for Kyiv to buy 16 Gripen E fighter jets (worth about US$2.5 billion, EU-financed), with deliveries expected from 2029, President Zelensky announced.",
+              "source": "Kyiv Independent",
+              "url": "https://kyivindependent.com/ukraine-signs-deal-with-sweden-to-purchase-16-gripen-e-fighter-jets/"
+            },
+            {
+              "date": "2026-06-30",
+              "event": "Russian attacks on the Zaporizhzhia region killed two people and injured dozens; Ukrainian officials reported hundreds of strikes across front-line settlements over 24 hours. Figures are Ukraine's account.",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/7/1/russian-attacks-kill-three-in-ukraine-as-kyiv-hits-another-oil-refinery"
+            },
+            {
+              "date": "2026-07-01",
+              "event": "Ukrainian drones struck the Ufa oil refinery (about 1,300km inside Russia, hit for a second time) and a bearing/missile-component plant in Penza, President Zelensky said; monitoring groups had not independently confirmed the Penza strike.",
+              "source": "Kyiv Independent",
+              "url": "https://kyivindependent.com/ukrainian-drones-reportedly-strike-russian-bearing-manufacturing-plant-strike-occupied-donetsk/"
+            },
+            {
+              "date": "2026-07-01",
+              "event": "Poland warned that Russia is seeking to exploit tensions around Ukraine through sabotage operations in Europe.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/poland-warns-russia-seeks-to-exploit-ukraine-tensions-with-sabotage-operations"
+            }
+          ]
+        },
+        {
+          "name": "US/Israel–Iran (Strait of Hormuz)",
+          "status": "Fragile post-strike standoff edging toward diplomacy: the US and Iran have begun technical talks on a peace deal and reopening Gulf shipping, though Tehran insists on controlling the Strait of Hormuz and warns of an immediate response to any new attack — against the backdrop of Khamenei's state funeral.",
+          "timeline": [
+            {
+              "date": "2026-06-30",
+              "event": "US envoys travelled to Doha to meet mediators but not Iranian officials, Qatar said, as prospects for direct talks remained uncertain.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cpd38x1dy4no"
+            },
+            {
+              "date": "2026-07-01",
+              "event": "Iran prepared for the state funeral of its late supreme leader Ali Khamenei.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/iran-ali-khamenei-funeral-supreme-leader-6222316"
+            },
+            {
+              "date": "2026-07-01",
+              "event": "The US and Iran entered technical-level talks aimed at securing a peace deal and restarting shipping; Trump said the two sides were 'getting along very well.'",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/us-iran-talks-secure-peace-deal-restart-shipping-6224371"
+            },
+            {
+              "date": "2026-07-01",
+              "event": "Iran warned of an immediate response to any threat and, senior Iranian sources said, insisted on keeping control over the Strait of Hormuz.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/iran-warns-of-immediate-response-to-any-threat-cites-us-commitment-to-restrain-israel"
+            }
+          ]
+        },
+        {
+          "name": "Israel–Lebanon / Gaza",
+          "status": "Uneasy hold: a fragile ceasefire framework persists in Gaza, but Israel says its forces will remain 'indefinitely' in Lebanon, Syria and Gaza, keeping the regional footprint contested.",
+          "timeline": [
+            {
+              "date": "2026-07-01",
+              "event": "Israel's defence minister said Israeli troops will stay 'indefinitely' in Lebanon, Syria and Gaza, signalling an open-ended military presence.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/israel-defence-minister-says-troops-to-stay-indefinitely-in-lebanon-syria-and-gaza"
+            },
+            {
+              "date": "2026-07-01",
+              "event": "Syria's interim president Ahmed al-Sharaa appointed lawmakers, paving the way for a new parliament to convene as the country moves through a post-war political transition.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/syrias-sharaa-appoints-lawmakers-paving-way-for-new-parliament-to-convene"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "The Democratic Republic of the Congo's Bundibugyo Ebola outbreak remains the gravest, with 915 confirmed cases and 234 deaths (mostly in Ituri province) plus a handful of imported and contact-linked cases in Uganda. Kerala is monitoring a single Nipah case with no secondary spread so far, WHO maintains a standing global yellow-fever alert, and Bangladesh warns of a dengue surge in wet weather. Direct risk to Singapore stays low.",
+      "outbreaks": [
+        {
+          "name": "Bundibugyo Ebola — DR Congo & Uganda",
+          "status": "Rising fast in DR Congo's Ituri province; Uganda's cases are imported or contact-linked.",
+          "cases": 915,
+          "deaths": 234,
+          "countries": 2,
+          "as_of": "2026-06-19",
+          "scope_note": "WHO-confirmed, DRC + Uganda combined (DRC: 896 cases / 232 deaths, CFR ~26%, as of 17 Jun; Uganda: 19 cases / 2 deaths, as of 18 Jun). Concentrated in Ituri (~91% of cases); WHO DON608. Further suspected cases under investigation."
+        },
+        {
+          "name": "Nipah virus — India (Kerala)",
+          "status": "Single confirmed case; contacts under active monitoring, no secondary cases so far.",
+          "cases": 1,
+          "deaths": 0,
+          "countries": 1,
+          "as_of": "2026-06-25",
+          "scope_note": "One lab-confirmed case (adult male, Kozhikode district), reported to WHO on 11 Jun; hospitalised 10 Jun. 104 contacts monitored, no secondary cases as of 18 Jun; no death reported in WHO DON609. Regional Nipah CFR historically 40–75%."
+        },
+        {
+          "name": "Yellow fever — Global alert (Africa & Americas)",
+          "status": "Standing WHO alert; expanding sylvatic transmission amid vaccination gaps.",
+          "cases": "95 (2026 YTD)",
+          "deaths": "—",
+          "countries": 9,
+          "as_of": "2026-06-24",
+          "scope_note": "WHO DON610, Jan–May 2026: 16 confirmed cases in 3 African countries (Burkina Faso, CAR, Cameroon) and 79 in 6 Americas countries (Bolivia, Brazil, Colombia, Ecuador, Peru, Venezuela); suspected cases under investigation elsewhere. A global alert, not a single cluster."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "Bundibugyo Ebola cases traced to Congo province bordering South Sudan",
+          "category": "Ebola",
+          "summary": "New reporting traced Ebola (Bundibugyo virus) cases to a Democratic Republic of the Congo province bordering South Sudan, as the outbreak — centred on Ituri — continues to spread, with WHO confirming 915 cases and 234 deaths across the DRC and Uganda.",
+          "source": "The Straits Times, WHO",
+          "published_at": "2026-07-01T17:19+08:00",
+          "url": "https://www.straitstimes.com/world/ebola-cases-traced-to-congo-province-bordering-on-south-sudan"
+        },
+        {
+          "id": "ob2",
+          "headline": "Bangladesh warns of dengue surge as wet weather aids mosquito spread",
+          "category": "Dengue",
+          "summary": "Bangladesh's health authorities warned of a surge in dengue cases as monsoon rains create favourable conditions for mosquitoes, straining hospitals and prompting calls for stepped-up vector control.",
+          "source": "CNA",
+          "published_at": "2026-07-01T15:39+08:00",
+          "url": "https://www.channelnewsasia.com/asia/bangladesh-dengue-cases-surge-wet-weather-6224081"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "AI and agent security dominated this cycle: Microsoft warned that poisoned MCP tool descriptions can make AI agents leak data, researchers turned AI browsers against their users, and an exploited Langflow flaw dropped crypto-miners. Enterprise edge gear also took a beating — critical pre-auth bugs in Progress Kemp LoadMaster (CVSS 9.8) and Citrix NetScaler, plus actively exploited Oracle E-Business Suite (9.8) and SimpleHelp (CVSS 10) flaws. Patch the exploited and pre-auth issues first.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "'Phantom Squatting' uses AI-hallucinated domains for phishing and malware",
+          "category": "Threat Research",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers described 'Phantom Squatting,' where attackers register domain names that AI models tend to hallucinate, then stand up phishing pages and malware on them to catch users who trust AI-suggested links.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-01T15:20+08:00",
+          "url": "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html"
+        },
+        {
+          "id": "cs2",
+          "headline": "Azure CLI password-spray campaign hits at least 78 Microsoft accounts",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A password-spraying campaign abusing the Azure CLI made more than 81 million authentication attempts and compromised at least 78 Microsoft accounts, researchers said, underscoring the need for MFA and conditional-access controls.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-01T13:46+08:00",
+          "url": "https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html"
+        },
+        {
+          "id": "cs3",
+          "headline": "Analysis of 3,000 live ClickFix payloads exposes API-driven malware delivery",
+          "category": "Threat Research",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A study of about 3,000 live ClickFix payloads revealed an increasingly API-driven malware-delivery pipeline, with attackers automating the social-engineering lures that trick users into running malicious commands.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-01T13:32+08:00",
+          "url": "https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html"
+        },
+        {
+          "id": "cs4",
+          "headline": "Citrix patches six NetScaler flaws allowing file read and denial-of-service",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-8451",
+          "cvss": 8.8,
+          "severity": "HIGH",
+          "summary": "Citrix released fixes for six NetScaler ADC and Gateway flaws that could enable arbitrary file reads or denial-of-service. The most serious (CVE-2026-8451, CVSS 8.8) is a memory-overread issue when the appliance is configured as a SAML IdP. No exploitation has been reported.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-01T11:54+08:00",
+          "url": "https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html"
+        },
+        {
+          "id": "cs5",
+          "headline": "Oracle E-Business Suite flaw actively exploited; 900+ instances exposed",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-46817",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "A critical Oracle E-Business Suite flaw (CVE-2026-46817, CVSS 9.8) is being actively exploited in the wild, with over 900 internet-exposed instances at risk. Administrators are urged to apply Oracle's fixes and restrict exposure immediately.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-01T08:30+08:00",
+          "url": "https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html"
+        },
+        {
+          "id": "cs6",
+          "headline": "Adobe patches seven maximum-severity ColdFusion and Campaign flaws",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "Adobe issued patches for seven maximum-severity vulnerabilities across ColdFusion and Adobe Campaign that could allow code execution and other serious compromise. Admins should update promptly given the critical ratings.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-01T03:34+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/adobe-patches-seven-max-severity-coldfusion-campaign-flaws/"
+        },
+        {
+          "id": "cs7",
+          "headline": "Microsoft warns poisoned MCP tool descriptions can make AI agents leak data",
+          "category": "AI Security",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Microsoft warned that maliciously crafted Model Context Protocol (MCP) tool descriptions can manipulate AI agents into leaking data or taking unintended actions, a prompt-injection-style risk as agentic AI adoption grows.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-01T01:46+08:00",
+          "url": "https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html"
+        },
+        {
+          "id": "cs8",
+          "headline": "Langflow RCE exploited to deploy Monero miner on exposed AI app endpoints",
+          "category": "Exploited Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Attackers are exploiting a remote code execution flaw in Langflow, a popular AI app-building tool, to deploy Monero cryptocurrency miners on internet-exposed endpoints. Users should update and avoid exposing Langflow to the internet.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-30T23:47+08:00",
+          "url": "https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html"
+        },
+        {
+          "id": "cs9",
+          "headline": "SimpleHelp flaw exploited to deploy TaskWeaver and Djinn Stealer",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-48558",
+          "cvss": 10.0,
+          "severity": "CRITICAL",
+          "summary": "Attackers are exploiting an authentication-bypass flaw in SimpleHelp remote-support software (CVE-2026-48558, CVSS 10.0) to deploy the TaskWeaver framework and Djinn Stealer. The bug was added to CISA's Known Exploited Vulnerabilities catalog.",
+          "source": "The Hacker News, CISA KEV",
+          "published_at": "2026-06-30T19:18+08:00",
+          "url": "https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html"
+        },
+        {
+          "id": "cs10",
+          "headline": "'BioShocking' attack manipulates AI browsers into leaking user credentials",
+          "category": "AI Security",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers demonstrated a 'BioShocking' attack that tricks AI-powered browsers into leaking user credentials and data, adding to a growing body of work showing how agentic browsing features can be turned against their users.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-30T17:50+08:00",
+          "url": "https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html"
+        },
+        {
+          "id": "cs11",
+          "headline": "AirDrop and Quick Share flaws let nearby attackers crash devices, bypass checks",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Newly disclosed flaws in Apple's AirDrop and Google's Quick Share let attackers within wireless range trigger crashes and bypass security checks. Users should keep devices updated and limit sharing to contacts.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-30T17:27+08:00",
+          "url": "https://thehackernews.com/2026/06/airdrop-and-quick-share-flaws-let.html"
+        },
+        {
+          "id": "cs12",
+          "headline": "Malicious PyPI packages give attackers control of Telegram bot servers",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Malicious packages on the PyPI repository were found to hand attackers control of Telegram bot servers, the latest in a run of open-source supply-chain attacks targeting developers.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-30T17:02+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-give-hackers-control-of-telegram-bot-servers/"
+        },
+        {
+          "id": "cs13",
+          "headline": "Progress Kemp LoadMaster flaw lets attackers run root commands pre-auth",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-8037",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "A critical flaw in Progress Kemp LoadMaster (CVE-2026-8037, CVSS 9.8) lets an unauthenticated attacker run commands as root via a crafted API request. watchTowr Labs published a full exploit write-up on June 29; admins should upgrade to the fixed versions.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-30T15:38+08:00",
+          "url": "https://thehackernews.com/2026/06/progress-kemp-loadmaster-flaw-could-let.html"
+        },
+        {
+          "id": "cs14",
+          "headline": "Insurance giant Aflac discloses data breach after subsidiary hack",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Insurance giant Aflac disclosed a data breach stemming from a hack of one of its subsidiaries, the latest breach to hit a major insurer. The scope of exposed data was being assessed.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-30T07:12+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack/"
+        },
+        {
+          "id": "cs15",
+          "headline": "Blackfield ransomware demands US$2 million from Nidec Corporation",
+          "category": "Ransomware",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "The Blackfield ransomware operation demanded a US$2 million ransom from Japanese motor manufacturer Nidec Corporation, claiming to have stolen data in the attack.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-30T05:41+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/blackfield-ransomware-asks-nidec-corporation-for-2-million-ransom/"
+        },
+        {
+          "id": "cs16",
+          "headline": "Fake Perplexity Chrome extension intercepted searches and address-bar input",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A malicious extension impersonating Perplexity on the Chrome Web Store intercepted users' searches and address-bar input, harvesting browsing activity before it was removed.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-29T23:40+08:00",
+          "url": "https://thehackernews.com/2026/06/malicious-perplexity-chrome-extension.html"
+        },
+        {
+          "id": "cs17",
+          "headline": "Apple patches 30+ iOS, macOS and Safari flaws, including AI-discovered WebKit bugs",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Apple shipped fixes for more than 30 vulnerabilities across iOS, macOS and Safari, including several WebKit bugs surfaced with AI-assisted analysis. Users should update to the latest releases.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-29T23:30+08:00",
+          "url": "https://thehackernews.com/2026/06/apple-patches-30-ios-macos-safari-flaws.html"
+        },
+        {
+          "id": "cs18",
+          "headline": "Mustang Panda abuses Zoho WorkDrive as command channel in Indian government attacks",
+          "category": "APT",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "The China-linked group Mustang Panda used Zoho WorkDrive as a command-and-control channel in a campaign targeting Indian government entities, blending malicious traffic with legitimate cloud services.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-29T23:03+08:00",
+          "url": "https://thehackernews.com/2026/06/mustang-panda-uses-zoho-workdrive-as.html"
+        },
+        {
+          "id": "cs19",
+          "headline": "Gamaredon expands Ukraine attacks with new malware and cloud-service abuse",
+          "category": "APT",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Russia-linked Gamaredon expanded its attacks against Ukraine using new malware and abuse of legitimate cloud services, continuing its long-running espionage campaign.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-29T19:40+08:00",
+          "url": "https://thehackernews.com/2026/06/gamaredon-expands-ukraine-attacks-with.html"
+        },
+        {
+          "id": "cs20",
+          "headline": "Public PoC released for critical libssh2 client-side SSH flaw",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-55200",
+          "cvss": 8.1,
+          "severity": "HIGH",
+          "summary": "A public proof-of-concept was released for CVE-2026-55200 (CVSS 8.1), a critical client-side flaw in the widely used libssh2 library that could be exploited by a malicious server. Projects bundling libssh2 should update.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-29T15:06+08:00",
+          "url": "https://thehackernews.com/2026/06/public-poc-released-for-critical.html"
+        },
+        {
+          "id": "cs21",
+          "headline": "Hijacked npm and Go packages use VS Code tasks to deploy Python infostealer",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Hijacked npm and Go packages were found abusing VS Code tasks to deploy a Python infostealer on developers' machines, another supply-chain attack aimed at the software development pipeline.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-29T13:36+08:00",
+          "url": "https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html"
+        }
+      ]
+    }
+  }
+}
+</script>
+<script>
+const DATA = JSON.parse(document.getElementById("news-data").textContent);
+const KEYS = ["top_stories","singapore","wars","outbreaks","cybersecurity"];
+const ACCENTS = {top_stories:"--a-top",singapore:"--a-sg",wars:"--a-war",outbreaks:"--a-health",cybersecurity:"--a-cyber"};
+const TAGS = {top_stories:"Global",singapore:"Local",wars:"Frontlines",outbreaks:"Health",cybersecurity:"Threats"};
+
+function el(tag, attrs, ...kids){
+  const e = document.createElement(tag);
+  if(attrs) for(const k in attrs){
+    if(k==="class") e.className = attrs[k];
+    else if(k==="html") e.innerHTML = attrs[k];
+    else if(k==="style") e.style.cssText = attrs[k];
+    else if(k.startsWith("on") && typeof attrs[k]==="function") e.addEventListener(k.slice(2), attrs[k]);
+    else if(attrs[k]!=null) e.setAttribute(k, attrs[k]);
+  }
+  for(const k of kids.flat()){ if(k==null) continue; e.append(k.nodeType?k:document.createTextNode(k)); }
+  return e;
+}
+
+const MONTHS=["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+function fmtWhen(s){
+  const m=String(s).match(/^(\d{4})-(\d{2})-(\d{2})(?:T(\d{2}):(\d{2}))?/);
+  if(!m) return s;
+  let out=parseInt(m[3],10)+" "+MONTHS[parseInt(m[2],10)-1]+" "+m[1];
+  if(m[4]) out+=", "+m[4]+":"+m[5];
+  return out;
+}
+
+/* Source -> avatar initials (acronym-aware) */
+function initials(src){
+  if(!src) return "··";
+  const caps = (src.match(/[A-Z]/g)||[]);
+  if(caps.length>=2) return (caps[0]+caps[1]).toUpperCase();
+  const words = src.replace(/[^A-Za-z0-9 ]/g," ").trim().split(/\s+/).filter(Boolean);
+  if(words.length>=2) return (words[0][0]+words[1][0]).toUpperCase();
+  return (src.replace(/[^A-Za-z0-9]/g,"").slice(0,2)||"··").toUpperCase();
+}
+
+function attribution(s){
+  const av = el("div",{class:"avatar","aria-hidden":"true"}, initials(s.source));
+  const cite = el("cite",{class:"cite"},
+    el("span",{class:"who"}, s.source||"—"),
+    s.published_at ? el("time",{class:"when",datetime:s.published_at}, fmtWhen(s.published_at)) : null
+  );
+  const row = el("div",{class:"attrib"}, av, cite);
+  if(s.url) row.append(el("a",{class:"read",href:s.url,target:"_blank",rel:"noopener"}, "Read ", el("span",{"aria-hidden":"true"},"↗")));
+  return row;
+}
+
+function severityBadges(s){
+  const b = el("div",{class:"badges"});
+  if(s.severity) b.append(el("span",{class:"badge sev-"+s.severity}, s.severity));
+  if(s.cve) b.append(el("span",{class:"badge meta-b"}, s.cve));
+  if(s.cvss!=null) b.append(el("span",{class:"badge meta-b"}, "CVSS "+s.cvss));
+  return b;
+}
+
+function storyCard(s, key){
+  const isCyber = key==="cybersecurity";
+  const card = el("article",{class:"s-card"});
+
+  // TOP slot — single grid child so badges never inherit the stretchy 1fr row
+  const top = el("div",{class:"card-top"});
+  if(isCyber && (s.severity||s.cve||s.cvss!=null)) top.append(severityBadges(s));
+  else if(s.category) top.append(el("div",{class:"eyebrow"}, s.category));
+  card.append(top);
+
+  const body = el("div",{class:"body"});
+  body.append(el("h3",{}, s.headline));
+  if(s.summary) body.append(el("p",{class:"sum"}, s.summary));
+  card.append(body);
+
+  card.append(attribution(s));
+  return card;
+}
+
+/* The single spotlight: a full-width feature with an internal two-column split,
+   so it stays wide and short instead of stretching to match its neighbours. */
+function heroFeature(s, key){
+  const isCyber = key==="cybersecurity";
+  const node = el("article",{class:"hero-feature"});
+
+  const left = el("div",{class:"hf-left"});
+  left.append(el("div",{class:"feature"}, TAGS[key] || "Lead"));
+  if(isCyber && (s.severity||s.cve||s.cvss!=null)) left.append(severityBadges(s));
+  if(s.category) left.append(el("div",{class:"eyebrow"}, s.category));
+  left.append(el("h3",{}, s.headline));
+  node.append(left);
+
+  const right = el("div",{class:"hf-right"});
+  if(s.summary) right.append(el("p",{class:"sum"}, s.summary));
+  right.append(attribution(s));
+  node.append(right);
+  return node;
+}
+
+function buildSupport(stories, key){
+  const grid = el("div",{class:"support-grid", role:"list"});
+  for(let i=1;i<stories.length;i++) grid.append(storyCard(stories[i], key));
+  return grid;
+}
+
+function aiLede(text){
+  return el("div",{class:"ai-lede"},
+    el("div",{class:"rail","aria-hidden":"true"}),
+    el("div",{class:"col"},
+      el("div",{class:"lbl"}, "AI Summary"),
+      el("p",{}, text)
+    )
+  );
+}
+
+function sectionHead(sec, key, idx){
+  const num = String(idx+1).padStart(2,"0");
+  return el("div",{class:"section-head"},
+    el("div",{class:"section-num"}, num+" /"),
+    el("h2",{class:"section-title"}, sec.label),
+    el("div",{class:"section-tag"}, TAGS[key]||"")
+  );
+}
+
+function theatreCard(t, lead){
+  const card = el("div",{class:"theatre"+(lead?" lead":"")});
+  const head = el("div",{class:"theatre-head"});
+  if(lead) head.append(el("div",{class:"kicker"}, "Lead Theatre"));
+  if(t.status) head.append(el("div",{class:"status-pill"}, "Active"));
+  head.append(el("h3",{}, t.name));
+  if(t.status) head.append(el("div",{class:"status"}, t.status));
+  card.append(head);
+
+  const tl = el("div",{class:"timeline"});
+  const today = DATA.meta.date;
+  for(const ev of t.timeline){
+    const isToday = ev.date===today;
+    const evNode = el("div",{class:"ev"}, ev.event);
+    if(ev.source){
+      const src = el("div",{class:"tl-src"});
+      if(ev.url) src.append(el("a",{href:ev.url,target:"_blank",rel:"noopener"}, ev.source));
+      else src.append(ev.source);
+      evNode.append(src);
+    }
+    tl.append(el("div",{class:"tl-item"+(isToday?" today":"")},
+      el("div",{class:"date"}, ev.date), evNode));
+  }
+  card.append(tl);
+  return card;
+}
+
+function outbreakTiles(list){
+  const dash = v => (v==null||v==="") ? "—" : String(v);
+  const band = el("div",{class:"stat-band"});
+  for(const ob of list){
+    const tile = el("div",{class:"ob-tile"});
+    const head = el("div",{});
+    if(ob.status) head.append(el("div",{class:"ob-status"}, ob.status));
+    tile.append(el("div",{class:"ob-name"}, ob.name));
+    const stats = el("div",{class:"ob-stats"});
+    [[dash(ob.cases),"Cases"],[dash(ob.deaths),"Deaths"],
+     [dash(ob.countries),"Countries"],[ob.as_of?fmtWhen(ob.as_of):"—","As of"]]
+      .forEach(([v,l])=> stats.append(el("div",{class:"ob-stat"},
+        el("div",{class:"v"}, v), el("div",{class:"l"}, l))));
+    tile.append(stats);
+    if(ob.status) tile.append(el("div",{class:"ob-status"}, ob.status));
+    tile.append(el("div",{}));
+    band.append(tile);
+  }
+  return band;
+}
+
+function fmtMoney(n){
+  if(n==null||n==="") return "—";
+  if(typeof n==="number") return "S$"+n.toLocaleString("en-SG");
+  return String(n);
+}
+function weatherStrip(w){
+  const strip = el("div",{class:"wx-strip"});
+  strip.append(el("span",{class:"wx-ico","aria-hidden":"true"}, "☁"));
+  strip.append(el("span",{class:"wx-main"}, w.forecast||"—"));
+  if(w.temp_low!=null && w.temp_high!=null)
+    strip.append(el("span",{class:"wx-temp"}, w.temp_low+"–"+w.temp_high+"°C"));
+  if(w.as_of) strip.append(el("span",{class:"wx-meta"}, fmtWhen(w.as_of)));
+  if(w.url) strip.append(el("a",{class:"wx-src",href:w.url,target:"_blank",rel:"noopener"}, (w.source||"NEA")+" ↗"));
+  return strip;
+}
+function coeTable(coe){
+  const wrap = el("div",{class:"coe-card"});
+  const sub = [coe.exercise, coe.as_of?"as of "+fmtWhen(coe.as_of):null,
+    coe.next_results?"next "+fmtWhen(coe.next_results):null].filter(Boolean).join(" · ");
+  wrap.append(el("div",{class:"coe-head"},
+    el("span",{class:"coe-title"}, "COE Premiums"),
+    sub?el("span",{class:"coe-sub"}, sub):null));
+  const rows = el("div",{class:"coe-rows"});
+  (coe.categories||[]).forEach(c=>{
+    let chgEl = null;
+    if(c.change!=null && c.change!==""){
+      const up = (typeof c.change==="number") ? c.change>=0 : String(c.change).trim().startsWith("+");
+      const num = (typeof c.change==="number") ? Math.abs(c.change).toLocaleString("en-SG")
+        : String(c.change).replace(/^[+-]/,"");
+      chgEl = el("span",{class:"coe-chg "+(up?"up":"down")}, (up?"▲ ":"▼ ")+"S$"+num);
+    }
+    rows.append(el("div",{class:"coe-row"},
+      el("div",{class:"coe-cat"},
+        el("span",{class:"coe-code"}, "Cat "+c.code),
+        c.label?el("span",{class:"coe-label"}, c.label):null),
+      el("div",{class:"coe-val"}, fmtMoney(c.premium), chgEl)));
+  });
+  wrap.append(rows);
+  if(coe.url) wrap.append(el("div",{class:"coe-src"},
+    el("a",{href:coe.url,target:"_blank",rel:"noopener"}, "Source: "+(coe.source||"LTA")+" ↗")));
+  else if(coe.source) wrap.append(el("div",{class:"coe-src"}, "Source: "+coe.source));
+  return wrap;
+}
+
+function renderSection(key, idx){
+  const sec = DATA.sections[key];
+  const accentVar = ACCENTS[key] || "--fg";
+  const panel = el("section",{class:"panel","data-section":key,role:"tabpanel",
+    style:"--accent:var("+accentVar+")"});
+
+  panel.append(sectionHead(sec, key, idx));
+  if(sec.ai_summary) panel.append(aiLede(sec.ai_summary));
+
+  if(key==="wars"){
+    const wrap = el("div",{class:"theatres"});
+    (sec.theatres||[]).forEach((t,i)=> wrap.append(theatreCard(t, i===0)));
+    panel.append(wrap);
+    return panel;
+  }
+
+  if(key==="outbreaks"){
+    if(sec.outbreaks && sec.outbreaks.length) panel.append(outbreakTiles(sec.outbreaks));
+  }
+
+  if(key==="singapore"){
+    if(sec.weather) panel.append(weatherStrip(sec.weather));
+    if(sec.coe) panel.append(coeTable(sec.coe));
+  }
+
+  const stories = sec.stories||[];
+  if(stories.length){
+    panel.append(heroFeature(stories[0], key));
+    if(stories.length > 1) panel.append(buildSupport(stories, key));
+  }
+  return panel;
+}
+
+function renderTabs(){
+  const row = document.getElementById("tabs-row");
+  for(const k of KEYS){
+    const sec = DATA.sections[k];
+    const count = sec.stories ? sec.stories.length
+      : (sec.theatres ? sec.theatres.length
+      : (sec.outbreaks ? sec.outbreaks.length : 0));
+    const t = el("button",{class:"tab","data-key":k,role:"tab","aria-selected":"false","aria-label":sec.label},
+      el("span",{class:"pip","aria-hidden":"true"}),
+      sec.label, el("span",{class:"count"}, String(count).padStart(2,"0")));
+    t.addEventListener("click",()=>activate(k));
+    row.append(t);
+  }
+}
+
+function activate(key){
+  document.querySelectorAll(".tab").forEach(t=>t.setAttribute("aria-selected", t.dataset.key===key?"true":"false"));
+  document.querySelectorAll(".panel").forEach(p=>p.classList.toggle("active", p.dataset.section===key));
+  try{ history.replaceState(null,"","#"+key); }catch(e){}
+  window.scrollTo({top:0,behavior:"smooth"});
+}
+
+/* theme */
+function applyTheme(t){
+  document.documentElement.setAttribute("data-theme", t);
+  const m = document.querySelector('meta[name="theme-color"]');
+  if(m) m.setAttribute("content", t==="dark" ? "#0C0C0D" : "#FBFBFA");
+  try{ localStorage.setItem("nb-theme", t); }catch(e){}
+}
+function initTheme(){
+  let t = "light";
+  try{ t = localStorage.getItem("nb-theme") || (matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light"); }
+  catch(e){ t = (matchMedia && matchMedia("(prefers-color-scheme: dark)").matches) ? "dark":"light"; }
+  applyTheme(t);
+  document.getElementById("theme-btn").addEventListener("click",()=>{
+    applyTheme(document.documentElement.getAttribute("data-theme")==="dark"?"light":"dark");
+  });
+}
+
+function init(){
+  initTheme();
+  // Derive the time-of-day label from generated_at (the run timestamp), not the
+  // free-text edition string. Schedule is 09/15/21 SGT → Morning/Afternoon/Evening.
+  const gen = String(DATA.meta.generated_at||"");
+  const hm = gen.match(/T(\d{2}):/);
+  let time = "Morning";
+  if(hm){
+    const h = parseInt(hm[1],10);
+    time = h<12 ? "Morning" : h<18 ? "Afternoon" : "Evening";
+  }
+  const d = DATA.meta.date;
+  let pretty = d;
+  const m = String(d).match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  if(m) pretty = String(parseInt(m[3],10))+" "+MONTHS[parseInt(m[2],10)-1]+" "+m[1];
+  document.getElementById("edition").textContent = pretty+" · "+time+" · SGT";
+  document.title = "Daily News Briefing — "+pretty+" · "+time+" SGT";
+  renderTabs();
+  const main = document.getElementById("main");
+  KEYS.forEach((k,i)=> main.append(renderSection(k, i)));
+  const hash = (location.hash||"").replace("#","");
+  const start = (hash && DATA.sections[hash]) ? hash : "top_stories";
+  document.querySelectorAll(".tab").forEach(t=>t.setAttribute("aria-selected", t.dataset.key===start?"true":"false"));
+  document.querySelectorAll(".panel").forEach(p=>p.classList.toggle("active", p.dataset.section===start));
+}
+document.addEventListener("DOMContentLoaded", init);
+</script>
+</body>
+</html>
+
+

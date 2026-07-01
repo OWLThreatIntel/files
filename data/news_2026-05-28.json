@@ -1,0 +1,299 @@
+{
+  "meta": {
+    "date": "2026-05-28",
+    "generated_at": "2026-05-28T21:00:00+08:00",
+    "edition": "Daily News Briefing — Evening SGT",
+    "sources": [
+      "Al Jazeera",
+      "CBS News",
+      "Middle East Eye",
+      "Irish Times",
+      "CNN",
+      "NPR",
+      "CNBC",
+      "BNN Bloomberg",
+      "Reuters",
+      "US News",
+      "The National",
+      "Britannica",
+      "NBC News",
+      "Kyiv Independent",
+      "Time",
+      "Institute for the Study of War (via Kyiv Post)",
+      "BBC",
+      "Euronews",
+      "WHO",
+      "ECDC",
+      "US CDC",
+      "DRC Ministry of Health",
+      "Uganda Ministry of Health",
+      "Africanews",
+      "MINDEF Singapore",
+      "IISS",
+      "Asia News Network",
+      "VietnamPlus",
+      "Singapore Police Force",
+      "The Star",
+      "STOMP",
+      "NEA (weather.gov.sg)",
+      "CISA",
+      "The Hacker News",
+      "BleepingComputer",
+      "Mandiant",
+      "QiAnXin XLab"
+    ],
+    "notes": "Top Stories and Singapore are filtered to the last 24 hours (cutoff 2026-05-27 21:00 SGT); Wars and Health Outbreaks to the last 14 days; CyberSecurity to the last 7 days, ordered newest-first with severity as the tiebreaker. Contested war claims are attributed to the party reporting them and were re-verified against current sources this run, not carried forward; casualty and military figures from parties to a conflict are treated as claims. Outbreak counts use the WHO/ECDC tally, with the stats object the single source of truth for the health stat bar."
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "The Iran war is again the day's centre of gravity. The US struck a site near the Strait of Hormuz after downing Iranian drones and says Iran fired a missile toward Kuwait — which Tehran's Revolutionary Guard claims, without US confirmation, hit a US airbase. The flare-up sent oil up about 3% and knocked world stocks lower. In Lebanon, Israel has declared a vast new combat zone and ordered a mass evacuation, while a rare Ebola strain is now entangled with World Cup travel rules.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "US strikes Iranian site near Strait of Hormuz; Iran fires missile toward Kuwait as ceasefire frays",
+          "category": "World / Conflict",
+          "summary": "US Central Command said it shot down four Iranian attack drones near the Strait of Hormuz on May 28 and struck a drone ground-control station near the port of Bandar Abbas, then accused Tehran of an 'egregious ceasefire violation' for firing a ballistic missile toward Kuwait that Kuwaiti forces say they intercepted. Iran's Islamic Revolutionary Guard Corps said it retaliated against 'a US airbase' it blamed for the strikes — a claim Washington did not confirm, and online casualty reports could not be verified. These are competing official accounts; there is no independent confirmation of damage or casualties.",
+          "source": "CBS News / Al Jazeera",
+          "published_at": "2026-05-28",
+          "url": "https://www.cbsnews.com/live-updates/iran-war-us-strikes-trump-oman-strait-of-hormuz-deal/"
+        },
+        {
+          "id": "ts2",
+          "headline": "Israel declares vast new 'combat zone' in south Lebanon and orders mass evacuation",
+          "category": "World / Conflict",
+          "summary": "Israel's military declared all of Lebanon south of the Zahrani river — about 2,000 sq km, roughly 40km north of the border — a 'combat zone' on May 27 and ordered the entire population, including the major city of Tyre, to evacuate northward, with strikes continuing toward May 28. It is a far larger area than earlier evacuation orders tied to the Litani river; people are fleeing toward Sidon. Lebanon's Health Ministry says more than 1.2 million people have been displaced since fighting resumed on March 2, and puts the death toll since then above 3,000. Israel says it is targeting Hezbollah.",
+          "source": "Reuters / US News",
+          "published_at": "2026-05-27",
+          "url": "https://www.usnews.com/news/world/articles/2026-05-27/israel-declares-new-swathe-of-lebanon-a-combat-zone-warns-residents-to-leave"
+        },
+        {
+          "id": "ts3",
+          "headline": "Oil jumps about 3% and world stocks fall after fresh US strikes on Iran",
+          "category": "World / Economy",
+          "summary": "Brent crude rose more than 3% before settling around $96 a barrel, and US West Texas Intermediate climbed back above $90, after the US and Iran exchanged fresh strikes and revived fears of disruption to shipping through the Strait of Hormuz — a chokepoint for roughly a fifth of the world's oil. World shares fell broadly and gold slipped about 1.8% to a roughly two-month low near $4,376 an ounce. Analysts cautioned that markets had been pricing in a swift end to the war and could be caught out if the fragile ceasefire breaks down.",
+          "source": "CNBC / BNN Bloomberg",
+          "published_at": "2026-05-28",
+          "url": "https://www.cnbc.com/2026/05/28/oil-prices-us-strikes-in-iran-revive-strait-of-hormuz-turmoil-fears.html"
+        },
+        {
+          "id": "ts4",
+          "headline": "DR Congo's World Cup squad cleared to enter the US under strict Ebola rules",
+          "category": "World / Health",
+          "summary": "DR Congo said on May 28 its World Cup delegation is complying with US Ebola requirements, isolating in Europe for 21 days before arriving in Houston, after Washington barred most travellers who had recently been in DR Congo, Uganda or South Sudan. Congo has separately asked FIFA to refund fans now blocked from attending; FIFA said it would look into it. The rules stem from a rare Bundibugyo-strain Ebola outbreak the WHO declared a global health emergency on May 17, which stands at 128 confirmed cases and 18 deaths across the two countries (plus more than 1,000 further suspected cases in Congo).",
+          "source": "Al Jazeera / Africanews",
+          "published_at": "2026-05-28",
+          "url": "https://www.aljazeera.com/sports/2026/5/28/world-cup-delegation-compliant-with-us-ebola-protocols-dr-congo-says"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "Defence diplomacy dominates the local agenda. Singapore hosts Asia's top security summit, the Shangri-La Dialogue, from tomorrow through Sunday, and Vietnam's leader To Lam has arrived for a state visit and will give the opening keynote — expect road restrictions near the Orchard venue. In the courts, a 22-year-old man was charged with murdering a woman in a Choa Chu Kang HDB lift. Weather: partly cloudy tonight, with thundery showers likely over many areas tomorrow morning.",
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "Singapore hosts 23rd Shangri-La Dialogue from tomorrow",
+          "category": "Politics / Defence",
+          "summary": "The Ministry of Defence said Singapore will host the 23rd IISS Shangri-La Dialogue, Asia's premier security summit, from May 29 to 31, drawing delegates from 44 countries — including 54 ministerial-level officials and more than 42 chief-of-defence-level delegates. Vietnam's Communist Party chief and President To Lam delivers the keynote on May 29, Timor-Leste's President Jose Ramos-Horta gives a special address on May 30, and US Defense Secretary Pete Hegseth is set to address the first plenary on America's Indo-Pacific strategy. Police have advised motorists to expect road restrictions around the Shangri-La hotel near Orchard.",
+          "source": "MINDEF Singapore / IISS",
+          "published_at": "2026-05-28",
+          "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/28may26-nr/"
+        },
+        {
+          "id": "sg2",
+          "headline": "Vietnam's leader To Lam arrives for state visit ahead of Shangri-La keynote",
+          "category": "Foreign Relations",
+          "summary": "Vietnam's Communist Party chief and President To Lam arrived in Singapore on May 28 for a state visit running May 29 to 31, at the invitation of President Tharman Shanmugaratnam, aimed at deepening the two countries' newly upgraded Comprehensive Strategic Partnership. Officials call it the first state visit by Vietnam's top leader to an ASEAN country since the country's recent leadership reshuffle. To Lam will also become the first Vietnamese party chief to deliver the keynote address at the Shangri-La Dialogue.",
+          "source": "Asia News Network / VietnamPlus",
+          "published_at": "2026-05-28",
+          "url": "https://asianews.network/top-vietnamese-leader-to-pay-state-visit-to-singapore-attend-shangri-la-dialogue/"
+        },
+        {
+          "id": "sg3",
+          "headline": "Man, 22, charged with murder over Choa Chu Kang HDB lift death",
+          "category": "Courts",
+          "summary": "A 22-year-old Malaysian man was charged in court on May 28 with murdering a 21-year-old woman who was found dead in a lift at Block 248 Choa Chu Kang Avenue 2 on the night of May 26. Police said the pair knew each other; preliminary investigations indicate the woman was stabbed. The case was adjourned to June 18. Murder carries the death penalty in Singapore.",
+          "source": "Singapore Police Force / The Star",
+          "published_at": "2026-05-28",
+          "url": "https://www.police.gov.sg/Media-Hub/News/2026/05/20260527_man_charged_for_murder"
+        },
+        {
+          "id": "sg4",
+          "headline": "Tonight's weather: partly cloudy, with morning showers likely tomorrow",
+          "category": "Weather",
+          "summary": "Singapore's National Environment Agency 24-hour forecast, last updated at 5.36pm on May 28, expects a partly cloudy night followed by thundery showers over many areas tomorrow morning. Temperatures are forecast between about 24C and 34C, with light south-westerly winds of 10 to 20 km/h.",
+          "source": "NEA (weather.gov.sg)",
+          "published_at": "2026-05-28T17:36+08:00",
+          "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "All three fronts are active. The US-Iran ceasefire is unravelling — fresh US strikes near the Strait of Hormuz on May 28, an Iranian missile fired toward Kuwait (intercepted), and an unconfirmed Iranian claim of striking a US airbase. Israel declared all of Lebanon south of the Zahrani river a combat zone and ordered a mass evacuation, its sharpest escalation since March. And the air war grinds on in Ukraine after Russia's huge May 24 barrage on Kyiv, with Ukraine hammering Russian fuel and logistics.",
+      "theatres": [
+        {
+          "name": "US / Israel–Iran & the Strait of Hormuz",
+          "status": "Fragile ceasefire fraying — on May 28 the US downed four Iranian drones and struck near the strait; the US says Iran fired a missile toward Kuwait (intercepted), and Iran claims it hit a US airbase (unconfirmed). No signed deal to reopen Hormuz",
+          "timeline": [
+            { "date": "2026-02-28", "event": "The US and Israel launch an air war on Iran, striking nuclear and military sites; transit through the Strait of Hormuz collapses to a fraction of normal levels.", "source": "Britannica", "url": "https://www.britannica.com/event/2026-Iran-war" },
+            { "date": "2026-04-08", "event": "A US-Iran ceasefire takes effect, mediated by Pakistan, but is repeatedly tested by both sides in the weeks that follow.", "source": "NBC News", "url": "https://www.nbcnews.com/world/iran/us-military-says-conducted-self-defense-strikes-targets-iran-rcna346839" },
+            { "date": "2026-05-26", "event": "US forces carry out 'self-defence' strikes on Iranian missile sites and boats near the strait, saying the boats were laying mines; Iran calls it a ceasefire violation and threatens to retaliate. Oil jumps more than 3%.", "source": "NBC News / CNN", "url": "https://www.nbcnews.com/world/iran/us-military-says-conducted-self-defense-strikes-targets-iran-rcna346839" },
+            { "date": "2026-05-27", "event": "Iranian state media says Tehran has received a draft framework that would lift the US blockade and reopen Hormuz within a month; US officials do not confirm the terms, and Trump says he 'won't rush' a deal, calling the Iranian government 'negotiating on fumes'.", "source": "CBS News", "url": "https://www.cbsnews.com/live-updates/iran-war-us-strikes-trump-oman-strait-of-hormuz-deal/" },
+            { "date": "2026-05-28", "event": "US Central Command shoots down four Iranian attack drones near the strait and strikes a ground-control station near Bandar Abbas; the US says Iran fired a ballistic missile toward Kuwait that Kuwaiti forces intercepted, calling it an 'egregious ceasefire violation'. Iran's Revolutionary Guard claims it struck a US airbase — unconfirmed by Washington, with online casualty claims unverified.", "source": "CBS News / Middle East Eye", "url": "https://www.middleeasteye.net/live-blog/live-blog-update/us-centcom-says-iran-launched-ceasefire-violation-kuwait" }
+          ]
+        },
+        {
+          "name": "Israel–Lebanon / Hezbollah",
+          "status": "Escalating — on May 27 Israel declared all of Lebanon south of the Zahrani river (~2,000 sq km) a 'combat zone' and ordered the entire population, including Tyre, to evacuate north. Lebanon's Health Ministry: more than 1.2 million displaced and over 3,000 killed since March 2",
+          "timeline": [
+            { "date": "2026-03-02", "event": "Fighting between Israel and Hezbollah escalates sharply after Hezbollah fires at Israel in support of Iran; a wave of Israeli strikes and displacement follows.", "source": "Reuters / Al Jazeera", "url": "https://www.usnews.com/news/world/articles/2026-05-27/israel-declares-new-swathe-of-lebanon-a-combat-zone-warns-residents-to-leave" },
+            { "date": "2026-04-16", "event": "A US-brokered Israel-Lebanon ceasefire is announced; Hezbollah is not a formal signatory and the truce is repeatedly strained.", "source": "The National", "url": "https://www.thenationalnews.com/news/mena/2026/05/19/death-toll-from-israeli-strikes-on-lebanon-exceeds-3000/" },
+            { "date": "2026-05-19", "event": "Lebanon's Health Ministry says the death toll since March 2 has passed 3,000 (about 3,042), including 211 children, 292 women and 116 medics, with more than 740 killed since the April ceasefire was announced.", "source": "The National", "url": "https://www.thenationalnews.com/news/mena/2026/05/19/death-toll-from-israeli-strikes-on-lebanon-exceeds-3000/" },
+            { "date": "2026-05-26", "event": "Israel hits southern Lebanon and the Bekaa Valley with more than 120 air raids — the sharpest single-day escalation since March; Israel says it struck a Hezbollah command site near Tyre.", "source": "Reuters / Al Jazeera", "url": "https://www.aljazeera.com/news/2026/5/27/why-is-israel-attacking-lebanons-nabatieh-the-major-southern-city" },
+            { "date": "2026-05-27", "event": "Israel declares all of Lebanon south of the Zahrani river a 'combat zone' and orders the entire population, including the city of Tyre, to evacuate north — a far larger area than past Litani-line orders. Residents flee toward Sidon; the military warns it will act 'with great force' against Hezbollah.", "source": "Reuters / US News", "url": "https://www.usnews.com/news/world/articles/2026-05-27/israel-declares-new-swathe-of-lebanon-a-combat-zone-warns-residents-to-leave" }
+          ]
+        },
+        {
+          "name": "Russia–Ukraine War",
+          "status": "Active — Russia's May 24 mass barrage on Kyiv (Ukraine's Air Force: about 600 drones and 90 missiles, including an Oreshnik hypersonic missile) was among the largest on the capital of the war; Ukraine is striking Russian refineries and logistics",
+          "timeline": [
+            { "date": "2022-02-24", "event": "Russia launches its full-scale invasion of Ukraine.", "source": "BBC", "url": "https://www.bbc.com/news/world-europe-60504334" },
+            { "date": "2026-05-16", "event": "Russia launches nearly 300 drones at Ukraine overnight; the same day, 528 bodies of Ukrainian soldiers are returned under an exchange.", "source": "Euronews", "url": "https://www.euronews.com/my-europe/2026/05/16/russia-launches-nearly-300-drones-at-ukraine-as-528-bodies-of-ukrainian-soldiers-are-retur" },
+            { "date": "2026-05-21", "event": "Ukraine says strikes in occupied areas killed scores of Russians, including about 65 cadets at a drone-pilot training camp in Snizhne — a Ukrainian claim not independently verified.", "source": "CNN", "url": "https://www.cnn.com/2026/05/21/europe/ukraine-claims-strikes-russia-drone-pilot-academy-intl" },
+            { "date": "2026-05-24", "event": "Russia hits Kyiv with a mass overnight barrage. Ukraine's Air Force says Russia used about 600 drones and 90 missiles, including an Oreshnik hypersonic missile that struck Bila Tserkva; Ukrainian authorities report at least four killed and around 100 injured. By locations damaged, it was among the largest attacks on Kyiv of the war.", "source": "NPR / Kyiv Independent (Ukrainian Air Force)", "url": "https://www.npr.org/2026/05/24/nx-s1-5833050/russia-uses-hypersonic-oreshnik-missile-in-mass-attack-on-kyiv" },
+            { "date": "2026-05-27", "event": "ISW says Ukrainian drone strikes are degrading Russian logistics and refineries, with Moscow reportedly weighing a temporary ban on diesel and jet-fuel exports; ISW data shows Russia recorded its largest weekly territorial loss of the year (May 19-26).", "source": "Institute for the Study of War (via Kyiv Post)", "url": "https://www.kyivpost.com/post/77002" }
+          ]
+        }
+      ]
+    },
+    "hantavirus": {
+      "label": "Health Outbreaks",
+      "ai_summary": "Two outbreaks moving in opposite directions. Ebola is the worry: a rare Bundibugyo strain has reached 128 confirmed cases and 18 deaths across DR Congo and Uganda (plus more than 1,000 suspected in Congo), and it is now entangled with World Cup travel rules. There is no licensed vaccine for this strain. The MV Hondius cruise-ship hantavirus cluster looks far smaller and steady at 13 cases and 3 deaths. Everyday risk for most readers stays low.",
+      "stats": {
+        "cases": 128,
+        "deaths": 18,
+        "countries": 2,
+        "as_of": "2026-05-27",
+        "scope_note": "Confirmed cases only, DR Congo + Uganda combined (DRC 121 confirmed / 17 deaths; Uganda 7 confirmed / 1 death = 128 / 18), per the DRC and Uganda health ministries as relayed by WHO and ECDC, as of 27 May 2026. A further ~1,077 suspected (not lab-confirmed) cases and ~238 suspected deaths reported in DRC are counted separately, not added here. Agency tallies diverge — the US CDC's mid-May figures were lower — so this uses the more recent WHO/ECDC count. Figures refer to the Bundibugyo-strain Ebola epidemic, not the separate MV Hondius hantavirus cluster (13 cases / 3 deaths)."
+      },
+      "stories": [
+        {
+          "id": "hv1",
+          "headline": "DR Congo's World Cup squad cleared to enter the US under strict Ebola rules",
+          "category": "Public Health",
+          "summary": "DR Congo says its World Cup delegation is complying with US Ebola requirements, isolating in Europe for 21 days before travelling to Houston, after Washington barred most travellers who had recently been in DR Congo, Uganda or South Sudan. Congo has separately asked FIFA to refund fans now blocked from attending. The measures stem from the rare Bundibugyo-strain Ebola outbreak the WHO declared a global health emergency on May 17.",
+          "source": "Al Jazeera / Africanews",
+          "published_at": "2026-05-28",
+          "url": "https://www.aljazeera.com/sports/2026/5/28/world-cup-delegation-compliant-with-us-ebola-protocols-dr-congo-says"
+        },
+        {
+          "id": "hv2",
+          "headline": "WHO keeps Ebola at its highest alert as confirmed cases pass 120 in DR Congo",
+          "category": "Outbreak",
+          "summary": "The WHO declared the Bundibugyo-strain Ebola epidemic in DR Congo and Uganda a Public Health Emergency of International Concern — its top level of alarm — on May 17. As of May 27, DR Congo's health ministry reports 121 confirmed cases and 17 deaths (plus about 1,077 suspected cases and 238 suspected deaths), and Uganda reports 7 confirmed cases and 1 death — 128 confirmed cases and 18 deaths combined. There is no licensed vaccine for this strain, so contact-tracing, isolation and early supportive care are the main tools; agency tallies vary, with the US CDC's mid-May count lower.",
+          "source": "WHO / ECDC / DRC & Uganda health ministries",
+          "published_at": "2026-05-27",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON602"
+        },
+        {
+          "id": "hv3",
+          "headline": "Cruise-ship hantavirus cluster holds at 13 cases and 3 deaths",
+          "category": "Public Health",
+          "summary": "In its latest update, Europe's disease agency ECDC reported 13 cases (11 confirmed, 2 probable) and 3 deaths in the Andes hantavirus cluster linked to the cruise ship MV Hondius, whose passengers and crew came from 23 countries. ECDC has not declared the cluster over — more cases could still surface during the long incubation period, which can run up to about seven weeks — but rates the risk to the general public as very low.",
+          "source": "ECDC / WHO",
+          "published_at": "2026-05-26",
+          "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
+        },
+        {
+          "id": "hv4",
+          "headline": "WHO urges no travel bans even as the US tightens entry rules",
+          "category": "Public Health",
+          "summary": "After meeting on May 22, the WHO's emergency committee issued temporary recommendations urging that confirmed, probable and suspected Ebola cases and their contacts avoid international travel, but explicitly advised against flight suspensions or border closures, warning they can push movement to unmonitored crossings. That stance contrasts with the US, which has restricted entry for most travellers recently in DR Congo, Uganda or South Sudan.",
+          "source": "WHO",
+          "published_at": "2026-05-22",
+          "url": "https://www.who.int/news/item/22-05-2026-first-meeting-of-the-ihr-emergency-committee-regarding-the-epidemic-of-ebola-bundibugyo-virus-disease-in-the-democratic-republic-of-the-congo-and-uganda-2026-temporary-recommendations"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "A heavy week for actively-exploited web and hosting bugs, plus two big breaches. US authorities flagged three more exploited flaws under tight patch deadlines: a maximum-severity LiteSpeed cPanel bug that hands attackers root on hosting servers, a tampered Daemon Tools installer, and an unauthenticated Drupal SQL-injection. A KnowledgeDeliver zero-day is planting web shells, and a Ghost CMS flaw is fuelling a 'ClickFix' scam campaign. On the breach side, Carnival confirmed an incident exposing nearly 6 million people. Patch web and hosting platforms now.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "Carnival confirms data breach affecting nearly 6 million people",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Carnival Corporation, the world's largest cruise operator, confirmed a breach affecting nearly 6 million people (about 5,995,277) and began notifying them on May 27. The company says attackers gained access through a compromised employee account in an April 10 social-engineering attack, exposing names, addresses, dates of birth and government-issued ID numbers tied to a Holland America loyalty programme. The ShinyHunters extortion group has claimed the theft; Carnival says it cut off the access and brought in outside investigators.",
+          "source": "BleepingComputer",
+          "published_at": "2026-05-28",
+          "url": "https://www.bleepingcomputer.com/news/security/carnival-cruise-confirms-data-breach-affecting-nearly-6-million-people/"
+        },
+        {
+          "id": "cs2",
+          "headline": "Maximum-severity LiteSpeed cPanel flaw exploited to seize hosting servers",
+          "category": "Actively Exploited",
+          "cve": "CVE-2026-48172",
+          "cvss": 10.0,
+          "severity": "CRITICAL",
+          "summary": "A maximum-severity flaw in the LiteSpeed cPanel user-end plugin lets any logged-in cPanel user run scripts as 'root', effectively taking over an entire shared-hosting server and every site on it. CISA added it to its must-patch catalog and gave federal agencies just four days to fix it, confirming real-world exploitation. Hosting operators running the plugin should update without delay.",
+          "source": "The Hacker News / CISA",
+          "published_at": "2026-05-27",
+          "url": "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html"
+        },
+        {
+          "id": "cs3",
+          "headline": "KnowledgeDeliver learning platform zero-day used to plant web shells",
+          "category": "Zero-Day",
+          "cve": "CVE-2026-5426",
+          "cvss": 9.1,
+          "severity": "CRITICAL",
+          "summary": "Attackers exploited a zero-day in the KnowledgeDeliver learning-management system caused by a hard-coded cryptographic key shipped identically to all customers. By forging signed requests they gained remote code execution and installed the 'Godzilla' web shell, which Mandiant tied to a real intrusion. Affected installations should rotate the key and patch now. (The 9.1 score is vendor-supplied; the US vulnerability database has not finished its own analysis.)",
+          "source": "BleepingComputer / Mandiant",
+          "published_at": "2026-05-27",
+          "url": "https://www.bleepingcomputer.com/news/security/knowledgedeliver-flaw-exploited-as-a-zero-day-to-install-web-shells/"
+        },
+        {
+          "id": "cs4",
+          "headline": "CISA flags tampered Daemon Tools installer as actively exploited",
+          "category": "Actively Exploited",
+          "cve": "CVE-2026-8398",
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "CISA confirmed active exploitation of malicious code planted in the DAEMON Tools Lite installer and added it to its Known Exploited Vulnerabilities catalog on May 27, ordering federal agencies to remediate. It was one of three exploited flaws CISA flagged that day, alongside the LiteSpeed cPanel and Drupal bugs — a reminder that trusted software downloads themselves can be a delivery route for malware.",
+          "source": "CISA / BleepingComputer",
+          "published_at": "2026-05-27",
+          "url": "https://www.cisa.gov/news-events/alerts/2026/05/27/cisa-adds-three-known-exploited-vulnerabilities-catalog"
+        },
+        {
+          "id": "cs5",
+          "headline": "CISA orders agencies to patch actively-exploited Drupal SQL injection",
+          "category": "Actively Exploited",
+          "cve": "CVE-2026-9082",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "An unauthenticated SQL-injection flaw in Drupal's database layer, affecting sites backed by the PostgreSQL database, is being actively exploited and can lead to data theft, privilege escalation and potentially full server takeover. Drupal rated it 'highly critical' and CISA ordered federal agencies to patch by a tight deadline. Drupal administrators should update immediately.",
+          "source": "BleepingComputer / CISA",
+          "published_at": "2026-05-26",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-drupal-vulnerability/"
+        },
+        {
+          "id": "cs6",
+          "headline": "Ghost CMS SQL-injection flaw drives large-scale 'ClickFix' campaign",
+          "category": "Threat Campaign",
+          "cve": "CVE-2026-26980",
+          "cvss": 9.4,
+          "severity": "CRITICAL",
+          "summary": "Attackers are exploiting an unauthenticated SQL-injection flaw in the Ghost publishing platform's Content API to steal admin keys and inject malicious JavaScript that funnels visitors into 'ClickFix' scam prompts, according to researchers at QiAnXin XLab. A fix shipped earlier in the year; the news is the active May campaign hitting sites that have not patched — site owners should update Ghost and rotate any exposed API keys.",
+          "source": "BleepingComputer / QiAnXin XLab",
+          "published_at": "2026-05-24",
+          "url": "https://www.bleepingcomputer.com/news/security/ghost-cms-sql-injection-flaw-exploited-in-large-scale-clickfix-campaign/"
+        }
+      ]
+    }
+  }
+}
