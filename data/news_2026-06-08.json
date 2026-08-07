@@ -1,0 +1,668 @@
+{
+  "meta": {
+    "date": "2026-06-08",
+    "generated_at": "2026-06-08T21:00:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "BBC",
+      "CNA",
+      "The Straits Times",
+      "Mothership",
+      "NEA",
+      "LTA / data.gov.sg",
+      "WHO",
+      "ECDC",
+      "CISA KEV",
+      "NVD",
+      "The Hacker News",
+      "BleepingComputer"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "A powerful magnitude-7.8 quake off the southern Philippines killed at least 32 people and triggered tsunami warnings, leading the day. In the Middle East, Israel and Iran traded fire for the first time since April's ceasefire before both called off strikes after US President Trump told them to 'stop shooting'; the flare-up rattled markets and dented airline profit forecasts. Elsewhere, pro-Western parties won in Armenia, Peru's presidential vote was too close to call, and Xi Jinping visited North Korea.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "At least 32 dead as magnitude-7.8 quake strikes southern Philippines, triggering tsunami warnings",
+          "category": "Disaster",
+          "summary": "A magnitude-7.8 earthquake struck Mindanao in the southern Philippines, killing at least 32 people and prompting tsunami warnings, authorities said. Rescue efforts were under way as the death toll was expected to rise.",
+          "source": "BBC, CNA",
+          "published_at": "2026-06-08T19:10+08:00",
+          "url": "https://www.bbc.com/news/articles/clyel78e6p5o"
+        },
+        {
+          "id": "ts2",
+          "headline": "Israel and Iran call off strikes after Trump tells both sides to 'stop shooting'",
+          "category": "Middle East",
+          "summary": "Israel and Iran exchanged fire for the first time since April's ceasefire before both halted operations after US President Donald Trump publicly urged restraint. Iran's military announced an end to its operation against Israel; each side blamed the other for the escalation.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-06-08T20:02+08:00",
+          "url": "https://www.straitstimes.com/world/middle-east/israel-iran-trade-fire-for-first-time-since-april-ceasefire"
+        },
+        {
+          "id": "ts3",
+          "headline": "Global stock markets fall on tech plunge and renewed Middle East attacks",
+          "category": "Markets",
+          "summary": "Equity markets slid as a sell-off in technology shares combined with renewed Israel-Iran hostilities to sap risk appetite. Oil firmed on fresh supply-route worries around the Gulf.",
+          "source": "BBC",
+          "published_at": "2026-06-08T20:40+08:00",
+          "url": "https://www.bbc.com/news/articles/c78yd5g9qx0o"
+        },
+        {
+          "id": "ts4",
+          "headline": "Armenia's pro-West government wins election despite Russian pressure",
+          "category": "Elections",
+          "summary": "Armenia's governing pro-Western party won parliamentary elections, holding off a Moscow-aligned opposition in a vote seen as a test of the country's tilt toward Europe.",
+          "source": "BBC",
+          "published_at": "2026-06-08T18:28+08:00",
+          "url": "https://www.bbc.com/news/articles/cvgel990n51o"
+        },
+        {
+          "id": "ts5",
+          "headline": "Xi Jinping visits North Korea, hailing a 'new start' in ties ahead of summit",
+          "category": "Geopolitics",
+          "summary": "Chinese leader Xi Jinping arrived in North Korea, calling for a 'new start' in relations ahead of a summit with Kim Jong Un, in a visit watched closely across the region.",
+          "source": "CNA, BBC",
+          "published_at": "2026-06-08T15:55+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/china-north-korea-fight-hegemony-xi-jinping-6167886"
+        },
+        {
+          "id": "ts6",
+          "headline": "Peru presidential vote too close to call as conservative Fujimori leads",
+          "category": "Elections",
+          "summary": "Peru's presidential race remained on a knife-edge as conservative candidate Keiko Fujimori held a narrow lead with counting continuing, amid voter anxiety over insecurity and instability.",
+          "source": "The Straits Times, BBC",
+          "published_at": "2026-06-08T17:32+08:00",
+          "url": "https://www.straitstimes.com/world/perus-conservative-fujimori-leads-presidential-vote-in-a-tight-race"
+        },
+        {
+          "id": "ts7",
+          "headline": "EU sanctions Iran's Revolutionary Guards over Strait of Hormuz closure",
+          "category": "Geopolitics",
+          "summary": "The European Union imposed sanctions on Iran's Revolutionary Guard Corps over its earlier closure of the Strait of Hormuz, a key oil shipping chokepoint.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-08T19:50+08:00",
+          "url": "https://www.straitstimes.com/world/middle-east/eu-sanctions-iran-guards-over-closure-of-hormuz"
+        },
+        {
+          "id": "ts8",
+          "headline": "Global airlines cut 2026 profit forecast, citing fuel shock from Iran war",
+          "category": "Economy",
+          "summary": "Airline body IATA lowered its 2026 industry profit forecast, blaming higher fuel costs driven by the Iran conflict. It warned airfares would take longer than expected to return to normal.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-08T03:38+08:00",
+          "url": "https://www.channelnewsasia.com/world/airlines-iata-2026-profit-forecast-iran-war-fuel-shock-6167711"
+        },
+        {
+          "id": "ts9",
+          "headline": "French NATO jet shoots down drone in Latvian airspace, army says",
+          "category": "Europe",
+          "summary": "A French jet on a NATO air-policing mission shot down a drone over Latvian airspace, Latvia's army said, amid heightened alertness along the alliance's eastern flank.",
+          "source": "CNA",
+          "published_at": "2026-06-08T17:33+08:00",
+          "url": "https://www.channelnewsasia.com/world/france-jet-nato-shoots-drone-latvia-russia-6168886"
+        },
+        {
+          "id": "ts10",
+          "headline": "Six wounded in stabbing at New York's Penn Station",
+          "category": "World",
+          "summary": "Six people were wounded in a stabbing at New York City's Penn Station, police said. A suspect was taken into custody and the motive was under investigation.",
+          "source": "CNA",
+          "published_at": "2026-06-08T08:56+08:00",
+          "url": "https://www.channelnewsasia.com/world/new-york-stabbing-penn-station-5-injured-6168061"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "PM Lawrence Wong dominated the day, warning that the US and China are locked in a 'mutually assured disruption' dynamic and urging Singapore to stay cohesive amid global uncertainty, while touting AI as a 'game changer' for the labour-short city. On the ground, expect thundery showers; COE premiums held near record levels after the June exercise. In local buzz, a power-washing pavement artist drew an outpouring of support after SMRT removed his Mountbatten work, and Daiso's Tampines 1 outlet is closing after 14 years.",
+      "weather": {
+        "forecast": "Thundery Showers",
+        "temp_low": 25,
+        "temp_high": 34,
+        "humidity_low": 60,
+        "humidity_high": 95,
+        "as_of": "2026-06-08T20:13+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jun 2026 · 1st bidding",
+        "as_of": "2026-06-03",
+        "next_results": "2026-06-17",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          {
+            "code": "A",
+            "label": "Cars up to 1600cc & 130bhp",
+            "premium": 126009,
+            "change": 1780
+          },
+          {
+            "code": "B",
+            "label": "Cars above 1600cc or 130bhp",
+            "premium": 126989,
+            "change": -2512
+          }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "PM Wong warns US-China locked in 'mutually assured disruption', urges Singapore to stay cohesive",
+          "category": "Politics",
+          "summary": "Speaking at a Singapore Press Club event, PM Lawrence Wong said the US and China are in a 'mutually assured disruption' dynamic in which both sides lose if they keep imposing restrictions on each other, and called for Singapore to become more cohesive as the global outlook stays uncertain.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-08T20:48+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/lawrence-wong-us-china-singapore-press-club-6169231"
+        },
+        {
+          "id": "sg2",
+          "headline": "Singapore launches new AI supercomputer as PM Wong calls AI a 'game changer'",
+          "category": "Technology",
+          "summary": "Singapore unveiled a new AI supercomputer to boost climate and healthcare research. PM Wong said AI could be a 'game changer' for productivity in a labour-short city like Singapore.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-08T13:21+08:00",
+          "url": "https://www.straitstimes.com/tech/spore-launches-new-ai-supercomputer-to-boost-climate-healthcare-research"
+        },
+        {
+          "id": "sg3",
+          "headline": "HDB, URA season parking fees for some commercial vehicles to be lowered from Aug 1",
+          "category": "Cost of Living",
+          "summary": "Season parking fees for certain commercial vehicles at HDB and URA car parks will be reduced from Aug 1, the authorities said, easing costs for some businesses.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-08T10:58+08:00",
+          "url": "https://www.straitstimes.com/singapore/lower-hdb-ura-season-parking-fees-for-some-commercial-vehicles-from-aug-1"
+        },
+        {
+          "id": "sg4",
+          "headline": "Singapore pushes to become a regional gold hub as bullion demand rises",
+          "category": "Economy",
+          "summary": "Singapore is positioning itself as a regional hub for gold, expanding vaulting capacity as demand for bullion from investors and central banks grows.",
+          "source": "CNA",
+          "published_at": "2026-06-08T18:04+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/singapore-regional-gold-hub-bullion-demand-vaults-central-banks-6168906"
+        },
+        {
+          "id": "sg5",
+          "headline": "Power-washing pavement artist flooded with support after SMRT removes Mountbatten work",
+          "category": "Trending",
+          "summary": "A 'power-washer' artist who cleans images into grimy pavements was inundated with public support and business inquiries after SMRT removed his work near Mountbatten. MP Gho Sze Kee said the episode reflects the tension between artistic expression and rules in public spaces.",
+          "source": "The Straits Times, Mothership",
+          "published_at": "2026-06-08T16:15+08:00",
+          "url": "https://www.straitstimes.com/singapore/power-washer-flooded-with-support-business-inquiries-after-smrt-removes-artwork-near-mountbatten"
+        },
+        {
+          "id": "sg6",
+          "headline": "Daiso at Tampines 1 to close after 14 years, last day June 21",
+          "category": "Trending",
+          "summary": "The Daiso outlet at Tampines 1 will shut after 14 years, with its last day of operations on June 21, the retailer said.",
+          "source": "Mothership",
+          "published_at": "2026-06-08T11:29+08:00",
+          "url": "https://mothership.sg/2026/06/daiso-tampines-1-close/"
+        },
+        {
+          "id": "sg7",
+          "headline": "Driver in Yishun rubbish-chute crash charged, allegedly under influence of meth",
+          "category": "Crime",
+          "summary": "A 32-year-old man who allegedly crashed his car into a Yishun rubbish chute has been charged with driving under the influence of methamphetamine and four other traffic offences.",
+          "source": "The Straits Times, Mothership",
+          "published_at": "2026-06-08T13:13+08:00",
+          "url": "https://www.straitstimes.com/singapore/courts-crime/yishun-rubbish-chute-crash-driver-was-allegedly-under-influence-of-meth"
+        },
+        {
+          "id": "sg8",
+          "headline": "Van driver admits speeding before fatal crash that killed jaywalker",
+          "category": "Courts",
+          "summary": "A van driver pleaded guilty to speeding before a crash that killed a jaywalking pedestrian, a court heard.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-08T16:10+08:00",
+          "url": "https://www.straitstimes.com/singapore/courts-crime/van-driver-admits-speeding-before-fatal-crash-that-killed-jaywalker"
+        },
+        {
+          "id": "sg9",
+          "headline": "Police arrest 13 men in island-wide secret society raids",
+          "category": "Crime",
+          "summary": "Singapore police said they arrested 13 men aged 21 to 39 during island-wide raids targeting suspected secret-society activity.",
+          "source": "Mothership",
+          "published_at": "2026-06-08T12:04+08:00",
+          "url": "https://mothership.sg/2026/06/police-arrest-secret-societies/"
+        },
+        {
+          "id": "sg10",
+          "headline": "Omura's whale carcass found in Singapore could help scientists study rare species",
+          "category": "Science",
+          "summary": "A carcass of a little-known Omura's whale found in Singapore waters is being preserved by researchers, who say it could help unlock mysteries about the elusive species.",
+          "source": "CNA",
+          "published_at": "2026-06-08T16:57+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/omuras-whale-baleen-science-lkcnhm-preservation-conservation-6168701"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "The Israel-Iran front swung from escalation to an abrupt halt: the two traded fire for the first time since April before both called off strikes after Trump's intervention, though the EU sanctioned Iran's Guards over Hormuz and the Houthis threatened Red Sea shipping. In Gaza, Israel killed more Palestinians and expanded a control zone as Egypt hosted ceasefire talks. On the Russia-Ukraine front, Kyiv claims territorial gains and European allies floated conditions for peace talks even as long-range strikes continue.",
+      "theatres": [
+        {
+          "name": "US/Israel–Iran (Gulf)",
+          "status": "After a brief exchange of fire — the first since April's ceasefire — Israel and Iran both halted strikes on 8 June following Trump's call to 'stop shooting'; Iran's military announced an end to operations. Tensions persist over the Strait of Hormuz (EU sanctions) and Houthi threats to Red Sea shipping.",
+          "timeline": [
+            {
+              "date": "2026-06-08",
+              "event": "Iran rejected using its frozen assets to pay damages to US allies and blamed Washington for the latest exchanges of fire with Israel.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/iran-blames-us-for-latest-exchanges-of-fire-with-israel"
+            },
+            {
+              "date": "2026-06-08",
+              "event": "Israel and Iran traded fire for the first time since April's ceasefire; Israel's military said it struck targets in western and central Iran.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/israel-stikes-iran-retaliation-beirut-trump-netanyahu-6167551"
+            },
+            {
+              "date": "2026-06-08",
+              "event": "After US President Trump publicly told both sides to 'stop shooting', Israel and Iran called off further strikes; Iran's military announced a halt to its operation against Israel.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/iran-military-announces-halt-to-operation-against-israel"
+            },
+            {
+              "date": "2026-06-08",
+              "event": "The EU sanctioned Iran's Revolutionary Guards over the earlier closure of the Strait of Hormuz; Yemen's Iran-backed Houthis threatened Israeli shipping in the Red Sea.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/eu-sanctions-iran-guards-over-closure-of-hormuz"
+            },
+            {
+              "date": "2026-06-08",
+              "event": "Global airline body IATA cut its 2026 industry profit forecast, citing the fuel-price shock from the Iran war.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/airlines-iata-2026-profit-forecast-iran-war-fuel-shock-6167711"
+            }
+          ]
+        },
+        {
+          "name": "Israel–Gaza / Lebanon",
+          "status": "Israel killed more Palestinians in Gaza and expanded a control zone as Egypt hosted new ceasefire talks; Lebanon's PM accused Israel of thousands of ceasefire violations.",
+          "timeline": [
+            {
+              "date": "2026-06-08",
+              "event": "Israel's military killed at least four Palestinians in Gaza and expanded its control zone, local officials said, as Egypt hosted new ceasefire talks. (An earlier CNA report cited nine killed.)",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/israeli-military-kills-four-in-gaza-and-expands-control-zone-locals-say"
+            },
+            {
+              "date": "2026-06-08",
+              "event": "Lebanon's prime minister said Israel has bombed Lebanon nearly 3,500 times since the ceasefire began.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/lebanese-pm-says-israel-has-bombed-lebanon-nearly-3500-times-during-ceasefire"
+            },
+            {
+              "date": "2026-06-08",
+              "event": "A third of UK Labour lawmakers urged Britain to ban trade with Israeli settlements, signalling rising political pressure in Europe.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/a-third-of-labour-lawmakers-urge-britain-to-ban-trade-with-israeli-settlements"
+            }
+          ]
+        },
+        {
+          "name": "Russia–Ukraine",
+          "status": "Diplomacy is tentatively reviving — European allies set conditions for peace talks — even as long-range strikes continue; Kyiv's military chief claims significant territorial gains in 2026.",
+          "timeline": [
+            {
+              "date": "2026-06-07",
+              "event": "Zelensky's close European allies set out five conditions for any peace talks with Moscow.",
+              "source": "BBC",
+              "url": "https://www.bbc.com/news/articles/cr7xr1g3nvvo"
+            },
+            {
+              "date": "2026-06-08",
+              "event": "Ukraine's military chief said its forces had recaptured more than 600 sq km of territory in 2026.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/ukraine-recaptures-more-than-600-square-km-of-territory-in-2026-military-chief-says"
+            },
+            {
+              "date": "2026-06-08",
+              "event": "Drone attacks on St Petersburg overshadowed Russia's flagship economic forum, the BBC reported.",
+              "source": "BBC",
+              "url": "https://www.bbc.com/news/articles/c9q2gp52rgro"
+            },
+            {
+              "date": "2026-06-08",
+              "event": "Poland's PM Donald Tusk sought calm and dialogue with Ukraine amid a row over a Ukrainian army unit.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/polands-tusk-seeks-calm-and-dialogue-with-ukraine-in-row-over-army-unit"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "Two outbreaks dominate the WHO picture. Bundibugyo Ebola is rising rapidly in the DR Congo (134 confirmed cases, 18 deaths, plus 906 suspected cases incl. 223 deaths) and has spread to Kampala, Uganda — a serious, fast-moving epidemic. The Andes hantavirus cluster tied to a cruise ship is stable at 13 cases and 3 deaths across passengers and crew, with onward-spread risk assessed as low; two Singapore residents who were aboard have completed quarantine.",
+      "outbreaks": [
+        {
+          "name": "Bundibugyo Ebola — DR Congo & Uganda",
+          "status": "Rising rapidly in DRC's Ituri province; nine confirmed cases (one death) reported in Kampala/Wakiso, Uganda.",
+          "cases": "134 confirmed",
+          "deaths": "18 confirmed",
+          "countries": 2,
+          "as_of": "2026-05-29",
+          "scope_note": "Confirmed cases, DRC + Uganda combined (DRC 125 cases/17 deaths; Uganda 9 cases/1 death; CFR 14%). A further 906 suspected cases incl. 223 deaths reported in DRC. Source: WHO DON605, 29 May 2026."
+        },
+        {
+          "name": "Andes hantavirus — cruise-ship cluster",
+          "status": "Limited person-to-person spread aboard ship; off-ship risk assessed low (effective reproduction number ~0 as of 22 May).",
+          "cases": 13,
+          "deaths": 3,
+          "countries": 32,
+          "as_of": "2026-05-27",
+          "scope_note": "13 cases (11 confirmed, 2 probable) incl. 3 deaths (2 confirmed, 1 probable) among MV cruise passengers/crew; >600 contacts traced across 32 countries/territories. Source: WHO DON604, as of 27 May 2026."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "WHO: Bundibugyo Ebola cases rising rapidly in DR Congo, with spread to Uganda",
+          "category": "Ebola",
+          "summary": "WHO reported 134 confirmed Bundibugyo virus cases including 18 deaths (CFR 14%) across DR Congo and Uganda, alongside 906 suspected cases and 223 suspected-case deaths in DRC. The outbreak is concentrated in Ituri province, with nine confirmed cases in Kampala and Wakiso, Uganda.",
+          "source": "WHO",
+          "published_at": "2026-05-29",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON605"
+        },
+        {
+          "id": "ob2",
+          "headline": "WHO: Andes hantavirus cruise-ship cluster at 13 cases, 3 deaths; spread risk low",
+          "category": "Hantavirus",
+          "summary": "WHO said the Andes hantavirus cluster linked to a cruise ship stands at 13 cases (11 confirmed, two probable) including three deaths, with more than 600 contacts traced across 32 countries and territories. The effective reproduction number was estimated near zero, indicating low onward-spread risk.",
+          "source": "WHO",
+          "published_at": "2026-05-28",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON604"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "Actively exploited flaws lead the week: a CRITICAL Magento RCE (CVE-2026-45247) and a SolarWinds Serv-U DoS bug joined CISA's KEV catalog, while Cisco scrambled over an unpatched SD-WAN zero-day (CVE-2026-20245) and a now-public Unified CM exploit. Software supply-chain attacks intensified — the self-spreading 'Miasma' worm hit Red Hat npm packages and 73 Microsoft GitHub repos, and even Claude Code's GitHub Action was found hijackable. Notable breaches included Oxford University and a Meta AI support hack exposing 20,000 Instagram accounts.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "VerdantBamboo deploys BSD variant of BRICKSTORM backdoor on Linux appliances",
+          "category": "APT",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A China-nexus espionage group dubbed VerdantBamboo was observed deploying a BSD variant of the BRICKSTORM backdoor, plus malware families PLENET (GRIMBOLT) and AGENTPSD, to target Linux appliances for long-term access.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-08",
+          "url": "https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html"
+        },
+        {
+          "id": "cs2",
+          "headline": "Oxford University discloses data breach after careers platform hack",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "The University of Oxford disclosed a data breach after attackers compromised a careers/recruitment platform, exposing personal data of affected users.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-08",
+          "url": "https://www.bleepingcomputer.com/news/security/oxford-university-discloses-data-breach-after-careerconnect-platform-hack/"
+        },
+        {
+          "id": "cs3",
+          "headline": "Over 20,000 Instagram accounts stolen in Meta AI support hack",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A breach of a Meta AI support system exposed data tied to more than 20,000 Instagram accounts, BleepingComputer reported, raising account-takeover and phishing risks for those affected.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-08",
+          "url": "https://www.bleepingcomputer.com/news/security/meta-ai-support-data-breach-affects-20-000-instagram-accounts/"
+        },
+        {
+          "id": "cs4",
+          "headline": "C0XMO botnet spreads via DD-WRT router flaw, kills rival malware",
+          "category": "Botnet",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A new botnet tracked as C0XMO is exploiting a DD-WRT router vulnerability to spread and is purging competing malware from infected devices to monopolise them.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-07",
+          "url": "https://www.bleepingcomputer.com/news/security/c0xmo-botnet-spreads-via-dd-wrt-router-flaw-kills-rival-malware/"
+        },
+        {
+          "id": "cs5",
+          "headline": "Cisco warns of unpatched Catalyst SD-WAN Manager zero-day exploited in attacks",
+          "category": "Zero-Day",
+          "cve": "CVE-2026-20245",
+          "cvss": 7.8,
+          "severity": "HIGH",
+          "summary": "Cisco warned that an unpatched flaw (CVE-2026-20245) in Catalyst SD-WAN Manager is being exploited in zero-day attacks to gain root access. No fix was available at disclosure; Cisco urged mitigations.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-06",
+          "url": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html"
+        },
+        {
+          "id": "cs6",
+          "headline": "CISA adds actively exploited SolarWinds Serv-U DoS flaw to KEV catalog",
+          "category": "Exploited / KEV",
+          "cve": "CVE-2026-28318",
+          "cvss": 7.5,
+          "severity": "HIGH",
+          "summary": "CISA added a SolarWinds Serv-U uncontrolled-resource-consumption flaw (CVE-2026-28318) to its Known Exploited Vulnerabilities catalog after attackers used it to crash servers. Federal agencies were ordered to patch.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-06",
+          "url": "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html"
+        },
+        {
+          "id": "cs7",
+          "headline": "'Miasma' worm hits 73 Microsoft GitHub repositories in major supply-chain attack",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "The self-propagating Miasma worm compromised 73 Microsoft-owned GitHub repositories, part of a wider wave of supply-chain attacks spreading credential-stealing code through developer ecosystems.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-06",
+          "url": "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html"
+        },
+        {
+          "id": "cs8",
+          "headline": "AI agent uncovers 21 zero-days in FFmpeg; Chrome patches record 429 bugs",
+          "category": "Vuln Research",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "An autonomous AI tool surfaced 21 zero-day vulnerabilities in the widely used FFmpeg library, while Google shipped a Chrome update fixing a record 429 bugs — underscoring AI's growing role in vulnerability discovery.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-06",
+          "url": "https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html"
+        },
+        {
+          "id": "cs9",
+          "headline": "Critical Everest Forms Pro WordPress flaw exploited to take over sites",
+          "category": "WordPress",
+          "cve": null,
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "Attackers are exploiting a critical flaw in the Everest Forms Pro WordPress plugin to take over vulnerable sites. Admins were urged to update immediately.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-06-05",
+          "url": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/"
+        },
+        {
+          "id": "cs10",
+          "headline": "Over 900 US gas-station tank-gauge systems exposed to attacks",
+          "category": "ICS / OT",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers found more than 900 US gas-station automatic tank-gauge systems exposed online, leaving fuel infrastructure reachable by attackers who could tamper with readings or cause disruption.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-05",
+          "url": "https://www.bleepingcomputer.com/news/security/over-900-us-gas-station-tank-gauge-systems-exposed-to-attacks/"
+        },
+        {
+          "id": "cs11",
+          "headline": "Cisco patches CVE-2026-20230 in Unified CM as exploit code goes public",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-20230",
+          "cvss": 8.6,
+          "severity": "HIGH",
+          "summary": "Cisco patched CVE-2026-20230 in Unified Communications Manager after proof-of-concept exploit code became public, raising the risk of attacks against unpatched deployments.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-04",
+          "url": "https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html"
+        },
+        {
+          "id": "cs12",
+          "headline": "Claude Code GitHub Action flaw let one malicious issue hijack repositories",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers found a flaw in the Claude Code GitHub Action that could let a single crafted issue hijack a repository. The issue has since been addressed; users were advised to update their workflows.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-04",
+          "url": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html"
+        },
+        {
+          "id": "cs13",
+          "headline": "Hackers spied on a stock-exchange executive's Outlook mailbox for five months",
+          "category": "Espionage",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Attackers maintained covert access to a stock-exchange executive's Outlook mailbox for roughly five months, reading email undetected in a targeted espionage operation.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-04",
+          "url": "https://thehackernews.com/2026/06/hackers-spied-on-stock-exchange.html"
+        },
+        {
+          "id": "cs14",
+          "headline": "CISA adds exploited Magento RCE flaw CVE-2026-45247 to KEV catalog",
+          "category": "Exploited / KEV",
+          "cve": "CVE-2026-45247",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "CISA added a critical remote-code-execution flaw (CVE-2026-45247) affecting a Magento full-page-cache extension to its KEV catalog after active exploitation. The bug allows unauthenticated code execution on e-commerce sites.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-03",
+          "url": "https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html"
+        },
+        {
+          "id": "cs15",
+          "headline": "Autonomous AI tool finds 2-year-old RCE flaw in Redis (CVE-2026-23479)",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-23479",
+          "cvss": 8.8,
+          "severity": "HIGH",
+          "summary": "An autonomous AI security tool discovered a two-year-old remote-code-execution vulnerability in Redis (CVE-2026-23479), prompting fixes for the widely deployed in-memory database.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-03",
+          "url": "https://thehackernews.com/2026/06/autonomous-ai-tool-finds-2-year-old-rce.html"
+        },
+        {
+          "id": "cs16",
+          "headline": "Microsoft fixes one-click GitHub dev attack that let attackers steal OAuth tokens",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Microsoft fixed a one-click attack against GitHub developers that could let attackers steal OAuth tokens and gain access to accounts and repositories.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-03",
+          "url": "https://thehackernews.com/2026/06/one-click-github-dev-attack-lets.html"
+        },
+        {
+          "id": "cs17",
+          "headline": "New HTTP/2 'Bomb' vulnerability allows remote DoS on NGINX, Apache, IIS, Envoy and Cloudflare",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A new HTTP/2 'Bomb' technique can remotely trigger denial-of-service conditions across major web servers and proxies including NGINX, Apache, IIS, Envoy and Cloudflare. Vendors issued mitigations.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-03",
+          "url": "https://thehackernews.com/2026/06/new-http2-bomb-vulnerability-allows.html"
+        },
+        {
+          "id": "cs18",
+          "headline": "Google's June 2026 Android update patches 124 flaws, one actively exploited",
+          "category": "Mobile",
+          "cve": "CVE-2025-48595",
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Google's June 2026 Android security update fixes 124 vulnerabilities, including an Android Framework integer-overflow flaw (CVE-2025-48595) that is being actively exploited and is listed in CISA's KEV catalog.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-03",
+          "url": "https://thehackernews.com/2026/06/google-june-2026-android-update-patches.html"
+        },
+        {
+          "id": "cs19",
+          "headline": "Microsoft 365 Android apps let any app steal account tokens via leftover debug flag",
+          "category": "Mobile",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A leftover debug flag in Microsoft 365 Android apps could allow any installed app on the device to steal account tokens; Microsoft addressed the issue.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-03",
+          "url": "https://thehackernews.com/2026/06/microsoft-365-android-apps-let-any-app.html"
+        },
+        {
+          "id": "cs20",
+          "headline": "Unpatched Windows Search URI vulnerability lets attackers steal NTLMv2 hashes",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A vulnerability in the Windows Search URI handler can be abused to leak NTLMv2 authentication hashes, which attackers can relay or crack. No patch was available at disclosure; mitigations were advised.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-03",
+          "url": "https://thehackernews.com/2026/06/unpatched-windows-search-uri.html"
+        },
+        {
+          "id": "cs21",
+          "headline": "Oracle WebLogic flaw CVE-2024-21182 added to KEV catalog after active exploitation",
+          "category": "Exploited / KEV",
+          "cve": "CVE-2024-21182",
+          "cvss": 7.5,
+          "severity": "HIGH",
+          "summary": "CISA added an Oracle WebLogic Server vulnerability (CVE-2024-21182) to its KEV catalog after evidence of active exploitation. Organisations were urged to apply Oracle's patch.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-02",
+          "url": "https://thehackernews.com/2026/06/oracle-weblogic-cve-2024-21182-added-to.html"
+        },
+        {
+          "id": "cs22",
+          "headline": "Gamaredon exploits WinRAR to deliver GammaWorm and GammaSteel against Ukraine",
+          "category": "APT",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Russia-linked Gamaredon abused WinRAR to deploy GammaWorm and GammaSteel malware in a fresh espionage campaign targeting Ukraine.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-02",
+          "url": "https://thehackernews.com/2026/06/gamaredon-exploits-winrar-to-deliver.html"
+        },
+        {
+          "id": "cs23",
+          "headline": "'Miasma' supply-chain attack compromises Red Hat npm packages with credential-stealing worm",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "The Miasma supply-chain campaign compromised Red Hat-maintained npm packages with a self-spreading, credential-stealing worm, part of a broader run of npm ecosystem attacks.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-01T23:10+08:00",
+          "url": "https://thehackernews.com/2026/06/miasma-supply-chain-attack-compromises.html"
+        }
+      ]
+    }
+  }
+}

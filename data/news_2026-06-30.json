@@ -1,0 +1,587 @@
+{
+  "meta": {
+    "date": "2026-06-30",
+    "generated_at": "2026-06-30T21:00:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": ["BBC", "CNA", "The Straits Times", "Mothership", "SP Group", "SingStat", "HSA", "MDDI", "GovTech", "CSA", "NEA", "LTA / data.gov.sg", "WHO", "ECDC", "The Hacker News", "BleepingComputer", "CISA KEV", "NVD"]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "A heavy news day. US-Iran diplomacy wobbles as US envoys head to Qatar with no Iran meeting confirmed, keeping a fragile post-strike standoff in focus. The US Supreme Court handed Trump a mixed day — blocking his bid to fire Fed governor Lisa Cook while broadening presidential powers. Elsewhere: deadly aftershocks and aid anger in quake-hit Venezuela, a mass shooting at a German shelter, and a parcel bomb that wounded a Ukrainian-born tycoon in Monaco.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "Uncertainty over Qatar diplomacy clouds prospects for US-Iran deal",
+          "category": "Geopolitics",
+          "summary": "US envoys Steve Witkoff and Jared Kushner are travelling to Qatar, but a Qatari official said no meeting with Iran is planned, dimming hopes of a near-term deal after the weekend's exchange of strikes. The two sides remain at odds over terms.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-06-30T18:25+08:00",
+          "url": "https://www.straitstimes.com/world/middle-east/us-envoy-witkoff-and-kushner-will-be-in-qatar-no-meeting-with-iran-qatari-official-says"
+        },
+        {
+          "id": "ts2",
+          "headline": "Mixed day for Trump at the US Supreme Court",
+          "category": "US Politics",
+          "summary": "The Supreme Court blocked President Trump's attempt to fire Federal Reserve governor Lisa Cook and let stand a US$5 million sexual-assault judgment in the E. Jean Carroll case, but separately expanded presidential powers in other rulings.",
+          "source": "BBC, CNA",
+          "published_at": "2026-06-30T04:34+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/ceqdzd7zx24o"
+        },
+        {
+          "id": "ts3",
+          "headline": "Survivors decry slow aid after deadly Venezuela quakes",
+          "category": "World",
+          "summary": "Aftershocks frayed nerves and survivors accused the government of a sluggish response as rescue and relief efforts continued following the earthquakes that struck Venezuela. The WHO said the country's health system is strained.",
+          "source": "CNA, BBC",
+          "published_at": "2026-06-30T01:47+08:00",
+          "url": "https://www.channelnewsasia.com/world/venezuela-earthquakes-aftershock-rescue-aid-6219406"
+        },
+        {
+          "id": "ts4",
+          "headline": "Six killed in shooting at German mother-and-child shelter",
+          "category": "World",
+          "summary": "A gunman shot dead six people at a facility for mothers and children in Stade, Germany, in what police linked to a custody dispute. A suspect was arrested.",
+          "source": "BBC, CNA",
+          "published_at": "2026-06-30T03:53+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c17yzzw1vkjo"
+        },
+        {
+          "id": "ts5",
+          "headline": "Pakistani strikes kill at least 28 civilians in Afghanistan, UN says",
+          "category": "World",
+          "summary": "The UN said at least 28 civilians were killed in Pakistani air operations inside Afghanistan, the latest flare-up in cross-border tensions between Islamabad and the Taliban authorities.",
+          "source": "BBC, CNA",
+          "published_at": "2026-06-29T23:46+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cy8wygyed0wo"
+        },
+        {
+          "id": "ts6",
+          "headline": "Manhunt after parcel bomb wounds Ukrainian-born businessman in Monaco",
+          "category": "World",
+          "summary": "Police are hunting a suspect after a parcel bomb wounded Ukrainian-born businessman Vadym Yermolaiev and others in Monaco. The motive is under investigation.",
+          "source": "CNA, BBC, The Straits Times",
+          "published_at": "2026-06-30T10:28+08:00",
+          "url": "https://www.channelnewsasia.com/world/monaco-parcel-bomb-blast-ukraine-vadym-yermolaiev-wounded-6220246"
+        },
+        {
+          "id": "ts7",
+          "headline": "Self-exiled Chinese billionaire Guo Wengui gets 30 years in US prison",
+          "category": "World",
+          "summary": "Self-exiled Chinese tycoon Guo Wengui was sentenced to 30 years in a US prison after being convicted of fraud, in a case prosecutors said cheated his followers out of more than US$1 billion.",
+          "source": "CNA, BBC",
+          "published_at": "2026-06-30T08:48+08:00",
+          "url": "https://www.channelnewsasia.com/world/exiled-chinese-billionaire-guo-wen-gui-30-years-prison-us-fraud-6220121"
+        },
+        {
+          "id": "ts8",
+          "headline": "Gojek founder Nadiem Makarim jailed 10 years for corruption",
+          "category": "Asia",
+          "summary": "Indonesia's former education minister and Gojek co-founder Nadiem Makarim was sentenced to 10 years' jail after being found guilty in a graft case tied to a laptop procurement programme.",
+          "source": "CNA, BBC",
+          "published_at": "2026-06-30T16:04+08:00",
+          "url": "https://www.channelnewsasia.com/asia/gojek-founder-indonesia-former-minister-makarim-guilty-graft-6220991"
+        },
+        {
+          "id": "ts9",
+          "headline": "UK's Starmer unveils £15 billion defence investment plan",
+          "category": "World",
+          "summary": "British Prime Minister Keir Starmer announced a long-delayed £15 billion defence boost, pledging higher military spending amid heightened European security concerns.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-30T20:45+08:00",
+          "url": "https://www.straitstimes.com/world/europe/uks-starmer-unveils-ps15-billion-defence-boost-in-long-delayed-investment-plan"
+        },
+        {
+          "id": "ts10",
+          "headline": "Morocco beat Netherlands on penalties to advance at World Cup",
+          "category": "Sport",
+          "summary": "Morocco advanced in the FIFA World Cup after a penalty shootout win over the Netherlands. The result sparked celebrations among fans, with some arrests reported in the Netherlands.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-30T11:59+08:00",
+          "url": "https://www.channelnewsasia.com/sport/morocco-advance-in-world-cup-after-penalty-shootout-win-over-netherlands-6220591"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "Cost of living leads the day: household electricity tariffs jump 17% from July (blamed on the Strait of Hormuz LNG squeeze), partly offset by U-Save rebates for over a million HDB households. HSA made its largest-ever Kpod seizure and busted a first transnational vaping syndicate under tougher laws, while Singpass rolls out phishing-resistant passkey logins from July 1. New census data shows more young residents staying single and fewer professing religion. Thundery showers are forecast.",
+      "weather": {
+        "forecast": "Thundery Showers",
+        "temp_low": 25,
+        "temp_high": 34,
+        "humidity_low": 60,
+        "humidity_high": 95,
+        "as_of": "2026-06-30T17:47+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jun 2026 · 2nd bidding",
+        "as_of": "2026-06-17",
+        "next_results": "2026-07-08",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          { "code": "A", "label": "Cars up to 1600cc & 130bhp", "premium": 123847, "change": -2162 },
+          { "code": "B", "label": "Cars above 1600cc or 130bhp", "premium": 123502, "change": -3487 }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "Electricity tariff to rise 17% for households from July",
+          "category": "Cost of Living",
+          "summary": "SP Group said the regulated household electricity tariff will rise about 17% (4.64 cents/kWh) to 31.91 cents per kWh before GST for July to September, driven by higher natural gas prices linked to the Strait of Hormuz disruption. The gas tariff rises 7.1%.",
+          "source": "SP Group, Mothership",
+          "published_at": "2026-06-30T14:19+08:00",
+          "effective_date": "2026-07-01",
+          "url": "https://mothership.sg/2026/06/singapore-electricity-tariff-up-july-2026/"
+        },
+        {
+          "id": "sg2",
+          "headline": "Over 1 million HDB households to get U-Save, S&CC rebates in July",
+          "category": "Cost of Living",
+          "summary": "More than a million Singaporean HDB households will receive U-Save utility rebates (S$110 to S$190) and Service & Conservancy Charges rebates in July, helping to cushion the cost of higher utility bills.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-30T13:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/over-1-million-sporean-hdb-households-to-get-u-save-scc-rebates-in-july"
+        },
+        {
+          "id": "sg3",
+          "headline": "HSA cracks first transnational Kpod syndicate after largest seizure",
+          "category": "Crime",
+          "summary": "The Health Sciences Authority arrested four Singaporean men over a suspected transnational etomidate-vape (Kpod) syndicate following its largest seizure to date — the first such crackdown under the strengthened anti-vaping law.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-30T18:15+08:00",
+          "url": "https://www.straitstimes.com/singapore/hsa-nabs-four-sporean-members-of-kpod-syndicate-after-largest-seizure-to-date-of-etomidate-vapes"
+        },
+        {
+          "id": "sg4",
+          "headline": "Singpass to roll out passkey logins from July 1",
+          "category": "Tech",
+          "summary": "GovTech will let Singpass users log in with device passkeys from July 1, turning phones into phishing-resistant digital keys bound to biometrics or a PIN. Announced 30 June; available from 1 July.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-06-30T18:30+08:00",
+          "effective_date": "2026-07-01",
+          "url": "https://www.straitstimes.com/tech/new-singpass-passkey-turns-mobile-devices-into-digital-keys-renders-phishing-scams-useless"
+        },
+        {
+          "id": "sg5",
+          "headline": "Census: more young residents staying single, fewer profess religion",
+          "category": "Society",
+          "summary": "New household survey data show more young Singapore residents are staying single and family sizes are shrinking, while a larger share reported having no religion in 2025 than in 2020. About 1 in 7 families now earn at least S$30,000 a month.",
+          "source": "SingStat, The Straits Times, CNA",
+          "published_at": "2026-06-30T14:08+08:00",
+          "url": "https://www.straitstimes.com/singapore/more-spore-residents-have-no-religion-in-2025-than-in-2020"
+        },
+        {
+          "id": "sg6",
+          "headline": "Malware-infected systems in Singapore more than doubled in 2025: CSA",
+          "category": "Cybersecurity",
+          "summary": "The Cyber Security Agency of Singapore said the number of malware-infected systems detected locally more than doubled in 2025, underscoring rising cyber-threat exposure for individuals and businesses.",
+          "source": "The Straits Times (CSA)",
+          "published_at": "2026-06-30T17:28+08:00",
+          "url": "https://www.straitstimes.com/tech/systems-infected-by-malware-in-spore-more-than-double-in-2025-csa"
+        },
+        {
+          "id": "sg7",
+          "headline": "Two TOC-linked websites designated Declared Online Locations from July 1",
+          "category": "Government",
+          "summary": "MDDI said two websites set up by The Online Citizen to bypass POFMA restrictions will be designated Declared Online Locations from July 1 for communicating falsehoods, restricting how they can operate and monetise.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-30T14:23+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/online-citizen-heidoh-website-dol-pofma-mddi-6220651"
+        },
+        {
+          "id": "sg8",
+          "headline": "AirAsia halts direct flights between Singapore and Jakarta",
+          "category": "Transport",
+          "summary": "AirAsia has suspended its direct flights between Singapore and Jakarta, affecting travellers on one of the region's busy short-haul routes.",
+          "source": "CNA",
+          "published_at": "2026-06-30T18:36+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/airasia-halts-direct-flights-between-singapore-and-jakarta-6221316"
+        },
+        {
+          "id": "sg9",
+          "headline": "Two boys, 11 and 12, warned after breaking into MRT train cabin",
+          "category": "Crime",
+          "summary": "Two boys aged 11 and 12 were given conditional warnings after forcefully opening and entering the rear cabin of an MRT train, prompting safety reminders from SMRT and the police.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-30T18:03+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/boys-trespass-train-cabin-smrt-police-6221116"
+        },
+        {
+          "id": "sg10",
+          "headline": "KF Seetoh's Singapore-style hawker centre in New York to close",
+          "category": "Trending",
+          "summary": "Urban Hawker, the Singapore-style hawker centre championed by food personality KF Seetoh in New York, will close in July, ending a high-profile attempt to bring local hawker culture to the US.",
+          "source": "Mothership",
+          "published_at": "2026-06-30T16:37+08:00",
+          "url": "https://mothership.sg/2026/06/kf-seetoh-urban-hawker-close/"
+        },
+        {
+          "id": "sg11",
+          "headline": "14,000 Teochew screening tickets for 'Dear You' sell out in 3 hours",
+          "category": "Trending",
+          "summary": "Demand for Teochew-dialect screenings of the film 'Dear You' saw 14,000 tickets snapped up in three hours, with 100 more screenings requested — a sign of strong appetite for dialect-language cinema in Singapore.",
+          "source": "CNA",
+          "published_at": "2026-06-30T16:37+08:00",
+          "url": "https://www.channelnewsasia.com/entertainment/dear-you-teochew-tickets-sold-out-6221046"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "Russia-Ukraine and the US-Iran standoff dominate. Putin made a rare admission that Ukrainian long-range strikes have caused Russian fuel shortages, while incidents in the Baltic and on Romania's border underline the war's spillover. On Iran, Washington says it has agreed to 'stand down' after a weekend exchange of strikes, but US envoys' Qatar trip has produced no confirmed meeting, leaving diplomacy uncertain. No major independently confirmed developments from Gaza or Lebanon this cycle.",
+      "theatres": [
+        {
+          "name": "Russia–Ukraine War",
+          "status": "Grinding on; Ukrainian deep strikes squeeze Russian fuel supplies as the war spills into the Baltic and Romania's border.",
+          "timeline": [
+            {
+              "date": "2026-06-30",
+              "event": "Estonia released images it said showed machine guns mounted on a Russian LNG carrier in the Baltic Sea, raising concerns over the security of Russia's 'shadow fleet'.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/estonia-images-show-machine-guns-on-russian-lng-carrier-in-baltic"
+            },
+            {
+              "date": "2026-06-30",
+              "event": "Romania said it detonated fragments of a Russian drone found near its border with Ukraine, the latest incursion of debris into NATO territory.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/romania-detonates-russian-drone-fragments-found-near-ukraine-border"
+            },
+            {
+              "date": "2026-06-30",
+              "event": "South Korea and Ukraine held what both described as 'constructive' talks on North Korean soldiers captured while fighting for Russia.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/east-asia/north-korean-soldiers-ukraine-6221126"
+            },
+            {
+              "date": "2026-06-29",
+              "event": "President Putin made a rare public admission that Ukrainian strikes on refineries have caused fuel shortages inside Russia.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/clyw31zvpgmo"
+            }
+          ]
+        },
+        {
+          "name": "US/Israel–Iran (Strait of Hormuz)",
+          "status": "Fragile post-strike standoff; US says it has agreed to 'stand down' but diplomacy in Qatar remains uncertain.",
+          "timeline": [
+            {
+              "date": "2026-06-30",
+              "event": "US envoys Witkoff and Kushner travelled to Qatar, but a Qatari official said no meeting with Iran was planned, clouding prospects for a deal.",
+              "source": "The Straits Times, CNA",
+              "url": "https://www.straitstimes.com/world/middle-east/us-envoy-witkoff-and-kushner-will-be-in-qatar-no-meeting-with-iran-qatari-official-says"
+            },
+            {
+              "date": "2026-06-30",
+              "event": "Two members of Iran's Revolutionary Guards were killed by gunmen in western Iran, Iranian authorities said.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/two-revolutionary-guards-members-killed-by-gunmen-in-western-iran"
+            },
+            {
+              "date": "2026-06-29",
+              "event": "The US said it had agreed to 'stand down' after a weekend exchange of strikes with Iran, easing fears of immediate escalation around the Strait of Hormuz.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/c872rjw17qpo"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "Bundibugyo Ebola in the DR Congo is the dominant concern: WHO's latest update counts 915 confirmed cases and 234 deaths (mostly in DRC, plus a small Uganda cluster) as of mid-June, with Kinshasa banning mass gatherings and the UN warning the outbreak could cost Africa up to US$3.6 billion. A single confirmed Nipah case in Kerala, India, remains stable with no secondary spread. WHO has also flagged rising global yellow fever risk in under-vaccinated African communities.",
+      "outbreaks": [
+        {
+          "name": "Bundibugyo Ebola — DR Congo & Uganda",
+          "status": "Cases rising rapidly in DRC; mass gatherings banned in Kinshasa",
+          "cases": 915,
+          "deaths": 234,
+          "countries": 2,
+          "as_of": "2026-06-17",
+          "scope_note": "WHO DON608 (19 Jun): confirmed cases only — DRC 896 (232 deaths) as of 17 Jun + Uganda 19 (2 deaths) as of 18 Jun; at least 88 recoveries. Counts rising sharply, partly from a testing backlog; later ministry figures may exceed this WHO-confirmed total."
+        },
+        {
+          "name": "Nipah virus — Kerala, India",
+          "status": "Single confirmed case; contacts monitored, no secondary cases",
+          "cases": 1,
+          "deaths": 0,
+          "countries": 1,
+          "as_of": "2026-06-18",
+          "scope_note": "WHO DON609 (25 Jun): one lab-confirmed case (adult male, Kozhikode) on ventilatory support; 104 contacts traced, including 45 health workers; no secondary cases reported as of 18 Jun."
+        },
+        {
+          "name": "Yellow fever — Africa & Americas (global risk update)",
+          "status": "Rising risk in under-vaccinated communities",
+          "cases": "16 confirmed (Jan–May 2026)",
+          "deaths": "n/a",
+          "countries": 3,
+          "as_of": "2026-06-24",
+          "scope_note": "WHO DON610 (24 Jun) global situation update: 16 confirmed cases Jan–May 2026 across Burkina Faso, Central African Republic and Cameroon, with suspected cases under investigation in five more African countries. Most linked to sylvatic transmission in under-immunised areas."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "Ebola outbreak could cost Africa up to US$3.6 billion, UN says",
+          "category": "Ebola",
+          "summary": "The UN warned that the Bundibugyo Ebola outbreak centred on the DR Congo could cost Africa up to US$3.6 billion, citing disruption to trade, travel and health systems as cases climb.",
+          "source": "The Straits Times (UN)",
+          "published_at": "2026-06-30T18:45+08:00",
+          "url": "https://www.straitstimes.com/world/ebola-outbreak-could-cost-africa-up-to-3-6-billion-un-says"
+        },
+        {
+          "id": "ob2",
+          "headline": "DR Congo bans mass gatherings in capital to curb Ebola spread",
+          "category": "Ebola",
+          "summary": "Authorities in the DR Congo banned mass gatherings in the capital Kinshasa in an effort to prevent the spread of the Bundibugyo Ebola virus, as confirmed cases and deaths rose rapidly.",
+          "source": "BBC",
+          "published_at": "2026-06-29T22:40+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c992k7zk981o"
+        },
+        {
+          "id": "ob3",
+          "headline": "WHO reports Nipah virus case in Kerala, India",
+          "category": "Nipah",
+          "summary": "WHO confirmed a single laboratory-confirmed Nipah virus case in Kozhikode district, Kerala. The patient is in intensive care; 104 contacts are under monitoring with no secondary cases reported.",
+          "source": "WHO Disease Outbreak News",
+          "published_at": "2026-06-25",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON609"
+        },
+        {
+          "id": "ob4",
+          "headline": "WHO flags rising global yellow fever risk",
+          "category": "Yellow Fever",
+          "summary": "WHO's latest yellow fever update reported 16 confirmed cases from January to May 2026 across three African countries, with suspected cases in five more, warning of sustained sylvatic transmission into under-vaccinated communities and cross-border spread risk.",
+          "source": "WHO Disease Outbreak News",
+          "published_at": "2026-06-24",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON610"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "Mass-exploitation of enterprise software dominates this cycle. A maximum-severity SimpleHelp flaw (CVE-2026-48558, CVSS 10) and a critical Oracle E-Business Suite bug (CVE-2026-46817, CVSS 9.8) are both being actively exploited — the Oracle flaw tied to fresh breaches at Nissan and a ShinyHunters PeopleSoft intrusion. Apple shipped 30+ fixes, a Windows 'BlueHammer' bug is now in ransomware crews' hands, and supply-chain attacks (hijacked npm/Go packages, 119 malicious Edge extensions) plus several disclosed breaches round out a busy week.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "SimpleHelp flaw exploited to deploy TaskWeaver and Djinn Stealer",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-48558",
+          "cvss": 10.0,
+          "severity": "CRITICAL",
+          "summary": "A maximum-severity authentication-bypass flaw in SimpleHelp remote-support software is being actively exploited to deploy the previously unreported TaskWeaver and Djinn Stealer malware. CISA added it to its Known Exploited Vulnerabilities catalog on 29 June.",
+          "source": "The Hacker News, BleepingComputer, CISA KEV",
+          "published_at": "2026-06-30",
+          "url": "https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html"
+        },
+        {
+          "id": "cs2",
+          "headline": "Oracle E-Business Suite flaw actively exploited in the wild",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-46817",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "Attackers are actively exploiting a critical Oracle E-Business Suite vulnerability, with the activity linked to recent intrusions including the Nissan employee-data breach. Organisations are urged to patch immediately.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-30",
+          "url": "https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html"
+        },
+        {
+          "id": "cs3",
+          "headline": "Progress Kemp LoadMaster flaw allows pre-auth root commands",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "A vulnerability in Progress Kemp LoadMaster could let unauthenticated attackers run commands as root, fully compromising affected load balancers. Admins are advised to apply the vendor fix.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-30",
+          "url": "https://thehackernews.com/2026/06/progress-kemp-loadmaster-flaw-could-let.html"
+        },
+        {
+          "id": "cs4",
+          "headline": "CISA: Windows 'BlueHammer' flaw now exploited by ransomware gangs",
+          "category": "Exploited Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "CISA warned that a Windows vulnerability dubbed 'BlueHammer' is now being exploited by ransomware gangs in active attacks, urging organisations to patch and harden affected systems.",
+          "source": "BleepingComputer, CISA",
+          "published_at": "2026-06-30",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-windows-bluehammer-flaw-now-exploited-by-ransomware-gangs/"
+        },
+        {
+          "id": "cs5",
+          "headline": "Apple patches 30+ iOS, macOS and Safari flaws",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Apple shipped fixes for more than 30 vulnerabilities across iOS, macOS and Safari, including several AI-discovered WebKit bugs. Users should update promptly.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-30",
+          "url": "https://thehackernews.com/2026/06/apple-patches-30-ios-macos-safari-flaws.html"
+        },
+        {
+          "id": "cs6",
+          "headline": "AirDrop and Quick Share flaws let nearby attackers trigger crashes",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers disclosed flaws in Apple AirDrop and Google/Samsung Quick Share that let nearby attackers trigger crashes and bypass security checks over the proximity-sharing protocols.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-30",
+          "url": "https://thehackernews.com/2026/06/airdrop-and-quick-share-flaws-let.html"
+        },
+        {
+          "id": "cs7",
+          "headline": "'BioShocking' attack tricks AI browsers into leaking credentials",
+          "category": "Security Research",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A new attack technique called BioShocking can manipulate AI-powered browsers into leaking users' credentials, highlighting emerging risks in agentic and AI-assisted browsing tools.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-30",
+          "url": "https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html"
+        },
+        {
+          "id": "cs8",
+          "headline": "Malicious Perplexity Chrome extension intercepted searches",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A malicious Chrome extension impersonating Perplexity intercepted users' searches and address-bar input, harvesting browsing data before being identified.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-30",
+          "url": "https://thehackernews.com/2026/06/malicious-perplexity-chrome-extension.html"
+        },
+        {
+          "id": "cs9",
+          "headline": "Insurance giant Aflac discloses data breach after subsidiary hack",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Insurance giant Aflac disclosed a data breach stemming from a hack of one of its subsidiaries, the latest in a series of intrusions affecting the insurance sector.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-30",
+          "url": "https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack/"
+        },
+        {
+          "id": "cs10",
+          "headline": "Nissan discloses employee data breach linked to Oracle zero-day",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Nissan disclosed a breach of employee data that it linked to attacks exploiting the Oracle E-Business Suite zero-day, connecting the incident to a broader exploitation wave.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-29",
+          "url": "https://www.bleepingcomputer.com/news/security/nissan-discloses-employee-data-breach-linked-to-oracle-zero-day-attacks/"
+        },
+        {
+          "id": "cs11",
+          "headline": "NAIC says public data stolen in ShinyHunters' PeopleSoft breach",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "The US National Association of Insurance Commissioners said publicly available data was stolen in a breach attributed to the ShinyHunters group exploiting Oracle PeopleSoft.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-29",
+          "url": "https://www.bleepingcomputer.com/news/security/naic-says-public-data-stolen-in-shinyhunters-peoplesoft-breach/"
+        },
+        {
+          "id": "cs12",
+          "headline": "Blackfield ransomware demands $2 million from Nidec",
+          "category": "Ransomware",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "The Blackfield ransomware operation demanded a US$2 million ransom from Japanese manufacturer Nidec Corporation, threatening to leak stolen data if unpaid.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-30",
+          "url": "https://www.bleepingcomputer.com/news/security/blackfield-ransomware-asks-nidec-corporation-for-2-million-ransom/"
+        },
+        {
+          "id": "cs13",
+          "headline": "Public PoC released for critical libssh2 client-side SSH flaw",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-55200",
+          "cvss": 8.1,
+          "severity": "HIGH",
+          "summary": "A public proof-of-concept exploit was released for a libssh2 vulnerability that can be triggered against SSH clients connecting to malicious servers, raising the risk of exploitation against software that bundles the library.",
+          "source": "The Hacker News, NVD",
+          "published_at": "2026-06-29",
+          "url": "https://thehackernews.com/2026/06/public-poc-released-for-critical.html"
+        },
+        {
+          "id": "cs14",
+          "headline": "Hijacked npm and Go packages deploy Python infostealer via VS Code",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Attackers hijacked npm and Go packages to abuse VS Code tasks and deploy a Python infostealer on developers' machines, the latest software supply-chain compromise targeting the developer ecosystem.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-29",
+          "url": "https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html"
+        },
+        {
+          "id": "cs15",
+          "headline": "236,000 DCloud Uni-App sites abused in crypto scams and wallet drainers",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers found about 236,000 DCloud Uni-App sites were abused to host crypto scams, phishing pages and wallet-draining infrastructure, exposing visitors to fraud.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-29",
+          "url": "https://thehackernews.com/2026/06/236000-dcloud-uni-app-sites-used-in.html"
+        },
+        {
+          "id": "cs16",
+          "headline": "Microsoft removes 119 Edge extensions hiding malware in images",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Microsoft removed 119 Edge browser extensions that concealed malware inside images and fonts, after researchers flagged the campaign distributing malicious add-ons through the store.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-29",
+          "url": "https://thehackernews.com/2026/06/microsoft-removes-119-edge-extensions.html"
+        },
+        {
+          "id": "cs17",
+          "headline": "Mustang Panda uses Zoho WorkDrive in Indian government attacks",
+          "category": "APT Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "The China-linked Mustang Panda group abused Zoho WorkDrive as a command-and-control channel in espionage attacks against Indian government targets, researchers reported.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-29",
+          "url": "https://thehackernews.com/2026/06/mustang-panda-uses-zoho-workdrive-as.html"
+        },
+        {
+          "id": "cs18",
+          "headline": "Gamaredon expands Ukraine attacks with new malware and cloud abuse",
+          "category": "APT Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "The Russia-linked Gamaredon group expanded its attacks against Ukraine using new malware and abuse of cloud services, continuing its long-running espionage campaign.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-29",
+          "url": "https://thehackernews.com/2026/06/gamaredon-expands-ukraine-attacks-with.html"
+        }
+      ]
+    }
+  }
+}
