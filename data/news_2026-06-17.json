@@ -1,0 +1,680 @@
+{
+  "meta": {
+    "date": "2026-06-17",
+    "generated_at": "2026-06-17T21:00:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "BBC",
+      "CNA",
+      "The Straits Times",
+      "Mothership",
+      "NEA",
+      "LTA / data.gov.sg",
+      "WHO",
+      "CISA",
+      "NVD",
+      "The Hacker News",
+      "BleepingComputer",
+      "Ukrainska Pravda"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "The Middle East dominates: the US and Iran have a draft accord to end hostilities and reopen the Strait of Hormuz, welcomed by G7 leaders — though Trump calls the memorandum \"not final\" and threatens to resume strikes if Tehran misbehaves, and oil slid below US$80. Europe is on edge after a Russian warship fired warning shots near a UK yacht in the Channel and a Putin-critic artist was shot dead in Poland. In the US, the FBI says it foiled a plot to attack a White House UFC event.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "US-Iran draft accord envisions end to hostilities and reopened Hormuz",
+          "category": "Middle East",
+          "summary": "A draft US-Iran accord would end hostilities and address shipping through the Strait of Hormuz, with a ceasefire agreement to be made public soon, The Straits Times reported. President Trump cautioned the memorandum of understanding is \"not final\" and said \"if I don't like it, we'll go back to shooting\"; G7 leaders welcomed the deal.",
+          "source": "The Straits Times, CNA, BBC",
+          "published_at": "2026-06-17T21:00+08:00",
+          "url": "https://www.straitstimes.com/world/iran-us-draft-accord-envisions-end-to-hostilities-hormuz"
+        },
+        {
+          "id": "ts2",
+          "headline": "G7 leaders demand ceasefire in Lebanon, welcome Iran deal",
+          "category": "Geopolitics",
+          "summary": "Group of Seven leaders demanded a ceasefire in Lebanon while welcoming the emerging US-Iran agreement, CNA and The Straits Times reported, as the summit turned to diplomacy across the region.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-17T16:45+08:00",
+          "url": "https://www.channelnewsasia.com/world/us-iran-deal-g7-leaders-welcome-it-demand-ceasefire-lebanon-6189816"
+        },
+        {
+          "id": "ts3",
+          "headline": "Israel launches fresh strikes on Lebanon despite Trump criticism",
+          "category": "Middle East",
+          "summary": "Israel carried out fresh strikes on Lebanon even after President Trump publicly criticised its tactics and said the strikes were killing civilians, the BBC and CNA reported.",
+          "source": "BBC, CNA",
+          "published_at": "2026-06-17T18:01+08:00",
+          "url": "https://www.bbc.com/news/articles/c7vyn17g832o"
+        },
+        {
+          "id": "ts4",
+          "headline": "Russian artist and Putin critic shot dead in Poland; PM Tusk says likely 'political murder'",
+          "category": "Europe",
+          "summary": "A Russian artist known for caricatures of President Putin was shot dead in Poland; Polish PM Donald Tusk said the killing was likely a \"political murder,\" CNA, The Straits Times and the BBC reported. An investigation is under way.",
+          "source": "CNA, The Straits Times, BBC",
+          "published_at": "2026-06-17T20:07+08:00",
+          "url": "https://www.channelnewsasia.com/world/poland-russian-artist-shooting-putin-critic-political-murder-6190306"
+        },
+        {
+          "id": "ts5",
+          "headline": "Russian warship fires warning shots near UK yacht in English Channel",
+          "category": "Europe",
+          "summary": "The UK said it is investigating reports that a Russian warship fired warning shots near a British yacht in the English Channel; PM Keir Starmer called the incident \"reckless,\" the BBC, CNA and The Straits Times reported.",
+          "source": "BBC, CNA, The Straits Times",
+          "published_at": "2026-06-17T16:38+08:00",
+          "url": "https://www.bbc.com/news/articles/c20yzm84r7lo"
+        },
+        {
+          "id": "ts6",
+          "headline": "Oil drops below US$80 as US-Iran deal eases supply fears",
+          "category": "Economy",
+          "summary": "Oil prices fell below US$80 a barrel after news of the US-Iran deal, CNA reported, while the IEA projected a significant 2027 surplus following the Strait of Hormuz's recovery.",
+          "source": "CNA",
+          "published_at": "2026-06-17T16:17+08:00",
+          "url": "https://www.channelnewsasia.com/world/oil-drops-below-us80-us-iran-deal-6188331"
+        },
+        {
+          "id": "ts7",
+          "headline": "FBI says it foiled plot to attack White House UFC event with snipers and drones",
+          "category": "United States",
+          "summary": "US prosecutors charged suspects over an alleged plot to attack a planned White House UFC event using snipers and drones, the FBI said, in a case reported by the BBC.",
+          "source": "BBC",
+          "published_at": "2026-06-17T17:46+08:00",
+          "url": "https://www.bbc.com/news/articles/cqx10xlje1lo"
+        },
+        {
+          "id": "ts8",
+          "headline": "South Korea's Lee asks Trump to lead peaceful diplomacy with North Korea",
+          "category": "Asia-Pacific",
+          "summary": "South Korean President Lee Jae-myung urged President Trump to take the lead on peaceful diplomacy with North Korea, CNA reported, signalling a renewed push for engagement on the peninsula.",
+          "source": "CNA",
+          "published_at": "2026-06-17T10:11+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/south-korea-lee-jae-myung-donald-trump-lead-diplomacy-north-6188401"
+        },
+        {
+          "id": "ts9",
+          "headline": "Brazil convicts Jair Bolsonaro's son over pursuit of US help in father's case",
+          "category": "Americas",
+          "summary": "A Brazilian court convicted Eduardo Bolsonaro, son of former president Jair Bolsonaro, of pursuing US help in his father's legal battle, the BBC reported.",
+          "source": "BBC",
+          "published_at": "2026-06-17T08:31+08:00",
+          "url": "https://www.bbc.com/news/articles/cgl3x0pey9lo"
+        },
+        {
+          "id": "ts10",
+          "headline": "Japan raids ice cream giants over price-fixing allegations",
+          "category": "Asia",
+          "summary": "Japanese authorities raided major ice cream makers including Meiji, Morinaga and Lotte over suspected price-fixing, the BBC and CNA reported.",
+          "source": "BBC, CNA",
+          "published_at": "2026-06-17T15:33+08:00",
+          "url": "https://www.bbc.com/news/articles/c0ly0k88e61o"
+        },
+        {
+          "id": "ts11",
+          "headline": "Messi hat-trick equals World Cup goalscoring record as Argentina beat Algeria",
+          "category": "Sport",
+          "summary": "Lionel Messi scored a hat-trick as Argentina beat Algeria at the World Cup, a treble that CNA reported equalled a tournament goalscoring record.",
+          "source": "CNA",
+          "published_at": "2026-06-17T11:29+08:00",
+          "url": "https://www.channelnewsasia.com/sport/world-cup-messi-argentina-algeria-hat-trick-record-6189161"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "COE premiums fell across the board in the 17 June exercise, with Category A again pricing above Category B; HDB launched nearly 7,000 BTO flats including Prime projects; and a new code will require long-term coastal landowners to build sea defences from 2028. David Koh, Singapore's first cybersecurity chief, retires on 1 July. Expect thundery showers later today (NEA). On the lighter side, a White Rabbit candy pop-up has opened at Plaza Singapura.",
+      "weather": {
+        "forecast": "Thundery Showers",
+        "temp_low": 25,
+        "temp_high": 34,
+        "humidity_low": 60,
+        "humidity_high": 95,
+        "as_of": "2026-06-17T19:12+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jun 2026 · 2nd bidding",
+        "as_of": "2026-06-17",
+        "next_results": "2026-07-01",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          {
+            "code": "A",
+            "label": "Cars up to 1600cc & 130bhp",
+            "premium": 123847,
+            "change": -2162
+          },
+          {
+            "code": "B",
+            "label": "Cars above 1600cc or 130bhp",
+            "premium": 123502,
+            "change": -3487
+          }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "Cat A COE rate exceeds Cat B for third time in 4 months as premiums fall",
+          "category": "Transport",
+          "summary": "In the 17 June bidding exercise, Category A COE premiums closed at S$123,847 (down 1.72%) and Category B at S$123,502 (down 2.75%), CNA and The Straits Times reported — the third time this year that Cat A priced higher than Cat B.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-17T16:07+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/coe-premiums-cat-prices-jun-17-bidding-exercise-6188786"
+        },
+        {
+          "id": "sg2",
+          "headline": "HDB launches 6,952 BTO flats in June exercise, including Prime projects",
+          "category": "Housing",
+          "summary": "HDB launched 6,952 Build-To-Order flats in its June exercise, including Prime projects in areas such as Bishan, Bukit Merah and Upper Thomson, CNA, The Straits Times and Mothership reported.",
+          "source": "CNA, The Straits Times, Mothership",
+          "published_at": "2026-06-17T11:14+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/hdb-bto-june-2026-prime-bishan-bukit-merah-6188956"
+        },
+        {
+          "id": "sg3",
+          "headline": "David Koh, Singapore's first cybersecurity chief, retires on 1 July",
+          "category": "Government",
+          "summary": "David Koh, Singapore's first Commissioner of Cybersecurity and CSA chief executive, retires on 1 July; Gwenda Fong will take over as CSA chief executive, CNA and The Straits Times reported.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-17T17:03+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/csa-chief-executive-david-koh-retires-commissioner-cybersecurity-gwenda-fong-replacement-mddi-6189326"
+        },
+        {
+          "id": "sg4",
+          "headline": "Coastal landowners must build sea defences under new code, mandatory from 2028",
+          "category": "Environment",
+          "summary": "A new code of practice will require long-term coastal landowners to build seawalls and other defences against rising seas, becoming mandatory from 2028, CNA and The Straits Times reported.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-17T13:00+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/coastal-protection-law-singapore-landowner-requirements-code-practice-pub-6186926"
+        },
+        {
+          "id": "sg5",
+          "headline": "Singapore's May non-oil exports surge 38.4% on AI-led electronics boom",
+          "category": "Economy",
+          "summary": "Singapore's non-oil domestic exports jumped 38.4% year-on-year in May, the sharpest rise in over two decades, driven by an AI-led surge in electronics, CNA reported.",
+          "source": "CNA",
+          "published_at": "2026-06-17T08:30+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/nodx-export-may-growth-oil-trade-6172811"
+        },
+        {
+          "id": "sg6",
+          "headline": "Teo Siong Seng, alleged container-cartel members sued in US for price-fixing",
+          "category": "Business",
+          "summary": "US firms are suing shipping figure Teo Siong Seng and other shipping-container makers over an alleged price-fixing scheme, CNA and The Straits Times reported.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-17T20:39+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/teo-siong-seng-singamas-shipping-containers-price-fixing-sued-united-states-doj-6190211"
+        },
+        {
+          "id": "sg7",
+          "headline": "Driver in 2024 ACS school-bus crash to be charged with dangerous, drink driving",
+          "category": "Crime",
+          "summary": "A driver who crashed into a school bus carrying ACS pupils in 2024 will be charged with dangerous driving and drink driving, CNA and The Straits Times reported.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-17T17:07+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/driver-charged-drink-driving-acs-junior-school-bus-crash-2024-6189856"
+        },
+        {
+          "id": "sg8",
+          "headline": "Singapore to review Zero Waste Masterplan as recycling rates dip",
+          "category": "Environment",
+          "summary": "With recycling rates falling and more waste being disposed of, Singapore will review its Zero Waste Masterplan to extend the Semakau landfill's lifespan, CNA and The Straits Times reported; Mothership noted 78% of households recycled in 2025.",
+          "source": "CNA, The Straits Times, Mothership",
+          "published_at": "2026-06-17T09:32+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/zero-waste-masterplan-review-semakau-landfill-6186531"
+        },
+        {
+          "id": "sg9",
+          "headline": "Inclusive playground opens in Tampines with Singapore's first wheelchair-accessible slide",
+          "category": "Community",
+          "summary": "A new inclusive playground at Sun Plaza Park in Tampines features what is billed as Singapore's first slide designed for wheelchair users, CNA and The Straits Times reported.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-17T17:26+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/magical-bridge-playground-slide-tampines-sun-plaza-park-inclusive-disabilities-wheelchair-users-6189601"
+        },
+        {
+          "id": "sg10",
+          "headline": "Singapore's first White Rabbit-themed pop-up store opens at Plaza Singapura",
+          "category": "Buzz",
+          "summary": "A White Rabbit-themed pop-up store — a nod to the nostalgic milk-candy brand — has opened at Plaza Singapura, drawing fans of the retro treat, CNA reported.",
+          "source": "CNA",
+          "published_at": "2026-06-17T12:23+08:00",
+          "url": "https://www.channelnewsasia.com/living/white-rabbit-pop-up-plaza-singapura-6189211"
+        },
+        {
+          "id": "sg11",
+          "headline": "Boy apologises to driver after being hit while cycling at Sengkang crossing",
+          "category": "Buzz",
+          "summary": "A widely shared incident saw a boy hit by a car while cycling across a Sengkang pedestrian crossing, then apologise to the driver, Mothership reported.",
+          "source": "Mothership",
+          "published_at": "2026-06-17T12:15+08:00",
+          "url": "https://mothership.sg/2026/06/cycling-hit-by-car-sengkang/"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "The Israel–Iran war is pivoting to diplomacy: a US-Iran draft accord to end hostilities and reopen the Strait of Hormuz is to be made public soon and was welcomed by the G7, though Trump calls the memorandum non-final. Lebanon stays volatile — Israel launched fresh strikes despite Trump's criticism of the civilian toll, while the G7 demanded a ceasefire. In Ukraine, fighting grinds on (heaviest around Pokrovsk) and Russian strikes killed 11 in Kyiv on 15 June, even as a separate Channel incident saw a Russian warship fire warning shots at a UK yacht.",
+      "theatres": [
+        {
+          "name": "US/Israel–Iran (Strait of Hormuz)",
+          "status": "Ceasefire holding; a draft accord to end hostilities and reopen Hormuz is to be made public soon and was welcomed by the G7, but Trump calls the memorandum non-final.",
+          "timeline": [
+            {
+              "date": "2026-06",
+              "event": "A short but intense Israel–US–Iran air war this month disrupted Gulf shipping and threatened the Strait of Hormuz before a ceasefire took hold; the IEA now projects a 2027 oil surplus after the strait's recovery.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/oil-surplus-2027-iea-hormuz-recovery-6189781"
+            },
+            {
+              "date": "2026-06-17",
+              "event": "US-Iran draft accord envisions an end to hostilities and addresses shipping through the Strait of Hormuz; a ceasefire agreement is to be made public soon.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/iran-us-draft-accord-envisions-end-to-hostilities-hormuz"
+            },
+            {
+              "date": "2026-06-17",
+              "event": "Trump says the memorandum of understanding is \"not final\" and warns \"if I don't like it, we'll go back to shooting\" if Iran does not behave.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/trump-iran-war-mou-bomb-military-action-6190266"
+            },
+            {
+              "date": "2026-06-17",
+              "event": "G7 leaders welcome the US-Iran deal while demanding a ceasefire in Lebanon.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/us-iran-deal-g7-leaders-welcome-it-demand-ceasefire-lebanon-6189816"
+            }
+          ]
+        },
+        {
+          "name": "Israel–Lebanon",
+          "status": "Volatile: Israel keeps striking Lebanon despite a US-pushed truce; Trump publicly criticises the civilian toll.",
+          "timeline": [
+            {
+              "date": "2026-06-17",
+              "event": "Trump criticises Israel's tactics in Lebanon, saying its strikes are killing civilians.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/trump-criticise-israel-strikes-lebanon-hezbollah-iran-peace-deal-6188651"
+            },
+            {
+              "date": "2026-06-17",
+              "event": "Israel launches fresh strikes on Lebanon despite Trump's criticism.",
+              "source": "BBC",
+              "url": "https://www.bbc.com/news/articles/c7vyn17g832o"
+            },
+            {
+              "date": "2026-06-17",
+              "event": "G7 leaders demand a ceasefire in Lebanon.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/g7-leaders-demand-ceasefire-in-lebanon-welcome-iran-deal"
+            }
+          ]
+        },
+        {
+          "name": "Russia–Ukraine",
+          "status": "Front-line fighting continues — heaviest around Pokrovsk — alongside long-range Russian strikes and a separate Channel incident.",
+          "timeline": [
+            {
+              "date": "2022-02",
+              "event": "Russia launched its full-scale invasion of Ukraine, beginning a war now in its fifth year.",
+              "source": "BBC",
+              "url": "https://www.bbc.com/news/world-europe-60506682"
+            },
+            {
+              "date": "2026-06-10",
+              "event": "Ukraine's General Staff reports 196 frontline clashes in a day, with the Pokrovsk sector the hottest (about 37 Russian assaults repelled).",
+              "source": "Ukrainska Pravda",
+              "url": "https://www.pravda.com.ua/eng/news/2026/06/10/8038588/"
+            },
+            {
+              "date": "2026-06-15",
+              "event": "Russian strikes kill 11 people and set a historic cathedral in Kyiv ablaze, the BBC reports.",
+              "source": "BBC",
+              "url": "https://www.bbc.com/news/articles/c4gy037gjz3o"
+            },
+            {
+              "date": "2026-06-17",
+              "event": "The UK is investigating reports a Russian warship fired warning shots near a yacht in the English Channel.",
+              "source": "BBC",
+              "url": "https://www.bbc.com/news/articles/c20yzm84r7lo"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "Bundibugyo Ebola in the DR Congo and Uganda is the dominant, fast-escalating outbreak — WHO's latest update (DON607, 13 June) counts 695 confirmed cases and 138 deaths, up sharply in a week, and insecurity is hampering the response after armed men stormed a DRC hospital. The cruise-ship Andes hantavirus cluster (MV Hondius) appears contained, with no new WHO update since late May. Public risk outside affected areas remains low, but the Ebola trajectory warrants close watching.",
+      "outbreaks": [
+        {
+          "name": "Bundibugyo Ebola — DR Congo & Uganda",
+          "status": "Escalating rapidly; historical case-fatality ~30–50%",
+          "cases": 695,
+          "deaths": 138,
+          "countries": 2,
+          "as_of": "2026-06-11",
+          "scope_note": "Confirmed cases only, DRC + Uganda combined (DRC 676 as of 10 Jun; Uganda 19 as of 11 Jun); 138 deaths including 2 in Uganda; at least 37 recovered. Per WHO DON607 (published 13 Jun); counts rising between updates."
+        },
+        {
+          "name": "Andes hantavirus — MV Hondius cruise cluster",
+          "status": "Appears contained; no WHO update since late May",
+          "cases": 13,
+          "deaths": 3,
+          "countries": "multi",
+          "as_of": "2026-05-28",
+          "scope_note": "11 confirmed + 2 probable cases; 2 confirmed + 1 probable deaths, among passengers/crew of several nationalities aboard a cruise ship. Per WHO DON604; no new WHO update since 28 May, so figures may be stale."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "WHO: Bundibugyo Ebola surges to 695 cases, 138 deaths in DRC and Uganda",
+          "category": "Ebola",
+          "summary": "WHO's latest Disease Outbreak News (DON607) reports the Bundibugyo virus outbreak has grown rapidly to 695 confirmed cases and 138 deaths across the DR Congo and Uganda, with cases climbing fast in the DRC; at least 37 people have recovered.",
+          "source": "WHO",
+          "published_at": "2026-06-13",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON607"
+        },
+        {
+          "id": "ob2",
+          "headline": "Search for six-year-old Ebola patient after armed men storm DR Congo hospital",
+          "category": "Ebola",
+          "summary": "Authorities are searching for a six-year-old Ebola patient after armed men stormed a hospital in the DR Congo, the BBC reported, underscoring the insecurity hampering the Bundibugyo outbreak response.",
+          "source": "BBC",
+          "published_at": "2026-06-17T19:26+08:00",
+          "url": "https://www.bbc.com/news/articles/cvgep4l397eo"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "Actively exploited flaws dominate this cycle: CISA added a maximum-severity Joomla Content Editor bug (CVE-2026-48907) to its KEV catalog, joining exploited FortiSandbox, LiteSpeed cPanel (CVE-2026-54420) and Cisco SD-WAN Manager (CVE-2026-20262) vulnerabilities. The AI software supply chain is a hot spot — malicious JetBrains plugins steal AI API keys, 144 Mastra npm packages were compromised, a Google Vertex AI SDK flaw allowed model-upload hijacking, and a LiteLLM chain (CVE-2026-42271) let low-privilege users seize AI gateways. Notable breaches include a claimed Novo Nordisk hack with a US$25m extortion demand, Kodak and iRhythm, plus an investigation into a cyberattack on Singapore's Global Schools Foundation.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "Malicious JetBrains Marketplace plugins steal AI API keys from developers",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers found malicious plugins on the JetBrains Marketplace that exfiltrate developers' AI API keys, while related Chrome extensions captured chatbot conversations — the latest abuse of trusted developer ecosystems to target AI credentials, The Hacker News and BleepingComputer reported.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-17T17:38+08:00",
+          "url": "https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html"
+        },
+        {
+          "id": "cs2",
+          "headline": "Microsoft working on Defender patch for actively exploited RoguePlanet zero-day",
+          "category": "Zero-Day",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Microsoft said it is developing a Defender patch for a zero-day dubbed RoguePlanet, BleepingComputer reported; administrators are advised to watch for mitigations.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-17T16:32+08:00",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-working-on-defender-patch-for-rogueplanet-zero-day/"
+        },
+        {
+          "id": "cs3",
+          "headline": "Authorities investigate cyberattack on Singapore-based Global Schools Foundation",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Singapore authorities are investigating a cyberattack and data leak at the Global Schools Foundation, which operates international schools; CNA linked the breach to the FulcrumSec group also behind a claimed Novo Nordisk hack.",
+          "source": "CNA",
+          "published_at": "2026-06-17T15:55+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/cyberattack-global-schools-data-leak-breach-hacking-fulcrumsec-6176391"
+        },
+        {
+          "id": "cs4",
+          "headline": "144 Mastra npm packages compromised via hijacked contributor account",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Attackers compromised 144 npm packages from the Mastra AI framework after hijacking a contributor's account, The Hacker News reported, in another open-source supply-chain attack aimed at developers.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-17T15:38+08:00",
+          "url": "https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html"
+        },
+        {
+          "id": "cs5",
+          "headline": "Kodak confirms data breach claimed by ShinyHunters extortion gang",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Kodak confirmed a data breach claimed by the ShinyHunters extortion group, BleepingComputer reported; the company is assessing the scope of the stolen data.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-17T15:07+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/kodak-confirms-data-breach-claimed-by-shinyhunters-extortion-gang/"
+        },
+        {
+          "id": "cs6",
+          "headline": "CISA warns of actively exploited Joomla JCE flaw allowing PHP code execution",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-48907",
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "CISA added a maximum-severity improper-access-control flaw in the Widget Factory Joomla Content Editor (CVE-2026-48907) to its Known Exploited Vulnerabilities catalog, citing active exploitation that can lead to PHP code execution, and ordered federal agencies to patch by Friday.",
+          "source": "The Hacker News, BleepingComputer, CISA",
+          "published_at": "2026-06-17T13:50+08:00",
+          "url": "https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html"
+        },
+        {
+          "id": "cs7",
+          "headline": "New Rokarolla Android malware targets 217 banking and crypto apps",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A new Android banking trojan dubbed Rokarolla steals PINs, SMS codes and crypto-wallet funds, targeting 217 banking and cryptocurrency apps, BleepingComputer and The Hacker News reported.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-06-17T04:04+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/new-rokarolla-android-malware-targets-217-banking-crypto-apps/"
+        },
+        {
+          "id": "cs8",
+          "headline": "Google Vertex AI SDK flaw let attackers hijack model uploads via bucket squatting",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A flaw in the Google Cloud Vertex AI SDK for Python let an attacker with no project access hijack a victim's model upload via bucket squatting and run code in Google's serving infrastructure; Google has addressed it, The Hacker News reported.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-17T03:05+08:00",
+          "url": "https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html"
+        },
+        {
+          "id": "cs9",
+          "headline": "Hacking group claims major Novo Nordisk breach, demands US$25m extortion",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A hacking group calling itself FulcrumSec claimed a major breach of pharmaceutical giant Novo Nordisk and attempted to extort US$25 million, CNA reported; the scope of any data theft is still being assessed.",
+          "source": "CNA",
+          "published_at": "2026-06-17T01:47+08:00",
+          "url": "https://www.channelnewsasia.com/business/hacking-fulcrumsec-novo-nordisk-us-25-million-extortion-6188031"
+        },
+        {
+          "id": "cs10",
+          "headline": "ClickFix campaigns expand malware delivery with new loaders and fake-update lures",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "ClickFix social-engineering campaigns are expanding, using new loaders and fake software-update lures to trick users into running malicious commands, The Hacker News reported.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-17T01:41+08:00",
+          "url": "https://thehackernews.com/2026/06/clickfix-campaigns-expand-malware.html"
+        },
+        {
+          "id": "cs11",
+          "headline": "GhostTree attack abuses recursive Windows junctions to hide malware",
+          "category": "Research",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers detailed a \"GhostTree\" technique that abuses recursive Windows directory junctions to conceal malware from security tools, BleepingComputer reported.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-16T22:17+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/ghosttree-attack-abused-recursive-windows-junctions-to-hide-malware/"
+        },
+        {
+          "id": "cs12",
+          "headline": "CISA flags actively exploited LiteSpeed cPanel plugin flaw",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-54420",
+          "cvss": 8.5,
+          "severity": "HIGH",
+          "summary": "CISA added a LiteSpeed cPanel plugin symlink-following flaw (CVE-2026-54420, CVSS 8.5) to its KEV catalog after it was exploited for root privilege escalation on affected servers, BleepingComputer and The Hacker News reported.",
+          "source": "BleepingComputer, The Hacker News, CISA",
+          "published_at": "2026-06-16T18:47+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-another-actively-exploited-cpanel-plugin-flaw/"
+        },
+        {
+          "id": "cs13",
+          "headline": "Critical Fortinet FortiSandbox flaws now exploited in attacks",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "Attackers are exploiting three FortiSandbox vulnerabilities — one patched only last week — in active attacks, BleepingComputer and The Hacker News reported. Admins are urged to update immediately.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-06-16T18:30+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/critical-fortinet-fortisandbox-flaws-now-exploited-in-attacks/"
+        },
+        {
+          "id": "cs14",
+          "headline": "Ransomware gang abuses Microsoft Teams relays to hide malicious traffic",
+          "category": "Threat Actor",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A ransomware gang is abusing Microsoft Teams relays to disguise malicious network traffic as legitimate, BleepingComputer reported, complicating detection.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-16T18:18+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/ransomware-gang-abuses-microsoft-teams-relays-to-hide-malicious-traffic/"
+        },
+        {
+          "id": "cs15",
+          "headline": "Windows version of SprySOCKS malware used to attack government orgs",
+          "category": "Threat Actor",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A China-linked actor has expanded the SprySOCKS backdoor to Windows with driver-based stealth, using it to attack government organisations, BleepingComputer and The Hacker News reported.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-06-16T17:44+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/windows-version-of-sprysocks-linux-malware-used-to-attack-govt-orgs/"
+        },
+        {
+          "id": "cs16",
+          "headline": "Fake Microsoft alerts used to deploy North Korean NarwhalRAT malware",
+          "category": "Threat Actor",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A North Korea-linked campaign uses fake Microsoft alerts to trick victims into deploying NarwhalRAT malware, The Hacker News reported.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-16T16:14+08:00",
+          "url": "https://thehackernews.com/2026/06/fake-microsoft-alerts-used-to-deploy.html"
+        },
+        {
+          "id": "cs17",
+          "headline": "iRhythm discloses data breach exposing patient information",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Cardiac-monitoring firm iRhythm disclosed a data breach in which hackers stole patient information, BleepingComputer reported, the latest healthcare-sector data exposure.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-16T14:31+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/irhythm-discloses-data-breach-says-hackers-stole-patient-info/"
+        },
+        {
+          "id": "cs18",
+          "headline": "Cisco releases updates for actively exploited SD-WAN Manager flaw",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-20262",
+          "cvss": 6.5,
+          "severity": "MEDIUM",
+          "summary": "Cisco released updates for a directory/path-traversal flaw in Catalyst SD-WAN Manager (CVE-2026-20262, CVSS 6.5) that is being actively exploited; the bug is in CISA's KEV catalog, The Hacker News reported.",
+          "source": "The Hacker News, CISA",
+          "published_at": "2026-06-16T14:05+08:00",
+          "url": "https://thehackernews.com/2026/06/cisco-releases-security-updates-for.html"
+        },
+        {
+          "id": "cs19",
+          "headline": "Chinese hackers abused Google Workspace rules to steal research and defense emails",
+          "category": "Threat Actor",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A China-linked group abused Google Workspace mail-routing rules to quietly siphon research and defense-related emails, The Hacker News reported.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-16T03:44+08:00",
+          "url": "https://thehackernews.com/2026/06/chinese-hackers-abused-google-workspace.html"
+        },
+        {
+          "id": "cs20",
+          "headline": "Popular WordPress plugin scripts tampered to plant hidden backdoors",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Attackers tampered with a popular WordPress plugin's scripts to plant hidden backdoors on sites using it, The Hacker News reported; site owners should audit affected installations.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-15T17:59+08:00",
+          "url": "https://thehackernews.com/2026/06/popular-wordpress-plugin-scripts.html"
+        },
+        {
+          "id": "cs21",
+          "headline": "One-click Microsoft 365 Copilot flaw could have exposed emails, files and MFA codes",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers disclosed a now-fixed one-click flaw in Microsoft 365 Copilot that could have let attackers steal a victim's emails, files and MFA codes, The Hacker News reported.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-15T23:09+08:00",
+          "url": "https://thehackernews.com/2026/06/one-click-microsoft-365-copilot-flaw.html"
+        },
+        {
+          "id": "cs22",
+          "headline": "LiteLLM vulnerability chain lets low-privilege users take over AI gateway servers",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-42271",
+          "cvss": 8.8,
+          "severity": "HIGH",
+          "summary": "A chain of flaws in BerriAI's LiteLLM (command injection, CVE-2026-42271, CVSS 8.8) lets low-privilege users escalate to take over self-hosted AI gateway servers; the bug is in CISA's KEV catalog, The Hacker News reported.",
+          "source": "The Hacker News, CISA",
+          "published_at": "2026-06-16T00:39+08:00",
+          "url": "https://thehackernews.com/2026/06/litellm-vulnerability-chain-lets-low.html"
+        },
+        {
+          "id": "cs23",
+          "headline": "Palo Alto warns of active exploitation of PAN-OS GlobalProtect VPN flaw",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Palo Alto Networks warned that a PAN-OS GlobalProtect VPN vulnerability is being actively exploited; administrators are urged to apply fixes and mitigations, The Hacker News reported.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-15T14:17+08:00",
+          "url": "https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html"
+        }
+      ]
+    }
+  }
+}

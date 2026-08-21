@@ -1,0 +1,796 @@
+{
+  "meta": {
+    "date": "2026-07-14",
+    "generated_at": "2026-07-14T21:00:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "BBC World",
+      "Channel NewsAsia (World, Asia, Singapore)",
+      "The Straits Times (World, Singapore)",
+      "Mothership",
+      "NEA / data.gov.sg",
+      "LTA COE data (data.gov.sg)",
+      "Motorist.sg",
+      "MTI / SingStat (advance GDP estimates)",
+      "WHO Disease Outbreak News (DON611, DON612)",
+      "ECDC",
+      "CNN",
+      "France 24",
+      "Ukrainian Air Force / State Emergency Service of Ukraine",
+      "Al Jazeera",
+      "NPR",
+      "ABC News",
+      "Security Council Report",
+      "The Hacker News",
+      "BleepingComputer",
+      "CISA KEV",
+      "NVD"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "The US-Iran war has reached the shipping lanes. The UAE says Iranian missiles hit two of its oil tankers in the Strait of Hormuz, killing a sailor, while Washington struck Iran for a third day and is reimposing a blockade with a 20% levy on Hormuz cargo. Oil hit a four-week high and Asian stocks fell. Elsewhere: the WHO warns DR Congo's Ebola outbreak is far bigger than confirmed, Russia hit Kyiv again, and Hungary's parliament voted out its president.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "UAE says Iranian missiles struck two of its oil tankers in the Strait of Hormuz, killing a sailor",
+          "category": "Conflict",
+          "summary": "The UAE defence ministry said Iranian cruise missiles hit the tankers Mombasa and Al Bahiyah in the southern lane of the strait, in Omani waters, killing one Indian crew member and wounding eight others, four of them seriously. Iran's Revolutionary Guard Corps said it had disabled two 'offending' supertankers that ignored warnings and tried to pass through a mined route with their navigation systems switched off. The two accounts have not been independently reconciled.",
+          "source": "The Straits Times, Bloomberg",
+          "published_at": "2026-07-14T07:20+08:00",
+          "url": "https://www.straitstimes.com/world/middle-east/uae-says-iranian-missiles-struck-oil-tankers-in-strait-of-hormuz-one-sailor-killed"
+        },
+        {
+          "id": "ts2",
+          "headline": "US strikes Iran for a third day and reimposes blockade with a 20% Hormuz cargo levy",
+          "category": "Conflict",
+          "summary": "The US said it had completed its latest wave of strikes on Iran after a third consecutive day of attacks, and Trump sent Congress formal notice that the conflict had resumed. Washington is reinstating its naval blockade and says it will charge 20% on all cargo transiting the Strait of Hormuz, arguing the US should be paid for guarding the waterway. The Straits Times calculates that the demand implies a fee of roughly US$39 million per supertanker. Iran has not accepted the levy.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-14T06:16+08:00",
+          "url": "https://www.channelnewsasia.com/world/trump-us-iran-war-strait-hormuz-6252101"
+        },
+        {
+          "id": "ts3",
+          "headline": "Oil hits a four-week high and Asian stocks drop as the Gulf conflict escalates",
+          "category": "Markets",
+          "summary": "Crude climbed to a four-week high as the fighting spread to shipping in the Strait of Hormuz and Washington moved to reimpose its blockade. Asian equities fell after Trump's threat to levy Hormuz cargo, with markets pricing in a longer disruption to the waterway that carries about a fifth of the world's oil.",
+          "source": "CNA",
+          "published_at": "2026-07-14T20:37+08:00",
+          "url": "https://www.channelnewsasia.com/world/us-iran-conflict-oil-four-week-high-6253506"
+        },
+        {
+          "id": "ts4",
+          "headline": "WHO says the DR Congo Ebola outbreak could be two to four times bigger than confirmed counts",
+          "category": "Health",
+          "summary": "WHO emergencies director Chikwe Ihekweazu told reporters in Geneva that modelling indicates the true scale of the Bundibugyo Ebola outbreak is at least two to four times the number of cases found, with 70-80% of new cases in the Bunia area emerging outside known contact chains. WHO separately said it has received only about 40% of its US$115 million appeal for the response.",
+          "source": "The Straits Times, France 24, CNA",
+          "published_at": "2026-07-14T20:24+08:00",
+          "url": "https://www.straitstimes.com/world/drc-ebola-outbreak-two-to-four-times-bigger-than-official-scale-who"
+        },
+        {
+          "id": "ts5",
+          "headline": "Russia bombards Kyiv again in its fifth attack on the capital this month",
+          "category": "Conflict",
+          "summary": "Ukraine's Air Force said it destroyed five Iskander-M/S-400 ballistic missiles, two Kh-59/69 missiles and 108 drones overnight, though other weapons got through and hit warehouses and a school in Kyiv. Ukraine's State Emergency Service reported 19 people killed in the capital, including a child, and 61 injured. The figures are Ukrainian official reports and have not been independently verified.",
+          "source": "The Straits Times, Ukrainian Air Force",
+          "published_at": "2026-07-14T06:10+08:00",
+          "url": "https://www.straitstimes.com/world/europe/russian-missiles-strike-kyiv-senior-ukrainian-officials-say"
+        },
+        {
+          "id": "ts6",
+          "headline": "Hungary's parliament votes to remove the president from office",
+          "category": "Politics",
+          "summary": "MPs passed a constitutional amendment allowing the removal of President Tamas Sulyok, an ally of the Orban era, and then voted him out. The move follows the change of government in Budapest and hands the new majority control of the presidency.",
+          "source": "BBC, CNA",
+          "published_at": "2026-07-14T04:39+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cp8r002gdevo"
+        },
+        {
+          "id": "ts7",
+          "headline": "Wildfire south of Paris burns through historic forest; minister says it may have been set deliberately",
+          "category": "Environment",
+          "summary": "Fire has ravaged more than 1,300 hectares of the Fontainebleau forest near Paris as a heatwave tightens across Europe. A French minister said the blaze could have been started deliberately, and two people have been arrested. Horses were evacuated from a riding centre in the fire's path.",
+          "source": "BBC, The Straits Times",
+          "published_at": "2026-07-14T04:15+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/clye4z168edo"
+        },
+        {
+          "id": "ts8",
+          "headline": "Bangkok bar fire death toll climbs to 30 as investigators find locked doors and flammable decor",
+          "category": "Disaster",
+          "summary": "Investigators into the nightclub blaze said locked doors and highly flammable decorations contributed to the death toll, which has risen to 30. Bangkok's governor has vowed tighter regulation of entertainment venues.",
+          "source": "BBC, CNA",
+          "published_at": "2026-07-14T11:47+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/clyxyzlp9p2o"
+        },
+        {
+          "id": "ts9",
+          "headline": "Volkswagen plans to cut up to 100,000 jobs globally",
+          "category": "Business",
+          "summary": "The carmaker is planning to shed as many as 100,000 jobs worldwide as it restructures amid weak European demand and the costly shift to electric vehicles.",
+          "source": "BBC",
+          "published_at": "2026-07-14T00:19+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cx2wzpwn51lo"
+        },
+        {
+          "id": "ts10",
+          "headline": "More than 260,000 evacuated in China as Typhoon Bavi brings severe floods",
+          "category": "Disaster",
+          "summary": "Chinese authorities evacuated over 260,000 people as Typhoon Bavi drove severe flooding. North Korea has urged 'maximum vigilance' as the storm approaches, warning of heavy rain.",
+          "source": "CNA",
+          "published_at": "2026-07-14T14:22+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/typhoon-bavi-china-floods-people-evacuated-6252536"
+        },
+        {
+          "id": "ts11",
+          "headline": "China's June trade beats forecasts, buoyed by the AI boom",
+          "category": "Economy",
+          "summary": "China's June trade figures came in above expectations, with demand tied to artificial-intelligence hardware helping exports. The data lands as Beijing continues to navigate tariff frictions with Washington.",
+          "source": "CNA",
+          "published_at": "2026-07-14T11:22+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/china-june-trade-tops-forecasts-ai-boom-6252426"
+        },
+        {
+          "id": "ts12",
+          "headline": "US judge voids Trump's $1.8bn IRS settlement that gave him immunity from tax audits",
+          "category": "Politics",
+          "summary": "A federal judge struck down a $1.8 billion settlement between Donald Trump and the Internal Revenue Service that had shielded him from tax audits, ruling that it could not stand.",
+          "source": "BBC",
+          "published_at": "2026-07-14T02:52+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cn8q0e8d4ego"
+        },
+        {
+          "id": "ts13",
+          "headline": "Lebanon and Israel hold US-brokered talks in Rome amid renewed Middle East fighting",
+          "category": "Diplomacy",
+          "summary": "Lebanese and Israeli officials met in Rome for US-brokered talks aimed at implementing their framework deal, even as the wider region is destabilised by the renewed US-Iran war.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-14T16:35+08:00",
+          "url": "https://www.channelnewsasia.com/world/lebanon-israel-hezbollah-peace-talks-rome-us-iran-war-fighting-6253021"
+        },
+        {
+          "id": "ts14",
+          "headline": "EU rallies dozens of nations to pledge US$1 billion for a Gaza recovery fund",
+          "category": "Diplomacy",
+          "summary": "The European Union brought together dozens of countries to commit around US$1 billion to a fund for Gaza's reconstruction, nine months into a ceasefire whose second phase remains unimplemented.",
+          "source": "CNA",
+          "published_at": "2026-07-14T19:18+08:00",
+          "url": "https://www.channelnewsasia.com/world/eu-gaza-recovery-fund-6251651"
+        },
+        {
+          "id": "ts15",
+          "headline": "Jurassic Park actor Sam Neill dies aged 78",
+          "category": "Obituary",
+          "summary": "Tributes have been paid to the New Zealand actor Sam Neill, best known as Dr Alan Grant in Jurassic Park, who has died aged 78. A co-star said he had been battling pneumonia before his death.",
+          "source": "BBC, CNA",
+          "published_at": "2026-07-14T09:29+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cy06e5e1lygo"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "The economy is today's big local number: Q2 growth came in at 5.7%, above forecasts but easing from Q1, powered by AI-driven electronics manufacturing. In court, Bloomberg and a reporter were ordered to pay ministers K. Shanmugam and Tan See Leng S$230,000 each over a defamatory article. Singapore is also putting S$2.5 million into the Ebola response. Expect thundery showers through tomorrow, and note Category A COE hit a record at this month's first bidding.",
+      "weather": {
+        "forecast": "Thundery Showers",
+        "temp_low": 25,
+        "temp_high": 34,
+        "humidity_low": 65,
+        "humidity_high": 95,
+        "as_of": "2026-07-14T18:01+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jul 2026 · 1st bidding",
+        "as_of": "2026-07-08",
+        "next_results": "2026-07-22",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          { "code": "A", "label": "Cars up to 1600cc & 130bhp", "premium": 129000, "change": 5153 },
+          { "code": "B", "label": "Cars above 1600cc or 130bhp", "premium": 130889, "change": 7387 }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "Singapore's economy grew 5.7% in Q2, easing from 6.3%: advance estimates",
+          "category": "Economy",
+          "summary": "MTI's advance estimates put year-on-year growth at 5.7% in the second quarter, above the roughly 5.5% economists had expected but slower than the first quarter's 6.3%. Manufacturing led again, expanding 12.2%, which MTI attributed largely to the electronics and precision engineering clusters on sustained AI-related demand for semiconductors. Detailed figures follow in the Economic Survey in August.",
+          "source": "CNA, MTI",
+          "published_at": "2026-07-14T08:00+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/gdp-singapore-economy-growth-mti-6250876"
+        },
+        {
+          "id": "sg2",
+          "headline": "Bloomberg and reporter ordered to pay Shanmugam and Tan See Leng S$230,000 each over defamatory article",
+          "category": "Courts",
+          "summary": "The court found that Bloomberg and one of its reporters had maliciously defamed Home Affairs and Law Minister K. Shanmugam and Manpower Minister Tan See Leng in an article, and awarded each minister S$230,000 in damages.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-14T16:09+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/bloomberg-shanmugam-tan-see-leng-defamation-230000-damages-6252946"
+        },
+        {
+          "id": "sg3",
+          "headline": "Singapore contributes S$2.5 million to the Ebola response in DR Congo and Uganda",
+          "category": "Foreign Relations",
+          "summary": "Singapore pledged S$2.5 million (about US$2 million) to support the Ebola outbreak response in the Democratic Republic of the Congo and Uganda. The pledge comes as the WHO says it has received only about 40% of its US$115 million appeal for the outbreak.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-14T15:59+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/singapore-us2-million-ebola-support-drc-congo-uganda-6252861"
+        },
+        {
+          "id": "sg4",
+          "headline": "2027 school year to start on Jan 4 and end on Nov 19",
+          "category": "Education",
+          "summary": "MOE said the 2027 school year for MOE kindergartens and primary and secondary schools will begin on Jan 4 and end on Nov 19, giving families the dates to plan around.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-14T15:15+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/2027-school-start-holiday-primary-secondary-moe-6252831"
+        },
+        {
+          "id": "sg5",
+          "headline": "Bus arrival timings restored after about 90 minutes of disruption",
+          "category": "Transport",
+          "summary": "The display of bus arrival timings across apps and boards was disrupted for roughly 90 minutes before being restored. LTA attributed the outage to technical issues.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-14T07:21+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/bus-eta-timing-system-lta-down-6252156"
+        },
+        {
+          "id": "sg6",
+          "headline": "Financier jailed over syndicate linked to S$51 million in scam losses",
+          "category": "Crime",
+          "summary": "A financier was jailed for his role in a syndicate that sold chat accounts to criminals; the accounts were linked to about S$51 million in scam losses. The case is part of the authorities' continuing push against the infrastructure behind online scams.",
+          "source": "CNA",
+          "published_at": "2026-07-14T12:11+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/scam-51-million-syndicate-chat-accounts-jail-6252516"
+        },
+        {
+          "id": "sg7",
+          "headline": "MOM orders firm to halt manhole-cover works after two workers hurt in flash fire",
+          "category": "Workplace Safety",
+          "summary": "The Ministry of Manpower instructed a company to stop manhole-cover replacement works after two workers were injured in a flash fire in Pioneer. MOM is investigating.",
+          "source": "The Straits Times, Mothership",
+          "published_at": "2026-07-14T07:35+08:00",
+          "url": "https://www.straitstimes.com/singapore/mom-instructs-firm-to-stop-manhole-cover-replacement-works-after-2-workers-are-injured-in-flash-fire"
+        },
+        {
+          "id": "sg8",
+          "headline": "Changi says Terminal 5 capacity remains on track despite global uncertainties",
+          "category": "Transport",
+          "summary": "Changi Airport said T5's planned capacity remains on track despite global economic and geopolitical uncertainty, and that it is working to plug gaps in its flight network across Asia and beyond.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-14T14:00+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/changi-airport-t5-capacity-lim-ching-kiat-6251246"
+        },
+        {
+          "id": "sg9",
+          "headline": "Armed robberies against ships in Asia fall 64% in the first half of 2026",
+          "category": "Maritime",
+          "summary": "ReCAAP reported that armed robbery incidents against ships in Asia dropped 64% in the first half of 2026 — the fewest cases since 2019. The Singapore Strait remains a focus area for patrols.",
+          "source": "The Straits Times, ReCAAP",
+          "published_at": "2026-07-14T16:45+08:00",
+          "url": "https://www.straitstimes.com/singapore/armed-robberies-against-ships-in-asia-plunges-64-in-first-half-of-2026-lowest-since-2019-recaap"
+        },
+        {
+          "id": "sg10",
+          "headline": "Jail and driving ban for man who drove into Suntec City's Fountain of Wealth",
+          "category": "Courts",
+          "summary": "A man who drank about a litre of beer before driving his car into the Fountain of Wealth at Suntec City in 2024 was jailed and given a driving ban.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-14T16:15+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/man-crash-suntec-city-fountain-wealth-jail-6252926"
+        },
+        {
+          "id": "sg11",
+          "headline": "'Durians don't wait for you': sellers say prices are creeping back up",
+          "category": "Trending",
+          "summary": "After a glut pushed durian prices down, sellers in Singapore say the oversupply is ending and prices have started to rise again. Bargain hunters who have been feasting through the cheap season may want to move quickly.",
+          "source": "CNA",
+          "published_at": "2026-07-14T12:19+08:00",
+          "url": "https://www.channelnewsasia.com/dining/durian-low-prices-oversupply-over-increase-6252276"
+        },
+        {
+          "id": "sg12",
+          "headline": "Ex-offender opens S$7 'cai fan buffet' stall in Woodlands to give back",
+          "category": "Trending",
+          "summary": "A former offender has opened an economy-rice buffet stall in Woodlands charging S$7, saying he wants to give back to the community that helped him restart after prison.",
+          "source": "Mothership",
+          "published_at": "2026-07-14T11:53+08:00",
+          "url": "https://mothership.sg/2026/07/buffet-economy-rice-woodlands/"
+        },
+        {
+          "id": "sg13",
+          "headline": "Grab driver allegedly asked for S$2 after offering a wet tissue, and locked the doors until the passenger paid",
+          "category": "Trending",
+          "summary": "A passenger says a Grab driver offered her a wet tissue, then asked for S$2 and kept the car doors locked until she paid. Her account, shared publicly, has drawn wide local comment. The driver's side of the story has not been reported.",
+          "source": "Mothership",
+          "published_at": "2026-07-14T12:02+08:00",
+          "url": "https://mothership.sg/2026/07/grab-driver-ask-money-tissues/"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "US-Iran is now the most dangerous theatre and has reached the shipping lanes: the UAE says Iranian missiles struck two of its tankers, killing a sailor; Iran's Revolutionary Guard says it disabled two supertankers that ignored warnings. Washington struck Iran for a third day and is reimposing its blockade. In Ukraine, Russia hit Kyiv for the fifth time this month. Gaza and Lebanon are quieter militarily but politically stuck, with Israel-Lebanon talks under way in Rome.",
+      "theatres": [
+        {
+          "name": "US / Israel – Iran (Strait of Hormuz)",
+          "status": "Escalating sharply and now hitting commercial shipping. The June memorandum has collapsed; the US has struck Iran for a third day and is reimposing a naval blockade with a 20% levy on Hormuz cargo. The UAE says Iranian missiles hit two of its tankers, killing a sailor; Iran's Revolutionary Guard says it disabled two supertankers that ignored warnings. Oil is at a four-week high.",
+          "timeline": [
+            {
+              "date": "28 Feb 2026",
+              "event": "The war begins. Israel, with US intelligence help, kills Supreme Leader Ayatollah Ali Khamenei, drawing the US and Israel into a roughly two-month air war against Iran. Iran retaliates against targets across the region.",
+              "source": "ABC News",
+              "url": "https://abcnews.com/Politics/us-iran-ceasefire-mou-broke-timeline/story?id=134622392"
+            },
+            {
+              "date": "7 Apr 2026",
+              "event": "Trump announces a ceasefire and US and Iranian officials meet, with Vice-President Vance travelling to Pakistan for negotiations. The ceasefire is extended.",
+              "source": "ABC News",
+              "url": "https://abcnews.com/Politics/us-iran-ceasefire-mou-broke-timeline/story?id=134622392"
+            },
+            {
+              "date": "17 Jun 2026",
+              "event": "The US and Iran sign a memorandum of understanding formalising the ceasefire, ending the US naval blockade and reopening the Strait of Hormuz. It also provides for a cessation of hostilities in Lebanon.",
+              "source": "ABC News, Security Council Report",
+              "url": "https://abcnews.com/Politics/us-iran-ceasefire-mou-broke-timeline/story?id=134622392"
+            },
+            {
+              "date": "25 Jun 2026",
+              "event": "The first violation: Iran launches a drone strike on a ship in the Strait of Hormuz.",
+              "source": "ABC News",
+              "url": "https://abcnews.com/Politics/us-iran-ceasefire-mou-broke-timeline/story?id=134622392"
+            },
+            {
+              "date": "7 Jul 2026",
+              "event": "Iran strikes commercial vessels again. The US responds by rescinding Iran's oil-sales licence.",
+              "source": "ABC News",
+              "url": "https://abcnews.com/Politics/us-iran-ceasefire-mou-broke-timeline/story?id=134622392"
+            },
+            {
+              "date": "9 Jul 2026",
+              "event": "Trump declares the ceasefire deal 'over' at the NATO summit. US strikes follow on 90 targets across a widened set of areas.",
+              "source": "ABC News",
+              "url": "https://abcnews.com/Politics/us-iran-ceasefire-mou-broke-timeline/story?id=134622392"
+            },
+            {
+              "date": "12–13 Jul 2026",
+              "event": "Iran widens attacks on US bases across the Gulf. Oil prices surge and tech shares fall as the Hormuz standoff deepens.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/business/oil-stocks-us-iran-war-strikes-6249971"
+            },
+            {
+              "date": "13 Jul 2026",
+              "event": "Trump says the US will reinstate the blockade on Iran and charge 20% on all Strait of Hormuz cargo, arguing the US should be 'paid' for guarding the waterway. The Straits Times calculates that the demand implies roughly US$39 million per supertanker.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/trump-iran-us-control-hormuz-strait-paid-6251156"
+            },
+            {
+              "date": "14 Jul 2026",
+              "event": "The UAE defence ministry says Iranian cruise missiles struck the Emirati tankers Mombasa and Al Bahiyah in the Strait of Hormuz, killing one Indian crew member and wounding eight. Iran's Revolutionary Guard says it hit and disabled two 'offending' supertankers that ignored warnings and switched off their navigation systems. The accounts have not been independently reconciled.",
+              "source": "The Straits Times, Bloomberg",
+              "url": "https://www.straitstimes.com/world/middle-east/uae-says-iranian-missiles-struck-oil-tankers-in-strait-of-hormuz-one-sailor-killed"
+            },
+            {
+              "date": "14 Jul 2026",
+              "event": "The US says it has completed its latest wave of strikes on Iran after a third consecutive day, and Trump sends Congress formal notice that the conflict has resumed. Iran says it struck a US air base in Jordan. Oil hits a four-week high and Asian stocks fall.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/us-says-it-has-completed-its-latest-wave-of-strikes-on-iran"
+            }
+          ]
+        },
+        {
+          "name": "Russia – Ukraine",
+          "status": "Grinding on, with Kyiv under repeated bombardment. Russia struck the capital again overnight into 14 July — the fifth attack this month — and Ukraine's Air Force says it downed five ballistic missiles, two cruise missiles and 108 drones. Europe is deepening its military and sanctions backing for Kyiv, and the EU is racing to agree a new Russia sanctions package before its deadline.",
+          "timeline": [
+            {
+              "date": "24 Feb 2022",
+              "event": "Russia launches a full-scale invasion of Ukraine, opening the largest land war in Europe since 1945. The war is still running more than four years on.",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/where/ukraine/"
+            },
+            {
+              "date": "2 Jul 2026",
+              "event": "One of the war's deadliest months for the capital begins: a mass Russian drone and missile attack on Kyiv kills at least 18 people, according to Ukrainian authorities.",
+              "source": "NPR",
+              "url": "https://www.npr.org/2026/07/02/nx-s1-5878894/russia-attacks-ukraines-capital-killing-more-than-a-dozen-people"
+            },
+            {
+              "date": "12–13 Jul 2026",
+              "event": "Prime Minister Yulia Svyrydenko steps down as President Volodymyr Zelenskyy announces a government reshuffle. Ukraine awaits a new cabinet.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/ukraine-awaits-new-government-after-prime-ministers-shock-dismissal"
+            },
+            {
+              "date": "13 Jul 2026",
+              "event": "The EU and UK announce their first joint cyber sanctions package against Russia, targeting GRU military intelligence hackers.",
+              "source": "CNA, BleepingComputer",
+              "url": "https://www.channelnewsasia.com/world/eu-uk-hit-russia-joint-sanctions-over-cyber-attacks-6250786"
+            },
+            {
+              "date": "14 Jul 2026",
+              "event": "Russia bombards Kyiv in its fifth attack on the capital this month. Ukraine's Air Force says it destroyed five Iskander-M/S-400 ballistic missiles, two Kh-59/69 missiles and 108 drones; other weapons hit warehouses and a school. Ukraine's State Emergency Service reports 19 killed in Kyiv, including a child, and 61 injured. The figures are Ukrainian official reports and are not independently verified.",
+              "source": "The Straits Times, Ukrainian Air Force",
+              "url": "https://www.straitstimes.com/world/europe/russian-missiles-strike-kyiv-senior-ukrainian-officials-say"
+            },
+            {
+              "date": "14 Jul 2026",
+              "event": "The EU scrambles to seal a new Russia sanctions package as its deadline looms. Kyiv says the Russian army has executed hundreds of Ukrainian prisoners of war since 2022 — an allegation Moscow has not accepted and which is not independently verified. Moscow says there can be no security guarantees for Ukraine without Russia's involvement.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/eu-scrambles-seal-new-russia-sanctions-deadline-looms-6253496"
+            }
+          ]
+        },
+        {
+          "name": "Israel – Gaza / Lebanon",
+          "status": "Militarily quieter than the other theatres but politically stuck: the Gaza ceasefire's second phase — Hamas disarmament and Israeli withdrawal — has not moved in months, and Israel's military controls close to 70% of Gaza. Israeli fire is still killing civilians in Gaza. Lebanon and Israel are in US-brokered talks in Rome, and the EU has rallied about US$1 billion for Gaza's recovery.",
+          "timeline": [
+            {
+              "date": "10 Oct 2025",
+              "event": "A ceasefire takes effect in Gaza. Its second phase — Hamas's disarmament and a phased Israeli withdrawal — is never implemented; Israeli forces hold their positions.",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/4/26/what-lies-ahead-for-gaza-after-ceasefires-in-iran-and-lebanon"
+            },
+            {
+              "date": "16 Apr 2026",
+              "event": "A US-brokered Israel–Lebanon ceasefire is agreed amid the wider regional conflict, halting active fighting.",
+              "source": "Security Council Report",
+              "url": "https://www.securitycouncilreport.org/monthly-forecast/2026-07/the-middle-east-including-the-palestinian-question-25.php"
+            },
+            {
+              "date": "17 Jun 2026",
+              "event": "The US–Iran interim agreement ending the February war also provides for a cessation of hostilities in Lebanon.",
+              "source": "Security Council Report",
+              "url": "https://www.securitycouncilreport.org/monthly-forecast/2026-07/the-middle-east-including-the-palestinian-question-25.php"
+            },
+            {
+              "date": "10 Jul 2026",
+              "event": "Nine months into the ceasefire, Israel's military controls nearly 70% of Gaza. The UN humanitarian office says around 200 Palestinians have been killed since it took effect.",
+              "source": "NPR, UN OCHA",
+              "url": "https://www.npr.org/2026/07/10/nx-s1-5887357/israel-gaza-war-trump-ceasefire-military-control"
+            },
+            {
+              "date": "13 Jul 2026",
+              "event": "UN Deputy Special Coordinator Ramiz Alakbarov accuses Hamas of obstructing humanitarian deliveries in Gaza and intimidating aid workers.",
+              "source": "The Straits Times, CNA",
+              "url": "https://www.straitstimes.com/world/middle-east/un-official-says-hamas-obstructing-aid-in-gaza"
+            },
+            {
+              "date": "14 Jul 2026",
+              "event": "Israeli fire kills nine people in Gaza, including a 10-year-old, Palestinian officials and medics say; Israel has not commented on the specific incidents. Lebanon and Israel hold US-brokered talks in Rome to implement their framework deal, and the EU rallies dozens of nations to pledge about US$1 billion for a Gaza recovery fund.",
+              "source": "The Straits Times, CNA",
+              "url": "https://www.straitstimes.com/world/middle-east/israeli-strikes-kill-two-people-in-gaza-including-a-10-year-old-medics-say"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "Ebola in DR Congo is the one to watch, and it worsened on two fronts today: the WHO says modelling puts the true scale at two to four times the confirmed count, and it has received only about 40% of its US$115 million appeal. Singapore is chipping in S$2.5 million. In the US, a Cyclospora outbreak across Michigan and Ohio has topped 3,000 cases, with lettuce or salad greens a possible source. The ship-linked hantavirus cluster looks contained.",
+      "outbreaks": [
+        {
+          "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
+          "status": "Expanding rapidly in eastern DRC and under-detected; no licensed vaccine or treatment exists for this Ebola species",
+          "cases": 1481,
+          "deaths": 454,
+          "countries": 3,
+          "as_of": "2026-07-03",
+          "scope_note": "WHO-confirmed cases only, per WHO Disease Outbreak News DON612 of 3 Jul 2026 (DRC data to 1 Jul, Uganda to 2 Jul): 1,481 confirmed cases and 454 deaths — DRC 1,460 cases / 452 deaths (crude CFR 30.9%), Uganda 20 / 2, plus one exported case in France linked to DRC. 'Countries' = 3 (DRC, Uganda, France-exported). 229 patients have recovered; cases span 36 health zones across Ituri, North Kivu and South Kivu; 102 health workers have been infected, 25 of whom died. MORE RECENT, NOT YET DON-RATIFIED: DRC's own latest official tally, cited by AFP and France 24 on 14 Jul 2026, is more than 1,960 infections and over 700 deaths. Separately, WHO's emergencies director said on 14 Jul that modelling puts the true scale at two to four times the confirmed count. Do not attribute the higher national or modelled figures to the WHO DON."
+        },
+        {
+          "name": "Cyclospora — United States (Michigan & Ohio)",
+          "status": "Still growing; lettuce or salad greens named as a possible source, but no product recall has been issued",
+          "cases": 3001,
+          "deaths": 0,
+          "countries": 1,
+          "as_of": "2026-07-13",
+          "scope_note": "Michigan and Ohio combined, as reported by the state health departments and CNN on 13 Jul 2026: Michigan 2,640 cases (including 44 hospitalisations) and Ohio 361 cases since 1 Jun — 3,001 in total, with no deaths reported. 'Countries' = 1 (United States). A wider NBC News tally of state health departments put the national figure above 4,000 across 31 states as of 13 Jul, but it is not established that all of those cases belong to this outbreak, so they are excluded from the headline count. Note that the CDC removed Cyclospora from mandatory FoodNet tracking in July 2025, which limits national surveillance."
+        },
+        {
+          "name": "MV Hondius — Andes hantavirus",
+          "status": "Contained; all cases traced to one cruise, with no onward transmission reported",
+          "cases": 13,
+          "deaths": 3,
+          "countries": "Multi-location",
+          "as_of": "2026-07-02",
+          "scope_note": "Per WHO Disease Outbreak News DON611 of 2 Jul 2026: 13 cases (12 confirmed, 1 probable) and 3 deaths (2 confirmed, 1 probable), a case fatality ratio of 23%. All 13 cases travelled aboard the Netherlands-flagged cruise ship M/V Hondius. Eight hospitalised patients have recovered and been discharged; two remain in hospital (one in South Africa, one in France). The most recent addition was a case in Tristan da Cunha, confirmed after disembarkation; early isolation prevented onward spread. 'Countries' is recorded as multi-location because cases were notified across several jurisdictions rather than forming a single-country outbreak."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "WHO: DR Congo Ebola outbreak may be two to four times bigger than official figures",
+          "category": "Ebola",
+          "summary": "WHO emergencies director Chikwe Ihekweazu told reporters in Geneva that new modelling indicates the outbreak's true scale is at least two to four times the confirmed case count, because a large share of infections are occurring outside known transmission chains — 70-80% of new cases in the Bunia area come from outside contact lists. WHO's last formal Disease Outbreak News, on 3 Jul, put confirmed cases at 1,481 with 454 deaths.",
+          "source": "The Straits Times, France 24, WHO",
+          "published_at": "2026-07-14T20:24+08:00",
+          "url": "https://www.straitstimes.com/world/drc-ebola-outbreak-two-to-four-times-bigger-than-official-scale-who"
+        },
+        {
+          "id": "ob2",
+          "headline": "WHO says it has less than half the funding it needs to fight Ebola",
+          "category": "Ebola",
+          "summary": "WHO said it has received only about 40% of its US$115 million appeal to tackle the Bundibugyo Ebola outbreak in eastern DR Congo, leaving the response short of money as case numbers climb.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-14T19:43+08:00",
+          "url": "https://www.channelnewsasia.com/world/who-ebola-outbreak-funding-congo-health-6253201"
+        },
+        {
+          "id": "ob3",
+          "headline": "Singapore contributes S$2.5 million to the Ebola response in Congo and Uganda",
+          "category": "Ebola",
+          "summary": "Singapore pledged S$2.5 million (about US$2 million) to support the Ebola outbreak response in the Democratic Republic of the Congo and Uganda, as the WHO warns its appeal remains badly underfunded.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-14T15:59+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/singapore-us2-million-ebola-support-drc-congo-uganda-6252861"
+        },
+        {
+          "id": "ob4",
+          "headline": "US to block citizens in Congo from immediate travel home, citing Ebola",
+          "category": "Ebola",
+          "summary": "The United States will bar its citizens in the DR Congo from travelling home immediately, citing the Ebola outbreak — adding to a growing set of travel and screening restrictions around the epidemic.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-14T10:20+08:00",
+          "url": "https://www.straitstimes.com/world/us-to-block-citizens-in-congo-from-immediate-travel-home-citing-ebola"
+        },
+        {
+          "id": "ob5",
+          "headline": "Michigan names lettuce and salad greens as a 'potential source' of the Cyclospora outbreak",
+          "category": "Cyclospora",
+          "summary": "Michigan health officials said lettuce or salad greens may be the source of a parasite outbreak that has grown past 3,000 cases across Michigan and Ohio, but cautioned that other foods cannot be ruled out and that no specific type, grower or supplier has been identified. No product recall has been issued.",
+          "source": "The Straits Times, CNN",
+          "published_at": "2026-07-14T09:30+08:00",
+          "url": "https://www.straitstimes.com/world/united-states/michigan-health-officials-identify-lettuce-salad-greens-as-potential-source-of-cyclospora-outbreak"
+        },
+        {
+          "id": "ob6",
+          "headline": "Bangladesh floods heighten dengue and cholera risks, IFRC warns",
+          "category": "Waterborne / Vector-borne",
+          "summary": "The International Federation of Red Cross and Red Crescent Societies warned that flooding in Bangladesh is raising the risk of dengue and cholera, with standing water and disrupted sanitation creating the conditions for outbreaks.",
+          "source": "CNA, IFRC",
+          "published_at": "2026-07-14T18:22+08:00",
+          "url": "https://www.channelnewsasia.com/world/bangladesh-floods-dengue-cholera-risk-ifrc-6253181"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "Patch SAP first: three critical flaws landed today, led by a CVSS 9.9 memory-corruption bug in NetWeaver ABAP. The bigger live risk is two Joomla extension zero-days, iCagenda and Balbooa Forms, both CVSS 10.0 and confirmed by CISA as actively exploited. Supply chain is the other theme: a backdoored Jscrambler npm release, 148 malicious npm packages, and a 1.6-million-install browser extension pulled over a hidden collector. AI tooling is drawing fire too.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "New Microsoft 365 phishing kits evade MFA using device-code and adversary-in-the-middle session theft",
+          "category": "Phishing",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers detailed new phishing kits — including a phishing-as-a-service platform tracked as Forg365 — that target Microsoft 365 accounts and defeat multi-factor authentication by abusing the device-code flow and stealing session tokens through adversary-in-the-middle proxies. A stolen session lets an attacker into the account without ever needing the password or a second factor.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-07-14T20:49+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/new-phishing-kits-target-microsoft-365-accounts-evade-mfa/"
+        },
+        {
+          "id": "cs2",
+          "headline": "SAP patches three critical flaws in NetWeaver, AppRouter and Commerce Cloud",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-44747",
+          "cvss": 9.9,
+          "severity": "CRITICAL",
+          "summary": "SAP's July update fixes 16 vulnerabilities, three of them critical. CVE-2026-44747 (CVSS 9.9) is a memory-corruption flaw in NetWeaver Application Server ABAP that an authenticated attacker can use for unauthorised data access, modification or denial of service. Also fixed: CVE-2026-27690 (CVSS 9.1), HTTP request smuggling in SAP AppRouter that is exploitable without authentication, and CVE-2026-44761 (CVSS 9.1), a sample OAuth2 client left in SAP Commerce Cloud with publicly documented credentials. SAP says it has no evidence any of the three has been exploited. CVSS scores per NVD.",
+          "source": "BleepingComputer, NVD",
+          "published_at": "2026-07-14T19:42+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/sap-warns-of-critical-flaws-in-netweaver-and-commerce-cloud/"
+        },
+        {
+          "id": "cs3",
+          "headline": "Grok Build uploaded entire git repositories to xAI storage, not just the files it read",
+          "category": "Data Exposure",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers reported that xAI's Grok Build feature uploaded whole git repositories to xAI storage rather than only the files a user asked it to read, exposing source code and any secrets committed to those repos well beyond what developers intended to share. No CVE has been assigned.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-14T17:02+08:00",
+          "url": "https://thehackernews.com/2026/07/grok-build-uploads-entire-git.html"
+        },
+        {
+          "id": "cs4",
+          "headline": "US sanctions a VPN service and a malware cryptor seller for enabling ransomware",
+          "category": "Law Enforcement",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "The US sanctioned a VPN provider and a seller of malware-cryptor services for supporting ransomware operations — reportedly the first time a VPN service has been designated on these grounds. The action targets the service layer that ransomware crews rent, rather than the crews themselves.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-14T16:02+08:00",
+          "url": "https://thehackernews.com/2026/07/us-sanctions-first-vpn-service-and.html"
+        },
+        {
+          "id": "cs5",
+          "headline": "148 npm packages posing as student proxies turned browsers into a DDoS botnet",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers found 148 npm packages that presented themselves as proxy utilities for students but instead conscripted visitors' browsers into a distributed denial-of-service botnet. Any site that pulled in one of the packages silently turned its own visitors into attack traffic.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-14T15:08+08:00",
+          "url": "https://thehackernews.com/2026/07/148-npm-packages-disguised-as-student.html"
+        },
+        {
+          "id": "cs6",
+          "headline": "Microsoft maps three Salesforce attack paths tied to a year of ShinyHunters activity",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Microsoft published research tracing a year-long campaign, linked to the ShinyHunters extortion crew, that stole data from Salesforce tenants via three distinct access paths. The activity abused the platform's integrations and connected apps rather than a single product flaw, so hardening OAuth-connected apps matters more here than waiting for a patch.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-14T14:19+08:00",
+          "url": "https://thehackernews.com/2026/07/microsoft-maps-year-long-shinyhunters.html"
+        },
+        {
+          "id": "cs7",
+          "headline": "Japan's largest taxi operator shuts down systems after a cyberattack",
+          "category": "Incident",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Japan's biggest taxi operator took systems offline after a cyberattack, disrupting operations. The company has not confirmed whether data was stolen or whether ransomware was involved.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-14T04:18+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/japans-largest-taxi-operator-shuts-systems-after-cyberattack/"
+        },
+        {
+          "id": "cs8",
+          "headline": "CrashStealer macOS malware uses a notarized dropper to slip past Gatekeeper",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A new macOS infostealer, CrashStealer, poses as an Apple crash-reporting tool and ships inside a dropper that Apple had notarized — letting it pass Gatekeeper checks and run without the usual warnings. It targets credentials and browser data.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-14T01:36+08:00",
+          "url": "https://thehackernews.com/2026/07/crashstealer-macos-malware-uses.html"
+        },
+        {
+          "id": "cs9",
+          "headline": "Google and Microsoft pull ModHeader extension with 1.6 million installs after finding a dormant collector",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Google and Microsoft removed the ModHeader browser extension — which had around 1.6 million installs — from their stores after researchers found a dormant data-collection component inside it. Developers and testers who used it to modify HTTP headers should uninstall it and rotate anything the extension could have seen.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-14T01:17+08:00",
+          "url": "https://thehackernews.com/2026/07/google-and-microsoft-pull-modheader.html"
+        },
+        {
+          "id": "cs10",
+          "headline": "Lidl discloses an online shop breach after a service provider was hacked",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Lidl disclosed a breach of its online shop stemming from a compromise at one of its service providers — another case where the retailer's own systems held, but a third party in the chain did not.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-13T22:19+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/lidl-discloses-online-shop-breach-after-service-provider-hack/"
+        },
+        {
+          "id": "cs11",
+          "headline": "MemGhost attack plants persistent false memories in AI agents through a single email",
+          "category": "AI Security",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers described MemGhost, an attack that uses one crafted email to write persistent false 'memories' into an AI agent's long-term memory store. Because the poisoned memory survives the session, the agent keeps acting on the attacker's planted facts long after the email itself is gone.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-13T21:49+08:00",
+          "url": "https://thehackernews.com/2026/07/new-memghost-attack-plants-persistent.html"
+        },
+        {
+          "id": "cs12",
+          "headline": "UK charges suspects linked to the Russian Coms call-spoofing platform",
+          "category": "Law Enforcement",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "UK authorities charged suspects connected to Russian Coms, a platform that let fraudsters spoof caller IDs — including those of banks — so that scam calls appeared legitimate. The service was used in large-scale phone fraud against UK victims.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-13T21:23+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/uk-charges-suspects-linked-to-russian-coms-call-spoofing-platform/"
+        },
+        {
+          "id": "cs13",
+          "headline": "EU and UK impose their first joint cyber sanctions on Russian GRU hackers",
+          "category": "Policy",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "The EU and UK announced a first joint cyber sanctions package targeting GRU military-intelligence hackers over cyberattacks — the first time the two have acted together on cyber designations.",
+          "source": "BleepingComputer, CNA",
+          "published_at": "2026-07-13T19:19+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/eu-and-uk-hit-russia-with-first-joint-cyber-sanctions-package/"
+        },
+        {
+          "id": "cs14",
+          "headline": "Attacker uses a suspected AI-generated PowerShell script to map Active Directory",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Investigators found an intruder running a PowerShell reconnaissance script whose structure and commenting suggest it was generated by a large language model, used to enumerate an Active Directory environment. It is a concrete data point on attackers folding AI tooling into routine post-compromise work.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-13T19:02+08:00",
+          "url": "https://thehackernews.com/2026/07/attacker-uses-suspected-ai-generated.html"
+        },
+        {
+          "id": "cs15",
+          "headline": "US and allies warn of Russian state hackers targeting critical infrastructure",
+          "category": "Advisory",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A joint advisory from the US and allied agencies warned that Russian state-linked hackers are targeting critical infrastructure, and set out defensive guidance for operators. Infrastructure defenders should treat it as a prompt to review the listed detections and hardening steps.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-13T17:32+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/us-and-allies-share-defense-tips-against-russian-hackers-targeting-critical-infrastructure/"
+        },
+        {
+          "id": "cs16",
+          "headline": "Misconfigured server exposes three Evilginx phishing operations targeting Microsoft 365",
+          "category": "Phishing",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A misconfigured server exposed the inner workings of three separate phishing operations running the Evilginx adversary-in-the-middle framework against Microsoft 365 users, giving defenders a rare look at the infrastructure and the harvested session tokens.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-13T15:30+08:00",
+          "url": "https://thehackernews.com/2026/07/misconfigured-server-reveals-three.html"
+        },
+        {
+          "id": "cs17",
+          "headline": "Joomla iCagenda and Balbooa Forms zero-days actively exploited; both CVSS 10.0 and now KEV-listed",
+          "category": "Actively Exploited",
+          "cve": "CVE-2026-48939, CVE-2026-56291",
+          "cvss": 10.0,
+          "severity": "CRITICAL",
+          "summary": "Two Joomla extensions are being exploited as zero-days: CVE-2026-48939 in iCagenda and CVE-2026-56291 in Balbooa Forms, both unrestricted file-upload flaws scored CVSS 10.0 by NVD that let unauthenticated attackers upload arbitrary files and achieve remote code execution. CISA added both to its Known Exploited Vulnerabilities catalog on 10 Jul 2026. Sites running either extension should patch or remove it now.",
+          "source": "The Hacker News, BleepingComputer, CISA KEV, NVD",
+          "published_at": "2026-07-13T13:36+08:00",
+          "url": "https://thehackernews.com/2026/07/icagenda-and-balbooa-forms-joomla-flaws.html"
+        },
+        {
+          "id": "cs18",
+          "headline": "Compromised Jscrambler npm release drops a Rust infostealer during install",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Attackers backdoored version 8.14.0 of the Jscrambler npm package so that installing it executed a Rust-based infostealer. Anyone who pulled that release should treat developer credentials and CI secrets on the affected machines as compromised.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-12T01:59+08:00",
+          "url": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html"
+        },
+        {
+          "id": "cs19",
+          "headline": "Hackers weaponise a Balochistan police portal in multi-group espionage campaigns",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Multiple espionage groups compromised and repurposed a Balochistan police portal to stage attacks, using the trusted government site to deliver malware to visitors — a watering-hole technique that works precisely because targets expect the domain to be safe.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-12T01:49+08:00",
+          "url": "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html"
+        }
+      ]
+    }
+  }
+}

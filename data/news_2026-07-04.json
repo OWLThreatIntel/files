@@ -1,0 +1,718 @@
+{
+  "meta": {
+    "date": "2026-07-04",
+    "generated_at": "2026-07-04T21:05:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "BBC",
+      "Channel NewsAsia",
+      "The Straits Times",
+      "Mothership",
+      "Al Jazeera",
+      "U.S. News/wire",
+      "The Hacker News",
+      "BleepingComputer",
+      "CISA KEV",
+      "NVD",
+      "WHO Disease Outbreak News",
+      "ECDC",
+      "NEA (data.gov.sg)",
+      "LTA (data.gov.sg)"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "America marked its 250th July 4 under a punishing heatwave, with President Trump warning of an \"attack\" on national identity at a National Mall rally as Europe counted its own heat dead — France reported roughly 2,025 excess deaths at the peak. Iran drew huge crowds in Tehran for the first day of a dayslong state funeral for assassinated supreme leader Ayatollah Khamenei, with mourners chanting for revenge, while Ukraine struck an oil terminal deep inside Russia near St Petersburg. Peru declared Keiko Fujimori president-elect, and — more lightly — Taylor Swift wed Travis Kelce in New York.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "US turns 250 as Trump warns of 'attack' on American identity",
+          "category": "United States",
+          "summary": "The United States marked its 250th Independence Day with a campaign-style rally on the National Mall, where President Donald Trump said American identity was under \"renewed attack\" and highlighted the debut of tax-advantaged \"Trump Accounts\" for newborns. Celebrations unfolded amid a dangerous East Coast heatwave.",
+          "source": "The Straits Times, CNA, BBC",
+          "published_at": "2026-07-04T18:06+08:00",
+          "url": "https://www.straitstimes.com/world/united-states/trump-says-american-identity-under-renewed-attack-as-us-turns-250"
+        },
+        {
+          "id": "ts2",
+          "headline": "Ukraine hits major oil terminal near Russia's St Petersburg",
+          "category": "Russia-Ukraine War",
+          "summary": "Ukraine launched one of its largest long-range drone attacks yet on the St Petersburg/Leningrad region, striking an oil terminal and the Baltic port of Vysotsk; President Zelensky confirmed the strike. Local governors called it a \"large-scale\" attack as Kyiv steps up pressure on Russian energy infrastructure.",
+          "source": "BBC, The Straits Times, Al Jazeera",
+          "published_at": "2026-07-04T20:34+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c8j2vmzxezro"
+        },
+        {
+          "id": "ts3",
+          "headline": "Huge crowds throng Tehran as Iran begins Khamenei funeral",
+          "category": "Middle East",
+          "summary": "Large crowds gathered in Tehran on the first day of a dayslong state funeral for Supreme Leader Ayatollah Ali Khamenei, who was killed in a February US-Israeli strike; some mourners chanted for \"revenge.\" Ceremonies are scheduled across Iran and Iraq through 9 July, ending with his burial in Mashhad.",
+          "source": "BBC, CNA, The Straits Times",
+          "published_at": "2026-07-04T17:45+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c0ky2zen1kgo"
+        },
+        {
+          "id": "ts4",
+          "headline": "Brutal heatwave grips US July 4 as Europe counts its heat dead",
+          "category": "Extreme Weather",
+          "summary": "A dangerous heatwave along the US East Coast cancelled some Fourth of July events from Washington DC to Philadelphia and strained power grids. Across the Atlantic, French health authorities reported about 2,025 excess deaths at the peak of a punishing European heatwave (BBC, 3 July), which scientists link to climate change.",
+          "source": "BBC, CNA",
+          "published_at": "2026-07-04T10:57+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cevlkzer7vdo"
+        },
+        {
+          "id": "ts5",
+          "headline": "Ukraine's backers to vow major support at NATO summit",
+          "category": "Geopolitics",
+          "summary": "Allied leaders gathering for a NATO summit in Ankara are expected to pledge major continued support for Ukraine, with the Turkish capital given a security makeover for the event. The summit comes as fighting grinds on in the east and Kyiv escalates deep strikes inside Russia.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-04T04:13+08:00",
+          "url": "https://www.channelnewsasia.com/world/nato-ukraine-support-summit-ankara-6231256"
+        },
+        {
+          "id": "ts6",
+          "headline": "Pope Leo urges Europe and US to welcome migrants",
+          "category": "World",
+          "summary": "Visiting the Italian frontier island of Lampedusa, Pope Leo appealed to Europe and the United States to do more for migrants, praising America's history of welcoming immigrants in a July 4 message. The visit put the plight of Mediterranean migrants back in the spotlight.",
+          "source": "BBC, The Straits Times, CNA",
+          "published_at": "2026-07-04T19:25+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c5yz83n7q5no"
+        },
+        {
+          "id": "ts7",
+          "headline": "Keiko Fujimori declared winner of Peru's presidential election",
+          "category": "World Politics",
+          "summary": "Peru's electoral authority declared Keiko Fujimori the winner of the country's presidential election, weeks after the vote. The result caps a long political career for the daughter of late former president Alberto Fujimori.",
+          "source": "BBC",
+          "published_at": "2026-07-04T15:52+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cr5jpvv06e1o"
+        },
+        {
+          "id": "ts8",
+          "headline": "China launches coast guard patrol east of Taiwan",
+          "category": "Asia-Pacific",
+          "summary": "China said its coast guard conducted a patrol to the east of Taiwan, an unusual move extending Beijing's maritime presence beyond the Taiwan Strait. Taipei has repeatedly criticised such patrols as pressure tactics.",
+          "source": "CNA",
+          "published_at": "2026-07-04T15:39+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/china-coast-guard-patrol-east-taiwan-6231786"
+        },
+        {
+          "id": "ts9",
+          "headline": "Families demand help recovering Venezuela quake victims",
+          "category": "Disaster",
+          "summary": "Anguished families pressed authorities for help identifying and recovering victims of Venezuela's earthquake, days after one survivor was pulled from the rubble alive. Makeshift clinics and morgues have been set up as the search continues.",
+          "source": "CNA, BBC",
+          "published_at": "2026-07-04T05:52+08:00",
+          "url": "https://www.channelnewsasia.com/world/venezuela-earthquakes-death-toll-rescue-6231426"
+        },
+        {
+          "id": "ts10",
+          "headline": "Taylor Swift marries Travis Kelce in New York ceremony",
+          "category": "Entertainment",
+          "summary": "Pop superstar Taylor Swift married NFL player Travis Kelce in a New York ceremony officiated by actor Adam Sandler, drawing global attention and celebrity guests. The wedding was among the most-watched cultural moments of the day.",
+          "source": "BBC",
+          "published_at": "2026-07-04T10:26+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c982ry2pen3o"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "A busy Saturday for Singapore: new Circle Line stations opened for public preview, finally closing the MRT loop more than 30 years in the making and shortening rides for over 10,000 commuters a day, while safety investigators urged pilots to be more cautious after turbulence injured crew on SIA and Scoot flights. PM Wong told a Young PAP event the party must keep renewing with \"good people\" willing to serve. Expect thundery showers (25-33°C). On the lighter side, a Tanjong Pagar stall is hunting the customer who accidentally paid S$200 for a S$2 curry puff.",
+      "weather": {
+        "forecast": "Thundery Showers",
+        "temp_low": 25,
+        "temp_high": 33,
+        "humidity_low": 65,
+        "humidity_high": 95,
+        "as_of": "2026-07-04T20:37+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jun 2026 · 2nd bidding",
+        "as_of": "2026-06-17",
+        "next_results": "2026-07-08",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          {
+            "code": "A",
+            "label": "Cars up to 1600cc & 130bhp",
+            "premium": 123847,
+            "change": -2162
+          },
+          {
+            "code": "B",
+            "label": "Cars above 1600cc or 130bhp",
+            "premium": 123502,
+            "change": -3487
+          }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "New Circle Line stations open for preview, closing the loop after 30 years",
+          "category": "Transport",
+          "summary": "Three new Circle Line stations opened for public preview, completing an MRT line more than 30 years in the making. Operators say closing the loop will shorten journeys for over 10,000 commuters a day.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-04T10:00+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/circle-line-opening-public-preview-mrt-6230551"
+        },
+        {
+          "id": "sg2",
+          "headline": "PAP must keep renewing with 'good people': PM Wong at Young PAP event",
+          "category": "Politics",
+          "summary": "At Young PAP's 40th anniversary, Prime Minister Lawrence Wong said the party can continue to govern well only if it is renewed with \"good people\" willing to serve, and that it seeks members with different views and ideas. The youth wing is launching an academy to attract and train young members.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-04T16:26+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/pap-lawrence-wong-young-pap-40th-anniversary-youth-wing-6231891"
+        },
+        {
+          "id": "sg3",
+          "headline": "Pilots urged to be more cautious near bad weather after SIA, Scoot turbulence injuries",
+          "category": "Transport Safety",
+          "summary": "The Transport Safety Investigation Bureau reminded pilots to take a more cautious approach near severe weather after turbulence on Singapore Airlines and Scoot flights in June 2025 injured cabin crew. The findings renew focus on in-flight turbulence risks.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-04T17:54+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/sia-scoot-turbulence-june-2025-transport-safety-investigation-bureau-6231961"
+        },
+        {
+          "id": "sg4",
+          "headline": "Over 200 groups apply to new $50 million community fund",
+          "category": "Community",
+          "summary": "More than 200 applications have been received for a new $50 million fund set up to support ground-up community initiatives in Singapore. The scheme aims to back projects that strengthen social bonds and meet local needs.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-04T17:20+08:00",
+          "url": "https://www.straitstimes.com/singapore/over-200-in-spore-apply-for-new-50-million-fund-to-support-community-initiatives"
+        },
+        {
+          "id": "sg5",
+          "headline": "Updated NDP 2026 guidelines allow live streaming, professional cameras",
+          "category": "Community",
+          "summary": "Revised National Day Parade 2026 guidelines will allow spectators to live stream and bring professional cameras into the National Stadium, easing earlier restrictions. Organisers say the changes reflect how audiences want to share the event.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-04T14:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/updated-ndp-2026-guidelines-now-allow-live-streaming-professional-cameras-in-national-stadium"
+        },
+        {
+          "id": "sg6",
+          "headline": "Lorry driver trapped in multi-vehicle accident on AYE; four hospitalised",
+          "category": "Incident",
+          "summary": "A lorry driver was trapped after a multi-vehicle accident on the Ayer Rajah Expressway, with four people taken to hospital. Emergency services worked to free the driver at the scene.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-04T17:16+08:00",
+          "url": "https://www.straitstimes.com/singapore/lorry-driver-trapped-after-multi-vehicle-accident-on-aye-four-taken-to-hospital"
+        },
+        {
+          "id": "sg7",
+          "headline": "Singaporean fined about S$6,300 for pumping subsidised RON95 fuel in Johor",
+          "category": "Regional",
+          "summary": "A Singaporean was fined roughly S$6,300 (about US$4,900) in Malaysia for filling a Singapore-registered car with subsidised RON95 petrol, which is reserved for local vehicles. The case is a reminder that cross-border motorists face penalties for using the cheaper subsidised grade.",
+          "source": "CNA, Mothership",
+          "published_at": "2026-07-04T10:19+08:00",
+          "url": "https://www.channelnewsasia.com/asia/singaporean-pump-ron95-petrol-johor-fined-6231636"
+        },
+        {
+          "id": "sg8",
+          "headline": "Tanjong Pagar stall hunts for customer who paid S$200 for a S$2 curry puff",
+          "category": "Trending",
+          "summary": "A food stall in Tanjong Pagar is trying to track down a customer who accidentally paid S$200 instead of S$2 for a single curry puff on 29 June, hoping to return the money. The appeal has been widely shared online.",
+          "source": "Mothership",
+          "published_at": "2026-07-04T12:55+08:00",
+          "url": "https://mothership.sg/2026/07/tanjong-pagar-curry-puff-200/"
+        },
+        {
+          "id": "sg9",
+          "headline": "'Stick Art Uncle' who made twig sculptures in Pek Kio dies at 83",
+          "category": "Human Interest",
+          "summary": "A Singaporean man known for creating art pieces out of twigs in Pek Kio has died at 83, with residents and family paying tribute to a neighbourhood figure they were \"proud of.\" His creations had earned him local fame and affection.",
+          "source": "Mothership, CNA",
+          "published_at": "2026-07-04T11:34+08:00",
+          "url": "https://mothership.sg/2026/07/twig-art-uncle-thien-tribute/"
+        },
+        {
+          "id": "sg10",
+          "headline": "Realistic-looking jagua tattoos trending among young Singaporeans",
+          "category": "Trending",
+          "summary": "Temporary jagua tattoos, which mimic the look of permanent ink but fade over weeks, are taking off among young people in Singapore as a lower-commitment alternative. Studios say demand has grown among the tattoo-curious.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-04T07:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/only-skin-deep-why-jagua-tattoos-an-alternative-to-permanent-tattoos-are-taking-off-among-young"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "Ukraine took the fight far behind the lines, hitting an oil terminal and Baltic port near St Petersburg in one of its largest deep strikes, while President Zelensky denied Russia's claim to have captured the eastern city of Kostiantynivka, calling it \"a lie.\" In the Middle East, a fragile post-war calm holds as Tehran stages a dayslong funeral for assassinated supreme leader Khamenei, with mourners chanting for revenge. Gaza's ceasefire is technically holding but frequently broken — an Israeli drone strike killed three Palestinians near al-Hilu station on 1 July.",
+      "theatres": [
+        {
+          "name": "Russia-Ukraine War",
+          "status": "Ukraine escalating deep strikes — hit St Petersburg oil terminal (4 Jul); Russia claims capture of Kostiantynivka, Kyiv denies it.",
+          "timeline": [
+            {
+              "date": "2026-07-04",
+              "event": "Ukraine launched one of its largest long-range drone attacks on the St Petersburg/Leningrad region, striking an oil terminal and the Baltic port of Vysotsk; President Zelensky confirmed the strike. Russian governors called it a 'large-scale' attack.",
+              "source": "BBC, Al Jazeera",
+              "url": "https://www.bbc.co.uk/news/articles/c8j2vmzxezro"
+            },
+            {
+              "date": "2026-07-04",
+              "event": "President Zelensky denied Russia had captured Kostiantynivka, calling the claim 'a lie'; Ukraine also said Russia had damaged more than 200 railway locomotives in 2026.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/ukraine-denies-russian-capture-of-key-eastern-city-kostiantynivka"
+            },
+            {
+              "date": "2026-07-03",
+              "event": "Russia's General Staff chief Valery Gerasimov claimed Russian forces had captured Kostiantynivka in Donetsk region (Russian claim, not independently confirmed).",
+              "source": "U.S. News/wire",
+              "url": "https://www.usnews.com/news/world/articles/2026-07-03/russian-defence-ministry-says-its-forces-captured-kostiantynivka-in-eastern-ukraine"
+            },
+            {
+              "date": "2026-07-03",
+              "event": "Ukrainian authorities said Russia launched its 'most massive' assault on Kyiv this year, killing at least 30 people (Ukrainian official count).",
+              "source": "BBC, CNA",
+              "url": "https://www.bbc.co.uk/news/articles/c4gyv05gk4do"
+            },
+            {
+              "date": "2022-02-24",
+              "event": "Russia launched a full-scale invasion of Ukraine, beginning the largest land war in Europe since 1945 (context).",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/world-europe-60506682"
+            }
+          ]
+        },
+        {
+          "name": "US/Israel-Iran (Strait of Hormuz)",
+          "status": "Fragile post-war calm — Iran holds a dayslong state funeral for assassinated leader Khamenei; Hormuz shipping slowly returns.",
+          "timeline": [
+            {
+              "date": "2026-07-04",
+              "event": "Huge crowds thronged Tehran as Iran began dayslong funeral ceremonies for Ayatollah Ali Khamenei; some mourners chanted for 'revenge.' A CMA CGM ship struck by a missile in the Strait of Hormuz during the conflict may be scrapped, its CEO said.",
+              "source": "BBC, CNA, The Straits Times",
+              "url": "https://www.bbc.co.uk/news/articles/c0ky2zen1kgo"
+            },
+            {
+              "date": "2026-07-02",
+              "event": "A BBC visit to the Strait of Hormuz found seized ships and an uneasy calm as post-conflict shipping slowly returns.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cvg53ngvvpxo"
+            },
+            {
+              "date": "2026-06-29",
+              "event": "The US said it had agreed to 'stand down' after an exchange of strikes with Iran.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/c872rjw17qpo"
+            },
+            {
+              "date": "2026-06-28",
+              "event": "US and Iran exchanged strikes and accused each other of violating the ceasefire.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cdxdwkgqgq0o"
+            },
+            {
+              "date": "2026-06-27",
+              "event": "US struck Iran after an attack on a cargo ship in the Strait of Hormuz region.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/ckg590wqxwpo"
+            }
+          ]
+        },
+        {
+          "name": "Israel-Lebanon / Gaza",
+          "status": "Israel-Lebanon framework signed in late June but strikes continue; Gaza ceasefire strained and medical evacuations stalled.",
+          "timeline": [
+            {
+              "date": "2026-07-02",
+              "event": "Gaza patients faced agonising delays for medical evacuation, with some dying before approvals to leave arrived, the BBC reported.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cn75ex1dv61o"
+            },
+            {
+              "date": "2026-07-01",
+              "event": "At least three Palestinians were killed in an Israeli drone strike in northern Gaza near al-Hilu station despite the ceasefire, Al Jazeera reported.",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/7/1/israel-kills-three-palestinians-in-gaza-despite-ceasefire"
+            },
+            {
+              "date": "2026-06-27",
+              "event": "Israel struck southern Lebanon as Hezbollah condemned the new framework deal.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cx2kpn0eeweo"
+            },
+            {
+              "date": "2026-06-26",
+              "event": "Israel and Lebanon signed a framework agreement after US-brokered talks (context).",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cg5315n1v5go"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "The Bundibugyo Ebola epidemic in DR Congo and Uganda is the gravest active outbreak — WHO's latest count reached 1,481 confirmed cases and 454 deaths and says numbers are rising rapidly, concentrated in DRC's Ituri province, even as a trial of Ebola treatments begins. India is monitoring a single confirmed Nipah case in Kerala under tight contact tracing, WHO warns of rising yellow fever across Africa and the Americas, and a cruise-linked Andes hantavirus cluster (13 cases, 3 deaths) remains contained.",
+      "outbreaks": [
+        {
+          "name": "Bundibugyo Ebola — DR Congo & Uganda",
+          "status": "Spreading rapidly; treatment trial under way",
+          "cases": 1481,
+          "deaths": 454,
+          "countries": 3,
+          "as_of": "2026-07-01",
+          "scope_note": "WHO-confirmed only: DR Congo 1,460 cases / 452 deaths (CFR 30.9%), Uganda 20 / 2, plus one imported case in France. Ituri province accounts for ~91% of cases; 838 cases and 314 deaths in the past 21 days. Per WHO DON612 (3 Jul 2026; DRC data to 1 Jul, Uganda to 2 Jul). Suspected cases exceed confirmed."
+        },
+        {
+          "name": "Nipah virus — Kerala, India",
+          "status": "Single confirmed case; contact tracing under way",
+          "cases": 1,
+          "deaths": 0,
+          "countries": 1,
+          "as_of": "2026-06-25",
+          "scope_note": "One lab-confirmed case in Kozhikode, Kerala (symptom onset 30 May), with 104 contacts traced as of 18 Jun, per WHO DON609 (25 Jun 2026). Nipah has a historically high case-fatality rate (40–75%); contacts remain under monitoring."
+        },
+        {
+          "name": "Andes hantavirus — cruise-ship linked",
+          "status": "Point-source cluster; no ongoing community spread",
+          "cases": 13,
+          "deaths": 3,
+          "countries": "multi-location",
+          "as_of": "2026-07-02",
+          "scope_note": "12 confirmed + 1 probable case and 3 deaths (2 confirmed, 1 probable), case-fatality ratio ~23%, linked to a single cruise ship across multiple locations; latest case confirmed in a traveller in Tristan da Cunha. Limited human-to-human ANDV spread; per WHO DON611 (2 Jul 2026)."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "Ebola treatment trial begins in DR Congo as Bundibugyo outbreak spreads",
+          "category": "Ebola",
+          "summary": "A trial of Ebola treatments has begun in DR Congo as the Bundibugyo virus epidemic spreads. WHO's latest count reached 1,481 confirmed cases and 454 deaths across DR Congo, Uganda and one imported case in France, and it says numbers are rising rapidly.",
+          "source": "BBC, WHO",
+          "published_at": "2026-07-03",
+          "url": "https://www.bbc.co.uk/news/articles/c75ykve4zzxo"
+        },
+        {
+          "id": "ob2",
+          "headline": "WHO says Bundibugyo Ebola cases surpass 1,480 as DR Congo toll climbs",
+          "category": "Ebola",
+          "summary": "In its latest Disease Outbreak News, WHO reported 1,481 confirmed cases and 454 deaths in the Bundibugyo virus outbreak — up 564 cases in DR Congo since 19 June — warning that cases and deaths are rising rapidly. Uganda has recorded 20 cases and two deaths, and France one imported case.",
+          "source": "WHO",
+          "published_at": "2026-07-03",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON612"
+        },
+        {
+          "id": "ob3",
+          "headline": "WHO updates cruise-linked Andes hantavirus outbreak",
+          "category": "Hantavirus",
+          "summary": "WHO reported a total of 13 Andes hantavirus cases (12 confirmed, one probable) and three deaths linked to a cruise ship, after a new case was confirmed in a traveller who had disembarked in Tristan da Cunha. It said no ongoing community spread is expected.",
+          "source": "WHO",
+          "published_at": "2026-07-02",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON611"
+        },
+        {
+          "id": "ob4",
+          "headline": "WHO confirms Nipah virus case in Kerala, India",
+          "category": "Nipah",
+          "summary": "WHO confirmed a laboratory-positive Nipah virus case in Kozhikode, Kerala, with extensive contact tracing — 104 contacts as of 18 June — under way given Nipah's high fatality rate and potential for person-to-person spread.",
+          "source": "WHO",
+          "published_at": "2026-06-25",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON609"
+        },
+        {
+          "id": "ob5",
+          "headline": "WHO warns of rising yellow fever transmission across Africa and the Americas",
+          "category": "Yellow Fever",
+          "summary": "WHO's latest outbreak notice reports sustained yellow fever transmission in Africa (16 confirmed cases Jan–May) and a sharp rise in the Americas (79 confirmed, Colombia most affected), including spread into areas with low vaccination coverage. It urged stronger surveillance and immunisation.",
+          "source": "WHO",
+          "published_at": "2026-06-24",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON610"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "A heavy patch-and-exploit stretch. Actively exploited flaws lead: a Microsoft SharePoint RCE (CVE-2026-45659, CVSS 8.8) and a Cisco Unified CM SSRF (CVE-2026-20230, 8.6) both hit CISA's Known Exploited list, Adobe shipped fixes for seven CVSS-10 ColdFusion bugs, and Progress Kemp LoadMaster faces in-the-wild pre-auth RCE attempts. Supply-chain attacks surged — North Korean crews flooded npm with malicious packages (108 in the 'PolinRider' campaign) and impersonated Rollup polyfills — while Google cut off the 2-million-device NetNut proxy botnet. Patch SharePoint, Cisco Unified CM, ColdFusion and Kemp LoadMaster first.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "North Korean hackers publish 108 malicious packages and extensions in PolinRider campaign",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers tied a North Korea-linked campaign, dubbed PolinRider, to 108 malicious npm packages and browser extensions built to steal developer credentials and secrets. It extends a run of DPRK software-supply-chain operations aimed at developers.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-04T19:17+08:00",
+          "url": "https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html"
+        },
+        {
+          "id": "cs2",
+          "headline": "Unpatched flaws disclosed in filesystem bundled into millions of embedded devices",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Security firm runZero disclosed seven vulnerabilities in FatFs, a small filesystem library bundled into millions of embedded devices to read and write FAT/exFAT USB drives and SD cards. The flaws are currently unpatched.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-04T04:19+08:00",
+          "url": "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html"
+        },
+        {
+          "id": "cs3",
+          "headline": "New 'Bad Epoll' Linux kernel flaw lets unprivileged users gain root, hits Android",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A newly disclosed 'Bad Epoll' vulnerability in the Linux kernel allows unprivileged local users to escalate to root, and also affects Android. Administrators should apply kernel updates as they roll out.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-04T03:40+08:00",
+          "url": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html"
+        },
+        {
+          "id": "cs4",
+          "headline": "New Avalon malware framework packs CrownX ransomware capabilities",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers detailed a new modular malware framework, Avalon, that bundles CrownX ransomware capabilities alongside other post-compromise tooling. Defenders should watch for the associated behaviours.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-04T02:55+08:00",
+          "url": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html"
+        },
+        {
+          "id": "cs5",
+          "headline": "North Korea-linked npm packages mimic Rollup polyfills to steal developer secrets",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "North Korea-linked actors published malicious npm packages impersonating Rollup polyfills to steal developer secrets, continuing a wave of open-source supply-chain attacks. Teams should vet dependencies and rotate exposed credentials.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-04T00:07+08:00",
+          "url": "https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html"
+        },
+        {
+          "id": "cs6",
+          "headline": "Armored Likho targets government agencies and power sector with BusySnake stealer",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "The Armored Likho threat group targeted government agencies and the power sector with a new BusySnake information stealer, focused on espionage and credential theft against critical-sector targets.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-03T21:36+08:00",
+          "url": "https://thehackernews.com/2026/07/armored-likho-targets-government.html"
+        },
+        {
+          "id": "cs7",
+          "headline": "European Parliament member investigating spyware was hacked with Pegasus",
+          "category": "Spyware",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "A Member of the European Parliament who had been investigating spyware abuse was himself infected with NSO Group's Pegasus, renewing scrutiny of commercial surveillance tools targeting officials in the bloc.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-03T19:05+08:00",
+          "url": "https://thehackernews.com/2026/07/european-parliament-member.html"
+        },
+        {
+          "id": "cs8",
+          "headline": "PamStealer uses fake Maccy sites and PAM checks to steal Mac login passwords",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "New macOS malware dubbed PamStealer spreads via fake sites mimicking the Maccy clipboard app and abuses PAM authentication prompts to capture users' login passwords. Download software only from trusted sources.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-03T16:03+08:00",
+          "url": "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html"
+        },
+        {
+          "id": "cs9",
+          "headline": "Personal data of 70,000 people compromised in SLA vendor IBM breach",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "The Singapore Land Authority said personal information of about 70,000 people was compromised in a cybersecurity incident involving a cloud environment run by its vendor, IBM. Affected individuals are being notified.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-07-03T14:36+08:00",
+          "url": "https://www.straitstimes.com/singapore/data-of-70000-people-compromised-after-cybersecurity-incident-involving-sla-vendor-and-its-cloud"
+        },
+        {
+          "id": "cs10",
+          "headline": "Google disrupts NetNut residential proxy network spanning 2 million home devices",
+          "category": "Threat Disruption",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Google said it disrupted NetNut, one of the largest networks turning home devices into rented traffic relays abused to hide malicious activity, affecting an estimated two million devices.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-03T13:50+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/"
+        },
+        {
+          "id": "cs11",
+          "headline": "Ransomware groups turn to Citrix Bleed 2, BYOVD and supply-chain credentials",
+          "category": "Ransomware",
+          "cve": "CVE-2025-5777",
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Ransomware crews are increasingly exploiting the 'Citrix Bleed 2' flaw (CVE-2025-5777) alongside bring-your-own-vulnerable-driver techniques and stolen supply-chain credentials for initial access. Patching NetScaler and monitoring for driver abuse is advised.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-03T02:30+08:00",
+          "url": "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html"
+        },
+        {
+          "id": "cs12",
+          "headline": "ToddyCat-linked Umbrij malware abuses OAuth to access Gmail via Google API",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A new malware family dubbed Umbrij, linked to the ToddyCat espionage group, abuses OAuth tokens to read victims' Gmail through the Google API, blending into legitimate cloud traffic to evade detection.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-02T21:04+08:00",
+          "url": "https://thehackernews.com/2026/07/toddycat-linked-umbrij-malware-abuses.html"
+        },
+        {
+          "id": "cs13",
+          "headline": "AI agent exploits Langflow RCE to automate database ransomware attacks",
+          "category": "Exploitation",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Attackers are weaponising a remote-code-execution flaw in the Langflow AI app-builder — now using an AI agent to automate ransomware against exposed databases. Exposed Langflow endpoints should be patched and taken offline.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-02T17:13+08:00",
+          "url": "https://thehackernews.com/2026/07/ai-agent-exploits-langflow-rce-to.html"
+        },
+        {
+          "id": "cs14",
+          "headline": "FortiBleed credential-theft campaign linked to INC and Lynx ransomware",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A credential-theft campaign dubbed 'FortiBleed', targeting Fortinet devices, has been tied to the INC and Lynx ransomware operations, with stolen credentials used for initial access ahead of encryption.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-02T16:00+08:00",
+          "url": "https://thehackernews.com/2026/07/fortibleed-credential-theft-linked-to.html"
+        },
+        {
+          "id": "cs15",
+          "headline": "New ChocoPoC RAT targets vulnerability researchers via fake PoC repos",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A new RAT called ChocoPoC is spreading through trojanised proof-of-concept exploit repositories aimed at security researchers, echoing past targeting of the security community. Vet PoC code before running it.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-02T15:24+08:00",
+          "url": "https://thehackernews.com/2026/07/new-chocopoc-rat-targets-vulnerability.html"
+        },
+        {
+          "id": "cs16",
+          "headline": "Microsoft SharePoint RCE added to CISA KEV after active exploitation",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-45659",
+          "cvss": 8.8,
+          "severity": "HIGH",
+          "summary": "CISA added a Microsoft SharePoint Server remote-code-execution flaw (CVE-2026-45659, deserialization of untrusted data, CVSS 8.8) to its Known Exploited Vulnerabilities catalog after confirmed in-the-wild attacks. Patch affected SharePoint servers immediately.",
+          "source": "The Hacker News, BleepingComputer, CISA",
+          "published_at": "2026-07-02T13:46+08:00",
+          "url": "https://thehackernews.com/2026/07/sharepoint-rce-cve-2026-45659-added-to.html"
+        },
+        {
+          "id": "cs17",
+          "headline": "Cisco confirms attackers exploiting Unified CM SSRF flaw",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-20230",
+          "cvss": 8.6,
+          "severity": "HIGH",
+          "summary": "Cisco confirmed active exploitation of a server-side request forgery flaw (CVE-2026-20230) in Unified Communications Manager; CISA has added it to its Known Exploited Vulnerabilities catalog. Apply Cisco's fixes and restrict exposed services.",
+          "source": "BleepingComputer, CISA, NVD",
+          "published_at": "2026-07-02T07:35+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/cisco-finally-confirms-attackers-exploiting-unified-cm-flaw/"
+        },
+        {
+          "id": "cs18",
+          "headline": "Unpatched Argo CD repo-server flaw could let attackers take over Kubernetes clusters",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers disclosed an unpatched flaw in Argo CD's repo-server component that could let attackers compromise Kubernetes clusters. With no fix yet available, teams are urged to restrict exposure and monitor for abuse.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-02T03:40+08:00",
+          "url": "https://thehackernews.com/2026/07/unpatched-argo-cd-repo-server-flaw.html"
+        },
+        {
+          "id": "cs19",
+          "headline": "19-year-old Scattered Spider suspect extradited to face US hacking charges",
+          "category": "Law Enforcement",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "A 19-year-old alleged member of the Scattered Spider cybercrime group was extradited to the United States to face hacking charges.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-02T03:28+08:00",
+          "url": "https://thehackernews.com/2026/07/19-year-old-scattered-spider-suspect.html"
+        },
+        {
+          "id": "cs20",
+          "headline": "Medtronic notifies customers hit by ShinyHunters data breach",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Medical-device maker Medtronic began notifying customers affected by a breach tied to the ShinyHunters extortion group, part of a wider wave of data-theft attacks. The full scope is still being assessed.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-02T00:25+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/medtronic-notifies-customers-impacted-by-shinyhunters-data-breach/"
+        },
+        {
+          "id": "cs21",
+          "headline": "Adobe patches seven CVSS 10.0 flaws in ColdFusion and Campaign Classic",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": 10.0,
+          "severity": "CRITICAL",
+          "summary": "Adobe released fixes for seven maximum-severity (CVSS 10.0) vulnerabilities in ColdFusion and Campaign Classic that could allow remote code execution and system compromise. Given the perfect-score ratings, apply the updates urgently.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-01T23:25+08:00",
+          "url": "https://thehackernews.com/2026/07/adobe-patches-7-cvss-100-flaws-in.html"
+        },
+        {
+          "id": "cs22",
+          "headline": "Critical Cursor flaws could let prompt injection escape sandbox and run commands",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers found flaws in the Cursor AI code editor that could let a prompt-injection attack escape its sandbox and execute commands on a developer's machine, underscoring growing risk in AI-assisted developer tooling.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-01T22:42+08:00",
+          "url": "https://thehackernews.com/2026/07/critical-cursor-flaws-could-let-prompt.html"
+        },
+        {
+          "id": "cs23",
+          "headline": "Progress Kemp LoadMaster pre-auth RCE flaw faces active exploitation attempts",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "A pre-authentication remote code execution flaw in Progress Kemp LoadMaster is facing active exploitation attempts, researchers warned, urging immediate patching of affected load balancers.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-01T21:56+08:00",
+          "url": "https://thehackernews.com/2026/07/latest-progress-kemp-loadmaster-pre.html"
+        }
+      ]
+    }
+  }
+}
