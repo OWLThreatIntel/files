@@ -1,0 +1,486 @@
+{
+  "meta": {
+    "date": "2026-06-15",
+    "generated_at": "2026-06-15T21:15:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "BBC", "CNA", "The Straits Times", "Mothership", "NEA (data.gov.sg)", "LTA (data.gov.sg)",
+      "WHO Disease Outbreak News", "ECDC", "The Hacker News", "BleepingComputer", "CISA KEV", "NVD", "Google Mandiant", "Palo Alto Networks", "Splunk"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "A US–Iran deal to end their war and reopen the Strait of Hormuz dominated the day — oil prices slid and global markets rallied, though Israel says its troops will stay in Lebanon and Gaza regardless. Elsewhere, Russian strikes killed civilians and set a historic Kyiv monastery ablaze (Russia calls the claim a 'crude fake'), Britain moved to ban social media for under-16s, and the Philippines reeled from a deadly earthquake.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "US and Iran reach deal to end war and reopen Strait of Hormuz",
+          "category": "Geopolitics",
+          "summary": "Washington and Tehran agreed a memorandum to halt their war and reopen the Strait of Hormuz to shipping, in a deal brokered with mediators and signed in Pakistan. The two sides published differing accounts of what was agreed; several points, including the future of Iran's nuclear programme, remain unresolved.",
+          "source": "CNA, The Straits Times, BBC",
+          "published_at": "2026-06-15T06:07+08:00",
+          "url": "https://www.channelnewsasia.com/world/us-iran-peace-deal-strait-hormuz-pakistan-signing-6182881"
+        },
+        {
+          "id": "ts2",
+          "headline": "Oil prices slide and global shares surge after US–Iran deal",
+          "category": "Markets",
+          "summary": "Crude prices fell and equities and bonds rallied across Asia and beyond after the US–Iran agreement eased fears over Gulf energy supplies. Japan's Nikkei jumped and government bond yields tumbled; shippers and insurers remained cautious on actually resuming Hormuz transits.",
+          "source": "BBC, CNA, The Straits Times",
+          "published_at": "2026-06-15T19:54+08:00",
+          "url": "https://www.bbc.com/news/articles/c6217106px6o"
+        },
+        {
+          "id": "ts3",
+          "headline": "Israel says troops will stay in Lebanon and Gaza despite US–Iran deal",
+          "category": "Middle East",
+          "summary": "Israel said it would not withdraw forces from Lebanon and Gaza despite the US–Iran agreement, even as fighting in Lebanon eased and displaced residents were warned not to rush home. Mine-clearing in the Strait of Hormuz could take weeks, officials said.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-06-15T18:09+08:00",
+          "url": "https://www.straitstimes.com/world/middle-east/israel-says-troops-will-stay-in-lebanon-gaza-despite-us-iran-peace-deal"
+        },
+        {
+          "id": "ts4",
+          "headline": "Russian strikes set historic Kyiv monastery ablaze; casualty claims disputed",
+          "category": "Russia–Ukraine War",
+          "summary": "Ukraine said Russian strikes killed civilians in Kyiv and set a historic monastery on fire; BBC reported 11 killed while CNA cited nine. Russia's defence ministry called the allegation that it struck the monastery a 'crude fake'. Figures and responsibility are contested and not independently verified.",
+          "source": "BBC, CNA, The Straits Times",
+          "published_at": "2026-06-15T20:07+08:00",
+          "url": "https://www.bbc.com/news/articles/c4gy037gjz3o"
+        },
+        {
+          "id": "ts5",
+          "headline": "Britain announces social media ban for under-16s",
+          "category": "Technology & Policy",
+          "summary": "Prime Minister Keir Starmer's government announced plans to bar under-16s from social media platforms, one of the most sweeping restrictions of its kind. Details on enforcement and which platforms are covered are still being set out.",
+          "source": "CNA",
+          "published_at": "2026-06-15T15:27+08:00",
+          "url": "https://www.channelnewsasia.com/world/uk-social-media-ban-under-16s-keir-starmer-6184056"
+        },
+        {
+          "id": "ts6",
+          "headline": "Deadly Philippine earthquake raised seabed by up to two metres",
+          "category": "Disaster",
+          "summary": "A powerful earthquake in the Philippines caused fatalities and lifted the seabed by as much as two metres, scientists said. Singapore conveyed condolences and said it stood ready to assist.",
+          "source": "CNA",
+          "published_at": "2026-06-15T14:39+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/singapore-condolences-philippines-earthquake-lawrence-wong-6183961"
+        },
+        {
+          "id": "ts7",
+          "headline": "US musician Oliver Tree among six killed in Brazil helicopter collision",
+          "category": "World",
+          "summary": "American singer Oliver Tree, 32, was among six people killed in a mid-air helicopter collision in Brazil, authorities and his representatives confirmed.",
+          "source": "BBC, CNA",
+          "published_at": "2026-06-15T14:47+08:00",
+          "url": "https://www.bbc.com/news/articles/cqj1dd5rgnzo"
+        },
+        {
+          "id": "ts8",
+          "headline": "Trump threatens 100% tariff on French wines over digital tax",
+          "category": "Trade",
+          "summary": "President Donald Trump threatened a 100% tariff on French wines in response to France's digital services tax, as the G7 summit in France was dominated by Trump and the Iran deal.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-06-15T17:15+08:00",
+          "url": "https://www.straitstimes.com/world/europe/trump-threatens-100-tariff-on-french-wines-over-digital-tax"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "Transport and money led the local day: LTA will trial ERP 2 features — congestion alerts and roadside e-parking payment — from August, and a new HarbourFront cruise terminal opens in July with Batam ferries moving over. MOM reported retrenchments rose in Q1, hitting degree holders and older workers harder, while police flagged $60,000 lost to lucky-draw scams. Expect thundery showers; COE premiums were mixed at the June exercise.",
+      "weather": {
+        "forecast": "Thundery Showers",
+        "temp_low": 24,
+        "temp_high": 33,
+        "humidity_low": 60,
+        "humidity_high": 95,
+        "as_of": "2026-06-15T20:46+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jun 2026 · 1st bidding",
+        "as_of": "2026-06-10",
+        "next_results": "2026-06-24",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          { "code": "A", "label": "Cars up to 1600cc & 130bhp", "premium": 126009, "change": 1780 },
+          { "code": "B", "label": "Cars above 1600cc or 130bhp", "premium": 126989, "change": -2512 }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "ERP 2 trial from August: congestion alerts and roadside e-parking payment",
+          "category": "Transport",
+          "summary": "LTA will trial new ERP 2 features from August — including in-vehicle congestion alerts and roadside electronic parking payment — ahead of a wider roll-out. A separate pilot for location-based (distance) charging is also being tested.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-15T18:00+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/erp-2-roadside-electronic-parking-how-it-works-trial-6183896"
+        },
+        {
+          "id": "sg2",
+          "headline": "New HarbourFront cruise terminal to open in July; Batam ferries move over",
+          "category": "Transport",
+          "summary": "A new terminal at the Singapore Cruise Centre at HarbourFront opens in July. Batam Fast Ferry will run from the new terminal from July 7, with other ferry operators and cruises following from July 15.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-15T19:37+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/singapore-cruise-centre-harbourfront-terminal-ferry-services-batam-begin-july-6184396"
+        },
+        {
+          "id": "sg3",
+          "headline": "Retrenchments climbed in Q1, with sharper rise among degree holders and older workers: MOM",
+          "category": "Economy",
+          "summary": "Singapore retrenchments rose in the first quarter of 2026, with a sharper increase in incidence among degree holders and older workers, according to Ministry of Manpower data.",
+          "source": "CNA",
+          "published_at": "2026-06-15T12:30+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/retrenchment-higher-degree-holders-employment-jobs-q1-2026-6183016"
+        },
+        {
+          "id": "sg4",
+          "headline": "Police warn of lucky-draw scams; victims lost at least $60,000 since May 20",
+          "category": "Crime & Advisory",
+          "summary": "Police urged the public to stay vigilant after victims lost at least $60,000 to lucky-draw scams since May 20. Scammers tell targets they have won a prize, then ask for fees or personal details.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-15T18:20+08:00",
+          "url": "https://www.straitstimes.com/singapore/victims-lose-at-least-60000-in-lucky-draw-scams-since-may-20-police-urge-public-to-be-vigilant"
+        },
+        {
+          "id": "sg5",
+          "headline": "New private home sales shrank in May with just one new launch",
+          "category": "Housing",
+          "summary": "Developers sold fewer new private homes in May, with only one new project launched, in one-north. Analysts pointed to limited launch supply during the month.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-15T17:35+08:00",
+          "url": "https://www.straitstimes.com/singapore/housing/new-private-home-sales-shrank-in-may-with-just-one-new-launch-in-one-north"
+        },
+        {
+          "id": "sg6",
+          "headline": "Singapore to set up OTC gold clearing system and central bank gold-vaulting",
+          "category": "Finance",
+          "summary": "Singapore will establish an over-the-counter gold clearing system and introduce central bank gold-vaulting services, part of a push to deepen its precious-metals market infrastructure.",
+          "source": "CNA",
+          "published_at": "2026-06-15T10:22+08:00",
+          "url": "https://www.channelnewsasia.com/business/singapore-establish-otc-gold-clearing-system-introduce-central-bank-gold-vaulting-services-6183196"
+        },
+        {
+          "id": "sg7",
+          "headline": "Man arrested with signal transmitter after trying to open Tesla at Marina Bay car park",
+          "category": "Trending",
+          "summary": "A 46-year-old man was arrested and found with a signal transmitter after allegedly attempting to open a Tesla's door at a Marina Bay car park, in a case that drew attention to relay-style vehicle theft tools.",
+          "source": "Mothership",
+          "published_at": "2026-06-15T12:03+08:00",
+          "url": "https://mothership.sg/2026/06/man-signal-transmitter-tesla-marina-bay/"
+        },
+        {
+          "id": "sg8",
+          "headline": "Police probe after motorcycle from viral Sembawang crash pelted with eggs",
+          "category": "Trending",
+          "summary": "Police are investigating after a motorcycle linked to a viral Sembawang crash was pelted with eggs, the latest twist in an incident widely shared online.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-15T16:45+08:00",
+          "url": "https://www.straitstimes.com/singapore/police-probing-after-motorcycle-from-viral-sembawang-crash-pelted-with-eggs"
+        },
+        {
+          "id": "sg9",
+          "headline": "Singaporean actor Xander Pang to play Light Yagami in London's Death Note musical",
+          "category": "Entertainment",
+          "summary": "Singaporean actor Xander Pang has been cast as Light Yagami in the Death Note musical in London's West End, a notable international role for a local performer.",
+          "source": "CNA",
+          "published_at": "2026-06-15T11:10+08:00",
+          "url": "https://www.channelnewsasia.com/entertainment/xander-pang-death-note-musical-light-yagami-6183291"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "The big shift is in the Gulf: the US and Iran signed a memorandum to end their war and reopen the Strait of Hormuz, sending oil down and markets up — though Israel says it will keep troops in Lebanon and Gaza, and clearing Hormuz of mines could take weeks. In Ukraine, Russian strikes set a historic Kyiv monastery ablaze with civilian deaths claimed by Kyiv and denied by Moscow, while Zelensky said he offered to meet Putin at the G7.",
+      "theatres": [
+        {
+          "name": "US–Iran / Strait of Hormuz",
+          "status": "Memorandum to end war signed; Hormuz to reopen, but implementation and Iran's nuclear file unresolved",
+          "timeline": [
+            { "date": "2026-06-15", "event": "US and Iran sign a memorandum to halt the war and reopen the Strait of Hormuz, brokered with mediators and signed in Pakistan; the two sides give differing accounts of the terms.", "source": "CNA", "url": "https://www.channelnewsasia.com/world/us-iran-peace-deal-strait-hormuz-pakistan-signing-6182881" },
+            { "date": "2026-06-15", "event": "Oil prices slide and global shares and bonds rally on the deal, though shippers stay cautious about resuming Hormuz transits.", "source": "BBC", "url": "https://www.bbc.com/news/articles/c6217106px6o" },
+            { "date": "2026-06-15", "event": "Officials say scouring the Strait of Hormuz for mines could take weeks; France and Britain push a Hormuz mission with Iran's stance still key.", "source": "The Straits Times", "url": "https://www.straitstimes.com/world/middle-east/scouring-the-strait-of-hormuz-for-mines-could-take-weeks" },
+            { "date": "2026-06-15", "event": "CNA Explains lays out where the US and Iran agree on the framework and what remains unresolved, including the nuclear programme.", "source": "CNA", "url": "https://www.channelnewsasia.com/world/cna-explains-iran-us-peace-deal-agreement-framework-strait-hormuz-details-disagreements-6184231" }
+          ]
+        },
+        {
+          "name": "Israel – Lebanon / Gaza",
+          "status": "Israel keeps troops in place despite US–Iran deal; Lebanon fighting eases",
+          "timeline": [
+            { "date": "2026-06-15", "event": "Fighting in Lebanon eases after the US–Iran deal, but displaced residents are warned not to rush home.", "source": "CNA", "url": "https://www.channelnewsasia.com/world/lebanon-israel-us-iran-deal-end-war-displaced-6184116" },
+            { "date": "2026-06-15", "event": "Israel says its troops will stay in Lebanon and Gaza despite the US–Iran peace deal.", "source": "The Straits Times", "url": "https://www.straitstimes.com/world/middle-east/israel-says-troops-will-stay-in-lebanon-gaza-despite-us-iran-peace-deal" }
+          ]
+        },
+        {
+          "name": "Russia – Ukraine War",
+          "status": "Ongoing strikes; diplomacy stirs around the G7 with no breakthrough",
+          "timeline": [
+            { "date": "2026-06-15", "event": "Ukraine says Russian strikes killed civilians in Kyiv and set a historic monastery ablaze; BBC reports 11 killed, CNA cites nine. Figures are contested and not independently verified.", "source": "BBC", "url": "https://www.bbc.com/news/articles/c4gy037gjz3o" },
+            { "date": "2026-06-15", "event": "Russia's defence ministry calls the Ukrainian allegation that it struck the Kyiv monastery a 'crude fake'.", "source": "The Straits Times", "url": "https://www.straitstimes.com/world/europe/russia-calls-ukrainian-allegation-its-forces-struck-kyiv-monastery-a-crude-fake" },
+            { "date": "2026-06-15", "event": "Zelensky says he offered to meet Putin at the G7; Russia's Lavrov says Moscow is committed to US peace proposals but rejects Europe's ultimatums.", "source": "The Straits Times", "url": "https://www.straitstimes.com/world/europe/ukraines-zelenskiy-says-he-offered-to-meet-putin-at-g7" }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "Bundibugyo Ebola in the Democratic Republic of the Congo, with spillover to Uganda, is the dominant and fast-growing outbreak: WHO confirmed 695 cases and 138 deaths as of mid-June, a sharp jump driven partly by a testing scale-up, and Doctors Without Borders warns of 'dangerous gaps' in the response. The cruise-ship-linked hantavirus cluster appears contained, with no new WHO update since late May.",
+      "outbreaks": [
+        {
+          "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
+          "status": "Cases and deaths rising rapidly in DRC; limited spillover to Uganda",
+          "cases": 695,
+          "deaths": 138,
+          "countries": 2,
+          "as_of": "2026-06-11",
+          "scope_note": "Confirmed cases only, DRC + Uganda combined per WHO DON607 (13 Jun 2026): DRC 676 cases / 136 deaths (CFR 20.1%, as of 10 Jun); Uganda 19 cases / 2 deaths (as of 11 Jun). At least 37 recovered. CFR likely underestimated as pre-declaration deaths are still under investigation."
+        },
+        {
+          "name": "Hantavirus — M/V Hondius cruise ship cluster",
+          "status": "Appears contained; no new WHO update since late May",
+          "cases": 13,
+          "deaths": 3,
+          "countries": "multi",
+          "as_of": "2026-05-27",
+          "scope_note": "11 confirmed + 2 probable cases, 3 deaths (2 confirmed, 1 probable) among passengers/crew across several countries, per WHO DON604 (28 May 2026). Figures are now stale — no WHO DON update in over two weeks — and the cluster appears to have stopped growing."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "WHO: Bundibugyo Ebola cases climb to 695 with 138 deaths in DRC and Uganda",
+          "category": "Ebola",
+          "summary": "In its 13 June update, WHO reported 695 confirmed cases and 138 deaths from Bundibugyo virus disease across the DRC (676/136) and Uganda (19/2), a rapid rise since 8 June driven in part by expanded testing of a sample backlog. The case fatality rate in DRC stands at about 20%.",
+          "source": "WHO Disease Outbreak News",
+          "published_at": "2026-06-13",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON607"
+        },
+        {
+          "id": "ob2",
+          "headline": "Doctors Without Borders warns of 'dangerous gaps' in DR Congo Ebola response",
+          "category": "Ebola",
+          "summary": "Doctors Without Borders (MSF) warned of dangerous gaps in the Ebola response in the Democratic Republic of the Congo, citing strained capacity as confirmed cases and deaths continue to climb.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-15T18:50+08:00",
+          "url": "https://www.straitstimes.com/world/doctors-without-borders-warns-of-dangerous-gaps-in-ebola-response-in-dr-congo"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "Active exploitation is the theme: Palo Alto confirmed attackers are abusing a PAN-OS GlobalProtect auth-bypass (CVE-2026-0257), while a critical unauthenticated RCE in Splunk Enterprise (CVE-2026-20253, CVSS 9.8) and CISA's order to patch a maxed-out Ivanti Sentry flaw (CVE-2026-10520, CVSS 10.0) demand urgent attention. Supply-chain attacks hit hard too — 400+ Arch Linux AUR packages and trusted WordPress plugin scripts were tampered to plant rootkits and backdoors — and ShinyHunters used an Oracle PeopleSoft zero-day to breach universities.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "Palo Alto warns of active exploitation of PAN-OS GlobalProtect VPN flaw",
+          "category": "Actively Exploited",
+          "cve": "CVE-2026-0257",
+          "cvss": 7.8,
+          "severity": "HIGH",
+          "summary": "Palo Alto Networks said an unknown threat actor is actively exploiting an authentication-bypass flaw in the PAN-OS GlobalProtect portal and gateway to gain unauthorized access. The CVE is listed in CISA's Known Exploited Vulnerabilities catalog. Apply the vendor fix.",
+          "source": "The Hacker News, CISA KEV",
+          "published_at": "2026-06-15",
+          "url": "https://thehackernews.com/2026/06/palo-alto-warns-of-active-exploitation.html"
+        },
+        {
+          "id": "cs2",
+          "headline": "Infinite Campus data breach affects 137,000 school staff accounts",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Student information system provider Infinite Campus disclosed a breach affecting around 137,000 school staff accounts. The exposed data raises phishing and account-takeover risk for affected education staff.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-15",
+          "url": "https://www.bleepingcomputer.com/news/security/infinite-campus-data-breach-affects-137-000-school-staff-accounts/"
+        },
+        {
+          "id": "cs3",
+          "headline": "Popular WordPress plugin scripts tampered to plant hidden backdoors",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Attackers tampered with trusted JavaScript files served to WordPress sites using PushEngage, OptinMonster and TrustPulse. When an admin was logged in, the code silently created an attacker-controlled admin account and installed a hidden plugin for persistent access.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-15",
+          "url": "https://thehackernews.com/2026/06/popular-wordpress-plugin-scripts.html"
+        },
+        {
+          "id": "cs4",
+          "headline": "152 Chrome wallpaper extensions with 105K installs linked to adware",
+          "category": "Malicious Extensions",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers found a network of 152 Chrome 'live wallpaper' new-tab extensions, spanning 38 publisher accounts and three brand backends, installed about 105,000 times and used to distribute a potentially unwanted program and generate fake traffic.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-15",
+          "url": "https://thehackernews.com/2026/06/152-chrome-wallpaper-extensions-with.html"
+        },
+        {
+          "id": "cs5",
+          "headline": "FBI disrupts massive AI-powered phishing service using a million URLs",
+          "category": "Law Enforcement",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "The FBI disrupted a large AI-powered phishing-as-a-service operation that generated on the order of a million malicious URLs, in one of several recent moves against AI-assisted phishing infrastructure.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-14",
+          "url": "https://www.bleepingcomputer.com/news/security/fbi-disrupts-massive-ai-powered-phishing-service-using-a-million-urls/"
+        },
+        {
+          "id": "cs6",
+          "headline": "Critical Splunk Enterprise flaw lets attackers run code without authentication",
+          "category": "Critical Vulnerability",
+          "cve": "CVE-2026-20253",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "Splunk patched a critical flaw (CVSS 9.8) in Splunk Enterprise versions below 10.2.4 and 10.0.7 that lets an unauthenticated user perform arbitrary file operations and potentially achieve remote code execution. Upgrade to a fixed release.",
+          "source": "The Hacker News, NVD",
+          "published_at": "2026-06-13",
+          "url": "https://thehackernews.com/2026/06/critical-splunk-enterprise-flaw-lets.html"
+        },
+        {
+          "id": "cs7",
+          "headline": "Over 400 Arch Linux AUR packages hijacked to deploy infostealer and eBPF rootkit",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Attackers took over more than 400 packages in the Arch User Repository and rewrote their build scripts to install a Rust credential stealer on any machine that built them; with root it can load an eBPF rootkit to hide itself. The AUR is community-maintained, not Arch's official repos.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-13",
+          "url": "https://thehackernews.com/2026/06/over-400-arch-linux-aur-packages.html"
+        },
+        {
+          "id": "cs8",
+          "headline": "China-linked 'Velvet Ant' backdoored Linux login software to hide for nearly a decade",
+          "category": "Threat Actor",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Sygnia says a China-nexus group it tracks as Velvet Ant backdoored the PAM and OpenSSH components that govern logins on a targeted network, maintaining covert access for close to a decade by hiding inside the authentication path itself.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-06-13",
+          "url": "https://www.bleepingcomputer.com/news/security/chinese-hackers-hijack-auth-flow-spy-on-isolated-network-for-a-decade/"
+        },
+        {
+          "id": "cs9",
+          "headline": "Google sues Chinese smishing network accused of using Gemini AI for phishing",
+          "category": "Legal Action",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Google said it is pursuing legal action against a Chinese cybercrime network behind a phishing-as-a-service kit called Outsider, accusing it of weaponizing the Gemini AI agent to send phishing texts targeting Americans.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-13",
+          "url": "https://thehackernews.com/2026/06/google-sues-chinese-smishing-network.html"
+        },
+        {
+          "id": "cs10",
+          "headline": "US government asks Anthropic to bar 'foreign national' access to Fable and Mythos models",
+          "category": "AI Governance",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Reports say the US government has asked Anthropic to suspend access to its Fable 5 and Mythos 5 models for foreign nationals, an export-control-style restriction on frontier AI access. Anthropic's own tooling is covered on the same terms as any other vendor's.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-06-13",
+          "url": "https://www.bleepingcomputer.com/news/security/us-gov-asks-anthropic-to-ban-foreign-national-access-to-fable-mythos/"
+        },
+        {
+          "id": "cs11",
+          "headline": "ShinyHunters exploits Oracle PeopleSoft zero-day to breach universities",
+          "category": "Zero-Day",
+          "cve": "CVE-2026-35273",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "The ShinyHunters extortion crew (tracked by Mandiant as UNC6240) exploited an unpatched Oracle PeopleSoft flaw between May 27 and June 9 to steal data and demand payment, hitting universities hardest. Oracle did not publish an advisory until June 10; the CVE is now in CISA's KEV catalog.",
+          "source": "The Hacker News, CISA KEV, NVD",
+          "published_at": "2026-06-12",
+          "url": "https://thehackernews.com/2026/06/shinyhunters-exploits-oracle-peoplesoft.html"
+        },
+        {
+          "id": "cs12",
+          "headline": "CISA orders feds to patch actively exploited Ivanti Sentry flaw",
+          "category": "Actively Exploited",
+          "cve": "CVE-2026-10520",
+          "cvss": 10.0,
+          "severity": "CRITICAL",
+          "summary": "CISA gave federal agencies a short deadline to patch an actively exploited OS command-injection flaw in Ivanti Sentry (CVSS 10.0) after it was added to the Known Exploited Vulnerabilities catalog.",
+          "source": "BleepingComputer, CISA KEV, NVD",
+          "published_at": "2026-06-12",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-gives-feds-3-days-to-patch-ivanti-flaw-exploited-in-attacks/"
+        },
+        {
+          "id": "cs13",
+          "headline": "LangGraph flaw chain exposes self-hosted AI agents to remote code execution",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers disclosed three now-patched flaws in LangChain's LangGraph framework, including a critical chain (starting with SQL injection) that could lead to remote code execution on self-hosted AI agent deployments. Update to patched versions.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-12",
+          "url": "https://thehackernews.com/2026/06/langgraph-flaw-chain-exposes-self.html"
+        },
+        {
+          "id": "cs14",
+          "headline": "Novo Nordisk discloses breach of clinical trials data",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Pharmaceutical giant Novo Nordisk disclosed a security breach involving clinical trials data. The company said it was investigating the scope and notifying affected parties.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-12",
+          "url": "https://www.bleepingcomputer.com/news/security/pharmaceutical-giant-novo-nordisk-discloses-security-breach/"
+        },
+        {
+          "id": "cs15",
+          "headline": "Tchap messenger breach affected over 73,000 French government accounts",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "The French government said a breach of its Tchap secure messenger exposed data on more than 73,000 accounts, raising targeting and social-engineering risk for public-sector users.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-12",
+          "url": "https://www.bleepingcomputer.com/news/security/french-govt-says-tchap-breach-affected-over-73-000-accounts/"
+        },
+        {
+          "id": "cs16",
+          "headline": "Agentjacking attack tricks AI coding agents into running malicious code",
+          "category": "Security Research",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Tenet Security described a new class of attack, dubbed Agentjacking, that uses a crafted fake error report in Sentry to trick AI coding agents into executing arbitrary code on developer machines.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-12",
+          "url": "https://thehackernews.com/2026/06/agentjacking-attack-tricks-ai-coding.html"
+        },
+        {
+          "id": "cs17",
+          "headline": "INTERPOL operation takes down Sniper Dz phishing platform, 201 arrests",
+          "category": "Law Enforcement",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "An INTERPOL-led effort (Operation Ramz) disrupted the long-running Sniper Dz phishing-as-a-service platform, with authorities across 13 MENA countries making 201 arrests, including its primary administrator, Group-IB said.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-12",
+          "url": "https://thehackernews.com/2026/06/interpol-operation-takes-down-sniper-dz.html"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,819 @@
+{
+  "meta": {
+    "date": "2026-07-18",
+    "generated_at": "2026-07-18T21:00:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "BBC",
+      "CNA (Channel NewsAsia)",
+      "The Straits Times",
+      "Mothership",
+      "Mediacorp 8world",
+      "WHO Disease Outbreak News",
+      "US CDC / FDA",
+      "ECDC",
+      "NEA (data.gov.sg)",
+      "LTA (data.gov.sg)",
+      "CISA KEV",
+      "NVD",
+      "BleepingComputer",
+      "The Hacker News"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "The US–Iran war dominates: US forces struck Iran for a seventh straight night and are enforcing a naval blockade around the Strait of Hormuz, where Iran's Revolutionary Guards say tankers exploded on mines and Tehran has renewed attacks on Gulf states. Elsewhere a magnitude 7.3 quake off Mexico briefly triggered a tsunami threat, Canadian wildfire smoke choked US cities as Trump threatened fresh tariffs, and a broadening chip sell-off dragged markets down and pushed Apple past Nvidia as the world's most valuable company. In Britain, Andy Burnham was elected Labour leader, clearing his path to No. 10.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "Iran renews attacks on Gulf states after a seventh night of US strikes",
+          "category": "Conflict",
+          "summary": "US Central Command said it completed a seventh consecutive night of strikes to degrade Iran's armed forces while enforcing a naval blockade of Iranian ports. Iran's Revolutionary Guards said oil tankers exploded after striking mines near the Strait of Hormuz, and Tehran renewed strikes on US allies and shipping in the Gulf. Casualty and strike claims from both sides have not been independently verified.",
+          "source": "CNA, BBC, The Straits Times",
+          "published_at": "2026-07-18T12:54+08:00",
+          "url": "https://www.channelnewsasia.com/world/iran-renews-attacks-gulf-states-us-war-strikes-6262401"
+        },
+        {
+          "id": "ts2",
+          "headline": "Russia says Ukrainian drone attack killed seven at a logistics centre",
+          "category": "Conflict",
+          "summary": "Russian authorities said a Ukrainian drone attack killed seven people and wounded 24 at a logistics centre, as Kyiv widens its targeting of sites inside Russia. The figures are attributed to Russian officials and were not independently verified; overnight strikes across Ukraine and Russia were also reported to have killed about 10 people.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-07-18T13:40+08:00",
+          "url": "https://www.straitstimes.com/world/russia-says-ukrainian-drone-attack-kills-7-wounds-24-at-logistics-centre"
+        },
+        {
+          "id": "ts3",
+          "headline": "Magnitude 7.3 earthquake strikes off Mexico's Pacific coast, triggering a brief tsunami threat",
+          "category": "Disaster",
+          "summary": "A strong magnitude 7.3 earthquake struck off Mexico's southern Pacific coast near the Guatemala border, briefly triggering a tsunami threat and small waves but causing no immediate major damage, authorities said.",
+          "source": "CNA, The Straits Times, BBC",
+          "published_at": "2026-07-18T01:39+08:00",
+          "url": "https://www.channelnewsasia.com/world/earthquake-mexico-coast-guatemala-tsunami-threat-6261786"
+        },
+        {
+          "id": "ts4",
+          "headline": "Trump blames Canada for wildfire smoke choking US cities, threatens new tariffs",
+          "category": "Climate & Environment",
+          "summary": "Hazardous smoke from Canadian wildfires pushed air quality into dangerous ranges across the US Northeast, affecting millions just as the US prepares to host the World Cup final. Trump blamed Canada for the smoke and said he would add the cost to tariffs; Ottawa said both nations share responsibility for the climate drivers.",
+          "source": "CNA, The Straits Times, BBC",
+          "published_at": "2026-07-18T05:39+08:00",
+          "url": "https://www.channelnewsasia.com/world/canada-wildfire-smoke-us-world-cup-6262096"
+        },
+        {
+          "id": "ts5",
+          "headline": "Apple unseats Nvidia to become the world's most valuable company as AI bets shift",
+          "category": "Business",
+          "summary": "Apple overtook Nvidia to reclaim the title of world's most valuable listed company for the first time since 2025, as investors reassessed the AI trade and a technology-led sell-off weighed on chip stocks.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-07-17T22:40+08:00",
+          "url": "https://www.straitstimes.com/world/united-states/apple-unseats-nvidia-to-become-worlds-most-valuable-company-as-ai-bets-shift"
+        },
+        {
+          "id": "ts6",
+          "headline": "Wall Street ends lower for the day and week as chip sell-off broadens",
+          "category": "Economy",
+          "summary": "US stocks closed lower, capping a losing week, as a sell-off in semiconductor shares spread across the market; oil prices stayed choppy on concerns about the widening Middle East conflict and the contested Strait of Hormuz.",
+          "source": "CNA",
+          "published_at": "2026-07-18T05:05+08:00",
+          "url": "https://www.channelnewsasia.com/world/us-stocks-wall-street-chip-market-6262051"
+        },
+        {
+          "id": "ts7",
+          "headline": "US data-centre protests go national as backlash grows",
+          "category": "Business",
+          "summary": "Local opposition to the rapid buildout of AI data centres has spread into a nationwide protest movement across the US, The Straits Times reported, as residents cite rising electricity costs, heavy water use and land pressures.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-18T19:15+08:00",
+          "url": "https://www.straitstimes.com/world/united-states/us-data-centre-protests-go-national-as-backlash-grows"
+        },
+        {
+          "id": "ts8",
+          "headline": "Andy Burnham elected UK Labour leader, final step to becoming prime minister",
+          "category": "World Politics",
+          "summary": "Greater Manchester mayor Andy Burnham was elected leader of Britain's Labour Party, completing his path to Downing Street and set to become the UK's next prime minister.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-07-17T21:05+08:00",
+          "url": "https://www.straitstimes.com/world/europe/andy-burnham-elected-britains-labour-leader-in-final-step-before-becoming-prime-minister"
+        },
+        {
+          "id": "ts9",
+          "headline": "Germany raises security stance to ‘high threat level’, interior minister says",
+          "category": "Europe",
+          "summary": "Germany has upgraded its security posture to a “high threat level”, Interior Minister said in newspaper remarks, citing an elevated risk environment. No specific plot was disclosed.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-18T17:41+08:00",
+          "url": "https://www.straitstimes.com/world/europe/germany-upgrades-security-stance-to-high-threat-level-interior-minister-tells-paper"
+        },
+        {
+          "id": "ts10",
+          "headline": "Israeli strikes kill Palestinians attending a Gaza funeral, health officials say",
+          "category": "Conflict",
+          "summary": "An Israeli airstrike killed at least eight people and wounded about 20 at a funeral in Nuseirat held for someone killed in an earlier strike, Gaza health officials said. Israel's military says it targets militants; casualty figures from Gaza medical sources are not independently verified.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-17T23:51+08:00",
+          "url": "https://www.straitstimes.com/world/middle-east/israeli-strikes-kill-palestinians-attending-gaza-funeral-for-earlier-strike-victim"
+        },
+        {
+          "id": "ts11",
+          "headline": "France and Germany expand defence partnership as Europe seeks military autonomy",
+          "category": "Europe",
+          "summary": "Berlin and Paris pledged deeper defence cooperation as Europe pushes for greater strategic autonomy, and jointly signalled they would push back on Chinese economic pressure they attribute to overcapacity and an undervalued currency.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-17T23:21+08:00",
+          "url": "https://www.straitstimes.com/world/europe/france-germany-expand-defence-partnership-as-europe-seeks-more-military-autonomy"
+        },
+        {
+          "id": "ts12",
+          "headline": "US Secretary of State Rubio to visit Southeast Asia to reaffirm partnerships",
+          "category": "Asia",
+          "summary": "US Secretary of State Marco Rubio will travel to Southeast Asia to reassure regional partners amid the Iran crisis and heightened US-China tensions.",
+          "source": "CNA",
+          "published_at": "2026-07-17T22:45+08:00",
+          "url": "https://www.channelnewsasia.com/asia/rubio-visit-southeast-asia-in-bid-reaffirm-partnerships-6261556"
+        },
+        {
+          "id": "ts13",
+          "headline": "EU proposes slowing carbon-emission cuts under industry pressure",
+          "category": "Climate & EU",
+          "summary": "Brussels proposed easing its emissions trading system — letting companies keep free carbon permits longer and use international carbon credits from 2036 — after pressure from industry.",
+          "source": "CNA, BBC",
+          "published_at": "2026-07-18T03:24+08:00",
+          "url": "https://www.channelnewsasia.com/world/eu-carbon-emissions-industry-pressure-6261961"
+        },
+        {
+          "id": "ts14",
+          "headline": "Indian activist Sonam Wangchuk hospitalised after 20-day hunger strike",
+          "category": "Asia",
+          "summary": "Prominent activist Sonam Wangchuk was moved to hospital after a 20-day fast protesting India's exam system, with another campaigner taking up the hunger strike.",
+          "source": "CNA, BBC",
+          "published_at": "2026-07-18T12:15+08:00",
+          "url": "https://www.channelnewsasia.com/asia/india-sonam-wangchuk-hunger-strike-medicine-exam-protest-6262421"
+        },
+        {
+          "id": "ts15",
+          "headline": "Chinese blogger jailed for fabricating Xiaomi EV safety-video claims",
+          "category": "China",
+          "summary": "Chinese state media said a court jailed a blogger who it found had tampered with a Xiaomi electric car before filming, in order to create misleading safety claims.",
+          "source": "CNA",
+          "published_at": "2026-07-18T02:31+08:00",
+          "url": "https://www.channelnewsasia.com/world/chinese-blogger-jailed-fabricating-xiaomi-ev-video-claims-state-media-say-6261886"
+        },
+        {
+          "id": "ts16",
+          "headline": "Malaysia orders startup school to cease operations at Forest City over licensing breach",
+          "category": "Asia",
+          "summary": "Johor authorities issued a cessation notice to a startup community founded by tech entrepreneur Balaji Srinivasan at Forest City over a licensing breach, amid an immigration probe; the founder said operations were continuing.",
+          "source": "CNA",
+          "published_at": "2026-07-18T10:38+08:00",
+          "url": "https://www.channelnewsasia.com/asia/johor-network-school-forest-city-israel-links-6262326"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "A muggy Saturday evening — partly cloudy, 25–34°C. Enforcement leads: police are probing an overseas gambling site using Singapore firms to collect illegal World Cup bets, and a man was arrested for drink-driving after a fatal hit-and-run near Suntec City. On policy, a new pilot lets approved fosterers keep up to six cats in HDB flats, DBS is rolling out weekly S$3 grocery vouchers, and COE premiums sit at record highs (Cat A S$129,000). Lighter buzz: local chefs served chilli crab and laksa to 180 diners in Peru.",
+      "weather": {
+        "forecast": "Partly Cloudy",
+        "temp_low": 25,
+        "temp_high": 34,
+        "humidity_low": 65,
+        "humidity_high": 95,
+        "as_of": "2026-07-18T18:00+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jul 2026 · 1st bidding",
+        "as_of": "2026-07-08",
+        "next_results": "2026-07-22",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          {
+            "code": "A",
+            "label": "Cars up to 1600cc & 130bhp",
+            "premium": 129000,
+            "change": 5153
+          },
+          {
+            "code": "B",
+            "label": "Cars above 1600cc or 130bhp",
+            "premium": 130889,
+            "change": 7387
+          }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "Police probe overseas gambling site using Singapore firms to collect illegal World Cup bets",
+          "category": "Crime",
+          "summary": "The authorities are investigating an overseas gambling website that has been using Singapore-registered companies to collect illegal bets on the 2026 World Cup, The Straits Times reported, as police warn against unlawful betting during the tournament.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-18T19:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/world-cup-2026-overseas-gambling-site-using-spore-firms-to-collect-illegal-bets"
+        },
+        {
+          "id": "sg2",
+          "headline": "Man arrested for drink-driving after fatal hit-and-run near Suntec City",
+          "category": "Crime",
+          "summary": "A man was arrested for drink-driving after a fatal hit-and-run accident near Suntec City, the police said. Investigations are ongoing.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-18T17:30+08:00",
+          "url": "https://www.straitstimes.com/singapore/man-arrested-for-drink-driving-after-fatal-hit-and-run-accident-near-suntec-city"
+        },
+        {
+          "id": "sg3",
+          "headline": "No discrepancy in O-Level English oral exam questions, exam board says",
+          "category": "Education",
+          "summary": "The Singapore Examinations and Assessment Board said it found no discrepancy in this year's O-Level English oral exam questions, responding to online complaints that had alleged inconsistencies between exam centres.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-18T17:05+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/o-level-english-oral-exam-seab-no-discrepancy-reddit-complaints-6262561"
+        },
+        {
+          "id": "sg4",
+          "headline": "Approved fosterers may keep up to six cats in HDB flats under new pilot scheme",
+          "category": "Policy",
+          "summary": "Under a new pilot scheme, approved fosterers will be allowed to keep up to six cats in HDB flats and up to 10 in private homes, the Animal & Veterinary Service said, as part of efforts to support the rehoming of cats.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-18T15:29+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/cat-fostering-hdb-flats-private-homes-pilot-scheme-avs-6262516"
+        },
+        {
+          "id": "sg5",
+          "headline": "DBS rolls out weekly S$3 grocery discounts; minister urges firms to complement cost-of-living help",
+          "category": "Cost of Living",
+          "summary": "DBS is offering S$3 grocery discounts on Saturdays until Aug 29, with about 90,000 redemptions available each week. National Development Minister Desmond Lee said such corporate initiatives complement government efforts to ease the cost of living.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-18T13:41+08:00",
+          "url": "https://www.straitstimes.com/singapore/dbs-rolls-out-3-grocery-discounts-desmond-lee-says-corporate-initiatives-complement-govt-efforts"
+        },
+        {
+          "id": "sg6",
+          "headline": "Oil patches spotted near Pulau Ubin; SFA assisting three fish farms with clean-up",
+          "category": "Environment",
+          "summary": "Oil patches were spotted in waters near Pulau Ubin, and the Singapore Food Agency said it is assisting three affected fish farms with clean-up. The SFA and the Fish Farmers Association said there are no food-safety concerns so far.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-18T12:20+08:00",
+          "url": "https://www.straitstimes.com/singapore/oil-patches-spotted-near-pulau-ubin-sfa-assisting-3-fish-farms-with-clean-up"
+        },
+        {
+          "id": "sg7",
+          "headline": "‘Not even that dangerous’: 10 jaywalkers fined $50 each near Boon Keng MRT",
+          "category": "Trending",
+          "summary": "Ten jaywalkers were each fined $50 in a Traffic Police operation near Boon Keng MRT, sparking debate after some pedestrians questioned the crackdown. Police said jaywalking remains an offence and a road-safety risk.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-18T12:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/courts-crime/not-even-that-dangerous-10-jaywalkers-fined-50-each-in-traffic-police-ops-near-boon-keng-mrt"
+        },
+        {
+          "id": "sg8",
+          "headline": "They play CS:GO and Street Fighter 6 too: more seniors take up e-sports",
+          "category": "Trending",
+          "summary": "More older Singaporeans are getting into e-sports, picking up titles such as CS:GO and Street Fighter 6, as community groups run gaming sessions aimed at seniors.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-18T12:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/community/they-play-csgo-street-fighter-6-too-more-seniors-interested-in-e-sports"
+        },
+        {
+          "id": "sg9",
+          "headline": "Meet Lengkok Bahru’s young neighbourhood patrol: four primary-school boys on a mission",
+          "category": "Trending",
+          "summary": "Four primary-school boys in Lengkok Bahru have formed their own neighbourhood patrol, picking up litter and keeping an eye on their estate — a small heartland human-interest hit.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-18T12:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/community/meet-lengkok-bahrus-young-neighbourhood-patrol-four-primary-school-boys-on-a-mission"
+        },
+        {
+          "id": "sg10",
+          "headline": "Singapore chefs cook chilli crab, laksa and chicken rice for 180 diners in Peru",
+          "category": "Trending",
+          "summary": "Singaporean chefs served chilli crab, laksa and chicken rice to 180 diners at a collaboration dinner in Lima, billed as the first large-scale official showcase of Singapore food in the Peruvian capital.",
+          "source": "CNA",
+          "published_at": "2026-07-18T07:02+08:00",
+          "url": "https://www.channelnewsasia.com/dining/singapore-chefs-bring-chilli-crab-laksa-peru-6260076"
+        },
+        {
+          "id": "sg11",
+          "headline": "Sunset Way housing plans “not final”; HDB says it remains open to feedback",
+          "category": "Housing",
+          "summary": "HDB said its redevelopment plans for the Sunset Way area are not final and that it remains open to residents' feedback, after more than 100 residents attended a session to raise concerns over the loss of Maju Forest.",
+          "source": "CNA",
+          "published_at": "2026-07-17T22:56+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/sunset-way-maju-forest-petition-hdb-6258136"
+        },
+        {
+          "id": "sg12",
+          "headline": "Mother tongue a cornerstone of education but mastering it no easy task: PM Wong",
+          "category": "Government",
+          "summary": "Prime Minister Lawrence Wong said mother-tongue languages remain a cornerstone of Singapore's education system but acknowledged that mastering them is not easy, speaking at the Singapore Tamil Teachers' Union's 75th anniversary dinner.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-17T21:20+08:00",
+          "url": "https://www.straitstimes.com/singapore/mother-tongue-a-cornerstone-of-education-system-but-mastering-it-no-easy-task-pm-wong"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "Iran remains the hottest theatre: US forces completed a seventh consecutive night of strikes and a naval blockade of Iranian ports, Iran's Revolutionary Guards blame Hormuz mines for tanker blasts, and Tehran has renewed attacks on Gulf states (claims largely unverified). In Ukraine, cross-border strikes are intensifying — Russia says a Ukrainian drone attack killed seven at a logistics centre, while Russian strikes have hit Ukraine's Black Sea ports. In Israel, parliament dissolved for a 27 October election as strikes continued in Gaza, including one on mourners at a funeral.",
+      "theatres": [
+        {
+          "name": "US–Iran / Strait of Hormuz",
+          "status": "Escalating — US Central Command says it completed a seventh consecutive night of strikes to degrade Iran's armed forces while enforcing a naval blockade of Iranian ports. Iran's Revolutionary Guards say tankers exploded on mines near the Strait of Hormuz, and Tehran has renewed attacks on US allies and shipping in the Gulf. Casualty and strike claims from both sides are largely unverified.",
+          "timeline": [
+            {
+              "date": "2026-02-28",
+              "event": "The war began with US and Israeli attacks on Iran, prompting Tehran to retaliate against Israel and US targets in the Gulf. Iran has effectively disrupted the Strait of Hormuz — through which about a fifth of the world's oil passes — throughout the conflict.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o"
+            },
+            {
+              "date": "2026-06-18",
+              "event": "A US–Iran agreement was announced — a memo pledging an end to fighting, that Iran would never hold a nuclear weapon, and a redevelopment package — but analysts flagged core sticking points as unresolved; the deal later unravelled into renewed fighting.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cvgmqzr6p9mo"
+            },
+            {
+              "date": "2026-07-14",
+              "event": "Trump announced a Hormuz blockade with a new charge on shipping; the UAE condemned Iran's attack on tankers as \"brazen\" as the US launched a third consecutive night of strikes.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/c8d2vn38dy1o"
+            },
+            {
+              "date": "2026-07-16",
+              "event": "The US military said it struck an unladen oil tanker it said was heading for Iran's Kharg Island terminal, enforcing the blockade; Trump warned Tehran it \"better behave\".",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/clyqwkegqk0o"
+            },
+            {
+              "date": "2026-07-17",
+              "event": "Iranian authorities said US strikes hit an airport, a railway station and bridges in Hormozgan province and killed civilians; the US denied targeting civilian sites, saying the strikes were meant to further degrade Iran's military capabilities.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o"
+            },
+            {
+              "date": "2026-07-18",
+              "event": "US command said it completed a seventh consecutive night of strikes; Iran's Revolutionary Guards said oil tankers exploded after striking mines laid in the Strait of Hormuz, and Tehran renewed attacks on Gulf states.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/iran-renews-attacks-gulf-states-us-war-strikes-6262401"
+            }
+          ]
+        },
+        {
+          "name": "Russia–Ukraine",
+          "status": "Cross-border strikes are intensifying. Russia says a Ukrainian drone attack killed seven and wounded 24 at a logistics centre (a Russian claim, unverified), while Russian strikes have hit Ukraine's Black Sea ports. Overnight strikes on both sides were reported to have killed about 10 people.",
+          "timeline": [
+            {
+              "date": "2026-07-16",
+              "event": "Russian and Ukrainian attacks on civilian areas killed at least 13 people, local officials on both sides said; the accounts were not independently verified. President Zelensky also replaced Defence Minister Mykhailo Fedorov, drawing protests in Kyiv.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cdx76069n3do"
+            },
+            {
+              "date": "2026-07-17",
+              "event": "Russia intensified strikes on Ukraine's Black Sea ports, killing three, Ukrainian authorities said; overnight strikes across Ukraine and Russia were reported to have killed about 10 people (accounts on both sides not independently verified).",
+              "source": "The Straits Times, CNA",
+              "url": "https://www.straitstimes.com/world/europe/russia-intensifies-strikes-on-ukraine-black-sea-ports-killing-three"
+            },
+            {
+              "date": "2026-07-18",
+              "event": "Russia said a Ukrainian drone attack killed seven and wounded 24 at a logistics centre; the figures are attributed to Russian authorities and were not independently verified.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/russia-says-ukrainian-drone-attack-kills-7-wounds-24-at-logistics-centre"
+            }
+          ]
+        },
+        {
+          "name": "Israel–Gaza / Lebanon",
+          "status": "Israel is heading to a 27 October election after parliament dissolved on 17 July, while Israeli strikes continue in Gaza — the latest hitting mourners at a funeral — and Israel says it will keep troops in \"security zones\" in Lebanon, Syria and Gaza. Casualty figures from Gaza medical sources are not independently verified.",
+          "timeline": [
+            {
+              "date": "2026-07-14",
+              "event": "An Israeli strike on a police post in north Gaza killed seven, officials said, with a senior Hamas-run police officer among the dead; Israel's military said it targeted \"terrorists\".",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cqj1jqeyl5ro"
+            },
+            {
+              "date": "2026-07-16",
+              "event": "Israel told the visiting Pentagon chief it would keep troops in \"security zones\" in Lebanon, Syria and Gaza; Israeli strikes killed five people in Gaza, medics said (Israel says it targets militants; figures not independently verified).",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/israel-tells-pentagon-chief-will-keep-troops-in-lebanon-syria-gaza-security-zones-6258096"
+            },
+            {
+              "date": "2026-07-17",
+              "event": "The Knesset voted 62 of 120 to dissolve itself, clearing the way for elections on 27 October, after a session that passed contentious bills; Prime Minister Benjamin Netanyahu is seeking another term.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/israel-parliament-dissolves-as-it-gears-up-for-elections"
+            },
+            {
+              "date": "2026-07-17",
+              "event": "Israeli strikes killed Palestinians attending a Gaza funeral held for the victim of an earlier strike, health officials said; casualty figures from Gaza medical sources are not independently verified.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/israeli-strikes-kill-palestinians-attending-gaza-funeral-for-earlier-strike-victim"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "DR Congo's Bundibugyo Ebola epidemic keeps worsening: WHO's latest outbreak report (17 July) puts it at 2,145 confirmed cases and 830 deaths, among the largest Ebola outbreaks on record, with a case-fatality rate near 39% in Congo. Uganda, by contrast, has discharged its last patient and begun a 42-day countdown to being declared free. In the US, a Cyclospora outbreak tied to Taco Bell shredded lettuce has sickened 1,644 people across five states, and suppliers Taylor Farms and Sysco have pulled the implicated Mexican-grown iceberg lettuce. New Zealand also confirmed its first H5N1 case in a native bird.",
+      "outbreaks": [
+        {
+          "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
+          "status": "Expanding rapidly in DR Congo — among the largest Ebola outbreaks on record; Uganda has discharged its last patient and begun a 42-day countdown to being declared free",
+          "cases": 2145,
+          "deaths": 830,
+          "countries": 3,
+          "as_of": "2026-07-17",
+          "scope_note": "Latest WHO DON-ratified counts — Disease Outbreak News 613 (17 Jul 2026), confirmed cases only: 2,145 total — DR Congo 2,124 (incl. 2 diagnosed in DRC and treated in Germany), Uganda 20, France 1 (imported, linked to DRC); 830 deaths, of which 828 in DRC (crude case-fatality ratio about 39%) and 2 in Uganda. About 410 patients have recovered. Cases reported across 46 health zones in five provinces (Ituri accounts for the large majority). 119 health-worker infections including 36 deaths. Uganda's most recent patient was discharged on 16 Jul, starting the 42-day countdown, with no community transmission there. WHO notes newly reported cases partly reflect a testing/surveillance scale-up. Countries counted = 3 (DRC, Uganda, France); Germany treated 2 DRC-diagnosed cases counted under DRC.",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON613"
+        },
+        {
+          "name": "Cyclosporiasis — United States (Taco Bell shredded lettuce)",
+          "status": "Active multistate investigation; source identified, implicated Mexican-grown iceberg lettuce pulled by Taylor Farms and Sysco",
+          "cases": 1644,
+          "deaths": 0,
+          "countries": 1,
+          "as_of": "2026-07-17",
+          "scope_note": "CDC Cyclosporiasis outbreak page (07-26): 1,644 people infected who also reported Taco Bell exposure across 5 states (Indiana, Kentucky, Michigan, Ohio, West Virginia); 94 hospitalisations and no deaths; illness onsets 13 May – 13 Jul 2026. Traceback implicated shredded iceberg lettuce from Taylor Farms de Mexico (central Mexico), which said it would recall. This counts ONLY the Taco Bell-linked cluster — CDC says it is one of several Cyclospora outbreaks under investigation and reports cyclosporiasis illnesses across 34 states overall in 2026.",
+          "url": "https://www.cdc.gov/cyclosporiasis/outbreaks/07-26/index.html"
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "WHO's latest report puts DR Congo Ebola at 2,145 cases and 830 deaths",
+          "category": "Ebola",
+          "summary": "WHO's Disease Outbreak News published on 17 July reported 2,145 confirmed cases of Bundibugyo Ebola and 830 deaths, up sharply from its 3 July update as surveillance and testing scaled up in DR Congo. Congo's crude case-fatality ratio is about 39%, with cases now across 46 health zones in five provinces and at least 410 patients recovered.",
+          "source": "WHO Disease Outbreak News",
+          "published_at": "2026-07-17",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON613"
+        },
+        {
+          "id": "ob2",
+          "headline": "\"Walking Ebola\" helps explain why Congo's outbreak is so hard to stop",
+          "category": "Ebola",
+          "summary": "An analysis explains how mobile, mildly symptomatic patients — dubbed \"walking Ebola\" — have helped the Bundibugyo virus spread widely in DR Congo, complicating contact tracing, and reviews how the disease can be treated.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-18T08:27+08:00",
+          "url": "https://www.straitstimes.com/world/walking-ebola-helps-explain-why-congos-outbreak-is-so-hard-to-stop-and-how-to-treat-it"
+        },
+        {
+          "id": "ob3",
+          "headline": "\"Moment of joy\" as Uganda discharges its last Ebola patient",
+          "category": "Ebola",
+          "summary": "Uganda discharged its last confirmed Ebola patient after two negative tests, starting a 42-day countdown before the outbreak there can be declared over. Uganda has recorded 20 confirmed cases and two deaths — against a far larger, still-growing epidemic in neighbouring DR Congo.",
+          "source": "BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cx2myxjv172o",
+          "published_at": "2026-07-17T01:15+08:00"
+        },
+        {
+          "id": "ob4",
+          "headline": "US aid workers isolate at Kenya Ebola facility despite court ban",
+          "category": "Ebola",
+          "summary": "An aid group said several Americans are isolating at an Ebola facility in Kenya despite a court ban, following US travel restrictions linked to the outbreak.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-18T10:33+08:00",
+          "url": "https://www.straitstimes.com/world/us-aid-workers-isolate-at-kenya-ebola-facility-despite-court-ban"
+        },
+        {
+          "id": "ob5",
+          "headline": "Taylor Farms and Sysco pull Mexican iceberg lettuce linked to US Cyclospora outbreak",
+          "category": "Cyclosporiasis",
+          "summary": "Produce suppliers Taylor Farms and Sysco pulled iceberg lettuce grown in central Mexico that has been linked to a US cyclosporiasis outbreak tied to Taco Bell. CDC data show 1,644 infected people across five states who reported Taco Bell exposure, with 94 hospitalisations and no deaths.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-18T04:23+08:00",
+          "url": "https://www.straitstimes.com/world/united-states/taylor-farms-pulls-iceberg-lettuce-from-central-mexico-linked-to-us-parasite-outbreak"
+        },
+        {
+          "id": "ob6",
+          "headline": "Taco Bell to stop using lettuce linked to Cyclospora outbreak",
+          "category": "Cyclosporiasis",
+          "summary": "The FDA said Taco Bell will stop using lettuce from a supplier linked to the cyclosporiasis outbreak, and recommended consumers avoid shredded lettuce at Taco Bell locations in the five affected states. The parasite does not spread person to person.",
+          "source": "The Straits Times, BBC",
+          "published_at": "2026-07-17T13:15+08:00",
+          "url": "https://www.straitstimes.com/world/united-states/taco-bell-to-stop-using-lettuce-identified-with-cyclosporiasis-outbreak"
+        },
+        {
+          "id": "ob7",
+          "headline": "New Zealand confirms first H5N1 bird flu case in a native bird",
+          "category": "Avian influenza",
+          "summary": "New Zealand confirmed its first H5N1 avian influenza case in a native bird. No human cases have been reported in connection with the detection.",
+          "source": "CNA",
+          "published_at": "2026-07-17T12:53+08:00",
+          "url": "https://www.channelnewsasia.com/world/new-zealand-first-h5n1-bird-flu-case-native-6260316"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "Fresh, high-impact vulnerabilities lead this cycle: a reported unauthenticated \"wp2shell\" remote-code-execution flaw in WordPress core, an 11-byte \"HollowByte\" request that can freeze OpenSSL servers, a Cursor editor flaw that runs code just from opening a cloned repo, and a critical Zoom Windows bug (CVSS 9.8) now patched. CISA is pressing federal agencies to patch actively exploited SharePoint, Fortinet FortiSandbox and Oracle E-Business Suite flaws — all rated 9.8 — by 19 July. On the breach front, Ernst & Young and Abbott are investigating incidents, a China-linked subgroup tied to the DigiCert breach stole code-signing certificates, and ransomware halted Coca-Cola's Fairlife dairy production.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "New \"wp2shell\" WordPress core flaw lets unauthenticated attackers run code",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "Researchers reported a WordPress core vulnerability dubbed wp2shell that lets an unauthenticated attacker run code on a site via a single anonymous HTTP request — said to affect even bare installs with no plugins. A working proof-of-concept exists.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-18T05:20+08:00",
+          "url": "https://thehackernews.com/2026/07/new-wp2shell-wordpress-core-flaw-lets.html"
+        },
+        {
+          "id": "cs2",
+          "headline": "Abbott investigates two cyber incidents amid extortion claims",
+          "category": "Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Medical-device and diagnostics maker Abbott Laboratories said it is investigating two separate cyber incidents after extortion claims surfaced from threat actors. The scope and any data impact were not yet confirmed.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-18T04:45+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/"
+        },
+        {
+          "id": "cs3",
+          "headline": "Seven malicious Vite npm packages use blockchain C2 to deliver a RAT",
+          "category": "Supply chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers found seven malicious npm packages impersonating the Vite build tool that pull command-and-control data from a blockchain to deliver a remote access trojan — an expansion of an earlier campaign that makes the C2 channel harder to take down.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-18T02:54+08:00",
+          "url": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html"
+        },
+        {
+          "id": "cs4",
+          "headline": "\"HollowByte\" flaw lets an 11-byte request exhaust OpenSSL server memory",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A denial-of-service flaw dubbed HollowByte lets an attacker make an unpatched OpenSSL server reserve large amounts of memory with an 11-byte TLS request, potentially freezing the service. OpenSSL shipped a fix in June without a CVE; a red team published the details.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-18T01:56+08:00",
+          "url": "https://thehackernews.com/2026/07/openssl-hollowbyte-flaw-could-freeze.html"
+        },
+        {
+          "id": "cs5",
+          "headline": "New \"NadMesh\" botnet hunts exposed AI services for cloud keys and Kubernetes tokens",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A Go-based botnet named NadMesh scans the internet for exposed AI and automation services — including ComfyUI, Ollama, n8n and Langflow — to harvest cloud keys and Kubernetes tokens; its dashboard claims thousands of stolen AWS keys.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-18T01:12+08:00",
+          "url": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html"
+        },
+        {
+          "id": "cs6",
+          "headline": "GoldenEyeDog subgroup linked to DigiCert breach and code-signing certificate theft",
+          "category": "APT campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers attributed the April 2026 breach of certificate authority DigiCert — which included the theft of code-signing certificates — to a subgroup of the China-linked GoldenEyeDog actor. Stolen certificates can be abused to sign malware so it appears trusted.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-18T00:39+08:00",
+          "url": "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html"
+        },
+        {
+          "id": "cs7",
+          "headline": "Ernst & Young discloses data breach after support-system hack",
+          "category": "Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Professional-services firm Ernst & Young disclosed a data breach after attackers compromised a support system, BleepingComputer reported. The firm said it was investigating the scope of affected data.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-17T22:55+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/"
+        },
+        {
+          "id": "cs8",
+          "headline": "Fake coding tests deliver OtterCookie-aligned malware hidden in SVG images",
+          "category": "APT campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A campaign attributed to North Korea-linked hackers uses fake coding assessments to deliver malware aligned with the OtterCookie family, concealed via steganography inside SVG images — a fresh twist on the long-running fake-job-interview lure targeting developers.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-17T21:48+08:00",
+          "url": "https://thehackernews.com/2026/07/north-korea-linked-hackers-hide.html"
+        },
+        {
+          "id": "cs9",
+          "headline": "ACR Stealer uses ClickFix lures to steal browser tokens and Microsoft 365 files",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "ACR Stealer is being delivered through ClickFix-style social engineering — pages that trick users into pasting and running attacker commands — and steals saved browser passwords, live session tokens and synced OneDrive/SharePoint files.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-17T16:56+08:00",
+          "url": "https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html"
+        },
+        {
+          "id": "cs10",
+          "headline": "New GoSerpent malware targets Southeast Asian governments and diplomats",
+          "category": "APT campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers documented GoSerpent, previously unreported malware used since late 2025 against government and diplomatic entities in Southeast Asia for long-term access and espionage — a campaign of direct regional relevance.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-17T16:46+08:00",
+          "url": "https://thehackernews.com/2026/07/new-goserpent-malware-targets-southeast.html"
+        },
+        {
+          "id": "cs11",
+          "headline": "CISA urges immediate action on actively exploited Fortinet FortiSandbox flaws",
+          "category": "Actively exploited",
+          "cve": "CVE-2026-25089, CVE-2026-39808",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "CISA added two Fortinet FortiSandbox OS command-injection flaws to its Known Exploited Vulnerabilities catalog on 16 July and told federal agencies to patch by 19 July. Both carry an NVD CVSS 3.1 base score of 9.8 and can let unauthenticated attackers run commands via crafted HTTP requests.",
+          "source": "BleepingComputer, CISA KEV, NVD",
+          "published_at": "2026-07-17T15:03+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/"
+        },
+        {
+          "id": "cs12",
+          "headline": "CISA adds exploited SharePoint RCE zero-day CVE-2026-58644 to KEV",
+          "category": "Actively exploited",
+          "cve": "CVE-2026-58644",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "CISA added a Microsoft SharePoint deserialization-of-untrusted-data flaw under active exploitation to its Known Exploited Vulnerabilities catalog on 16 July, with a 19 July federal remediation deadline. NVD rates it CVSS 3.1 9.8 CRITICAL, allowing an unauthorised attacker to execute code over a network.",
+          "source": "The Hacker News, CISA KEV, NVD",
+          "published_at": "2026-07-17T14:42+08:00",
+          "url": "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html"
+        },
+        {
+          "id": "cs13",
+          "headline": "Coca-Cola says Fairlife ransomware attack halted US dairy production",
+          "category": "Ransomware",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Coca-Cola said a ransomware attack on its Fairlife dairy business halted production in the US — an operational-impact incident rather than a data-only breach.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-17T05:09+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/"
+        },
+        {
+          "id": "cs14",
+          "headline": "Claude Chrome extension flaw lets malicious extensions trigger AI actions",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers reported that a malicious co-installed browser extension could trigger AI-driven actions in Anthropic's Claude for Chrome extension without genuine user interaction — potentially abusing the extension's authenticated access to connected apps. Anthropic acknowledged the reports via its bug-bounty programme.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-17T03:26+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/"
+        },
+        {
+          "id": "cs15",
+          "headline": "n8n token exchange flaw could let attackers log in as users from another issuer",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "On n8n Enterprise instances trusting multiple external token issuers, login matched a JWT to a local user on the subject claim alone while ignoring the issuer, so a valid token from one issuer could authenticate as a user belonging to a different issuer.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-16T21:33+08:00",
+          "url": "https://thehackernews.com/2026/07/n8n-token-exchange-flaw-could-let.html"
+        },
+        {
+          "id": "cs16",
+          "headline": "New ClickLock macOS stealer kills apps repeatedly until victims type their password",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A macOS information stealer dubbed ClickLock, delivered via a pasted Terminal command, installs persistence and repeatedly terminates the victim's apps to badger them into entering their login password, which it then captures.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-16T20:33+08:00",
+          "url": "https://thehackernews.com/2026/07/new-clicklock-macos-stealer-kills-apps.html"
+        },
+        {
+          "id": "cs17",
+          "headline": "Daxin resurfaces in Taiwan alongside \"Stupig\" pre-login SYSTEM backdoor",
+          "category": "APT campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "The China-linked Daxin kernel-mode rootkit resurfaced after four years inside a Taiwan manufacturing firm, deployed alongside a previously unreported backdoor dubbed Stupig that runs with SYSTEM privileges before user login.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-16T19:17+08:00",
+          "url": "https://thehackernews.com/2026/07/daxin-resurfaces-in-taiwan-alongside.html"
+        },
+        {
+          "id": "cs18",
+          "headline": "Oracle E-Business Suite flaw under active exploitation added to CISA KEV",
+          "category": "Actively exploited",
+          "cve": "CVE-2026-46817",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "CISA added an Oracle E-Business Suite improper-privilege-management flaw to its KEV catalog on 15 July with a patch deadline for federal agencies. NVD rates it CVSS 3.1 9.8 CRITICAL; it affects the Oracle Payments File Transmission component in E-Business Suite 12.2.",
+          "source": "BleepingComputer, CISA KEV, NVD",
+          "published_at": "2026-07-16T18:56+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-flaw-by-saturday/"
+        },
+        {
+          "id": "cs19",
+          "headline": "Unpatched Shark vacuum flaw could let attackers control other vacuums region-wide",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A researcher showed that extracting a certificate from a Shark robot vacuum's flash allows sending root commands to other Shark vacuums across the same cloud region — including camera access, driving the robot, and reading house maps and the plaintext Wi-Fi password. The flaw is unpatched.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-16T17:23+08:00",
+          "url": "https://thehackernews.com/2026/07/unpatched-shark-vacuum-flaw-could-let.html"
+        },
+        {
+          "id": "cs20",
+          "headline": "Zoom patches critical Windows flaw that could enable account takeover",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-53412",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "Zoom patched CVE-2026-53412, an improper-input-validation flaw (NVD CVSS 3.1 9.8) in Zoom Workplace for Windows and the VDI client that could have allowed an attacker to take over a user's account.",
+          "source": "The Hacker News, NVD",
+          "published_at": "2026-07-16T15:22+08:00",
+          "url": "https://thehackernews.com/2026/07/zoom-patches-critical-windows-flaw-that.html"
+        },
+        {
+          "id": "cs21",
+          "headline": "New OkoBot framework injects seed-phrase phishing into Ledger and Trezor apps",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "The OkoBot malware framework delivers around 20 distinct payloads for data and cryptocurrency theft, including a module that injects fake recovery-phrase prompts inside the legitimate Ledger and Trezor desktop apps to steal hardware-wallet seed phrases.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-15T23:30+08:00",
+          "url": "https://thehackernews.com/2026/07/okobot-malware-framework-injects-seed.html"
+        },
+        {
+          "id": "cs22",
+          "headline": "Firefox, Chrome, Adobe and VMware updates fix multiple critical flaws",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-15718",
+          "cvss": 4.3,
+          "severity": "MEDIUM",
+          "summary": "Mozilla patched two Firefox flaws with public exploit code — CVE-2026-15718 (WebAssembly, CVSS 4.3) and CVE-2026-15719 (DOM navigation site-isolation, CVSS 5.4) — alongside critical fixes from Chrome, Adobe and VMware across widely deployed software.",
+          "source": "The Hacker News, NVD",
+          "published_at": "2026-07-15T21:18+08:00",
+          "url": "https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html"
+        },
+        {
+          "id": "cs23",
+          "headline": "Researcher drops Windows \"LegacyHive\" zero-day PoC hours after Patch Tuesday",
+          "category": "Zero-day",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A researcher published a proof-of-concept named LegacyHive, a Windows User Profile Service arbitrary hive-load elevation-of-privilege zero-day that can grant admin-level code execution. It had no CVE and was unpatched at publication; no in-the-wild exploitation was reported.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-15T19:07+08:00",
+          "url": "https://thehackernews.com/2026/07/researcher-drops-new-windows-zero-day.html"
+        },
+        {
+          "id": "cs24",
+          "headline": "Cursor flaw lets maliciously cloned repositories trigger Windows code execution",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A vulnerability in the Cursor AI code editor lets a maliciously crafted cloned repository silently run a planted binary on Windows just by opening the project — with no prompt — running as the user with access to source, SSH keys and cloud tokens.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-15T18:55+08:00",
+          "url": "https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html"
+        },
+        {
+          "id": "cs25",
+          "headline": "Compromised @asyncapi npm packages deliver multi-stage botnet malware",
+          "category": "Supply chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Four compromised npm packages in the @asyncapi namespace were found distributing a multi-stage botnet loader, according to multiple supply-chain security firms.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-15T17:16+08:00",
+          "url": "https://thehackernews.com/2026/07/compromised-asyncapi-npm-packages.html"
+        }
+      ]
+    }
+  }
+}

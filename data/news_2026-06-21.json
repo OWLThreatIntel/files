@@ -1,0 +1,541 @@
+{
+  "meta": {
+    "date": "2026-06-21",
+    "generated_at": "2026-06-21T21:10:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "BBC", "Channel NewsAsia", "The Straits Times", "Mothership", "Al Jazeera",
+      "WHO Disease Outbreak News", "ECDC", "NEA (data.gov.sg)", "LTA / data.gov.sg",
+      "Motorist.sg", "The Hacker News", "BleepingComputer", "CISA KEV", "Microsoft"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "The Middle East dominates: US and Iranian negotiators opened talks in Switzerland even as Tehran claimed it had closed the Strait of Hormuz — a claim Washington disputes — while Israel was told to hold fire in south Lebanon and strikes in Gaza killed six, including an Al Jazeera cameraman. Elsewhere, Ukraine's strikes forced Russian-held Crimea to halt civilian fuel sales, Britain's PM Starmer faces a leadership crisis, and a record European heatwave pushed France to restrict alcohol at events. Colombians voted in a tense presidential runoff.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "US and Iran open talks in Switzerland as Tehran claims Hormuz closure",
+          "category": "Geopolitics",
+          "summary": "US and Iranian delegations began negotiations in Switzerland, with the Strait of Hormuz and Lebanon in focus. Iran said it had closed the strategic shipping strait; the US disputes that the waterway is shut. A no-fly zone around the talks briefly disrupted flights at Zurich airport.",
+          "source": "BBC, CNA, The Straits Times",
+          "published_at": "2026-06-21T12:34+08:00",
+          "url": "https://www.bbc.com/news/articles/cwyekkwm1mmo"
+        },
+        {
+          "id": "ts2",
+          "headline": "Israeli strikes kill six in Gaza, including Al Jazeera cameraman",
+          "category": "Middle East",
+          "summary": "Officials said Israeli strikes killed six people in Gaza, among them an Al Jazeera cameraman. Israel made accusations against the journalist, which Al Jazeera publicly rejected. Israeli and Palestinian accounts of such incidents frequently differ and casualty claims are not independently verified.",
+          "source": "BBC, Al Jazeera, The Straits Times",
+          "published_at": "2026-06-21T18:55+08:00",
+          "url": "https://www.straitstimes.com/world/middle-east/al-jazeera-rejects-israeli-accusations-against-journalist-killed-in-gaza"
+        },
+        {
+          "id": "ts3",
+          "headline": "Israeli army told to hold fire in south Lebanon",
+          "category": "Middle East",
+          "summary": "An Israeli army official said the political leadership ordered troops to cease fire in southern Lebanon, while Defence Minister Israel Katz said soldiers remain free to act if they come under threat. Lebanon's central bank separately condemned an Israeli strike on one of its southern branches.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-06-21T07:30+08:00",
+          "url": "https://www.straitstimes.com/world/middle-east/israel-army-official-says-told-by-political-echelon-to-cease-fire-in-south-lebanon"
+        },
+        {
+          "id": "ts4",
+          "headline": "Ukrainian attacks force Russian-held Crimea to halt civilian fuel sales",
+          "category": "Russia–Ukraine War",
+          "summary": "Ukrainian strikes on oil facilities prompted Russian-occupied Crimea to suspend public petrol sales, according to occupation authorities. The Straits Times reported an attack that killed five. Casualty and damage figures from the conflict are contested and not independently confirmed.",
+          "source": "The Straits Times, CNA, BBC",
+          "published_at": "2026-06-21T16:20+08:00",
+          "url": "https://www.straitstimes.com/world/europe/ukraine-attack-kills-five-as-crimea-halts-public-fuel-sales"
+        },
+        {
+          "id": "ts5",
+          "headline": "UK PM Starmer's leadership under threat amid resignation reports",
+          "category": "World Politics",
+          "summary": "British Prime Minister Keir Starmer is weighing ‘political realities’ as his position comes under pressure, a minister said, after reports suggested he could resign and set out an orderly exit early next week. Downing Street has not confirmed any decision.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-21T17:34+08:00",
+          "url": "https://www.channelnewsasia.com/world/uk-prime-minister-resign-keir-starmer-6198256"
+        },
+        {
+          "id": "ts6",
+          "headline": "Europe swelters under heatwave; France restricts alcohol at events",
+          "category": "Climate",
+          "summary": "A severe heatwave gripped much of Europe, with France imposing a red alert and banning alcohol at some festival events as temperatures climbed. Authorities urged precautions for vulnerable groups.",
+          "source": "CNA, BBC",
+          "published_at": "2026-06-21T02:55+08:00",
+          "url": "https://www.channelnewsasia.com/world/europe-swelters-under-heatwave-france-restricts-alcohol-consumption-6197551"
+        },
+        {
+          "id": "ts7",
+          "headline": "Colombia votes in presidential runoff",
+          "category": "World Politics",
+          "summary": "Colombians voted in a runoff pitting a leftist reformer against a law-and-order newcomer, a contest unfolding against a backdrop of escalating internal conflict. Results were expected after polls closed.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-21T18:05+08:00",
+          "url": "https://www.straitstimes.com/world/colombia-votes-in-runoff-pitting-leftist-reformer-against-law-and-order-newcomer"
+        },
+        {
+          "id": "ts8",
+          "headline": "Los Angeles declares state of emergency over warehouse fire",
+          "category": "United States",
+          "summary": "Los Angeles was placed under a state of emergency as a large warehouse fire burned, prompting air-quality concerns and an emergency response.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-21T08:40+08:00",
+          "url": "https://www.channelnewsasia.com/world/la-state-emergency-warehouse-fire-6197956"
+        },
+        {
+          "id": "ts9",
+          "headline": "India tightens security as millions resit medical entrance exam after paper leak",
+          "category": "Asia",
+          "summary": "India ramped up security as millions of aspiring medical students retook a national entrance exam following an alleged paper leak distributed via Telegram. Authorities sought to prevent a repeat of the breach.",
+          "source": "CNA, BBC",
+          "published_at": "2026-06-21T14:20+08:00",
+          "url": "https://www.channelnewsasia.com/asia/india-tightens-security-medical-exam-telegram-6198201"
+        },
+        {
+          "id": "ts10",
+          "headline": "Japan thrash Tunisia 4-0 to make World Cup history",
+          "category": "Sport",
+          "summary": "Japan's Samurai Blue swept aside Tunisia 4-0 to advance at the World Cup, with fans again praised for cleaning up the stadium after the match.",
+          "source": "CNA",
+          "published_at": "2026-06-21T15:36+08:00",
+          "url": "https://www.channelnewsasia.com/sport/world-cup-japan-tunisia-fans-teamwork-world-cup-sweden-round-32-6198011"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "A busy local Sunday: three new Circle Line stations open on July 12, promising faster rides and lower fares, while a weak 3.3-magnitude quake off Johor was felt in the region. In the buzz, a man told how a former schoolmate posted AI-generated images casting them as a couple with a baby, two Singaporean brothers made headlines for building 'unbreakable' encryption from maths, and K-pop act Nmixx dazzled at their concert. Expect thundery showers, with COE premiums easing across both car categories after the latest bidding.",
+      "weather": {
+        "forecast": "Thundery Showers",
+        "temp_low": 25,
+        "temp_high": 33,
+        "humidity_low": 60,
+        "humidity_high": 95,
+        "as_of": "2026-06-21T18:00+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jun 2026 · 2nd bidding",
+        "as_of": "2026-06-17",
+        "next_results": "2026-07-08",
+        "source": "LTA / Motorist.sg",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          { "code": "A", "label": "Cars up to 1600cc & 130bhp", "premium": 123847, "change": -2162 },
+          { "code": "B", "label": "Cars above 1600cc or 130bhp", "premium": 123502, "change": -3487 }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "Three new Circle Line stations open July 12, with faster rides and lower fares",
+          "category": "Transport",
+          "summary": "LTA said the new Circle Line stations open on July 12, completing the loop and giving commuters faster journeys and lower fares on some routes.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-21T15:15+08:00",
+          "url": "https://www.straitstimes.com/singapore/transport/faster-rides-lower-fares-for-commuters-when-new-circle-line-stations-open-on-july-12"
+        },
+        {
+          "id": "sg2",
+          "headline": "Weak 3.3-magnitude earthquake hits waters off Johor",
+          "category": "Regional",
+          "summary": "A weak 3.3-magnitude earthquake struck waters off Batu Pahat, Johor, in the early hours of June 21. Such tremors are occasionally felt in parts of Singapore but rarely cause damage.",
+          "source": "CNA, Mothership",
+          "published_at": "2026-06-21T10:49+08:00",
+          "url": "https://www.channelnewsasia.com/asia/malaysia-earthquake-johor-batu-pahat-6198036"
+        },
+        {
+          "id": "sg3",
+          "headline": "Boy taken to hospital after signboard collapses at Rivervale Mall foodcourt",
+          "category": "Local",
+          "summary": "A boy was taken to hospital after a signboard collapsed at a foodcourt in Rivervale Mall, according to The Straits Times.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-21T13:40+08:00",
+          "url": "https://www.straitstimes.com/singapore/boy-taken-to-hospital-after-signboard-collapses-at-foodcourt-in-rivervale-mall"
+        },
+        {
+          "id": "sg4",
+          "headline": "Some F&B outlets get extended liquor trading hours during World Cup",
+          "category": "Lifestyle",
+          "summary": "Selected food-and-beverage establishments were granted extended liquor trading hours to cater to fans watching World Cup matches, The Straits Times reported.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-21T11:10+08:00",
+          "url": "https://www.straitstimes.com/singapore/some-fb-establishments-given-extended-liquor-trading-hours-during-world-cup"
+        },
+        {
+          "id": "sg5",
+          "headline": "Over 370 domestic helpers trained in caregiving pilot, including dementia care",
+          "category": "Community",
+          "summary": "More than 370 migrant domestic helpers have been trained under a caregiving pilot programme that covers skills such as dementia care, as Singapore's care needs grow with an ageing population.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-21T16:26+08:00",
+          "url": "https://www.straitstimes.com/singapore/community/over-370-domestic-helpers-trained-in-caregiving-pilot-programme-including-dementia-care"
+        },
+        {
+          "id": "sg6",
+          "headline": "S'pore man targeted by ex-schoolmate who posted AI images of them as a couple",
+          "category": "Trending",
+          "summary": "A Singaporean man described being harassed by a former schoolmate who posted AI-generated images depicting them as a couple with a baby — the latest local case highlighting the misuse of generative AI to harass real people.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-21T05:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/spore-man-targeted-by-former-schoolmate-who-posted-ai-images-of-them-as-couple-with-baby"
+        },
+        {
+          "id": "sg7",
+          "headline": "Nmixx dazzle Singapore fans on Zero Frontier concert stop",
+          "category": "Entertainment",
+          "summary": "K-pop sextet Nmixx wowed fans at their Episode 1: Zero Frontier concert in Singapore with powerhouse vocals and on-stage chemistry, CNA's review said.",
+          "source": "CNA",
+          "published_at": "2026-06-21T07:22+08:00",
+          "url": "https://www.channelnewsasia.com/entertainment/nmixx-singapore-concert-review-2026-episode-1-zero-frontier-6197666"
+        },
+        {
+          "id": "sg8",
+          "headline": "Singaporean brothers quit finance to build 'unbreakable' encryption",
+          "category": "Tech",
+          "summary": "Two Singaporean brothers left finance careers to build modern encryption they describe as unbreakable, using hard mathematical problems, The Straits Times reported in a profile.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-21T05:00+08:00",
+          "url": "https://www.straitstimes.com/tech/sporean-brothers-quit-finance-careers-to-build-modern-unbreakable-encryption"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "Diplomacy and fighting run in parallel. US and Iranian negotiators met in Switzerland after the recent war, with Iran claiming — and the US disputing — a closure of the Strait of Hormuz. In Lebanon, Israel's army was ordered to hold fire in the south even as strikes continued and a central-bank branch was hit, and Gaza saw fresh deadly strikes. On the eastern front, Ukraine's long-range attacks forced Russian-held Crimea to halt civilian fuel sales.",
+      "theatres": [
+        {
+          "name": "US/Israel–Iran (Strait of Hormuz)",
+          "status": "Post-war diplomacy underway in Switzerland; Iran claims Hormuz closure, which the US disputes.",
+          "timeline": [
+            {
+              "date": "2026-06-21",
+              "event": "US and Iranian delegations open talks in Switzerland; Iran says it has closed the Strait of Hormuz, a claim the US disputes. A no-fly zone over the talks briefly disrupts Zurich airport flights.",
+              "source": "BBC",
+              "url": "https://www.bbc.com/news/articles/cwyekkwm1mmo"
+            },
+            {
+              "date": "2026-06-21",
+              "event": "A poll finds a majority of Israelis believe Iran 'won' the recent Middle East war, underscoring domestic unease over the outcome.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/israelis-believe-iran-won-middle-east-war-us-netanyahu-6198346"
+            },
+            {
+              "date": "2026-06-21",
+              "event": "US Vice-President Vance arrives in Switzerland for the talks; Washington reiterates it disputes Iran's claim that the Strait of Hormuz is shut.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/us-disputes-iranian-claims-about-closing-strait-of-hormuz-as-negotiators-head-to-switzerland"
+            }
+          ]
+        },
+        {
+          "name": "Israel–Lebanon / Gaza",
+          "status": "Fragile lull in south Lebanon under a hold-fire order, but strikes continue in Gaza and southern Lebanon.",
+          "timeline": [
+            {
+              "date": "2026-06-20",
+              "event": "Israeli strikes kill six people in Gaza, including an Al Jazeera cameraman; Israel makes accusations against the journalist, which Al Jazeera rejects.",
+              "source": "BBC",
+              "url": "https://www.bbc.com/news/articles/c4gy26p6pwzo"
+            },
+            {
+              "date": "2026-06-21",
+              "event": "An Israeli army official says the political leadership ordered a ceasefire in south Lebanon; Defence Minister Katz says soldiers remain free to act if threatened.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/israel-army-official-says-told-by-political-echelon-to-cease-fire-in-south-lebanon"
+            },
+            {
+              "date": "2026-06-21",
+              "event": "Lebanon's central bank condemns an Israeli strike on one of its branches in the south.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/lebanon-central-bank-condemns-israeli-strike-branch-in-south-6197711"
+            }
+          ]
+        },
+        {
+          "name": "Russia–Ukraine War",
+          "status": "Ukraine striking Russian rear and Crimea logistics; occupation authorities halt civilian fuel sales.",
+          "timeline": [
+            {
+              "date": "2026-06-21",
+              "event": "Ukrainian attacks on oil facilities force Russian-occupied Crimea to suspend public petrol sales; The Straits Times reports an attack that killed five. Figures are contested and not independently confirmed.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/ukraine-attack-kills-five-as-crimea-halts-public-fuel-sales"
+            },
+            {
+              "date": "2026-06-21",
+              "event": "The International Rescue Committee warns Ukraine's battlefield shift has not eased the country's humanitarian crisis.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/ukraines-battlefield-shift-has-not-solved-its-humanitarian-crisis-irc-says"
+            },
+            {
+              "date": "2026-06-21",
+              "event": "President Zelensky again urges Belarus to dismantle Russian relay stations on its territory.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/zelenskiy-again-urges-belarus-to-dismantle-relay-stations"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "Bundibugyo Ebola in the Democratic Republic of the Congo and Uganda is the dominant active outbreak and accelerating fast: WHO's latest report counts 915 confirmed cases and 234 deaths as of 17 June, up sharply from its previous update. Separately, the BBC reported H5N1 avian influenza has now been detected on every continent after Australia confirmed its first case. The earlier cruise-ship hantavirus cluster has seen no new WHO update in over two weeks.",
+      "outbreaks": [
+        {
+          "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
+          "status": "Cases and deaths rising rapidly in DR Congo; cross-border cases in Uganda.",
+          "cases": 915,
+          "deaths": 234,
+          "countries": 2,
+          "as_of": "2026-06-17",
+          "scope_note": "WHO DON608 (19 Jun 2026): 915 confirmed cases (DR Congo 896, Uganda 19) and 234 deaths (DR Congo 232, Uganda 2); at least 88 patients recovered. Figures as of 17 Jun; confirmed cases only — further suspected cases under investigation."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "WHO: Bundibugyo Ebola cases surge to 915 with 234 deaths",
+          "category": "Ebola",
+          "summary": "In its 19 June update, WHO said confirmed Bundibugyo virus disease cases rose rapidly to 915 (896 in DR Congo, 19 in Uganda) with 234 deaths as of 17 June. At least 88 patients have recovered. Inadequate infection control and unsafe burials are amplifying spread.",
+          "source": "WHO Disease Outbreak News",
+          "published_at": "2026-06-19",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON608"
+        },
+        {
+          "id": "ob2",
+          "headline": "Six-year-old Ebola patient removed from DR Congo hospital found safe",
+          "category": "Ebola",
+          "summary": "A six-year-old Ebola patient who had been taken from a hospital in DR Congo was found and reported to be doing well, the BBC said — a case that had raised fears about onward transmission amid the outbreak.",
+          "source": "BBC",
+          "published_at": "2026-06-19",
+          "url": "https://www.bbc.com/news/articles/c0qyg29wpk2o"
+        },
+        {
+          "id": "ob3",
+          "headline": "Australia confirms first H5N1 case as bird flu reaches every continent",
+          "category": "Avian influenza",
+          "summary": "Australia confirmed its first case of H5N1 avian influenza, meaning the virus has now been detected on every continent, the BBC reported. Human infections remain rare and sustained human-to-human transmission has not been established.",
+          "source": "BBC",
+          "published_at": "2026-06-20T11:12+08:00",
+          "url": "https://www.bbc.com/news/articles/c4gykxklvl5o"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "Identity and supply-chain attacks lead the cycle: Microsoft tied the Mastra npm compromise to North Korean hackers, and the Klue OAuth breach widened as 'Icarus' actors raided Salesforce data. On the vulnerability front, F5 patched two critical NGINX RCE flaws (CVE-2026-42530, CVSS 9.2), CISA flagged an actively exploited Splunk flaw (CVE-2026-20253), and roughly 86,644 FortiGate devices were exposed via 'FortiBleed'. Expect continued exploitation of edge appliances and OAuth integrations — patch and rotate tokens promptly.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "New Prinz Eugen ransomware prioritises recent files for encryption",
+          "category": "Ransomware",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers detailed Prinz Eugen, a new ransomware strain that encrypts recently modified files first to maximise impact before defenders respond.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-20T23:23+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/"
+        },
+        {
+          "id": "cs2",
+          "headline": "Microsoft links Mastra AI npm supply-chain attack to North Korean hackers",
+          "category": "Supply chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Microsoft attributed the compromise of Mastra AI npm packages — via a hijacked contributor account — to North Korean threat actors, the latest in a string of attacks turning developer tooling into a malware-delivery channel.",
+          "source": "BleepingComputer, Microsoft",
+          "published_at": "2026-06-20T22:09+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/"
+        },
+        {
+          "id": "cs3",
+          "headline": "Hackers exploit Gravity SMTP WordPress plugin to expose API keys",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-4020",
+          "cvss": 5.3,
+          "severity": "MEDIUM",
+          "summary": "Threat actors are exploiting a patched information-disclosure flaw (CVE-2026-4020, CVSS 5.3) in the Gravity SMTP WordPress plugin, installed on about 100,000 sites, to expose API keys. Admins should update immediately.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-20T17:56+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/"
+        },
+        {
+          "id": "cs4",
+          "headline": "Klue OAuth breach widens as 'Icarus' hackers claim Salesforce data theft",
+          "category": "Data breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Salesforce disabled the Klue Battlecards app integration after an OAuth-token abuse incident exposed customer data. The victim list grew as a group calling itself 'Icarus' claimed responsibility for the linked Salesforce data-theft attacks.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-06-20T06:31+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/"
+        },
+        {
+          "id": "cs5",
+          "headline": "Unpatchable 'usbliter8' exploit breaks Apple A12/A13 SecureROM boot chain",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers published usbliter8, a working exploit achieving code execution inside the SecureROM of Apple's A12 and A13 chips. Because the code is burned into silicon at manufacture, no software update can fully remediate affected devices.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-20T02:37+08:00",
+          "url": "https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html"
+        },
+        {
+          "id": "cs6",
+          "headline": "Gentlemen ransomware ships multiple EDR killers to affiliates",
+          "category": "Ransomware",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "The Gentlemen ransomware-as-a-service operation is maintaining a suite of EDR-killing tools (GentleKiller) that target some 400 security processes, handing affiliates the means to disable defences before deploying the encryptor.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-20T02:33+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/"
+        },
+        {
+          "id": "cs7",
+          "headline": "Texas government data breach exposes over 3 million driver's licenses",
+          "category": "Data breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A breach of a Texas government system exposed more than 3 million driver's licenses, BleepingComputer reported, raising identity-theft risk for affected residents.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-20T00:12+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/"
+        },
+        {
+          "id": "cs8",
+          "headline": "AutoJack attack lets one web page hijack an AI agent for host code execution",
+          "category": "AI security",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Microsoft researchers detailed AutoJack, an exploit chain that turns an AI browsing agent into a delivery vehicle for remote code execution: a malicious page's JavaScript can reach a privileged local service and spawn code on the host.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-19T23:30+08:00",
+          "url": "https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html"
+        },
+        {
+          "id": "cs9",
+          "headline": "Operation Endgame disrupts SocGholish servers, cleans ~15,000 WordPress sites",
+          "category": "Law enforcement",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Dutch, Canadian, German and US authorities disrupted infrastructure tied to the SocGholish malware operation and cleaned up nearly 15,000 infected WordPress sites under the ongoing Operation Endgame.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-19T23:07+08:00",
+          "url": "https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html"
+        },
+        {
+          "id": "cs10",
+          "headline": "CISA warns Fortinet users as 'FortiBleed' exposes 86,644 FortiGate devices",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "CISA urged Fortinet customers to secure internet-facing FortiGate appliances after a 'FortiBleed' credential leak affecting tens of thousands of devices (about 86,644 by one count) tied to a campaign attributed to Russian-speaking actors. Reset passwords and enable MFA.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-19T22:00+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/"
+        },
+        {
+          "id": "cs11",
+          "headline": "CISA: actively exploited Splunk Enterprise flaw, patch by Sunday",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-20253",
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "CISA added a critical missing-authentication flaw in Splunk Enterprise (CVE-2026-20253) to its Known Exploited Vulnerabilities catalog amid active exploitation, urging organisations to patch urgently.",
+          "source": "BleepingComputer, CISA KEV",
+          "published_at": "2026-06-19T18:39+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-splunk-enterprise-flaw-actively-exploited-patch-by-sunday/"
+        },
+        {
+          "id": "cs12",
+          "headline": "Apple patches Beats Studio Buds flaw letting nearby attackers eavesdrop",
+          "category": "Vulnerability",
+          "cve": "CVE-2025-20701",
+          "cvss": 8.8,
+          "severity": "HIGH",
+          "summary": "Apple updated Beats Studio Buds to fix a high-severity incorrect-authorization flaw (CVE-2025-20701, CVSS 8.8) in the Airoha Bluetooth chip that could let nearby attackers eavesdrop via the microphone.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-19T14:36+08:00",
+          "url": "https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html"
+        },
+        {
+          "id": "cs13",
+          "headline": "Nintendo confirms data stolen in WebMD subsidiary cyberattack",
+          "category": "Data breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Nintendo confirmed data was stolen in a cyberattack on a WebMD-linked subsidiary, BleepingComputer reported, the latest third-party breach to spill corporate and customer data.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-19T02:31+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/nintendo-confirms-data-stolen-in-webmd-subsidiary-cyberattack/"
+        },
+        {
+          "id": "cs14",
+          "headline": "F5 patches two critical NGINX Open Source RCE flaws",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-42530",
+          "cvss": 9.2,
+          "severity": "CRITICAL",
+          "summary": "F5 released fixes for two critical flaws in NGINX Open Source that enable remote code execution, including a use-after-free in the HTTP/3 module (CVE-2026-42530, CVSS v4 9.2). Administrators should update affected builds promptly.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-19T01:32+08:00",
+          "url": "https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html"
+        },
+        {
+          "id": "cs15",
+          "headline": "Microsoft details 'CryptoBandits' clipper malware spread via USB LNK worm",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Microsoft disclosed a Windows cryptocurrency-clipper campaign (CryptoBandits) active since February 2026 that spreads via malicious USB shortcut (LNK) files and uses the Tor network to hide its command-and-control traffic.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-06-18T22:30+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/usb-worm-spreads-crypto-stealing-malware-via-windows-shortcut-files/"
+        },
+        {
+          "id": "cs16",
+          "headline": "INC ransomware emerges as a major RaaS threat with 830+ victims",
+          "category": "Ransomware",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers charted INC's growth into one of 2026's most prolific ransomware-as-a-service operations, claiming over 830 victims since 2023 as it filled the gap left by LockBit and BlackCat disruptions.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-18T22:12+08:00",
+          "url": "https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html"
+        },
+        {
+          "id": "cs17",
+          "headline": "DragonForce abuses Microsoft Teams relays to hide Backdoor.Turn C2 traffic",
+          "category": "Threat actor",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Actors tied to DragonForce ransomware used a custom Go-based RAT, Backdoor.Turn, to conceal command-and-control traffic inside Microsoft Teams relay infrastructure, according to Symantec and Carbon Black.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-18T21:30+08:00",
+          "url": "https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html"
+        }
+      ]
+    }
+  }
+}
