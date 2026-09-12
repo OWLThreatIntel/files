@@ -1,0 +1,569 @@
+{
+  "meta": {
+    "date": "2026-07-19",
+    "generated_at": "2026-07-19T21:00:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "CNA",
+      "The Straits Times",
+      "BBC",
+      "Mothership",
+      "Al Jazeera",
+      "NEA (data.gov.sg)",
+      "LTA (data.gov.sg)",
+      "WHO Disease Outbreak News",
+      "US CDC",
+      "The Hacker News",
+      "BleepingComputer",
+      "CISA KEV",
+      "NVD"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "Two wars dominate the day: the US and Iran traded fresh strikes after Washington said two American soldiers were killed and one is missing in an Iranian attack in Jordan, while Russia pounded Kyiv with a major ballistic-missile barrage. Away from the fighting, Venezuela's June earthquake toll passed 5,000 as recovery falters, Hungary's president agreed to step down, and 'manosphere' influencers Andrew and Tristan Tate were arrested in Miami. A brief Meta outage hit Facebook and Instagram users including in Singapore, while Spain battled a third heatwave and wildfires.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "US and Iran exchange fresh strikes after two US soldiers killed in Jordan",
+          "category": "Conflict",
+          "summary": "The US said two of its service members were killed and one is missing after an Iranian attack in Jordan, and launched new airstrikes to 'punish' Tehran after consecutive nights of strikes tied to a naval blockade of Iranian ports. Iran vowed retaliation. Casualty and strike claims from both sides are not independently verified.",
+          "source": "BBC, CNA, The Straits Times",
+          "published_at": "2026-07-19T19:57+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cgk417jp83po"
+        },
+        {
+          "id": "ts2",
+          "headline": "Russia pounds Kyiv with major ballistic-missile barrage",
+          "category": "Conflict",
+          "summary": "Russia launched a large ballistic-missile attack on Kyiv, killing at least one person and wounding others, officials said, hours after Ukrainian strikes hit warehouses of a Russian e-commerce giant. The escalation comes as Ukraine is gripped by protests over President Zelensky's removal of his defence minister.",
+          "source": "BBC, The Straits Times, CNA",
+          "published_at": "2026-07-19T19:28+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo"
+        },
+        {
+          "id": "ts3",
+          "headline": "Influencers Andrew and Tristan Tate arrested in Miami; UK seeks extradition",
+          "category": "World",
+          "summary": "'Manosphere' influencer Andrew Tate and his brother Tristan were arrested in Miami on new US charges of rape and trafficking, as the UK seeks their extradition on charges that now total 59. Both have previously denied wrongdoing.",
+          "source": "BBC, CNA, The Straits Times",
+          "published_at": "2026-07-19T20:53+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cwymly9yd33o"
+        },
+        {
+          "id": "ts4",
+          "headline": "Venezuela earthquake death toll passes 5,000 as IMF releases aid",
+          "category": "Disaster",
+          "summary": "The toll from twin magnitude-7.2 and 7.5 earthquakes that struck Venezuela's Caribbean coast on 24 June has topped 5,000, authorities say, with most deaths in La Guaira state. Sources tell The Straits Times that delayed orders and confusion slowed the response; the IMF has released emergency aid.",
+          "source": "The Straits Times, Al Jazeera",
+          "published_at": "2026-07-19T08:15+08:00",
+          "url": "https://www.straitstimes.com/world/sources-say-delayed-orders-confusion-slowed-venezuelas-response-to-quakes-as-toll-tops-5000"
+        },
+        {
+          "id": "ts5",
+          "headline": "Hungary's president agrees to stand down after parliament backs removal",
+          "category": "Politics",
+          "summary": "Hungary's president agreed to step down after parliament voted to back his removal, a rare political rupture in Budapest. The move follows sustained pressure within the governing structure.",
+          "source": "BBC",
+          "published_at": "2026-07-19T03:34+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cpd7q7eev7po"
+        },
+        {
+          "id": "ts6",
+          "headline": "Meta outage hits Facebook and Instagram users, including in Singapore",
+          "category": "Technology",
+          "summary": "Users of Meta's Facebook and Instagram reported outages across several regions, including Singapore, before service was restored. Meta did not immediately detail the cause.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-19T17:40+08:00",
+          "url": "https://www.channelnewsasia.com/world/users-metas-facebook-instagram-report-suffering-some-outages-6263656"
+        },
+        {
+          "id": "ts7",
+          "headline": "Spain battles third heatwave as wildfire scorches 12,000ha north of Madrid",
+          "category": "Climate",
+          "summary": "Spain braced for a third heatwave with highs above 40°C as a wildfire scorched some 12,000 hectares north of Madrid, authorities said. Firefighters are working to contain the blaze amid extreme conditions.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-07-19T18:00+08:00",
+          "url": "https://www.straitstimes.com/world/europe/wildfire-scorches-12000ha-north-of-madrid-spanish-authorities"
+        },
+        {
+          "id": "ts8",
+          "headline": "Ferry carrying 116 passengers sinks off Guyana coast",
+          "category": "Disaster",
+          "summary": "A ferry carrying 116 passengers sank off the coast of Guyana, authorities said, as rescue efforts got under way. The number of casualties was not immediately clear.",
+          "source": "BBC",
+          "published_at": "2026-07-19T17:59+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cm2gm99nrm7o"
+        },
+        {
+          "id": "ts9",
+          "headline": "Trump threatens new Canada tariffs over wildfire haze drifting into US",
+          "category": "Politics",
+          "summary": "US President Donald Trump threatened new tariffs on Canada over wildfire smoke sending 'filthy' air into US cities, with the World Cup final stadium seen shrouded in haze. Canada has previously said it is working to fight the fires.",
+          "source": "BBC, CNA",
+          "published_at": "2026-07-19T01:29+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cwyq93j34lgo"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "A wet evening with thundery showers forecast (25-33°C) — heavy rain drenched an NDP Presidential Gun Salute rehearsal. The big local news is the death of Reform Party leader Kenneth Jeyaretnam at 67. On policy, outsourced Progressive Wage Model workers will get more annual leave (7 to 10 days by 2029) and MDDI will consult parents on making social media safer for kids, while early-intervention waits for young children have been cut from two years to six months. Police are charging 13 people over fraudulent SIM-card registrations.",
+      "weather": {
+        "forecast": "Thundery Showers",
+        "temp_low": 25,
+        "temp_high": 33,
+        "humidity_low": 65,
+        "humidity_high": 95,
+        "as_of": "2026-07-19T17:31+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jul 2026 · 1st bidding",
+        "as_of": "2026-07-08",
+        "next_results": "2026-07-22",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          { "code": "A", "label": "Cars up to 1600cc & 130bhp", "premium": 129000, "change": 5153 },
+          { "code": "B", "label": "Cars above 1600cc or 130bhp", "premium": 130889, "change": 7387 }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "Reform Party leader Kenneth Jeyaretnam dies aged 67",
+          "category": "Politics",
+          "summary": "Kenneth Jeyaretnam, secretary-general of Singapore's Reform Party and son of opposition figure J.B. Jeyaretnam, has died at the age of 67. Tributes have been paid across the political spectrum.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-19T15:52+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/kenneth-jeyaretnam-reform-party-leader-6263591"
+        },
+        {
+          "id": "sg2",
+          "headline": "Outsourced Progressive Wage Model workers to get more annual leave",
+          "category": "Policy",
+          "summary": "Annual leave for outsourced workers covered by the Progressive Wage Model will rise progressively from seven to 10 days from 2029, the Ministry of Manpower said, improving conditions for cleaners, security officers and landscape staff.",
+          "source": "CNA",
+          "published_at": "2026-07-19T11:31+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/annual-leave-increase-10-days-pwm-workers-outsourced-mom-6262866"
+        },
+        {
+          "id": "sg3",
+          "headline": "13 people to be charged over fraudulent SIM-card registrations",
+          "category": "Crime",
+          "summary": "Thirteen people will be charged in connection with the fraudulent registration of SIM cards, the police said, part of ongoing enforcement against scam-enabling mobile lines.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-19T16:30+08:00",
+          "url": "https://www.straitstimes.com/singapore/13-people-to-be-charged-over-fraudulent-registration-of-sim-cards"
+        },
+        {
+          "id": "sg4",
+          "headline": "Early-intervention waits for young children cut from two years to six months",
+          "category": "Community",
+          "summary": "Families are seeing shorter waits for early-intervention support for young children with developmental needs, down from about two years to six months, as capacity is expanded.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-19T15:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/community/from-2-years-to-6-months-families-see-shorter-waits-for-early-intervention-support"
+        },
+        {
+          "id": "sg5",
+          "headline": "MDDI to consult parents on making social media safer for children",
+          "category": "Policy",
+          "summary": "The Ministry of Digital Development and Information will hold a group discussion with parents to hear views on plans to make social media safer for children, as Singapore weighs stronger online safeguards.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-19T12:15+08:00",
+          "url": "https://www.straitstimes.com/tech/mddi-to-have-group-discussion-with-parents-hear-views-on-plans-to-make-social-media-safer-for-kids"
+        },
+        {
+          "id": "sg6",
+          "headline": "Sentosa's Tanjong Rimau to be shored up against erosion",
+          "category": "Environment",
+          "summary": "Sentosa's Tanjong Rimau headland will be reinforced with soil nails and concrete blocks to prevent coastal erosion and slope damage, authorities said, protecting one of the island's last natural rocky shores.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-19T10:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/environment/sentosas-tanjong-rimau-to-be-shored-up-with-nails-concrete-blocks-to-prevent-erosion-slope-damage"
+        },
+        {
+          "id": "sg7",
+          "headline": "NDP 2026: Presidential Gun Salute roars on despite heavy rain at rehearsal",
+          "category": "Human Interest",
+          "summary": "The Presidential Gun Salute went ahead despite heavy rain at a National Day Parade rehearsal, leaving soldiers drenched but undeterred as preparations for the August celebrations continue.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-19T15:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/ndp-2026-presidential-gun-salute-roars-on-despite-heavy-rain-leaving-soldiers-drenched"
+        },
+        {
+          "id": "sg8",
+          "headline": "Woman, 60, pleads guilty to repeatedly kicking volunteer outside temple",
+          "category": "Trending",
+          "summary": "A 60-year-old woman pleaded guilty to repeatedly kicking a volunteer outside a temple on Waterloo Street, in a case that has drawn local attention. She awaits sentencing.",
+          "source": "Mothership",
+          "published_at": "2026-07-19T05:04+08:00",
+          "url": "https://mothership.sg/2026/07/singapore-woman-kick-temple-guilty/"
+        },
+        {
+          "id": "sg9",
+          "headline": "Woman helping police after teenage girl hurt at *Scape football event",
+          "category": "Crime",
+          "summary": "A woman is assisting police investigations after a teenage girl was hurt at a football event at *Scape, the police said. Enquiries are ongoing.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-19T16:50+08:00",
+          "url": "https://www.straitstimes.com/singapore/woman-assisting-police-investigations-for-hurting-teenage-girl-at-scape-football-event"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "The US-Iran war remains the most dangerous front: Washington says two of its troops were killed and one is missing in an Iranian attack in Jordan — now emerging as a new front — and has launched fresh 'punishing' airstrikes, with Israel set to receive more US refuelling planes and Iran vowing retaliation and announcing the execution of two protesters. Russia pounded Kyiv with a major ballistic-missile barrage (at least one killed) hours after Ukrainian strikes on a Russian retailer's warehouses, as protests over Zelensky's sacking of his defence minister entered a third day. In the Levant, Palestinians reported settlers torching a West Bank mosque and factory as Lebanon's president headed to Washington. Casualty and strike claims from all parties remain largely unverified.",
+      "theatres": [
+        {
+          "name": "US–Iran / Strait of Hormuz",
+          "status": "Escalating and widening — the US says two of its troops were killed and one is missing in an Iranian attack in Jordan, and it has launched fresh airstrikes to 'punish' Tehran after consecutive nights of strikes tied to a naval blockade of Iranian ports. Jordan is emerging as a new focus and Israel is set to receive more US refuelling planes; Iran has vowed retaliation, renewed attacks on Gulf states, and announced the execution of two anti-government protesters. Casualty and strike claims from both sides are largely unverified.",
+          "timeline": [
+            {
+              "date": "2026-02-28",
+              "event": "The war began with US and Israeli attacks on Iran, prompting Tehran to retaliate against Israel and US targets in the Gulf. Iran has since repeatedly disrupted the Strait of Hormuz, through which about a fifth of the world's oil passes.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o"
+            },
+            {
+              "date": "2026-07-15",
+              "event": "Trump threatened to bomb Iranian bridges and power plants unless Tehran resumed talks.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cy0608wy8pro"
+            },
+            {
+              "date": "2026-07-16",
+              "event": "The US struck an oil tanker with missiles as it enforced a new blockade of Iran, and launched further strikes with Trump warning Tehran it 'better behave'.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/clyqwkegqk0o"
+            },
+            {
+              "date": "2026-07-18",
+              "event": "US strikes hit Iran for a seventh consecutive night as Iran renewed attacks on Gulf states.",
+              "source": "BBC, CNA",
+              "url": "https://www.bbc.co.uk/news/articles/cy748n8zx8ro"
+            },
+            {
+              "date": "2026-07-19",
+              "event": "The US said two of its service members were killed and one is missing after an Iranian attack in Jordan — now a new focus of the war — and launched fresh airstrikes to 'punish' Iran. Israel is set to receive more US refuelling planes, and Iran announced the execution of two anti-government protesters.",
+              "source": "BBC, CNA, The Straits Times",
+              "url": "https://www.bbc.co.uk/news/articles/cgk417jp83po"
+            }
+          ]
+        },
+        {
+          "name": "Russia–Ukraine",
+          "status": "Cross-border strikes are intensifying. Russia pounded Kyiv with a major ballistic-missile barrage (at least one killed), hours after Ukrainian strikes hit a Russian e-commerce giant's warehouses, while Ukraine is gripped by a third day of protests over Zelensky's removal of a popular defence minister. Casualty claims from both sides are not independently verified.",
+          "timeline": [
+            {
+              "date": "2026-07-15",
+              "event": "Russian attacks killed 14 people as Ukraine struck Black Sea oil tankers, according to reports.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/ckgv0zd497zo"
+            },
+            {
+              "date": "2026-07-16",
+              "event": "Zelensky's removal of a popular defence minister sparked protests across Ukraine.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cvg8w4dpjkwo"
+            },
+            {
+              "date": "2026-07-18",
+              "event": "Ukrainian strikes hit Russian online-retail warehouses, reported as deadly by Russian authorities; overnight strikes on both sides were reported to have killed about 10 people.",
+              "source": "BBC, CNA",
+              "url": "https://www.bbc.co.uk/news/articles/clyxlm877p2o"
+            },
+            {
+              "date": "2026-07-19",
+              "event": "Zelensky weighed army command changes as protests over the defence minister's removal entered a third day.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/zelensky-mulls-army-changes-as-protests-over-defence-ministers-removal-rock-ukraine-for-a-third-day"
+            },
+            {
+              "date": "2026-07-19",
+              "event": "Russia pounded Kyiv with a major ballistic-missile barrage, killing at least one person and wounding others, officials said, hours after Ukrainian strikes hit a Russian e-commerce giant's warehouses.",
+              "source": "BBC, The Straits Times, CNA",
+              "url": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo"
+            }
+          ]
+        },
+        {
+          "name": "Israel–Gaza / Lebanon",
+          "status": "Israeli operations continue in Gaza and settler violence flared in the occupied West Bank, where Palestinians say settlers torched a mosque and a factory. Lebanon's President Aoun heads to the White House hoping to build pressure on Israel, while low-level violence persists on the Lebanon border. Domestically, Israel is heading toward an October election. Casualty figures from Gaza medical sources are not independently verified.",
+          "timeline": [
+            {
+              "date": "2026-07-14",
+              "event": "An Israeli strike on a police post in north Gaza killed seven, local officials said; Israel did not immediately comment on the specific strike.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cqj1jqeyl5ro"
+            },
+            {
+              "date": "2026-07-17",
+              "event": "Israel remained on course for a 27 October election after parliament dissolved, as strikes in Gaza continued.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east"
+            },
+            {
+              "date": "2026-07-19",
+              "event": "A Lebanese soldier was killed when an army vehicle hit an explosive device in south Lebanon.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/lebanese-soldier-killed-as-army-vehicle-hits-explosive-in-south-lebanon"
+            },
+            {
+              "date": "2026-07-19",
+              "event": "Palestinians said Israeli settlers torched a mosque and a factory in the occupied West Bank; Lebanon's President Aoun is due to meet Trump at the White House, hoping to generate pressure on Israel.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/palestinians-say-israeli-settlers-torch-mosque-factory"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "The Bundibugyo-virus Ebola epidemic in DR Congo and Uganda is the dominant global concern: WHO's latest report (17 Jul) shows a sharp jump to 2,145 confirmed cases and 830 deaths, a crude case-fatality ratio around 39%. In the US, a large cyclosporiasis outbreak (1,645 confirmed cases across 34 states, no deaths) has been traced to Mexican iceberg lettuce, prompting a Taylor Farms recall on 17 July. Both remain active; direct risk to Singapore readers is low.",
+      "outbreaks": [
+        {
+          "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
+          "status": "Sharp rise in cases; crude case-fatality ratio ~39%",
+          "cases": 2145,
+          "deaths": 830,
+          "countries": 4,
+          "as_of": "2026-07-17",
+          "scope_note": "Confirmed only, per WHO DON613 (17 Jul): DR Congo 2,124 (828 deaths), Uganda 20 (2 deaths), France 1, plus two DRC cases treated in Germany. Crude CFR 39%; case increase partly reflects scaled-up surveillance and testing."
+        },
+        {
+          "name": "Cyclosporiasis — United States",
+          "status": "Linked to recalled Mexican iceberg lettuce",
+          "cases": 1645,
+          "deaths": 0,
+          "countries": 1,
+          "as_of": "2026-07-13",
+          "scope_note": "Lab-confirmed domestic cases across 34 states (US CDC, as of 13 Jul); 141 (9%) hospitalised, no deaths. More than 5,100 further cases are under investigation. Traced to Taylor Farms de Mexico iceberg lettuce, recalled 17 Jul."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "WHO reports sharp rise in DR Congo Ebola outbreak to 2,145 cases",
+          "category": "Ebola",
+          "summary": "In its latest Disease Outbreak News (17 Jul), WHO reported 2,145 confirmed Bundibugyo-virus cases and 830 deaths across DR Congo, Uganda, France and (in treatment) Germany — an increase of 664 cases and 376 deaths since 3 July, partly reflecting expanded surveillance. The outbreak remains active in 38 health zones.",
+          "source": "WHO Disease Outbreak News",
+          "published_at": "2026-07-17",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON613"
+        },
+        {
+          "id": "ob2",
+          "headline": "US cyclosporiasis outbreak traced to Mexican lettuce; Taylor Farms recalls",
+          "category": "Foodborne",
+          "summary": "The US CDC reports 1,645 lab-confirmed cyclosporiasis cases across 34 states (as of 13 Jul), with 141 hospitalisations and no deaths, plus more than 5,100 cases under investigation. Traceback linked the illness to Taylor Farms de Mexico iceberg lettuce, which the company recalled on 17 July.",
+          "source": "US CDC",
+          "published_at": "2026-07-17",
+          "url": "https://www.cdc.gov/cyclosporiasis/outbreaks/07-26/index.html"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "Two unauthenticated, actively-exploited critical bugs top the cycle: WordPress Core's 'wp2shell' RCE chain (patch to 6.9.5/7.0.2 now — public exploits are circulating) and CISA KEV additions covering a SharePoint zero-day (CVE-2026-58644) and two Fortinet FortiSandbox flaws, all rated CVSS 9.8. A 7-Zip archive RCE and an unpatched Windows 'LegacyHive' privilege-escalation PoC also warrant attention. On the breach side, Ernst & Young, Abbott and Coca-Cola's Fairlife were all hit, and Microsoft warned of surging ACR Stealer attacks.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "7-Zip fixes RCE flaw exploitable with malicious archives",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A heap-based buffer overflow (tracked as ZDI-26-444) in 7-Zip can lead to remote code execution when a user opens a specially crafted XZ-compressed archive. It is fixed in version 26.02; there are no reports of active exploitation, but 7-Zip lacks auto-updates so users must update manually.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-19",
+          "url": "https://www.bleepingcomputer.com/news/security/update-now-7-zip-fixes-rce-flaw-exploitable-with-malicious-archives/"
+        },
+        {
+          "id": "cs2",
+          "headline": "WordPress Core 'wp2shell' RCE flaws get public exploits — patch now",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-63030",
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "Two WordPress core flaws — a REST API batch-route confusion (CVE-2026-63030) and an SQL injection (CVE-2026-60137) — can be chained by an unauthenticated attacker to achieve RCE on default installs. watchTowr reports the first signs of in-the-wild exploitation and public PoCs. Fixed in WordPress 6.9.5 and 7.0.2.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-07-19",
+          "url": "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/"
+        },
+        {
+          "id": "cs3",
+          "headline": "Microsoft warns of surge in ACR Stealer attacks on customers",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Microsoft warned of a surge in attacks distributing ACR Stealer, an infostealer that harvests browser tokens, credentials and Microsoft 365 files, frequently delivered via ClickFix-style social-engineering lures.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-07-18",
+          "url": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/"
+        },
+        {
+          "id": "cs4",
+          "headline": "Abbott probes two cyber incidents amid extortion claims",
+          "category": "Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Medical-device and diagnostics giant Abbott is investigating two cyber incidents after extortion claims surfaced. The company has not confirmed the scope or what, if any, data was taken.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-18",
+          "url": "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/"
+        },
+        {
+          "id": "cs5",
+          "headline": "Seven malicious Vite npm packages use blockchain C2 to deliver a RAT",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers found seven malicious npm packages impersonating the Vite ecosystem that fetch commands via blockchain-based command-and-control to deliver a remote access trojan, the latest in a run of open-source supply-chain attacks.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-18",
+          "url": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html"
+        },
+        {
+          "id": "cs6",
+          "headline": "OpenSSL 'HollowByte' flaw can exhaust server memory with 11-byte TLS requests",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A denial-of-service weakness dubbed HollowByte lets tiny 11-byte TLS requests bloat OpenSSL server memory, potentially depleting low-capacity hosts while staying below alerting thresholds. OpenSSL treated it as a hardening fix (no CVE assigned); fixed in 4.0.1 and the 3.x maintenance releases (3.6.3, 3.5.7, 3.4.6, 3.0.21).",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-07-18",
+          "url": "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/"
+        },
+        {
+          "id": "cs7",
+          "headline": "NadMesh botnet hunts exposed AI services for cloud keys and Kubernetes tokens",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A new botnet named NadMesh scans for exposed AI services to steal cloud API keys and Kubernetes tokens, expanding the trend of attackers targeting AI and cloud infrastructure for lateral movement and resource abuse.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-18",
+          "url": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html"
+        },
+        {
+          "id": "cs8",
+          "headline": "GoldenEyeDog subgroup linked to DigiCert breach and code-signing cert theft",
+          "category": "Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers linked a threat subgroup dubbed GoldenEyeDog to a breach at DigiCert and the theft of code-signing certificates, raising the risk of trusted-looking malware signed with stolen certificates.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-18",
+          "url": "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html"
+        },
+        {
+          "id": "cs9",
+          "headline": "Ernst & Young discloses data breach after support-system hack",
+          "category": "Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Ernst & Young disclosed a breach of a third-party support ticketing system that exposed personal and financial data in tax-filing documents, after an unauthorised party accessed the platform between 28 March and 12 April. EY has not disclosed the number of people affected and says it is not aware of any misuse.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-18",
+          "url": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/"
+        },
+        {
+          "id": "cs10",
+          "headline": "New Windows 'LegacyHive' zero-day PoC grants admin privileges",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A researcher released a proof-of-concept for an unpatched Windows privilege-escalation zero-day in the User Profile Service, dubbed LegacyHive, that grants admin access on up-to-date systems. It has no CVE yet; Microsoft says it is investigating, and the PoC was deliberately modified to hinder weaponisation.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-17",
+          "url": "https://www.bleepingcomputer.com/news/security/new-windows-legacyhive-zero-day-exploit-grants-hackers-admin-access/"
+        },
+        {
+          "id": "cs11",
+          "headline": "GoSerpent malware targets Southeast Asian governments and diplomats",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A new espionage tool named GoSerpent is being used against Southeast Asian government bodies and diplomats, researchers say — a campaign of regional relevance amid rising state-linked cyber-espionage in the region.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-17",
+          "url": "https://thehackernews.com/2026/07/new-goserpent-malware-targets-southeast.html"
+        },
+        {
+          "id": "cs12",
+          "headline": "CISA warns of actively exploited Fortinet FortiSandbox flaws",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-25089",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "CISA added two Fortinet FortiSandbox OS command-injection flaws (CVE-2026-25089 and CVE-2026-39808, both CVSS 9.8) to its Known Exploited Vulnerabilities catalog and urged federal agencies to patch immediately, as both are being actively exploited.",
+          "source": "BleepingComputer, CISA KEV, NVD",
+          "published_at": "2026-07-17",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/"
+        },
+        {
+          "id": "cs13",
+          "headline": "CISA adds exploited SharePoint RCE zero-day CVE-2026-58644 to KEV",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-58644",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "CISA added a Microsoft SharePoint deserialization RCE zero-day (CVE-2026-58644, CVSS 9.8) to its KEV catalog after confirmed in-the-wild exploitation. Organisations running on-prem SharePoint should apply Microsoft's fixes and hunt for compromise.",
+          "source": "The Hacker News, CISA KEV, NVD",
+          "published_at": "2026-07-17",
+          "url": "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html"
+        },
+        {
+          "id": "cs14",
+          "headline": "Coca-Cola says Fairlife ransomware attack halts US dairy production",
+          "category": "Ransomware",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Coca-Cola said a ransomware attack on its Fairlife dairy unit halted US production at affected sites, the latest ransomware incident to cause real-world operational disruption in the food-and-beverage sector.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-17",
+          "url": "https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/"
+        },
+        {
+          "id": "cs15",
+          "headline": "Claude Chrome extension flaw lets malicious extensions trigger AI actions",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers described a flaw in the Claude for Chrome extension that could let a rogue browser extension trigger AI actions such as reading Gmail, highlighting the expanding attack surface of AI browser assistants. Anthropic's own tooling is covered here on the same terms as any vendor's.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-07-17",
+          "url": "https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/"
+        },
+        {
+          "id": "cs16",
+          "headline": "n8n token-exchange flaw could let attackers log in as users from another issuer",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A token-exchange flaw in the n8n workflow-automation platform could allow an attacker to authenticate as users from another identity issuer, potentially enabling account takeover in multi-tenant deployments. Users should update to the fixed release.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-16T21:33+08:00",
+          "url": "https://thehackernews.com/2026/07/n8n-token-exchange-flaw-could-let.html"
+        }
+      ]
+    }
+  }
+}

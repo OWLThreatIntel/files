@@ -1,0 +1,539 @@
+{
+  "meta": {
+    "date": "2026-07-05",
+    "generated_at": "2026-07-05T21:00:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "BBC",
+      "CNA",
+      "The Straits Times",
+      "Mothership",
+      "NEA",
+      "LTA / data.gov.sg",
+      "WHO",
+      "ECDC",
+      "CISA KEV",
+      "NVD",
+      "The Hacker News",
+      "BleepingComputer"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "Two big set-pieces framed the day: Iran pressed on with a dayslong state funeral for late supreme leader Ayatollah Khamenei — his successor conspicuously absent — while the US marked its 250th anniversary with a combative Trump speech and severe heat and storms. Markets and shipping edged back to normal as OPEC+ approved another oil-output rise and Strait of Hormuz exports recovered. Elsewhere, a super typhoon forced evacuations near Guam, Venezuela's earthquake toll climbed past 2,950, far-right protests flared in Germany, and wildfires spread across a baking Europe.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "Iran holds day two of Khamenei funeral; successor stays away",
+          "category": "Middle East",
+          "summary": "Prayers were offered for late supreme leader Ayatollah Khamenei as huge crowds gathered in Tehran for a second day of state funeral ceremonies. Three of his sons appeared, but the man tipped as his successor did not, and Iran-backed Hezbollah and Hamas delegations attended.",
+          "source": "The Straits Times, BBC",
+          "published_at": "2026-07-05T15:23+08:00",
+          "url": "https://www.straitstimes.com/world/middle-east/prayers-offered-for-irans-khamenei-on-day-two-of-funeral-ceremonies"
+        },
+        {
+          "id": "ts2",
+          "headline": "US marks 250th birthday as Trump hails nation, blasts 'communists'",
+          "category": "United States",
+          "summary": "America's semiquincentennial spilled into a second day. President Trump gave a combative anniversary speech praising the US and attacking 'communists,' while fireworks and flyovers were disrupted by a dangerous heatwave and severe weather along the east coast.",
+          "source": "The Straits Times, BBC",
+          "published_at": "2026-07-05T13:25+08:00",
+          "url": "https://www.straitstimes.com/world/united-states/trump-hails-us-blasts-communists-in-250th-anniversary-speech"
+        },
+        {
+          "id": "ts3",
+          "headline": "OPEC+ approves further oil-output rise as Hormuz exports recover",
+          "category": "Economy",
+          "summary": "OPEC+ agreed to another increase in oil production as shipping through the Strait of Hormuz began returning to normal following the recent Iran conflict. Qatar separately said all its maritime activities would resume immediately.",
+          "source": "CNA",
+          "published_at": "2026-07-05T16:07+08:00",
+          "url": "https://www.channelnewsasia.com/world/oil-supply-increase-opec-exports-hormuz-6233046"
+        },
+        {
+          "id": "ts4",
+          "headline": "Evacuations under way in Guam as super typhoon Bavi nears",
+          "category": "Disaster",
+          "summary": "Authorities ordered evacuations in Guam as super typhoon Bavi approached the Pacific island, threatening destructive winds and heavy rain.",
+          "source": "BBC",
+          "published_at": "2026-07-05T17:26+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cr7xpgx50jxo"
+        },
+        {
+          "id": "ts5",
+          "headline": "Zelensky says he spoke to Trump; Kremlin says Trump offered to help Putin",
+          "category": "Ukraine",
+          "summary": "President Zelensky said he had spoken with President Trump and called for 'American resolve' to help end the war. A Kremlin aide said Trump had offered by phone to help President Putin find a deal — even as Ukraine pressed deep strikes inside Russia.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-05T04:36+08:00",
+          "url": "https://www.straitstimes.com/world/europe/ukraines-zelenskiy-says-he-spoke-to-trump-calls-for-american-resolve-to-help-end-war"
+        },
+        {
+          "id": "ts6",
+          "headline": "Venezuela earthquake death toll rises past 2,950",
+          "category": "Disaster",
+          "summary": "The death toll from the earthquakes in Venezuela rose to 2,954 as rescuers pressed on, with anguished families left to identify victims at makeshift morgues. One survivor recounted days trapped beneath the rubble.",
+          "source": "The Straits Times, BBC",
+          "published_at": "2026-07-05T04:31+08:00",
+          "url": "https://www.straitstimes.com/world/death-toll-from-venezuela-quakes-rises-to-2954"
+        },
+        {
+          "id": "ts7",
+          "headline": "Thousands protest in Germany as far-right AfD eyes power",
+          "category": "Europe",
+          "summary": "Thousands demonstrated across Germany as the far-right AfD set its sights on governing, and Germany's defence minister raised the alarm over the possibility of a far-right state government.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-05T05:24+08:00",
+          "url": "https://www.channelnewsasia.com/world/thousands-protest-in-germany-far-right-afd-sets-sights-power-6232616"
+        },
+        {
+          "id": "ts8",
+          "headline": "Wildfires devastate forests as Europe's heat returns",
+          "category": "Climate",
+          "summary": "Infernos tore through forests in Portugal and elsewhere as temperatures climbed again across Europe, with hundreds of firefighters battling blazes amid renewed extreme heat.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-07-05T18:39+08:00",
+          "url": "https://www.straitstimes.com/world/europe/infernos-devastate-forests-as-europes-temperatures-rise-again"
+        },
+        {
+          "id": "ts9",
+          "headline": "Houthi attack kills 14 Yemeni government troops, officials say",
+          "category": "Middle East",
+          "summary": "An attack by Yemen's Houthis killed 14 government soldiers, Yemeni officials said, in a fresh escalation of the country's long-running conflict.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-05T18:15+08:00",
+          "url": "https://www.straitstimes.com/world/middle-east/attack-by-yemens-houthis-kills-14-government-troops-officials"
+        },
+        {
+          "id": "ts10",
+          "headline": "China frees prominent house-church pastor after Trump request",
+          "category": "Asia",
+          "summary": "Chinese underground-church figure Jin Mingri was freed from prison, weeks after President Trump had requested his release. Jin, founder of the Zion Church, had been detained amid a wider crackdown on unregistered congregations.",
+          "source": "BBC, CNA",
+          "published_at": "2026-07-05T13:58+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c4gy51ky75vo"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "Stormy weather dominated the evening: seven people were taken to hospital, one unconscious, after a lightning strike at Pasir Ris Beach, with more thundery showers forecast (25-34°C). Police highlighted enforcement wins — more than 130 scam victims saved from losing over $2.9 million, and over 1,700 people placed under investigation after June's islandwide operations. PM Wong heads to Jakarta for a leaders' retreat with Indonesia, a new HarbourFront cruise terminal with biometric clearance opens July 7, and lighter talk ranged from 22,000 cicadas trapped in Tampines to 7-Eleven suing Nike over sneaker colours.",
+      "weather": {
+        "forecast": "Thundery Showers",
+        "temp_low": 25,
+        "temp_high": 34,
+        "humidity_low": 60,
+        "humidity_high": 90,
+        "as_of": "2026-07-05T18:58+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jun 2026 · 2nd bidding",
+        "as_of": "2026-06-17",
+        "next_results": "2026-07-08",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          {
+            "code": "A",
+            "label": "Cars up to 1600cc & 130bhp",
+            "premium": 123847,
+            "change": -2162
+          },
+          {
+            "code": "B",
+            "label": "Cars above 1600cc or 130bhp",
+            "premium": 123502,
+            "change": -3487
+          }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "Pasir Ris Beach lightning strike: 7 hospitalised, one unconscious",
+          "category": "Weather",
+          "summary": "Seven people were taken to hospital, including one man left unconscious, after being struck by lightning at Pasir Ris Beach amid thundery weather. It is a stark reminder to seek shelter during storms, which are forecast to continue.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-05T19:30+08:00",
+          "url": "https://www.straitstimes.com/singapore/man-unconscious-after-being-struck-by-lightning-at-pasir-ris-beach-6-others-hospitalised"
+        },
+        {
+          "id": "sg2",
+          "headline": "Police, crypto exchanges save 130+ scam victims from $2.9m loss",
+          "category": "Crime",
+          "summary": "Police and cryptocurrency exchanges stopped more than 130 scam victims from losing over $2.9 million, the latest in Singapore's push to intercept transfers before money leaves victims' hands.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-05T19:20+08:00",
+          "url": "https://www.straitstimes.com/singapore/police-crypto-exchanges-stop-over-130-scam-victims-from-losing-more-than-2-9-million"
+        },
+        {
+          "id": "sg3",
+          "headline": "PM Wong to visit Jakarta for Singapore-Indonesia leaders' retreat",
+          "category": "Foreign relations",
+          "summary": "Prime Minister Lawrence Wong will travel to Jakarta for the annual leaders' retreat with Indonesian President Prabowo Subianto, the two neighbours' key bilateral meeting.",
+          "source": "CNA",
+          "published_at": "2026-07-05T15:00+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/lawrence-wong-prabowo-leaders-retreat-indonesia-6227816"
+        },
+        {
+          "id": "sg4",
+          "headline": "New HarbourFront cruise terminal opens July 7 with biometric check-in",
+          "category": "Transport",
+          "summary": "The new Singapore Cruise Centre at HarbourFront opens on July 7, offering airport-style biometric passport clearance, more dining options and ferry links to Batam and Bintan.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-07-05T12:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/transport/biometric-passports-more-dining-options-for-travellers-at-new-harbourfront-terminal"
+        },
+        {
+          "id": "sg5",
+          "headline": "Over 1,700 under police probe after June islandwide operations",
+          "category": "Crime",
+          "summary": "More than 1,700 people — 1,173 men and 603 women aged 15 to 85 — are under investigation following multi-agency islandwide operations conducted across Singapore in June.",
+          "source": "The Straits Times, Mothership",
+          "published_at": "2026-07-05T14:55+08:00",
+          "url": "https://www.straitstimes.com/singapore/over-1700-under-police-probe-following-islandwide-multi-agency-operations-in-june"
+        },
+        {
+          "id": "sg6",
+          "headline": "Woman, 46, arrested over knife attack at Bukit Merah HDB block",
+          "category": "Crime",
+          "summary": "A 46-year-old woman was arrested after allegedly attacking an acquaintance with a knife at a Housing Board block in Bukit Merah.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-05T16:01+08:00",
+          "url": "https://www.straitstimes.com/singapore/46-year-old-woman-arrested-for-attacking-acquaintance-with-knife-at-bukit-merah-hdb-block"
+        },
+        {
+          "id": "sg7",
+          "headline": "Man to be charged for spitting on police during Yishun fire response",
+          "category": "Crime",
+          "summary": "A man will be charged after allegedly insulting and spitting on police officers during a firefighting operation in Yishun.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-05T17:36+08:00",
+          "url": "https://www.straitstimes.com/singapore/man-to-be-charged-after-insulting-spitting-on-police-in-yishun"
+        },
+        {
+          "id": "sg8",
+          "headline": "22,000 cicadas trapped in Tampines Changkat as pilot curbs noise",
+          "category": "Trending",
+          "summary": "About 22,000 cicadas have been caught using light traps in Tampines Changkat since March, and a task-force pilot has reduced the noise and disturbance for residents. Other towns are set to learn from the bug-control effort.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-07-05T17:45+08:00",
+          "url": "https://www.straitstimes.com/singapore/environment/22000-cicadas-caught-using-light-traps-in-tampines-changkat-since-march"
+        },
+        {
+          "id": "sg9",
+          "headline": "7-Eleven sues Nike over Air Max in its orange-green-red colours",
+          "category": "Trending",
+          "summary": "Convenience-store chain 7-Eleven is suing Nike, claiming an Air Max sneaker uses the orange, green and red colour scheme associated with its Slurpee brand.",
+          "source": "The Straits Times, Mothership",
+          "published_at": "2026-07-05T13:36+08:00",
+          "url": "https://www.straitstimes.com/world/united-states/7-eleven-sues-nike-over-air-max-with-slurpee-makers-colours"
+        },
+        {
+          "id": "sg10",
+          "headline": "Sembawang, Punggol residents had longest work commutes in 2025",
+          "category": "Trending",
+          "summary": "Residents of Sembawang, Bukit Panjang, Punggol and Sengkang took the longest to travel to work in 2025, according to a survey — fuel for a familiar Singaporean gripe about commuting from the fringes.",
+          "source": "Mothership",
+          "published_at": "2026-07-05T13:48+08:00",
+          "url": "https://mothership.sg/2026/07/singapore-residents-time-travel-work-commute/"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "On Ukraine, diplomacy and escalation ran side by side: Zelensky said he spoke to Trump and urged 'American resolve,' a Kremlin aide said Trump offered to help Putin reach a deal, yet Kyiv struck a major oil terminal near St Petersburg. In the Gulf, a fragile post-war calm holds — Iran is deep into a dayslong funeral for late supreme leader Khamenei, Qatar reopened all maritime activity, and Tehran floated preferential Hormuz transit fees as OPEC+ lifted output and exports recovered. Gaza's ceasefire is holding but strained.",
+      "theatres": [
+        {
+          "name": "Russia-Ukraine War",
+          "status": "Diplomacy stirs (Zelensky-Trump call, Trump-Putin offer) even as Ukraine escalates deep strikes near St Petersburg.",
+          "timeline": [
+            {
+              "date": "2022-02-24",
+              "event": "Russia launched a full-scale invasion of Ukraine, beginning the largest land war in Europe since 1945 (context).",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/world-europe-60506682"
+            },
+            {
+              "date": "2026-07-04",
+              "event": "Ukraine said Russia had damaged more than 200 railway locomotives in 2026, part of a sustained campaign against Ukrainian rail logistics.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/ukraine-says-russia-damaged-more-than-200-railway-locomotives-in-2026"
+            },
+            {
+              "date": "2026-07-04",
+              "event": "Ukraine struck an oil terminal and the Baltic port of Vysotsk near St Petersburg in one of its largest deep strikes; Kyiv dismissed Russia's claim to have captured Kostiantynivka as 'a lie.'",
+              "source": "BBC, The Straits Times",
+              "url": "https://www.bbc.co.uk/news/articles/c8j2vmzxezro"
+            },
+            {
+              "date": "2026-07-05",
+              "event": "President Zelensky said he had spoken to President Trump and called for 'American resolve' to help end the war; a Kremlin aide said Trump offered over the phone to help President Putin find a deal with Ukraine.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/ukraines-zelenskiy-says-he-spoke-to-trump-calls-for-american-resolve-to-help-end-war"
+            }
+          ]
+        },
+        {
+          "name": "US/Israel-Iran (Strait of Hormuz)",
+          "status": "Fragile post-war calm — Iran holds a dayslong state funeral for late leader Khamenei; Qatar reopens maritime activity and Tehran floats preferential Hormuz fees as exports recover.",
+          "timeline": [
+            {
+              "date": "2026-07-04",
+              "event": "A CMA CGM container ship struck by a missile in the Strait of Hormuz during the conflict may be sent for scrapping, its CEO said, underscoring the toll on shipping.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/cma-cgm-container-ship-hormuz-scrapping-6231221"
+            },
+            {
+              "date": "2026-07-05",
+              "event": "An Iranian envoy said 'friendly nations,' including China, would get special treatment on new Strait of Hormuz transit fees Tehran plans to levy; Qatar said all its maritime activities would resume immediately.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/iran-envoy-says-friendly-nations-to-get-special-hormuz-fee-treatment"
+            },
+            {
+              "date": "2026-07-05",
+              "event": "Iran held a second day of funeral ceremonies for late supreme leader Ayatollah Khamenei; three of his sons appeared but his expected successor did not, and Hezbollah and Hamas delegations attended.",
+              "source": "The Straits Times, BBC",
+              "url": "https://www.straitstimes.com/world/middle-east/prayers-offered-for-irans-khamenei-on-day-two-of-funeral-ceremonies"
+            },
+            {
+              "date": "2026-07-05",
+              "event": "OPEC+ approved a further oil-output increase as Strait of Hormuz exports began to recover, easing wartime disruption to global supply.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/oil-supply-increase-opec-exports-hormuz-6233046"
+            }
+          ]
+        },
+        {
+          "name": "Israel-Lebanon / Gaza",
+          "status": "Gaza ceasefire holding but strained; scrutiny persists over Israeli conduct after a detainee-abuse case.",
+          "timeline": [
+            {
+              "date": "2026-07-04",
+              "event": "Israel has not identified soldiers it acknowledged had abused a Palestinian detainee; two Gaza mothers believe the victim is their son, in a case highlighting scrutiny of Israeli conduct.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/israel-hasnt-said-who-its-soldiers-abused-two-gaza-mothers-think-its-their-son"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "The Bundibugyo Ebola epidemic in DR Congo and Uganda remains by far the gravest active outbreak — WHO's latest count (3 July) reached 1,481 confirmed cases and 454 deaths and is rising rapidly, overwhelmingly in the DRC, with 20 cases in Uganda and one imported case in France. A cruise-ship-linked Andes hantavirus cluster remains small and contained at 13 cases and 3 deaths, India is monitoring a single confirmed Nipah case in Kerala under tight contact-tracing, and WHO continues to flag elevated yellow fever risk across Africa and the Americas.",
+      "outbreaks": [
+        {
+          "name": "Bundibugyo Ebola — DR Congo & Uganda",
+          "status": "Rising rapidly; concentrated in DRC, small spillover to Uganda and one imported case in France.",
+          "cases": 1481,
+          "deaths": 454,
+          "countries": 3,
+          "as_of": "2026-07-03",
+          "scope_note": "WHO DON612 (3 Jul 2026), confirmed only: 1,460 DRC, 20 Uganda, 1 France (linked to DRC); 454 deaths including 2 in Uganda. Numbers rising rapidly since the 19 Jun report."
+        },
+        {
+          "name": "Andes hantavirus — MV Hondius cruise cluster",
+          "status": "Small and contained; only limited human-to-human spread reported for this hantavirus.",
+          "cases": 13,
+          "deaths": 3,
+          "countries": "multi",
+          "as_of": "2026-07-02",
+          "scope_note": "WHO DON611 (2 Jul 2026): 13 cases (12 confirmed, 1 probable) and 3 deaths (2 confirmed, 1 probable) globally, all linked to the Netherlands-flagged cruise ship M/V Hondius."
+        },
+        {
+          "name": "Nipah virus — Kerala, India",
+          "status": "Single confirmed case under intensive contact-tracing; no onward transmission reported.",
+          "cases": 1,
+          "deaths": 0,
+          "countries": 1,
+          "as_of": "2026-06-25",
+          "scope_note": "WHO DON609 (25 Jun 2026): one lab-confirmed case in Kozhikode district, an adult male on ventilatory support; contacts under monitoring."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "WHO: Bundibugyo Ebola tops 1,481 cases and 454 deaths, rising fast",
+          "category": "Ebola",
+          "summary": "WHO's latest Disease Outbreak News (3 July) reports 1,481 confirmed Bundibugyo virus cases and 454 deaths, up sharply since mid-June. The overwhelming majority are in the Democratic Republic of the Congo (1,460 cases), with 20 in Uganda and one imported, since-recovered case in France.",
+          "source": "WHO",
+          "published_at": "2026-07-03",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON612"
+        },
+        {
+          "id": "ob2",
+          "headline": "WHO details cruise-linked Andes hantavirus cluster: 13 cases, 3 deaths",
+          "category": "Hantavirus",
+          "summary": "WHO's 2 July update on the M/V Hondius outbreak lists 13 cases (12 confirmed, one probable) and three deaths globally, all tied to the cruise ship. Only limited person-to-person spread has been reported for this Andes-type hantavirus, and off-ship risk is assessed as low.",
+          "source": "WHO",
+          "published_at": "2026-07-02",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON611"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "AI-driven crime took centre stage: attackers used an autonomous AI agent to run an entire 'JadePuffer' ransomware attack end-to-end, and a US government entity was reported to have paid $1 million to settle a data-theft extortion by the Kairos group. Software supply chains stayed under pressure, with North Korea flooding npm with malicious packages (108 in the 'PolinRider' campaign) and Google cutting off the 2-million-device NetNut proxy botnet. Fresh unpatched flaws also surfaced — seven bugs in the FatFs filesystem baked into millions of embedded devices, and a 'Bad Epoll' Linux kernel hole that gives unprivileged users root and also hits Android.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "JadePuffer ransomware used an AI agent to automate the whole attack",
+          "category": "Ransomware",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers detailed 'JadePuffer' ransomware in which an autonomous AI agent chained reconnaissance, exploitation (via a Langflow RCE) and encryption to run the intrusion end-to-end with minimal human input — an early real-world example of agent-driven ransomware.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-07-04",
+          "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/"
+        },
+        {
+          "id": "cs2",
+          "headline": "US government entity paid Kairos group $1M in data-theft extortion",
+          "category": "Extortion",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A US government entity paid $1 million to the Kairos extortion group after a data-theft incident, according to a report — a rare confirmed public-sector ransom payment.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-04",
+          "url": "https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html"
+        },
+        {
+          "id": "cs3",
+          "headline": "North Korea publishes 108 malicious packages in 'PolinRider' campaign",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "North Korean hackers pushed 108 malicious packages and browser extensions to open-source registries in a campaign dubbed 'PolinRider,' aiming to steal developer credentials and secrets — the latest DPRK software supply-chain push.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-04",
+          "url": "https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html"
+        },
+        {
+          "id": "cs4",
+          "headline": "Seven unpatched flaws found in FatFs filesystem in millions of devices",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers disclosed multiple flaws in a widely used embedded filesystem (FatFs) bundled into millions of IoT and embedded devices. The bugs are unpatched at disclosure, and the sheer install base makes remediation slow — defenders should watch vendor advisories.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-04",
+          "url": "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html"
+        },
+        {
+          "id": "cs5",
+          "headline": "'Bad Epoll' Linux kernel flaw lets unprivileged users gain root",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A newly disclosed Linux kernel bug dubbed 'Bad Epoll' lets unprivileged local users escalate to root and also affects Android. No CVE/CVSS was cited at disclosure; treat as a high-impact local privilege-escalation risk pending vendor patches.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-04",
+          "url": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html"
+        },
+        {
+          "id": "cs6",
+          "headline": "New 'Avalon' malware framework packs CrownX ransomware",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers detailed 'Avalon,' a modular malware framework that bundles the 'CrownX' ransomware payload, giving operators a flexible toolkit for intrusions and extortion.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-04",
+          "url": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html"
+        },
+        {
+          "id": "cs7",
+          "headline": "North Korea-linked npm packages mimic Rollup polyfills to steal secrets",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "npm packages linked to North Korean actors impersonated Rollup polyfills to trick developers into installing them, then harvested credentials and secrets from build environments.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-04",
+          "url": "https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html"
+        },
+        {
+          "id": "cs8",
+          "headline": "ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit",
+          "category": "Phishing",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Analysis of the 'ARToken' phishing-as-a-service platform laid bare the EvilTokens toolkit used to bypass MFA and hijack Microsoft 365 accounts via token theft.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-03",
+          "url": "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/"
+        },
+        {
+          "id": "cs9",
+          "headline": "EU Parliament member probing spyware was hacked with Pegasus",
+          "category": "Spyware",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A European Parliament member investigating commercial spyware was themselves compromised with NSO Group's Pegasus, underscoring continued mercenary-spyware targeting of officials.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-03",
+          "url": "https://thehackernews.com/2026/07/european-parliament-member.html"
+        },
+        {
+          "id": "cs10",
+          "headline": "Armored Likho targets government and power sector with BusySnake stealer",
+          "category": "Threat Actor",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "The Armored Likho group targeted government agencies and the power sector with a new information stealer dubbed 'BusySnake,' continuing its focus on strategic infrastructure.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-03",
+          "url": "https://thehackernews.com/2026/07/armored-likho-targets-government.html"
+        },
+        {
+          "id": "cs11",
+          "headline": "Google disrupts NetNut residential proxy network of 2M home devices",
+          "category": "Takedown",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Google disrupted the NetNut residential-proxy network, cutting off roughly two million infected home devices that had been abused to anonymise malicious traffic.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-03",
+          "url": "https://thehackernews.com/2026/07/google-disrupts-netnut-residential.html"
+        },
+        {
+          "id": "cs12",
+          "headline": "Ransomware crews lean on Citrix Bleed 2, BYOVD and supply-chain creds",
+          "category": "Ransomware",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Ransomware groups are increasingly chaining the 'Citrix Bleed 2' flaw, bring-your-own-vulnerable-driver (BYOVD) techniques and stolen supply-chain credentials to gain and keep access, researchers said.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-03",
+          "url": "https://thehackernews.com/2026/07/ransomware-groups-turn-to-citrix-bleed.html"
+        },
+        {
+          "id": "cs13",
+          "headline": "PamStealer uses fake Maccy sites and PAM checks to grab Mac passwords",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "'PamStealer' malware lured macOS users to fake sites for the Maccy clipboard app, then abused PAM authentication prompts to capture their login passwords.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-03",
+          "url": "https://thehackernews.com/2026/07/pamstealer-uses-fake-maccy-sites-and.html"
+        }
+      ]
+    }
+  }
+}

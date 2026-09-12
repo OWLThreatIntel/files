@@ -1,0 +1,546 @@
+{
+  "meta": {
+    "date": "2026-06-09",
+    "generated_at": "2026-06-09T21:05:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "BBC", "CNA", "The Straits Times", "Mothership", "WHO", "ECDC", "CDC",
+      "CISA", "NVD", "The Hacker News", "BleepingComputer", "NEA", "LTA / data.gov.sg"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "The Middle East dominates again: Israel and Iran have just traded fresh blows even as Trump claims he is in the \"final throes\" of a peace deal, a tanker burns off Oman after a US strike, and a US helicopter went down near the Strait of Hormuz. A powerful quake in the southern Philippines has killed people with the toll expected to rise. Elsewhere, Xi Jinping wrapped up a rare North Korea visit pledging closer ties, Washington added more Chinese tech and clean-energy firms to a military blacklist, and markets steadied as oil eased on hopes the Gulf crisis is cooling.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "Powerful quake hits southern Philippines; death toll expected to rise as aftershocks jolt Mindanao",
+          "category": "Disaster",
+          "summary": "Rescuers are racing to reach people trapped under collapsed buildings after a strong earthquake struck near General Santos in the southern Philippines. Officials warned the death toll could climb as hundreds of aftershocks continued to shake Mindanao.",
+          "source": "BBC, CNA",
+          "published_at": "2026-06-09T15:36+08:00",
+          "url": "https://www.bbc.com/news/articles/ckg50pypn2eo"
+        },
+        {
+          "id": "ts2",
+          "headline": "Israel-Iran flare-up tests Trump's claim of a Middle East peace deal \"in final throes\"",
+          "category": "Middle East",
+          "summary": "A renewed exchange of strikes between Israel and Iran is complicating US-led diplomacy. President Trump said he is in the \"final throes\" of reaching a Middle East peace deal, while analysts say the flare-up may strengthen Tehran's negotiating hand; Trump also insisted to the BBC that Israeli PM Netanyahu \"did not defy him.\"",
+          "source": "CNA, BBC",
+          "published_at": "2026-06-09T14:00+08:00",
+          "url": "https://www.channelnewsasia.com/world/trump-iran-middle-east-peace-deal-final-throes-6170706"
+        },
+        {
+          "id": "ts3",
+          "headline": "All 24 Indian crew rescued from tanker set ablaze off Oman after US strike",
+          "category": "Strait of Hormuz",
+          "summary": "India said all 24 sailors aboard a tanker that caught fire off Oman were rescued. The vessel was ablaze following a US strike in the area, near the Strait of Hormuz, where a US military helicopter also crashed; Trump said the pilots were unharmed.",
+          "source": "BBC, CNA",
+          "published_at": "2026-06-09T14:15+08:00",
+          "url": "https://www.bbc.com/news/articles/cq51ep28165o"
+        },
+        {
+          "id": "ts4",
+          "headline": "Xi Jinping and Kim Jong Un vow stronger ties as rare North Korea visit wraps up",
+          "category": "Geopolitics",
+          "summary": "China's Xi Jinping ended a rare visit to Pyongyang with both leaders pledging deeper cooperation. Xi hailed a \"deeper understanding\" between the two countries at the close of the summit with North Korea's Kim Jong Un.",
+          "source": "BBC, CNA",
+          "published_at": "2026-06-09T15:08+08:00",
+          "url": "https://www.bbc.com/news/articles/ceqdnpzv45po"
+        },
+        {
+          "id": "ts5",
+          "headline": "US adds Chinese tech, solar and battery firms to military-linked blacklist; Beijing \"firmly opposed\"",
+          "category": "US-China",
+          "summary": "Washington added Chinese companies including BYD, Baidu and Alibaba, along with solar and battery makers, to a list of firms it says aid China's military. Beijing said it was \"firmly opposed\" to the move.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-06-09T14:46+08:00",
+          "url": "https://www.straitstimes.com/world/united-states/us-adds-chinese-solar-battery-firms-to-list-of-military-linked-companies"
+        },
+        {
+          "id": "ts6",
+          "headline": "Asian stocks track Wall Street tech bounce as oil eases on Middle East hopes",
+          "category": "Markets",
+          "summary": "Asian equities rose, following a rebound in US tech shares, while oil prices slipped on hopes that tensions in the Gulf may be easing. Markets had been jittery in recent sessions amid tech-sector fears and renewed Middle East attacks.",
+          "source": "CNA, BBC",
+          "published_at": "2026-06-09T10:45+08:00",
+          "url": "https://www.channelnewsasia.com/asia/asian-stocks-wall-street-tech-oil-eases-middle-east-6170346"
+        },
+        {
+          "id": "ts7",
+          "headline": "US judge rules Trump's US$100,000 H-1B visa fee unlawful",
+          "category": "US Politics",
+          "summary": "A US federal judge ruled that the Trump administration's US$100,000 fee on H-1B skilled-worker visas is unlawful, CNA reported. The decision is a setback for a policy that had alarmed employers and foreign workers.",
+          "source": "CNA",
+          "published_at": "2026-06-09T05:05+08:00",
+          "url": "https://www.channelnewsasia.com/world/trumps-us100000-h-1b-visa-fee-unlawful-us-judge-rules-6169906"
+        },
+        {
+          "id": "ts8",
+          "headline": "UK PM Starmer to announce under-16s social media ban within days",
+          "category": "World",
+          "summary": "British Prime Minister Keir Starmer is expected to announce a ban on social media for under-16s within days, The Straits Times reported, in one of the most sweeping moves yet by a major government to restrict youth access to the platforms.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-09T17:00+08:00",
+          "url": "https://www.straitstimes.com/world/uks-starmer-to-announce-under-16s-social-media-ban-within-days"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "It's a busy local news day. Singapore Airlines and Southwest will let travellers reach nearly 120 US cities on a single ticket, and Pioneer Generation seniors will get MediSave top-ups of up to S$1,200 in July. Authorities are stepping up the fight against illegal betting ahead of the World Cup — timely, after Mothership reported a man who said he lost S$500,000 on a single basketball game. In buzz, the long-running COCA hotpot at Takashimaya closes on 14 June after 30 years. Expect thundery showers, with highs around 33°C.",
+      "weather": {
+        "forecast": "Thundery Showers",
+        "temp_low": 25,
+        "temp_high": 33,
+        "humidity_low": 60,
+        "humidity_high": 95,
+        "as_of": "2026-06-09T20:22+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jun 2026 · 1st bidding",
+        "as_of": "2026-06-03",
+        "next_results": "2026-06-17",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          { "code": "A", "label": "Cars up to 1600cc & 130bhp", "premium": 126009, "change": 1780 },
+          { "code": "B", "label": "Cars above 1600cc or 130bhp", "premium": 126989, "change": -2512 }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "SIA-Southwest tie-up connects Singapore to nearly 120 US destinations on one ticket",
+          "category": "Transport",
+          "summary": "Singapore Airlines and Southwest Airlines have partnered so passengers can travel to more than 100 US cities on a single ticket, expanding access to nearly 120 American destinations.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-09T12:27+08:00",
+          "url": "https://www.channelnewsasia.com/business/singapore-airlines-sia-southwest-airlines-single-ticket-us-travel-6170381"
+        },
+        {
+          "id": "sg2",
+          "headline": "Pioneer Generation seniors to get MediSave top-ups of S$300 to S$1,200 in July",
+          "category": "Health",
+          "summary": "Pioneer Generation seniors will receive MediSave top-ups ranging from S$300 to S$1,200 in mid-July, helping with healthcare costs.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-09T11:11+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/pioneer-generation-medisave-top-up-july-2026-6170306"
+        },
+        {
+          "id": "sg3",
+          "headline": "Singapore to ramp up enforcement against illegal gambling during World Cup",
+          "category": "Crime",
+          "summary": "Police will step up enforcement against illegal and problem gambling during the 2026 FIFA World Cup, targeting unlawful betting operations and warning of the risks of problem gambling.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-09T10:01+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/world-cup-illegal-gambling-police-enforcement-betting-6164541"
+        },
+        {
+          "id": "sg4",
+          "headline": "Singapore to negotiate free trade agreement with 8 East African countries",
+          "category": "Foreign Relations",
+          "summary": "Singapore will start negotiations on a free trade agreement with a regional bloc of eight East African countries, deepening its trade footprint in Africa.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-09T17:14+08:00",
+          "url": "https://www.straitstimes.com/singapore/politics/singapore-to-negotiate-fta-with-regional-bloc-of-8-east-african-countries"
+        },
+        {
+          "id": "sg5",
+          "headline": "Residents can post mail from all HDB and condo letterboxes by Sep 30: SingPost",
+          "category": "Services",
+          "summary": "SingPost says residents will be able to post mail from all HDB and condominium letterboxes by 30 September, as it boosts parcel capacity with a new sorting facility. It added there are no plans to remove existing postboxes.",
+          "source": "CNA",
+          "published_at": "2026-06-09T13:00+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/singpost-new-sorting-facility-boost-parcel-capacity-30-million-letterbox-initiative-6163746"
+        },
+        {
+          "id": "sg6",
+          "headline": "New PMA rules kick in: LTA impounds three devices from errant retailer",
+          "category": "Transport",
+          "summary": "With new rules for personal mobility aids (PMAs) now in force, the Land Transport Authority conducted checks and impounded three non-compliant devices from a retailer, signalling tighter enforcement.",
+          "source": "Mothership, LTA",
+          "published_at": "2026-06-09T14:48+08:00",
+          "url": "https://mothership.sg/2026/06/lta-checks-new-pma-rules/"
+        },
+        {
+          "id": "sg7",
+          "headline": "Takashimaya hotpot institution COCA to close after 30 years, last day June 14",
+          "category": "Trending",
+          "summary": "Long-running hotpot restaurant COCA at Takashimaya will shut after 30 years, with its final day of operations on 14 June, prompting a wave of nostalgia among diners.",
+          "source": "Mothership",
+          "published_at": "2026-06-09T15:29+08:00",
+          "url": "https://mothership.sg/2026/06/coca-takashimaya-closing/"
+        },
+        {
+          "id": "sg8",
+          "headline": "Singaporean man says he lost S$500,000 on a single basketball game",
+          "category": "Trending",
+          "summary": "Mothership reported on a Singaporean man who said he lost S$500,000 betting on one basketball game, with his girlfriend breaking up with him over his gambling addiction — a cautionary tale circulating as authorities warn about betting ahead of the World Cup. Figures are as recounted by the man to Mothership.",
+          "source": "Mothership",
+          "published_at": "2026-06-09T15:40+08:00",
+          "url": "https://mothership.sg/2026/06/sporean-man-lost-500000-gambling/"
+        },
+        {
+          "id": "sg9",
+          "headline": "Mercury Festival art and thrift market draws big crowds at Suntec amid virtual-queue debate",
+          "category": "Trending",
+          "summary": "The Mercury Festival art and thrift market pulled large crowds at Suntec, sparking online debate over its virtual queue system as shoppers waited for entry.",
+          "source": "CNA",
+          "published_at": "2026-06-09T15:49+08:00",
+          "url": "https://www.channelnewsasia.com/living/mercury-festival-2026-suntec-crowds-6170766"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "The Israel-Iran front is the hottest: a tanker burns off Oman after a US strike, a US helicopter crashed near the Strait of Hormuz, and fresh Israel-Iran exchanges are unfolding even as Trump touts a near-final peace deal. Israel is also striking Lebanon — hitting Tyre after evacuation warnings — while Lebanon's president pleads for talks over war. On the Russia-Ukraine front there is no battlefield breakthrough; the Kremlin says there are no plans for a Putin-Trump call as Russia holds Baltic naval drills during NATO exercises.",
+      "theatres": [
+        {
+          "name": "US / Israel–Iran (Strait of Hormuz)",
+          "status": "Active — fresh Israel-Iran exchanges and a US strike off Oman, alongside US-led peace diplomacy",
+          "timeline": [
+            {
+              "date": "2026-06-08",
+              "event": "Trump tells the BBC that Israeli PM Netanyahu \"did not defy him\" amid questions over coordination on the Iran campaign.",
+              "source": "BBC",
+              "url": "https://www.bbc.com/news/videos/cd958e7j8q9o"
+            },
+            {
+              "date": "2026-06-09",
+              "event": "A tanker is set ablaze off Oman after a US strike; India says all 24 crew were rescued.",
+              "source": "BBC",
+              "url": "https://www.bbc.com/news/articles/cq51ep28165o"
+            },
+            {
+              "date": "2026-06-09",
+              "event": "Trump says US helicopter pilots are safe after a crash near the Strait of Hormuz.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/us-trump-pilots-helicopter-crash-strait-hormuz-iran-6170516"
+            },
+            {
+              "date": "2026-06-09",
+              "event": "Analysts say the latest Israel-Iran flare-up could strengthen Tehran's hand; Trump says he is in the \"final throes\" of a Middle East peace deal, while reporting notes Israel sought sway over the talks through a brief fight with Iran.",
+              "source": "BBC, CNA",
+              "url": "https://www.bbc.com/news/articles/cp8lm75186lo"
+            }
+          ]
+        },
+        {
+          "name": "Israel – Lebanon / Gaza",
+          "status": "Active — Israeli strikes on southern Lebanon; UN scrutiny of West Bank conduct",
+          "timeline": [
+            {
+              "date": "2026-06-09",
+              "event": "Lebanon's president appeals to the Israeli government to pursue talks, not war.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/lebanese-president-appeals-israeli-government-pursue-talks-not-war-6169871"
+            },
+            {
+              "date": "2026-06-09",
+              "event": "Residents of Lebanon's Tyre flee after an Israeli evacuation warning.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/residents-of-lebanons-tyre-flee-after-israel-evacuation-warning"
+            },
+            {
+              "date": "2026-06-09",
+              "event": "Israel launches deadly strikes on Tyre after the warning, according to The Straits Times.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/israel-launches-deadly-strikes-on-lebanons-tyre-after-warning"
+            },
+            {
+              "date": "2026-06-09",
+              "event": "A UN inquiry finds Israeli forces shield settlers during attacks on Palestinians in the West Bank; Israel rejects such findings.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/un-inquiry-finds-israeli-forces-shield-settlers-during-attacks-on-palestinians"
+            }
+          ]
+        },
+        {
+          "name": "Russia – Ukraine",
+          "status": "Diplomatic stall — no Putin-Trump call planned; Russian naval drills shadow NATO exercises",
+          "timeline": [
+            {
+              "date": "2026-06-09",
+              "event": "The Kremlin says there are no plans for a Putin-Trump call and no dates set for US envoys to visit Russia.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/kremlin-says-no-plans-for-putin-trump-call-no-dates-for-u-s-envoys-russia-visit"
+            },
+            {
+              "date": "2026-06-09",
+              "event": "Russia holds naval drills in the Baltic Sea during major NATO exercises.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/russia-holds-naval-drills-in-baltic-sea-during-major-nato-exercises"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "The Bundibugyo Ebola outbreak in the Democratic Republic of the Congo and Uganda is the dominant and fast-growing concern: WHO's 8 June report counts 534 confirmed cases and 93 deaths (case-fatality rate ~17%) as of 6 June, a sharp rise partly driven by a testing scale-up. Tensions are spilling over — Kenyan police fired tear gas at a protest against a planned US Ebola quarantine facility. The cruise-ship Andes hantavirus cluster (M/V Hondius) remains small and stable at 13 cases and 3 deaths, with only limited person-to-person spread.",
+      "outbreaks": [
+        {
+          "name": "Bundibugyo Ebola — DR Congo & Uganda",
+          "status": "Escalating; spread amplified in health-care settings and unsafe burials",
+          "cases": 534,
+          "deaths": 93,
+          "countries": 2,
+          "as_of": "2026-06-06",
+          "scope_note": "Confirmed cases only, DRC + Uganda combined (DRC 515 cases / 91 deaths; Uganda the balance), as of 6 Jun per WHO DON606 (8 Jun). CFR ~17.4%; figures rose sharply partly due to a testing scale-up and may understate true totals."
+        },
+        {
+          "name": "Andes hantavirus — M/V Hondius cruise cluster",
+          "status": "Limited person-to-person spread aboard ship; off-ship risk assessed low",
+          "cases": 13,
+          "deaths": 3,
+          "countries": "5+ (passengers/crew across multiple countries)",
+          "as_of": "2026-05-27",
+          "scope_note": "11 confirmed + 2 probable cases, 3 deaths (2 confirmed, 1 probable) as of 27 May per WHO DON604 (28 May). Cases identified among passengers/crew from several countries, including Canada, the Netherlands and Spain via follow-up testing."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "WHO: Bundibugyo Ebola cases surge to 534 with 93 deaths in DRC and Uganda",
+          "category": "Ebola",
+          "summary": "WHO's latest Disease Outbreak News (8 June) reports 534 confirmed Bundibugyo virus cases and 93 deaths across the Democratic Republic of the Congo and Uganda as of 6 June, a rapid increase since the 29 May update driven in part by expanded testing. At least 17 people have recovered.",
+          "source": "WHO",
+          "published_at": "2026-06-08",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON606"
+        },
+        {
+          "id": "ob2",
+          "headline": "Kenyan police fire tear gas at protest against planned US Ebola quarantine facility",
+          "category": "Ebola",
+          "summary": "Kenyan police used tear gas to disperse protesters opposing a planned US Ebola quarantine facility, as regional anxiety over the Bundibugyo outbreak grows.",
+          "source": "BBC, The Straits Times",
+          "published_at": "2026-06-09T18:09+08:00",
+          "url": "https://www.bbc.com/news/articles/c3wypjz3n57o"
+        },
+        {
+          "id": "ob3",
+          "headline": "WHO: cruise-linked Andes hantavirus cluster holds at 13 cases, 3 deaths",
+          "category": "Hantavirus",
+          "summary": "WHO's 28 May update on the hantavirus cluster linked to the M/V Hondius cruise ship reported 13 cases (11 confirmed, 2 probable) and 3 deaths as of 27 May, with three new confirmed cases since 13 May identified through follow-up testing. Limited person-to-person spread of Andes virus is recognised but no large-scale outbreaks have historically been seen.",
+          "source": "WHO",
+          "published_at": "2026-05-28",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON604"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "Actively exploited flaws lead the cycle. Google shipped an emergency fix for a Chrome V8 zero-day (CVE-2026-11645) under attack, and a critical Check Point VPN bug (CVE-2026-50751, CVSS 9.3) is being exploited as a zero-day and tied to the Qilin ransomware gang — CISA gave US agencies just three days to patch. A LiteLLM flaw (CVE-2026-42271) is being exploited and chains to unauthenticated RCE. Supply-chain attacks continue, with 19 malicious PyPI packages and ongoing worm activity, alongside a string of breaches (French government messaging, SoFi, Oxford University and 20,000 Instagram accounts).",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "WinRAR flaw exploited by Russia-aligned groups to deploy stealers in Ukraine",
+          "category": "Exploited Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Two Russia-aligned campaigns are still exploiting a WinRAR security flaw to target Ukrainian organisations and deploy information stealers, nearly a year after patches were released — underscoring how unpatched archiving tools remain a foothold.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-09T20:26+08:00",
+          "url": "https://thehackernews.com/2026/06/winrar-flaw-exploited-by-russia-aligned.html"
+        },
+        {
+          "id": "cs2",
+          "headline": "Google patches Chrome V8 zero-day CVE-2026-11645 exploited in the wild",
+          "category": "Zero-Day",
+          "cve": "CVE-2026-11645",
+          "cvss": 8.8,
+          "severity": "HIGH",
+          "summary": "Google released an emergency Chrome update for a V8 JavaScript engine zero-day (CVE-2026-11645) being actively exploited — the fifth Chrome zero-day fixed this year. Users should update immediately.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-09T19:58+08:00",
+          "url": "https://thehackernews.com/2026/06/chrome-v8-zero-day-cve-2026-11645.html"
+        },
+        {
+          "id": "cs3",
+          "headline": "Researchers build self-replicating AI worm running on local open-weight models",
+          "category": "Security Research",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Researchers demonstrated a self-replicating AI worm that operates entirely on local, open-weight models — a proof-of-concept highlighting emerging risks as autonomous AI agents proliferate.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-09T19:59+08:00",
+          "url": "https://thehackernews.com/2026/06/researchers-build-self-replicating-ai.html"
+        },
+        {
+          "id": "cs4",
+          "headline": "French government messaging service breached in account-hijacking attack",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A French government messaging service was breached via an account-hijacking attack, BleepingComputer reported, exposing communications handled through the platform.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-09T18:53+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/french-govt-messaging-service-breached-in-account-hijacking-attack/"
+        },
+        {
+          "id": "cs5",
+          "headline": "Shai-Hulud / Hades supply-chain attack trojanizes 19 science-focused PyPI packages",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A new wave of the Shai-Hulud (\"Hades\") supply-chain attack poisoned 19 science-focused PyPI packages to auto-run a Bun-based credential stealer, continuing a run of open-source registry compromises.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-06-09T17:13+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/new-shai-hulud-attack-trojanizes-19-science-focused-pypi-packages/"
+        },
+        {
+          "id": "cs6",
+          "headline": "LiteLLM flaw CVE-2026-42271 exploited in the wild, chains to unauthenticated RCE",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-42271",
+          "cvss": 8.7,
+          "severity": "HIGH",
+          "summary": "A command-injection flaw in the popular LiteLLM proxy (CVE-2026-42271) is being exploited in the wild and can be chained to achieve unauthenticated remote code execution. CISA added it to its Known Exploited Vulnerabilities catalog on 8 June.",
+          "source": "The Hacker News, CISA KEV",
+          "published_at": "2026-06-09T14:26+08:00",
+          "url": "https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html"
+        },
+        {
+          "id": "cs7",
+          "headline": "NFCShare Android malware spreads via fake banking app updates on GitHub",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A new Android malware dubbed NFCShare is spreading through fake banking app updates hosted on GitHub, abusing NFC relay techniques to facilitate fraud, according to BleepingComputer.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-09T06:11+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/nfcshare-android-malware-spreads-via-fake-banking-app-updates-on-github/"
+        },
+        {
+          "id": "cs8",
+          "headline": "SoFi confirms third-party data breach at Hong Kong subsidiary",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Financial firm SoFi confirmed a data breach at a Hong Kong subsidiary stemming from a third-party provider, exposing customer information.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-09T05:55+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/sofi-confirms-third-party-data-breach-at-hong-kong-subsidiary/"
+        },
+        {
+          "id": "cs9",
+          "headline": "One-character Linux kernel flaw enables local root; exploits now public",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A Linux kernel bug caused by a single-character error allows local privilege escalation to root, and working exploits are now publicly available, raising the urgency to patch affected systems.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-09T04:17+08:00",
+          "url": "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html"
+        },
+        {
+          "id": "cs10",
+          "headline": "WhatsApp says it disrupted new NSO Group spyware phishing attacks",
+          "category": "Threat Actor",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Meta's WhatsApp said it blocked a new NSO Group spyware phishing campaign and filed a contempt order, the latest round in its long-running legal and security fight with the spyware vendor.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-06-09T02:40+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/whatsapp-says-it-disrupted-new-nso-spyware-phishing-attacks/"
+        },
+        {
+          "id": "cs11",
+          "headline": "Gogs patches critical zero-day enabling remote code execution",
+          "category": "Zero-Day",
+          "cve": null,
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "The self-hosted Git service Gogs patched a critical zero-day that allowed remote code execution on affected servers. Administrators are urged to update without delay.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-09T00:18+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/gogs-patches-critical-zero-day-enabling-remote-code-execution/"
+        },
+        {
+          "id": "cs12",
+          "headline": "Critical UniFi OS bug lets attackers gain root without authentication",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "A critical vulnerability in Ubiquiti's UniFi OS allows unauthenticated attackers to gain root access to affected devices, BleepingComputer reported. Patching is strongly advised given the exposure of network gear.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-08T23:51+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/critical-unifi-os-bug-lets-hackers-gain-root-without-authentication/"
+        },
+        {
+          "id": "cs13",
+          "headline": "Critical Check Point VPN flaw CVE-2026-50751 exploited as zero-day; CISA orders 3-day patch",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-50751",
+          "cvss": 9.3,
+          "severity": "CRITICAL",
+          "summary": "A critical authentication-bypass flaw in Check Point Security Gateways (CVE-2026-50751, CVSS 9.3) is being exploited as a zero-day in IKEv1 setups to bypass passwords; Check Point linked the attacks to the Qilin ransomware gang. CISA added it to KEV and gave federal agencies three days to patch.",
+          "source": "BleepingComputer, The Hacker News, CISA KEV",
+          "published_at": "2026-06-08T22:17+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/"
+        },
+        {
+          "id": "cs14",
+          "headline": "Oxford University discloses data breach after careers platform hack",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Oxford University disclosed a data breach following a hack of its careers platform, exposing personal data of affected users.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-08T19:14+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/oxford-university-discloses-data-breach-after-careerconnect-platform-hack/"
+        },
+        {
+          "id": "cs15",
+          "headline": "VerdantBamboo deploys BSD variant of BRICKSTORM on Linux appliances",
+          "category": "Threat Actor",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "The threat group VerdantBamboo is deploying a BSD variant of the BRICKSTORM backdoor on Linux appliances, expanding the espionage toolkit's reach onto edge and network devices.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-08T18:27+08:00",
+          "url": "https://thehackernews.com/2026/06/verdantbamboo-deploys-bsd-variant-of.html"
+        },
+        {
+          "id": "cs16",
+          "headline": "UNC3753 used vishing and physical intrusions in US data-theft extortion campaign",
+          "category": "Threat Actor",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Threat actor UNC3753 combined voice phishing (vishing) with physical intrusions to steal data and extort US organisations, illustrating a blend of social-engineering and in-person tactics.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-08T15:39+08:00",
+          "url": "https://thehackernews.com/2026/06/unc3753-used-vishing-and-physical.html"
+        },
+        {
+          "id": "cs17",
+          "headline": "Over 20,000 Instagram accounts stolen in Meta AI support hack",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "More than 20,000 Instagram accounts were stolen through a compromise tied to Meta's AI support system, BleepingComputer reported, exposing affected users to account takeover.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-08T14:00+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/meta-ai-support-data-breach-affects-20-000-instagram-accounts/"
+        }
+      ]
+    }
+  }
+}
