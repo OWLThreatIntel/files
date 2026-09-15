@@ -1,0 +1,572 @@
+{
+  "meta": {
+    "date": "2026-06-10",
+    "generated_at": "2026-06-10T21:00:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": ["BBC", "CNA", "The Straits Times", "Mothership", "WHO", "ECDC", "NEA", "LTA / data.gov.sg", "The Hacker News", "BleepingComputer", "CISA KEV", "NVD"]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "The US–Iran confrontation is the day's dominant story: after US forces struck Iranian radar and air-defence sites near the Strait of Hormuz over the downing of a US army helicopter, Iran's Revolutionary Guard said it hit 21 targets at US bases in Bahrain and Jordan, and the two sides are now trading fresh threats — Trump says Iran is 'completely defeated' and 'will pay the price', while Tehran vows no attack will go unanswered. A tanker was struck off Oman amid a US blockade of Iran-linked shipping, leaving two crew missing. Elsewhere, car bombs hit Moscow, gunmen killed 12 near Johannesburg, Pakistani strikes killed at least 12 in Afghanistan, and the Philippines quake toll climbed to 46.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "US and Iran trade fresh threats after exchanging strikes near Strait of Hormuz",
+          "category": "Middle East",
+          "summary": "US Central Command said it struck Iranian air-defence systems, ground control stations and radar sites near the Strait of Hormuz after a US army helicopter was downed in the Gulf; Iran's Revolutionary Guard said it launched strikes on 21 targets at US bases in Bahrain and Jordan, and Kuwait said it intercepted an attack. Trump declared on Truth Social that Iran's military was 'completely defeated' and had 'taken too long to negotiate', warning it 'will have to pay the price', while Iran's foreign minister vowed to 'leave no attack or threat unanswered'. It is the biggest exchange since April's ceasefire; oil prices climbed and Asian stocks slid.",
+          "source": "BBC, CNA, The Straits Times",
+          "published_at": "2026-06-10T20:07+08:00",
+          "url": "https://www.bbc.com/news/articles/ce371kw2ex2o"
+        },
+        {
+          "id": "ts2",
+          "headline": "Tanker struck off Oman amid US blockade of Iran-linked shipping; two crew missing",
+          "category": "Middle East",
+          "summary": "Two crew were missing and one injured after a suspected US missile strike on the Palau-flagged chemical/oil tanker Settebello off Oman's port of Sohar, maritime security firms Ambrey and Vanguard said, assessing it as likely linked to US operations to blockade Iranian ports. Washington's Centcom, which began the blockade on 13 April, said on 8 June it had disabled seven non-compliant vessels and redirected 134 others; it did not immediately comment on the latest strike.",
+          "source": "The Straits Times, BBC",
+          "published_at": "2026-06-10T19:42+08:00",
+          "url": "https://www.straitstimes.com/world/europe/two-crew-missing-after-suspected-us-strike-on-tanker-off-oman"
+        },
+        {
+          "id": "ts3",
+          "headline": "Russia arrests teenagers over two car bombs in Moscow",
+          "category": "World",
+          "summary": "Russian investigators said they had detained at least two teenagers over a pair of car bombings in Moscow on Tuesday. One device that detonated in eastern Moscow killed a driver, according to Kommersant; a second, in the southwest, targeted an employee of a scientific production enterprise and caused no casualties. The Investigative Committee said a teenage girl was told by unidentified people to retrieve a bomb and pass it to a teenage boy who planted it with a GPS tracker.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-10T20:03+08:00",
+          "url": "https://www.straitstimes.com/world/europe/russia-probes-two-car-bombs-in-moscow"
+        },
+        {
+          "id": "ts4",
+          "headline": "Twelve killed, nine injured in mass shooting near Johannesburg",
+          "category": "World",
+          "summary": "At least 12 people were killed and nine injured when gunmen opened fire at an informal settlement east of Johannesburg, South African police said, as a manhunt got under way. The motive was not immediately clear as investigators worked the scene.",
+          "source": "BBC, The Straits Times",
+          "published_at": "2026-06-10T18:26+08:00",
+          "url": "https://www.bbc.com/news/articles/c79yzqw0z0wo"
+        },
+        {
+          "id": "ts5",
+          "headline": "Philippines earthquake death toll rises to 46",
+          "category": "Disaster",
+          "summary": "The death toll from Monday's powerful earthquake off the coast of Mindanao rose to 46, officials said, as hundreds of aftershocks continued. The tremor brought down buildings, triggered landslides and set off tsunami warnings across the southern Philippines; rescuers are still searching for trapped victims.",
+          "source": "CNA",
+          "published_at": "2026-06-10T11:57+08:00",
+          "url": "https://www.channelnewsasia.com/asia/philippines-earthquake-death-toll-46-general-santos-6173126"
+        },
+        {
+          "id": "ts6",
+          "headline": "Anti-immigrant riots hit Northern Ireland after knife attack",
+          "category": "World",
+          "summary": "Protesters attacked police, set homes alight and burned vehicles across several locations in Northern Ireland, including Belfast, following a knife attack. Authorities condemned the violence as racially motivated unrest targeting immigrant communities.",
+          "source": "CNA",
+          "published_at": "2026-06-10T14:38+08:00",
+          "url": "https://www.channelnewsasia.com/world/northern-ireland-belfast-anti-immigrant-protest-fire-6171246"
+        },
+        {
+          "id": "ts7",
+          "headline": "Pakistan carries out deadly new strikes inside Afghanistan",
+          "category": "Asia",
+          "summary": "Pakistani air strikes on Afghanistan killed several people, officials said, in the deadliest cross-border attacks in weeks and a break from relative calm at the frontier. Kabul condemned the strikes; Islamabad links them to militant sanctuaries on Afghan soil.",
+          "source": "BBC, CNA",
+          "published_at": "2026-06-10T12:33+08:00",
+          "url": "https://www.bbc.com/news/articles/cvg57nk373lo"
+        },
+        {
+          "id": "ts8",
+          "headline": "Bill Gates faces questioning in US Congress over Epstein ties",
+          "category": "World Politics",
+          "summary": "Microsoft co-founder Bill Gates was asked to appear before a US House panel after documents released by the Justice Department raised new questions about his past contacts with the late sex offender Jeffrey Epstein. Gates has repeatedly denied any wrongdoing or knowledge of Epstein's illegal activity.",
+          "source": "CNA, BBC",
+          "published_at": "2026-06-10T10:49+08:00",
+          "url": "https://www.channelnewsasia.com/world/us-bill-gates-congress-epstein-ties-questioning-6172936"
+        },
+        {
+          "id": "ts9",
+          "headline": "French government scrambles to defuse crisis after girl's killing",
+          "category": "World",
+          "summary": "The killing of an 11-year-old girl has triggered a political crisis in France, exposing what critics call an underfunded, overloaded justice system. The government is seeking to defuse public anger as the case turns up pressure over judicial failings.",
+          "source": "BBC, The Straits Times",
+          "published_at": "2026-06-10T13:07+08:00",
+          "url": "https://www.bbc.com/news/articles/c4gyd1w3e20o"
+        },
+        {
+          "id": "ts10",
+          "headline": "Anthropic releases cyber-safeguarded version of its latest AI model",
+          "category": "Technology",
+          "summary": "Anthropic released a version of its latest Claude AI model fitted with additional safeguards designed to limit responses in sensitive areas such as cybersecurity and biology. The move follows debate over an earlier, more capable release that some described as too powerful for unrestricted public use.",
+          "source": "BBC, The Straits Times",
+          "published_at": "2026-06-10T14:21+08:00",
+          "url": "https://www.bbc.com/news/articles/ckg701v1dp6o"
+        },
+        {
+          "id": "ts11",
+          "headline": "Thailand officially frees ex-PM Thaksin after royal pardon",
+          "category": "Asia",
+          "summary": "Thailand formally released former prime minister Thaksin Shinawatra following a royal pardon, closing a chapter in the long-running saga around the influential political figure.",
+          "source": "CNA",
+          "published_at": "2026-06-10T05:40+08:00",
+          "url": "https://www.channelnewsasia.com/asia/thailand-ex-pm-thaksin-royal-pardon-free-6172296"
+        },
+        {
+          "id": "ts12",
+          "headline": "World's largest chipmaker TSMC does not rule out price rises as costs climb",
+          "category": "Economy",
+          "summary": "TSMC, which makes the most advanced chips designed by Nvidia, AMD and Apple, told the BBC that inflation is pushing up its cost of doing business and did not rule out price rises, though CFO Wendell Huang said there would be no sudden 'fourfold, fivefold' jumps. Any increase could ripple through to AI infrastructure and consumer electronics. Huang also denied the AI boom is a bubble and that the firm's US, German and Japanese expansion is driven by geopolitical pressure.",
+          "source": "BBC",
+          "published_at": "2026-06-10T06:00+08:00",
+          "url": "https://www.bbc.com/news/articles/ce3ez4zzzlvo"
+        },
+        {
+          "id": "ts13",
+          "headline": "May was world's second-hottest on record, EU scientists say",
+          "category": "Climate",
+          "summary": "Last month was the world's second-hottest May on record, the EU's Copernicus climate monitor said, driven by climate change and a developing El Niño pattern. Scientists warned Europe is facing a 'new normal' of intensifying heat.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-10T10:12+08:00",
+          "url": "https://www.straitstimes.com/world/europe/may-was-the-worlds-second-hottest-on-record-eu-scientists-say"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "Partly cloudy skies and a warm 26–34°C are forecast for Singapore. Jobs and scams lead the day: Shopee is cutting roles — including software engineers — amid an AI push, while police flagged at least S$68,200 lost in 10 days to BTS concert-ticket scams and ICA warned of fraudsters impersonating its officers. The government is paying S$10k grants to 5,000 children under its large-families scheme, and LTA gave a first look inside three new Circle Line stations. On the lighter side, McDonald's now charges 30 cents for extra sauce, Yakult swapping its orange flavour for peach has split the internet, and a PayNow name-masking quirk that spelled out rude words has banks fielding feedback.",
+      "weather": {
+        "forecast": "Partly Cloudy (Day)",
+        "temp_low": 26,
+        "temp_high": 34,
+        "humidity_low": 60,
+        "humidity_high": 95,
+        "as_of": "2026-06-10T18:16+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jun 2026 · 1st bidding",
+        "as_of": "2026-06-03",
+        "next_results": "2026-06-17",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          { "code": "A", "label": "Cars up to 1600cc & 130bhp", "premium": 126009, "change": 1780 },
+          { "code": "B", "label": "Cars above 1600cc or 130bhp", "premium": 126989, "change": -2512 }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "Shopee cuts jobs in Singapore amid AI push; software engineers affected",
+          "category": "Business",
+          "summary": "Shopee is cutting jobs in Singapore as part of an artificial-intelligence drive, with software engineers among those affected, CNA reported. The retrenchments at the Sea-owned e-commerce platform add to a run of tech-sector job cuts tied to AI adoption.",
+          "source": "CNA",
+          "published_at": "2026-06-10T18:01+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/shopee-job-cuts-layoff-employees-software-engineers-6173816"
+        },
+        {
+          "id": "sg2",
+          "headline": "5,000 Singaporean children receive $10k grant under large-families scheme",
+          "category": "Policy",
+          "summary": "About 5,000 children have received the S$10,000 Large Family LifeSG Credits grant and other benefits under a scheme aimed at supporting bigger families and lifting Singapore's fertility rate. The benefits go to families with three or more children.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-10T14:25+08:00",
+          "url": "https://www.straitstimes.com/singapore/5000-sporean-children-receive-10k-grant-and-other-benefits-under-scheme-to-spur-large-families"
+        },
+        {
+          "id": "sg3",
+          "headline": "At least S$68,200 lost in 10 days to BTS concert ticket scams",
+          "category": "Scam Alert",
+          "summary": "Police warned that at least S$68,200 has been lost in 10 days to scammers selling fake BTS Singapore concert tickets on social media. Victims paid for tickets that were never delivered; authorities urged buyers to use official channels only.",
+          "source": "The Straits Times, Mothership",
+          "published_at": "2026-06-10T14:05+08:00",
+          "url": "https://www.straitstimes.com/singapore/at-least-68200-lost-in-10-days-to-bts-singapore-concert-ticket-scams"
+        },
+        {
+          "id": "sg4",
+          "headline": "ICA warns of scammers impersonating its officers",
+          "category": "Scam Alert",
+          "summary": "The Immigration and Checkpoints Authority warned the public about scammers impersonating its officers, using the ICA crest as a profile picture or wearing uniforms resembling ICA's during video calls to appear legitimate. ICA said it never asks for money or personal details over such calls.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-10T11:10+08:00",
+          "url": "https://www.straitstimes.com/singapore/ica-warns-of-scammers-impersonating-its-officers-or-family-members-friends"
+        },
+        {
+          "id": "sg5",
+          "headline": "Man charged over fatal CTE crash while allegedly driving on etomidate",
+          "category": "Crime",
+          "summary": "A 34-year-old man was charged after allegedly driving on the CTE under the influence of etomidate and causing a collision that killed a motorcyclist and injured two others. Etomidate, an anaesthetic agent linked to vaping abuse, is the subject of an ongoing crackdown.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-10T10:23+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/man-charged-etomidate-kill-motorcyclist-cte-6172746"
+        },
+        {
+          "id": "sg6",
+          "headline": "First look inside Circle Line's three new MRT stations",
+          "category": "Transport",
+          "summary": "LTA unveiled a first look inside the new Keppel, Prince Edward Road and Cantonment stations that will close the Circle Line loop. The three stations feature distinctive designs and are due to open soon, completing the orbital MRT line.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-10T11:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/transport/a-first-look-inside-circle-lines-keppel-prince-edward-road-and-cantonment-mrt-stations"
+        },
+        {
+          "id": "sg7",
+          "headline": "Maid agency ordered to pay $1,600 over false Mandarin claim",
+          "category": "Courts",
+          "summary": "An employment agency was ordered to compensate a bedridden woman S$1,600 after misrepresenting that the helper it supplied could speak Mandarin, the court ruled. The customer had specifically needed a Mandarin-speaking helper for caregiving.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-10T12:30+08:00",
+          "url": "https://www.straitstimes.com/singapore/courts-crime/maid-agency-ordered-to-compensate-1-6k-to-bedridden-woman-after-overstating-helpers-mandarin-skills"
+        },
+        {
+          "id": "sg8",
+          "headline": "Disciplinary records of property agents now easier to view on CEA register",
+          "category": "Consumer",
+          "summary": "The Council for Estate Agencies has updated its public register so that disciplinary records of property agents and agencies are easier to view, the Straits Times reported, giving consumers clearer sight of past misconduct when picking an agent.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-10T20:47+08:00",
+          "url": "https://www.straitstimes.com/singapore/housing/disciplinary-records-of-property-agents-agencies-now-easier-to-view-through-updated-cea-register"
+        },
+        {
+          "id": "sg9",
+          "headline": "McDonald's Singapore now charges 30 cents for extra sauce",
+          "category": "Trending",
+          "summary": "McDonald's in Singapore has introduced a 30-cent charge for extra sauce on burgers, sparking discussion among customers online. The change has become a talking point about creeping fast-food costs.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-10T13:05+08:00",
+          "url": "https://www.straitstimes.com/singapore/ordering-extra-sauce-in-your-mcdonalds-burger-it-will-now-cost-you-30-cents"
+        },
+        {
+          "id": "sg10",
+          "headline": "Yakult Singapore drops orange flavour for peach, and the internet is divided",
+          "category": "Trending",
+          "summary": "Yakult Singapore is replacing its orange-flavoured drink with a peach version, prompting a split reaction online between fans keen to try the new flavour and others mourning the discontinued orange. The change quickly became a local talking point.",
+          "source": "CNA",
+          "published_at": "2026-06-10T15:32+08:00",
+          "url": "https://www.channelnewsasia.com/dining/yakult-singapore-replace-orange-peach-6173531"
+        },
+        {
+          "id": "sg11",
+          "headline": "Chinatown family shoe store to close after 50 years",
+          "category": "Trending",
+          "summary": "A long-running family-run shoe store in Chinatown is closing after 50 years, with its 70-year-old owner saying he does not want his children to take over the business. The shuttering of the neighbourhood institution drew nostalgic reactions from Singaporeans online.",
+          "source": "Mothership",
+          "published_at": "2026-06-10T15:19+08:00",
+          "url": "https://mothership.sg/2026/06/chinatown-champion-shoe-store-close/"
+        },
+        {
+          "id": "sg12",
+          "headline": "PayNow name-masking quirk spells out rude words, drawing feedback",
+          "category": "Trending",
+          "summary": "The Association of Banks in Singapore said it is 'aware of feedback' after PayNow's name-masking — which replaces hidden letters with 'X' rather than asterisks or dashes — ended up spelling out inappropriate words for some users. ABS said the 'X' was used because not all systems across its participating institutions currently support special characters.",
+          "source": "CNA",
+          "published_at": "2026-06-10T14:09+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/paynow-nickname-obscene-words-user-names-masking-banks-6173156"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "The US–Iran confrontation is the hottest theatre: US forces struck Iranian radar and air-defence sites near the Strait of Hormuz after a US army helicopter was downed, Iran's Revolutionary Guard said it hit 21 targets at US bases in Bahrain and Jordan, and both sides are now trading fresh threats — Trump says Iran is 'completely defeated' and 'will pay the price', Tehran vows to answer every attack. A tanker was struck off Oman amid the US shipping blockade. Israel kept striking Tyre in southern Lebanon despite an Iranian warning, while France barred a far-right Israeli minister. In Ukraine, drones hit annexed Crimea as Kyiv's strikes deepen Russia's fuel crisis and two car bombs rattled Moscow.",
+      "theatres": [
+        {
+          "name": "US / Israel–Iran (Strait of Hormuz)",
+          "status": "Sharp escalation — US and Iran exchange strikes and trade fresh threats after a US helicopter is downed; Iran says it hit US bases in Bahrain and Jordan.",
+          "timeline": [
+            { "date": "2026-06-09", "event": "A tanker is set ablaze off Oman after a US strike; India says all 24 crew were rescued.", "source": "BBC", "url": "https://www.bbc.com/news/articles/cq51ep28165o" },
+            { "date": "2026-06-09", "event": "Trump accuses Iran of shooting down a US army helicopter near the Strait of Hormuz and vows to respond; a sea drone rescues the helicopter crew.", "source": "BBC", "url": "https://www.bbc.com/news/articles/cwy0l44ex5wo" },
+            { "date": "2026-06-10", "event": "US Central Command strikes Iranian air-defence systems, ground control stations and radar sites near the Strait of Hormuz in response to the helicopter downing.", "source": "BBC, CNA, The Straits Times", "url": "https://www.bbc.com/news/articles/cze9359gglyo" },
+            { "date": "2026-06-10", "event": "Iran's Revolutionary Guard says it struck 21 targets at US bases in Bahrain and Jordan; Kuwait says it intercepted an attack — the biggest exchange since April's ceasefire, with oil prices rising.", "source": "BBC, CNA", "url": "https://www.channelnewsasia.com/world/iran-us-bases-retaliatory-strikes-trump-hormuz-jordan-gulf-6173196" },
+            { "date": "2026-06-10", "event": "Trump says Iran is 'completely defeated' and 'will pay the price' for taking too long to negotiate; Iran's foreign minister vows to 'leave no attack or threat unanswered'.", "source": "BBC, The Straits Times", "url": "https://www.bbc.com/news/articles/ce371kw2ex2o" },
+            { "date": "2026-06-10", "event": "A suspected US missile strikes the tanker Settebello off Oman amid Washington's blockade of Iran-linked shipping, leaving two crew missing and one injured.", "source": "The Straits Times", "url": "https://www.straitstimes.com/world/europe/two-crew-missing-after-suspected-us-strike-on-tanker-off-oman" }
+          ]
+        },
+        {
+          "name": "Israel – Lebanon / Gaza",
+          "status": "Active — Israel strikes Tyre in southern Lebanon as Western governments sanction Israeli settler-violence networks and bar a minister.",
+          "timeline": [
+            { "date": "2026-06-09", "event": "Residents of Lebanon's Tyre flee after an Israeli evacuation warning, followed by deadly Israeli strikes on the city.", "source": "BBC", "url": "https://www.bbc.com/news/articles/c36y16nkr5no" },
+            { "date": "2026-06-10", "event": "Israeli air strikes hit the Lebanese city of Tyre despite an Iranian warning to halt attacks.", "source": "BBC", "url": "https://www.bbc.com/news/articles/c36y16nkr5no" },
+            { "date": "2026-06-10", "event": "France bans Israeli Finance Minister Bezalel Smotrich in a coordinated Western sanctions push over settler violence in the West Bank.", "source": "CNA", "url": "https://www.channelnewsasia.com/world/france-bans-israeli-minister-smotrich-in-coordinated-sanctions-push-6172116" },
+            { "date": "2026-06-10", "event": "UN human rights chief says investigators will be sent to Lebanon over potential law breaches; Amnesty accuses Israel of 'ethnic cleansing' of West Bank Bedouins.", "source": "The Straits Times", "url": "https://www.straitstimes.com/world/middle-east/un-to-send-investigators-to-lebanon-over-potential-law-breaches-rights-chief-says" }
+          ]
+        },
+        {
+          "name": "Russia – Ukraine",
+          "status": "Diplomatic stall — Ukraine's strikes deepen Russia's fuel crisis and hit annexed Crimea; car bombs strike Moscow.",
+          "timeline": [
+            { "date": "2026-06-09", "event": "Russia's fuel crisis intensifies as Ukraine steps up strikes on occupied territories.", "source": "BBC", "url": "https://www.bbc.com/news/articles/cn75l36vdd8o" },
+            { "date": "2026-06-10", "event": "Ukraine says missiles hit a military plant deep inside Russia.", "source": "BBC", "url": "https://www.bbc.com/news/articles/c5yzm2nzgr2o" },
+            { "date": "2026-06-10", "event": "A think tank warns Ukraine will face summer power shortages after Russian attacks on its energy grid.", "source": "The Straits Times", "url": "https://www.straitstimes.com/world/europe/ukraine-will-face-summer-power-shortages-after-russian-attacks-think-tank-says" },
+            { "date": "2026-06-10", "event": "Russia arrests teenagers over two car bombs in Moscow; one device killed a driver in the east of the city, the other targeted an enterprise employee in the southwest.", "source": "The Straits Times", "url": "https://www.straitstimes.com/world/europe/russia-probes-two-car-bombs-in-moscow" }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "Ebola is the dominant outbreak: WHO confirmed 534 Bundibugyo-virus cases and 93 deaths (case-fatality rate 17.4%) across the Democratic Republic of the Congo and Uganda as of 6 June, a rapid rise concentrated in the DRC, where national authorities separately report figures nearing 600. The US has urged Europe to weigh Ebola travel screening ahead of the World Cup, and a protest against a US quarantine centre in Kenya turned violent. The smaller Andes-hantavirus cluster tied to the cruise ship MV Hondius remains at 13 cases and 3 deaths, with no new cases reported since late May.",
+      "outbreaks": [
+        {
+          "name": "Ebola (Bundibugyo virus) — DRC & Uganda",
+          "status": "Escalating; concentrated in the DRC",
+          "cases": 534,
+          "deaths": 93,
+          "countries": 2,
+          "as_of": "2026-06-06",
+          "scope_note": "WHO-confirmed total, DRC + Uganda combined as of 6 Jun (CFR 17.4%; DRC alone 515 cases / 91 deaths), per WHO DON606 (8 Jun). DRC national authorities separately reported confirmed cases nearing 600 on 9–10 Jun — a more recent figure not yet ratified by WHO. The rise is partly due to a scale-up of testing clearing a sample backlog."
+        },
+        {
+          "name": "Andes hantavirus — MV Hondius cruise ship",
+          "status": "Stable; limited person-to-person spread aboard ship, off-ship risk low",
+          "cases": 13,
+          "deaths": 3,
+          "countries": "multi-country (cruise passengers/crew)",
+          "as_of": "2026-05-28",
+          "scope_note": "11 confirmed + 2 probable cases (3 deaths) among people who travelled aboard the Netherlands-flagged MV Hondius, per WHO DON604 (28 May). Cases span several nationalities. No new cases reported in WHO updates since late May; figures stable."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "Congo says confirmed Ebola cases rising towards 600",
+          "category": "Ebola",
+          "summary": "DRC authorities say confirmed Bundibugyo-virus cases are approaching 600, above WHO's last confirmed combined tally of 534 (6 Jun). The outbreak remains concentrated in the DRC, with a testing scale-up clearing a backlog of samples. The higher national figure has not yet been ratified by WHO.",
+          "source": "The Straits Times, WHO",
+          "published_at": "2026-06-10T06:12+08:00",
+          "url": "https://www.straitstimes.com/world/congo-says-number-of-confirmed-ebola-cases-rises-to-nearly-600"
+        },
+        {
+          "id": "ob2",
+          "headline": "Man shot at Kenya protest against US Ebola quarantine centre",
+          "category": "Ebola",
+          "summary": "A man was reportedly shot during a protest in Kenya against a US-backed Ebola quarantine centre, the BBC reported, amid wider unease over containment measures as the US urges European governments to weigh Ebola travel screening ahead of the FIFA World Cup.",
+          "source": "BBC",
+          "published_at": "2026-06-09T23:08+08:00",
+          "url": "https://www.bbc.com/news/articles/c3wypjz3n57o"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "A heavy patch cycle dominates: Microsoft's June Patch Tuesday fixed a record ~206 flaws including three zero-days (YellowKey, GreenPlasma, MiniPlasma) plus a separate Defender 'RoguePlanet' SYSTEM-privilege bug with public PoC, while Google patched an actively exploited Chrome V8 zero-day (CVE-2026-11645, now in CISA KEV). Ivanti disclosed a maximum-severity (CVSS 10.0) Sentry command-injection bug allowing root code execution, and critical RCEs also hit Veeam and SAP. Actively exploited flaws stack up — a Check Point VPN bug CISA gave agencies three days to patch, and a LiteLLM AI-gateway flaw. Supply-chain and breach activity intensified: the Miasma worm hit 73 Microsoft GitHub repos, the Hades wave poisoned PyPI, and ServiceNow customer instances were accessed via an exploited flaw.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "Max-severity Ivanti Sentry flaw allows code execution as root",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-10520",
+          "cvss": 10.0,
+          "severity": "CRITICAL",
+          "summary": "Ivanti disclosed a maximum-severity (CVSS 10.0) OS command-injection flaw in Sentry that lets remote attackers execute code with root privileges, plus a second critical authentication-bypass bug. Ivanti said it was not aware of exploitation at disclosure; fixes shipped in the latest Sentry releases.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-10",
+          "url": "https://www.bleepingcomputer.com/news/security/new-max-severity-ivanti-sentry-flaw-allows-code-execution-as-root/"
+        },
+        {
+          "id": "cs2",
+          "headline": "Microsoft Defender 'RoguePlanet' zero-day grants SYSTEM access, PoC public",
+          "category": "Zero-Day",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A researcher published a proof-of-concept exploit for a Microsoft Defender zero-day dubbed 'RoguePlanet' that escalates to SYSTEM privileges on updated Windows via a race condition. Microsoft addressed it around its June Patch Tuesday; immediate patching is advised.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-10",
+          "url": "https://thehackernews.com/2026/06/microsoft-defender-rogueplanet-zero-day.html"
+        },
+        {
+          "id": "cs3",
+          "headline": "Six 'Proto6' flaws in protobuf.js expose Node.js apps to RCE and DoS",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers flagged six vulnerabilities in protobuf.js, the JavaScript/TypeScript implementation of Protocol Buffers, that can lead to remote code execution and denial-of-service. In affected environments a single malicious protobuf schema, descriptor or crafted payload could be enough to trigger an attack.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-10",
+          "url": "https://thehackernews.com/2026/06/six-proto6-vulnerabilities-in.html"
+        },
+        {
+          "id": "cs4",
+          "headline": "Microsoft June 2026 Patch Tuesday fixes record ~206 flaws and 3 zero-days",
+          "category": "Patch",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Microsoft's June Patch Tuesday resolved a record of roughly 206 vulnerabilities, including three zero-days (YellowKey, GreenPlasma and MiniPlasma) and several critical RCE bugs. Administrators should prioritise the zero-day fixes.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-09",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-june-2026-patch-tuesday-fixes-3-zero-day-200-flaws/"
+        },
+        {
+          "id": "cs5",
+          "headline": "Veeam Backup & Replication RCE flaw lets domain users run remote code",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-44963",
+          "cvss": 9.4,
+          "severity": "CRITICAL",
+          "summary": "Veeam patched a critical remote code execution flaw in Backup & Replication that lets authenticated domain users execute code on the backup server — a high-value target for ransomware actors. Admins are urged to update immediately.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-09",
+          "url": "https://thehackernews.com/2026/06/veeam-backup-replication-rce-flaw-lets.html"
+        },
+        {
+          "id": "cs6",
+          "headline": "SAP fixes critical flaws in NetWeaver and Commerce Cloud",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "SAP's security update addressed critical vulnerabilities in NetWeaver and Commerce Cloud that could allow compromise of enterprise systems. Organisations running affected SAP products are advised to apply the patches promptly.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-09",
+          "url": "https://www.bleepingcomputer.com/news/security/sap-fixes-critical-flaws-in-netweaver-and-commerce-cloud/"
+        },
+        {
+          "id": "cs7",
+          "headline": "Google patches actively exploited Chrome V8 zero-day (CVE-2026-11645)",
+          "category": "Zero-Day",
+          "cve": "CVE-2026-11645",
+          "cvss": 8.8,
+          "severity": "HIGH",
+          "summary": "Google patched a Chrome V8 engine flaw (out-of-bounds read/write) being exploited in the wild. CISA added it to the Known Exploited Vulnerabilities catalog on 9 June. Users should ensure Chrome is updated.",
+          "source": "The Hacker News, BleepingComputer, CISA KEV",
+          "published_at": "2026-06-09",
+          "url": "https://thehackernews.com/2026/06/chrome-v8-zero-day-cve-2026-11645.html"
+        },
+        {
+          "id": "cs8",
+          "headline": "ServiceNow flaw exploited to access customer instances",
+          "category": "Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A flaw in ServiceNow was exploited to gain unauthorized access to customer instances, with the company disclosing a security incident that exposed some customer data. The cloud workflow giant is widely used by enterprises and governments, making the scope of exposure a concern for downstream organisations.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-09",
+          "url": "https://www.bleepingcomputer.com/news/security/servicenow-discloses-security-incident-exposing-customer-data/"
+        },
+        {
+          "id": "cs9",
+          "headline": "CISA gives agencies 3 days to patch Check Point VPN flaw exploited as zero-day",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-50751",
+          "cvss": 9.3,
+          "severity": "CRITICAL",
+          "summary": "CISA ordered federal agencies to patch within three days a critical Check Point Security Gateway authentication-bypass flaw being exploited in the wild in IKEv1 VPN setups. The bug is in CISA's KEV catalog (added 8 June).",
+          "source": "BleepingComputer, The Hacker News, CISA KEV",
+          "published_at": "2026-06-08",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-check-point-flaw-exploited-by-ransomware-gangs/"
+        },
+        {
+          "id": "cs10",
+          "headline": "WinRAR flaw exploited by Russia-aligned groups to deploy stealers in Ukraine",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2025-8088",
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Trend Micro reports two Russia-aligned campaigns are still exploiting a year-old WinRAR vulnerability to deploy information stealers against Ukrainian organisations. Users should update WinRAR to the patched version.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-09",
+          "url": "https://thehackernews.com/2026/06/winrar-flaw-exploited-by-russia-aligned.html"
+        },
+        {
+          "id": "cs11",
+          "headline": "LiteLLM flaw CVE-2026-42271 exploited, chains to unauthenticated RCE",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-42271",
+          "cvss": 8.8,
+          "severity": "HIGH",
+          "summary": "A command-injection flaw in the popular LiteLLM AI gateway is being exploited in the wild and can be chained to unauthenticated remote code execution. CISA added it to the KEV catalog (8 June); teams running LiteLLM should patch.",
+          "source": "The Hacker News, CISA KEV",
+          "published_at": "2026-06-09",
+          "url": "https://thehackernews.com/2026/06/litellm-flaw-cve-2026-42271-exploited.html"
+        },
+        {
+          "id": "cs12",
+          "headline": "One-character Linux kernel flaw enables local root, public exploit released",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers published a working exploit for a Linux kernel flaw that lets an unprivileged local user escalate to root and break out of containers. Unpatched systems are at risk; administrators should apply the upstream fix.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-08",
+          "url": "https://thehackernews.com/2026/06/one-character-linux-kernel-flaw-enables.html"
+        },
+        {
+          "id": "cs13",
+          "headline": "Microsoft restores some GitHub repos as 'Miasma' supply-chain worm probe continues",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Microsoft restored some GitHub repositories while keeping others offline after the self-spreading 'Miasma' worm compromised 73 of its open-source projects to inject a password-stealing payload. GitHub had disabled the affected repos as the investigation continued.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-09",
+          "url": "https://thehackernews.com/2026/06/microsoft-restores-some-github-repos.html"
+        },
+        {
+          "id": "cs14",
+          "headline": "Hades PyPI attack: 19 packages poisoned to auto-run credential stealer",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A new wave of the Miasma supply-chain campaign — dubbed Hades — poisoned 37 malicious wheel artifacts across 19 PyPI packages to auto-run a Bun-based credential stealer, continuing a string of refined open-source registry attacks.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-09",
+          "url": "https://thehackernews.com/2026/06/hades-pypi-attack-19-packages-poisoned.html"
+        },
+        {
+          "id": "cs15",
+          "headline": "French government messaging service breached in account-hijacking attack",
+          "category": "Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "A French government messaging service was breached via an account-hijacking attack, BleepingComputer reported, raising concerns about the security of official communications channels.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-09",
+          "url": "https://www.bleepingcomputer.com/news/security/french-govt-messaging-service-breached-in-account-hijacking-attack/"
+        },
+        {
+          "id": "cs16",
+          "headline": "Meta blocks NSO Group's new WhatsApp phishing attack, files contempt order",
+          "category": "Threat Actor",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Meta said it blocked a new WhatsApp phishing campaign linked to spyware maker NSO Group and filed a contempt motion, the latest move in its long-running legal fight against the Pegasus vendor.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-08",
+          "url": "https://thehackernews.com/2026/06/meta-blocks-nso-groups-new-whatsapp.html"
+        },
+        {
+          "id": "cs17",
+          "headline": "UNC3753 used vishing and physical intrusions in US data-theft extortion campaign",
+          "category": "Threat Actor",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Google Mandiant detailed a financially motivated campaign by UNC3753 that combined voice phishing and physical intrusions to steal data from dozens of US professional, legal and financial-services firms between January and May 2026.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-08",
+          "url": "https://thehackernews.com/2026/06/unc3753-used-vishing-and-physical.html"
+        },
+        {
+          "id": "cs18",
+          "headline": "Researchers build self-replicating AI worm running on local open-weight models",
+          "category": "Research",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Researchers built a proof-of-concept AI-driven worm that uses a locally hosted open-weight LLM to reason through a network, craft per-target attack strategies and replicate itself without human intervention — a glimpse of future autonomous-malware risk.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-06-09",
+          "url": "https://thehackernews.com/2026/06/researchers-build-self-replicating-ai.html"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,655 @@
+{
+  "meta": {
+    "date": "2026-07-01",
+    "generated_at": "2026-07-01T21:12:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "BBC", "Channel NewsAsia", "The Straits Times", "Mothership", "Al Jazeera",
+      "Kyiv Independent", "WHO Disease Outbreak News", "CISA KEV", "NVD",
+      "The Hacker News", "BleepingComputer", "LTA (data.gov.sg)", "NEA (data.gov.sg)"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "US courts and Trump dominated the day: the Supreme Court upheld birthright citizenship in a blow to Trump even as it handed him other wins, he disclosed over US$1 billion in crypto earnings, and Washington lifted an export ban on advanced AI tools including Anthropic's. A brutal European heatwave killed more than 1,000 people in Spain alone, Pakistan mourned 14 children in a school roof collapse, and US–Iran diplomacy quietly edged forward.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "US Supreme Court upholds birthright citizenship, dealing Trump a defeat",
+          "category": "World Politics",
+          "summary": "The US Supreme Court rejected the Trump administration's bid to restrict birthright citizenship, upholding the long-standing constitutional guarantee. The ruling was one of several major decisions as the term closed; the court handed Trump losses on some issues while expanding his power on others.",
+          "source": "BBC, CNA, The Straits Times",
+          "published_at": "2026-07-01T13:32+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cgmepnx1wzzo"
+        },
+        {
+          "id": "ts2",
+          "headline": "US and Iran open technical talks on peace deal and reopening Gulf shipping",
+          "category": "Middle East",
+          "summary": "The US and Iran entered technical-level negotiations aimed at securing a peace deal and restarting shipping through the Strait of Hormuz, with Trump saying the two sides were 'getting along very well.' Iran insists on retaining control over Hormuz and warned of an immediate response to any new threat.",
+          "source": "CNA, The Straits Times, BBC",
+          "published_at": "2026-07-01T16:44+08:00",
+          "url": "https://www.channelnewsasia.com/world/us-iran-talks-secure-peace-deal-restart-shipping-6224371"
+        },
+        {
+          "id": "ts3",
+          "headline": "Deadly European heatwave: Spain ties over 1,000 excess deaths to hottest June on record",
+          "category": "Climate",
+          "summary": "Spain attributed more than 1,000 excess deaths to heat during its second-hottest June ever, while Hungary, Slovakia and Portugal logged fresh temperature records amid a punishing heatwave. An EU monitor separately said the world's oceans broke a June heat record.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-07-01T16:30+08:00",
+          "url": "https://www.straitstimes.com/world/europe/spain-attributes-over-1000-excess-deaths-to-heat-in-second-hottestjune-ever"
+        },
+        {
+          "id": "ts4",
+          "headline": "Roof collapse kills 14 children at Pakistan tuition centre",
+          "category": "World",
+          "summary": "The roof of a tutoring centre collapsed in Pakistan, killing 14 children, authorities said. Rescuers searched the rubble as the cause of the collapse was investigated.",
+          "source": "BBC, CNA",
+          "published_at": "2026-07-01T03:36+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cr7x38lle1jo"
+        },
+        {
+          "id": "ts5",
+          "headline": "Trump earned more than US$1 billion from crypto in first year back in office",
+          "category": "US Politics",
+          "summary": "Financial filings show US President Donald Trump earned over US$1 billion from cryptocurrency ventures in 2025, his first year back in office, drawing fresh scrutiny over conflicts of interest.",
+          "source": "BBC, CNA",
+          "published_at": "2026-07-01T19:41+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cvgmv98ez3zo"
+        },
+        {
+          "id": "ts6",
+          "headline": "China imposes 'national security' rules on overseas investments",
+          "category": "China",
+          "summary": "China introduced new national-security rules governing outbound investments, tightening state oversight of how Chinese firms deploy capital abroad amid heightened geopolitical and trade tensions.",
+          "source": "CNA",
+          "published_at": "2026-07-01T16:50+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/china-national-security-overseas-investments-6224361"
+        },
+        {
+          "id": "ts7",
+          "headline": "US lifts export ban on Anthropic's advanced AI tools",
+          "category": "Technology",
+          "summary": "Anthropic said the US government has lifted an export ban on its advanced AI tools. The move eases restrictions that had been tied to concerns over misuse of frontier AI systems.",
+          "source": "BBC",
+          "published_at": "2026-07-01T11:39+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cdr42623e1do"
+        },
+        {
+          "id": "ts8",
+          "headline": "Amnesty says Sudan's RSF committed crimes against humanity in el-Fasher",
+          "category": "World",
+          "summary": "Amnesty International said the Rapid Support Forces committed crimes against humanity in the Sudanese city of el-Fasher, citing killings and abuses as the country's civil war grinds on.",
+          "source": "BBC",
+          "published_at": "2026-07-01T14:29+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cz9lqvx0z1vo"
+        },
+        {
+          "id": "ts9",
+          "headline": "Afghan Taliban launch strikes along Pakistan border as tensions escalate",
+          "category": "World",
+          "summary": "Afghanistan's Taliban launched strikes on the border with Pakistan amid rising tensions between the two neighbours, the latest flare-up in a series of cross-border clashes.",
+          "source": "BBC",
+          "published_at": "2026-07-01T07:49+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c621g086ek4o"
+        },
+        {
+          "id": "ts10",
+          "headline": "Three die in Mexico City World Cup celebrations",
+          "category": "World",
+          "summary": "At least three people died as huge crowds packed streets in Mexico City to celebrate the national team's World Cup progress, authorities said.",
+          "source": "BBC, The Straits Times, CNA",
+          "published_at": "2026-07-01T19:01+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cx2xjwj8p39o"
+        },
+        {
+          "id": "ts11",
+          "headline": "South Africa says over 900 arrested during nationwide anti-migrant protests",
+          "category": "World",
+          "summary": "South African authorities said more than 900 people were arrested as thousands marched in nationwide anti-immigration protests, with a heavy police presence deployed across cities.",
+          "source": "The Straits Times, BBC",
+          "published_at": "2026-07-01T19:30+08:00",
+          "url": "https://www.straitstimes.com/world/south-africa-says-over-900-arrested-during-nationwide-anti-migrant-protests"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "Cost of living and public safety led locally: HDB resale prices fell for a second straight quarter while private home prices edged up. A proposed Digital Infrastructure Bill would fine data centres and cloud providers up to S$1m, the non-emergency 1777 ambulance line closes from 2027, and PM Lawrence Wong makes a first-ever visit to Timor-Leste. Police warned of World Cup crypto scams, and NEA expects thundery showers. On the lighter side: a lizard found in a Wok Hey meal and long NDP-ticket queues.",
+      "weather": {
+        "forecast": "Thundery Showers",
+        "temp_low": 25,
+        "temp_high": 32,
+        "humidity_low": 65,
+        "humidity_high": 95,
+        "as_of": "2026-07-01T17:32+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jun 2026 · 2nd bidding",
+        "as_of": "2026-06-18",
+        "next_results": "2026-07-08",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          { "code": "A", "label": "Cars up to 1600cc & 130bhp", "premium": 123847, "change": -2162 },
+          { "code": "B", "label": "Cars above 1600cc or 130bhp", "premium": 123502, "change": -3487 }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "HDB resale prices fall for second straight quarter; private home prices edge up 0.5%",
+          "category": "Housing",
+          "summary": "Flash estimates show HDB resale prices dipped for a second consecutive quarter, while private residential prices rose 0.5%, a slower pace of increase — a sign of cooling in the public housing market.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-01T10:37+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/hdb-resale-private-property-home-prices-6223346"
+        },
+        {
+          "id": "sg2",
+          "headline": "Data centres, cloud providers could be fined up to S$1m under proposed Digital Infrastructure Bill",
+          "category": "Policy",
+          "summary": "A proposed Digital Infrastructure Bill would let regulators fine major data centres and cloud providers up to S$1 million for serious disruptions, part of moves to strengthen the resilience of Singapore's critical digital services.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-01T12:03+08:00",
+          "url": "https://www.straitstimes.com/tech/major-data-centres-cloud-providers-could-be-fined-up-to-1m-under-proposed-digital-infrastructure"
+        },
+        {
+          "id": "sg3",
+          "headline": "SCDF to cease non-emergency 1777 ambulance hotline from Jan 1, 2027",
+          "category": "Public Service",
+          "summary": "The SCDF will discontinue its non-emergency 1777 hotline for private ambulance services from Jan 1, 2027, directing the public to alternative arrangements. The 995 emergency line is unaffected.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-01T10:23+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/scdf-cease-1777-hotline-non-emergency-private-ambulance-phone-number-6223491"
+        },
+        {
+          "id": "sg4",
+          "headline": "Singapore to buy additional Hellfire missiles after US approves US$22.3m package",
+          "category": "Defence",
+          "summary": "Singapore is set to acquire additional Hellfire missiles for its Apache helicopters after the US approved a proposed US$22.3 million foreign military sale, MINDEF said.",
+          "source": "CNA",
+          "published_at": "2026-07-01T20:37+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/hellfire-missile-sale-singapore-apache-mindef-6223081"
+        },
+        {
+          "id": "sg5",
+          "headline": "PM Lawrence Wong to make first-ever visit by a Singapore PM to Timor-Leste",
+          "category": "Foreign Relations",
+          "summary": "Prime Minister Lawrence Wong will make the first-ever official visit by a Singapore PM to Timor-Leste from July 2 to 3, meeting its leaders as the country moves toward full ASEAN membership.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-07-01T15:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/politics/lawrence-wong-to-make-first-ever-visit-by-singapore-pm-to-timor-leste-from-july-2-to-3"
+        },
+        {
+          "id": "sg6",
+          "headline": "Nvidia chips case: 4 firms charged over false representations; S$56m in assets seized",
+          "category": "Crime",
+          "summary": "Four companies face charges over alleged false representations in a case involving the movement of Nvidia chips, with about S$56 million in assets seized. Police also barred the disposal of a S$55 million Good Class Bungalow linked to the case.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-07-01T13:33+08:00",
+          "url": "https://www.straitstimes.com/singapore/courts-crime/nvidia-chips-case-4-firms-charged-over-false-representation-accusations-56m-in-assets-seized"
+        },
+        {
+          "id": "sg7",
+          "headline": "Four charged after Singapore's largest seizure of illegally imported Kpods",
+          "category": "Crime",
+          "summary": "Four men face a total of five charges following what authorities described as Singapore's largest seizure of illegally imported Kpods — etomidate-laced vape pods — amid an intensifying crackdown on drug-laced vapes.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-01T14:02+08:00",
+          "url": "https://www.straitstimes.com/singapore/courts-crime/4-men-face-5-charges-in-total-after-singapores-largest-seizure-of-illegally-imported-kpods"
+        },
+        {
+          "id": "sg8",
+          "headline": "Life imprisonment for man who poured hot oil on roommate and stabbed him to death",
+          "category": "Courts",
+          "summary": "A man was sentenced to life imprisonment for murdering his roommate in a Redhill rental flat, pouring boiling oil on him and stabbing him after months of co-living disputes.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-01T14:19+08:00",
+          "url": "https://www.straitstimes.com/singapore/courts-crime/man-who-poured-hot-oil-on-flatmate-and-stabbed-him-to-death-gets-life-imprisonment"
+        },
+        {
+          "id": "sg9",
+          "headline": "Police warn of cryptocurrency scams leveraging the World Cup",
+          "category": "Advisory",
+          "summary": "The police warned of cryptocurrency scams exploiting World Cup interest, involving fake ticket and merchandise deals that trick victims into transferring crypto to scammers.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-01T18:04+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/spf-police-advisory-cryptocurrency-scams-world-cup-2026-6224431"
+        },
+        {
+          "id": "sg10",
+          "headline": "Woman finds lizard in Wok Hey fried rice; company says no sign of lizard activity at kiosk",
+          "category": "Trending",
+          "summary": "A customer said she found a lizard in her fried rice from a Wok Hey outlet at Tampines 1, sparking online chatter. The company said checks found 'no sign of lizard activity' at the kiosk and that it was investigating.",
+          "source": "Mothership",
+          "published_at": "2026-07-01T14:39+08:00",
+          "url": "https://mothership.sg/2026/07/lizard-fried-rice-tampines-1-wok-hey/"
+        },
+        {
+          "id": "sg11",
+          "headline": "Mixed reports of NDP ticket-collection queues, from quick to two-to-three hours",
+          "category": "Trending",
+          "summary": "Some Singaporeans said they queued two to three hours to collect National Day Parade tickets, while others reported the line moved quickly — a familiar seasonal talking point as NDP fever builds.",
+          "source": "Mothership",
+          "published_at": "2026-07-01T15:52+08:00",
+          "url": "https://mothership.sg/2026/07/ndp-tickets-long-queues/"
+        },
+        {
+          "id": "sg12",
+          "headline": "Golden Village to close Plaza Singapura outlet in August after 28 years",
+          "category": "Trending",
+          "summary": "Golden Village will shut its Plaza Singapura cinema in August after 28 years, marking the end of a long-running downtown movie venue and prompting nostalgia among longtime patrons.",
+          "source": "CNA",
+          "published_at": "2026-07-01T10:11+08:00",
+          "url": "https://www.channelnewsasia.com/living/golden-village-plaza-singapura-closing-gv-6223431"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "Ukraine pressed long-range strikes deep into Russia — hitting the Ufa oil refinery and a plant in Penza — while Russia kept up drone-and-missile barrages on Zaporizhzhia and Sumy; Kyiv also sealed a deal for 16 Swedish Gripen E jets. In the Gulf, the US and Iran opened technical talks on a peace deal and reopening shipping, though Tehran insists on controlling the Strait of Hormuz. Israel's defence minister said troops will remain 'indefinitely' in Lebanon, Syria and Gaza.",
+      "theatres": [
+        {
+          "name": "Russia–Ukraine War",
+          "status": "Grinding attritional war: Ukraine is striking oil refineries and defence plants deep inside Russia while Russia keeps up drone-and-missile barrages on Zaporizhzhia and Sumy. Kyiv also locked in a deal for 16 Swedish Gripen E fighter jets.",
+          "timeline": [
+            {
+              "date": "2022-02-24",
+              "event": "Russia launched a full-scale invasion of Ukraine, opening Europe's largest land war since 1945.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/world-europe-60506682"
+            },
+            {
+              "date": "2026-06-30",
+              "event": "Ukraine and Sweden signed an agreement for Kyiv to buy 16 Gripen E fighter jets (worth about US$2.5 billion, EU-financed), with deliveries expected from 2029, President Zelensky announced.",
+              "source": "Kyiv Independent",
+              "url": "https://kyivindependent.com/ukraine-signs-deal-with-sweden-to-purchase-16-gripen-e-fighter-jets/"
+            },
+            {
+              "date": "2026-06-30",
+              "event": "Russian attacks on the Zaporizhzhia region killed two people and injured dozens; Ukrainian officials reported hundreds of strikes across front-line settlements over 24 hours. Figures are Ukraine's account.",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/7/1/russian-attacks-kill-three-in-ukraine-as-kyiv-hits-another-oil-refinery"
+            },
+            {
+              "date": "2026-07-01",
+              "event": "Ukrainian drones struck the Ufa oil refinery (about 1,300km inside Russia, hit for a second time) and a bearing/missile-component plant in Penza, President Zelensky said; monitoring groups had not independently confirmed the Penza strike.",
+              "source": "Kyiv Independent",
+              "url": "https://kyivindependent.com/ukrainian-drones-reportedly-strike-russian-bearing-manufacturing-plant-strike-occupied-donetsk/"
+            },
+            {
+              "date": "2026-07-01",
+              "event": "Poland warned that Russia is seeking to exploit tensions around Ukraine through sabotage operations in Europe.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/poland-warns-russia-seeks-to-exploit-ukraine-tensions-with-sabotage-operations"
+            }
+          ]
+        },
+        {
+          "name": "US/Israel–Iran (Strait of Hormuz)",
+          "status": "Fragile post-strike standoff edging toward diplomacy: the US and Iran have begun technical talks on a peace deal and reopening Gulf shipping, though Tehran insists on controlling the Strait of Hormuz and warns of an immediate response to any new attack — against the backdrop of Khamenei's state funeral.",
+          "timeline": [
+            {
+              "date": "2026-06-30",
+              "event": "US envoys travelled to Doha to meet mediators but not Iranian officials, Qatar said, as prospects for direct talks remained uncertain.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cpd38x1dy4no"
+            },
+            {
+              "date": "2026-07-01",
+              "event": "Iran prepared for the state funeral of its late supreme leader Ali Khamenei.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/iran-ali-khamenei-funeral-supreme-leader-6222316"
+            },
+            {
+              "date": "2026-07-01",
+              "event": "The US and Iran entered technical-level talks aimed at securing a peace deal and restarting shipping; Trump said the two sides were 'getting along very well.'",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/us-iran-talks-secure-peace-deal-restart-shipping-6224371"
+            },
+            {
+              "date": "2026-07-01",
+              "event": "Iran warned of an immediate response to any threat and, senior Iranian sources said, insisted on keeping control over the Strait of Hormuz.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/iran-warns-of-immediate-response-to-any-threat-cites-us-commitment-to-restrain-israel"
+            }
+          ]
+        },
+        {
+          "name": "Israel–Lebanon / Gaza",
+          "status": "Uneasy hold: a fragile ceasefire framework persists in Gaza, but Israel says its forces will remain 'indefinitely' in Lebanon, Syria and Gaza, keeping the regional footprint contested.",
+          "timeline": [
+            {
+              "date": "2026-07-01",
+              "event": "Israel's defence minister said Israeli troops will stay 'indefinitely' in Lebanon, Syria and Gaza, signalling an open-ended military presence.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/israel-defence-minister-says-troops-to-stay-indefinitely-in-lebanon-syria-and-gaza"
+            },
+            {
+              "date": "2026-07-01",
+              "event": "Syria's interim president Ahmed al-Sharaa appointed lawmakers, paving the way for a new parliament to convene as the country moves through a post-war political transition.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/syrias-sharaa-appoints-lawmakers-paving-way-for-new-parliament-to-convene"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "The Democratic Republic of the Congo's Bundibugyo Ebola outbreak remains the gravest, with 915 confirmed cases and 234 deaths (mostly in Ituri province) plus a handful of imported and contact-linked cases in Uganda. Kerala is monitoring a single Nipah case with no secondary spread so far, WHO maintains a standing global yellow-fever alert, and Bangladesh warns of a dengue surge in wet weather. Direct risk to Singapore stays low.",
+      "outbreaks": [
+        {
+          "name": "Bundibugyo Ebola — DR Congo & Uganda",
+          "status": "Rising fast in DR Congo's Ituri province; Uganda's cases are imported or contact-linked.",
+          "cases": 915,
+          "deaths": 234,
+          "countries": 2,
+          "as_of": "2026-06-19",
+          "scope_note": "WHO-confirmed, DRC + Uganda combined (DRC: 896 cases / 232 deaths, CFR ~26%, as of 17 Jun; Uganda: 19 cases / 2 deaths, as of 18 Jun). Concentrated in Ituri (~91% of cases); WHO DON608. Further suspected cases under investigation."
+        },
+        {
+          "name": "Nipah virus — India (Kerala)",
+          "status": "Single confirmed case; contacts under active monitoring, no secondary cases so far.",
+          "cases": 1,
+          "deaths": 0,
+          "countries": 1,
+          "as_of": "2026-06-25",
+          "scope_note": "One lab-confirmed case (adult male, Kozhikode district), reported to WHO on 11 Jun; hospitalised 10 Jun. 104 contacts monitored, no secondary cases as of 18 Jun; no death reported in WHO DON609. Regional Nipah CFR historically 40–75%."
+        },
+        {
+          "name": "Yellow fever — Global alert (Africa & Americas)",
+          "status": "Standing WHO alert; expanding sylvatic transmission amid vaccination gaps.",
+          "cases": "95 (2026 YTD)",
+          "deaths": "—",
+          "countries": 9,
+          "as_of": "2026-06-24",
+          "scope_note": "WHO DON610, Jan–May 2026: 16 confirmed cases in 3 African countries (Burkina Faso, CAR, Cameroon) and 79 in 6 Americas countries (Bolivia, Brazil, Colombia, Ecuador, Peru, Venezuela); suspected cases under investigation elsewhere. A global alert, not a single cluster."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "Bundibugyo Ebola cases traced to Congo province bordering South Sudan",
+          "category": "Ebola",
+          "summary": "New reporting traced Ebola (Bundibugyo virus) cases to a Democratic Republic of the Congo province bordering South Sudan, as the outbreak — centred on Ituri — continues to spread, with WHO confirming 915 cases and 234 deaths across the DRC and Uganda.",
+          "source": "The Straits Times, WHO",
+          "published_at": "2026-07-01T17:19+08:00",
+          "url": "https://www.straitstimes.com/world/ebola-cases-traced-to-congo-province-bordering-on-south-sudan"
+        },
+        {
+          "id": "ob2",
+          "headline": "Bangladesh warns of dengue surge as wet weather aids mosquito spread",
+          "category": "Dengue",
+          "summary": "Bangladesh's health authorities warned of a surge in dengue cases as monsoon rains create favourable conditions for mosquitoes, straining hospitals and prompting calls for stepped-up vector control.",
+          "source": "CNA",
+          "published_at": "2026-07-01T15:39+08:00",
+          "url": "https://www.channelnewsasia.com/asia/bangladesh-dengue-cases-surge-wet-weather-6224081"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "AI and agent security dominated this cycle: Microsoft warned that poisoned MCP tool descriptions can make AI agents leak data, researchers turned AI browsers against their users, and an exploited Langflow flaw dropped crypto-miners. Enterprise edge gear also took a beating — critical pre-auth bugs in Progress Kemp LoadMaster (CVSS 9.8) and Citrix NetScaler, plus actively exploited Oracle E-Business Suite (9.8) and SimpleHelp (CVSS 10) flaws. Patch the exploited and pre-auth issues first.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "'Phantom Squatting' uses AI-hallucinated domains for phishing and malware",
+          "category": "Threat Research",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers described 'Phantom Squatting,' where attackers register domain names that AI models tend to hallucinate, then stand up phishing pages and malware on them to catch users who trust AI-suggested links.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-01T15:20+08:00",
+          "url": "https://thehackernews.com/2026/07/phantom-squatting-uses-ai-hallucinated.html"
+        },
+        {
+          "id": "cs2",
+          "headline": "Azure CLI password-spray campaign hits at least 78 Microsoft accounts",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A password-spraying campaign abusing the Azure CLI made more than 81 million authentication attempts and compromised at least 78 Microsoft accounts, researchers said, underscoring the need for MFA and conditional-access controls.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-01T13:46+08:00",
+          "url": "https://thehackernews.com/2026/07/azure-cli-password-spray-hits-at-least.html"
+        },
+        {
+          "id": "cs3",
+          "headline": "Analysis of 3,000 live ClickFix payloads exposes API-driven malware delivery",
+          "category": "Threat Research",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A study of about 3,000 live ClickFix payloads revealed an increasingly API-driven malware-delivery pipeline, with attackers automating the social-engineering lures that trick users into running malicious commands.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-01T13:32+08:00",
+          "url": "https://thehackernews.com/2026/07/researcher-analyzes-3000-live-clickfix.html"
+        },
+        {
+          "id": "cs4",
+          "headline": "Citrix patches six NetScaler flaws allowing file read and denial-of-service",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-8451",
+          "cvss": 8.8,
+          "severity": "HIGH",
+          "summary": "Citrix released fixes for six NetScaler ADC and Gateway flaws that could enable arbitrary file reads or denial-of-service. The most serious (CVE-2026-8451, CVSS 8.8) is a memory-overread issue when the appliance is configured as a SAML IdP. No exploitation has been reported.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-01T11:54+08:00",
+          "url": "https://thehackernews.com/2026/07/citrix-patches-six-netscaler-flaws.html"
+        },
+        {
+          "id": "cs5",
+          "headline": "Oracle E-Business Suite flaw actively exploited; 900+ instances exposed",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-46817",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "A critical Oracle E-Business Suite flaw (CVE-2026-46817, CVSS 9.8) is being actively exploited in the wild, with over 900 internet-exposed instances at risk. Administrators are urged to apply Oracle's fixes and restrict exposure immediately.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-01T08:30+08:00",
+          "url": "https://thehackernews.com/2026/06/oracle-e-business-suite-flaw-cve-2026.html"
+        },
+        {
+          "id": "cs6",
+          "headline": "Adobe patches seven maximum-severity ColdFusion and Campaign flaws",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "Adobe issued patches for seven maximum-severity vulnerabilities across ColdFusion and Adobe Campaign that could allow code execution and other serious compromise. Admins should update promptly given the critical ratings.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-01T03:34+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/adobe-patches-seven-max-severity-coldfusion-campaign-flaws/"
+        },
+        {
+          "id": "cs7",
+          "headline": "Microsoft warns poisoned MCP tool descriptions can make AI agents leak data",
+          "category": "AI Security",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Microsoft warned that maliciously crafted Model Context Protocol (MCP) tool descriptions can manipulate AI agents into leaking data or taking unintended actions, a prompt-injection-style risk as agentic AI adoption grows.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-01T01:46+08:00",
+          "url": "https://thehackernews.com/2026/06/microsoft-warns-poisoned-mcp-tool.html"
+        },
+        {
+          "id": "cs8",
+          "headline": "Langflow RCE exploited to deploy Monero miner on exposed AI app endpoints",
+          "category": "Exploited Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Attackers are exploiting a remote code execution flaw in Langflow, a popular AI app-building tool, to deploy Monero cryptocurrency miners on internet-exposed endpoints. Users should update and avoid exposing Langflow to the internet.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-30T23:47+08:00",
+          "url": "https://thehackernews.com/2026/06/langflow-rce-exploited-to-deploy-monero.html"
+        },
+        {
+          "id": "cs9",
+          "headline": "SimpleHelp flaw exploited to deploy TaskWeaver and Djinn Stealer",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-48558",
+          "cvss": 10.0,
+          "severity": "CRITICAL",
+          "summary": "Attackers are exploiting an authentication-bypass flaw in SimpleHelp remote-support software (CVE-2026-48558, CVSS 10.0) to deploy the TaskWeaver framework and Djinn Stealer. The bug was added to CISA's Known Exploited Vulnerabilities catalog.",
+          "source": "The Hacker News, CISA KEV",
+          "published_at": "2026-06-30T19:18+08:00",
+          "url": "https://thehackernews.com/2026/06/attackers-exploit-simplehelp-cve-2026.html"
+        },
+        {
+          "id": "cs10",
+          "headline": "'BioShocking' attack manipulates AI browsers into leaking user credentials",
+          "category": "AI Security",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers demonstrated a 'BioShocking' attack that tricks AI-powered browsers into leaking user credentials and data, adding to a growing body of work showing how agentic browsing features can be turned against their users.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-30T17:50+08:00",
+          "url": "https://thehackernews.com/2026/06/new-bioshocking-attack-tricks-ai.html"
+        },
+        {
+          "id": "cs11",
+          "headline": "AirDrop and Quick Share flaws let nearby attackers crash devices, bypass checks",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Newly disclosed flaws in Apple's AirDrop and Google's Quick Share let attackers within wireless range trigger crashes and bypass security checks. Users should keep devices updated and limit sharing to contacts.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-30T17:27+08:00",
+          "url": "https://thehackernews.com/2026/06/airdrop-and-quick-share-flaws-let.html"
+        },
+        {
+          "id": "cs12",
+          "headline": "Malicious PyPI packages give attackers control of Telegram bot servers",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Malicious packages on the PyPI repository were found to hand attackers control of Telegram bot servers, the latest in a run of open-source supply-chain attacks targeting developers.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-30T17:02+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/malicious-pypi-packages-give-hackers-control-of-telegram-bot-servers/"
+        },
+        {
+          "id": "cs13",
+          "headline": "Progress Kemp LoadMaster flaw lets attackers run root commands pre-auth",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-8037",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "A critical flaw in Progress Kemp LoadMaster (CVE-2026-8037, CVSS 9.8) lets an unauthenticated attacker run commands as root via a crafted API request. watchTowr Labs published a full exploit write-up on June 29; admins should upgrade to the fixed versions.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-30T15:38+08:00",
+          "url": "https://thehackernews.com/2026/06/progress-kemp-loadmaster-flaw-could-let.html"
+        },
+        {
+          "id": "cs14",
+          "headline": "Insurance giant Aflac discloses data breach after subsidiary hack",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Insurance giant Aflac disclosed a data breach stemming from a hack of one of its subsidiaries, the latest breach to hit a major insurer. The scope of exposed data was being assessed.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-30T07:12+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/insurance-giant-aflac-discloses-data-breach-after-subsidiary-hack/"
+        },
+        {
+          "id": "cs15",
+          "headline": "Blackfield ransomware demands US$2 million from Nidec Corporation",
+          "category": "Ransomware",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "The Blackfield ransomware operation demanded a US$2 million ransom from Japanese motor manufacturer Nidec Corporation, claiming to have stolen data in the attack.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-30T05:41+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/blackfield-ransomware-asks-nidec-corporation-for-2-million-ransom/"
+        },
+        {
+          "id": "cs16",
+          "headline": "Fake Perplexity Chrome extension intercepted searches and address-bar input",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A malicious extension impersonating Perplexity on the Chrome Web Store intercepted users' searches and address-bar input, harvesting browsing activity before it was removed.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-29T23:40+08:00",
+          "url": "https://thehackernews.com/2026/06/malicious-perplexity-chrome-extension.html"
+        },
+        {
+          "id": "cs17",
+          "headline": "Apple patches 30+ iOS, macOS and Safari flaws, including AI-discovered WebKit bugs",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Apple shipped fixes for more than 30 vulnerabilities across iOS, macOS and Safari, including several WebKit bugs surfaced with AI-assisted analysis. Users should update to the latest releases.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-29T23:30+08:00",
+          "url": "https://thehackernews.com/2026/06/apple-patches-30-ios-macos-safari-flaws.html"
+        },
+        {
+          "id": "cs18",
+          "headline": "Mustang Panda abuses Zoho WorkDrive as command channel in Indian government attacks",
+          "category": "APT",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "The China-linked group Mustang Panda used Zoho WorkDrive as a command-and-control channel in a campaign targeting Indian government entities, blending malicious traffic with legitimate cloud services.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-29T23:03+08:00",
+          "url": "https://thehackernews.com/2026/06/mustang-panda-uses-zoho-workdrive-as.html"
+        },
+        {
+          "id": "cs19",
+          "headline": "Gamaredon expands Ukraine attacks with new malware and cloud-service abuse",
+          "category": "APT",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Russia-linked Gamaredon expanded its attacks against Ukraine using new malware and abuse of legitimate cloud services, continuing its long-running espionage campaign.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-29T19:40+08:00",
+          "url": "https://thehackernews.com/2026/06/gamaredon-expands-ukraine-attacks-with.html"
+        },
+        {
+          "id": "cs20",
+          "headline": "Public PoC released for critical libssh2 client-side SSH flaw",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-55200",
+          "cvss": 8.1,
+          "severity": "HIGH",
+          "summary": "A public proof-of-concept was released for CVE-2026-55200 (CVSS 8.1), a critical client-side flaw in the widely used libssh2 library that could be exploited by a malicious server. Projects bundling libssh2 should update.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-29T15:06+08:00",
+          "url": "https://thehackernews.com/2026/06/public-poc-released-for-critical.html"
+        },
+        {
+          "id": "cs21",
+          "headline": "Hijacked npm and Go packages use VS Code tasks to deploy Python infostealer",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Hijacked npm and Go packages were found abusing VS Code tasks to deploy a Python infostealer on developers' machines, another supply-chain attack aimed at the software development pipeline.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-29T13:36+08:00",
+          "url": "https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html"
+        }
+      ]
+    }
+  }
+}

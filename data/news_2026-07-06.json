@@ -1,0 +1,603 @@
+{
+  "meta": {
+    "date": "2026-07-06",
+    "generated_at": "2026-07-06T21:05:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "BBC",
+      "CNA",
+      "The Straits Times",
+      "Mothership",
+      "WHO",
+      "CISA",
+      "The Hacker News",
+      "BleepingComputer",
+      "NEA",
+      "LTA / data.gov.sg"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "The Middle East and Ukraine dominate the day. Huge crowds filled Tehran for the funeral of slain supreme leader Ali Khamenei, with mourners chanting for vengeance against Trump, while Hamas announced it was dissolving its Gaza governing body to try to unstick a stalled peace plan. In Ukraine, Kyiv says at least 19 died in fresh Russian strikes and warns it is running short of interceptor missiles, even as Trump offers to broker a deal with Putin. Elsewhere, China test-fired a missile into the Pacific, a Sri Lankan prison riot killed 25, and Typhoon Maysak brought catastrophic flooding to southern China.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "Huge crowds fill Tehran for Khamenei's funeral procession",
+          "category": "Middle East",
+          "summary": "Vast crowds packed central Tehran for the state funeral of supreme leader Ali Khamenei, killed in an Israeli strike in February. Mourners called for vengeance on US President Trump; Hezbollah and Hamas representatives attended and three of Khamenei's sons appeared, but no successor was named.",
+          "source": "BBC, The Straits Times",
+          "published_at": "2026-07-06T20:07+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cdejj44kl70o"
+        },
+        {
+          "id": "ts2",
+          "headline": "Ukraine warns of interceptor-missile shortage as strikes kill at least 19",
+          "category": "Russia-Ukraine War",
+          "summary": "Ukrainian authorities said at least 19 people were killed in Russian missile and drone strikes on the Kyiv region, and warned the country is running low on interceptor missiles to defend its cities. Casualty figures are attributed to Ukrainian officials.",
+          "source": "BBC",
+          "published_at": "2026-07-06T20:15+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cewqqnd7zdwo"
+        },
+        {
+          "id": "ts3",
+          "headline": "Hamas announces dissolution of its Gaza governing body",
+          "category": "Israel-Gaza",
+          "summary": "Hamas said it would dissolve the administrative committee running Gaza, pressing for progress on a stalled US-backed peace plan after a fragile ceasefire in place since October 2025.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-06T17:08+08:00",
+          "url": "https://www.channelnewsasia.com/world/hamas-dissolve-gaza-governing-body-6235066"
+        },
+        {
+          "id": "ts4",
+          "headline": "Trump offers to help Putin reach a deal with Ukraine",
+          "category": "Diplomacy",
+          "summary": "US President Trump said he offered to help Russian President Putin reach a deal to end the war in Ukraine and also spoke with Ukrainian President Zelenskyy. No breakthrough was announced.",
+          "source": "CNA",
+          "published_at": "2026-07-06T05:29+08:00",
+          "url": "https://www.channelnewsasia.com/world/trump-offers-help-putin-deal-ukraine-war-russia-zelenskyy-6233456"
+        },
+        {
+          "id": "ts5",
+          "headline": "China test-fires missile into the Pacific, alarming regional powers",
+          "category": "Geopolitics",
+          "summary": "China test-fired a missile into the Pacific Ocean, CNA reported, a move that unsettled regional powers amid heightened tensions over its military build-up. Beijing frames such tests as routine.",
+          "source": "CNA",
+          "published_at": "2026-07-06T14:52+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/china-test-fires-missiles-pacific-6234806"
+        },
+        {
+          "id": "ts6",
+          "headline": "Sri Lanka prison riot kills 25, wounds more than 100",
+          "category": "Asia",
+          "summary": "A riot at a Sri Lankan prison left at least 25 people dead and more than 100 wounded, authorities said. Details of the cause were still emerging.",
+          "source": "CNA",
+          "published_at": "2026-07-06T18:19+08:00",
+          "url": "https://www.channelnewsasia.com/asia/sri-lanka-prison-riot-deaths-6235206"
+        },
+        {
+          "id": "ts7",
+          "headline": "Typhoon Maysak triggers catastrophic flooding in southern China",
+          "category": "Disaster",
+          "summary": "The Chinese city of Nanning went on top alert as Typhoon Maysak brought heavy rain and catastrophic flooding to the region, prompting evacuations and emergency response.",
+          "source": "CNA",
+          "published_at": "2026-07-06T17:34+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/china-nanning-typhoon-maysak-flooding-heavy-rain-6234701"
+        },
+        {
+          "id": "ts8",
+          "headline": "Girl rescued after 32 hours trapped under Venezuela quake rubble",
+          "category": "World",
+          "summary": "A young girl was pulled alive from the rubble after 32 hours following an earthquake in Venezuela, telling rescuers she survived on ketchup and cheese. Search-and-rescue efforts continued.",
+          "source": "BBC",
+          "published_at": "2026-07-06T13:04+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c9922x87nj8o"
+        },
+        {
+          "id": "ts9",
+          "headline": "Britain sanctions Russians it links to Navalny's poisoning",
+          "category": "World Politics",
+          "summary": "Britain imposed sanctions on Russians it says developed the chemical weapons used to kill opposition figure Alexei Navalny, part of continued Western pressure on Moscow.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-06T20:25+08:00",
+          "url": "https://www.straitstimes.com/world/europe/britain-sanctions-russians-it-says-developed-chemical-weapons-used-to-kill-opposition-figure-navalny"
+        },
+        {
+          "id": "ts10",
+          "headline": "Norway stun Brazil 2-1 to reach World Cup quarter-finals",
+          "category": "Sport",
+          "summary": "Norway beat Brazil 2-1 to reach the quarter-finals of the 2026 World Cup, one of the tournament's biggest upsets so far.",
+          "source": "CNA",
+          "published_at": "2026-07-06T06:09+08:00",
+          "url": "https://www.channelnewsasia.com/sport/norway-vs-brazil-world-cup-2026-haaland-neymar-6233641"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "Diplomacy leads locally: PM Wong is in Jakarta for the Singapore-Indonesia Leaders' Retreat, where the two sides said they are 'strategically aligned' on keeping the Straits of Malacca and Singapore open and agreed to cooperate on carbon credits and SME trade, while Singapore and Japan signed a space pact. A man, 24, died and six others were hospitalised after a lightning strike at Pasir Ris Beach. In Parliament, a ministerial statement is due on the conduct of WP MPs Sylvia Lim and Faisal Manap, and the Nvidia-chips money-laundering case widened. Skies stay wet with thundery showers forecast.",
+      "weather": {
+        "forecast": "Thundery Showers",
+        "temp_low": 26,
+        "temp_high": 34,
+        "humidity_low": 60,
+        "humidity_high": 90,
+        "as_of": "2026-07-06T20:38+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jun 2026 · 2nd bidding",
+        "as_of": "2026-06-17",
+        "next_results": "2026-07-08",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          {
+            "code": "A",
+            "label": "Cars up to 1600cc & 130bhp",
+            "premium": 123847,
+            "change": -2162
+          },
+          {
+            "code": "B",
+            "label": "Cars above 1600cc or 130bhp",
+            "premium": 123502,
+            "change": -3487
+          }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "Singapore and Indonesia 'strategically aligned' on keeping key straits open: PM Wong",
+          "category": "Foreign Relations",
+          "summary": "At the annual Leaders' Retreat in Jakarta, PM Lawrence Wong and Indonesian President Prabowo said the two nations are strategically aligned in keeping the Straits of Malacca and Singapore open to all shipping, amid regional maritime-security concerns.",
+          "source": "CNA",
+          "published_at": "2026-07-06T19:34+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/indonesia-strait-hormuz-singapore-prabowo-lawrence-wong-6235256"
+        },
+        {
+          "id": "sg2",
+          "headline": "Singapore and Indonesia to collaborate on carbon credits and SME trade",
+          "category": "Economy",
+          "summary": "Singapore and Indonesia agreed to cooperate on cross-border carbon credits and to ease cross-border trade for small and medium enterprises, among the deals struck at the leaders' retreat.",
+          "source": "CNA",
+          "published_at": "2026-07-06T16:18+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/singapore-indonesia-carbon-credits-energy-prabowo-6234091"
+        },
+        {
+          "id": "sg3",
+          "headline": "Singapore and Japan sign agreement to strengthen space collaboration",
+          "category": "Government",
+          "summary": "Singapore and Japan signed an agreement to deepen cooperation in the space sector, covering areas such as satellite technology and research.",
+          "source": "CNA",
+          "published_at": "2026-07-06T15:31+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/japan-singapore-space-agreement-6234296"
+        },
+        {
+          "id": "sg4",
+          "headline": "Man, 24, dies after lightning strike at Pasir Ris Beach; six others hospitalised",
+          "category": "Local",
+          "summary": "A 24-year-old man died and six others were taken to hospital after a lightning strike near Pasir Ris Beach. He was a paddleboarding participant and, his company said, a dedicated outdoor-sports instructor.",
+          "source": "CNA, The Straits Times, Mothership",
+          "published_at": "2026-07-06T13:58+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/lightning-pasir-ris-beach-died-instructor-mikhail-benyamin-6234656"
+        },
+        {
+          "id": "sg5",
+          "headline": "Ministerial statement due on conduct of WP's Sylvia Lim and Faisal Manap",
+          "category": "Politics",
+          "summary": "Minister Indranee Rajah is set to deliver a ministerial statement in Parliament on the conduct of Workers' Party MPs Sylvia Lim and Faisal Manap over their involvement with a film company.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-07-06T12:27+08:00",
+          "url": "https://www.straitstimes.com/singapore/politics/indranee-to-deliver-ministerial-statement-in-parliament-on-conduct-of-wps-sylvia-lim-faisal-manap"
+        },
+        {
+          "id": "sg6",
+          "headline": "Tech CEO charged with laundering S$38m in Nvidia-chips case, bail raised to S$1.25m",
+          "category": "Courts & Crime",
+          "summary": "A technology-firm chief executive was charged with laundering some S$38 million tied to the Nvidia-chips fraud case, allegedly using the proceeds to buy a good-class bungalow. His bail was raised to S$1.25 million.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-06T12:17+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/aperia-ceo-nvidia-chips-charged-laundering-38m-gcb-bungalow-6234206"
+        },
+        {
+          "id": "sg7",
+          "headline": "Law Society hearing on possible sanctions against Pritam Singh set for Aug 13",
+          "category": "Legal",
+          "summary": "A hearing on possible disciplinary sanctions against Workers' Party chief Pritam Singh, sought by the Law Society, has been fixed for Aug 13.",
+          "source": "CNA",
+          "published_at": "2026-07-06T20:36+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/pritam-singh-disciplinary-proceedings-law-society-hearing-6235381"
+        },
+        {
+          "id": "sg8",
+          "headline": "Team Singapore athlete charged with sex offences",
+          "category": "Courts & Crime",
+          "summary": "A Team Singapore athlete was charged in court with sex offences. Details remain limited pending proceedings.",
+          "source": "CNA",
+          "published_at": "2026-07-06T19:14+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/team-singapore-athlete-sex-offences-6235291"
+        },
+        {
+          "id": "sg9",
+          "headline": "SBS Transit bids farewell to Tampines after 40 years as Go-Ahead takes over",
+          "category": "Transport / Local",
+          "summary": "SBS Transit ended 40 years of running the Tampines bus package as operator Go-Ahead Singapore took over the route cluster, marking a notable change for commuters in the east.",
+          "source": "Mothership",
+          "published_at": "2026-07-06T12:07+08:00",
+          "url": "https://mothership.sg/2026/07/go-ahead-singapore-sbs-transit-tampines-bus-package-handover/"
+        },
+        {
+          "id": "sg10",
+          "headline": "Cantonese eatery Dudu to close after landlord gives a month to move out",
+          "category": "Trending / Food",
+          "summary": "Popular Cantonese restaurant Dudu said it will close after its landlord gave the owner about a month to vacate before the lease expires, prompting a wave of reaction from diners.",
+          "source": "CNA",
+          "published_at": "2026-07-06T13:28+08:00",
+          "url": "https://www.channelnewsasia.com/dining/dudu-cantonese-cuisine-closing-down-6234121"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "Ukraine is under renewed pressure: Kyiv says at least 19 died in fresh Russian strikes and warns it is short of interceptor missiles, while Trump offers to help broker a deal with Putin. In the Middle East, Iran held a mass funeral for slain leader Khamenei with no successor named, and Hamas said it will dissolve its Gaza governing body to push a stalled peace plan forward. Ceasefires in both Gaza/Lebanon and the Iran theatre remain fragile, with a reported Israeli drone strike killing four in southern Lebanon.",
+      "theatres": [
+        {
+          "name": "Russia-Ukraine War",
+          "status": "Active - Russia intensifies strikes on Kyiv (19 killed Jul 6); Ukraine warns of interceptor shortage; Trump pushes diplomacy",
+          "timeline": [
+            {
+              "date": "2026-07-06",
+              "event": "Ukrainian authorities said at least 19 people were killed in Russian strikes on the Kyiv region, and Ukraine warned it is running short of interceptor missiles to defend its cities.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cewqqnd7zdwo"
+            },
+            {
+              "date": "2026-07-06",
+              "event": "Trump said he offered to help Putin reach a deal to end the war and also spoke with Zelenskyy; no breakthrough was announced.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/trump-offers-help-putin-deal-ukraine-war-russia-zelenskyy-6233456"
+            },
+            {
+              "date": "2026-07-06",
+              "event": "A European intelligence report warned the war threatens to trigger a Russian banking crisis.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/war-threatens-russian-banking-crisis-european-intelligence-report-says"
+            },
+            {
+              "date": "2026-07-05",
+              "event": "Ukrainian drone attacks damaged Russia's Baltic oil ports Ust-Luga and Vysotsk, with strikes reported across several Russian regions.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/drone-debris-damages-russias-ust-luga-vysotsk-ports-other-regions-report-attacks"
+            },
+            {
+              "date": "2026-07-02",
+              "event": "A massive Russian barrage on Kyiv killed at least 27 and injured more than 100; Ukraine said about 70 missiles and roughly 500 drones were launched.",
+              "source": "NPR",
+              "url": "https://www.npr.org/2026/07/02/g-s1-131681/russian-attack-ukraine"
+            },
+            {
+              "date": "2022-02-24",
+              "event": "Russia launches its full-scale invasion of Ukraine, beginning the largest European land war since 1945 (context).",
+              "source": "BBC",
+              "url": "https://www.bbc.com/news/world-europe-60506682"
+            }
+          ]
+        },
+        {
+          "name": "US/Israel-Iran",
+          "status": "Fragile ceasefire holds; Iran in transition after Khamenei's death; Hormuz trade reopening tentatively",
+          "timeline": [
+            {
+              "date": "2026-07-06",
+              "event": "Huge crowds filled Tehran for the funeral procession of slain supreme leader Ali Khamenei; mourners called for vengeance on Trump, Hezbollah and Hamas representatives attended, and no successor was named.",
+              "source": "BBC, The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/iranian-mourners-call-for-vengeance-on-trump-during-khamenei-funeral-procession"
+            },
+            {
+              "date": "2026-07-06",
+              "event": "Iran and Qatar resumed maritime trade, Iranian state media reported (claim, not independently verified).",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/iran-qatar-maritime-trade-iranian-6233051"
+            },
+            {
+              "date": "2026-07-05",
+              "event": "OPEC+ approved a further oil-output increase as Strait of Hormuz exports began to recover; analysts called the reopening fragile.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/oil-supply-increase-opec-exports-hormuz-6233046"
+            },
+            {
+              "date": "2026-06-17",
+              "event": "US and Iranian presidents signed a memorandum of understanding for a 60-day ceasefire extension to negotiate final terms.",
+              "source": "UK House of Commons Library",
+              "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-10637/"
+            },
+            {
+              "date": "2026-02-28",
+              "event": "Israeli airstrikes on Tehran killed Iran's supreme leader Ali Khamenei, triggering war between Iran and the US/Israel (context).",
+              "source": "Britannica",
+              "url": "https://www.britannica.com/event/2026-Iran-war"
+            }
+          ]
+        },
+        {
+          "name": "Israel-Gaza / Lebanon",
+          "status": "Fragile ceasefire strained; Hamas dissolves Gaza governing body amid stalled peace plan; sporadic strikes continue",
+          "timeline": [
+            {
+              "date": "2026-07-06",
+              "event": "Hamas announced it will dissolve its Gaza governing body, pressing for progress on a stalled US-backed peace plan.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/hamas-to-dissolve-gaza-governing-body-say-officials"
+            },
+            {
+              "date": "2026-07-06",
+              "event": "An Israeli drone strike killed four people in southern Lebanon, testing the ceasefire, Lebanese state media reported.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/israeli-drone-strike-kills-four-people-in-southern-lebanon-lebanese-state-media-reports"
+            },
+            {
+              "date": "2026-07-02",
+              "event": "Gaza marked 1,000 days since the war began; the October 2025 ceasefire holds only partially as Israeli operations and dire humanitarian conditions continue.",
+              "source": "The Washington Post",
+              "url": "https://www.washingtonpost.com/national/2026/07/02/gaza-palestinian-israel-thousand-days-war-ceasefire/04fef164-75d4-11f1-b665-5f8be87f3787_story.html"
+            },
+            {
+              "date": "2025-10-10",
+              "event": "Israel and Hamas sign a ceasefire agreement, largely pausing large-scale fighting after two years of war (context).",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/4/10/neither-war-nor-peace-what-gaza-looks-like-six-months-into-ceasefire"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "The Bundibugyo Ebola epidemic in the Democratic Republic of the Congo remains the gravest event, with WHO now reporting 1,481 confirmed cases and 454 deaths across the DRC, Uganda and one imported case in France; the pace is still high, with 838 cases in the past 21 days. A ship-linked Andes hantavirus cluster from the MV Hondius stands at 13 cases and three deaths, with contact tracing spanning 33 countries. WHO also flagged a single confirmed Nipah case in Kerala, India, and rising global yellow-fever activity. The Ebola outbreak is even spurring countries to revive stalled pandemic-treaty talks.",
+      "outbreaks": [
+        {
+          "name": "Bundibugyo Ebola - DR Congo & Uganda",
+          "status": "Large, still-active epidemic; high case fatality",
+          "cases": 1481,
+          "deaths": 454,
+          "countries": 3,
+          "as_of": "2026-07-02",
+          "scope_note": "WHO DON612 (3 Jul): confirmed cases only - DRC 1,460/452 deaths, Uganda 20/2, plus one imported case in France linked to DRC. Crude CFR ~30%; 838 cases and 314 deaths in the past 21 days."
+        },
+        {
+          "name": "Andes hantavirus - MV Hondius cruise ship",
+          "status": "Ship-linked cluster; limited person-to-person spread aboard",
+          "cases": 13,
+          "deaths": 3,
+          "countries": 33,
+          "as_of": "2026-07-02",
+          "scope_note": "WHO DON611 (2 Jul): 13 cases (12 confirmed, 1 probable) and 3 deaths (2 confirmed, 1 probable), all among MV Hondius travellers; CFR ~23%. 'Countries' = 33 nations/territories doing contact tracing, not case locations; off-ship risk low."
+        },
+        {
+          "name": "Nipah virus - Kerala, India",
+          "status": "Single confirmed case under investigation",
+          "cases": 1,
+          "deaths": 0,
+          "countries": 1,
+          "as_of": "2026-06-25",
+          "scope_note": "WHO DON609 (25 Jun): one laboratory-confirmed case in Kozhikode district, Kerala (reported 11 Jun); part of a recurrent regional pattern. Historical Nipah CFR ranges 40-75%."
+        },
+        {
+          "name": "Yellow fever - global",
+          "status": "Rising cross-regional activity; WHO monitoring",
+          "cases": "95+",
+          "deaths": "—",
+          "countries": 9,
+          "as_of": "2026-06-24",
+          "scope_note": "WHO DON610 (24 Jun): Jan-May 2026 saw 16 confirmed cases in Africa (Burkina Faso, CAR, Cameroon) and 79 in the Americas (6 countries, Colombia most affected). Figures are confirmed cases only; true burden is far higher."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "Jolted by Ebola, countries try again to finish pandemic treaty",
+          "category": "Global Health",
+          "summary": "The Bundibugyo Ebola epidemic has renewed urgency behind long-stalled negotiations for a global pandemic treaty, as countries seek stronger rules on outbreak response and vaccine sharing.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-06T19:15+08:00",
+          "url": "https://www.straitstimes.com/world/jolted-by-ebola-countries-try-again-to-finish-pandemic-treaty"
+        },
+        {
+          "id": "ob2",
+          "headline": "WHO: Bundibugyo Ebola cases pass 1,480 with 454 deaths",
+          "category": "Ebola",
+          "summary": "In its latest Disease Outbreak News, WHO reported 1,481 confirmed Bundibugyo virus cases and 454 deaths - 1,460 cases in the DRC, 20 in Uganda and one imported case in France - with 838 new cases in the past 21 days, underscoring continued transmission.",
+          "source": "WHO",
+          "published_at": "2026-07-03",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON612"
+        },
+        {
+          "id": "ob3",
+          "headline": "WHO updates ship-linked Andes hantavirus cluster to 13 cases, 3 deaths",
+          "category": "Hantavirus",
+          "summary": "WHO's latest update on the MV Hondius Andes hantavirus outbreak reported 13 cases and three deaths among cruise-ship travellers, with confirmed human-to-human transmission aboard and contact tracing across 33 countries and territories.",
+          "source": "WHO",
+          "published_at": "2026-07-02",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON611"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "AI-abusing attackers and software supply-chain compromises dominate this cycle. Researchers documented ransomware crews (JadePuffer) using AI agents to automate whole intrusions, and North Korea-linked actors flooded npm with over 100 malicious packages to steal developer secrets. On the vulnerability front, a 'Bad Epoll' Linux kernel flaw grants unprivileged users root (also hitting Android), and unpatched filesystem bugs affect millions of embedded devices. A takedown of the NetNut proxy network cut off some 2 million infected home devices.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "Suspected China-nexus hackers use fake Indian tax-filing utility to deploy DcRAT",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "A suspected China-nexus group distributed a fake Indian income-tax filing utility to deliver the DcRAT remote-access trojan, targeting users with a trojanised tool.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-06",
+          "url": "https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html"
+        },
+        {
+          "id": "cs2",
+          "headline": "New Java-based QuimaRAT malware-as-a-service runs on Windows, Linux and macOS",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers detailed QuimaRAT, a cross-platform Java-based remote-access trojan sold as a service that can run across Windows, Linux and macOS, lowering the bar for multi-OS intrusions.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-06",
+          "url": "https://thehackernews.com/2026/07/new-java-based-quimarat-maas-built-to.html"
+        },
+        {
+          "id": "cs3",
+          "headline": "Opera GX flaw let malicious sites auto-install mods to steal data",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A flaw in the Opera GX browser allowed malicious websites to silently auto-install browser mods capable of stealing data from pages the victim visited. Opera has addressed the issue.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-06",
+          "url": "https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html"
+        },
+        {
+          "id": "cs4",
+          "headline": "'SkillCloak' lets malicious AI-agent skills evade static scanners",
+          "category": "Security Research",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers showed how 'SkillCloak' hides malicious behaviour in AI-agent 'skills' using self-extracting payloads that evade static scanners, highlighting supply-chain risks in agent ecosystems.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-06",
+          "url": "https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html"
+        },
+        {
+          "id": "cs5",
+          "headline": "JadePuffer ransomware used an AI agent to automate the entire attack",
+          "category": "Ransomware",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "BleepingComputer reported that the JadePuffer ransomware operation used an AI agent to automate an intrusion end-to-end - from access to encryption - signalling growing AI-driven automation of attacks.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-04",
+          "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/"
+        },
+        {
+          "id": "cs6",
+          "headline": "US government entity paid Kairos $1 million in data-theft extortion case",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "A US government entity paid the Kairos extortion group about $1 million after a data-theft incident, according to reporting on the case.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-04",
+          "url": "https://thehackernews.com/2026/07/us-government-entity-paid-kairos-group.html"
+        },
+        {
+          "id": "cs7",
+          "headline": "North Korean hackers publish 108 malicious packages in 'PolinRider' campaign",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "North Korea-linked actors published 108 malicious open-source packages and extensions in a campaign dubbed PolinRider, aimed at compromising developers and stealing credentials.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-04",
+          "url": "https://thehackernews.com/2026/07/north-korean-hackers-publish-108.html"
+        },
+        {
+          "id": "cs8",
+          "headline": "Unpatched flaws disclosed in filesystem bundled into millions of embedded devices",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers disclosed unpatched vulnerabilities in a filesystem embedded in millions of IoT and embedded devices, raising risk for widely deployed hardware pending vendor fixes.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-04",
+          "url": "https://thehackernews.com/2026/07/unpatched-flaws-disclosed-in-filesystem.html"
+        },
+        {
+          "id": "cs9",
+          "headline": "'Bad Epoll' Linux kernel flaw lets unprivileged users gain root, hits Android",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A newly disclosed Linux kernel flaw dubbed 'Bad Epoll' allows unprivileged local users to escalate to root and also affects Android, exposing a broad range of systems to privilege escalation.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-04",
+          "url": "https://thehackernews.com/2026/07/new-bad-epoll-linux-kernel-flaw-lets.html"
+        },
+        {
+          "id": "cs10",
+          "headline": "New Avalon malware framework packs CrownX ransomware capabilities",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers detailed Avalon, a modular malware framework that bundles CrownX ransomware capabilities, giving operators a flexible toolkit for intrusions and extortion.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-04",
+          "url": "https://thehackernews.com/2026/07/new-avalon-malware-framework-packs.html"
+        },
+        {
+          "id": "cs11",
+          "headline": "NetNut residential proxy network disrupted; 2 million infected devices cut off",
+          "category": "Takedown",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Google-led action disrupted the NetNut residential proxy network, cutting off roughly 2 million infected home devices used to route malicious and abusive traffic.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-07-04",
+          "url": "https://www.bleepingcomputer.com/news/security/netnut-proxy-network-disrupted-2-million-infected-devices-cut-off/"
+        },
+        {
+          "id": "cs12",
+          "headline": "North Korea-linked npm packages mimic Rollup polyfills to steal developer secrets",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "North Korea-linked npm packages impersonated Rollup polyfills to steal secrets from developers who installed them, part of an ongoing push against the software supply chain.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-04",
+          "url": "https://thehackernews.com/2026/07/north-korea-linked-npm-packages-mimic.html"
+        },
+        {
+          "id": "cs13",
+          "headline": "ARToken PhaaS exposes EvilTokens' Microsoft 365 phishing toolkit",
+          "category": "Phishing",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "BleepingComputer detailed the ARToken phishing-as-a-service operation, exposing the EvilTokens toolkit used to phish and hijack Microsoft 365 accounts.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-03",
+          "url": "https://www.bleepingcomputer.com/news/security/artoken-phaas-exposes-eviltokens-microsoft-365-phishing-toolkit/"
+        },
+        {
+          "id": "cs14",
+          "headline": "Armored Likho targets government agencies and power sector with BusySnake stealer",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "The Armored Likho group targeted government agencies and the power sector with a new BusySnake information-stealer, continuing a campaign against critical institutions.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-03",
+          "url": "https://thehackernews.com/2026/07/armored-likho-targets-government.html"
+        }
+      ]
+    }
+  }
+}
