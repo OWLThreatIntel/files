@@ -1,0 +1,516 @@
+{
+  "meta": {
+    "date": "2026-06-29",
+    "generated_at": "2026-06-29T21:00:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "CNA",
+      "The Straits Times",
+      "BBC",
+      "Mothership",
+      "WHO Disease Outbreak News",
+      "ECDC",
+      "The Hacker News",
+      "BleepingComputer",
+      "CISA KEV",
+      "NVD",
+      "NEA",
+      "LTA / data.gov.sg"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "Diplomacy is edging ahead of conflict in the Gulf: after days of strikes, the US says it has agreed to 'stand down' with Iran, and envoys Jared Kushner and Steve Witkoff are heading to Doha for talks. Violence still punctuated the day — a shooting at a youth centre in Stade, Germany killed five, and Pakistani strikes killed dozens in Afghanistan. Europe's record heatwave, linked by the WHO to about 1,300 deaths, is now spreading to Italy and the Balkans, while Venezuela's quake toll nears 1,500. In Asia, China blacklisted 20 Japanese firms and South Korea unveiled a huge AI-chip investment push.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "US says it has agreed to 'stand down' with Iran; envoys head to Doha for talks",
+          "category": "Middle East",
+          "summary": "A US official says Washington and Tehran have agreed to halt their latest exchange of strikes across the Strait of Hormuz, and that presidential envoys Jared Kushner and Steve Witkoff will travel to Doha for talks. Mediators are setting up de-escalation channels, though Iran is still warning shipping not to bypass its chosen Hormuz route; the truce is not yet formally confirmed by Tehran.",
+          "source": "BBC, CNA, The Straits Times",
+          "published_at": "2026-06-29T20:45+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c872rjw17qpo"
+        },
+        {
+          "id": "ts2",
+          "headline": "Five killed in shooting at youth centre in Stade, northern Germany",
+          "category": "Europe",
+          "summary": "Five people were shot and killed at a youth centre in Stade, northern Germany, with two suspects detained, police said. The motive was not immediately clear as investigators worked at the scene.",
+          "source": "BBC, CNA, The Straits Times",
+          "published_at": "2026-06-29T20:24+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c17yzzw1vkjo"
+        },
+        {
+          "id": "ts3",
+          "headline": "Europe's record heatwave linked to ~1,300 deaths spreads to Italy and the Balkans",
+          "category": "Climate",
+          "summary": "A punishing heatwave the WHO links to roughly 1,300 deaths is now gripping Italy and the Balkans, raising wildfire fears, after Germany recorded a national high of 41.7C. France has warned its toll will keep rising, reporting around 1,000 more deaths than expected.",
+          "source": "CNA, BBC",
+          "published_at": "2026-06-29T20:26+08:00",
+          "url": "https://www.channelnewsasia.com/world/italy-balkans-europe-heatwave-wildfire-fears-6218421"
+        },
+        {
+          "id": "ts4",
+          "headline": "Venezuela earthquake toll nears 1,500 as aftershock hits Caracas",
+          "category": "Disaster",
+          "summary": "The death toll from Venezuela's twin earthquakes is approaching 1,500 as an aftershock rattled Caracas and rescue efforts entered critical hours. Engineers have urged the government to audit state-built housing after the disaster.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-06-29T20:24+08:00",
+          "url": "https://www.straitstimes.com/world/aftershock-hits-caracas-as-rescue-efforts-enter-critical-hours-in-venezuela"
+        },
+        {
+          "id": "ts5",
+          "headline": "Putin acknowledges fuel shortages after Ukrainian strikes",
+          "category": "Russia-Ukraine",
+          "summary": "President Vladimir Putin admitted Russia is facing fuel shortages following Ukrainian strikes on energy infrastructure, while vowing Moscow will press on with its front-line campaign regardless of Ukrainian proposals.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-29T08:22+08:00",
+          "url": "https://www.channelnewsasia.com/world/putin-acknowledges-fuel-shortages-after-ukraine-strikes-6216986"
+        },
+        {
+          "id": "ts6",
+          "headline": "Pakistani strikes kill dozens in Afghanistan",
+          "category": "South Asia",
+          "summary": "Pakistani strikes killed dozens of people in Afghanistan, the latest flare-up in tensions between Islamabad and the Taliban government over cross-border militancy. Kabul condemned the attack.",
+          "source": "BBC",
+          "published_at": "2026-06-29T16:15+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cy8wygyed0wo"
+        },
+        {
+          "id": "ts7",
+          "headline": "China adds 20 Japanese entities to export blacklist",
+          "category": "China-Japan",
+          "summary": "China's commerce ministry says it has added 20 Japanese entities to its export-control blacklist, deepening trade friction between the two economies.",
+          "source": "CNA",
+          "published_at": "2026-06-29T11:31+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/china-japan-export-blacklist-commerce-6217316"
+        },
+        {
+          "id": "ts8",
+          "headline": "South Korea to invest nearly US$1.2 trillion in chips and AI data centres",
+          "category": "Economy",
+          "summary": "South Korea has unveiled a sweeping plan to invest nearly US$1.2 trillion in semiconductors and AI data centres, citing surging global demand for AI chips as it moves to cement its position in advanced manufacturing.",
+          "source": "CNA",
+          "published_at": "2026-06-29T10:13+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/south-korea-ai-chip-investment-6217126"
+        },
+        {
+          "id": "ts9",
+          "headline": "Australia to double maximum fines for platforms breaching teen social media ban",
+          "category": "Tech policy",
+          "summary": "Australia plans to double the maximum penalties for platforms such as Facebook and Instagram that fail to comply with its ban on social media accounts for children, sharpening enforcement of one of the world's strictest online-age rules.",
+          "source": "CNA, BBC",
+          "published_at": "2026-06-29T13:34+08:00",
+          "url": "https://www.channelnewsasia.com/world/australia-social-media-children-double-fines-facebook-instagram-6217996"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "Health and safety lead the local day: MOH is revoking the licence of Siglap's LC Nursing Home over 'serious and systemic' lapses in care, while an ammonia leak at a Fishery Port Road facility sent two people to hospital. A Kpod-using driver was jailed in the first such case since etomidate was reclassified as a drug. From today, victims of online harassment and doxxing can file reports with the new Online Safety Commission. On the lighter side, beloved Hokkien restaurant Beng Hiang reopened and a Singapore-made film took the top prize at Annecy. Expect thundery showers, 25-34C.",
+      "weather": {
+        "forecast": "Thundery Showers",
+        "temp_low": 25,
+        "temp_high": 34,
+        "humidity_low": 60,
+        "humidity_high": 95,
+        "as_of": "2026-06-29T19:31+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jun 2026 · 2nd bidding",
+        "as_of": "2026-06-17",
+        "next_results": "2026-07-08",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          {
+            "code": "A",
+            "label": "Cars up to 1600cc & 130bhp",
+            "premium": 123847,
+            "change": -2162
+          },
+          {
+            "code": "B",
+            "label": "Cars above 1600cc or 130bhp",
+            "premium": 123502,
+            "change": -3487
+          }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "MOH to revoke LC Nursing Home licence over 'serious and systemic' lapses",
+          "category": "Health",
+          "summary": "The Ministry of Health said it will revoke the licence of LC Nursing Home in Siglap after finding serious and systemic lapses in care and resident safety. Residents are being relocated to other facilities as the operator's licence is withdrawn.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-29T19:15+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/lc-nursing-home-licence-revoke-moh-6218516"
+        },
+        {
+          "id": "sg2",
+          "headline": "Two hospitalised, buildings evacuated after ammonia leak at Fishery Port Road",
+          "category": "Public safety",
+          "summary": "Two people were taken to hospital and buildings at a Fishery Port Road compound were evacuated after ammonia was detected at a marine cold-storage facility. SCDF deployed a hazmat team to the Jurong site.",
+          "source": "CNA, The Straits Times, Mothership",
+          "published_at": "2026-06-29T14:38+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/fishery-port-ammonia-jurong-marine-cold-storage-evacuated-6218091"
+        },
+        {
+          "id": "sg3",
+          "headline": "Kpod-using driver jailed in first such case since etomidate reclassified as a drug",
+          "category": "Courts",
+          "summary": "A driver who took a Kpod (etomidate-laced vape) and crashed after driving against traffic was jailed and banned — the first such conviction since etomidate was reclassified as a controlled drug. The case signals tougher treatment of vape-drug driving offences.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-29T17:19+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/kpod-etomidate-driver-crash-jail-ban-6218271"
+        },
+        {
+          "id": "sg4",
+          "headline": "Online Safety Commission opens for reports from June 29",
+          "category": "Tech / Policy",
+          "summary": "From today, victims of online harms such as harassment and doxxing can file reports with the new Online Safety Commission via its website, a body announced earlier in 2026 to help people tackle harmful online content. The commission can direct platforms to act on reported material.",
+          "source": "CNA, The Straits Times, Mothership",
+          "published_at": "2026-06-29T00:00+08:00",
+          "effective_date": "2026-06-29",
+          "url": "https://www.channelnewsasia.com/singapore/online-harassment-safety-commission-doxxing-osc-report-6207016"
+        },
+        {
+          "id": "sg5",
+          "headline": "Pritam Singh re-elected as Workers' Party chief after secret cadre vote",
+          "category": "Politics",
+          "summary": "Pritam Singh held on to his position as Workers' Party secretary-general after a secret ballot at a special cadres' conference, with the party saying it will respect the cadres' supermajority decision to retain him.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-06-28T22:00+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/workers-party-pritam-singh-cadres-cec-election-6216191"
+        },
+        {
+          "id": "sg6",
+          "headline": "Singapore Red Cross pledges S$100,000 for Venezuela quake relief",
+          "category": "Community",
+          "summary": "The Singapore Red Cross has committed S$100,000 to support earthquake-response efforts in Venezuela and launched a public fundraising appeal as the disaster's death toll nears 1,500.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-29T13:00+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/venezuela-quake-singapore-red-cross-aid-fundraising-6217361"
+        },
+        {
+          "id": "sg7",
+          "headline": "Iconic Hokkien restaurant Beng Hiang reopens at Shangri-La Singapore",
+          "category": "Trending",
+          "summary": "Beng Hiang, a long-loved Hokkien restaurant, has reopened inside Shangri-La Singapore months after closing its Jurong flagship — a return that drew an enthusiastic response from local food fans.",
+          "source": "CNA",
+          "published_at": "2026-06-29T10:40+08:00",
+          "url": "https://www.channelnewsasia.com/dining/beng-hiang-shangri-la-singapore-hokkien-restaurant-6217186"
+        },
+        {
+          "id": "sg8",
+          "headline": "Singapore-produced animated film 'The Violinist' wins top prize at Annecy",
+          "category": "Arts",
+          "summary": "A Singapore-produced animated film, The Violinist, won the highest honour at France's prestigious Annecy International Animation Film Festival, a notable win for the local animation scene.",
+          "source": "CNA",
+          "published_at": "2026-06-29T11:33+08:00",
+          "url": "https://www.channelnewsasia.com/entertainment/violinist-annecy-animation-award-singapore-6217111"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "The Strait of Hormuz crisis is cooling: after days of strikes, the US says it has agreed to 'stand down' with Iran, mediators have set up de-escalation channels, and envoys Kushner and Witkoff are travelling to Doha for talks — though Iran is still issuing shipping warnings. In Ukraine, Putin conceded Ukrainian strikes have caused fuel shortages but vowed to press on at the 'fortress belt', while the Kremlin says its peace terms are unchanged since 2024. In Lebanon and Gaza, Israel is destroying Hezbollah tunnel infrastructure and an Israeli strike killed three Palestinians in Gaza, as a senior Lebanese official slammed the US-brokered deal.",
+      "theatres": [
+        {
+          "name": "US–Iran (Strait of Hormuz)",
+          "status": "De-escalating: US says it has agreed to 'stand down'; envoys head to Doha for talks, Iran still warning shipping",
+          "timeline": [
+            {
+              "date": "2026-06-27",
+              "event": "A tanker is struck in the Strait of Hormuz as Iran and the US trade attacks in the worst escalation since their earlier peace deal.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/iran-us-war-hit-targets-bahrain-drone-attack-6215026"
+            },
+            {
+              "date": "2026-06-28",
+              "event": "Iran and the US step up attacks and threaten further escalation; both accuse each other of violating the ceasefire.",
+              "source": "CNA, BBC",
+              "url": "https://www.channelnewsasia.com/world/us-iran-war-escalate-fresh-strikes-hormuz-tanker-6215731"
+            },
+            {
+              "date": "2026-06-29",
+              "event": "Iran warns ships not to bypass its chosen Hormuz route even as both sides signal a halt.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/iran-warns-ships-not-bypass-its-chosen-hormuz-route-6216696"
+            },
+            {
+              "date": "2026-06-29",
+              "event": "The US says it has agreed to 'stand down' after the exchange of strikes; mediators set up de-escalation channels and envoys Kushner and Witkoff are to travel to Doha for talks.",
+              "source": "BBC, The Straits Times",
+              "url": "https://www.bbc.co.uk/news/articles/c872rjw17qpo"
+            }
+          ]
+        },
+        {
+          "name": "Russia–Ukraine",
+          "status": "Russia presses front-line offensive; Putin concedes fuel shortages from Ukrainian strikes",
+          "timeline": [
+            {
+              "date": "2026-06-29",
+              "event": "Putin acknowledges Russia is facing fuel shortages following Ukrainian strikes on energy infrastructure.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/putin-acknowledges-fuel-shortages-after-ukraine-strikes-6216986"
+            },
+            {
+              "date": "2026-06-29",
+              "event": "Putin says Russia will press on with its front-line campaign regardless of Ukrainian proposals; Russia pounds at the gates of Ukraine's eastern 'fortress belt'.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/russia-pounds-on-the-gates-of-ukraines-fortress-belt"
+            },
+            {
+              "date": "2026-06-29",
+              "event": "The Kremlin says Russia's conditions for a Ukraine peace deal have not changed since 2024; Poland expels 11 people it suspects of a Russia-backed campaign targeting Ukrainian refugees.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/kremlin-says-russias-stance-on-conditions-for-a-ukraine-peace-deal-has-not-changed-since-2024"
+            }
+          ]
+        },
+        {
+          "name": "Israel–Lebanon / Gaza",
+          "status": "Israel destroying Hezbollah tunnel infrastructure; deadly Gaza strike as Lebanon deal disputed",
+          "timeline": [
+            {
+              "date": "2026-06-27",
+              "event": "Hezbollah rejects a US-brokered Israel–Lebanon security deal as a 'surrender'; Israel strikes southern Lebanon as the group condemns the deal.",
+              "source": "CNA, BBC",
+              "url": "https://www.channelnewsasia.com/world/hezbollah-us-israel-lebanon-deal-surrender-6215236"
+            },
+            {
+              "date": "2026-06-29",
+              "event": "Israel says it has destroyed Hezbollah underground infrastructure in southern Lebanon.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/israel-destroys-hezbollah-underground-infrastructure-in-southern-lebanon-6216751"
+            },
+            {
+              "date": "2026-06-29",
+              "event": "An Israeli strike kills three Palestinians, including a child, in Gaza, the health ministry says, while a senior Lebanese official slams the US-brokered deal and warns of divisions.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/israeli-strike-kills-three-gaza-palestinians-including-a-child-ministry-says"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "The Bundibugyo Ebola epidemic in the Democratic Republic of the Congo and Uganda remains the most serious active outbreak, with WHO reporting confirmed cases rising rapidly to 915 and 234 deaths. India has confirmed a single, critically-ill Nipah case in Kerala, a high-fatality virus being watched closely through contact tracing. WHO has also issued a global yellow fever alert flagging sustained transmission in Africa and a rise in the Americas amid below-target vaccine coverage.",
+      "outbreaks": [
+        {
+          "name": "Ebola (Bundibugyo virus) — DRC & Uganda",
+          "status": "Confirmed cases rising rapidly in DRC; cross-border cases in Uganda",
+          "cases": 915,
+          "deaths": 234,
+          "countries": 2,
+          "as_of": "2026-06-17",
+          "scope_note": "WHO DON608 (19 Jun): confirmed only, DRC + Uganda combined — DRC 896 cases / 232 deaths, Uganda 19 cases / 2 deaths; at least 88 recovered. Suspected cases not included."
+        },
+        {
+          "name": "Nipah virus — India (Kerala)",
+          "status": "Single confirmed case in ICU; contact tracing under way",
+          "cases": 1,
+          "deaths": 0,
+          "countries": 1,
+          "as_of": "2026-06-18",
+          "scope_note": "WHO DON609 (25 Jun): one laboratory-confirmed case (adult male, Kozhikode district), on ventilatory support; no deaths reported as of WHO's update. Nipah is high-fatality, so the single case is being watched closely."
+        },
+        {
+          "name": "Yellow fever — Global alert",
+          "status": "Sustained transmission in Africa; notable rise in the Americas",
+          "cases": "See note",
+          "deaths": "See note",
+          "countries": 27,
+          "as_of": "2026-06-24",
+          "scope_note": "WHO DON610 (24 Jun) is a global situational alert, not a single-outbreak count: 27 countries classed high-risk (26 in the African Region, 1 in the Eastern Mediterranean Region). Vaccine coverage in many remains below target; the Americas saw a notable rise in 2025-26."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "WHO: Bundibugyo Ebola cases rising rapidly in DRC, now 915 confirmed",
+          "category": "Ebola",
+          "summary": "WHO's latest Disease Outbreak News reports the Bundibugyo virus epidemic has grown rapidly since 13 June, with 915 confirmed cases (896 in DRC, 19 in Uganda) and 234 deaths. At least 88 patients have recovered. The DRC remains the epicentre.",
+          "source": "WHO Disease Outbreak News",
+          "published_at": "2026-06-19",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON608"
+        },
+        {
+          "id": "ob2",
+          "headline": "WHO confirms single Nipah virus case in Kerala, India",
+          "category": "Nipah",
+          "summary": "WHO confirmed a laboratory-confirmed Nipah virus infection in Kozhikode district, Kerala — an adult man who developed symptoms on 30 May and is on ventilatory support in ICU. Extensive contact tracing is under way given the virus's high fatality rate.",
+          "source": "WHO Disease Outbreak News",
+          "published_at": "2026-06-25",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON609"
+        },
+        {
+          "id": "ob3",
+          "headline": "WHO issues global yellow fever alert citing sustained transmission",
+          "category": "Yellow fever",
+          "summary": "WHO flagged continuing yellow fever risk worldwide, with sustained transmission in Africa and a notable rise in the Americas in 2025-26. Of 27 high-risk countries, 26 have introduced the vaccine into routine immunisation, but coverage in many remains below target.",
+          "source": "WHO Disease Outbreak News",
+          "published_at": "2026-06-24",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON610"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "Fresh vulnerabilities lead the cycle: a public exploit is now out for a critical out-of-bounds-write flaw in libssh2 (CVE-2026-55200), and Microsoft pulled 119 malicious Edge extensions that hid malware in images and fonts. Open-source supply-chain abuse continues — hijacked npm and Go packages are dropping a Python infostealer, and clean-looking GitHub repos can trick AI coding agents into running malware. State activity is heavy: the FBI warns Russian hackers are targeting Signal backup recovery keys, and Russia's Gamaredon and other units are expanding espionage against Ukraine. CISA also set an urgent deadline for an exploited Cisco flaw, while a 14.2-million-login ISP breach and a US$3M Polymarket supply-chain theft underline the financial stakes.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "Public PoC released for critical libssh2 out-of-bounds write flaw",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-55200",
+          "cvss": 9.2,
+          "severity": "CRITICAL",
+          "summary": "A public proof-of-concept is now available for CVE-2026-55200, an out-of-bounds write in libssh2's ssh2_transport_read() that fails to bound the packet-length field, allowing remote attackers to target SSH clients. NVD scores it 9.2 (CVSS v4.0) / 8.1 (v3.1); it is fixed in libssh2 after 1.11.1 — update dependent software promptly.",
+          "source": "The Hacker News, NVD",
+          "published_at": "2026-06-29",
+          "url": "https://thehackernews.com/2026/06/public-poc-released-for-critical.html"
+        },
+        {
+          "id": "cs2",
+          "headline": "Hijacked npm and Go packages use VS Code tasks to deploy Python infostealer",
+          "category": "Supply chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers found hijacked npm packages and a cluster of Go packages that abuse VS Code 'tasks' to drop a Python-based information stealer on Windows, Linux and macOS hosts — the latest open-source supply-chain attack aimed at developers.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-29",
+          "url": "https://thehackernews.com/2026/06/hijacked-npm-and-go-packages-use-vs.html"
+        },
+        {
+          "id": "cs3",
+          "headline": "Microsoft removes 119 Edge extensions that hid malware in images and fonts",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Microsoft pulled 119 malicious Edge browser extensions that concealed malware inside image and font files to evade detection, after researchers flagged the campaign. Users who installed the add-ons should remove them and review their browsers.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-29",
+          "url": "https://thehackernews.com/2026/06/microsoft-removes-119-edge-extensions.html"
+        },
+        {
+          "id": "cs4",
+          "headline": "Gamaredon expands Ukraine attacks with new malware and cloud-service abuse",
+          "category": "APT",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "The Russia-linked Gamaredon group is broadening its espionage campaign against Ukraine with new malware and abuse of legitimate cloud services for command-and-control, researchers say — part of a wider surge of state-aligned activity targeting Ukrainian users.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-29",
+          "url": "https://thehackernews.com/2026/06/gamaredon-expands-ukraine-attacks-with.html"
+        },
+        {
+          "id": "cs5",
+          "headline": "Data breach exposes up to 14.2 million email logins at six ISPs",
+          "category": "Data breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A breach affecting six internet service providers exposed as many as 14.2 million email login credentials, putting large numbers of customer mailboxes at risk of takeover.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-28",
+          "url": "https://www.bleepingcomputer.com/news/security/data-breach-exposes-up-to-142-million-email-logins-at-six-isps/"
+        },
+        {
+          "id": "cs6",
+          "headline": "Ukraine: Russian intelligence used fake support texts to steal messaging credentials",
+          "category": "Threat campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Ukraine says Russian intelligence sent fake technical-support text messages to trick targets into handing over credentials for their messaging accounts, part of an ongoing espionage push against Ukrainian users.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-28",
+          "url": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html"
+        },
+        {
+          "id": "cs7",
+          "headline": "Clean GitHub repos trick AI coding agents into running malware (Amazon Q)",
+          "category": "AI / Supply chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers showed innocuous-looking GitHub repositories can coerce AI coding agents into executing malware — including via Amazon Q Developer, where malicious repos could run code through MCP configuration files. It highlights a new attack surface as developers delegate work to AI agents.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-06-27",
+          "url": "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/"
+        },
+        {
+          "id": "cs8",
+          "headline": "FBI warns Russian intelligence hackers target Signal backup recovery keys",
+          "category": "Threat campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "The FBI warns that Russian intelligence-linked hackers are targeting Signal backup recovery keys to gain access to victims' encrypted message history, urging users to protect their recovery credentials.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-27",
+          "url": "https://www.bleepingcomputer.com/news/security/fbi-russian-hackers-now-target-signal-backup-recovery-keys/"
+        },
+        {
+          "id": "cs9",
+          "headline": "CISA sets urgent deadline to fix exploited Cisco Unified CM flaw",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-20230",
+          "cvss": 8.6,
+          "severity": "HIGH",
+          "summary": "CISA added an actively-exploited server-side request forgery flaw in Cisco Unified Communications Manager to its Known Exploited Vulnerabilities catalog and set an urgent remediation deadline for federal agencies. Separate Cisco Catalyst SD-WAN and Unified CM root-access issues are also under active attack.",
+          "source": "BleepingComputer, The Hacker News, CISA KEV",
+          "published_at": "2026-06-27",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/"
+        },
+        {
+          "id": "cs10",
+          "headline": "Polymarket customers lose US$3 million in supply-chain attack",
+          "category": "Supply chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A supply-chain compromise affecting prediction-market platform Polymarket led to about US$3 million in customer losses, underscoring the financial impact of dependency and front-end compromises in crypto-adjacent services.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-27",
+          "url": "https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/"
+        },
+        {
+          "id": "cs11",
+          "headline": "Chinese-speaking APT deploys new TinyRCT backdoor in Southeast Asia",
+          "category": "APT",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A Chinese-speaking advanced persistent threat group is using a newly identified backdoor, TinyRCT, in an espionage campaign targeting Southeast Asia — a region of direct relevance to Singapore-area defenders.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-27",
+          "url": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html"
+        },
+        {
+          "id": "cs12",
+          "headline": "New Linux 'pedit' COW exploit enables root via poisoned cached binaries",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A newly disclosed copy-on-write exploit dubbed 'pedit' lets local users gain root on Linux by poisoning cached binaries — a local privilege-escalation technique defenders should track and patch as fixes land.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-26",
+          "url": "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html"
+        }
+      ]
+    }
+  }
+}

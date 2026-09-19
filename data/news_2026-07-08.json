@@ -1,0 +1,730 @@
+{
+  "meta": {
+    "date": "2026-07-08",
+    "generated_at": "2026-07-08T21:00:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "BBC",
+      "CNA",
+      "The Straits Times",
+      "Mothership",
+      "NEA",
+      "LTA / data.gov.sg",
+      "WHO",
+      "CISA KEV",
+      "NVD",
+      "The Hacker News",
+      "BleepingComputer"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "The US–Iran war has reignited: President Trump declared June's interim accord ‘over’ as US forces struck Iranian military boats and Iran said it hit American bases in Bahrain and Kuwait. At least four tankers turned back from the Strait of Hormuz, oil jumped and stocks fell. In Ankara, Trump clashed with NATO allies even as the alliance unveiled a £37bn missile project, and he halted US trade with Spain. Elsewhere, typhoon floods and rare tornadoes killed at least 21 in China and 26 died in a Sri Lankan prison riot.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "Trump declares interim Iran accord 'over' as US and Iran trade fresh strikes",
+          "category": "Middle East",
+          "summary": "US President Donald Trump said June's interim accord to end the war with Iran is 'over' after the two sides exchanged fresh strikes, with US forces targeting Iranian military boats.",
+          "source": "CNA, BBC",
+          "published_at": "2026-07-08T16:36+08:00",
+          "url": "https://www.channelnewsasia.com/world/trump-says-interim-peace-deal-iran-over-6240661"
+        },
+        {
+          "id": "ts2",
+          "headline": "Iran says it struck US military sites in Bahrain and Kuwait after American strikes",
+          "category": "Middle East",
+          "summary": "Iran said it hit US military sites in Bahrain and Kuwait in retaliation after US Central Command completed a new wave of strikes on Iran, shattering June's fragile truce.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-08T12:08+08:00",
+          "url": "https://www.channelnewsasia.com/world/iran-strikes-us-military-sites-kuwait-bahrain-6240186"
+        },
+        {
+          "id": "ts3",
+          "headline": "Oil surges and stocks tumble as Trump declares Iran deal 'over'",
+          "category": "Markets",
+          "summary": "Oil prices surged and equities fell after Trump declared the Iran accord over and at least four oil and gas tankers turned back from the Strait of Hormuz; maritime agencies kept the shipping-risk level at 'severe'.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-08T05:50+08:00",
+          "url": "https://www.channelnewsasia.com/world/us-strikes-iran-oil-prices-tanker-attacks-shares-6239486"
+        },
+        {
+          "id": "ts4",
+          "headline": "Trump clashes with NATO allies in Ankara as alliance unveils £37bn missile project",
+          "category": "Geopolitics",
+          "summary": "Trump lashed out at NATO allies as leaders met in Ankara, blasting the alliance over his Greenland claim, even as members announced a £37 billion joint missile-development project and further rearmament pledges.",
+          "source": "BBC, CNA",
+          "published_at": "2026-07-08T13:57+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/ckg4e3lwzqzo"
+        },
+        {
+          "id": "ts5",
+          "headline": "Trump orders halt to US trade with Spain over NATO spending and Iran",
+          "category": "Trade",
+          "summary": "Trump ordered a halt to US trade with Spain, citing Madrid's NATO defence-spending stance and its position on Iran, in a fresh rupture with a European ally.",
+          "source": "CNA",
+          "published_at": "2026-07-08T17:01+08:00",
+          "url": "https://www.channelnewsasia.com/world/trump-nato-spain-cutoff-us-trade-6240691"
+        },
+        {
+          "id": "ts6",
+          "headline": "Typhoon-driven floods and rare tornadoes kill at least 21 in central China",
+          "category": "World",
+          "summary": "Typhoon-driven flooding and rare tornadoes struck central China's Hubei and surrounding provinces; state media said the death toll from the storms and a related landslide rose to at least 21, with one man sucked from a 12th-floor apartment.",
+          "source": "BBC, CNA",
+          "published_at": "2026-07-08T15:57+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/china-tornadoes-hubei-survivors-recount-ordeal-6240531"
+        },
+        {
+          "id": "ts7",
+          "headline": "Families mourn 26 killed in Sri Lanka prison riot",
+          "category": "Asia",
+          "summary": "Families mourned 26 people killed in a riot at a Sri Lankan prison, one of the deadliest jail incidents in the country in years, as authorities investigated the cause.",
+          "source": "CNA",
+          "published_at": "2026-07-08T18:09+08:00",
+          "url": "https://www.channelnewsasia.com/asia/sri-lanka-prison-riot-26-killed-families-6240811"
+        },
+        {
+          "id": "ts8",
+          "headline": "Protests break out in Havana as Cuba struggles to restore power",
+          "category": "World",
+          "summary": "Protests erupted in Havana as Cuba struggled to restore electricity after its third nationwide blackout this year.",
+          "source": "BBC, CNA",
+          "published_at": "2026-07-08T18:56+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cm20g0d3ry4o"
+        },
+        {
+          "id": "ts9",
+          "headline": "Le Pen defiant, vows to appeal conviction and run for president in 2027",
+          "category": "Europe",
+          "summary": "French nationalist leader Marine Le Pen struck a defiant tone after a court ruling, saying she will appeal her conviction and stand in the 2027 presidential election.",
+          "source": "BBC, CNA",
+          "published_at": "2026-07-08T11:22+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cvgdlprp1r3o"
+        },
+        {
+          "id": "ts10",
+          "headline": "UK's Nigel Farage to quit parliament and seek re-election amid gift allegations",
+          "category": "Europe",
+          "summary": "Populist leader Nigel Farage said he will resign his seat and seek re-election after allegations over undeclared gifts.",
+          "source": "CNA, BBC",
+          "published_at": "2026-07-08T02:20+08:00",
+          "url": "https://www.channelnewsasia.com/world/uk-populist-leader-farage-quit-parliament-seek-re-election-after-gift-allegations-6239121"
+        },
+        {
+          "id": "ts11",
+          "headline": "Major outage at Australia's largest telco hits trains and emergency calls",
+          "category": "World",
+          "summary": "A major outage at Australia's largest telecommunications company disrupted train services and emergency calls, prompting an investigation into the cause.",
+          "source": "BBC",
+          "published_at": "2026-07-08T15:53+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cgevw0d95pdo"
+        },
+        {
+          "id": "ts12",
+          "headline": "Gaza in limbo after Hamas dissolves governing body; US floats south Gaza 'humanitarian zone'",
+          "category": "Middle East",
+          "summary": "Gaza's administration was left uncertain after Hamas dissolved its governing body, while officials said Trump's 'Board of Peace' is planning a pilot 'humanitarian zone' in the enclave's south.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-07-08T18:44+08:00",
+          "url": "https://www.channelnewsasia.com/world/trump-board-peace-gaza-humanitarian-zone-rafah-6240961"
+        },
+        {
+          "id": "ts13",
+          "headline": "Prince Harry loses lawsuit against UK tabloid publisher",
+          "category": "World",
+          "summary": "A UK court ruled against Prince Harry in his lawsuit against the publisher of a British tabloid.",
+          "source": "CNA",
+          "published_at": "2026-07-08T00:43+08:00",
+          "url": "https://www.channelnewsasia.com/world/prince-harry-lost-trial-daily-mail-uk-6238946"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "Money and the courts led the local day: COE premiums hit fresh records, with Cat A closing at S$129,000, while Temasek said its portfolio grew 10.5% to S$518 billion. MOH is investigating an LC Nursing Home founder over alleged non-disclosure, and an ex-infant-care teacher was jailed for force-feeding a toddler. Expect thundery showers with highs around 33°C. On the lighter side, a woman and child had to leave a taxi on the ECP after the driver blacked out, and a hawker who cooks free meals for the needy won hearts online.",
+      "weather": {
+        "forecast": "Thundery Showers",
+        "temp_low": 25,
+        "temp_high": 33,
+        "humidity_low": 60,
+        "humidity_high": 95,
+        "as_of": "2026-07-08T20:06+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jul 2026 · 1st bidding",
+        "as_of": "2026-07-08",
+        "next_results": "2026-07-22",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          {
+            "code": "A",
+            "label": "Cars up to 1600cc & 130bhp",
+            "premium": 129000,
+            "change": 5153
+          },
+          {
+            "code": "B",
+            "label": "Cars above 1600cc or 130bhp",
+            "premium": 130889,
+            "change": 7387
+          }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "Category A COE hits record S$129,000 as premiums rise across the board",
+          "category": "Transport",
+          "summary": "COE premiums rose across all categories in the latest bidding: Cat A closed at a record S$129,000 (up from S$123,847) and Cat B rose to S$130,889, with LTA urging buyers and dealers to bid prudently.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-08T16:07+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/coe-premiums-july-8-bidding-exercise-6240126"
+        },
+        {
+          "id": "sg2",
+          "headline": "MOH investigating LC Nursing Home founder over alleged non-disclosure of disciplinary actions",
+          "category": "Health",
+          "summary": "The Ministry of Health said it is investigating whether the founder of LC Nursing Home failed to disclose past disciplinary actions during the home's licence application.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-08T19:01+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/lc-nursing-home-moh-investigating-ceo-disciplinary-action-struck-6240746"
+        },
+        {
+          "id": "sg3",
+          "headline": "Temasek's net portfolio value grows 10.5% to S$518 billion; AI push accelerates",
+          "category": "Economy",
+          "summary": "Temasek said its net portfolio value grew 10.5% to a record S$518 billion, and it aims to more than double its AI-related investments to as much as 15% of the portfolio by 2031; Mideast conflict tempered gains.",
+          "source": "CNA, Mothership",
+          "published_at": "2026-07-08T15:00+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/temasek-review-portfolio-performance-mideast-conflict-6238041"
+        },
+        {
+          "id": "sg4",
+          "headline": "Workers' Party co-opts MPs Fadli Fawzi and Andre Low into top leadership body",
+          "category": "Politics",
+          "summary": "The Workers' Party announced appointments to its central executive committee, co-opting MPs Fadli Fawzi and Andre Low into its top decision-making body.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-07-08T11:18+08:00",
+          "url": "https://www.straitstimes.com/singapore/politics/wp-announces-appointments-for-its-top-leadership-body-co-opts-mps-fadli-fawzi-andre-low"
+        },
+        {
+          "id": "sg5",
+          "headline": "Ex-infant-care teacher jailed 14 months for force-feeding toddler, abusing two babies",
+          "category": "Courts",
+          "summary": "A former infant-care teacher was sentenced to 14 months' jail for force-feeding a toddler milk until she vomited and for abusing two babies in her care.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-07-08T13:04+08:00",
+          "url": "https://www.straitstimes.com/singapore/courts-crime/ex-infant-care-teacher-gets-14-months-jail-for-force-feeding-toddler-milk-abusing-2-babies"
+        },
+        {
+          "id": "sg6",
+          "headline": "Over 850 fewer spots in Phase 2A of 2026 Primary 1 registration",
+          "category": "Education",
+          "summary": "There are over 850 fewer places in Phase 2A of this year's Primary 1 registration exercise, with six schools already filling at least half their spots after the first phase.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-08T16:31+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/primary-1-registration-phase-2a-vacancies-balloting-6240506"
+        },
+        {
+          "id": "sg7",
+          "headline": "Four charged over scheme to smuggle gold from China in electronic devices",
+          "category": "Crime",
+          "summary": "Four people were charged over an alleged money-laundering scheme to smuggle gold out of China concealed inside signal converters and other electronic devices.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-08T14:11+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/money-laundering-scheme-gold-china-smuggling-6240356"
+        },
+        {
+          "id": "sg8",
+          "headline": "Man dies of heart disease in Woodlands flat after jail release for killing temple worker",
+          "category": "Courts",
+          "summary": "A man died of heart disease in a Woodlands flat after being released from jail, where he had been imprisoned for killing a temple worker, the authorities said.",
+          "source": "CNA",
+          "published_at": "2026-07-08T16:20+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/man-dies-heart-disease-jail-release-kill-temple-worker-6240501"
+        },
+        {
+          "id": "sg9",
+          "headline": "SGH and NHG Health warn of fake ads promoting health products",
+          "category": "Health",
+          "summary": "Singapore General Hospital and NHG Health warned the public about fake advertisements misusing their names to promote health products.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-07T21:25+08:00",
+          "url": "https://www.straitstimes.com/singapore/sgh-nhg-health-warn-of-fake-ads-promoting-health-products"
+        },
+        {
+          "id": "sg10",
+          "headline": "Singapore pledges nearly $65,000 to aid Venezuela recovery after deadly quakes",
+          "category": "Foreign Relations",
+          "summary": "Singapore pledged nearly S$65,000 to help Venezuela recover after a series of deadly earthquakes, the Foreign Ministry said.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-08T17:35+08:00",
+          "url": "https://www.straitstimes.com/singapore/singapore-pledges-nearly-65000-to-aid-venezuela-recovery-after-deadly-quakes"
+        },
+        {
+          "id": "sg11",
+          "headline": "'I was in panic mode': woman and child exit taxi on ECP after driver becomes unresponsive",
+          "category": "Buzz",
+          "summary": "A woman recounted how she and her child had to get out of a taxi on the East Coast Parkway after the driver lost consciousness at the wheel, an incident widely shared online.",
+          "source": "The Straits Times, Mothership",
+          "published_at": "2026-07-08T12:10+08:00",
+          "url": "https://www.straitstimes.com/singapore/i-was-in-panic-mode-woman-child-exit-taxi-on-ecp-after-driver-becomes-unresponsive"
+        },
+        {
+          "id": "sg12",
+          "headline": "Singapore hawker, 41, cooks free food daily for elderly and low-income residents",
+          "category": "Buzz",
+          "summary": "A 41-year-old Singapore hawker has been cooking free meals daily for elderly and low-income residents, a quiet act of kindness that struck a chord with readers.",
+          "source": "Mothership",
+          "published_at": "2026-07-08T11:53+08:00",
+          "url": "https://mothership.sg/2026/07/spore-hawker-cooked-free-food-daily-for-elderly-low-income-residents/"
+        },
+        {
+          "id": "sg13",
+          "headline": "McDonald's Singapore and Old Chang Kee collaborate on curry burgers for National Day",
+          "category": "Buzz",
+          "summary": "McDonald's Singapore and Old Chang Kee are teaming up on curry-flavoured burgers for the National Day season, the chains announced.",
+          "source": "CNA",
+          "published_at": "2026-07-08T11:54+08:00",
+          "url": "https://www.channelnewsasia.com/dining/mcdonalds-old-chang-kee-curry-burger-6239906"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "The Middle East is the flashpoint: Trump has declared June's Iran truce 'over', US forces struck Iranian boats, Iran claims strikes on US bases in Bahrain and Kuwait, and tankers are fleeing the Strait of Hormuz. In Ukraine, Russia keeps striking while Ukrainian drones hit Russian oil infrastructure — biting into fuel supplies — as NATO meets in Ankara to push rearmament. In Gaza, Hamas has dissolved its governing body, leaving administration in limbo as a US 'Board of Peace' floats a southern 'humanitarian zone'.",
+      "theatres": [
+        {
+          "name": "US–Iran / Strait of Hormuz",
+          "status": "Escalation: Trump declares truce 'over', US strikes Iranian boats, Iran hits Bahrain and Kuwait",
+          "timeline": [
+            {
+              "date": "2026-07-07",
+              "event": "An oil tanker is hit by an 'unknown projectile' in the Strait of Hormuz region; Qatar blames Iran as crowds mourn slain supreme leader Ayatollah Khamenei.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/iran-khamenei-funeral-hormuz-tankers-hit-6237986"
+            },
+            {
+              "date": "2026-07-08",
+              "event": "The US revokes Iran's oil-sale waiver, reinstating sanctions after the ship attacks.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/us-revokes-iran-oil-waiver-after-hormuz-tanker-attacks-6239421"
+            },
+            {
+              "date": "2026-07-08",
+              "event": "US Central Command says it has completed a new round of strikes on Iran; Tehran threatens a 'crushing response'.",
+              "source": "The Straits Times, CNA",
+              "url": "https://www.channelnewsasia.com/world/us-iran-strike-hormuz-tanker-attacks-6239441"
+            },
+            {
+              "date": "2026-07-08",
+              "event": "Iran says it has struck US military sites in Bahrain and Kuwait in retaliation; at least four oil and gas tankers turn back from the Strait of Hormuz as oil prices climb.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/iran-strikes-us-military-sites-kuwait-bahrain-6240186"
+            },
+            {
+              "date": "2026-07-08",
+              "event": "Trump declares June's interim accord with Iran 'over'; US forces target Iranian military boats.",
+              "source": "CNA, BBC",
+              "url": "https://www.channelnewsasia.com/world/trump-says-interim-peace-deal-iran-over-6240661"
+            }
+          ]
+        },
+        {
+          "name": "Russia–Ukraine War",
+          "status": "Russia keeps striking as Ukrainian drones hit Russian oil infrastructure and NATO rearms",
+          "timeline": [
+            {
+              "date": "2026-07-07",
+              "event": "NATO's summit build-up showcases arms deals and rearmament pledges as leaders push to keep Washington engaged.",
+              "source": "CNA, BBC",
+              "url": "https://www.channelnewsasia.com/world/nato-summit-showcases-arms-deals-in-push-win-over-trump-6237206"
+            },
+            {
+              "date": "2026-07-08",
+              "event": "Russia says Ukrainian drones killed one person and damaged two empty oil tankers; Moscow also tries to jam Starlink systems to counter the drones.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/ukrainian-drones-kill-one-person-damage-two-empty-oil-tankers-russia-says"
+            },
+            {
+              "date": "2026-07-08",
+              "event": "NATO leaders meet in Ankara and announce a £37 billion joint missile-development project, though Trump clashes with allies.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/ckg4e3lwzqzo"
+            },
+            {
+              "date": "2026-07-08",
+              "event": "Russian fuel shortages bite as Ukraine's drone campaign targets refineries, raising questions over Moscow's next move.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cr7xk8j0j2do"
+            }
+          ]
+        },
+        {
+          "name": "Israel–Gaza",
+          "status": "Post-ceasefire limbo: Hamas dissolves its Gaza governing body; US floats a southern 'humanitarian zone'",
+          "timeline": [
+            {
+              "date": "2026-07-08",
+              "event": "A lawyer says a detained Gaza doctor was severely beaten in an Israeli jail.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/c07yy3pgrlmo"
+            },
+            {
+              "date": "2026-07-08",
+              "event": "Gaza's future remains unclear after Hamas dissolves its governing body.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/gazas-future-still-unclear-after-hamas-dissolves-governing-body"
+            },
+            {
+              "date": "2026-07-08",
+              "event": "Officials say Trump's 'Board of Peace' is planning a pilot 'humanitarian zone' in south Gaza.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/trump-board-peace-gaza-humanitarian-zone-rafah-6240961"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "DR Congo's Bundibugyo Ebola outbreak remains the dominant emergency and is still climbing — WHO's latest count is 1,481 confirmed cases and 454 deaths across the DRC, Uganda and one imported case in France (as of early July), with Ituri province worst hit. The cruise-linked Andes hantavirus cluster stays small and contained to MV Hondius travellers (13 cases, 3 deaths). WHO is also tracking a single Nipah case in India's Kerala and elevated global yellow-fever risk; no new WHO outbreak bulletins have landed since the weekend.",
+      "outbreaks": [
+        {
+          "name": "Bundibugyo Ebola — DR Congo, Uganda & France",
+          "status": "Escalating rapidly, centred on DRC's Ituri province",
+          "cases": 1481,
+          "deaths": 454,
+          "countries": 3,
+          "as_of": "2026-07-02",
+          "scope_note": "Confirmed cases across DRC (1,460 cases / 452 deaths), Uganda (20 / 2) and one imported case in France, per WHO DON612 (3 Jul 2026); CFR ~30.9%. An additional 564 cases and 220 deaths were reported from DRC since the 19 Jun DON; 229 patients have recovered."
+        },
+        {
+          "name": "Andes hantavirus — MV Hondius cruise",
+          "status": "Contained to ship travellers; limited human-to-human spread aboard",
+          "cases": 13,
+          "deaths": 3,
+          "countries": "33*",
+          "as_of": "2026-07-02",
+          "scope_note": "12 confirmed + 1 probable case, all MV Hondius travellers; 3 deaths (2 confirmed, 1 probable), CFR ~23%, per WHO DON611 (2 Jul 2026). *Contacts traced across 33 countries/territories; off-ship risk assessed low."
+        },
+        {
+          "name": "Nipah virus — India (Kerala)",
+          "status": "Single confirmed case; contacts under monitoring",
+          "cases": 1,
+          "deaths": "n/r",
+          "countries": 1,
+          "as_of": "2026-06-25",
+          "scope_note": "One laboratory-confirmed case in Kozhikode district, Kerala, with 104 contacts identified, per WHO DON609 (25 Jun 2026). Outcome not specified in the DON; Nipah historically carries a 40–75% CFR."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "WHO: DR Congo Bundibugyo Ebola cases pass 1,480 with 454 deaths",
+          "category": "Ebola",
+          "summary": "WHO's latest Disease Outbreak News reports confirmed Bundibugyo virus cases have risen rapidly to 1,481 with 454 deaths across the DRC, Uganda and one imported case in France, with Ituri province worst hit.",
+          "source": "WHO",
+          "published_at": "2026-07-03",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON612"
+        },
+        {
+          "id": "ob2",
+          "headline": "WHO confirms 13 Andes hantavirus cases and 3 deaths linked to MV Hondius cruise",
+          "category": "Hantavirus",
+          "summary": "WHO reported 13 cases (12 confirmed, one probable) and three deaths in the cruise-linked Andes hantavirus cluster; all cases are MV Hondius travellers, with contact-tracing across 33 countries and off-ship risk assessed as low.",
+          "source": "WHO",
+          "published_at": "2026-07-02",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON611"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "Actively-exploited critical flaws lead again: CISA is forcing agencies to patch a max-severity Adobe ColdFusion RCE (CVE-2026-48282, CVSS 10.0) and a Langflow bypass, while Ubiquiti shipped an emergency fix for a max-severity UniFi OS command-injection bug (CVE-2026-50746). AI and developer tooling are a hot front — flaws in Google Dialogflow, Writer AI and GitHub's 'verified' commits and agentic workflows, plus China's cyber regulator alleging (without independent confirmation) a backdoor in Anthropic's Claude Code. On the breach side, Japan's KDDI said an incident hit over 12 million people and Accenture confirmed a data theft.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "GitHub 'Verified' commits can be rewritten into new hashes without breaking signatures",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers showed GitHub's 'Verified' commits can be rewritten into new hashes while keeping their signature valid, potentially letting attackers pass off tampered commits as trusted.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-08",
+          "url": "https://thehackernews.com/2026/07/github-verified-commits-can-be.html"
+        },
+        {
+          "id": "cs2",
+          "headline": "GitHub Copilot refuses harmful requests in chat, then writes them in code",
+          "category": "Security Research",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers found GitHub Copilot would decline harmful requests in chat yet still generate the equivalent malicious code when asked indirectly, highlighting a guardrail gap in AI coding assistants.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-08",
+          "url": "https://thehackernews.com/2026/07/github-copilot-refuses-harmful-requests.html"
+        },
+        {
+          "id": "cs3",
+          "headline": "China's cyber regulator alleges 'security backdoor' in Anthropic's Claude Code",
+          "category": "Claim",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "China's National Vulnerability Database (NVDB), affiliated with its industry ministry, alleged a 'security backdoor' in versions of Anthropic's Claude Code that could transmit user location and identity data without consent — a claim not independently verified; Anthropic blocks access from China. Covered here on the same terms as any vendor.",
+          "source": "CNA",
+          "published_at": "2026-07-08",
+          "url": "https://www.channelnewsasia.com/east-asia/china-anthropic-claude-code-ai-backdoor-security-alert-6240476"
+        },
+        {
+          "id": "cs4",
+          "headline": "China-linked UAT-7810 expands ORB network with new LONGLEASH malware",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers attribute new LONGLEASH malware to China-linked group UAT-7810, which is using it to grow an operational relay box (ORB) network that obscures espionage traffic.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-08",
+          "url": "https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html"
+        },
+        {
+          "id": "cs5",
+          "headline": "15-year-old 'GhostLock' flaw enables root and container escape on most Linux distros",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers disclosed GhostLock, a 15-year-old Linux flaw that can be abused to gain root and break out of containers on most Linux distributions; patching is under way.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-08",
+          "url": "https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html"
+        },
+        {
+          "id": "cs6",
+          "headline": "CISA adds four actively-exploited Adobe, Joomla and Langflow flaws to KEV",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-48282",
+          "cvss": 10.0,
+          "severity": "CRITICAL",
+          "summary": "CISA added four actively-exploited bugs to its Known Exploited Vulnerabilities catalog: Adobe ColdFusion (CVE-2026-48282, CVSS 10.0), Langflow (CVE-2026-55255) and two Joomla page-builder RCEs (CVE-2026-48908 and CVE-2026-56290, both 9.8).",
+          "source": "The Hacker News, CISA KEV",
+          "published_at": "2026-07-08",
+          "url": "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html"
+        },
+        {
+          "id": "cs7",
+          "headline": "Japanese telecom giant KDDI says data breach affects over 12 million people",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "KDDI, one of Japan's largest telecoms operators, said a data breach affects more than 12 million people and that it is investigating the incident.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-08",
+          "url": "https://www.bleepingcomputer.com/news/security/japanese-telecom-giant-kddi-says-data-breach-affects-12-million-people/"
+        },
+        {
+          "id": "cs8",
+          "headline": "Ubiquiti warns of max-severity UniFi OS command-injection flaw",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-50746",
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "Ubiquiti patched seven critical UniFi OS vulnerabilities, including a max-severity command-injection flaw (CVE-2026-50746) in the UniFi Connect Application (versions 3.4.16 and earlier) that a network-adjacent attacker could exploit to run commands on the host.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-08",
+          "url": "https://www.bleepingcomputer.com/news/security/ubiquiti-warns-of-new-max-severity-unifi-os-vulnerability/"
+        },
+        {
+          "id": "cs9",
+          "headline": "Max-severity Adobe ColdFusion flaw exploited; CISA orders federal patch by Friday",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-48282",
+          "cvss": 10.0,
+          "severity": "CRITICAL",
+          "summary": "A maximum-severity Adobe ColdFusion flaw (CVE-2026-48282, CVSS 10.0) enabling unauthenticated remote code execution is being actively exploited; CISA ordered federal agencies to patch it by Friday.",
+          "source": "BleepingComputer, CISA KEV",
+          "published_at": "2026-07-08",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/"
+        },
+        {
+          "id": "cs10",
+          "headline": "RedWing MaaS packages Android bank fraud as a Telegram rental service",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A new Android malware operation, RedWing, is rented on Telegram as a ready-made bank-fraud kit that lets low-skill criminals take over phones, steal banking logins and intercept one-time codes.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-08",
+          "url": "https://thehackernews.com/2026/07/redwing-maas-packages-android-bank.html"
+        },
+        {
+          "id": "cs11",
+          "headline": "Rogue Agent flaw could have let attackers hijack Google Dialogflow CX chatbots",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A now-fixed flaw dubbed Rogue Agent could have allowed attackers to hijack Google Dialogflow CX chatbots and manipulate their behaviour.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-08",
+          "url": "https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html"
+        },
+        {
+          "id": "cs12",
+          "headline": "DEBULL tooling abuses Microsoft device-code flow to target M365 accounts",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Attackers are using tooling called DEBULL to abuse Microsoft's device-code authentication flow in phishing attacks aimed at hijacking Microsoft 365 accounts.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-07",
+          "url": "https://thehackernews.com/2026/07/debull-tooling-abuses-microsoft-device.html"
+        },
+        {
+          "id": "cs13",
+          "headline": "Public GitHub issue could trick agentic workflows into leaking private repo data",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers showed a crafted public GitHub issue could manipulate agentic CI/CD workflows into exfiltrating private repository data, a pattern many CI security scanners miss.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-07",
+          "url": "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html"
+        },
+        {
+          "id": "cs14",
+          "headline": "Writer AI flaw could let agent previews leak session tokens across tenants",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A flaw in Writer AI's agent-preview feature could have leaked session tokens across tenants, potentially exposing other customers' sessions.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-07",
+          "url": "https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html"
+        },
+        {
+          "id": "cs15",
+          "headline": "Court filing: Windows Device ID helped FBI trace alleged Scattered Spider hacker",
+          "category": "Law Enforcement",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "A US court filing reveals a Windows device identifier helped the FBI trace an alleged member of the Scattered Spider cybercrime group.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-07",
+          "url": "https://thehackernews.com/2026/07/court-filing-reveals-windows-device-id.html"
+        },
+        {
+          "id": "cs16",
+          "headline": "Accenture confirms breach after hacker offers stolen data for sale",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Accenture confirmed a data breach after a threat actor advertised stolen data for sale; the consultancy said it is investigating the scope.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-07",
+          "url": "https://www.bleepingcomputer.com/news/security/accenture-confirms-breach-after-hacker-offers-stolen-data-for-sale/"
+        },
+        {
+          "id": "cs17",
+          "headline": "Suspected China-aligned hackers exploit Roundcube flaws against universities",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A suspected China-aligned group is exploiting vulnerabilities in the Roundcube webmail software to target universities, researchers say.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-07",
+          "url": "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html"
+        },
+        {
+          "id": "cs18",
+          "headline": "CERT/CC warns of hidden admin backdoor in Tenda router firmware",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "CERT/CC and researchers disclosed a hidden backdoor account in Tenda router firmware that grants administrative access to attackers.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-07",
+          "url": "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html"
+        },
+        {
+          "id": "cs19",
+          "headline": "BeyondTrust patches critical auth-bypass flaws in Remote Support and PRA",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-40138",
+          "cvss": 8.1,
+          "severity": "HIGH",
+          "summary": "BeyondTrust patched authentication-bypass flaws (CVE-2026-40138/40139) it rates as critical in its Remote Support and Privileged Remote Access products, alongside two denial-of-service bugs; no active exploitation has been reported.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-07",
+          "url": "https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html"
+        },
+        {
+          "id": "cs20",
+          "headline": "Spain arrests suspected member of pro-Russian hacktivist groups",
+          "category": "Law Enforcement",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Spanish police arrested a suspected member of pro-Russian hacktivist groups linked to a wave of DDoS attacks, authorities said.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-07",
+          "url": "https://www.bleepingcomputer.com/news/security/spain-arrests-suspected-member-of-pro-russian-hacktivist-groups/"
+        },
+        {
+          "id": "cs21",
+          "headline": "Iran-linked hackers use new Cavern C2 framework to target Israeli organisations",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "An Iran-linked group is using a new command-and-control framework called Cavern in attacks on Israeli organisations, researchers report.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-07",
+          "url": "https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html"
+        },
+        {
+          "id": "cs22",
+          "headline": "'Januscape': 16-year-old Linux KVM flaw lets guest VMs escape to host",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-53359",
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A 16-year-old flaw in the Linux KVM hypervisor, dubbed Januscape, lets a guest VM escape to the host on Intel and AMD x86 systems; it was exploited as a zero-day in Google's kvmCTF program and patched in June.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-07",
+          "url": "https://www.bleepingcomputer.com/news/linux/new-januscape-linux-kernel-flaw-allows-vm-escape-on-intel-amd-devices/"
+        },
+        {
+          "id": "cs23",
+          "headline": "Threat actors probe Gitea Docker flaw CVE-2026-20896 days after disclosure",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-20896",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "Attackers began probing for a critical Gitea Docker vulnerability (CVE-2026-20896, CVSS 9.8) within 13 days of its disclosure, researchers warn.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-07",
+          "url": "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html"
+        }
+      ]
+    }
+  }
+}
