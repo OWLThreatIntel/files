@@ -1,0 +1,789 @@
+{
+  "meta": {
+    "date": "2026-07-26",
+    "generated_at": "2026-07-26T21:00:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "BBC World",
+      "Channel NewsAsia (World, Asia, Singapore)",
+      "The Straits Times (World, Singapore)",
+      "Mothership",
+      "Al Jazeera",
+      "CNN",
+      "NBC News",
+      "CIDRAP",
+      "Axios",
+      "WHO Disease Outbreak News",
+      "US CDC",
+      "ECDC",
+      "NEA (data.gov.sg)",
+      "LTA COE bidding results (data.gov.sg)",
+      "PUB",
+      "The Hacker News",
+      "BleepingComputer",
+      "CISA KEV",
+      "NVD"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "Europe dominated: wildfires around Bordeaux and across Spain have driven more than 300,000 people from their homes, and a van ramming near Berlin's Pride festival killed one person and triggered a manhunt. The Middle East saw an unusual pause — the first day in about two weeks without a US strike on Iran — even as the conflict spread to the Red Sea and Caspian. In Asia, Typhoon Noul made landfall in southern China.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "Wildfires close in on Bordeaux as more than 300,000 flee in France and Spain",
+          "category": "Climate & Disasters",
+          "summary": "Exhausted firefighters battled to keep a huge blaze from reaching Bordeaux, which authorities said was about 15km away at its closest point. French and Spanish officials say more than 300,000 people have now been evacuated across the two countries — roughly 197,000 around Bordeaux, which France's interior minister described as probably the country's largest peacetime evacuation, and about 70,000 in Spain. Bordeaux's mayor said the city was 'ready for anything' but had no plans to evacuate residents.",
+          "source": "BBC, The Straits Times, Channel NewsAsia",
+          "published_at": "2026-07-26T19:29+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/clyj8k4nn5jo"
+        },
+        {
+          "id": "ts2",
+          "headline": "Manhunt in Berlin after van rams crowd near Pride festival, killing one",
+          "category": "World",
+          "summary": "A van drove into a crowd in Berlin's Tiergarten late on Saturday, killing one person and injuring at least 16 others; some victims were also reportedly stabbed. The vehicle was later found crashed and abandoned. Police and prosecutors have issued a wanted notice for a 21-year-old man they say is known to the city's Islamist scene, and are treating the case as a suspected terrorist attack. The Christopher Street Day Pride event was called off.",
+          "source": "BBC, The Straits Times, Channel NewsAsia",
+          "published_at": "2026-07-26T19:41+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cevmdxz4872o"
+        },
+        {
+          "id": "ts3",
+          "headline": "Iran conflict spreads to Red Sea and Caspian as US forgoes strikes for first time in two weeks",
+          "category": "Conflict",
+          "summary": "For the first time in about two weeks, no US strike on Iran was reported, leaving the Gulf comparatively quiet. The fighting instead widened elsewhere: Iran-aligned Houthis fired on Saudi oil sites, and Iran said a Ukrainian attack on a vessel in the Caspian Sea killed a sailor. Separately, Iran's government said it sold US$23.2 billion of oil during the war and ceasefire — a figure from Tehran that has not been independently verified.",
+          "source": "Channel NewsAsia, The Straits Times",
+          "published_at": "2026-07-26T01:53+08:00",
+          "url": "https://www.channelnewsasia.com/world/iran-war-red-sea-caspain-gulf-strikes-6278296"
+        },
+        {
+          "id": "ts4",
+          "headline": "Kyiv hit by missiles as Russia and Ukraine both report civilian deaths",
+          "category": "Conflict",
+          "summary": "An overnight Russian attack triggered fires in the Ukrainian capital, Kyiv. Officials on both sides reported civilians killed in strikes, with each account coming from the respective government and not independently verified. The exchange follows a Russian strike earlier in the weekend on a drone and arms exhibition near Kyiv that Ukrainian officials said killed at least 10 people.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-26T06:55+08:00",
+          "url": "https://www.straitstimes.com/world/europe/overnight-russian-attack-triggers-fires-in-ukrainian-capital-kyiv"
+        },
+        {
+          "id": "ts5",
+          "headline": "Zelensky says Russia is seeking 30,000 more North Korean troops",
+          "category": "Conflict",
+          "summary": "Ukrainian President Volodymyr Zelensky said Russia wants to bring an additional 30,000 North Korean troops into the war. The claim comes from Kyiv and has not been independently confirmed; neither Moscow nor Pyongyang has publicly commented on the figure.",
+          "source": "Channel NewsAsia, The Straits Times",
+          "published_at": "2026-07-26T15:04+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/zelensky-russia-30000-extra-north-korean-troops-ukraine-war-6278776"
+        },
+        {
+          "id": "ts6",
+          "headline": "Typhoon Noul makes landfall, bringing torrential rain and floods to southern China",
+          "category": "Asia",
+          "summary": "Typhoon Noul came ashore in southern China, drenching Guangdong and surrounding provinces and prompting flood warnings. Chinese authorities had evacuated about 20,000 people ahead of landfall. The storm has also disrupted regional air travel, with more than 20 weekend flights between Singapore and southern China cancelled.",
+          "source": "Channel NewsAsia",
+          "published_at": "2026-07-26T20:33+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/southern-china-typhoon-noul-torrential-rain-flood-6278926"
+        },
+        {
+          "id": "ts7",
+          "headline": "Israeli settlers set fire to West Bank mosques after deadly clash, Palestinians say",
+          "category": "Middle East",
+          "summary": "Palestinians say Israeli settlers set fire to mosques, cars and farmland in the occupied West Bank following a deadly clash earlier in the week in which four Palestinians and two Israelis were killed. Palestinians buried the four on Sunday. The two sides have given differing accounts of how the original clash began.",
+          "source": "BBC, The Straits Times",
+          "published_at": "2026-07-26T18:26+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cjrv77gl4deo"
+        },
+        {
+          "id": "ts8",
+          "headline": "US and Japan join Philippines for South China Sea drills",
+          "category": "Geopolitics",
+          "summary": "The United States and Japan took part in joint maritime drills with the Philippines in the South China Sea, the latest in a series of trilateral exercises in contested waters. Beijing claims most of the South China Sea and has repeatedly objected to such exercises.",
+          "source": "Channel NewsAsia",
+          "published_at": "2026-07-26T15:43+08:00",
+          "url": "https://www.channelnewsasia.com/asia/us-japan-join-philippines-in-south-china-sea-drills-6278791"
+        },
+        {
+          "id": "ts9",
+          "headline": "Trump faces midterm reckoning with 100 days to the US vote",
+          "category": "Politics",
+          "summary": "With 100 days until the US midterm elections, President Donald Trump's second-term agenda — tariffs, immigration and the Iran conflict — is heading for its first national test at the ballot box. Control of Congress is at stake, and the result will shape how much of that agenda he can push through in the remaining two years of his term.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-26T09:50+08:00",
+          "url": "https://www.straitstimes.com/world/united-states/trump-faces-midterm-reckoning-with-100-days-to-us-vote"
+        },
+        {
+          "id": "ts10",
+          "headline": "Honduras ex-president Hernandez to return home after Trump pardon",
+          "category": "World",
+          "summary": "Former Honduran president Juan Orlando Hernandez is set to return home after being pardoned by US President Donald Trump. Hernandez had been serving a lengthy US prison sentence following his conviction on drug-trafficking charges.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-26T20:05+08:00",
+          "url": "https://www.straitstimes.com/world/honduras-ex-president-hernandez-to-return-home-after-trump-pardon"
+        },
+        {
+          "id": "ts11",
+          "headline": "Chinese university investigating girl's death in gene-editing trial",
+          "category": "Asia",
+          "summary": "A Chinese university has opened an investigation into the death of a girl who took part in a gene-editing trial. The case has renewed scrutiny of oversight and consent standards for experimental gene therapies in China. Details of the trial and the cause of death have not been publicly confirmed by the university.",
+          "source": "Channel NewsAsia",
+          "published_at": "2026-07-26T16:11+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/chinese-university-investigating-girls-death-in-gene-editing-trial-6278826"
+        },
+        {
+          "id": "ts12",
+          "headline": "Romania shoots down third Russian drone, calls airspace breaches 'intolerable'",
+          "category": "Europe",
+          "summary": "Romania's military shot down a third Russian drone that entered its airspace, and the country's president called the repeated breaches 'intolerable'. Romania is a NATO member bordering Ukraine and has seen drone debris and incursions on its territory repeatedly since the war began.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-26T17:45+08:00",
+          "url": "https://www.straitstimes.com/world/europe/romania-shoots-down-third-russian-drone-as-president-calls-breaches-intolerable"
+        },
+        {
+          "id": "ts13",
+          "headline": "Syria bus crash kills at least 35",
+          "category": "World",
+          "summary": "At least 35 people were killed and about 30 injured in a bus collision in Syria, according to Syrian authorities. It is one of the deadliest road accidents reported in the country this year.",
+          "source": "Channel NewsAsia, The Straits Times",
+          "published_at": "2026-07-26T05:40+08:00",
+          "url": "https://www.channelnewsasia.com/world/syria-bus-crash-kills-least-35-6278441"
+        },
+        {
+          "id": "ts14",
+          "headline": "Rescuers scour South China Sea for 17 missing after Vietnamese vessel sinks",
+          "category": "Asia",
+          "summary": "Search teams are looking for 17 people still missing after a Vietnamese vessel sank in the South China Sea. Rough weather associated with Typhoon Noul has complicated the rescue effort.",
+          "source": "Channel NewsAsia",
+          "published_at": "2026-07-26T12:07+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/rescue-south-china-sea-vietnamese-vessel-sinks-23-missing-6278706"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "Wet and stormy: NEA forecasts thundery showers, and PUB warned on Sunday morning of flash-flood risk across central-eastern Singapore. Typhoon Noul has grounded more than 20 weekend flights between Singapore and southern China, so check before you fly. Elsewhere, HarbourFront Centre trades for the last time on Monday before redevelopment, and the entertainment industry is mourning Beam Artistes founder Samuel Seow, who died at 53.",
+      "weather": {
+        "forecast": "Thundery Showers",
+        "temp_low": 25,
+        "temp_high": 33,
+        "humidity_low": 65,
+        "humidity_high": 95,
+        "as_of": "2026-07-26T18:13+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jul 2026 · 2nd bidding",
+        "as_of": "2026-07-22",
+        "next_results": "2026-08-05",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          {
+            "code": "A",
+            "label": "Cars up to 1600cc & 130bhp",
+            "premium": 126000,
+            "change": -3000
+          },
+          {
+            "code": "B",
+            "label": "Cars above 1600cc or 130bhp",
+            "premium": 129890,
+            "change": -999
+          }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "PUB warns of flash-flood risk in central-eastern Singapore",
+          "category": "Weather",
+          "summary": "National water agency PUB urged the public on Sunday morning to avoid several roads in Paya Lebar, Upper Serangoon, Potong Pasir and Farrer Park because of the risk of flash floods after heavy rain. NEA's latest 24-hour forecast continues to point to thundery showers.",
+          "source": "The Straits Times (PUB)",
+          "published_at": "2026-07-26T08:39+08:00",
+          "url": "https://www.straitstimes.com/singapore/avoid-roads-in-paya-lebar-upper-serangoon-potong-pasir-farrer-park-due-to-risk-of-flash-floods-pub"
+        },
+        {
+          "id": "sg2",
+          "headline": "More than 20 weekend flights between Singapore and southern China cancelled amid Typhoon Noul",
+          "category": "Transport",
+          "summary": "Typhoon Noul's landfall in southern China has grounded more than 20 flights between Singapore and cities in the region over the weekend. Travellers heading to or from Guangdong and neighbouring provinces are advised to check with their airline before going to the airport.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-26T12:25+08:00",
+          "url": "https://www.straitstimes.com/singapore/more-than-20-weekend-flights-between-spore-and-southern-china-cancelled-amid-typhoon-noul"
+        },
+        {
+          "id": "sg3",
+          "headline": "Lawyer attrition rate is stable but concerns must be taken seriously: Shanmugam",
+          "category": "Government",
+          "summary": "Speaking at an NUS Law event, Law and Home Affairs Minister K. Shanmugam said the attrition rate among Singapore lawyers is stable, but that concerns about people leaving the profession should be taken seriously and more data is needed to understand what is driving them.",
+          "source": "Channel NewsAsia, The Straits Times",
+          "published_at": "2026-07-26T17:40+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/shanmugam-nus-law-practice-inauguration-ceremony-attrition-6278871"
+        },
+        {
+          "id": "sg4",
+          "headline": "Beam Artistes founder Samuel Seow dies at 53",
+          "category": "Local",
+          "summary": "Samuel Seow, the former entertainment lawyer who founded talent agency Beam Artistes, has died at the age of 53. His death was reported by both The Straits Times and CNA. Seow was a well-known figure in Singapore's entertainment industry.",
+          "source": "The Straits Times, Channel NewsAsia",
+          "published_at": "2026-07-26T12:07+08:00",
+          "url": "https://www.straitstimes.com/singapore/former-entertainment-lawyer-and-beam-artistes-founder-samuel-seow-dies-at-53"
+        },
+        {
+          "id": "sg5",
+          "headline": "Last day: HarbourFront Centre closes on Monday after decades on the waterfront",
+          "category": "Trending",
+          "summary": "HarbourFront Centre — formerly the World Trade Centre — trades for the final time on 27 July 2026 before making way for a 33-storey mixed-use development with an elevated park, slated to open in the first half of 2031. Singapore Cruise Centre operations moved to 5 HarbourFront Avenue on 15 July so ferry services continue uninterrupted.",
+          "source": "Mothership",
+          "published_at": "2026-07-26T12:40+08:00",
+          "url": "https://mothership.sg/2026/07/harbourfront-centre-close/"
+        },
+        {
+          "id": "sg6",
+          "headline": "Slowing footfall at Geylang Serai Market a concern: Zaqy Mohamad",
+          "category": "Community",
+          "summary": "Senior Minister of State Zaqy Mohamad said falling footfall at Geylang Serai Market is a concern and that more can be done to boost the area's vibrancy, pointing to the challenge of keeping heritage precincts commercially viable.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-26T13:20+08:00",
+          "url": "https://www.straitstimes.com/singapore/politics/slowing-footfall-at-geylang-serai-market-a-concern-more-can-be-done-to-boost-areas-vibrancy-zaqy"
+        },
+        {
+          "id": "sg7",
+          "headline": "Free Science Centre entry over the National Day long weekend",
+          "category": "Family",
+          "summary": "Science Centre Singapore will offer free entry over the National Day long weekend, alongside a new camera designed specifically for children. One for parents planning the long weekend.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-26T13:17+08:00",
+          "url": "https://www.straitstimes.com/singapore/parenting-education/free-national-day-long-weekend-entry-to-science-centre-spore-camera-made-just-for-children"
+        },
+        {
+          "id": "sg8",
+          "headline": "Orchard Central tenants on levels 5 to 12 told to move out by Nov 30",
+          "category": "Trending",
+          "summary": "Tenants occupying levels 5 to 12 of Orchard Central have been told to vacate by 30 November as the mall undergoes renovations, Mothership reported, citing The Straits Times. It is the latest change along a stretch of Orchard Road that has seen several malls reworked in recent years.",
+          "source": "Mothership (citing The Straits Times)",
+          "published_at": "2026-07-26T11:39+08:00",
+          "url": "https://mothership.sg/2026/07/orchard-central-tenants-move-out/"
+        },
+        {
+          "id": "sg9",
+          "headline": "9,000 sq ft LAN shop opens 24/7 at Clarke Quay",
+          "category": "Trending",
+          "summary": "A 9,000 sq ft esports and gaming venue is now open round the clock at Clarke Quay, with private gaming rooms and billiard tables — part of a broader push to bring late-night activity back to the riverside precinct.",
+          "source": "Mothership",
+          "published_at": "2026-07-26T12:00+08:00",
+          "url": "https://mothership.sg/2026/07/lan-shop-clarke-quay-elixir-esports/"
+        },
+        {
+          "id": "sg10",
+          "headline": "Woodlands Community Club reopens with more programmes and facilities",
+          "category": "Community",
+          "summary": "Woodlands Community Club has reopened after upgrading works, with an expanded slate of programmes and new facilities for residents in the north.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-26T19:30+08:00",
+          "url": "https://www.straitstimes.com/singapore/woodlands-community-club-reopens-with-more-programmes-and-facilities"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "An unusual lull in the Gulf: for the first time in about two weeks there was no reported US strike on Iran, though the conflict widened into the Red Sea and Caspian instead. Ukraine saw the opposite — missiles hit Kyiv overnight, NATO member Romania downed a third Russian drone, and Kazakhstan's president told Putin the war should end. In the West Bank, settler arson on mosques followed a deadly clash.",
+      "theatres": [
+        {
+          "name": "US / Israel–Iran (Strait of Hormuz)",
+          "status": "First day in about two weeks with no reported US strike on Iran; the Gulf is quieter, but the conflict has widened into the Red Sea and Caspian.",
+          "timeline": [
+            {
+              "date": "2026-07-26",
+              "event": "No US strike on Iran was reported for the first time in about two weeks, leaving the Gulf comparatively quiet as fighting spread to the Red Sea and Caspian.",
+              "source": "Channel NewsAsia",
+              "url": "https://www.channelnewsasia.com/world/iran-war-red-sea-caspain-gulf-strikes-6278296"
+            },
+            {
+              "date": "2026-07-26",
+              "event": "Iran-aligned Houthis fired on Saudi oil sites, according to reports; Riyadh has not confirmed damage.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/houthis-fire-on-saudi-oil-sites-no-us-strike-on-iran-for-first-time-in-two-weeks"
+            },
+            {
+              "date": "2026-07-26",
+              "event": "Iran said a Ukrainian attack on a vessel in the Caspian Sea killed a sailor (Iranian claim; Kyiv has not confirmed).",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/iran-says-ukrainian-attack-on-vessel-in-caspian-sea-killed-sailor"
+            },
+            {
+              "date": "2026-07-26",
+              "event": "Iran said it sold US$23.2 billion of oil during the war and ceasefire (Iranian government figure, not independently verified).",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/iran-says-it-sold-23-2b-of-oil-during-war-ceasefire"
+            },
+            {
+              "date": "2026-07-26",
+              "event": "Ukraine's President Zelensky claimed Russian satellites are helping Iran direct strikes in the Middle East. Moscow and Tehran have not commented; the claim is unverified.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/russian-satellites-helping-iran-direct-strikes-in-middle-east-says-ukraines-zelensky"
+            },
+            {
+              "date": "2026-07-25",
+              "event": "US missiles hit Iran, with officials signalling no clear path to de-escalation.",
+              "source": "Channel NewsAsia",
+              "url": "https://www.channelnewsasia.com/world/us-missiles-iran-war-donald-trump-6277381"
+            },
+            {
+              "date": "2026-07-25",
+              "event": "Iran-backed Houthis claimed a missile attack on Saudi Arabia (rebel claim, not independently verified).",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o"
+            },
+            {
+              "date": "2026-07-25",
+              "event": "A US nuclear cooperation deal with Saudi Arabia drew proliferation concerns from analysts and non-proliferation experts.",
+              "source": "Channel NewsAsia",
+              "url": "https://www.channelnewsasia.com/world/us-saudi-arabia-nuclear-proliferation-concerns-6276901"
+            }
+          ]
+        },
+        {
+          "name": "Russia–Ukraine War",
+          "status": "Missiles struck Kyiv overnight and Ukraine hit a Siberian refinery; NATO member Romania downed a third Russian drone as Kazakhstan publicly urged Putin to end the war.",
+          "timeline": [
+            {
+              "date": "2026-07-26",
+              "event": "Missiles struck Kyiv overnight, triggering fires; Russia and Ukraine both reported civilians killed in strikes (each side's own account).",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/overnight-russian-attack-triggers-fires-in-ukrainian-capital-kyiv"
+            },
+            {
+              "date": "2026-07-26",
+              "event": "Romania shot down a third Russian drone in its airspace; its president called the repeated breaches 'intolerable'.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/romania-shoots-down-third-russian-drone-as-president-calls-breaches-intolerable"
+            },
+            {
+              "date": "2026-07-26",
+              "event": "Zelensky said Russia wants to bring an additional 30,000 North Korean troops into the war (Ukrainian claim; Moscow and Pyongyang have not commented).",
+              "source": "Channel NewsAsia",
+              "url": "https://www.channelnewsasia.com/east-asia/zelensky-russia-30000-extra-north-korean-troops-ukraine-war-6278776"
+            },
+            {
+              "date": "2026-07-26",
+              "event": "Ukraine struck a refinery in Siberia as Kazakhstan's president, speaking alongside Putin, said the war should end.",
+              "source": "Channel NewsAsia",
+              "url": "https://www.channelnewsasia.com/world/ukraine-strikes-siberia-refinery-kazakh-leader-tells-putin-war-should-end-6278346"
+            },
+            {
+              "date": "2026-07-25",
+              "event": "Russia said a Ukrainian strike killed 11 people at a tourist camp (Russian claim, not independently verified); Ukraine struck a Russian refinery.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/russia-says-ukraine-killed-11-in-tourist-camp-ukraine-strikes-russian-refinery"
+            },
+            {
+              "date": "2026-07-25",
+              "event": "A Russian attack on a drone and arms exhibition near Kyiv killed at least 10 people, Ukrainian officials said.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cj637zd1k1ko"
+            },
+            {
+              "date": "2026-07-24",
+              "event": "Zelensky moved to contain a political crisis over the removal of his defence minister.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/c1d1gz3n99ro"
+            }
+          ]
+        },
+        {
+          "name": "Israel–Gaza / West Bank",
+          "status": "Settler arson on West Bank mosques follows a deadly clash; Israel says it killed a senior Hamas security official in Gaza.",
+          "timeline": [
+            {
+              "date": "2026-07-26",
+              "event": "Palestinians said Israeli settlers set fire to mosques, cars and farmland in the West Bank.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cjrv77gl4deo"
+            },
+            {
+              "date": "2026-07-26",
+              "event": "An Israeli strike killed a top Hamas security official in Gaza, according to medics and police in the territory.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/israeli-strike-kills-a-top-hamas-security-official-in-gaza-medics-and-police-say"
+            },
+            {
+              "date": "2026-07-26",
+              "event": "Palestinians buried four people killed in a West Bank clash with Israeli settlers.",
+              "source": "Channel NewsAsia",
+              "url": "https://www.channelnewsasia.com/world/palestinians-bury-four-killed-in-west-bank-clash-israeli-settlers-6278351"
+            },
+            {
+              "date": "2026-07-25",
+              "event": "Israeli troops rounded up Palestinians in a West Bank village after a shootout involving settlers.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/israeli-troops-round-up-palestinians-in-west-bank-village-after-shootout-involving-settlers"
+            },
+            {
+              "date": "2026-07-24",
+              "event": "Four Palestinians and two Israelis were killed in a West Bank shooting; the two sides gave differing accounts of how it began.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cx2rxmye4k3o"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "The Bundibugyo Ebola epidemic in DR Congo is now the fastest-growing Ebola outbreak on record: WHO's latest formal update confirms 2,145 cases and 830 deaths as of mid-July, and Congolese and Africa CDC officials have since reported the death toll passing 1,000. There is still no approved vaccine or treatment for this strain. In the US, measles has hit a 35-year high — 2,318 cases and no deaths so far in 2026 — driven overwhelmingly by unvaccinated people.",
+      "outbreaks": [
+        {
+          "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
+          "status": "Fastest-growing Ebola outbreak on record; still expanding, with no approved vaccine or treatment for this strain.",
+          "cases": 2145,
+          "deaths": 830,
+          "countries": 3,
+          "as_of": "2026-07-15",
+          "scope_note": "WHO-confirmed cases only, per Disease Outbreak News DON613 (published 17 Jul 2026; DRC data as of 15 Jul, Uganda as of 17 Jul): DRC 2,124 cases / 828 deaths (crude CFR 39%), Uganda 20 cases / 2 deaths, and one imported case in France. At least 410 patients have recovered. More recent national figures are higher but not yet DON-ratified — Africa CDC's director cited 1,031 deaths and the DRC health ministry 2,473 cases as of 20 Jul (Al Jazeera, 22 Jul). WHO declared the outbreak a public health emergency of international concern in May 2026."
+        },
+        {
+          "name": "Measles — United States",
+          "status": "35-year high; second record-breaking year running, driven by falling vaccination coverage.",
+          "cases": 2318,
+          "deaths": 0,
+          "countries": 1,
+          "as_of": "2026-07-23",
+          "scope_note": "Confirmed US cases in calendar 2026 as of 23 Jul, per US CDC data reported by CNN, NBC News and CIDRAP (24 Jul). Already above 2025's full-year total of 2,289, and the highest since 1991 (9,600-plus). 151 measles-related hospitalisations so far this year and no reported 2026 deaths (2025 had three). CDC attributes as many as 93% of cases to unvaccinated people."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "Seven states are the hot spots in the US record measles year",
+          "category": "Measles",
+          "summary": "An analysis of CDC figures identifies seven states driving the bulk of 2026's record measles count, with the largest ongoing cluster in Utah (400-plus cases). Officials warn the peak summer travel period before schools return is one of the highest-risk windows for further importations and new outbreaks.",
+          "source": "Axios (US CDC data)",
+          "published_at": "2026-07-25",
+          "url": "https://www.axios.com/2026/07/25/measles-record-cases-states-numbers"
+        },
+        {
+          "id": "ob2",
+          "headline": "US measles cases hit a 35-year high with five months of the year left",
+          "category": "Measles",
+          "summary": "US CDC data shows at least 2,318 confirmed measles cases in 2026, already surpassing all of 2025 (2,289) and the highest annual total since 1991. There have been 151 hospitalisations and no reported deaths so far this year, against three in 2025. As many as 93% of cases are in unvaccinated people; national vaccination coverage has slipped from 95.2% in the 2019–20 school year to 92.5% in 2024–25, below the 95% herd-immunity threshold.",
+          "source": "CNN, NBC News, CIDRAP (US CDC data)",
+          "published_at": "2026-07-24",
+          "url": "https://www.cnn.com/2026/07/24/health/us-measles-cases-record"
+        },
+        {
+          "id": "ob3",
+          "headline": "Ebola death toll in DR Congo passes 1,000",
+          "category": "Ebola",
+          "summary": "Africa CDC director-general Jean Kaseya said 1,031 deaths had been confirmed in the DRC's Bundibugyo virus outbreak, while the country's health ministry put confirmed cases at 2,473 as of Monday, with 737 patients in isolation or hospital. These national figures run ahead of WHO's last formal Disease Outbreak News count and have not yet been ratified by WHO.",
+          "source": "Al Jazeera (Africa CDC, DRC health ministry)",
+          "published_at": "2026-07-22",
+          "url": "https://www.aljazeera.com/news/2026/7/22/nearly-1000-people-have-died-from-ebola-in-dr-congo"
+        },
+        {
+          "id": "ob4",
+          "headline": "WHO: 2,145 confirmed Ebola cases and 830 deaths as outbreak accelerates",
+          "category": "Ebola",
+          "summary": "WHO's Disease Outbreak News update reports 2,145 confirmed Bundibugyo virus cases and 830 deaths across the DRC (2,124 cases, 828 deaths), Uganda (20 cases, 2 deaths) and one imported case in France. In the DRC, 664 additional confirmed cases and 376 deaths were recorded in the two weeks to 15 July, partly reflecting expanded surveillance and testing. The outbreak remains active in 38 of 46 affected health zones, with Ituri province accounting for about 90% of cases. There is no approved vaccine or specific treatment for this Ebola species.",
+          "source": "WHO Disease Outbreak News (DON613)",
+          "published_at": "2026-07-17",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON613"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "Two server-side flaws lead this cycle: a critical fastjson 1.x RCE (CVE-2026-16723, CVSS 9.0) is being exploited with no fix for the 1.x line, and Cl0p affiliates are mass-exploiting PTC Windchill/FlexPLM (CVE-2026-12569, CVSS 9.8) to steal engineering data. AI tooling is the other theme — flaws in ChatGPT Workspace Agents, Claude Cowork and Bing's image pipeline, plus attackers handing post-exploitation to AI agents. Patch order: fastjson, Windchill, AD CS (Certighost) and Zimbra.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "Steam forum ClickFix attacks infect gamers with XMRig cryptominers",
+          "category": "Malware Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Attackers are seeding Steam community forums with ClickFix-style lures that trick gamers into pasting commands into Windows Run, ending in an XMRig cryptominer install. Same social-engineering pattern as the fake-CAPTCHA campaigns, now aimed at a gaming audience.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-26T06:37+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/"
+        },
+        {
+          "id": "cs2",
+          "headline": "Malvertising ships malware in pieces and has the browser assemble it in memory",
+          "category": "Malware Delivery",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Malicious sites and ads deliver malware as fragments that JavaScript reassembles into an executable inside browser memory, so no complete malicious file ever crosses the wire. The technique is designed to slip past network inspection and static file scanning; defenders should lean on behavioural and endpoint detection rather than download filtering alone.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-07-25T23:21+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/malicious-sites-use-javascript-to-build-malware-in-browser-memory/"
+        },
+        {
+          "id": "cs3",
+          "headline": "ShinyHunters data leaks fuel a $2,000 sextortion email campaign",
+          "category": "Data Breach Fallout",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Scammers are mining data from ShinyHunters breach dumps to send targeted sextortion emails demanding roughly $2,000, using real personal details from the leaks to make the threats look credible. The claims of compromising footage are bogus, but the personal data behind them is genuine.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-25T22:16+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-data-leaks-fuel-2-000-sextortion-email-scam/"
+        },
+        {
+          "id": "cs4",
+          "headline": "fastjson 1.x RCE exploited in attacks with no patch available",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-16723",
+          "cvss": 9.0,
+          "severity": "CRITICAL",
+          "summary": "A critical unauthenticated RCE in fastjson 1.2.68–1.2.83 is being actively targeted. Unusually, it works under fastjson's stock default configuration — no AutoType enabled and no classpath gadget needed — which defeats the usual blocklist and dependency-pruning defences. Maintainers published an advisory on 21 July but there is no fix for the 1.x line; enable SafeMode and migrate to fastjson 2.x.",
+          "source": "The Hacker News (NVD, fastjson advisory)",
+          "published_at": "2026-07-25T20:52+08:00",
+          "url": "https://thehackernews.com/2026/07/fastjson-1x-rce-vulnerability-targeted.html"
+        },
+        {
+          "id": "cs5",
+          "headline": "Public GitLab RCE PoC lets ordinary users run commands as git",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A researcher published a working proof-of-concept that chains two memory-corruption bugs in the Oj JSON parser via crafted Jupyter notebook diffs to execute commands as the git user on unpatched self-managed GitLab. No admin rights or CI runner access needed — ordinary commit and diff-view permissions suffice. GitLab fixed the reachable chain on 10 June in 18.10.8, 18.11.5 and 19.0.2 by shipping Oj 3.17.3; no CVE has been assigned to the GitLab chain.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-25T18:14+08:00",
+          "url": "https://thehackernews.com/2026/07/researcher-publishes-gitlab-rce-poc.html"
+        },
+        {
+          "id": "cs6",
+          "headline": "DevMan ransomware-as-a-service portal centralises payload builds and affiliate payouts",
+          "category": "Ransomware",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers detailed the DevMan RaaS portal, which gives affiliates self-service payload building, victim management and automated payout tracking in one console — another step in the industrialisation of ransomware operations, and a useful set of indicators for defenders tracking affiliate tooling.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-25T17:53+08:00",
+          "url": "https://thehackernews.com/2026/07/devman-raas-portal-centralizes-payload.html"
+        },
+        {
+          "id": "cs7",
+          "headline": "OnTrac notifies customers of data breach after network hack",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Delivery firm OnTrac says attackers accessed customer files on its corporate network between 20 and 22 March 2026, detected the following day. Names were confirmed exposed; other data elements were redacted in the notification sample. Affected customers are being offered 12 months of credit monitoring. No ransomware group has claimed the intrusion.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-25T03:55+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/ontrac-notifies-customers-of-data-breach-after-network-hack/"
+        },
+        {
+          "id": "cs8",
+          "headline": "Attackers hijack hotel Wi-Fi DNS to steal Microsoft 365 accounts",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Attackers are compromising Wi-Fi gateways at hotels and conference centres and changing their DNS settings to redirect guests to fake Microsoft 365 login portals on domains like m365-owa[.]com. Some variants abuse device-code authentication flows to obtain OAuth tokens without ever taking a password, bypassing MFA. ReliaQuest says the activity resembles router-based campaigns attributed to Russian espionage group APT28, hitting travelling staff in finance, legal, healthcare, energy and retail across the US, India and Saudi Arabia since at least June.",
+          "source": "BleepingComputer (ReliaQuest)",
+          "published_at": "2026-07-25T01:50+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-hijack-hotel-wi-fi-dns-to-steal-microsoft-365-accounts/"
+        },
+        {
+          "id": "cs9",
+          "headline": "BlueNoroff Zoom phishing kit profiles crypto wallets before delivering malware",
+          "category": "APT Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "North Korea-linked BlueNoroff is running a fake-Zoom phishing kit that fingerprints a visitor's browser crypto wallets first and only delivers malware to targets holding assets worth stealing. The pre-screening keeps the payload away from researchers and low-value visitors, making the campaign harder to sample.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-24T23:12+08:00",
+          "url": "https://thehackernews.com/2026/07/bluenoroff-zoom-phishing-kit-profiles.html"
+        },
+        {
+          "id": "cs10",
+          "headline": "'Certighost' AD CS flaw lets any domain user impersonate a domain controller",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-54121",
+          "cvss": 8.8,
+          "severity": "HIGH",
+          "summary": "An improper-authorization flaw in Active Directory Certificate Services lets a low-privileged domain user make the CA fetch identity data from an attacker-controlled host and issue a certificate for a domain controller — from there, DCSync yields the krbtgt secret and full domain compromise. No admin rights or user interaction required. Microsoft patched it on 14 July; a fully working public PoC landed on 24 July, so unpatched domains are now at immediate risk.",
+          "source": "The Hacker News (NVD, Microsoft advisory)",
+          "published_at": "2026-07-24T22:15+08:00",
+          "url": "https://thehackernews.com/2026/07/certighost-exploit-lets-low-privileged.html"
+        },
+        {
+          "id": "cs11",
+          "headline": "Chick-fil-A data breach hits more than 13,000 loyalty accounts",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Credential-stuffing attacks between 17 and 19 June 2026 gave attackers access to 13,322 Chick-fil-A One loyalty accounts, exposing names, email addresses, membership numbers, loyalty balances, mobile pay numbers and the last four digits of payment cards. The chain logged out affected accounts, removed stored payment methods and restored balances. It is the company's second credential-stuffing incident after a 2022 breach affecting more than 71,000 customers.",
+          "source": "BleepingComputer (breach notification filings)",
+          "published_at": "2026-07-24T22:04+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/chick-fil-a-data-breach-affects-more-than-13-000-customers/"
+        },
+        {
+          "id": "cs12",
+          "headline": "Europol flags 4,340 URLs for removal in 'The Com' crackdown",
+          "category": "Law Enforcement",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Europol referred 4,340 URLs for takedown as part of a coordinated action against 'The Com', the loose English-speaking cybercrime and extortion network linked to SIM-swapping, social engineering and violence-as-a-service. The referrals target recruitment and coordination infrastructure rather than a single group.",
+          "source": "BleepingComputer (Europol)",
+          "published_at": "2026-07-24T20:56+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/europol-flags-4-340-urls-for-removal-in-the-com-crackdown/"
+        },
+        {
+          "id": "cs13",
+          "headline": "'AgentForger' flaw let one ChatGPT link plant a rogue AI agent inside a company",
+          "category": "AI Security",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Zenity Labs found that a single crafted ChatGPT link, clicked by an employee, could build, authorise and deploy an autonomous Workspace Agent inside that organisation's trust boundary. The rogue agent could reach Outlook, Slack, SharePoint and Google Drive, approve its own permissions via 'never ask' settings, run indefinitely and take fresh instructions by email — effectively a persistent insider. OpenAI fixed the issue on 8 June 2026 after responsible disclosure.",
+          "source": "The Hacker News (Zenity Labs)",
+          "published_at": "2026-07-24T19:53+08:00",
+          "url": "https://thehackernews.com/2026/07/chatgpt-agentforger-flaw-could-deploy.html"
+        },
+        {
+          "id": "cs14",
+          "headline": "Crafted SVGs ran commands as SYSTEM on Microsoft's Bing image servers",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-32194, CVE-2026-32191",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "Autonomous security startup XBOW found two command-injection flaws in Bing Images that let a crafted SVG run commands as NT AUTHORITY\\SYSTEM on Microsoft's production image-processing workers, and as root on the Linux machines in the same fleet. One is reachable via the public 'Search by Image' upload, the other by handing bingbot a URL through the imgurl parameter. NVD rates both CVSS 9.8. Microsoft has reconfigured the affected workers and says only benign read-only commands were run, with no customer data touched.",
+          "source": "The Hacker News (NVD, XBOW)",
+          "published_at": "2026-07-24T19:45+08:00",
+          "url": "https://thehackernews.com/2026/07/bing-images-flaws-let-crafted-svgs-run.html"
+        },
+        {
+          "id": "cs15",
+          "headline": "Attacker ran an AI agent unattended for post-exploitation at Thai Finance Ministry",
+          "category": "AI Security",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers documented an intrusion at Thailand's Finance Ministry in which the attacker handed post-exploitation work to the Hermes AI agent and let it run unattended — enumerating, moving laterally and collecting data without an operator at the keyboard. It is one of the clearer public examples of agentic AI compressing the time between initial access and impact.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-24T18:15+08:00",
+          "url": "https://thehackernews.com/2026/07/hacker-runs-hermes-ai-agent-unattended.html"
+        },
+        {
+          "id": "cs16",
+          "headline": "Golden Chickens resurfaces with four new malware families",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "The financially motivated Golden Chickens crew, known for the long-running More_eggs toolset, has returned with four new malware families built around modular implants that let affiliates mix and match capabilities per target. Fresh indicators are available for detection engineering.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-24T18:09+08:00",
+          "url": "https://thehackernews.com/2026/07/golden-chickens-resurfaces-with-four.html"
+        },
+        {
+          "id": "cs17",
+          "headline": "NodeBB patches eight AI-discovered flaws exposing admin access and private chats",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Open-source forum platform NodeBB shipped fixes for eight vulnerabilities found with AI-assisted analysis, including issues that could expose administrator access and let attackers read private chats. Self-hosted NodeBB operators should update; no CVE identifiers were published with the disclosure.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-24T15:41+08:00",
+          "url": "https://thehackernews.com/2026/07/nodebb-patches-eight-ai-found-flaws.html"
+        },
+        {
+          "id": "cs18",
+          "headline": "Cl0p affiliates mass-exploit internet-exposed PTC Windchill and FlexPLM",
+          "category": "Ransomware",
+          "cve": "CVE-2026-12569",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "Cl0p ransomware affiliates are exploiting a critical deserialisation flaw in PTC Windchill PDMLink and FlexPLM for unauthenticated remote code execution, chaining a pre-auth information disclosure in the FlexPLM WSDL endpoint with a bug in the Windchill login servlet to drop hex-named JSP web shells under /Windchill/login/ and exfiltrate engineering data for double extortion. Manufacturing, automotive, aerospace and apparel firms are the main targets. CISA added the CVE to its Known Exploited Vulnerabilities catalog on 25 June 2026.",
+          "source": "The Hacker News, BleepingComputer (NVD, CISA KEV)",
+          "published_at": "2026-07-24T15:36+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/clop-ransomware-targets-windchill-flexplm-in-data-theft-attacks/"
+        },
+        {
+          "id": "cs19",
+          "headline": "Researchers say Kimi K3 agents found Redis zero-days and built a working RCE exploit",
+          "category": "Security Research",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers report that autonomous agents built on the Kimi K3 model discovered previously unknown Redis vulnerabilities and assembled a working remote-code-execution exploit chain with minimal human steering. It is another data point in the shrinking gap between AI-assisted bug discovery and weaponisation; the researchers' claims have not been independently reproduced.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-24T14:58+08:00",
+          "url": "https://thehackernews.com/2026/07/kimi-k3-agents-found-redis-zero-days.html"
+        },
+        {
+          "id": "cs20",
+          "headline": "New Dolphin X malware uses AI to rank high-value targets",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A newly documented strain called Dolphin X applies on-host AI scoring to triage infected machines, prioritising those with valuable credentials, financial access or privileged network position so operators spend effort where the payoff is highest.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-24T05:20+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/new-dolphin-x-malware-uses-ai-to-rank-high-value-targets/"
+        },
+        {
+          "id": "cs21",
+          "headline": "Australian energy provider Origin says data breach exposed client data",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Origin, one of Australia's largest energy retailers, disclosed a breach exposing client data. The company has not published a final figure for how many customers are affected or the full set of data elements involved.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-24T04:14+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/australian-energy-provider-origin-says-data-breach-exposes-client-data/"
+        },
+        {
+          "id": "cs22",
+          "headline": "Russian espionage group exploited Zimbra zero-day to steal mail and 2FA codes",
+          "category": "APT Campaign",
+          "cve": "CVE-2025-66376",
+          "cvss": 7.2,
+          "severity": "HIGH",
+          "summary": "CISA, the NSA and more than two dozen partner agencies warned on 23 July that Russian state-linked group LAUNDRY BEAR has exploited a Zimbra webmail XSS flaw since at least July 2025 — before Synacor's November 2025 patch, making it a zero-day at the time. The exploit runs when a victim merely views a malicious email, and the campaign harvests the last 90 days of mail, address lists, passwords, 2FA tokens and app passcodes from government, defence, energy, tech, education, media and NGO targets. The CVE has been in CISA's KEV catalog since 18 March 2026.",
+          "source": "The Hacker News (CISA/NSA advisory, NVD, CISA KEV)",
+          "published_at": "2026-07-24T02:36+08:00",
+          "url": "https://thehackernews.com/2026/07/russian-espionage-group-exploited.html"
+        },
+        {
+          "id": "cs23",
+          "headline": "'SharedRoot' flaw could let Claude Cowork's agent escape its VM and read Mac files",
+          "category": "AI Security",
+          "cve": "CVE-2026-46331",
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Accomplish AI disclosed a sandbox-escape chain, dubbed SharedRoot, in Anthropic's Claude Cowork on macOS: the agent's Linux VM loads the act_pedit kernel subsystem into an unprivileged user namespace and exploits CVE-2026-46331 to gain guest root, then reaches the host Mac's filesystem read-write — putting SSH private keys and cloud credentials in reach of untrusted content the agent processes. The researchers estimate around 500,000 macOS users ran local Cowork sessions. Anthropic closed the report as 'informative' without a fix; the current Cowork release defaults to cloud execution, which avoids the local escape path.",
+          "source": "The Hacker News (Accomplish AI)",
+          "published_at": "2026-07-23T21:27+08:00",
+          "url": "https://thehackernews.com/2026/07/claude-cowork-flaw-could-let-ai-agent.html"
+        },
+        {
+          "id": "cs24",
+          "headline": "Chaos ransomware routes C2 traffic through headless Chrome and Edge",
+          "category": "Ransomware",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "The Chaos ransomware operation is using a tool called msaRAT to tunnel command-and-control traffic through headless instances of Chrome and Edge, so the beaconing blends into ordinary browser traffic and evades network controls that trust browser processes.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-23T21:11+08:00",
+          "url": "https://thehackernews.com/2026/07/chaos-ransomware-uses-msarat-to-route.html"
+        }
+      ]
+    }
+  }
+}

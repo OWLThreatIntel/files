@@ -1,0 +1,605 @@
+{
+  "meta": {
+    "date": "2026-06-06",
+    "generated_at": "2026-06-06T21:00:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "Reuters",
+      "AP",
+      "AFP",
+      "BBC",
+      "CNA",
+      "The Straits Times",
+      "Mothership",
+      "Al Jazeera",
+      "CNN",
+      "NPR",
+      "ABC News",
+      "The National",
+      "Times of Israel",
+      "UN News",
+      "CNBC",
+      "BLS",
+      "WHO",
+      "CDC",
+      "USDA",
+      "CISA",
+      "The Hacker News",
+      "BleepingComputer",
+      "LTA",
+      "NEA"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "The Gulf is the day's flashpoint: Iran fired seven ballistic missiles at Kuwait and Bahrain (six intercepted) after US forces struck Iranian radar sites, even as Tehran signalled it wants frozen funds unlocked to advance talks. Elsewhere, a surprisingly strong US May jobs report dimmed hopes of Fed rate cuts, Putin ruled out meeting Zelenskyy as Ukraine pressed long-range drone strikes, and US courts and politics stayed busy over Trump's immigration crackdown.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "Iran fires seven ballistic missiles at Kuwait and Bahrain after US strikes Iranian radar sites",
+          "category": "Conflict",
+          "summary": "In the latest Gulf flare-up, Iran launched seven ballistic missiles at Kuwait and Bahrain; six were intercepted and one fell short, with no US casualties reported, according to US and Gulf officials. The salvo followed US strikes on Iranian coastal radar sites at Goruk and on Qeshm Island after Iranian drones were fired toward the Strait of Hormuz. Iran's claim of hitting the US 5th Fleet HQ in Bahrain was denied by US officials.",
+          "source": "The National / CNN / ABC News",
+          "published_at": "2026-06-06T18:31+08:00",
+          "url": "https://www.thenationalnews.com/news/gulf/2026/06/06/iran-attacks-kuwait-and-bahrain-with-seven-ballistic-missiles/"
+        },
+        {
+          "id": "ts2",
+          "headline": "US job growth beats expectations in May, denting hopes of Fed rate cuts",
+          "category": "Economy",
+          "summary": "US nonfarm payrolls rose a seasonally adjusted 172,000 in May, far above the ~80,000 consensus, while the unemployment rate held at 4.3% and average hourly earnings rose 3.4% year-on-year, the Bureau of Labor Statistics reported. Analysts said the strong print gives the Federal Reserve little reason to cut rates soon, with the benchmark left in the 3.50%-3.75% range.",
+          "source": "CNBC / BLS",
+          "published_at": "2026-06-06T03:05+08:00",
+          "url": "https://www.cnbc.com/2026/06/05/jobs-report-may-2026.html"
+        },
+        {
+          "id": "ts3",
+          "headline": "Putin says he sees no reason to meet Zelenskyy",
+          "category": "World Politics",
+          "summary": "Russian President Vladimir Putin said he currently sees no reason for a summit with Ukrainian President Volodymyr Zelenskyy, dampening prospects for direct talks. The remark came as Moscow vowed to bolster its air defences in response to a wave of Ukrainian long-range drone strikes.",
+          "source": "CNA / NPR",
+          "published_at": "2026-06-06T02:28+08:00",
+          "url": "https://www.channelnewsasia.com/world/putin-says-he-currently-sees-no-reason-meet-ukraines-zelenskyy-6165111"
+        },
+        {
+          "id": "ts4",
+          "headline": "US judge blocks Trump restrictions on legal immigration",
+          "category": "US Politics",
+          "summary": "A US federal judge blocked Trump administration restrictions on legal immigration, the latest court check on the White House's immigration agenda. Separately, the US Senate approved US$70 billion to fund the administration's immigration crackdown.",
+          "source": "CNA / Reuters",
+          "published_at": "2026-06-06T02:06+08:00",
+          "url": "https://www.channelnewsasia.com/world/us-judge-blocks-trump-restrictions-legal-immigration-6165331"
+        },
+        {
+          "id": "ts5",
+          "headline": "Ukraine fires wave of drones at Russia as Putin's economic forum closes",
+          "category": "Conflict",
+          "summary": "Ukraine launched a wave of long-range drones at Russian targets on the final day of Putin's St Petersburg economic forum, after earlier strikes set an oil terminal ablaze. The exchanges follow heavy Russian missile and drone barrages on Ukrainian cities, with Zelenskyy vowing to scale up Kyiv's own strikes.",
+          "source": "The Straits Times / CNN",
+          "published_at": "2026-06-06T19:10+08:00",
+          "url": "https://www.straitstimes.com/world/ukraine-fires-wave-of-drones-at-russia-on-last-day-of-key-forum"
+        },
+        {
+          "id": "ts6",
+          "headline": "Hegseth says Europe faces 'invasion' of dangerous ideologies at D-Day event",
+          "category": "World Politics",
+          "summary": "US Defense Secretary Pete Hegseth, speaking at a D-Day commemoration, said Europe faces an 'invasion' of dangerous ideologies, remarks likely to stir debate among NATO allies over the continent's political direction.",
+          "source": "The Straits Times / Reuters",
+          "published_at": "2026-06-06T20:36+08:00",
+          "url": "https://www.straitstimes.com/world/europe/hegseth-at-d-day-event-says-europe-faces-invasion-of-dangerous-ideologies"
+        },
+        {
+          "id": "ts7",
+          "headline": "Pope Leo calls for an end to polarisation during Spain visit",
+          "category": "World",
+          "summary": "Pope Leo urged an end to political and social polarisation during a visit to Spain, appealing for dialogue and unity amid divisive politics across Europe.",
+          "source": "The Straits Times / AP",
+          "published_at": "2026-06-06T20:30+08:00",
+          "url": "https://www.straitstimes.com/world/europe/pope-leo-calls-for-end-to-polarisation-on-spain-visit"
+        },
+        {
+          "id": "ts8",
+          "headline": "Air leak on International Space Station triggers brief safety alert",
+          "category": "Science",
+          "summary": "A leak on the International Space Station triggered a brief safety alert, prompting precautionary steps before the situation was assessed and stabilised, NASA said. No crew were harmed.",
+          "source": "CNA / AP",
+          "published_at": "2026-06-05T21:57+08:00",
+          "url": "https://www.channelnewsasia.com/world/nasa-astronaut-evacuation-alert-air-leak-6164891"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "Singapore moved firmly against foreign interference, ordering social media platforms to block online posts — likely from a China-based platform — that targeted the local Indian community, with ministers warning the country must act to stop others dividing it. On the ground, police flagged more than S$11,000 lost to BTS concert-ticket scams, Grace Fu said the government is ready to help hawkers as costs bite, and a Tanzania-registered container ship sank off nearby Batam. Expect thundery showers; COE premiums were mixed after the June exercise.",
+      "weather": {
+        "forecast": "Thundery Showers",
+        "temp_low": 27,
+        "temp_high": 33,
+        "humidity_low": 60,
+        "humidity_high": 95,
+        "as_of": "2026-06-06T17:31+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jun 2026 · 1st bidding",
+        "as_of": "2026-06-04",
+        "next_results": "2026-06-17",
+        "source": "LTA",
+        "url": "https://onemotoring.lta.gov.sg/content/onemotoring/home/buying/upfront-vehicle-costs/certificate-of-entitlement--coe-/coe-bidding-results.html",
+        "categories": [
+          {
+            "code": "A",
+            "label": "Cars up to 1600cc & 97kW",
+            "premium": 126009,
+            "change": 1780
+          },
+          {
+            "code": "B",
+            "label": "Cars above 1600cc or 97kW",
+            "premium": 126989,
+            "change": -2512
+          }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "Singapore blocks online posts targeting Indian community; content likely from China-based platform",
+          "category": "Government",
+          "summary": "Singapore ordered social media sites to block content targeting the local Indian community that authorities said likely originated from a China-based platform. Ministers Edwin Tong and Josephine Teo said Singapore must act firmly when others seek to divide it, framing the move as part of guarding social cohesion against online harms.",
+          "source": "CNA / The Straits Times",
+          "published_at": "2026-06-06T15:30+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/social-media-block-content-indian-community-6165986"
+        },
+        {
+          "id": "sg2",
+          "headline": "At least S$11,000 lost to BTS concert ticket scams in under a week",
+          "category": "Crime",
+          "summary": "Police said at least S$11,000 has been lost to BTS concert ticket scams in less than a week ahead of the group's Singapore shows. Carousell has suspended BTS ticket listings at the police's request as demand fuels both scams and help-to-buy services.",
+          "source": "CNA / The Straits Times",
+          "published_at": "2026-06-06T18:54+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/bts-arirang-concert-ticket-scams-police-6166336"
+        },
+        {
+          "id": "sg3",
+          "headline": "Govt ready to help hawkers if needed, watching impact of rising costs: Grace Fu",
+          "category": "Cost of Living",
+          "summary": "Minister Grace Fu said the government is ready to help hawkers if needed and is monitoring how rising costs feed into food prices, as cost-of-living pressures remain a concern for households.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-06T14:50+08:00",
+          "url": "https://www.straitstimes.com/singapore/govt-ready-to-help-hawkers-if-needed-watching-impact-of-rising-costs-on-food-prices-grace-fu"
+        },
+        {
+          "id": "sg4",
+          "headline": "Tanzania-registered container ship sinks off Batam",
+          "category": "Maritime",
+          "summary": "A Tanzania-registered container vessel sank off the coast of Batam, near Singapore. Authorities were monitoring the situation; the cause and any pollution or casualty details were still being established.",
+          "source": "The Straits Times / CNA",
+          "published_at": "2026-06-06T13:38+08:00",
+          "url": "https://www.straitstimes.com/singapore/tanzania-registered-container-vessel-sinks-off-batam"
+        },
+        {
+          "id": "sg5",
+          "headline": "Three motorcyclists hospitalised after multi-vehicle accident on PIE",
+          "category": "Accident",
+          "summary": "Three motorcyclists were taken to hospital after a multi-vehicle accident on the Pan-Island Expressway during the morning rush hour, police said.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-06T20:50+08:00",
+          "url": "https://www.straitstimes.com/singapore/3-motorcyclists-taken-to-hospital-after-multi-vehicle-accident-on-pie-during-morning-rush-hour"
+        },
+        {
+          "id": "sg6",
+          "headline": "Cyclist who sought S$500k in payouts awarded S$55k over Nicoll Highway collision",
+          "category": "Courts",
+          "summary": "A cyclist who demanded about S$500,000 in damages was awarded S$55,000 by the court over a collision with a motorcyclist on Nicoll Highway, in a closely watched road-liability case.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-06T12:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/courts-crime/cyclist-who-demanded-500k-in-payouts-awarded-55k-after-nicoll-highway-collision-with-motorcyclist"
+        },
+        {
+          "id": "sg7",
+          "headline": "Fewer large trees in Singapore's older forests, over 100,000 insect species estimated: NParks",
+          "category": "Environment",
+          "summary": "NParks reported that Singapore's older forests have fewer large trees than expected and estimated more than 100,000 insect species nationwide, drawing on new biodiversity surveys to guide conservation.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-06T10:30+08:00",
+          "url": "https://www.straitstimes.com/singapore/environment/fewer-large-trees-in-spores-older-forests-over-100000-insect-species-estimated-nparks"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "The Gulf is the most volatile theatre: US forces struck Iranian radar sites after drones were fired toward the Strait of Hormuz, and Iran answered with seven ballistic missiles at Kuwait and Bahrain (six intercepted), though Tehran is also signalling interest in talks. In Lebanon, Hezbollah's rejection of a ceasefire has brought renewed Israeli strikes that emptied Beirut suburbs and killed Lebanese soldiers. Russia-Ukraine remains a grinding long-range duel — Ukraine hitting St Petersburg, Russia mounting mass barrages — with Putin ruling out a Zelenskyy summit.",
+      "theatres": [
+        {
+          "name": "US / Israel–Iran (Strait of Hormuz)",
+          "status": "Active flare-up: US struck Iranian radar sites after drones were fired at the Strait of Hormuz; Iran fired seven ballistic missiles at Kuwait and Bahrain (six intercepted). Tehran ties progress to unfreezing funds.",
+          "timeline": [
+            {
+              "date": "2026-06-01",
+              "event": "IRGC threatens shipping in the Strait of Hormuz and Bab el-Mandab over Israeli operations in Lebanon and Gaza.",
+              "source": "Times of Israel",
+              "url": "https://www.timesofisrael.com/liveblog-june-01-2026/"
+            },
+            {
+              "date": "2026-06-03",
+              "event": "Iranian drone strike on a passenger terminal at Kuwait's international airport kills one person and wounds 63; Gulf states condemn the attack.",
+              "source": "CNN",
+              "url": "https://www.cnn.com/2026/06/02/world/live-news/iran-trump-israel-lebanon-war-intl-hnk"
+            },
+            {
+              "date": "2026-06-06",
+              "event": "US forces shoot down four Iranian drones headed for the Strait of Hormuz and strike Iranian coastal radar sites at Goruk and on Qeshm Island; Iran fires seven ballistic missiles at Kuwait and Bahrain, with six intercepted and one falling short.",
+              "source": "ABC News / The National",
+              "url": "https://www.thenationalnews.com/news/gulf/2026/06/06/iran-attacks-kuwait-and-bahrain-with-seven-ballistic-missiles/"
+            },
+            {
+              "date": "2026-06-06",
+              "event": "Iran says unfreezing its funds is key to progress in talks with the US.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/iran-frozen-funds-peace-deal-us-6166376"
+            }
+          ]
+        },
+        {
+          "name": "Israel–Hezbollah / Lebanon",
+          "status": "Renewed Israeli strikes after Hezbollah rejected a ceasefire; thousands fled Beirut suburbs and an Israeli strike killed two Lebanese army officers and a soldier. UN cites 3,412 killed since the March escalation.",
+          "timeline": [
+            {
+              "date": "2026-03-02",
+              "event": "War escalates as Israel launches operations into parts of Lebanon against Hezbollah.",
+              "source": "Wikipedia (2026 Lebanon war)",
+              "url": "https://en.wikipedia.org/wiki/2026_Lebanon_war"
+            },
+            {
+              "date": "2026-06-04",
+              "event": "Hezbollah rejects a ceasefire proposal agreed by Israel and Lebanon after US-led negotiations; both sides trade fresh strikes.",
+              "source": "TIME",
+              "url": "https://time.com/article/2026/06/04/hezbollah-rejects-israel-lebanon-ceasefire-agreement-strikes/"
+            },
+            {
+              "date": "2026-06-05",
+              "event": "Israel announces renewed strikes on Hezbollah; thousands flee Beirut's southern suburbs. UN, citing Lebanese health authorities, reports 3,412 killed and more than 10,000 injured since the escalation.",
+              "source": "UN News",
+              "url": "https://news.un.org/en/story/2026/06/1167615"
+            },
+            {
+              "date": "2026-06-06",
+              "event": "Two Lebanese army officers and one soldier are killed in an Israeli strike in southern Lebanon; Lebanese leaders rebuke Iran as Israel and Hezbollah trade attacks.",
+              "source": "The Straits Times / CNA",
+              "url": "https://www.straitstimes.com/world/middle-east/two-lebanese-officers-one-soldier-killed-in-israeli-strike-in-southern-lebanon"
+            }
+          ]
+        },
+        {
+          "name": "Russia–Ukraine War",
+          "status": "Grinding long-range duel: Russia mounts mass missile/drone barrages while Ukraine strikes deep into Russia (St Petersburg oil terminal); Putin says he sees no reason to meet Zelenskyy.",
+          "timeline": [
+            {
+              "date": "2026-06-02",
+              "event": "Russia launches 656 drones and 73 missiles at Ukraine overnight; at least 22 people killed and dozens wounded across Kyiv, Dnipro, Poltava, Kharkiv and Zaporizhzhia, Ukrainian officials say.",
+              "source": "Al Jazeera / NPR",
+              "url": "https://www.aljazeera.com/news/2026/6/2/at-least-nine-people-killed-dozens-wounded-in-russian-attacks-on-ukraine"
+            },
+            {
+              "date": "2026-06-03",
+              "event": "Ukrainian long-range drones strike a St Petersburg oil terminal, flying more than 1,000km, hours before Putin's economic forum opens; a separate strike kills several in Russian-held territory.",
+              "source": "CNN / NPR",
+              "url": "https://www.cnn.com/2026/06/03/europe/ukraine-drone-attack-russia-st-petersburg-intl-hnk"
+            },
+            {
+              "date": "2026-06-05",
+              "event": "Putin says Russia will bolster its air defences in response to the Ukrainian drone attacks.",
+              "source": "NPR",
+              "url": "https://www.npr.org/2026/06/05/g-s1-126268/russia-ukraine-war"
+            },
+            {
+              "date": "2026-06-06",
+              "event": "Putin says he currently sees no reason to meet Zelenskyy; Ukraine fires a fresh wave of drones at Russia as the St Petersburg forum closes.",
+              "source": "CNA / The Straits Times",
+              "url": "https://www.straitstimes.com/world/ukraine-fires-wave-of-drones-at-russia-on-last-day-of-key-forum"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "The fast-moving worry is the Bundibugyo Ebola epidemic in DR Congo and Uganda, a declared global health emergency: DRC's health ministry now reports about 471 confirmed cases and 84 deaths combined, far above WHO's last formal tally, prompting a US$518m WHO/Africa CDC response plan. The New World screwworm continues its northward march, with a fresh US livestock case confirmed in Texas. The Andes hantavirus cruise-ship cluster appears contained at 13 cases and 3 deaths, with WHO assessing global risk as low.",
+      "outbreaks": [
+        {
+          "name": "Ebola (Bundibugyo virus) — DRC & Uganda",
+          "status": "PHEIC declared 16 May; cases climbing, response scaling up.",
+          "cases": 471,
+          "deaths": 84,
+          "countries": 2,
+          "as_of": "2026-06-06",
+          "scope_note": "Confirmed cases, DRC + Uganda combined (DRC ~452/82, Uganda 19/2) per national health ministries as of 6 Jun. WHO's last formal Disease Outbreak News (29 May) lagged at 134 confirmed/18 deaths; a separate exported case is being treated in Germany. Hundreds more hospitalised/suspected; tallies diverge by source."
+        },
+        {
+          "name": "New World screwworm (NWS)",
+          "status": "Northward spread continues; fresh US livestock detection.",
+          "cases": "1 new US animal case (Texas)",
+          "deaths": "—",
+          "countries": "US, Mexico & Central America",
+          "as_of": "2026-06-03",
+          "scope_note": "USDA confirmed New World screwworm in a calf in Zavala County, Texas, on 3 Jun. No locally acquired human infestations reported in the US. Since 2023 the outbreak has moved north through Central America and Mexico, mainly infesting livestock, pets and wildlife; figures here track the latest US animal detection, not a human case count."
+        },
+        {
+          "name": "Andes hantavirus — MV Hondius cruise ship",
+          "status": "Cluster appears contained; global risk low (WHO).",
+          "cases": 13,
+          "deaths": 3,
+          "countries": "Multi-country (cruise)",
+          "as_of": "2026-05-26",
+          "scope_note": "13 cases (11 confirmed + 2 probable) and 3 deaths aboard a Dutch-flagged cruise ship as of 26 May per WHO; Andes virus (ANDV) with documented person-to-person spread onboard. US CDC reports no US cases and is monitoring 41 people; WHO assesses global risk as low."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "Nearly 500 confirmed cases in Central Africa Ebola outbreak: WHO",
+          "category": "Ebola",
+          "summary": "The Bundibugyo Ebola epidemic in DR Congo and Uganda has grown to nearly 500 confirmed cases, with DRC's health ministry reporting roughly 452 cases and 82 deaths and Uganda 19 cases and 2 deaths as of early June. Experts warn the true scale may be larger given weak health infrastructure and ongoing conflict.",
+          "source": "The Straits Times / WHO",
+          "published_at": "2026-06-06T18:17+08:00",
+          "url": "https://www.straitstimes.com/world/nearly-500-confirmed-cases-in-central-africa-ebola-outbreak-who"
+        },
+        {
+          "id": "ob2",
+          "headline": "WHO and Africa CDC unveil US$518m Ebola plan as death tolls rise",
+          "category": "Ebola",
+          "summary": "The WHO and the African Union's health agency announced a US$518 million plan, running June to November, to combat the Bundibugyo Ebola outbreak in DR Congo and Uganda, as case counts and deaths continue to climb.",
+          "source": "Al Jazeera",
+          "published_at": "2026-06-05T12:00+08:00",
+          "url": "https://www.aljazeera.com/news/2026/6/5/who-africa-cdc-unveil-518m-ebola-plan-as-uganda-death-toll-rises"
+        },
+        {
+          "id": "ob3",
+          "headline": "USDA confirms New World screwworm in a Texas calf",
+          "category": "Screwworm",
+          "summary": "The USDA confirmed New World screwworm in a calf in Zavala County, Texas, on 3 June, the latest sign of the pest's northward spread from Central America and Mexico. No locally acquired human infestations have been reported in the US, but the detection raises concern for livestock and wildlife.",
+          "source": "CDC / USDA",
+          "published_at": "2026-06-03T12:00+08:00",
+          "url": "https://www.cdc.gov/new-world-screwworm/situation-summary/index.html"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "Actively exploited, unpatched flaws lead this cycle: an exploited Cisco Catalyst SD-WAN Manager bug (CVE-2026-20245) has no fix yet, CISA added SolarWinds Serv-U and Magento (CVE-2026-45247) to its KEV catalog, and an unpatched Windows Search URI flaw is leaking NTLM hashes. Software supply-chain attacks intensified — the self-spreading 'Miasma' worm hit 73 Microsoft GitHub repos and npm, alongside IronWorm — and AI-driven bug hunting is reshaping the field, surfacing 21 FFmpeg zero-days and old RCEs. A flaw in Anthropic's own Claude Code GitHub Action, since fixed, let a single malicious issue hijack repositories.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "Cisco Catalyst SD-WAN Manager flaw actively exploited with no patch available",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-20245",
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "Attackers are actively exploiting a flaw in Cisco Catalyst SD-WAN Manager tracked as CVE-2026-20245, for which no patch is yet available. Administrators are urged to apply mitigations and monitor for compromise until a fix ships.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-06",
+          "url": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-manager-cve-2026.html"
+        },
+        {
+          "id": "cs2",
+          "headline": "'Miasma' self-spreading worm hits 73 Microsoft GitHub repositories in supply-chain attack",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A self-propagating worm dubbed Miasma compromised 73 Microsoft-owned GitHub repositories in a major software supply-chain attack, part of a broader wave also hitting npm packages. The worm spreads through developer tooling and steals credentials.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-06",
+          "url": "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html"
+        },
+        {
+          "id": "cs3",
+          "headline": "CISA adds actively exploited SolarWinds Serv-U DoS flaw to KEV catalog",
+          "category": "Exploited Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "CISA added an actively exploited denial-of-service flaw in SolarWinds Serv-U to its Known Exploited Vulnerabilities catalog, requiring federal agencies to remediate and signalling broad real-world abuse.",
+          "source": "The Hacker News / CISA",
+          "published_at": "2026-06-06",
+          "url": "https://thehackernews.com/2026/06/cisa-adds-actively-exploited-solarwinds.html"
+        },
+        {
+          "id": "cs4",
+          "headline": "AI agent uncovers 21 zero-days in FFmpeg; Chrome patches record 429 bugs",
+          "category": "Security Research",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "An AI-driven analysis agent surfaced 21 zero-day vulnerabilities in the widely used FFmpeg multimedia library, while Google shipped a Chrome update patching a record 429 bugs, underscoring how automated tooling is accelerating both discovery and patching.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-06",
+          "url": "https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html"
+        },
+        {
+          "id": "cs5",
+          "headline": "Hackers exploit critical Everest Forms Pro WordPress plugin flaw to take over sites",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "Attackers are exploiting a critical vulnerability in the Everest Forms Pro WordPress plugin to take over affected sites. Site owners should update to the patched version immediately.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-05",
+          "url": "https://thehackernews.com/2026/06/hackers-exploit-critical-everest-forms.html"
+        },
+        {
+          "id": "cs6",
+          "headline": "IronWorm and a new Miasma worm variant hit npm in supply-chain attacks",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Two self-spreading worms — IronWorm and a new Miasma variant — compromised npm packages in credential-stealing supply-chain attacks, the latest in a string of campaigns abusing open-source registries.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-05",
+          "url": "https://thehackernews.com/2026/06/ironworm-and-new-miasma-worm-variant.html"
+        },
+        {
+          "id": "cs7",
+          "headline": "New threat cluster OP-512 targets Microsoft IIS servers with custom web shells",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A newly identified threat cluster tracked as OP-512 is targeting Microsoft IIS servers with a custom web-shell framework to gain persistence and execute commands on compromised hosts.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-05",
+          "url": "https://thehackernews.com/2026/06/new-threat-cluster-op-512-targets.html"
+        },
+        {
+          "id": "cs8",
+          "headline": "Android spyware 'Asin' targets Arabic-speaking users via fake news and war-map apps",
+          "category": "Mobile Threat",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A spyware family dubbed Asin is targeting Arabic-speaking Android users through fake news, PDF and war-map apps, harvesting data from infected devices.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-05",
+          "url": "https://thehackernews.com/2026/06/android-spyware-asin-targets-arabic.html"
+        },
+        {
+          "id": "cs9",
+          "headline": "Cisco patches Unified CM flaw as exploit code goes public",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-20230",
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Cisco patched CVE-2026-20230 in Unified Communications Manager after exploit code became public, raising the risk of opportunistic attacks against unpatched systems.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-04",
+          "url": "https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html"
+        },
+        {
+          "id": "cs10",
+          "headline": "Claude Code GitHub Action flaw let one malicious issue hijack repositories",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A now-fixed flaw in Anthropic's Claude Code GitHub Action could let a single crafted GitHub issue hijack a repository by abusing the action's automation. Users relying on the integration should ensure they are on the patched version.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-04",
+          "url": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html"
+        },
+        {
+          "id": "cs11",
+          "headline": "Hackers spied on a stock exchange executive's Outlook mailbox for five months",
+          "category": "Espionage",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Attackers maintained covert access to a stock exchange executive's Microsoft Outlook mailbox for five months, reading email undetected in a targeted espionage operation.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-04",
+          "url": "https://thehackernews.com/2026/06/hackers-spied-on-stock-exchange.html"
+        },
+        {
+          "id": "cs12",
+          "headline": "DoJ disrupts Southeast Asia crypto fraud networks, freezes US$3.8 million",
+          "category": "Law Enforcement",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "The US Department of Justice disrupted Southeast Asia-based crypto fraud networks and froze US$3.8 million in assets tied to investment and 'pig-butchering' scams.",
+          "source": "The Hacker News / DoJ",
+          "published_at": "2026-06-04",
+          "url": "https://thehackernews.com/2026/06/doj-disrupts-southeast-asia-crypto.html"
+        },
+        {
+          "id": "cs13",
+          "headline": "CISA adds exploited Magento RCE flaw to KEV catalog",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-45247",
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "CISA added an actively exploited Magento remote code execution flaw, CVE-2026-45247, to its Known Exploited Vulnerabilities catalog, urging e-commerce operators to patch given ongoing attacks.",
+          "source": "The Hacker News / CISA",
+          "published_at": "2026-06-03",
+          "url": "https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html"
+        },
+        {
+          "id": "cs14",
+          "headline": "Autonomous AI tool finds two-year-old RCE flaw in Redis",
+          "category": "Security Research",
+          "cve": "CVE-2026-23479",
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "An autonomous AI analysis tool uncovered a two-year-old remote code execution vulnerability in Redis, tracked as CVE-2026-23479, highlighting long-dormant risks in widely deployed infrastructure software.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-03",
+          "url": "https://thehackernews.com/2026/06/autonomous-ai-tool-finds-2-year-old-rce.html"
+        },
+        {
+          "id": "cs15",
+          "headline": "Unpatched Windows Search URI vulnerability lets attackers steal NTLMv2 hashes",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "An unpatched vulnerability in the Windows Search URI handler can be abused to leak NTLMv2 authentication hashes, enabling relay or offline-cracking attacks. No vendor fix is available yet, so mitigations are advised.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-03",
+          "url": "https://thehackernews.com/2026/06/unpatched-windows-search-uri.html"
+        },
+        {
+          "id": "cs16",
+          "headline": "New HTTP/2 'Bomb' vulnerability allows remote DoS on NGINX, Apache, IIS, Envoy and Cloudflare",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A newly disclosed HTTP/2 'Bomb' technique can trigger remote denial-of-service conditions across major web servers and proxies including NGINX, Apache, IIS, Envoy and Cloudflare. Operators should apply vendor mitigations as they become available.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-03",
+          "url": "https://thehackernews.com/2026/06/new-http2-bomb-vulnerability-allows.html"
+        },
+        {
+          "id": "cs17",
+          "headline": "Microsoft fixes one-click GitHub developer attack that stole OAuth tokens",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Microsoft fixed a one-click attack against GitHub developers that allowed attackers to steal OAuth tokens, which could be used to access repositories and connected services.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-03",
+          "url": "https://thehackernews.com/2026/06/one-click-github-dev-attack-lets.html"
+        },
+        {
+          "id": "cs18",
+          "headline": "Google's June 2026 Android update patches 124 flaws, one actively exploited",
+          "category": "Patch",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Google's June 2026 Android security update fixes 124 vulnerabilities, including one that is being actively exploited in the wild. Users should install the update as soon as it reaches their devices.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-03",
+          "url": "https://thehackernews.com/2026/06/google-june-2026-android-update-patches.html"
+        },
+        {
+          "id": "cs19",
+          "headline": "Oracle WebLogic flaw added to CISA KEV catalog after active exploitation",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2024-21182",
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "CISA added an Oracle WebLogic Server flaw, CVE-2024-21182, to its Known Exploited Vulnerabilities catalog following confirmed active exploitation, prompting urgent patching of internet-facing servers.",
+          "source": "The Hacker News / CISA",
+          "published_at": "2026-06-02",
+          "url": "https://thehackernews.com/2026/06/oracle-weblogic-cve-2024-21182-added-to.html"
+        }
+      ]
+    }
+  }
+}

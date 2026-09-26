@@ -1,0 +1,993 @@
+{
+  "meta": {
+    "date": "2026-08-15",
+    "generated_at": "2026-08-15T21:14:46+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "BBC News",
+      "Channel NewsAsia",
+      "The Straits Times",
+      "Mothership",
+      "Al Jazeera",
+      "Ukrainska Pravda",
+      "WHO Disease Outbreak News",
+      "PAHO/WHO",
+      "US CDC",
+      "US FDA",
+      "Bangladesh DGHS",
+      "The Daily Star",
+      "The Business Standard",
+      "NEA",
+      "LTA / data.gov.sg",
+      "US Census Bureau",
+      "BleepingComputer",
+      "The Hacker News",
+      "CISA KEV",
+      "NVD",
+      "Rapid7",
+      "Check Point Research",
+      "NCSC-NL",
+      "Have I Been Pwned",
+      "Tenable"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "A magnitude 7.7 earthquake off Indonesia's Flores Island killed at least 40 people, and rescuers were still pulling bodies from collapsed buildings a day later. The Hormuz standoff hardened rather than moved: Trump said he would 'soon' declare the strait US territory, and Tehran answered that the waterway opens or closes on Iran's authority alone. Violence and weather filled most of the rest - Israeli strikes killed at least nine in southern Lebanon on the deadliest day there since June's truce, while evacuation orders ran from Croatian resorts to Hawaii's Big Island. The one genuine opening was in Seoul, where the president proposed talks to formally end the Korean War; whether Pyongyang answers is the thing to watch this week.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "Magnitude 7.7 quake off Indonesia's Flores kills at least 40",
+          "category": "Disaster",
+          "summary": "A magnitude 7.7 earthquake struck off Flores Island in East Nusa Tenggara early on Saturday at a depth of about 10km, toppling buildings and triggering a tsunami warning that was later lifted. CNA reported the death toll rising to 40 as rescuers searched collapsed structures; BBC reported at least 38 earlier the same day. Dozens of aftershocks followed, the strongest at magnitude 6.1.",
+          "source": "CNA, BBC",
+          "published_at": "2026-08-15T20:41+08:00",
+          "url": "https://www.channelnewsasia.com/asia/indonesia-earthquake-flores-island-death-toll-6321396"
+        },
+        {
+          "id": "ts2",
+          "headline": "Trump says he will 'soon' declare Hormuz US territory; Iran says only Tehran decides",
+          "category": "Geopolitics",
+          "summary": "Speaking at a rally in Garden City, New York, President Donald Trump said that after 'defeating Iran' he would 'pretty soon' declare the Strait of Hormuz a territory of the United States. Iran's deputy foreign minister Kazem Gharibabadi replied on Saturday that Tehran would not be intimidated and that the waterway would be opened or closed under Iran's authority alone. Trump separately told Americans to accept higher petrol prices while the war continues.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-08-15T09:37+08:00",
+          "url": "https://www.channelnewsasia.com/world/iran-us-war-trump-gas-prices-hormuz-6320876"
+        },
+        {
+          "id": "ts3",
+          "headline": "Israeli strikes kill at least nine in south Lebanon, deadliest day since June truce",
+          "category": "Conflict",
+          "summary": "Lebanon's health ministry said Israeli airstrikes killed at least nine people on Saturday, including three children, in strikes on the village of Ansar and on Deir al-Zahrani. The Israeli military said it struck Hezbollah infrastructure in the Nabatieh area and Ansar in response to an attack on its troops. Lebanese state media initially reported seven dead. It is among the deadliest days since the Israel-Hezbollah truce took effect on 20 June.",
+          "source": "BBC, The Straits Times",
+          "published_at": "2026-08-15T20:25+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo"
+        },
+        {
+          "id": "ts4",
+          "headline": "Ukraine says it struck Russia's main space-rocket plant in Samara",
+          "category": "Conflict",
+          "summary": "Ukraine's General Staff said long-range strikes hit the Progress Rocket Space Centre in Samara, about 900km from the Ukrainian border, along with a Russian military airfield. President Volodymyr Zelensky said Flamingo cruise missiles were used. Kyiv says the plant builds rockets that launch satellites for Rassvet, Russia's answer to Starlink. Fires were reported at both sites; neither the damage nor the missile type has been independently confirmed, and Moscow has not commented in detail.",
+          "source": "The Straits Times, Ukrainska Pravda",
+          "published_at": "2026-08-15T20:20+08:00",
+          "url": "https://www.straitstimes.com/world/europe/ukraine-says-it-hit-russian-rocket-centre-linked-to-starlink-style-network"
+        },
+        {
+          "id": "ts5",
+          "headline": "South Korea proposes talks with North to formally end the Korean War",
+          "category": "Diplomacy",
+          "summary": "South Korea's president proposed opening talks with Pyongyang aimed at formally ending the Korean War, which halted in 1953 with an armistice rather than a peace treaty. The offer was made in an address marking Liberation Day. North Korea had not publicly responded at the time of writing.",
+          "source": "BBC, CNA",
+          "published_at": "2026-08-15T17:35+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c8en2z9jp2xo"
+        },
+        {
+          "id": "ts6",
+          "headline": "Wildfires and record heat force evacuations across Europe",
+          "category": "Climate",
+          "summary": "Hundreds were evacuated from resorts in Croatia and Greece as wildfires spread across southern Europe, with a blaze near the Croatian coastal town of Omis forcing more than 1,000 people from their homes and sending 14 to hospital. The EU dispatched firefighting aircraft to Belgium, which is battling what authorities describe as a record wildfire, while a German fire near the Belgian border was brought under control. Copernicus has warned of 'very extreme' fire conditions across central and eastern Europe through 19 August.",
+          "source": "The Straits Times, CNA, BBC",
+          "published_at": "2026-08-15T20:05+08:00",
+          "url": "https://www.straitstimes.com/world/europe/eu-sends-aircraft-as-belgium-fights-record-wildfire"
+        },
+        {
+          "id": "ts7",
+          "headline": "Luigi Mangione pleads guilty in federal case over insurance CEO's killing",
+          "category": "Courts",
+          "summary": "Luigi Mangione admitted in a New York federal courtroom to shooting UnitedHealthcare chief executive Brian Thompson, telling the judge 'I shot Mr Thompson' as he entered a guilty plea. He still faces separate state proceedings.",
+          "source": "CNA, BBC",
+          "published_at": "2026-08-15T05:15+08:00",
+          "url": "https://www.channelnewsasia.com/world/luigi-mangione-admits-killing-insurance-ceo-pleads-guilty-in-federal-case-6320656"
+        },
+        {
+          "id": "ts8",
+          "headline": "US to tell partners they must choose between its AI coalition and China's",
+          "category": "Technology",
+          "summary": "Washington is preparing to warn countries that they will be excluded from Pax Silica, the US-led framework on AI models, semiconductors and critical minerals, if they also join Beijing's competing initiative, according to a report carried by CNA. About two dozen countries have signed up to Pax Silica, including Japan, Australia, South Korea and Kazakhstan, which has also joined the Chinese coalition. The report cites unnamed sources and has not been confirmed by the White House.",
+          "source": "CNA",
+          "published_at": "2026-08-15T09:23+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/us-china-ai-race-pax-silica-waico-6320671"
+        },
+        {
+          "id": "ts9",
+          "headline": "Five killed in northern Michigan shootings; suspect found dead",
+          "category": "Crime",
+          "summary": "Michigan State Police said five people were killed across two homes and a wooded area in Missaukee County on Friday. Troopers found three dead and one wounded at the first address, another victim at a second residence, and later located the suspect, named by police as 39-year-old Chad Hickman, dead near Whitlock Lake along with another person. One person remained in critical condition.",
+          "source": "The Straits Times, CBS News",
+          "published_at": "2026-08-15T09:15+08:00",
+          "url": "https://www.straitstimes.com/world/united-states/five-killed-in-michigan-shooting-suspect-found-dead-police-say"
+        },
+        {
+          "id": "ts10",
+          "headline": "Myanmar says 300,000 Rohingya verified for repatriation as exodus enters ninth year",
+          "category": "Asia",
+          "summary": "Myanmar's authorities said more than 300,000 Rohingya refugees have been verified as eligible to return, as the displacement crisis that began in August 2017 enters its ninth year. Around a million Rohingya remain in camps in Bangladesh. Rights groups have repeatedly questioned whether conditions in Rakhine State allow for safe and voluntary return.",
+          "source": "CNA",
+          "published_at": "2026-08-15T15:18+08:00",
+          "url": "https://www.channelnewsasia.com/asia/myanmar-rohingya-refugees-repatriation-bangladesh-6321146"
+        },
+        {
+          "id": "ts11",
+          "headline": "Anwar vows wider graft crackdown at PKR congress, citing king's backing",
+          "category": "Asia",
+          "summary": "Malaysian Prime Minister Anwar Ibrahim told his party's annual congress that the anti-corruption campaign would be widened, saying he had the backing of the king. The pledge comes as his government continues to field questions over the pace of high-profile prosecutions.",
+          "source": "CNA",
+          "published_at": "2026-08-15T14:20+08:00",
+          "url": "https://www.channelnewsasia.com/asia/malaysia-pm-anwar-combat-corruption-pkr-congress-6320981"
+        },
+        {
+          "id": "ts12",
+          "headline": "US stocks slip from record after July retail sales fall 0.6%",
+          "category": "Economy",
+          "summary": "US retail and food services sales fell 0.6% in July to US$763.6 billion, against expectations of a 0.1% rise, and sales excluding autos fell 0.3%. The Dow and S&P 500 each closed about 0.2% lower and the Nasdaq lost 0.5%, pulling back from record levels. A preliminary University of Michigan survey also showed consumer sentiment weakening more than economists expected.",
+          "source": "CNA, US Census Bureau",
+          "published_at": "2026-08-15T05:42+08:00",
+          "url": "https://www.channelnewsasia.com/world/stocks-market-us-wall-street-retail-hormuz-6320691"
+        },
+        {
+          "id": "ts13",
+          "headline": "Hurricane warning for Hawaii's Big Island as Tropical Storm Lala closes in",
+          "category": "Weather",
+          "summary": "Hawaii's governor declared a state of emergency as Tropical Storm Lala approached the archipelago with gusts forecast up to 85mph. A hurricane warning was in effect for Hawaii County, with tropical storm warnings for Maui, Molokai and Kahoolawe. Forecasters link the unusually active central Pacific season to a strengthening El Nino.",
+          "source": "The Straits Times, NOAA Central Pacific Hurricane Center",
+          "published_at": "2026-08-15T14:50+08:00",
+          "url": "https://www.straitstimes.com/world/united-states/hurricane-poised-to-hit-hawaii-as-el-nino-stirs-pacific"
+        },
+        {
+          "id": "ts14",
+          "headline": "France's top court strikes down social media ban for under-15s",
+          "category": "Politics",
+          "summary": "France's Constitutional Council struck down a law that would have barred under-15s from social media platforms, in a setback for a policy the government had presented as a child-protection measure. The ruling leaves France without the age-gating regime ministers had promised.",
+          "source": "BBC, CNA",
+          "published_at": "2026-08-15T00:35+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cx2vj433xqlo"
+        },
+        {
+          "id": "ts15",
+          "headline": "Japan's defence minister visits Yasukuni shrine; PM Takaichi stays away",
+          "category": "Asia",
+          "summary": "Japan's defence minister visited the Yasukuni war shrine on the anniversary of Japan's World War II surrender, while Prime Minister Sanae Takaichi did not attend. Visits by serving ministers routinely draw protests from Beijing and Seoul, which view the shrine as a symbol of wartime militarism.",
+          "source": "CNA",
+          "published_at": "2026-08-15T10:58+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/japan-yasukuni-shrine-defence-minister-pm-takaichi-6320966"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "The marriage and parenthood workgroup said it will act on early proposals rather than wait for its full review, with Indranee Rajah pointing to workplace norms, childcare cost and caregiving as what it wants fixed first. NEA spent the day rebutting online claims of misappropriation over recycling-scheme refunds, saying critics had misread a parliamentary figure - 5.5 million containers came back across more than a million machine transactions, not a million containers refunded. Enforcement filled much of the rest: S$6.1 million lost in seven months to scammers posing as ICA or Chinese officials, and separate charges over China-made mattresses allegedly relabelled as Singapore goods to dodge US duties. The buzz is service-industry flavoured this weekend, led by an airport wheelchair assistant said to have been docked S$5 for clocking in 11 seconds late. If you have young children, the workgroup is the thing to watch - it says it is deliberately not waiting for its full report to start moving.",
+      "weather": {
+        "forecast": "Thundery Showers",
+        "temp_low": 25,
+        "temp_high": 33,
+        "humidity_low": 60,
+        "humidity_high": 95,
+        "as_of": "2026-08-15T18:00+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Aug 2026 - 1st bidding",
+        "as_of": "2026-08-05",
+        "next_results": "2026-08-19",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          {
+            "code": "A",
+            "label": "Cars up to 1600cc & 130bhp",
+            "premium": 123890,
+            "change": -2110
+          },
+          {
+            "code": "B",
+            "label": "Cars above 1600cc or 130bhp",
+            "premium": 129910,
+            "change": 20
+          }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "Marriage and parenthood workgroup to push out early proposals on childcare and work norms",
+          "category": "Policy",
+          "summary": "Minister in the Prime Minister's Office Indranee Rajah said the marriage and parenthood workgroup will act on early proposals rather than wait for its full review, so as not to 'lose time' on falling birth rates. The group has converged on workplace norms, childcare availability and cost, and caregiving support as the priority areas. Singapore's total fertility rate fell to a record low of 0.87, with about 26,100 citizen births in 2025.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-08-15T20:14+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/marriage-parenthood-families-children-work-caregiving-6321231"
+        },
+        {
+          "id": "sg2",
+          "headline": "NEA rebuts 'misplaced' claims of misappropriation over drink container refunds",
+          "category": "Government",
+          "summary": "The National Environment Agency rejected online accusations of misappropriation and corruption over the Beverage Container Return Scheme, saying they stemmed from a misreading of figures given in Parliament on 5 Aug. Senior Minister of State Janil Puthucheary had said there were more than one million successful transactions covering 5.5 million containers returned; NEA said a single machine transaction can cover multiple containers, so the two figures are not a gap. At 10 cents a container, about S$550,000 has been refunded.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-08-15T13:06+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/beverage-container-return-scheme-nea-rebut-accusation-6321081"
+        },
+        {
+          "id": "sg3",
+          "headline": "MTI warns firms against dodging US tariffs after mattress origin charges",
+          "category": "Trade",
+          "summary": "The Ministry of Trade and Industry said Singapore takes trade compliance seriously and will act firmly against businesses that break the law, after three people and a company were charged over an alleged scheme to pass off China-made mattresses as Singapore goods to avoid US duties. Singapore Customs said the false declarations involved about S$1.9 million worth of goods exported to the US.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-08-15T11:08+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/circumvent-us-tariffs-china-singapore-6320951"
+        },
+        {
+          "id": "sg4",
+          "headline": "New York-bound SIA flight turns back to Singapore after technical issue",
+          "category": "Transport",
+          "summary": "A Singapore Airlines flight bound for New York returned to Changi Airport shortly after take-off on Friday because of a technical issue. The aircraft landed safely and the airline arranged for affected passengers.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-14T22:55+08:00",
+          "url": "https://www.straitstimes.com/singapore/new-york-bound-sia-flight-turns-back-to-spore-shortly-after-take-off-due-to-technical-issue"
+        },
+        {
+          "id": "sg5",
+          "headline": "At least S$6.1 million lost in seven months to scammers posing as ICA and Chinese officials",
+          "category": "Scams",
+          "summary": "The police said victims lost at least S$6.1 million in the first seven months of 2026 to impersonation scams in which callers claimed to be from the Immigration and Checkpoints Authority or Chinese government agencies. Victims were typically told they were implicated in an offence and pressured into transferring money or disclosing banking credentials.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-08-14T21:48+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/impersonation-scams-officials-ica-china-6320076"
+        },
+        {
+          "id": "sg6",
+          "headline": "SATS looking into claim wheelchair assistant had S$5 docked for being 11 seconds late",
+          "category": "Labour",
+          "summary": "SATS said it was concerned by and looking into claims that a service partner deducted S$5 from the pay of a wheelchair assistant at Changi Airport for clocking in 11 seconds late. The account circulated widely online before the company responded.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-08-14T21:42+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/wheelchair-assistant-changi-airport-pay-docked-11-seconds-late-sats-6319956"
+        },
+        {
+          "id": "sg7",
+          "headline": "NTU to drop 'fundamentally unreliable' AI-detection tool from 2027",
+          "category": "Education",
+          "summary": "Nanyang Technological University said it will stop using an AI-writing detector from 2027, describing the probability scores such tools produce as fundamentally unreliable for establishing academic misconduct. Cases will instead be assessed through other forms of evidence.",
+          "source": "CNA",
+          "published_at": "2026-08-14T22:32+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/ntu-ai-detector-stop-using-2027-probability-scores-misconduct-6320136"
+        },
+        {
+          "id": "sg8",
+          "headline": "SCDF unveils ambulance that can be reconfigured to carry two patients",
+          "category": "Emergency services",
+          "summary": "The Singapore Civil Defence Force showed a new ambulance design that can be switched quickly to carry two patients at once, aimed at multi-casualty incidents. The vehicle also carries added safety features for occupants.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-08-15T00:00+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/new-ambulance-features-reconfigured-two-patients-scdf-6319726"
+        },
+        {
+          "id": "sg9",
+          "headline": "NTUC's first job security chief flags fresh graduates and older PMEs as key worries",
+          "category": "Jobs",
+          "summary": "In an interview, NTUC's newly appointed job security chief said the two groups causing most concern are fresh graduates struggling to enter the labour market and older professionals, managers and executives at risk of displacement. The role was created as part of the labour movement's response to a softer hiring environment.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-15T14:55+08:00",
+          "url": "https://www.straitstimes.com/singapore/politics/ntucs-first-job-security-chief-has-two-worries-fresh-graduates-and-older-pmes"
+        },
+        {
+          "id": "sg10",
+          "headline": "About 70 pre-schools closed each year from 2023 to 2025",
+          "category": "Education",
+          "summary": "An analysis found roughly 70 pre-schools shut annually between 2023 and 2025, with operators pointing to rising rents and manpower costs and to a shrinking pool of children as births fall. Parents report more choice overall but higher expectations of quality.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-15T05:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/community/70-pre-schools-in-spore-closed-each-year-from-2023-to-2025-whats-driving-the-closures"
+        },
+        {
+          "id": "sg11",
+          "headline": "179 new citizens take the pledge; Edwin Tong says diversity is a strength",
+          "category": "Community",
+          "summary": "At a citizenship ceremony, Minister for Law and Second Minister for Home Affairs Edwin Tong told 179 new Singaporeans that diversity was a strength when held together by shared conviction. He said newcomers were expected to take on the same obligations as those born here.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-15T15:05+08:00",
+          "url": "https://www.straitstimes.com/singapore/179-new-sporeans-take-the-pledge-diversity-a-strength-amid-shared-conviction-edwin-tong"
+        },
+        {
+          "id": "sg12",
+          "headline": "Girl born with skin missing from scalp and limbs treated with her own lab-grown skin",
+          "category": "Health",
+          "summary": "Doctors here treated a girl born with skin missing from her scalp, body, arms and legs using sheets of skin grown in a laboratory from her own cells. The case is among the more complex reconstructions attempted locally.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-15T12:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/health/girl-born-with-skin-missing-from-her-scalp-body-arms-and-legs"
+        },
+        {
+          "id": "sg13",
+          "headline": "Man who set childhood friend on fire and attacked girlfriend jailed 12 months",
+          "category": "Courts",
+          "summary": "A 36-year-old Singaporean was jailed for a year after setting a childhood friend on fire, fleeing Singapore for five years, and then attacking his girlfriend while out on bail. Mothership and The Straits Times both reported the sentencing.",
+          "source": "Mothership, The Straits Times",
+          "published_at": "2026-08-15T11:37+08:00",
+          "url": "https://mothership.sg/2026/08/man-sets-friend-fire-assaults-girlfriend/"
+        },
+        {
+          "id": "sg14",
+          "headline": "Interior designer arrested over alleged misuse of client money in direct payment scheme",
+          "category": "Crime",
+          "summary": "The police arrested an interior designer for allegedly pocketing money paid by a client under a direct payment arrangement. Investigations are ongoing.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-14T22:24+08:00",
+          "url": "https://www.straitstimes.com/singapore/interior-designer-arrested-for-allegedly-pocketing-clients-money-in-direct-payment-scheme"
+        },
+        {
+          "id": "sg15",
+          "headline": "Driver taken to hospital after Geylang crash involving five cars and a motorcycle",
+          "category": "Traffic",
+          "summary": "One driver was taken to hospital after a chain collision in Geylang on Saturday involving five cars and a motorcycle. Police said investigations are ongoing.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-15T20:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/driver-taken-to-hospital-following-accident-in-geylang-involving-5-cars-motorcycle"
+        },
+        {
+          "id": "sg16",
+          "headline": "Driver arrested for drug offences after Bukit Panjang crash; vapes found in van",
+          "category": "Crime",
+          "summary": "A driver was arrested on suspicion of drug offences after a multi-vehicle accident in Bukit Panjang, with vaping devices also recovered from the van he was driving.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-15T13:15+08:00",
+          "url": "https://www.straitstimes.com/singapore/driver-arrested-for-drug-offences-after-multi-vehicle-accident-in-bukit-panjang-vapes-found-in-van"
+        },
+        {
+          "id": "sg17",
+          "headline": "13 motorists caught for traffic offences at Woodlands Checkpoint over National Day period",
+          "category": "Transport",
+          "summary": "Enforcement operations at Woodlands Checkpoint during the National Day period caught 13 motorists for traffic offences, the authorities said. Separately, two motorcyclists were arrested earlier in the week for attempting to smuggle cigarettes and vapes through the checkpoint.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-15T12:30+08:00",
+          "url": "https://www.straitstimes.com/singapore/13-motorists-caught-for-traffic-offences-at-woodlands-checkpoint-during-national-day-period"
+        },
+        {
+          "id": "sg18",
+          "headline": "President Tharman congratulates India on its 80th Independence Day",
+          "category": "Foreign relations",
+          "summary": "President Tharman Shanmugaratnam sent congratulations to India on its 80th Independence Day, noting the two countries' long-standing ties. India marked the anniversary on 15 August.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-15T11:30+08:00",
+          "url": "https://www.straitstimes.com/singapore/president-tharman-congratulates-india-on-its-80th-independence-day"
+        },
+        {
+          "id": "sg19",
+          "headline": "Singapore women retain Asian netball championship title",
+          "category": "Sport",
+          "summary": "Singapore's women's netball team, the Vandas, beat their opponents in the final to retain the Asian Championship crown.",
+          "source": "CNA",
+          "published_at": "2026-08-15T17:00+08:00",
+          "url": "https://www.channelnewsasia.com/sport/singapore-vandas-netball-asian-championship-final-6321206"
+        },
+        {
+          "id": "sg20",
+          "headline": "Singapore's only dedicated BMX track opens at Brickland-Tengah",
+          "category": "Community",
+          "summary": "A dedicated BMX track opened as part of a new multi-sport facility in the Brickland area of Tengah, the first purpose-built track of its kind in Singapore.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-15T15:55+08:00",
+          "url": "https://www.straitstimes.com/singapore/community/singapores-only-dedicated-bmx-track-opens-in-brickland-tengah-as-part-of-new-multi-sport-facility"
+        },
+        {
+          "id": "sg21",
+          "headline": "Go-Ahead bus captain finds and returns purse holding S$1,200",
+          "category": "Trending",
+          "summary": "A Go-Ahead Singapore bus captain found a purse containing about S$1,200 in cash left on board and returned it to its owner. The operator publicised the incident, which circulated widely online.",
+          "source": "Mothership",
+          "published_at": "2026-08-15T10:49+08:00",
+          "url": "https://mothership.sg/2026/08/go-ahead-bus-captain-returns-cash/"
+        },
+        {
+          "id": "sg22",
+          "headline": "Ong Ye Kung tracks down his BMT buddy decades later",
+          "category": "Trending",
+          "summary": "In a CNA Insider feature, Health Minister Ong Ye Kung reunited with Eric Sim, a fellow recruit from his basic military training days, and revisited an old confession between the two.",
+          "source": "CNA",
+          "published_at": "2026-08-15T06:00+08:00",
+          "url": "https://www.channelnewsasia.com/cna-insider/ong-ye-kung-finding-army-buddy-bmt-recruits-reunion-6320246"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "Lebanon is the front that moved. Israeli airstrikes killed at least nine people in the south on Saturday - the deadliest day since the 20 June truce - with the Israeli military saying it hit Hezbollah infrastructure in reply to an attack on its troops, which puts an eight-week-old ceasefire visibly under strain. Ukraine is fighting a different kind of war from its own front line: Kyiv says cruise missiles struck the Samara plant that builds rockets for Russia's answer to Starlink, some 900km inside Russia, while Moscow claims its summer campaign has taken 19 more settlements in the southeast. Neither claim is independently verified. Hormuz stays stuck - Trump floated annexing the strait, Tehran said only Iran decides when it opens, and ships keep being hit. Three theatres, three different stalemates, and not one of them has a negotiating track running.",
+      "theatres": [
+        {
+          "name": "Russia-Ukraine War",
+          "status": "Kyiv is escalating deep strikes inside Russia - hitting the Samara space-rocket plant - while Moscow claims 19 more settlements taken in its summer campaign. No ceasefire track is running.",
+          "timeline": [
+            {
+              "date": "2022-02-24",
+              "event": "Russia launches a full-scale invasion of Ukraine, opening the largest land war in Europe since 1945.",
+              "source": "BBC",
+              "url": "https://www.bbc.com/news/world-europe-60506682"
+            },
+            {
+              "date": "2026-08-10",
+              "event": "At least 13 people are killed in a Ukrainian drone strike deep inside Russia, according to Russian officials. The claim has not been independently verified.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po"
+            },
+            {
+              "date": "2026-08-11",
+              "event": "President Volodymyr Zelensky says Russia is using North Korean missiles to strike Ukraine. Moscow and Pyongyang have not confirmed the claim.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/c151dpzwnvxo"
+            },
+            {
+              "date": "2026-08-13",
+              "event": "Major Russian grain export terminals are hit in a Ukrainian attack on a Black Sea port, extending the campaign against Russian export infrastructure.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/c5y49xp2wrno"
+            },
+            {
+              "date": "2026-08-14",
+              "event": "Russia dismisses the idea of a Black Sea ceasefire, saying it sees no grounds for 'half-measures' that would give the other side a respite.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/russia-dismisses-idea-of-black-sea-ceasefire"
+            },
+            {
+              "date": "2026-08-14",
+              "event": "NATO jets shoot down a drone that entered Latvian airspace, the latest spillover of the air war into alliance territory.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/latvia-shoots-down-drone-in-airspace-nato-russia-6318841"
+            },
+            {
+              "date": "2026-08-15",
+              "event": "President Vladimir Putin says Russia and North Korea are coordinating on regional security, according to a report carried by CNA.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/north-korea-russia-security-6320736"
+            },
+            {
+              "date": "2026-08-15",
+              "event": "Russia's defence ministry says its summer campaign has resulted in the capture of 19 settlements in southeastern Ukraine. Kyiv has not confirmed the claim.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/summer-campaign-has-led-to-capture-of-19-settlements-in-southeast-ukraine-russia-says"
+            },
+            {
+              "date": "2026-08-15",
+              "event": "Ukraine's General Staff says long-range strikes hit the Progress Rocket Space Centre in Samara, some 900km inside Russia, and a military airfield; Zelensky says Flamingo cruise missiles were used. Damage has not been independently verified.",
+              "source": "The Straits Times, Ukrainska Pravda",
+              "url": "https://www.straitstimes.com/world/europe/ukraine-says-it-hit-russian-rocket-centre-linked-to-starlink-style-network"
+            }
+          ]
+        },
+        {
+          "name": "US/Israel-Iran (Strait of Hormuz)",
+          "status": "Shipping is still being attacked and there are no talks: Tehran says the strait opens or closes on Iran's authority alone, after Trump floated declaring it US territory.",
+          "timeline": [
+            {
+              "date": "2026-08-06",
+              "event": "Iran says a deal with Oman on the Strait of Hormuz is in its final stages.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/ckg9d3eyeggo"
+            },
+            {
+              "date": "2026-08-11",
+              "event": "Houthis reportedly kill six people in their first deadly attack since the start of the Iran war.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/ckg9wpmzmlno"
+            },
+            {
+              "date": "2026-08-14",
+              "event": "Yemen's internationally recognised government says the Houthis fired six ballistic missiles at the Red Sea port of Mocha, killing four civilians. The Houthis have not commented.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/yemen-government-says-houthi-missiles-kill-at-least-four-civilians-in-port-city"
+            },
+            {
+              "date": "2026-08-14",
+              "event": "Treasury Secretary Scott Bessent says the US will step up economic pressure on Iran, as two more ships are reported attacked in the Strait of Hormuz.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/us-iran-hormuz-attacks-step-up-economic-pressure-6319876"
+            },
+            {
+              "date": "2026-08-14",
+              "event": "Two large oil slicks appear in the Gulf as a spill off Oman threatens wider environmental damage.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/two-slicks-appear-in-gulf-as-huge-oil-spill-off-oman-threatens-disaster"
+            },
+            {
+              "date": "2026-08-14",
+              "event": "President Trump tells a rally he will 'soon' declare the Strait of Hormuz US territory once Iran is defeated. A White House official later says he was joking.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/hormuz-trump-us-territory-soon-declare-iran-6320596"
+            },
+            {
+              "date": "2026-08-15",
+              "event": "Abu Dhabi National Oil Company says one of its vessels came under attack while transiting the Strait of Hormuz the previous day, according to Emirati state news agency WAM.",
+              "source": "The Straits Times, WAM",
+              "url": "https://www.straitstimes.com/world/middle-east/uaes-adnoc-says-one-of-its-vessels-came-under-attack-while-transiting-hormuz"
+            },
+            {
+              "date": "2026-08-15",
+              "event": "Iran's deputy foreign minister Kazem Gharibabadi says Tehran will not be intimidated and that the strait will be opened or closed under Iran's authority alone, as Trump tells Americans to accept higher petrol prices.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/iran-us-war-trump-gas-prices-hormuz-6320876"
+            },
+            {
+              "date": "2026-08-15",
+              "event": "Iran calls publicly for the release of pilots it says were captured in Qatar during the war.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/iran-calls-for-release-of-pilots-captured-in-qatar-during-middle-east-war"
+            }
+          ]
+        },
+        {
+          "name": "Israel-Gaza & Lebanon",
+          "status": "The Lebanon front has reopened - Israeli strikes killed at least nine on 15 August, the deadliest day since the June truce - while the West Bank settler siege drags into a third week.",
+          "timeline": [
+            {
+              "date": "2026-08-06",
+              "event": "Israel strikes south Lebanon after two soldiers are killed by an explosion.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/c998711dyjvo"
+            },
+            {
+              "date": "2026-08-09",
+              "event": "Prime Minister Benjamin Netanyahu says Israel rejects President Trump's 15-point plan for Gaza.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/c5yw4lpe0yeo"
+            },
+            {
+              "date": "2026-08-13",
+              "event": "Palestinians are told to leave homes in the West Bank village of Qusra that Israeli settlers had besieged.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/clyxgn37lg5o"
+            },
+            {
+              "date": "2026-08-14",
+              "event": "Israeli forces block activists attempting to deliver aid to Palestinian families besieged by settlers at Qusra.",
+              "source": "BBC, The Straits Times",
+              "url": "https://www.bbc.co.uk/news/articles/c1w1ylw0p3no"
+            },
+            {
+              "date": "2026-08-14",
+              "event": "US officials say Washington wants Netanyahu to publicly condemn the settler siege at Qusra. Netanyahu has not commented publicly.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/palestine-activists-israel-us-netanyahu-6320386"
+            },
+            {
+              "date": "2026-08-15",
+              "event": "The UK government calls Netanyahu's 'Islamic republic of Britain' comment 'completely unacceptable', opening a fresh public rift between the two governments.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/uk-criticises-israels-netanyahu-over-islamic-republic-of-britain-comment"
+            },
+            {
+              "date": "2026-08-15",
+              "event": "Israeli airstrikes on Ansar and Deir al-Zahrani in southern Lebanon kill at least nine people including three children, Lebanon's health ministry says, in the deadliest day since the 20 June truce. The Israeli military says it struck Hezbollah infrastructure in response to an attack on its troops.",
+              "source": "BBC, Al Jazeera",
+              "url": "https://www.bbc.co.uk/news/articles/c4gjygx4gjeo"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "The Bundibugyo Ebola epidemic in eastern DR Congo is now the largest that country has ever recorded, and WHO's 14 August update shows why: more than a thousand new confirmed cases in the eleven days since its previous report, and a sixth province reporting its first infection. Measles is the other running sore - still killing children daily in Bangladesh, and pushing the Americas to their worst year in over two decades, with the US at a 35-year high. In the US the sharper near-term hazard is on the plate, where regulators bumped a 19-million-egg salmonella recall to their highest risk class this week. None of these are contained, and the Ituri case curve is the one to watch, because it is still bending the wrong way.",
+      "outbreaks": [
+        {
+          "name": "Ebola (Bundibugyo virus) - DR Congo",
+          "status": "Fastest-growing Ebola outbreak on record and the largest ever in DR Congo; still expanding into new health zones",
+          "cases": 4686,
+          "deaths": 2186,
+          "countries": 3,
+          "as_of": "2026-08-12",
+          "scope_note": "WHO-confirmed cases only, as of 12 Aug 2026 (DON615, published 14 Aug): DR Congo 4,665 (including two patients treated in Germany), Uganda 20, France 1; deaths include two in Uganda. DRC case-fatality rate 46.8%. Cases span 54 health zones across six provinces, with Ituri accounting for 85%."
+        },
+        {
+          "name": "Measles - Bangladesh",
+          "status": "World's largest measles outbreak by case count; deaths still accruing daily",
+          "cases": "17,000+ confirmed (138,184 suspected)",
+          "deaths": 894,
+          "countries": 1,
+          "as_of": "2026-08-14",
+          "scope_note": "Bangladesh DGHS. Deaths as of 14 Aug 2026 combine 99 laboratory-confirmed and 795 suspected measles deaths; case counts are as of 12 Aug 2026. Outbreak began mid-March 2026; two-thirds of deaths are children under two."
+        },
+        {
+          "name": "Measles - Americas region",
+          "status": "Worst year in more than two decades; regional elimination status at risk",
+          "cases": 47459,
+          "deaths": 44,
+          "countries": 3,
+          "as_of": "2026-07-18",
+          "scope_note": "PAHO/WHO confirmed cases across the Americas through epidemiological week 28 (ending 18 Jul 2026), published in a 7 Aug 2026 epidemiological alert; 'countries' counts those reporting deaths. Guatemala (30,371 cases, 26 deaths), Mexico (12,255 cases, 17 deaths), the US and Peru account for 95% of cases. The US CDC separately reported 2,566 confirmed US cases as of 13 Aug 2026, a more recent national figure than the regional cut-off."
+        },
+        {
+          "name": "Cyclospora (iceberg lettuce) - United States",
+          "status": "Recalled product largely out of circulation; case count still climbing as older illnesses are confirmed",
+          "cases": 9481,
+          "deaths": 2,
+          "countries": 1,
+          "as_of": "2026-08-13",
+          "scope_note": "US CDC/FDA multistate investigation, 17 states, at least 398 hospitalisations and two deaths in Michigan. Linked to iceberg lettuce from central Mexico recalled by Taylor Farms de Mexico on 17 Jul 2026; illness onsets run 14 Jun to 3 Aug 2026. CDC notes the true total is likely higher."
+        },
+        {
+          "name": "Salmonella (shell eggs) - United States",
+          "status": "Recall upgraded to the FDA's highest risk class; no deaths reported",
+          "cases": 98,
+          "deaths": 0,
+          "countries": 1,
+          "as_of": "2026-08-14",
+          "scope_note": "US CDC/FDA outbreak linked to shell eggs from Midwest Poultry Services farms in Texas; 98 infections and 26 hospitalisations across 17 states, illness onsets 21 Nov 2025 to 30 Jun 2026. About 19 million eggs (1,589,577 dozen) were recalled from 22 Jul 2026; the FDA classified the recall as Class I on 14 Aug 2026."
+        },
+        {
+          "name": "Dengue - Bangladesh",
+          "status": "Sharp August surge after a quiet first half of the year",
+          "cases": 21550,
+          "deaths": 63,
+          "countries": 1,
+          "as_of": "2026-08-12",
+          "scope_note": "Bangladesh DGHS cumulative 2026 figures as of 12 Aug 2026. Dhaka division is worst affected with 6,871 cases and 26 deaths. Some 6,521 of the year's cases were recorded in August alone."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "WHO: DR Congo Ebola epidemic passes 4,600 confirmed cases, now the country's largest ever",
+          "category": "Ebola",
+          "summary": "WHO's Disease Outbreak News published on 14 August reported 4,686 confirmed Bundibugyo virus cases and 2,186 deaths as of 12 August, an increase of 1,060 confirmed cases and 597 deaths since the previous report on 1 August. WHO attributes part of the rise to stronger surveillance and laboratory capacity but says most of it reflects genuine expansion. Cases now span 54 health zones across six provinces, with a new province, Bas-Uele, reporting its first case. There is no approved vaccine or specific treatment for Bundibugyo virus.",
+          "source": "WHO Disease Outbreak News",
+          "published_at": "2026-08-14",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON615"
+        },
+        {
+          "id": "ob2",
+          "headline": "FDA raises 19-million-egg salmonella recall to its highest risk class",
+          "category": "Salmonella",
+          "summary": "The US Food and Drug Administration classified the recall of more than 19 million eggs from Midwest Poultry Services as Class I on 14 August, meaning eating the product could reasonably cause serious health consequences or death. The CDC has linked the eggs in part to an outbreak that has infected 98 people and hospitalised 26 across 17 states. No deaths have been reported. The eggs carry sell-by dates between 20 July and 17 August 2026.",
+          "source": "The Straits Times, US FDA",
+          "published_at": "2026-08-15",
+          "url": "https://www.straitstimes.com/world/united-states/us-says-19-million-recalled-eggs-pose-deadly-risk"
+        },
+        {
+          "id": "ob3",
+          "headline": "Bangladesh measles death toll nears 900 as outbreak enters sixth month",
+          "category": "Measles",
+          "summary": "Bangladesh's Directorate General of Health Services reported the combined confirmed and suspected measles death toll reaching 894 by 14 August, of which 99 are laboratory-confirmed. The outbreak, which began in mid-March, is the world's largest by case count and the country's worst measles emergency since 2005. A WHO, UNICEF and Gavi-backed emergency campaign has been vaccinating children nationwide since April.",
+          "source": "The Business Standard, IANS",
+          "published_at": "2026-08-14",
+          "url": "https://www.tbsnews.net/bangladesh/health/measles-outbreak-death-toll-reaches-894-4-more-die-1514886"
+        },
+        {
+          "id": "ob4",
+          "headline": "US measles cases reach 2,566 in 2026, a 35-year high",
+          "category": "Measles",
+          "summary": "The US CDC reported 2,566 confirmed measles cases for 2026 as of 13 August, the highest annual total in 35 years and already well past 2025's figure. Of these, 2,550 were reported by 47 jurisdictions and 16 among international visitors. The tally puts renewed pressure on the country's measles elimination status.",
+          "source": "US CDC",
+          "published_at": "2026-08-13",
+          "url": "https://www.cdc.gov/measles/data-research/index.html"
+        },
+        {
+          "id": "ob5",
+          "headline": "US cyclospora outbreak linked to Mexican iceberg lettuce expands to more states",
+          "category": "Cyclospora",
+          "summary": "The CDC said the multistate cyclosporiasis outbreak tied to recalled Taylor Farms de Mexico iceberg lettuce had grown to 9,481 illnesses across 17 states, with at least 398 hospitalisations and two deaths in Michigan. Illness onsets run from 14 June to 3 August; most began before the 17 July recall. The agency says the true total is likely higher because many people recover without being tested.",
+          "source": "US CDC",
+          "published_at": "2026-08-13",
+          "url": "https://www.cdc.gov/cyclosporiasis/outbreaks/07-26/investigation.html"
+        },
+        {
+          "id": "ob6",
+          "headline": "PAHO issues alert as measles in the Americas hits worst level in two decades",
+          "category": "Measles",
+          "summary": "The Pan American Health Organization issued an epidemiological alert on 7 August after the Americas recorded 47,459 confirmed measles cases and 44 deaths through epidemiological week 28 - more than three times the total for all of 2025. Guatemala, Mexico, the US and Peru account for 95% of cases. PAHO urged countries to restore two-dose vaccination coverage to at least 95%.",
+          "source": "PAHO/WHO",
+          "published_at": "2026-08-08",
+          "url": "https://www.paho.org/en/news/8-8-2026-paho-urges-countries-strengthen-vaccination-and-surveillance-amid-rising-measles"
+        },
+        {
+          "id": "ob7",
+          "headline": "Bangladesh dengue cases pass 21,500 as August surge accelerates",
+          "category": "Dengue",
+          "summary": "Bangladesh's health directorate reported 21,550 dengue cases and 63 deaths for 2026 as of 12 August, with 6,521 of those cases recorded in August alone after a comparatively quiet first seven months. Dhaka division is worst affected, accounting for 6,871 cases and 26 deaths.",
+          "source": "The Daily Star, Bangladesh DGHS",
+          "published_at": "2026-08-12",
+          "url": "https://www.thedailystar.net/news/bangladesh/news/dhaka-tops-dengue-cases-deaths-4242561"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "Patch SAP Commerce Cloud first: the maximum-severity Data Hub flaw went from patched to actively attacked within days, and the only interim fix is blocking the import endpoint. Two more are already being exploited - a critical vCenter directory-traversal bug used to plant reverse-SSH backdoors on servers across 47 countries, and a SharePoint authentication bypass that attackers picked up the moment a proof-of-concept went public. Microsoft's August Patch Tuesday was enormous at 398 CVEs, but the one that matters is the WinSock driver flaw North Korea's Lazarus group had already been using for weeks against defence and aerospace firms. The rest is supply chain and extortion, from poisoned LiteLLM releases that may have reached 2,100 organisations to a fresh Clop wave that has Shell investigating. If you run ColdFusion, Cisco ASA VPNs or internet-facing macOS screen sharing, you are in this cycle too.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "Europol-coordinated arrests over EUR30 million bank fraud that exploited a service-provider flaw",
+          "category": "Law enforcement",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Police arrested suspects accused of stealing about EUR30 million from banks by abusing a vulnerability at a shared service provider, giving them a route into multiple institutions at once. The case is a reminder that a single upstream provider flaw can become every downstream customer's breach.",
+          "source": "BleepingComputer",
+          "published_at": "2026-08-15T02:04+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-arrested-over-30m-bank-fraud-exploiting-service-provider-flaw/"
+        },
+        {
+          "id": "cs2",
+          "headline": "macOS Screen Sharing authentication bypass exploited to drop Monero miners",
+          "category": "Exploited vulnerability",
+          "cve": "CVE-2026-65400",
+          "cvss": 7.1,
+          "severity": "HIGH",
+          "summary": "The Netherlands' NCSC warned that attackers are exploiting an authentication bypass in macOS Screen Sharing after public exploit code appeared. In observed cases port 5900 was exposed to the internet, the attacker obtained root, and a Monero cryptocurrency miner was installed. Apple fixed the flaw on 6 August in macOS Tahoe 26.6.1 and earlier releases. Disable screen sharing when unused and keep port 5900 off the internet.",
+          "source": "BleepingComputer, NCSC-NL",
+          "published_at": "2026-08-14T22:59+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-macos-screen-sharing-flaw-to-deploy-monero-miner/"
+        },
+        {
+          "id": "cs3",
+          "headline": "Maximum-severity SAP Commerce Cloud flaw now under active attack",
+          "category": "Exploited vulnerability",
+          "cve": "CVE-2026-58231",
+          "cvss": 10.0,
+          "severity": "CRITICAL",
+          "summary": "An improper authorization flaw in SAP Commerce Cloud's Data Hub Adapter lets an unauthenticated attacker abuse a default authentication client and submit crafted input to the import endpoint, potentially achieving remote code execution. SAP patched it on August Patch Day; exploitation attempts were seen against honeypots three days later. Affects Commerce Cloud 2211 and 2211-JDK21. Interim mitigation is to restrict /datahubadapter/import/** to trusted DataHub server IPs.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-08-14T21:45+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/max-severity-sap-commerce-cloud-flaw-now-targeted-in-attacks/"
+        },
+        {
+          "id": "cs4",
+          "headline": "Shell investigates possible incident after Clop claims data theft",
+          "category": "Data breach",
+          "cve": "CVE-2026-12569",
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Shell said it is investigating a potential security incident after the Clop extortion group claimed to have taken 89GB of data including engineering drawings and internal project plans. Clop listed Shell among 43 new victims in a campaign against internet-exposed PTC Windchill and FlexPLM systems, linked to an improper input validation flaw. Shell has not confirmed any data was taken, and Clop's figures remain unverified claims.",
+          "source": "BleepingComputer",
+          "published_at": "2026-08-14T19:55+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/shell-investigates-potential-incident-after-clop-data-theft-claims/"
+        },
+        {
+          "id": "cs5",
+          "headline": "RingCentral breach exposed data on 1.6 million accounts",
+          "category": "Data breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Have I Been Pwned confirmed that data leaked by the ShinyHunters extortion group contains records for 1.6 million RingCentral accounts, including names, email addresses, phone numbers and physical addresses. RingCentral disclosed the intrusion on 28 July and attributes it to a social engineering campaign; the group leaked a 280GB archive after the company refused to pay. RingCentral says its core platform was not affected.",
+          "source": "BleepingComputer, Have I Been Pwned",
+          "published_at": "2026-08-14T18:52+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/ringcentral-data-breach-exposed-info-of-16-million-accounts/"
+        },
+        {
+          "id": "cs6",
+          "headline": "Apple issues fresh threat notifications over mercenary spyware attacks",
+          "category": "Threat intelligence",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Apple sent a new round of Threat Notification alerts to users it believes were individually targeted by mercenary spyware. Recipients are advised to enable Lockdown Mode and seek assistance from civil-society security helplines.",
+          "source": "BleepingComputer",
+          "published_at": "2026-08-14T09:19+08:00",
+          "url": "https://www.bleepingcomputer.com/news/apple/apple-sends-new-threat-notification-alerts-over-mercenary-spyware-attacks/"
+        },
+        {
+          "id": "cs7",
+          "headline": "Ukraine shuts down 94 fraudulent call centres and seizes millions in cash",
+          "category": "Law enforcement",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Ukrainian police dismantled 94 call centres running investment and impersonation fraud against victims abroad, seizing millions in cash and equipment. The operation removes a substantial chunk of active fraud infrastructure rather than only prosecuting individuals.",
+          "source": "BleepingComputer",
+          "published_at": "2026-08-14T05:12+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/ukraine-shuts-down-94-fraudulent-call-centers-seize-millions-in-cash/"
+        },
+        {
+          "id": "cs8",
+          "headline": "Akira affiliates reboot machines into Safe Mode to disable EDR",
+          "category": "Threat actor campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers documented Akira ransomware operators rebooting compromised hosts into Windows Safe Mode so endpoint detection agents do not load, then stealing data. In the observed intrusions the encryption stage failed, but the data theft succeeded. Defenders should alert on unexpected Safe Mode boots and enforce tamper protection on EDR agents.",
+          "source": "BleepingComputer",
+          "published_at": "2026-08-14T04:47+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/akira-hackers-disable-edr-with-safe-mode-steal-data-but-fail-to-encrypt/"
+        },
+        {
+          "id": "cs9",
+          "headline": "Microsoft patches 'LegacyHive' Windows zero-day in User Profile Service",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-62832",
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Microsoft fixed a link-following flaw in the Windows User Profile Service that allows an authenticated attacker holding another account's credentials to load that user's registry hive and elevate privileges locally. Researchers tie the advisory to the activity tracked as LegacyHive. It was one of three zero-days addressed in the August update.",
+          "source": "BleepingComputer",
+          "published_at": "2026-08-14T01:46+08:00",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-patches-legacyhive-windows-zero-day-vulnerability/"
+        },
+        {
+          "id": "cs10",
+          "headline": "Critical VMware vCenter flaw exploited to plant reverse-SSH backdoors in 47 countries",
+          "category": "Exploited vulnerability",
+          "cve": "CVE-2026-59310",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "A directory traversal flaw in the vCenter Syslog server lets an unauthenticated attacker with network access execute arbitrary code. Broadcom disclosed it on 29 July; exploitation began within days. Researchers have identified compromises at 361 IP addresses across 47 countries, with attackers deploying the open-source reverse_ssh framework for persistence. Broadcom offers no workaround - patch to vCenter 9.1.0.0300, 9.0.2.0100, 8.0 U3k or 8.0 U2f.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-08-14T00:40+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/critical-vmware-vcenter-rce-flaw-exploited-for-reverse-ssh-access/"
+        },
+        {
+          "id": "cs11",
+          "headline": "Attackers pick up SharePoint authentication bypass hours after PoC goes public",
+          "category": "Exploited vulnerability",
+          "cve": "CVE-2026-55040",
+          "cvss": 9.1,
+          "severity": "CRITICAL",
+          "summary": "A weak-authentication flaw in Microsoft SharePoint lets a remote unauthenticated attacker forge a JWT token and act as a site user or administrator. Microsoft patched it in July; after Rapid7 published a technical analysis and proof-of-concept script, exploitation attempts jumped, with eight of the twelve recorded attempts landing on 12 and 13 August from IPs in Hong Kong, Japan, the Netherlands, Taiwan and the US.",
+          "source": "The Hacker News, Rapid7",
+          "published_at": "2026-08-13T14:09+08:00",
+          "url": "https://thehackernews.com/2026/08/attackers-exploit-sharepoint.html"
+        },
+        {
+          "id": "cs12",
+          "headline": "Lazarus exploited Windows WinSock zero-day for weeks against defence and aerospace firms",
+          "category": "Exploited vulnerability",
+          "cve": "CVE-2026-68820",
+          "cvss": 7.0,
+          "severity": "HIGH",
+          "summary": "North Korea's Lazarus group used a use-after-free flaw in the Windows Ancillary Function Driver for WinSock (afd.sys) to escalate to SYSTEM, as part of a renewed Operation Dream Job campaign against defence and aerospace targets in Europe and India. Victims were lured with fake recruiter messages into opening a malicious PDF or trojanised viewer, leading to a new backdoor called Troy and the FudModule v3.1 rootkit. Check Point reported the flaw on 28 July; Microsoft patched it on 11 August and CISA added it to the KEV catalog the same day.",
+          "source": "The Hacker News, BleepingComputer, CISA KEV",
+          "published_at": "2026-08-13T01:39+08:00",
+          "url": "https://thehackernews.com/2026/08/lazarus-exploits-windows-zero-day-to.html"
+        },
+        {
+          "id": "cs13",
+          "headline": "737 Chrome VPN extensions found routing user traffic through third-party proxies",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers found 737 VPN-branded Chrome extensions that route users' browsing through proxy infrastructure they do not disclose, effectively turning installs into traffic relays. Users should audit installed extensions and remove any VPN add-on they cannot attribute to a named, reputable provider.",
+          "source": "The Hacker News",
+          "published_at": "2026-08-12T22:09+08:00",
+          "url": "https://thehackernews.com/2026/08/737-chrome-vpn-extensions-caught.html"
+        },
+        {
+          "id": "cs14",
+          "headline": "API flaw at OpenAI, Anthropic and Google let weaker models reconstruct stronger models' reasoning",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers described an API-level weakness across major model providers, including Anthropic, that allows a weaker model to decode the hidden reasoning traces of a stronger one. The finding matters for anyone relying on reasoning being kept private between an application and its model provider.",
+          "source": "The Hacker News",
+          "published_at": "2026-08-12T19:47+08:00",
+          "url": "https://thehackernews.com/2026/08/openai-anthropic-google-api-flaw-let.html"
+        },
+        {
+          "id": "cs15",
+          "headline": "Adobe patches three CVSS 10.0 flaws in ColdFusion and Campaign Classic",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-48362",
+          "cvss": 10.0,
+          "severity": "CRITICAL",
+          "summary": "Adobe's 11 August updates fix maximum-severity flaws in ColdFusion and Campaign Classic, headlined by an OS command injection bug in ColdFusion that can lead to arbitrary code execution, fixed in versions 2025.0.12 and 2023.0.23. Campaign Classic received fixes for two CVSS 10.0 incorrect-authorization issues (CVE-2026-71398, CVE-2026-27302). There is no evidence of exploitation yet; Adobe advises patching within 72 hours.",
+          "source": "The Hacker News, Adobe",
+          "published_at": "2026-08-12T19:13+08:00",
+          "url": "https://thehackernews.com/2026/08/adobe-patches-three-cvss-100-coldfusion.html"
+        },
+        {
+          "id": "cs16",
+          "headline": "Malicious LiteLLM releases tied to Trivy compromise may have reached 2,100+ organisations",
+          "category": "Supply chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Poisoned releases of the LiteLLM package, linked to a compromise of the Trivy scanner project, may have been pulled by more than 2,100 organisations. Teams running LiteLLM should verify release hashes, review build logs for the affected window, and rotate any credentials the package could have reached.",
+          "source": "The Hacker News",
+          "published_at": "2026-08-12T16:04+08:00",
+          "url": "https://thehackernews.com/2026/08/malicious-litellm-releases-tied-to.html"
+        },
+        {
+          "id": "cs17",
+          "headline": "'ShieldBreak' proof-of-concept claims Microsoft Defender patch bypass with SYSTEM access",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A publicly released proof-of-concept dubbed ShieldBreak claims to bypass a Microsoft Defender patch and obtain SYSTEM privileges. Microsoft had not confirmed the bypass at the time of publication; treat it as an unverified researcher claim pending vendor comment, but monitor Defender tamper telemetry.",
+          "source": "The Hacker News",
+          "published_at": "2026-08-12T14:41+08:00",
+          "url": "https://thehackernews.com/2026/08/shieldbreak-zero-day-poc-claims.html"
+        },
+        {
+          "id": "cs18",
+          "headline": "Cisco ASA and FTD flaw exploited in the wild to trigger remote denial of service",
+          "category": "Exploited vulnerability",
+          "cve": "CVE-2026-20349",
+          "cvss": 8.6,
+          "severity": "HIGH",
+          "summary": "A flaw in the Remote Access SSL VPN service of Cisco Secure Firewall ASA and Threat Defense software is being exploited to cause a remote denial of service, taking VPN concentrators offline. CISA added it to the Known Exploited Vulnerabilities catalog on 11 August. Patch or restrict access to the SSL VPN service.",
+          "source": "The Hacker News, CISA KEV, NVD",
+          "published_at": "2026-08-12T14:15+08:00",
+          "url": "https://thehackernews.com/2026/08/cisco-asa-and-ftd-flaw-exploited-in.html"
+        },
+        {
+          "id": "cs19",
+          "headline": "Microsoft's August Patch Tuesday fixes 398 flaws, including an actively exploited driver zero-day",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-68820",
+          "cvss": 7.0,
+          "severity": "CRITICAL",
+          "summary": "Microsoft shipped fixes for 398 CVEs on 11 August, 42 rated critical, alongside three zero-days. Only one, the WinSock driver use-after-free CVE-2026-68820, is confirmed exploited in the wild - by Lazarus, against defence targets. Note that some vendor counts differ (SecurityWeek puts the total at 421 CVEs depending on what is included). Prioritise the exploited driver flaw and the critical remote code execution bugs.",
+          "source": "The Hacker News, Tenable",
+          "published_at": "2026-08-12T04:10+08:00",
+          "url": "https://thehackernews.com/2026/08/microsoft-patches-398-flaws-including.html"
+        },
+        {
+          "id": "cs20",
+          "headline": "Zoom annotation flaws could let one meeting participant hijack another's client",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers disclosed flaws in Zoom's annotation feature that could allow a participant in a meeting to take control of another attendee's client. Update Zoom desktop clients and consider disabling annotation in externally attended meetings.",
+          "source": "The Hacker News",
+          "published_at": "2026-08-12T03:08+08:00",
+          "url": "https://thehackernews.com/2026/08/zoom-annotation-flaws-could-let-meeting.html"
+        },
+        {
+          "id": "cs21",
+          "headline": "Sandworm-linked UAC-0145 uses fake job interviews to push a command-running VPN client",
+          "category": "Threat actor campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "The Ukrainian-tracked cluster UAC-0145, linked to Sandworm, is luring targets with fake job interviews and persuading them to install a VPN client that can execute attacker commands. The lure pattern mirrors other state-linked recruitment scams, so treat unsolicited interview software installs as hostile.",
+          "source": "The Hacker News",
+          "published_at": "2026-08-12T02:36+08:00",
+          "url": "https://thehackernews.com/2026/08/sandworm-linked-uac-0145-uses-fake-job.html"
+        },
+        {
+          "id": "cs22",
+          "headline": "Researchers chain SharePoint bugs with AI assistance to reach unauthenticated RCE",
+          "category": "Security research",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers disclosed an exploit chain against Microsoft SharePoint, developed with AI assistance, that reaches unauthenticated remote code execution. It is separate from the authentication bypass currently being exploited, and underlines that SharePoint servers exposed to the internet remain a priority patching target.",
+          "source": "The Hacker News",
+          "published_at": "2026-08-12T00:47+08:00",
+          "url": "https://thehackernews.com/2026/08/researchers-disclose-ai-assisted.html"
+        },
+        {
+          "id": "cs23",
+          "headline": "DeadLock ransomware uses Polygon smart contracts to harden its extortion infrastructure",
+          "category": "Threat actor campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "The DeadLock ransomware operation stores command-and-control details in Polygon blockchain smart contracts, making its infrastructure harder for defenders and law enforcement to take down. Blocking the domains is no longer enough when the resolver lives on a public chain.",
+          "source": "The Hacker News",
+          "published_at": "2026-08-12T00:35+08:00",
+          "url": "https://thehackernews.com/2026/08/deadlock-ransomware-uses-polygon-smart.html"
+        }
+      ]
+    }
+  }
+}

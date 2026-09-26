@@ -1,0 +1,51 @@
+#!/usr/bin/env bash
+# pre-commit — protect the published world.html from the "Error unpacking /
+# Unterminated string in JSON" breakage.
+#
+# If this commit touches world.html, escape any literal </script> inside the
+# embedded __bundler blobs (which would otherwise truncate the blob in the
+# browser and kill the page) and verify every blob strictly parses as JSON.
+# A fixable file is auto-corrected and re-staged; an unfixable one aborts the
+# commit so a broken briefing is never published.
+#
+# Fail-safe: if node is unavailable, the guard is skipped with a warning
+# rather than blocking the daily cron entirely.
+
+set -euo pipefail
+
+repo_root="$(git rev-parse --show-toplevel)"
+world="$repo_root/world.html"
+sanitizer="$repo_root/scripts/sanitize-world.mjs"
+
+# Only act when world.html is part of this commit.
+if ! git diff --cached --name-only | grep -qx 'world.html'; then
+  exit 0
+fi
+
+if ! command -v node >/dev/null 2>&1; then
+  echo "pre-commit: node not found — skipping world.html JSON guard (WARNING)" >&2
+  exit 0
+fi
+
+if [ ! -f "$sanitizer" ]; then
+  echo "pre-commit: $sanitizer missing — skipping world.html JSON guard (WARNING)" >&2
+  exit 0
+fi
+
+before="$(git hash-object "$world" 2>/dev/null || echo none)"
+
+if ! node "$sanitizer" "$world"; then
+  echo "" >&2
+  echo "pre-commit: ABORTING — world.html has an unparseable __bundler blob that" >&2
+  echo "            escaping could not fix. Publishing it would break the page" >&2
+  echo "            ('Error unpacking'). Regenerate world.html and try again." >&2
+  exit 1
+fi
+
+after="$(git hash-object "$world" 2>/dev/null || echo none)"
+if [ "$before" != "$after" ]; then
+  echo "pre-commit: escaped literal </script> in world.html blob(s); re-staging." >&2
+  git add "$world"
+fi
+
+exit 0
