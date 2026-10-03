@@ -1,0 +1,595 @@
+{
+  "meta": {
+    "date": "2026-06-26",
+    "generated_at": "2026-06-26T21:00:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "BBC",
+      "CNA",
+      "The Straits Times",
+      "Mothership",
+      "NEA",
+      "LTA / data.gov.sg",
+      "WHO",
+      "CISA",
+      "NVD",
+      "The Hacker News",
+      "BleepingComputer"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "Two disasters dominate: Venezuela's twin earthquakes, where the death toll has more than doubled to 589 with thousands missing, and a ship attacked in the Strait of Hormuz that forced the UN to pause an evacuation of trapped sailors as Iran reasserted its claim to control the waterway. A brutal heatwave is killing people across Europe, while Asian and US markets slid on a tech-led rout. In the US, the Supreme Court handed Trump back-to-back wins on deportations and asylum.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "Venezuela earthquake death toll more than doubles to 589, thousands still missing",
+          "category": "Disaster",
+          "summary": "Rescuers are combing rubble after twin quakes struck Venezuela's coast; the confirmed toll has climbed past 589 with thousands reported missing, in a blow to an already strained country.",
+          "source": "CNA, BBC, The Straits Times",
+          "published_at": "2026-06-26T20:56+08:00",
+          "url": "https://www.channelnewsasia.com/world/venezuela-earthquake-death-toll-injured-caracas-6212821"
+        },
+        {
+          "id": "ts2",
+          "headline": "UN pauses Strait of Hormuz evacuation after cargo ship attacked; Iran asserts control claim",
+          "category": "Geopolitics",
+          "summary": "A cargo ship was hit near Oman in the Gulf of Oman, prompting the UN to halt a plan to evacuate trapped sailors. Iran insisted it retains the right to control shipping through the Strait of Hormuz, straining the fragile US-Iran deal.",
+          "source": "BBC, CNA, The Straits Times",
+          "published_at": "2026-06-26T19:18+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cjwg9np904qo"
+        },
+        {
+          "id": "ts3",
+          "headline": "Europe on high alert as killer heatwave spreads east",
+          "category": "Climate",
+          "summary": "A severe heatwave is straining much of Europe; Paris restricted alcohol sales and moved its Pride march to September, and scientists said climate change intensified the event. Authorities warned of heat-related deaths as temperatures climb.",
+          "source": "The Straits Times, BBC, CNA",
+          "published_at": "2026-06-26T18:17+08:00",
+          "url": "https://www.straitstimes.com/world/europe/europe-on-high-alert-as-killer-heat-spreads"
+        },
+        {
+          "id": "ts4",
+          "headline": "US Supreme Court lets Trump end deportation protections for Syrians and Haitians",
+          "category": "US Politics",
+          "summary": "The Supreme Court allowed the Trump administration to end temporary protected status for Haitian and Syrian immigrants, and in a separate case sided with the administration on asylum processing at the southern border.",
+          "source": "BBC, CNA",
+          "published_at": "2026-06-26T02:18+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c4g8ym422lko"
+        },
+        {
+          "id": "ts5",
+          "headline": "Asian and US markets slide in tech-led rout to close a rollercoaster week",
+          "category": "Markets",
+          "summary": "Asian stocks suffered a fresh sell-off led by tech shares, with South Korea's Kospi plunging, after the Nasdaq fell again on Wall Street. Oil edged up on Hormuz jitters even as prices sit near pre-war levels.",
+          "source": "CNA, BBC",
+          "published_at": "2026-06-26T12:09+08:00",
+          "url": "https://www.channelnewsasia.com/asia/south-korea-kospi-plunges-tech-rout-asian-markets-6212071"
+        },
+        {
+          "id": "ts6",
+          "headline": "German Christmas market attacker jailed for life for murdering six",
+          "category": "Courts",
+          "summary": "A German court sentenced the perpetrator of the Christmas market vehicle attack to life imprisonment for the murder of six people, closing one of the country's most high-profile recent cases.",
+          "source": "BBC",
+          "published_at": "2026-06-26T18:49+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cy06y63y6lno"
+        },
+        {
+          "id": "ts7",
+          "headline": "New York housing board votes to freeze rents in win for Mamdani",
+          "category": "US Politics",
+          "summary": "New York City's rent guidelines board voted to freeze regulated rents, a victory for mayoral figure Zohran Mamdani and a closely watched move amid the city's affordability debate.",
+          "source": "BBC",
+          "published_at": "2026-06-26T17:42+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cn947pxxz4yo"
+        },
+        {
+          "id": "ts8",
+          "headline": "Australia moves to strengthen laws banning children from social media",
+          "category": "Tech Policy",
+          "summary": "Australia plans to toughen its world-first ban on social media for children, after data suggested most under-age users are still on the platforms. Critics question whether the measure is working.",
+          "source": "CNA",
+          "published_at": "2026-06-26T16:25+08:00",
+          "url": "https://www.channelnewsasia.com/world/australia-social-media-ban-children-strengthen-law-6212696"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "A Singapore-flagged ship was struck by a projectile in the Strait of Hormuz; all 21 crew are safe and no Singaporeans were aboard, the MPA said. At home, the government is tightening workplace safety after a spate of worker deaths, school bus fares can rise up to 20% in July-August, and May manufacturing jumped 13%. A new speed camera hits the BKE from July 1. Weather: partly cloudy, 26-34 degrees C.",
+      "weather": {
+        "forecast": "Partly Cloudy",
+        "temp_low": 26,
+        "temp_high": 34,
+        "humidity_low": 60,
+        "humidity_high": 90,
+        "as_of": "2026-06-26T17:31+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jun 2026 · 2nd bidding",
+        "as_of": "2026-06-18",
+        "next_results": "2026-07-08",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          {
+            "code": "A",
+            "label": "Cars up to 1600cc & 130bhp",
+            "premium": 123847,
+            "change": -2162
+          },
+          {
+            "code": "B",
+            "label": "Cars above 1600cc or 130bhp",
+            "premium": 123502,
+            "change": -3487
+          }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "All 21 crew on Singapore-flagged ship safe after projectile strike in Strait of Hormuz",
+          "category": "Foreign Affairs",
+          "summary": "The Maritime and Port Authority said the Singapore-registered Ever Lovely was hit by a projectile in the Strait of Hormuz; all 21 crew members are safe and no Singaporeans were on board. The vessel sustained damage amid rising tensions in the waterway.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-06-26T16:59+08:00",
+          "url": "https://www.straitstimes.com/singapore/all-21-on-board-spore-flagged-ship-safe-after-projectile-hit-in-hormuz-strait-no-singaporeans-mpa"
+        },
+        {
+          "id": "sg2",
+          "headline": "MOM beefs up workplace safety after spate of deaths, including 7 workers in 4 weeks",
+          "category": "Policy",
+          "summary": "The Manpower Ministry announced higher fines and longer stop-work orders after a string of workplace fatalities, including seven worker deaths in the last four weeks. The measures aim to arrest a worrying rise in serious incidents.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-06-26T17:40+08:00",
+          "url": "https://www.straitstimes.com/singapore/mom-beefs-up-workplace-safety-measures-after-spate-of-deaths-including-7-workers-in-last-4-weeks"
+        },
+        {
+          "id": "sg3",
+          "headline": "New speed-detection camera to monitor the BKE from July 1",
+          "category": "Transport",
+          "summary": "A new mobile speed camera is among measures to improve road safety along the Bukit Timah Expressway, taking effect from July 1, the authorities said.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-26T20:00+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/bke-mobile-speed-camera-safety-measures-6213111"
+        },
+        {
+          "id": "sg4",
+          "headline": "Singapore manufacturing output up 13% in May, led by electronics",
+          "category": "Economy",
+          "summary": "Factory output rose 13% year-on-year in May, driven by electronics production, in a sign of continued resilience in the manufacturing sector.",
+          "source": "CNA",
+          "published_at": "2026-06-26T13:00+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/may-2026-manufacturing-output-increase-6212216"
+        },
+        {
+          "id": "sg5",
+          "headline": "School bus operators allowed to raise fares by up to 20% in July and August",
+          "category": "Cost of Living",
+          "summary": "The Education Ministry said school bus operators may increase fares by up to 20% in July and August, citing high fuel prices. The move affects families relying on school transport.",
+          "source": "CNA",
+          "published_at": "2026-06-26T10:47+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/high-fuel-prices-school-bus-fare-increase-july-august-moe-6211871"
+        },
+        {
+          "id": "sg6",
+          "headline": "Man jailed after joining Cambodia scam syndicate that fired him in 3 days",
+          "category": "Courts",
+          "summary": "A man was jailed after joining a Cambodia-based scam syndicate that targeted Singaporeans and then sacked him after just three days for poor performance, in an unusual case highlighting how locals are drawn into regional scam operations.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-26T16:35+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/cambodian-scam-syndicate-man-jailed-failed-job-6212346"
+        },
+        {
+          "id": "sg7",
+          "headline": "Condo by-laws cannot limit owners' right to rent out units: BCA",
+          "category": "Housing",
+          "summary": "The Building and Construction Authority said condominium by-laws cannot restrict owners' rights to rent out their units, clarifying the limits of management corporation powers in a ruling watched by landlords and tenants.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-26T17:40+08:00",
+          "url": "https://www.straitstimes.com/singapore/condo-by-laws-cannot-limit-owners-right-to-rent-out-units-bca"
+        },
+        {
+          "id": "sg8",
+          "headline": "Singaporean photographer's World Cup shot of Ronaldo reposted by the star himself",
+          "category": "Trending",
+          "summary": "A photo of Cristiano Ronaldo taken by Singaporean photographer Edmund Wong was reshared by the football star on his own account, a viral moment that delighted local fans.",
+          "source": "CNA",
+          "published_at": "2026-06-26T12:17+08:00",
+          "url": "https://www.channelnewsasia.com/entertainment/cristiano-ronaldo-singaporean-photographer-edmund-wong-6211901"
+        },
+        {
+          "id": "sg9",
+          "headline": "Teen in iJooz straw-licking case set to plead guilty in July",
+          "category": "Courts",
+          "summary": "A French teen at the centre of the widely shared iJooz vending-machine straw-licking incident is set to plead guilty in July, in a case that drew heavy local attention online.",
+          "source": "CNA",
+          "published_at": "2026-06-26T13:42+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/ijooz-straw-licking-french-teen-plead-guilty-6212316"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "The US-Iran deal is holding but jittery after a ship was attacked near the Strait of Hormuz, halting a UN evacuation of trapped sailors while Iran reasserted its claim to control the waterway. In Russia-Ukraine, Kyiv's deep strikes pushed Russian-annexed Crimea to declare an emergency and prompted Russian hawks to urge Putin to escalate and quit US talks. Israel says it has no timeframe to withdraw troops from Lebanon, Gaza or Syria, straining the week-old ceasefire with Hezbollah.",
+      "theatres": [
+        {
+          "name": "US/Israel-Iran (Strait of Hormuz)",
+          "status": "War-ending deal holding but strained; a ship attack near Hormuz halts UN sailor evacuation and Iran reasserts its claim to control the strait",
+          "timeline": [
+            {
+              "date": "2026-06-22",
+              "event": "First round of US-Iran implementation talks ends with what mediators call encouraging progress.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/world"
+            },
+            {
+              "date": "2026-06-24",
+              "event": "The IAEA chief says inspectors will visit Iranian sites under the deal; dozens of ships transit the Strait of Hormuz as traffic rebounds.",
+              "source": "BBC, CNA",
+              "url": "https://www.channelnewsasia.com/world"
+            },
+            {
+              "date": "2026-06-25",
+              "event": "Oil prices fall back to pre-war levels as Hormuz traffic recovers; the US tours the Gulf seeking backing for the deal.",
+              "source": "BBC, CNA",
+              "url": "https://www.bbc.co.uk/news/world"
+            },
+            {
+              "date": "2026-06-26",
+              "event": "A cargo ship is attacked in the Gulf of Oman near the Strait of Hormuz, leading the UN to pause its evacuation of trapped sailors; Iran insists it retains the right to control shipping through the strait.",
+              "source": "CNA, BBC, The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/iran-insists-on-right-to-control-shipping-in-strait-of-hormuz-after-ship-hit-near-oman"
+            }
+          ]
+        },
+        {
+          "name": "Israel-Lebanon / Gaza",
+          "status": "Fragile Israel-Hezbollah ceasefire (agreed June 19) strained; Israel says no timeframe to withdraw from Lebanon, Gaza or Syria",
+          "timeline": [
+            {
+              "date": "2026-06-19",
+              "event": "Israel and Hezbollah agree a ceasefire, the US says, after Lebanon reported Israeli strikes killing 47 and Israel reported rocket fire.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/world"
+            },
+            {
+              "date": "2026-06-23",
+              "event": "Israeli troops kill two in south Lebanon after a lull, local authorities say; Hezbollah's chief demands a full withdrawal.",
+              "source": "BBC, CNA",
+              "url": "https://www.channelnewsasia.com/world"
+            },
+            {
+              "date": "2026-06-25",
+              "event": "Israel's defence minister says there is 'no US demand' for Israel to withdraw from Lebanon, while displaced residents wait to return.",
+              "source": "The Straits Times, CNA",
+              "url": "https://www.straitstimes.com/world"
+            },
+            {
+              "date": "2026-06-26",
+              "event": "Israel says there is no timeframe for withdrawing troops from Lebanon, Gaza and Syria; Beirut signals it wants a full pullout.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/israel-hezbollah-disarm-withdraw-troops-lebanon-6210576"
+            }
+          ]
+        },
+        {
+          "name": "Russia-Ukraine War",
+          "status": "Ukraine's deep strikes push Russian-annexed Crimea to declare an emergency; Russian hawks press Putin to escalate and abandon US talks",
+          "timeline": [
+            {
+              "date": "2026-06-24",
+              "event": "A Ukrainian drone attack on Russian-occupied Crimea knocks out power in Sevastopol, the peninsula's largest city.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/world"
+            },
+            {
+              "date": "2026-06-25",
+              "event": "Russia strikes Ukrainian locomotives and fuel stations, killing one person, an official says.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world"
+            },
+            {
+              "date": "2026-06-26",
+              "event": "Russia-annexed Crimea declares an 'emergency' amid Ukrainian strikes; Russian hawks urge Putin to escalate the war and drop US talks as Kyiv strikes deep. A senior Ukrainian intelligence official is jailed for life for spying for Russia.",
+              "source": "The Straits Times, BBC",
+              "url": "https://www.straitstimes.com/world/europe/russia-annexed-crimea-declares-emergency-amid-ukraine-strikes"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "WHO's most serious active outbreak remains Bundibugyo Ebola in DR Congo and Uganda, where confirmed cases jumped to 915 with 234 deaths as transmission accelerated in Congo. WHO also confirmed a single Nipah virus case in Kerala, India, with the patient critically ill, and issued a global yellow fever risk update flagging rising transmission in the Americas and Africa. Figures are anchored to the latest WHO Disease Outbreak News.",
+      "outbreaks": [
+        {
+          "name": "Bundibugyo Ebola — DR Congo & Uganda",
+          "status": "Accelerating in DR Congo; cross-border spread to Uganda",
+          "cases": 915,
+          "deaths": 234,
+          "countries": 2,
+          "as_of": "2026-06-18",
+          "scope_note": "Confirmed cases only, DRC + Uganda combined (DRC 896, Uganda 19); 234 deaths incl. 2 in Uganda; at least 88 recovered. Source: WHO DON608 (19 Jun 2026), data as of 17-18 Jun."
+        },
+        {
+          "name": "Nipah virus — India (Kerala)",
+          "status": "Single confirmed case; patient critical, contact tracing ongoing",
+          "cases": 1,
+          "deaths": 0,
+          "countries": 1,
+          "as_of": "2026-06-25",
+          "scope_note": "One lab-confirmed case in Kozhikode district, Kerala (adult male, on ventilation in ICU); extensive contact tracing under way. Source: WHO DON609 (25 Jun 2026)."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "WHO: Bundibugyo Ebola cases rise rapidly to 915 with 234 deaths in DRC and Uganda",
+          "category": "Ebola",
+          "summary": "WHO's latest Disease Outbreak News reports confirmed cases climbing to 915 (896 in DR Congo, 19 in Uganda) and 234 deaths, with transmission accelerating in Congo. At least 88 patients have recovered.",
+          "source": "WHO",
+          "published_at": "2026-06-19",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON608"
+        },
+        {
+          "id": "ob2",
+          "headline": "WHO confirms Nipah virus case in Kerala, India; patient critically ill",
+          "category": "Nipah",
+          "summary": "WHO reported a single laboratory-confirmed Nipah virus infection in Kozhikode district, Kerala. The adult male patient is on ventilatory support in intensive care, and authorities have launched extensive contact tracing.",
+          "source": "WHO",
+          "published_at": "2026-06-25",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON609"
+        },
+        {
+          "id": "ob3",
+          "headline": "WHO issues global yellow fever risk update, flags rising transmission in the Americas",
+          "category": "Yellow Fever",
+          "summary": "WHO published a global yellow fever situational update warning that sylvatic transmission rose in 2025 and early 2026, with sustained spread in Africa and a notable rise in the Americas, including into lower-risk zones. Vaccination coverage remains below target in many high-risk countries.",
+          "source": "WHO",
+          "published_at": "2026-06-24",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON610"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "A heavy week for actively-exploited flaws: CISA added max-severity Ubiquiti UniFi OS bugs (CVSS 10.0), a critical Lantronix ICS code-injection flaw, and two exploited Cisco zero-days (Catalyst SD-WAN and Unified CM) to its Known Exploited catalog. Supply-chain attacks surged in parallel — Miasma malware in npm and GitHub Actions, Cordyceps CI/CD flaws hitting 300+ repos, and a backdoored 10M-install Chrome ad blocker. On the defence side, law enforcement disrupted the Amadey/StealC botnets in Operation Endgame and busted a SIM-swapping gang in Poland.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "New DirtyClone Linux kernel flaw lets local users gain root via cloned packets",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "JFrog detailed DirtyClone, a new Linux kernel privilege-escalation bug in the DirtyFrag family that lets a local user gain root by abusing cloned packets, publishing the first public exploit walkthrough for the variant.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-26",
+          "url": "https://thehackernews.com/2026/06/dirtyclone-linux-kernel-flaw.html"
+        },
+        {
+          "id": "cs2",
+          "headline": "Miasma malware hits npm packages and GitHub Actions in supply-chain attack",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers uncovered Miasma, malware spreading through poisoned npm packages and GitHub Actions workflows to compromise developer pipelines, the latest in a wave of software supply-chain attacks.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-26",
+          "url": "https://thehackernews.com/2026/06/miasma-malware-npm-github-actions.html"
+        },
+        {
+          "id": "cs3",
+          "headline": "Microsoft warns of photo-ZIP phishing campaign targeting hotels with Node.js implant",
+          "category": "Phishing",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Microsoft flagged a phishing campaign aimed at hotels that uses ZIP files posing as photos to deliver a Node.js-based implant, enabling persistent access to hospitality systems.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-26",
+          "url": "https://thehackernews.com/2026/06/microsoft-photo-zip-phishing-hotels.html"
+        },
+        {
+          "id": "cs4",
+          "headline": "Google details Turla's new STOCKSTAY backdoor used in Ukraine espionage",
+          "category": "Threat Actor",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Google researchers detailed STOCKSTAY, a new backdoor used by the Russia-linked Turla group in espionage attacks against targets in Ukraine.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-26",
+          "url": "https://thehackernews.com/2026/06/turla-stockstay-backdoor-ukraine.html"
+        },
+        {
+          "id": "cs5",
+          "headline": "Cisco Catalyst SD-WAN zero-day CVE-2026-20245 exploited to gain root access",
+          "category": "Zero-Day",
+          "cve": "CVE-2026-20245",
+          "cvss": 7.8,
+          "severity": "HIGH",
+          "summary": "A zero-day in Cisco Catalyst SD-WAN was exploited in the wild to gain root access; Mandiant detailed how attackers chained the flaw. Cisco has issued fixes and customers are urged to patch.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-25",
+          "url": "https://thehackernews.com/2026/06/cisco-catalyst-sd-wan-zero-day.html"
+        },
+        {
+          "id": "cs6",
+          "headline": "Chrome ad blocker with 10M+ installs found with dormant script-injection capability",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A popular Chrome ad blocker with more than 10 million installs was found to contain dormant code capable of injecting scripts into web pages, a latent supply-chain risk to its large user base.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-25",
+          "url": "https://thehackernews.com/2026/06/chrome-ad-blocker-script-injection.html"
+        },
+        {
+          "id": "cs7",
+          "headline": "New Gaslight macOS malware embeds fake errors to confuse AI analysis tools",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A new macOS malware strain dubbed Gaslight plants fake error messages and prompt-injection content designed to mislead AI-assisted malware-analysis tools, complicating automated triage.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-25",
+          "url": "https://www.bleepingcomputer.com/news/security/new-macos-malware-embeds-fake-errors-to-confuse-ai-analysis-tools/"
+        },
+        {
+          "id": "cs8",
+          "headline": "New Mistic backdoor linked to KongTuke in ClickFix and ModeloRAT campaigns",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers tied a new backdoor called Mistic to the KongTuke activity cluster, deployed via ClickFix lures and alongside ModeloRAT in recent campaigns.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-25",
+          "url": "https://thehackernews.com/2026/06/mistic-backdoor-kongtuke-clickfix.html"
+        },
+        {
+          "id": "cs9",
+          "headline": "Microsoft quietly extends free Windows 10 ESU support to October 2027",
+          "category": "Patch Management",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Microsoft extended free Extended Security Updates for Windows 10 to October 2027, giving organisations still on the OS more breathing room to migrate before losing security patches.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-25",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-quietly-extends-free-windows-10-esu-support-to-october-2027/"
+        },
+        {
+          "id": "cs10",
+          "headline": "Poland busts SIM-swapping gang tied to millions in crypto theft",
+          "category": "Law Enforcement",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Polish authorities dismantled a SIM-swapping gang linked to millions of dollars in cryptocurrency theft, arresting suspects accused of hijacking victims' phone numbers to bypass two-factor authentication.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-25",
+          "url": "https://www.bleepingcomputer.com/news/security/poland-busts-sim-swapping-gang-tied-to-millions-in-crypto-theft/"
+        },
+        {
+          "id": "cs11",
+          "headline": "CISA warns of max-severity Ubiquiti UniFi OS flaws exploited in attacks",
+          "category": "Actively Exploited",
+          "cve": "CVE-2026-34908",
+          "cvss": 10.0,
+          "severity": "CRITICAL",
+          "summary": "CISA added three Ubiquiti UniFi OS vulnerabilities (CVE-2026-34908/34909/34910), including a CVSS 10.0 improper-access-control flaw, to its Known Exploited Vulnerabilities catalog after they were abused in attacks. Admins should patch immediately.",
+          "source": "BleepingComputer, CISA",
+          "published_at": "2026-06-24",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-max-severity-ubiquiti-flaws-exploited-in-attacks/"
+        },
+        {
+          "id": "cs12",
+          "headline": "CISA: Lantronix EDS5000 code-injection flaw actively exploited",
+          "category": "Actively Exploited",
+          "cve": "CVE-2025-67038",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "CISA added a critical code-injection vulnerability in the Lantronix EDS5000 device server to its KEV catalog after confirming active exploitation, raising risk for the industrial and IoT deployments that use it.",
+          "source": "The Hacker News, CISA",
+          "published_at": "2026-06-24",
+          "url": "https://thehackernews.com/2026/06/cisa-lantronix-eds5000-exploited.html"
+        },
+        {
+          "id": "cs13",
+          "headline": "Cisco Unified CM flaw exploited after PoC reveals file-write path to root",
+          "category": "Actively Exploited",
+          "cve": "CVE-2026-20230",
+          "cvss": 8.6,
+          "severity": "HIGH",
+          "summary": "A server-side request forgery flaw in Cisco Unified Communications Manager was exploited after a proof-of-concept exposed a file-write path to root; CISA added it to the KEV catalog. Customers should apply Cisco's fixes.",
+          "source": "The Hacker News, CISA",
+          "published_at": "2026-06-24",
+          "url": "https://thehackernews.com/2026/06/cisco-unified-cm-flaw-exploited.html"
+        },
+        {
+          "id": "cs14",
+          "headline": "Cordyceps CI/CD flaws expose 300+ GitHub repositories to supply-chain attacks",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers disclosed Cordyceps, a set of CI/CD pipeline flaws that left more than 300 GitHub repositories open to supply-chain compromise through abusable workflow configurations.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-24",
+          "url": "https://thehackernews.com/2026/06/cordyceps-cicd-flaws-github.html"
+        },
+        {
+          "id": "cs15",
+          "headline": "FortiBleed targeted FortiGate firewalls in 110-million-credential harvesting operation",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A campaign dubbed FortiBleed exploited FortiGate firewalls to harvest credentials at scale, reportedly amassing around 110 million credentials; CISA has urged Fortinet customers to check exposure and patch.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-24",
+          "url": "https://thehackernews.com/2026/06/fortibleed-fortigate-credential-harvesting.html"
+        },
+        {
+          "id": "cs16",
+          "headline": "Malicious Edge extension abuses Native Messaging as a bridge to malware",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A malicious Microsoft Edge extension was found abusing the browser's Native Messaging API to communicate with and deliver locally installed malware, sidestepping typical extension restrictions.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-24",
+          "url": "https://www.bleepingcomputer.com/news/security/malicious-edge-extension-abuses-native-messaging-as-bridge-to-malware/"
+        },
+        {
+          "id": "cs17",
+          "headline": "Amadey and StealC malware operations disrupted in Operation Endgame, 27M credentials recovered",
+          "category": "Law Enforcement",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "An international law-enforcement action under Operation Endgame disrupted the Amadey and StealC malware networks and recovered roughly 27 million stolen credentials, dealing a blow to two prolific infostealer operations.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-24",
+          "url": "https://www.bleepingcomputer.com/news/security/amadey-stealc-malware-operations-disrupted-in-operation-endgame-action/"
+        },
+        {
+          "id": "cs18",
+          "headline": "DoJ seizes Huione cloud account tied to cyber-scam money laundering",
+          "category": "Law Enforcement",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "The US Justice Department seized a Huione cloud account linked to laundering proceeds from cyber-scam operations, part of broader efforts to disrupt the financial infrastructure behind online fraud.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-24",
+          "url": "https://thehackernews.com/2026/06/doj-seizes-huione-cloud-account.html"
+        },
+        {
+          "id": "cs19",
+          "headline": "Fake AI 'agent skill' passed security scans and reached 26,000 agents",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers showed a malicious AI 'agent skill' that slipped past security scans and was reportedly pulled into about 26,000 agents, highlighting emerging supply-chain risks in the AI-agent ecosystem.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-23",
+          "url": "https://thehackernews.com/2026/06/fake-ai-agent-skill-passed-security-scans.html"
+        }
+      ]
+    }
+  }
+}

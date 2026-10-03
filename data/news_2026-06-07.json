@@ -1,0 +1,613 @@
+{
+  "meta": {
+    "date": "2026-06-07",
+    "generated_at": "2026-06-07T21:00:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "CNA", "The Straits Times", "Mothership", "AP", "AFP", "BBC",
+      "WHO", "CDC", "ECDC", "CISA", "NVD", "NEA", "LTA / data.gov.sg",
+      "The Hacker News", "BleepingComputer"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "Conflict still dominates the day: the US says it shot down Iranian drones as the Gulf war hits its 100th day, Israel struck Gaza while Egypt convened fresh ceasefire talks, and Ukraine reported a Russian drone hitting a nuclear-fuel store near Chornobyl. In Asia, North Korea reasserted its nuclear status ahead of a Chinese presidential visit and South Korea's leader ordered a probe into election ballot shortages. Elsewhere, Pope Leo drew a vast crowd in Madrid and Peru voted in a knife-edge presidential run-off.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "US says it shot down Iranian drones as Gulf war reaches 100th day",
+          "category": "Conflict",
+          "summary": "The US military said it intercepted Iranian drones as the conflict in the Gulf marked its 100th day, with American forces and Iran continuing to trade fire around the region. Casualty and interception claims from parties to the war remain contested.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-07T19:13+08:00",
+          "url": "https://www.straitstimes.com/world/middle-east/us-says-shot-down-iran-drones-as-war-reaches-100th-day"
+        },
+        {
+          "id": "ts2",
+          "headline": "Israeli strike kills five in Gaza as Egypt hosts new ceasefire talks",
+          "category": "Conflict",
+          "summary": "An Israeli strike killed five people in Gaza, Palestinian authorities said, as Egypt hosted a fresh round of ceasefire negotiations. Israel has not commented on the specific strike; the talks aim to revive a stalled truce.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-07T19:56+08:00",
+          "url": "https://www.straitstimes.com/world/middle-east/israel-kills-five-in-gaza-as-egypt-hosts-new-ceasefire-talks"
+        },
+        {
+          "id": "ts3",
+          "headline": "One killed, five wounded in shooting attack in central Israel",
+          "category": "Conflict",
+          "summary": "A shooting in central Israel left one person dead and five wounded, Israeli emergency services said. Authorities were investigating the attack.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-07T18:33+08:00",
+          "url": "https://www.channelnewsasia.com/world/israel-shooting-attacks-1-killed-5-wounded-6167281"
+        },
+        {
+          "id": "ts4",
+          "headline": "Russian drone hit nuclear-fuel storage facility near Chornobyl, Ukraine says",
+          "category": "Conflict",
+          "summary": "Ukraine said a Russian drone struck a nuclear-fuel storage facility near Chornobyl, without reporting a radiation release. Russia has not confirmed the strike; the claim has not been independently verified.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-07T16:21+08:00",
+          "url": "https://www.straitstimes.com/world/europe/russian-drone-hit-nuclear-fuel-storage-facility-near-chornobyl-ukraine-says"
+        },
+        {
+          "id": "ts5",
+          "headline": "North Korea reaffirms nuclear status a day before Chinese president's visit",
+          "category": "Geopolitics",
+          "summary": "North Korea reasserted its status as a nuclear-armed state, a statement attributed to Kim Yo Jong, on the eve of a visit by China's president. The messaging underscored Pyongyang's hardened stance amid regional diplomacy.",
+          "source": "CNA",
+          "published_at": "2026-06-07T08:18+08:00",
+          "url": "https://www.channelnewsasia.com/asia/north-korea-nuclear-kim-yo-jong-sister-kim-jong-un-6166811"
+        },
+        {
+          "id": "ts6",
+          "headline": "South Korean president orders probe into local-election ballot shortages",
+          "category": "Politics",
+          "summary": "South Korea's president ordered an investigation after ballot shortages at local elections triggered protests and calls for a re-run. Demonstrators have continued to demand a fresh vote.",
+          "source": "CNA",
+          "published_at": "2026-06-07T19:40+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/south-korea-voting-ballot-shortage-protest-local-elections-6167236"
+        },
+        {
+          "id": "ts7",
+          "headline": "Nvidia and SK to detail cooperation as Huang flags prolonged chip shortage",
+          "category": "Economy",
+          "summary": "Nvidia and South Korea's SK group are set to outline a cooperation plan, with CEO Jensen Huang warning that a memory-chip shortage is likely to persist. The shortfall has tightened supply across the AI hardware market.",
+          "source": "CNA",
+          "published_at": "2026-06-07T19:30+08:00",
+          "url": "https://www.channelnewsasia.com/business/nvidia-sk-chips-memory-shortage-jensen-huang-6167326"
+        },
+        {
+          "id": "ts8",
+          "headline": "Pope Leo tells 1.2 million crowd in Madrid that God stands with the poor",
+          "category": "World",
+          "summary": "Pope Leo addressed a crowd that organisers put at 1.2 million in Madrid, saying God stands with the poor and urging leaders not to divide societies. The figure is an organiser estimate.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-07T16:50+08:00",
+          "url": "https://www.channelnewsasia.com/world/pope-leo-spain-madrid-12-million-crowd-god-stands-poor-6167186"
+        },
+        {
+          "id": "ts9",
+          "headline": "Peru votes in tight presidential run-off seen as test of Latin America's rightward shift",
+          "category": "Politics",
+          "summary": "Peruvians voted in a closely contested presidential run-off being watched as a gauge of Latin America's broader political direction. The race was described as too close to call.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-07T18:11+08:00",
+          "url": "https://www.straitstimes.com/world/peru-votes-in-tight-presidential-run-off-in-test-of-latin-americas-rightward-shift"
+        },
+        {
+          "id": "ts10",
+          "headline": "Nigeria's military rescues 360 hostages in Borno state",
+          "category": "World",
+          "summary": "Nigeria's military said it freed 360 hostages in restive Borno state in the country's north-east. The figure was provided by the military and has not been independently verified.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-07T17:51+08:00",
+          "url": "https://www.straitstimes.com/world/nigerias-military-rescues-360-hostages-in-borno-state"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "A busy local Sunday: HDB is putting 2,520 shorter-wait BTO flats on sale this month, and the two Singapore residents from the hantavirus-hit cruise ship MV Hondius cleared quarantine after testing negative. A luxury yacht caught fire and partially sank at Sentosa Cove, while a Yishun void-deck car crash and a string of road accidents made the crime blotter. On the lighter side, the late Sim Wong Hoo's family gave $385,000 to a charity fund, a rare dugong washed up at Bedok, and 73-year-old 'Uncle Ong' is still feeding 30-plus cats a day. Skies stay wet — thundery showers, 26–33°C.",
+      "weather": {
+        "forecast": "Thundery Showers",
+        "temp_low": 26,
+        "temp_high": 33,
+        "humidity_low": 60,
+        "humidity_high": 95,
+        "as_of": "2026-06-07T11:32+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jun 2026 · 1st bidding",
+        "as_of": "2026-06-03",
+        "next_results": "2026-06-17",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          { "code": "A", "label": "Cars up to 1600cc & 130bhp", "premium": 126009, "change": 1780 },
+          { "code": "B", "label": "Cars above 1600cc or 130bhp", "premium": 126989, "change": -2512 }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "Over 2,500 shorter-wait BTO flats to go on sale in June exercise",
+          "category": "Housing",
+          "summary": "HDB will offer 2,520 BTO flats with waiting times of around three years or less in its June exercise, in towns including Sembawang and Ang Mo Kio, the agencies said.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-07T17:53+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/june-bto-2500-flats-shorter-wait-times-sembawang-ang-mo-kio-6167206"
+        },
+        {
+          "id": "sg2",
+          "headline": "Two Singapore residents from hantavirus-hit cruise ship complete quarantine",
+          "category": "Health",
+          "summary": "Two Singapore residents who had been aboard the hantavirus-linked cruise ship MV Hondius have completed quarantine and tested negative, the CDA said. The ship cluster is being tracked by WHO as an Andes hantavirus outbreak.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-07T16:32+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/hantavirus-quarantine-mv-hondius-test-negative-cda-6167161"
+        },
+        {
+          "id": "sg3",
+          "headline": "Luxury yacht catches fire and partially sinks at Sentosa Cove marina",
+          "category": "Incident",
+          "summary": "A luxury yacht caught fire at the ONE°15 Marina at Sentosa Cove and partially sank; no injuries were reported. The cause was being investigated.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-07T09:49+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/yacht-fire-one15-marina-sentosa-cove-6166951"
+        },
+        {
+          "id": "sg4",
+          "headline": "Man crashes car into Yishun void deck, holes up in unit; later arrested",
+          "category": "Crime",
+          "summary": "A 32-year-old man allegedly crashed his car into a Yishun void deck, fled and locked himself in a unit for about four hours. Police said a man was arrested for possessing a stun device and suspected drug offences after the Yishun crash.",
+          "source": "Mothership, The Straits Times",
+          "published_at": "2026-06-07T12:09+08:00",
+          "url": "https://mothership.sg/2026/06/singapore-man-crash-car-yishun-void-deck/"
+        },
+        {
+          "id": "sg5",
+          "headline": "Sim Wong Hoo's family donates $385,000 to ST Pocket Money Fund",
+          "category": "Community",
+          "summary": "The family of the late Creative Technology founder Sim Wong Hoo donated $385,000 to The Straits Times School Pocket Money Fund, which helps students from lower-income families.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-07T16:39+08:00",
+          "url": "https://www.straitstimes.com/singapore/family-of-late-creative-technology-founder-sim-wong-hoo-donates-385000-to-st-pocket-money-fund"
+        },
+        {
+          "id": "sg6",
+          "headline": "Dead dugong spotted at Bedok Jetty — first recorded sighting since 2021",
+          "category": "Environment",
+          "summary": "A dead dugong was found at Bedok Jetty, the first recorded sighting of the marine mammal in Singapore waters since 2021, according to The Straits Times.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-06T22:30+08:00",
+          "url": "https://www.straitstimes.com/singapore/environment/dead-dugong-spotted-at-bedok-jetty-first-recorded-sighting-since-2021"
+        },
+        {
+          "id": "sg7",
+          "headline": "Man, 26, rescued from sixth-floor Tampines ledge by SCDF",
+          "category": "Trending",
+          "summary": "SCDF rescued a 26-year-old man seen on a sixth-floor ledge of a Tampines HDB block, deploying an air pack during the operation, Mothership reported.",
+          "source": "Mothership",
+          "published_at": "2026-06-07T15:21+08:00",
+          "url": "https://mothership.sg/2026/06/person-on-ledge-tampines-block-rescued-scdf/"
+        },
+        {
+          "id": "sg8",
+          "headline": "Uncle Ong, 73, still feeds 30-plus cats daily despite neck brace and bad knees",
+          "category": "Human Interest",
+          "summary": "A 73-year-old man known as Uncle Ong continues to feed more than 30 cats a day around Kallang and Hougang despite a neck brace, bad knees and back pain, in a human-interest profile by Mothership.",
+          "source": "Mothership",
+          "published_at": "2026-06-07T12:59+08:00",
+          "url": "https://mothership.sg/2026/06/uncle-ong-beware-of-scams/"
+        },
+        {
+          "id": "sg9",
+          "headline": "DJ Hazelle Teo marries musician James Wong, cuts hair mid-ceremony",
+          "category": "Entertainment",
+          "summary": "Local DJ Hazelle Teo, 32, married Singapore-based musician James Wong, 26, in a ceremony where she cut her hair mid-event, Mothership reported.",
+          "source": "Mothership",
+          "published_at": "2026-06-07T12:39+08:00",
+          "url": "https://mothership.sg/2026/06/hazelle-teo-marries/"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "The Gulf war between the US/Israel and Iran reached its 100th day with continued drone and missile exchanges around the region, even as indirect talks over Iran's frozen funds inch along. In the Levant, Israel and Hezbollah traded cross-border fire, Israel intercepted projectiles from Lebanon, and a deadly Gaza strike came as Egypt convened fresh ceasefire talks. On the Ukraine front, peace diplomacy is stalled — Putin said he sees no reason to meet Zelenskyy — while Kyiv reported a Russian drone hitting a nuclear-fuel store near Chornobyl. Casualty and strike claims from combatants remain contested.",
+      "theatres": [
+        {
+          "name": "US/Israel–Iran (Gulf)",
+          "status": "Around its 100th day: US and Iran continue to trade drone and missile strikes around the Gulf while indirect talks over frozen Iranian funds continue.",
+          "timeline": [
+            {
+              "date": "2026-06-06",
+              "event": "US and Iran trade strikes in the latest Gulf flare-up, with reports of fire near Bahrain and Kuwait.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/us-iran-trade-strikes-bahrain-kuwait-6166176"
+            },
+            {
+              "date": "2026-06-06",
+              "event": "Iran says unfreezing of its funds is key to progress in talks with the US.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/iran-frozen-funds-peace-deal-us-6166376"
+            },
+            {
+              "date": "2026-06-07",
+              "event": "US is said to be eyeing Iranian assets to help fund reconstruction for Gulf allies, a source tells CNA.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/war-iran-us-gulf-allies-reconstruction-6166841"
+            },
+            {
+              "date": "2026-06-07",
+              "event": "US military says it shot down Iranian drones as the war reaches its 100th day.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/us-says-shot-down-iran-drones-as-war-reaches-100th-day"
+            }
+          ]
+        },
+        {
+          "name": "Israel–Gaza / Lebanon",
+          "status": "Israel and Hezbollah trade cross-border fire and projectiles are intercepted from Lebanon; a deadly Gaza strike coincides with new Egypt-hosted ceasefire talks.",
+          "timeline": [
+            {
+              "date": "2026-06-06",
+              "event": "Lebanese leaders rebuke Iran as Israel and Hezbollah trade attacks across the border.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/lebanese-leaders-rebuke-iran-israel-hezbollah-trade-attacks-6165596"
+            },
+            {
+              "date": "2026-06-07",
+              "event": "Israeli military says it intercepted two projectiles that crossed from Lebanon.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/israeli-military-says-it-intercepted-two-projectiles-that-crossed-from-lebanon"
+            },
+            {
+              "date": "2026-06-07",
+              "event": "A shooting attack in central Israel kills one person and wounds five, emergency services say.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/israel-shooting-attacks-1-killed-5-wounded-6167281"
+            },
+            {
+              "date": "2026-06-07",
+              "event": "An Israeli strike kills five in Gaza, Palestinian authorities say, as Egypt hosts new ceasefire talks.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/israel-kills-five-in-gaza-as-egypt-hosts-new-ceasefire-talks"
+            }
+          ]
+        },
+        {
+          "name": "Russia–Ukraine",
+          "status": "Peace diplomacy stalled — Putin says no reason to meet Zelenskyy — while long-range strikes continue; Kyiv reports a drone hitting a nuclear-fuel store near Chornobyl.",
+          "timeline": [
+            {
+              "date": "2026-06-06",
+              "event": "Putin says he currently sees no reason to meet Ukraine's Zelenskyy, dimming prospects for direct talks.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/putin-says-he-currently-sees-no-reason-meet-ukraines-zelenskyy-6165111"
+            },
+            {
+              "date": "2026-06-07",
+              "event": "Ukraine says a Russian drone hit a nuclear-fuel storage facility near Chornobyl; no radiation release reported. Russia has not confirmed the strike.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/russian-drone-hit-nuclear-fuel-storage-facility-near-chornobyl-ukraine-says"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "Two outbreaks are the focus this cycle. The Bundibugyo Ebola outbreak in the DR Congo and Uganda is growing fast — WHO's latest update counts 134 confirmed cases and 18 deaths, with hundreds more suspected cases and deaths reported in the DRC. The Andes hantavirus cluster tied to the cruise ship MV Hondius remains small and contained (13 cases, 3 deaths), with its spread estimated to be slowing; Singapore's two affected residents have cleared quarantine. Figures are WHO-confirmed as of late May and may lag faster-moving field reports.",
+      "outbreaks": [
+        {
+          "name": "Bundibugyo Ebola — DR Congo & Uganda",
+          "status": "Growing rapidly in eastern DRC; smaller linked cluster in Uganda's Kampala area",
+          "cases": 134,
+          "deaths": 18,
+          "countries": 2,
+          "as_of": "2026-05-29",
+          "scope_note": "WHO-confirmed cases only, DRC + Uganda combined (DRC 125 cases/17 deaths as of 27 May; Uganda 9 cases/1 death as of 29 May; CFR ~14%). DRC has also reported 906 suspected cases including 223 deaths. Source: WHO DON605."
+        },
+        {
+          "name": "Andes hantavirus — MV Hondius cruise ship",
+          "status": "Contained; estimated Rt 0.7 (below 1) — spread slowing; off-ship risk low",
+          "cases": 13,
+          "deaths": 3,
+          "countries": 32,
+          "as_of": "2026-05-27",
+          "scope_note": "13 cases (11 confirmed, 2 probable) including 3 deaths (2 confirmed, 1 probable) among passengers/crew of multiple nationalities. 600+ contacts traced across 32 countries/territories. Source: WHO DON604."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "WHO: Bundibugyo Ebola cases rising rapidly in DR Congo and Uganda",
+          "category": "Ebola",
+          "summary": "WHO's latest Disease Outbreak News reports 134 confirmed Bundibugyo virus cases and 18 deaths across the DRC and Uganda (CFR ~14%), with 906 suspected cases and 223 deaths reported in the DRC. The outbreak is concentrated in Ituri Province, with a smaller cluster in Uganda's Kampala area.",
+          "source": "WHO",
+          "published_at": "2026-05-29",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON605"
+        },
+        {
+          "id": "ob2",
+          "headline": "WHO: cruise-ship Andes hantavirus cluster stays small as spread slows",
+          "category": "Hantavirus",
+          "summary": "WHO reports 13 Andes hantavirus cases (11 confirmed, 2 probable) and 3 deaths linked to the cruise ship MV Hondius, with the effective reproduction number estimated at 0.7. More than 600 contacts have been traced across 32 countries and territories.",
+          "source": "WHO",
+          "published_at": "2026-05-28",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON604"
+        },
+        {
+          "id": "ob3",
+          "headline": "Singapore's two MV Hondius residents clear hantavirus quarantine",
+          "category": "Hantavirus",
+          "summary": "The two Singapore residents who had been aboard the hantavirus-hit MV Hondius completed quarantine and tested negative, the CDA said.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-07T16:32+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/hantavirus-quarantine-mv-hondius-test-negative-cda-6167161"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "Actively exploited flaws lead the week: a critical Everest Forms Pro WordPress bug is being used to take over sites, Cisco is warning of an unpatched Catalyst SD-WAN zero-day exploited for root, and CISA added a SolarWinds Serv-U denial-of-service flaw and a critical Magento (Mirasvit) RCE to its known-exploited list. Software supply chains are under sustained assault — the Miasma worm hit 73 Microsoft GitHub repos and IronWorm spread through npm — while AI-driven research is surfacing bugs at scale, including 21 FFmpeg zero-days and a record 429 Chrome fixes. Notable breaches this cycle hit DentaQuest (2.6M) and the UN World Food Programme (600,000 Gaza households).",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "Critical Everest Forms Pro flaw exploited to take over WordPress sites",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "Attackers are exploiting a critical flaw in the Everest Forms Pro WordPress plugin to take over sites. Admins are urged to update immediately.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-06-06",
+          "url": "https://www.bleepingcomputer.com/news/security/critical-everest-forms-pro-flaw-exploited-to-take-over-wordpress-sites/"
+        },
+        {
+          "id": "cs2",
+          "headline": "Cisco warns of unpatched Catalyst SD-WAN Manager zero-day exploited for root",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-20245",
+          "cvss": 7.8,
+          "severity": "HIGH",
+          "summary": "Cisco warned that an unpatched zero-day (CVE-2026-20245) in Catalyst SD-WAN Manager is being exploited in attacks to gain root access. No patch is yet available; Cisco has issued mitigations.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-06-06",
+          "url": "https://www.bleepingcomputer.com/news/security/new-cisco-sd-wan-flaw-exploited-in-zero-day-attacks-to-gain-root/"
+        },
+        {
+          "id": "cs3",
+          "headline": "CISA adds actively exploited SolarWinds Serv-U DoS flaw to KEV",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-28318",
+          "cvss": 7.5,
+          "severity": "HIGH",
+          "summary": "CISA added a SolarWinds Serv-U uncontrolled-resource-consumption flaw (CVE-2026-28318) to its Known Exploited Vulnerabilities catalog after reports that attackers are using it to crash servers.",
+          "source": "The Hacker News, BleepingComputer, CISA",
+          "published_at": "2026-06-06",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-hackers-now-exploit-solarwinds-serv-u-flaw-to-crash-servers/"
+        },
+        {
+          "id": "cs4",
+          "headline": "Miasma worm hits 73 Microsoft GitHub repositories in supply-chain attack",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A self-propagating 'Miasma' worm compromised 73 Microsoft GitHub repositories in a major software supply-chain attack, The Hacker News reported.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-06",
+          "url": "https://thehackernews.com/2026/06/miasma-worm-hits-73-microsoft-github.html"
+        },
+        {
+          "id": "cs5",
+          "headline": "AI agent uncovers 21 zero-days in FFmpeg; Chrome patches record 429 bugs",
+          "category": "Security Research",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "An AI agent surfaced 21 zero-day vulnerabilities in the widely used FFmpeg media library, while Google shipped a record 429 fixes in Chrome, underscoring the growing role of AI in bug discovery.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-06",
+          "url": "https://thehackernews.com/2026/06/ai-agent-uncovers-21-zero-days-in.html"
+        },
+        {
+          "id": "cs6",
+          "headline": "IronWorm and new Miasma variant hit npm in supply-chain attacks",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "New 'IronWorm' malware compromised dozens of npm packages (36, per BleepingComputer) in a supply-chain attack, alongside a new variant of the Miasma worm, researchers said.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-05",
+          "url": "https://www.bleepingcomputer.com/news/security/new-ironworm-malware-hits-36-packages-in-npm-supply-chain-attack/"
+        },
+        {
+          "id": "cs7",
+          "headline": "Over 900 US gas-station tank-gauge systems exposed to attacks",
+          "category": "ICS / Exposure",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "More than 900 US automated tank-gauge systems at gas stations are exposed online and reachable by attackers, BleepingComputer reported, raising the risk of tampering with fuel-monitoring equipment.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-05",
+          "url": "https://www.bleepingcomputer.com/news/security/over-900-us-gas-station-tank-gauge-systems-exposed-to-attacks/"
+        },
+        {
+          "id": "cs8",
+          "headline": "Suspicious Polyfill-style login prompts appear on Toshiba, Muji sites",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Suspicious login prompts linked to Polyfill-style supply-chain abuse have popped up on websites including Toshiba and Muji, BleepingComputer reported.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-05",
+          "url": "https://www.bleepingcomputer.com/news/security/suspicious-polyfill-login-prompts-pop-up-on-toshiba-muji-websites/"
+        },
+        {
+          "id": "cs9",
+          "headline": "New threat cluster OP-512 targets Microsoft IIS with custom web-shell framework",
+          "category": "Threat Actor",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A newly tracked threat cluster dubbed OP-512 is targeting Microsoft IIS servers using a custom web-shell framework, researchers reported.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-05",
+          "url": "https://thehackernews.com/2026/06/new-threat-cluster-op-512-targets.html"
+        },
+        {
+          "id": "cs10",
+          "headline": "Cisco patches CVE-2026-20230 in Unified CM as exploit code goes public",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-20230",
+          "cvss": 8.6,
+          "severity": "HIGH",
+          "summary": "Cisco patched CVE-2026-20230 in Unified Communications Manager after proof-of-concept exploit code became public, raising the urgency of applying the fix.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-04",
+          "url": "https://thehackernews.com/2026/06/cisco-patches-cve-2026-20230-in-unified.html"
+        },
+        {
+          "id": "cs11",
+          "headline": "Claude Code GitHub Action flaw let one malicious issue hijack repositories",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A flaw in the Claude Code GitHub Action could allow a single malicious issue to hijack repositories, researchers found; the issue has been addressed. (Anthropic tooling is covered on the same terms as any other vendor's.)",
+          "source": "The Hacker News",
+          "published_at": "2026-06-04",
+          "url": "https://thehackernews.com/2026/06/claude-code-github-action-flaw-let-one.html"
+        },
+        {
+          "id": "cs12",
+          "headline": "WhatsApp, Slack notifications could hijack Google Gemini on Android",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers showed that crafted WhatsApp or Slack notifications could hijack Google's Gemini assistant on Android via prompt-injection-style abuse.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-04",
+          "url": "https://thehackernews.com/2026/06/whatsapp-slack-notifications-could.html"
+        },
+        {
+          "id": "cs13",
+          "headline": "FlutterShell backdoor spreads to macOS via malicious Google and YouTube ads",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "The FlutterShell backdoor is spreading to macOS through malicious Google and YouTube ads (malvertising), researchers reported.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-04",
+          "url": "https://thehackernews.com/2026/06/fluttershell-backdoor-spreads-to-macos.html"
+        },
+        {
+          "id": "cs14",
+          "headline": "DentaQuest data breach exposed info of 2.6 million accounts",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Dental-benefits firm DentaQuest disclosed a data breach exposing information tied to about 2.6 million accounts, BleepingComputer reported.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-04",
+          "url": "https://www.bleepingcomputer.com/news/security/dentaquest-data-breach-exposed-info-of-26-million-accounts/"
+        },
+        {
+          "id": "cs15",
+          "headline": "UN World Food Programme breach affects 600,000 Gaza households",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "The UN World Food Programme disclosed a breach affecting data on about 600,000 Gaza households, BleepingComputer reported.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-04",
+          "url": "https://www.bleepingcomputer.com/news/security/un-world-food-programme-breach-affects-600-000-gaza-households/"
+        },
+        {
+          "id": "cs16",
+          "headline": "China-linked TA4922 expands phishing to UK, Germany, Italy and South Africa",
+          "category": "Threat Actor",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "The China-linked threat actor TA4922 has expanded its phishing operations to targets in the UK, Germany, Italy and South Africa, researchers said.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-04",
+          "url": "https://thehackernews.com/2026/06/china-linked-ta4922-expands-phishing.html"
+        },
+        {
+          "id": "cs17",
+          "headline": "DoJ disrupts Southeast Asia crypto-fraud networks, freezes $3.8 million",
+          "category": "Law Enforcement",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "The US Department of Justice disrupted Southeast Asian crypto-fraud networks and froze about $3.8 million in assets, in an action relevant to the region.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-04",
+          "url": "https://thehackernews.com/2026/06/doj-disrupts-southeast-asia-crypto.html"
+        },
+        {
+          "id": "cs18",
+          "headline": "CISA adds exploited Magento RCE flaw CVE-2026-45247 to KEV",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-45247",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "CISA added a critical Magento/Mirasvit Full Page Cache Warmer deserialization RCE (CVE-2026-45247, CVSS 9.8) to its Known Exploited Vulnerabilities catalog after active exploitation.",
+          "source": "The Hacker News, CISA",
+          "published_at": "2026-06-03",
+          "url": "https://thehackernews.com/2026/06/cisa-adds-exploited-magento-rce-flaw.html"
+        },
+        {
+          "id": "cs19",
+          "headline": "Autonomous AI tool finds 2-year-old RCE flaw in Redis (CVE-2026-23479)",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-23479",
+          "cvss": 8.8,
+          "severity": "HIGH",
+          "summary": "An autonomous AI tool uncovered a two-year-old remote code execution flaw in Redis (CVE-2026-23479, CVSS 8.8), highlighting AI's growing role in vulnerability discovery.",
+          "source": "The Hacker News, NVD",
+          "published_at": "2026-06-03",
+          "url": "https://thehackernews.com/2026/06/autonomous-ai-tool-finds-2-year-old-rce.html"
+        },
+        {
+          "id": "cs20",
+          "headline": "Microsoft fixes one-click GitHub dev attack that stole OAuth tokens",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Microsoft fixed a one-click attack against GitHub developers that let attackers steal OAuth tokens, researchers reported.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-03",
+          "url": "https://thehackernews.com/2026/06/one-click-github-dev-attack-lets.html"
+        },
+        {
+          "id": "cs21",
+          "headline": "Microsoft 365 Android apps let any app steal account tokens via leftover debug flag",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A leftover debug flag in Microsoft 365 Android apps allowed any installed app to steal account tokens, researchers found; Microsoft has addressed the issue.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-03",
+          "url": "https://thehackernews.com/2026/06/microsoft-365-android-apps-let-any-app.html"
+        }
+      ]
+    }
+  }
+}

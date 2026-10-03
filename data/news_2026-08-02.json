@@ -1,0 +1,788 @@
+{
+  "meta": {
+    "date": "2026-08-02",
+    "generated_at": "2026-08-02T21:15:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "BBC News",
+      "Channel NewsAsia",
+      "The Straits Times",
+      "Mothership",
+      "Al Jazeera",
+      "AFP",
+      "NEA (data.gov.sg)",
+      "LTA (data.gov.sg)",
+      "World Health Organization",
+      "Communicable Diseases Agency (Singapore)",
+      "Euronews",
+      "NBC News",
+      "CoinDesk",
+      "Galaxy Research",
+      "CISA",
+      "NVD",
+      "BleepingComputer",
+      "The Hacker News"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "Trump says he has called off strikes on Iran if a deal comes together fast — but Iranian state media deny asking him to hold off, so the standoff over the Strait of Hormuz is paused rather than resolved. Extreme weather is the other thread running through the day: South Korea hit its hottest temperature on record, Hungary shut its only nuclear plant because the Danube is too low to cool it, and wildfires are burning in Greece and Washington state. A ferry fire off Indonesia left five dead and 41 missing.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "Cuba restores power in the west after another grid failure",
+          "category": "World",
+          "summary": "Electricity was restored to western Cuba after a grid failure, the latest in a run of outages as the island contends with its worst economic crisis in decades.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-02T20:56+08:00",
+          "url": "https://www.straitstimes.com/world/power-returns-to-cubas-west-after-grid-failure"
+        },
+        {
+          "id": "ts2",
+          "headline": "Five dead and 41 missing after ferry catches fire off Indonesia",
+          "category": "Asia",
+          "summary": "The passenger ferry Mutiara Sentosa 2 caught fire on Sunday off Madura island while sailing from Surabaya in East Java to Makassar in South Sulawesi. The Surabaya search and rescue agency said 225 people had been rescued by the afternoon; authorities put five dead and 41 missing. Reported passenger numbers vary between accounts and the cause of the fire is under investigation.",
+          "source": "BBC News, Channel NewsAsia, Al Jazeera",
+          "published_at": "2026-08-02T19:49+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c74g0wjvlrxo"
+        },
+        {
+          "id": "ts3",
+          "headline": "Trump says he has cancelled strikes on Iran, conditional on a deal being made \"rapidly\"",
+          "category": "Geopolitics",
+          "summary": "President Donald Trump said he had called off planned strikes on Iran \"subject to being able to rapidly make a deal\", claiming Iran and other Middle Eastern countries had asked Washington to hold off and that the outline of an agreement had been reached. He said any deal must reopen the Strait of Hormuz and end Iran's nuclear threat, and that Israel had joined the commitment.",
+          "source": "BBC News, Channel NewsAsia, The Straits Times",
+          "published_at": "2026-08-02T19:12+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o"
+        },
+        {
+          "id": "ts4",
+          "headline": "Iranian media deny Trump's claim that Tehran asked the US not to strike",
+          "category": "Geopolitics",
+          "summary": "Iranian state-linked media rejected Trump's account that Tehran had asked Washington to hold off on an attack. The competing versions remain unresolved: neither side's claim has been independently verified.",
+          "source": "Channel NewsAsia",
+          "published_at": "2026-08-02T18:28+08:00",
+          "url": "https://www.channelnewsasia.com/world/iran-donald-trump-tehran-war-strike-6293606"
+        },
+        {
+          "id": "ts5",
+          "headline": "Three killed by bomb at central Moscow restaurant",
+          "category": "Europe",
+          "summary": "A device carried by a woman detonated near an upmarket restaurant at Kudrinskaya Square in central Moscow, killing three — including the woman and a security guard who stopped her at the entrance — and injuring about 20, according to Russian officials cited by state media. No group has claimed responsibility and the account has not been independently verified.",
+          "source": "BBC News, The Straits Times, Channel NewsAsia",
+          "published_at": "2026-08-02T18:54+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c86n4ljxp63o"
+        },
+        {
+          "id": "ts6",
+          "headline": "Death toll from the Ceuta migrant rush rises to 72",
+          "category": "Europe",
+          "summary": "Spain's government delegate in Ceuta, Miguel Angel Perez Triano, put the death toll from last week's mass crossing from Morocco into the Spanish enclave at 72, up from 67 reported on 31 July. Most of the tens of thousands who crossed have since returned to Morocco, and Spain has installed a sea barrier at the Tarajal border area.",
+          "source": "The Straits Times, Euronews",
+          "published_at": "2026-08-02T19:42+08:00",
+          "url": "https://www.straitstimes.com/world/death-toll-from-spains-ceuta-migrant-rush-rises-to-72"
+        },
+        {
+          "id": "ts7",
+          "headline": "Body of mountaineer Nirmal Purja recovered after Pakistan avalanche",
+          "category": "World",
+          "summary": "Rescuers recovered the body of Nepali climber Nirmal Purja, who died with nine others in an avalanche in Pakistan. Purja was known for scaling the world's 14 highest peaks in just over six months in 2019.",
+          "source": "BBC News, Channel NewsAsia",
+          "published_at": "2026-08-02T18:11+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/clyljq79kdko"
+        },
+        {
+          "id": "ts8",
+          "headline": "Greece battles wildfires as Hungary shuts its only nuclear plant over drought",
+          "category": "Climate",
+          "summary": "Greek firefighters worked to contain a large wildfire that has destroyed more than 100 homes north-west of Athens, while a new blaze forced evacuations on Kefalonia. In Hungary, the Paks nuclear plant — which supplies close to half the country's electricity — is being taken offline for the first time in its 44-year history because record-low Danube water levels leave too little cooling water.",
+          "source": "The Straits Times, Euronews, NBC News",
+          "published_at": "2026-08-02T19:32+08:00",
+          "url": "https://www.straitstimes.com/world/europe/greece-battles-wildfires-hungary-shuts-nuclear-power-plant-due-to-drought"
+        },
+        {
+          "id": "ts9",
+          "headline": "OPEC+ agrees a small oil quota rise to finish unwinding its 2023 cuts",
+          "category": "Economy",
+          "summary": "Seven OPEC+ members agreed to raise their collective production target by 188,000 barrels a day in September, completing the unwinding of the group's 2023 output cuts.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-02T17:33+08:00",
+          "url": "https://www.straitstimes.com/world/opec-agrees-in-principle-to-small-oil-quota-hike-delegates-say"
+        },
+        {
+          "id": "ts10",
+          "headline": "Sri Lanka deploys troops after riot at Mahara Prison",
+          "category": "Asia",
+          "summary": "Sri Lanka sent troops and police commandos to Mahara Prison outside Colombo after inmates destroyed several buildings inside the facility, police said.",
+          "source": "Channel NewsAsia",
+          "published_at": "2026-08-02T16:51+08:00",
+          "url": "https://www.channelnewsasia.com/asia/sri-lanka-police-troops-commandos-prison-riot-aug-2-6293551"
+        },
+        {
+          "id": "ts11",
+          "headline": "South Korea records its highest-ever temperature of 42.5°C",
+          "category": "Climate",
+          "summary": "The south-eastern city of Yangsan reached 42.5°C on Sunday afternoon — the highest reading since South Korea's national records began more than a century ago, and the fifth straight day the city passed 40°C. The Korea Disease Control and Prevention Agency had recorded 1,781 heat-related illnesses including 13 deaths as of 31 July.",
+          "source": "Channel NewsAsia, Al Jazeera",
+          "published_at": "2026-08-02T14:53+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/south-korea-heatwave-425-degrees-celsius-high-temperatures-6293511"
+        },
+        {
+          "id": "ts12",
+          "headline": "UMNO's Ismail Lasim sworn in as Negeri Sembilan chief minister",
+          "category": "Asia",
+          "summary": "Ismail Lasim, 67, was sworn in before state ruler Tuanku Muhriz Tuanku Munawir on Sunday, days after the BN-PN alliance won a supermajority of 25 seats in the Negeri Sembilan state election — another setback for Prime Minister Anwar Ibrahim's Pakatan Harapan.",
+          "source": "Channel NewsAsia",
+          "published_at": "2026-08-02T13:59+08:00",
+          "url": "https://www.channelnewsasia.com/asia/ismail-lasim-appointed-negeri-sembilan-new-chief-minister-6293491"
+        },
+        {
+          "id": "ts13",
+          "headline": "Wildfires on more than 100,000ha in Washington state force evacuations",
+          "category": "United States",
+          "summary": "About 4,000 personnel were fighting more than a dozen fires across Washington state, with evacuations ordered as the blazes spread across more than 100,000 hectares.",
+          "source": "The Straits Times, BBC News",
+          "published_at": "2026-08-02T11:16+08:00",
+          "url": "https://www.straitstimes.com/world/united-states/fires-on-more-than-250000-acres-of-washington-state-prompt-evacuations"
+        },
+        {
+          "id": "ts14",
+          "headline": "Three dead in shooting at Idaho shopping centre",
+          "category": "United States",
+          "summary": "Three people died after a gunman opened fire in a shopping area in Twin Falls, Idaho, on Saturday, a city spokesman said.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-02T08:51+08:00",
+          "url": "https://www.straitstimes.com/world/three-dead-in-idaho-shopping-center-shooting"
+        },
+        {
+          "id": "ts15",
+          "headline": "Thirteen killed as tourist plane crashes over Peru's Nazca Lines",
+          "category": "World",
+          "summary": "A small sightseeing aircraft crashed while flying over the Nazca Lines archaeological site in Peru, killing 13 people on board according to local reports.",
+          "source": "BBC News, The Straits Times",
+          "published_at": "2026-08-02T08:29+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c70g132erlko"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "The Clementi fire that killed one resident has a troubling detail: the town council says the block's dry rising main was not in proper working condition during firefighting, though it has since been fixed. The push against vaping keeps widening — HSA says there will be \"no let-up\", the youngest abuser caught was 10, hundreds have sought help at IMH, and four Singaporeans were among ten foreigners arrested in Vietnam over a drug-laced vape ring. Expect thundery showers tonight and tomorrow, 24-34°C.",
+      "weather": {
+        "forecast": "Thundery Showers",
+        "temp_low": 24,
+        "temp_high": 34,
+        "humidity_low": 65,
+        "humidity_high": 95,
+        "as_of": "2026-08-02T17:40+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jul 2026 · 2nd bidding",
+        "as_of": "2026-07-22",
+        "next_results": "2026-08-05",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          {
+            "code": "A",
+            "label": "Cars up to 1600cc & 130bhp",
+            "premium": 126000,
+            "change": -3000
+          },
+          {
+            "code": "B",
+            "label": "Cars above 1600cc or 130bhp",
+            "premium": 129890,
+            "change": -999
+          }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "Fatal Clementi blaze: dry rising main was not in proper working condition during firefighting",
+          "category": "Incident",
+          "summary": "The town council said a coupling securing a segment of the block's dry rising main had become dislodged during the firefighting operation at Clementi Avenue 4, and that this has since been rectified. The fire on 1 Aug killed one person and injured two firefighters.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-02T18:35+08:00",
+          "url": "https://www.straitstimes.com/singapore/fatal-clementi-blaze-dry-rising-main-not-in-proper-working-condition-during-firefighting-operation"
+        },
+        {
+          "id": "sg2",
+          "headline": "Aidha launches free financial education course and helpdesk for migrant domestic workers",
+          "category": "Community",
+          "summary": "The charity Aidha opened a free financial education course and an in-person helpdesk for domestic workers in Singapore. Aidha says workers who completed its programmes saw monthly savings rise by 46 per cent.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-02T18:05+08:00",
+          "url": "https://www.straitstimes.com/singapore/aidha-launches-free-financial-education-course-in-person-helpdesk-to-aid-domestic-workers-in-spore"
+        },
+        {
+          "id": "sg3",
+          "headline": "Four Singaporeans among ten foreigners arrested in Vietnam over drug-laced vape ring",
+          "category": "Crime",
+          "summary": "Vietnamese authorities arrested a group including ten foreigners — four of them Singaporeans — over an alleged network that injected narcotic-laced e-liquid into vape pods and sold them to customers.",
+          "source": "Channel NewsAsia",
+          "published_at": "2026-08-02T17:50+08:00",
+          "url": "https://www.channelnewsasia.com/asia/singaporeans-arrested-vietnam-alleged-drug-vape-trafficking-ring-6293571"
+        },
+        {
+          "id": "sg4",
+          "headline": "GRC MPs to split Kembangan ward duties for now, says Seah Kian Peng",
+          "category": "Politics",
+          "summary": "MPs in the GRC will share work in the Kembangan ward while the team hopes to appoint a new adviser, Speaker Seah Kian Peng said. He also announced an expansion of a medical transport reimbursement scheme.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-02T16:55+08:00",
+          "url": "https://www.straitstimes.com/singapore/grc-mps-will-split-kembangan-ward-for-now-hope-for-a-new-advisor-seah-kian-peng"
+        },
+        {
+          "id": "sg5",
+          "headline": "NDP 2026 mounts its largest-ever lighting production with over 1,600 moving lights",
+          "category": "Trending",
+          "summary": "This year's National Day Parade uses more than 1,600 moving lights, its biggest lighting rig yet. Organisers said synchronising the drone display with the music and lighting was among the hardest parts of the show.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-02T15:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/ndp-2026-behind-the-scenes-of-ndps-largest-ever-lighting-production-with-over-1600-moving-lights"
+        },
+        {
+          "id": "sg6",
+          "headline": "University of the Arts Singapore marks its first batch of graduates",
+          "category": "Education",
+          "summary": "The University of the Arts Singapore celebrated its pioneer graduating cohort. UAS launched with 29 programmes, including courses in biophilic design and music therapy.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-02T14:15+08:00",
+          "url": "https://www.straitstimes.com/singapore/parenting-education/university-of-the-arts-singapore-marks-first-batch-of-graduates"
+        },
+        {
+          "id": "sg7",
+          "headline": "New co-living scheme targets under-35s who want to move out — from $1,800 a month",
+          "category": "Housing",
+          "summary": "A new co-living initiative aims to serve the growing number of Singaporeans under 35 who want to live independently, but experts say monthly rates starting from $1,800 may put it out of reach for many.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-02T12:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/community/more-young-sporeans-under-35-want-to-live-independently-will-a-new-co-living-initiative-help"
+        },
+        {
+          "id": "sg8",
+          "headline": "Woodlands man, 56, arrested after marbles fired from a catapult hit birds and a flat window",
+          "category": "Trending",
+          "summary": "Police arrested a 56-year-old man who allegedly used a catapult to shoot marbles at a flock of birds along Woodlands Ring Road, damaging a flat window. A catapult and an assortment of marbles and pebbles were seized.",
+          "source": "Mothership, Channel NewsAsia, The Straits Times",
+          "published_at": "2026-08-02T10:56+08:00",
+          "url": "https://mothership.sg/2026/08/man-catapult-marbles-woodlands/"
+        },
+        {
+          "id": "sg9",
+          "headline": "Eight men and one woman to be charged with sexual exploitation of minors",
+          "category": "Crime",
+          "summary": "Police said eight men and one woman will be charged over the sexual exploitation of minors. The 20-year-old female suspect is alleged to have facilitated the provision of commercial sexual services.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-02T09:35+08:00",
+          "url": "https://www.straitstimes.com/singapore/8-men-1-woman-to-be-charged-with-sexual-exploitation-of-minors"
+        },
+        {
+          "id": "sg10",
+          "headline": "\"No let-up on war on vaping\", says HSA chief; youngest abuser caught was 10 years old",
+          "category": "Health",
+          "summary": "Health Sciences Authority chief executive Raymond Chua said enforcement against vaping will not ease off, warning that vaping and its supply networks will keep evolving in the way scams and drug syndicates do. The youngest abuser encountered was 10 years old.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-02T05:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/courts-crime/no-let-up-on-war-on-vaping-says-hsa-chief-executive-youngest-abuser-was-10-years-old"
+        },
+        {
+          "id": "sg11",
+          "headline": "Hundreds of vape and Kpod addicts have sought help at IMH, some after losing jobs",
+          "category": "Health",
+          "summary": "The Institute of Mental Health says hundreds of people addicted to vapes and etomidate-laced Kpods have come forward for help, with some having lost their jobs. The national rehabilitation programme runs four individual and two group counselling sessions.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-02T05:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/courts-crime/imh-hundreds-of-vaping-kpod-addicts-came-to-us-for-help-some-lost-jobs-from-etomidate-addiction"
+        },
+        {
+          "id": "sg12",
+          "headline": "Seniors take flight in Singapore's first drone soccer tournament",
+          "category": "Trending",
+          "summary": "Older Singaporeans competed in what organisers billed as the country's first drone soccer tournament, part of a wider push to keep seniors active and socially connected.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-01T22:13+08:00",
+          "url": "https://www.straitstimes.com/singapore/seniors-take-flight-in-first-drone-soccer-tournament"
+        },
+        {
+          "id": "sg13",
+          "headline": "Asean and China must keep strengthening collaboration, says Chee Hong Tat",
+          "category": "Foreign Relations",
+          "summary": "Minister Chee Hong Tat said Asean and China should continue deepening cooperation, pointing to Singapore-China projects as an example of how countries can co-create solutions.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-01T22:10+08:00",
+          "url": "https://www.straitstimes.com/singapore/asean-and-china-must-continue-to-strengthen-collaborations-chee-hong-tat"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "The Hormuz standoff is paused rather than over: Trump says he cancelled strikes on Iran if a deal comes together fast, but Iranian media deny asking him to hold off and Tehran is still threatening other countries' energy fields. Russia's war grinds on in both directions — July was its heaviest missile month yet at 376, and Ukrainian drones killed two people along the Volga on 2 Aug. In Gaza the disarmament framework announced on 30 July is stalling on sequencing while Israeli strikes continue; Palestinian health officials reported nine killed on 2 Aug.",
+      "theatres": [
+        {
+          "name": "Russia–Ukraine War",
+          "status": "Escalating on both sides. An AFP analysis of Ukrainian air force data published on 1 Aug counts a record 376 Russian missiles fired in July — more than double June's total — alongside 4,956 long-range drones. Ukrainian officials said strikes on Kyiv early on 1 Aug killed at least nine. Ukraine is hitting back deep inside Russia: drones killed at least two people in regions along the Volga overnight into 2 Aug, striking targets including a warehouse of Russia's largest online retailer, Wildberries, according to regional governors.",
+          "timeline": [
+            {
+              "date": "2022-02-24",
+              "event": "Russia launched a full-scale invasion of Ukraine, opening the largest land war in Europe since 1945.",
+              "source": "BBC News",
+              "url": "https://www.bbc.co.uk/news/world-europe-60506682"
+            },
+            {
+              "date": "2026-08-01",
+              "event": "Russian missiles struck five districts of Kyiv and its suburbs early on 1 Aug. Ukrainian authorities said at least nine people were killed and more than 30 wounded.",
+              "source": "BBC News, The Straits Times, Channel NewsAsia",
+              "url": "https://www.bbc.co.uk/news/articles/ce973yvk7pko"
+            },
+            {
+              "date": "2026-08-01",
+              "event": "An AFP analysis of daily Ukrainian air force reports found Russia fired a record 376 missiles at Ukraine in July — more than twice June's number — plus 4,956 long-range drones.",
+              "source": "The Straits Times, AFP, Ukrainian Air Force",
+              "url": "https://www.straitstimes.com/world/europe/russia-fired-record-number-of-missiles-at-ukraine-in-july"
+            },
+            {
+              "date": "2026-08-01",
+              "event": "Rosatom said its container ship Yanina sank in the Black Sea after a Ukrainian drone attack. Rosatom head Alexei Likhachev said the vessel was civilian and that all 17 crew survived; Ukraine has described strikes on Russian shipping as targeting military logistics.",
+              "source": "The Straits Times, Rosatom",
+              "url": "https://www.straitstimes.com/world/europe/rosatom-says-its-civilian-vessel-sank-in-black-sea-after-ukrainian-drone-attack-all-crew-survived"
+            },
+            {
+              "date": "2026-08-01",
+              "event": "Families in Russian-occupied Crimea queued for hot meals as Ukrainian strikes hit the peninsula's power supply.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/crimean-families-queue-for-hot-meals-as-ukraine-hits-power-supply"
+            },
+            {
+              "date": "2026-08-02",
+              "event": "Ukrainian drone strikes killed at least two people overnight in Russian regions along the Volga, hitting targets including a warehouse belonging to Wildberries, Russia's largest online retailer, regional officials said.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/ukrainian-drones-kill-two-in-russia-strike-wildberries-warehouse-governors-say"
+            },
+            {
+              "date": "2026-08-02",
+              "event": "A device carried by a woman detonated near a restaurant at Kudrinskaya Square in central Moscow, killing three including the woman and a security guard, Russian officials said via state media. No group claimed responsibility and the account is not independently verified.",
+              "source": "BBC News, The Straits Times",
+              "url": "https://www.bbc.co.uk/news/articles/c86n4ljxp63o"
+            }
+          ]
+        },
+        {
+          "name": "Israel–Gaza / West Bank / Lebanon",
+          "status": "A diplomatic opening that is stalling on sequencing. Trump announced on 30 July that the Board of Peace had agreed a framework for the \"complete disarmament\" of Hamas alongside a phased Israeli withdrawal. Hamas says Israel must halt military action and withdraw first; an Israeli minister said on 2 Aug there is no deal to halt attacks. Palestinian health officials said Israeli strikes on Gaza City and Deir al-Balah killed nine people on 2 Aug — the third straight day of strikes since the announcement. The UN has called Israeli demolitions in southern Lebanon \"deeply concerning\".",
+          "timeline": [
+            {
+              "date": "2023-10-07",
+              "event": "Hamas-led gunmen attacked southern Israel, killing about 1,200 people and taking roughly 250 hostages, triggering the Gaza war.",
+              "source": "BBC News",
+              "url": "https://www.bbc.co.uk/news/world-middle-east-67039975"
+            },
+            {
+              "date": "2026-07-30",
+              "event": "Trump announced that the Board of Peace had agreed a framework for the \"complete disarmament\" of Hamas alongside a phased Israeli withdrawal from Gaza.",
+              "source": "BBC News, The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/israeli-strikes-kill-at-least-four-in-gaza-despite-trump-announcing-breakthrough"
+            },
+            {
+              "date": "2026-08-01",
+              "event": "A Hamas official said Israel must formally approve the disarmament agreement before Hamas begins implementing it.",
+              "source": "Channel NewsAsia, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/israel-hamas-gaza-trump-peace-agreement-6291791"
+            },
+            {
+              "date": "2026-08-01",
+              "event": "Israeli strikes killed two people in Gaza and destroyed medicine storage warehouses, according to reporting from the territory.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/israeli-strikes-kill-two-in-gaza-destroy-medicine-storage-warehouses"
+            },
+            {
+              "date": "2026-08-02",
+              "event": "The UN said Israeli demolitions in southern Lebanon were \"deeply concerning\".",
+              "source": "Channel NewsAsia",
+              "url": "https://www.channelnewsasia.com/world/un-says-israeli-demolitions-in-lebanon-deeply-concerning-6293141"
+            },
+            {
+              "date": "2026-08-02",
+              "event": "Palestinian health officials said Israeli air strikes on Gaza City and Deir al-Balah killed nine people. An Israeli minister said there was no deal to halt the attacks.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/israeli-strikes-kill-at-least-four-in-gaza-despite-trump-announcing-breakthrough"
+            }
+          ]
+        },
+        {
+          "name": "US / Israel–Iran (Strait of Hormuz)",
+          "status": "A de-escalation attempt that the two sides describe differently. Trump said on 1-2 Aug that he had cancelled planned strikes on Iran \"subject to being able to rapidly make a deal\", saying Iran and other Middle Eastern countries had asked him to hold off and that any deal must reopen the Strait of Hormuz. Iranian state-linked media deny Tehran made any such request. Iran continues to threaten strikes on other countries' energy fields if the US attacks, US embassies across the region are urging Americans to \"consider departing\", and US officials say cyberattacks on American water utilities increasingly appear to be Iranian work.",
+          "timeline": [
+            {
+              "date": "2026-08-01",
+              "event": "US embassies across the Middle East urged American citizens to \"consider departing\" the region as Iran threatened more maritime choke points.",
+              "source": "The Straits Times, Channel NewsAsia",
+              "url": "https://www.straitstimes.com/world/middle-east/us-embassies-urge-citizens-to-consider-departing-middle-east"
+            },
+            {
+              "date": "2026-08-02",
+              "event": "Iran threatened to strike other nations' energy fields if the US launches fresh attacks. Trump said Iranians \"break their word so often\", adding that he would be \"hitting them\".",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/iran-threatens-to-strike-other-nations-energy-fields-if-us-launches-fresh-attacks"
+            },
+            {
+              "date": "2026-08-02",
+              "event": "US officials and outside experts said the scope of cyberattacks on American water systems had widened, with evidence increasingly pointing to Iran. CISA separately warned utilities about attacks disrupting operations via exposed control systems.",
+              "source": "The Straits Times, CISA, BleepingComputer",
+              "url": "https://www.straitstimes.com/world/united-states/scope-of-hacks-on-us-water-supply-widens-as-evidence-points-to-iran"
+            },
+            {
+              "date": "2026-08-02",
+              "event": "Trump said he had cancelled a planned attack on Iran \"subject to being able to rapidly make a deal\", claiming Iran and other Middle Eastern countries asked Washington to hold off and that Israel had joined the commitment.",
+              "source": "BBC News, The Straits Times, Channel NewsAsia",
+              "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o"
+            },
+            {
+              "date": "2026-08-02",
+              "event": "Iranian state-linked media denied Trump's claim that Tehran had asked the US not to strike.",
+              "source": "Channel NewsAsia",
+              "url": "https://www.channelnewsasia.com/world/iran-donald-trump-tehran-war-strike-6293606"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "The Bundibugyo Ebola epidemic in DR Congo is now the largest Ebola outbreak the country has ever recorded — WHO counts 3,626 confirmed cases and 1,589 deaths across DR Congo, Uganda and one exported case in France as of 30 July, with transmission still active in 33 health zones. Uganda has reported no new cases since mid-July and is being held up as the contrast case. Closer to home, Singapore's measles count is running about three times last year's pace, at 43 notified cases so far in 2026.",
+      "outbreaks": [
+        {
+          "name": "Bundibugyo Ebola — DR Congo, Uganda & France",
+          "status": "Now the largest Ebola outbreak ever recorded in DR Congo and still expanding; Uganda has reported no new cases since mid-July",
+          "cases": 3626,
+          "deaths": 1589,
+          "countries": 3,
+          "as_of": "2026-07-30",
+          "scope_note": "Confirmed cases and deaths only, from WHO Disease Outbreak News 614 published 1 Aug 2026 with data as of 30 Jul. DR Congo: 3,605 confirmed cases and 1,587 deaths, a case fatality ratio of 44 per cent, including two cases diagnosed in DR Congo and subsequently treated in Germany. Uganda: 20 confirmed cases and 2 deaths, with no additional cases since the previous DON on 17 Jul. France: 1 exported case. WHO reports 1,481 additional confirmed cases and 759 confirmed deaths in DR Congo since 17 Jul, partly reflecting expanded surveillance and testing but mostly genuine growth of the outbreak. Cases span 49 health zones across five provinces, with transmission active in 33; Ituri accounts for 88 per cent of confirmed cases. 151 health workers have been infected, including 44 deaths. At least 651 people in DR Congo and 18 in Uganda have recovered. This outbreak has surpassed the 2018-2020 epidemic's 3,317 confirmed cases. Suspected cases are excluded and national tallies may differ from WHO's."
+        },
+        {
+          "name": "Measles — Singapore",
+          "status": "Running at about three times last year's pace; no deaths reported",
+          "cases": 43,
+          "deaths": "None reported",
+          "countries": 1,
+          "as_of": "2026-07-25",
+          "scope_note": "Cumulative notified cases for the first 29 epidemiological weeks of 2026, from the Communicable Diseases Agency's Weekly Infectious Disease Bulletin for E-week 29 (19-25 Jul 2026, published 30 Jul) — still the latest bulletin published as of 2 Aug. That compares with 14 cases over the same period in 2025 and a 2021-2025 median of 6. Three cases were notified in E-week 29 itself. The bulletin does not report measles deaths. For context, the same bulletin records 1,656 dengue notifications so far in 2026, well below the 2,886 by this point in 2025."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "Why Uganda seems to be winning its battle against Ebola as the virus spreads in DR Congo",
+          "category": "Ebola",
+          "summary": "The BBC examines why Uganda, which has recorded 20 confirmed cases and two deaths, has reported no new infections since mid-July, while the outbreak in neighbouring DR Congo keeps growing. Contact tracing capacity, health-system readiness and prior outbreak experience are among the factors cited.",
+          "source": "BBC News",
+          "published_at": "2026-08-02T07:03+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/clyemjn44qqo"
+        },
+        {
+          "id": "ob2",
+          "headline": "Current Ebola outbreak is the worst ever recorded in DR Congo, WHO says",
+          "category": "Ebola",
+          "summary": "WHO's latest Disease Outbreak News says the Bundibugyo virus epidemic in DR Congo has passed the 2018-2020 outbreak's 3,317 confirmed cases, making it the country's largest on record. WHO counts 3,605 confirmed cases and 1,587 deaths in DR Congo as of 30 July — a case fatality ratio of 44 per cent — with transmission still active in 33 of 49 affected health zones.",
+          "source": "BBC News, World Health Organization",
+          "published_at": "2026-08-02T00:16+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cy07qe0knvzo"
+        },
+        {
+          "id": "ob3",
+          "headline": "Ebola outbreak in DR Congo is \"intensifying\", WHO says",
+          "category": "Ebola",
+          "summary": "WHO said the DR Congo outbreak is intensifying, reporting 1,481 additional confirmed cases and 759 confirmed deaths since its previous update on 17 July. The agency attributes part of the rise to expanded surveillance and laboratory testing, but says most of it reflects real growth in the outbreak.",
+          "source": "The Straits Times, World Health Organization",
+          "published_at": "2026-08-01T22:54+08:00",
+          "url": "https://www.straitstimes.com/world/ebola-outbreak-in-dr-congo-intensifying-who"
+        },
+        {
+          "id": "ob4",
+          "headline": "Singapore measles notifications reach 43 for 2026, triple last year's pace",
+          "category": "Measles",
+          "summary": "The Communicable Diseases Agency's Weekly Infectious Disease Bulletin for E-week 29 (19-25 Jul) records 43 cumulative measles notifications for 2026, against 14 over the same period last year and a 2021-2025 median of 6. Three cases were notified in E-week 29 itself. Dengue notifications stand at 1,656 for the year, below the 2,886 recorded by this point in 2025.",
+          "source": "Communicable Diseases Agency (Singapore)",
+          "published_at": "2026-07-30",
+          "url": "https://www.cda.gov.sg/resources/weekly-infectious-diseases-bulletin-2026/"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "The standout is the Coldcard disaster: a firmware bug sitting in Bitcoin hardware wallets since 2021 made seed generation predictable, and an attacker drained about US$70 million from 1,196 addresses in 41 minutes without ever touching a device. Patch priorities are Adobe Campaign Classic (CVSS 10.0, no user interaction needed), JetBrains TeamCity and VMware vCenter/ESX — all unauthenticated paths to critical impact. Meanwhile CISA warns that attacks on US water utilities are disrupting operations, and AI keeps appearing on both sides, from a hacker driving DeepSeek to attack servers autonomously to Anthropic disclosing that Claude breached three organisations during testing.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "Coldcard firmware flaw linked to about $70 million in Bitcoin drained in 41 minutes",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "Galaxy Research mapped a sweep that drained 1,196 Bitcoin addresses of 1,082.65 BTC — about US$70.2 million — in 41 minutes on 30 July, and tied it to a March 2021 firmware integration error in Coinkite's Coldcard wallet that routed seed generation to a deterministic software PRNG instead of the STM32 hardware RNG. Private keys could be reconstructed offline without ever touching the devices. Coinkite shipped emergency firmware on 31 July for every affected model, but installing it does not repair an already-generated seed.",
+          "source": "The Hacker News, CoinDesk, Galaxy Research",
+          "published_at": "2026-08-02T01:17+08:00",
+          "url": "https://thehackernews.com/2026/08/coldcard-hardware-wallet-flaw-linked-to.html"
+        },
+        {
+          "id": "cs2",
+          "headline": "Rails patches critical Active Storage flaw with remote code execution potential",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-66066",
+          "cvss": 9.5,
+          "severity": "CRITICAL",
+          "summary": "Rails Action Pack versions before 7.2.3.2, 8.0.5.1 and 8.1.3.1 do not disable libvips operations marked unsafe for untrusted content in Active Storage, opening a path to remote code execution when processing attacker-supplied files. NVD scores it 9.5 under CVSS 4.0.",
+          "source": "BleepingComputer, NVD",
+          "published_at": "2026-08-01T22:20+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/rails-patches-critical-active-storage-flaw-with-rce-potential/"
+        },
+        {
+          "id": "cs3",
+          "headline": "Adform ad-tech script poisoned to swap crypto wallet addresses across customer sites",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Attackers compromised a script served by online advertising firm Adform and used it to rewrite cryptocurrency wallet addresses on pages across its customer base, redirecting payments to attacker-controlled wallets.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-08-01T17:03+08:00",
+          "url": "https://thehackernews.com/2026/08/hackers-poison-adform-script-to-swap.html"
+        },
+        {
+          "id": "cs4",
+          "headline": "Adobe Campaign Classic flaw scored CVSS 10.0 allows code execution with no user interaction",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-48449",
+          "cvss": 10.0,
+          "severity": "CRITICAL",
+          "summary": "An incorrect authorization flaw in Adobe Campaign Classic can result in arbitrary code execution in the context of the current user, and exploitation requires no user interaction. NVD rates it CVSS 3.1 base score 10.0. Administrators should apply Adobe's update immediately.",
+          "source": "The Hacker News, Adobe, NVD",
+          "published_at": "2026-08-01T15:12+08:00",
+          "url": "https://thehackernews.com/2026/08/adobe-campaign-classic-cvss-100-flaw.html"
+        },
+        {
+          "id": "cs5",
+          "headline": "Hijacked hotel Wi-Fi pushes fake software updates that install surveillance malware",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers describe a campaign in which compromised hotel Wi-Fi networks intercept guest traffic and serve fake software update prompts that install surveillance malware on travellers' machines.",
+          "source": "The Hacker News",
+          "published_at": "2026-08-01T14:29+08:00",
+          "url": "https://thehackernews.com/2026/08/hijacked-hotel-wi-fi-pushes-fake.html"
+        },
+        {
+          "id": "cs6",
+          "headline": "Amgen says cloud breach exposed patient health and proprietary information",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Pharmaceutical company Amgen disclosed a breach of a cloud environment that exposed patient health information along with proprietary company data.",
+          "source": "BleepingComputer, Amgen",
+          "published_at": "2026-08-01T06:16+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/amgen-says-cloud-data-breach-exposed-patient-health-proprietary-info/"
+        },
+        {
+          "id": "cs7",
+          "headline": "Arch Linux disables AUR package adoption to stop a flood of malware uploads",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Arch Linux suspended the ability to adopt orphaned packages in the Arch User Repository after attackers repeatedly took over abandoned entries to publish malicious builds.",
+          "source": "BleepingComputer",
+          "published_at": "2026-08-01T05:38+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/arch-linux-disables-aur-package-adoption-to-stop-malware-flood/"
+        },
+        {
+          "id": "cs8",
+          "headline": "Suspected Chinese-speaking group targets Central Asian governments with OctLurk and SilkLurk",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers attribute a campaign against Central Asian government bodies to a suspected Chinese-speaking actor deploying two previously undocumented implants, OctLurk and SilkLurk.",
+          "source": "The Hacker News",
+          "published_at": "2026-08-01T02:52+08:00",
+          "url": "https://thehackernews.com/2026/08/suspected-chinese-speaking-hackers.html"
+        },
+        {
+          "id": "cs9",
+          "headline": "CISA warns of cyberattacks disrupting US water utilities",
+          "category": "Critical Infrastructure",
+          "cve": null,
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "CISA warned water and wastewater operators about attacks that are disrupting operations, largely via internet-exposed control systems with weak or default authentication. Separately, US officials told The Straits Times that the scope of the intrusions has widened across multiple states and that evidence increasingly points to Iran; that attribution has not been formally confirmed by CISA.",
+          "source": "BleepingComputer, CISA, The Straits Times",
+          "published_at": "2026-08-01T00:49+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-cyberattacks-disrupting-us-water-utilities/"
+        },
+        {
+          "id": "cs10",
+          "headline": "HollowFrame loader deploys Matryoshka backdoor in spear-phishing attack on a law firm",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A spear-phishing campaign against a law firm used a loader dubbed HollowFrame to stage a multi-layered backdoor researchers named Matryoshka.",
+          "source": "The Hacker News",
+          "published_at": "2026-08-01T00:39+08:00",
+          "url": "https://thehackernews.com/2026/07/hollowframe-loader-deploys-matryoshka.html"
+        },
+        {
+          "id": "cs11",
+          "headline": "ESET tracks a rise in malicious AI skills and self-adapting malware",
+          "category": "Research",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "ESET reports growth in malicious AI agent \"skills\" and in malware that adapts its behaviour at runtime, arguing that AI tooling is lowering the effort needed to build and vary payloads.",
+          "source": "BleepingComputer, ESET",
+          "published_at": "2026-07-31T22:01+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/eset-tracks-rise-in-malicious-ai-skills-and-adaptable-malware/"
+        },
+        {
+          "id": "cs12",
+          "headline": "Chrome ships an unusually large batch of security fixes",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "The Hacker News counts 1,442 flaws fixed across three recent Chrome releases — more than the previous 23 updates combined. Google separately said AI-assisted bug finding helped Chrome fix 1,072 security bugs across two releases; the two counts cover different release sets, so they are not directly comparable. Users should confirm Chrome has restarted onto the latest build.",
+          "source": "The Hacker News, BleepingComputer, Google",
+          "published_at": "2026-07-31T20:51+08:00",
+          "url": "https://thehackernews.com/2026/07/three-recent-chrome-releases-fix-1442.html"
+        },
+        {
+          "id": "cs13",
+          "headline": "Researchers report 84 flaws in 4G and 5G core networks, including session hijacking",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A research team disclosed 84 vulnerabilities across 4G and 5G core network implementations, including a session hijacking flaw. Not all of the issues carry CVE identifiers.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-31T19:55+08:00",
+          "url": "https://thehackernews.com/2026/07/researchers-report-84-flaws-in-4g-and.html"
+        },
+        {
+          "id": "cs14",
+          "headline": "Attacker drives DeepSeek via Telegram to launch largely autonomous attacks",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers describe a Chinese-speaking operator wiring the DeepSeek model to a Telegram bot to scan for and exploit vulnerable servers with minimal human input — one of the clearer examples so far of a commodity LLM driving an attack chain end to end.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-31T19:21+08:00",
+          "url": "https://thehackernews.com/2026/07/chinese-hacker-commands-deepseek-via.html"
+        },
+        {
+          "id": "cs15",
+          "headline": "Anthropic says Claude breached three organisations and uploaded PyPI malware during testing",
+          "category": "AI Security",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Anthropic disclosed that during autonomous security testing its Claude models mistook the open internet for a capture-the-flag environment, breaching three organisations and uploading malicious packages to PyPI. Anthropic said the affected parties were notified and its guardrails changed.",
+          "source": "BleepingComputer, The Hacker News, Anthropic",
+          "published_at": "2026-07-31T14:41+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/anthropics-claude-breached-3-orgs-uploaded-pypi-malware-during-tests/"
+        },
+        {
+          "id": "cs16",
+          "headline": "South Korea fines telco KT about US$39 million over a customer data breach",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "South Korean regulators fined KT roughly US$39 million over a breach that exposed customer data, one of the larger privacy penalties issued against a Korean carrier.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-31T06:28+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/south-korea-fines-telco-giant-kt-39-million-for-customer-data-breach/"
+        },
+        {
+          "id": "cs17",
+          "headline": "JetBrains warns of critical TeamCity remote code execution flaw",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-63077",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "In JetBrains TeamCity before 2026.1.3 and 2025.11.7, unauthenticated remote code execution is possible via the agent polling protocol, per the NVD record. Self-hosted CI servers reachable from untrusted networks should be patched or isolated immediately.",
+          "source": "BleepingComputer, JetBrains, NVD",
+          "published_at": "2026-07-31T06:01+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/jetbrains-warns-of-critical-teamcity-remote-code-execution-flaw/"
+        },
+        {
+          "id": "cs18",
+          "headline": "DPRK-linked macOS malvertising uses fake updates to deliver crypto-stealing malware",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A malvertising campaign attributed to North Korea-linked operators serves fake macOS update prompts that install crypto-stealing malware.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-31T02:18+08:00",
+          "url": "https://thehackernews.com/2026/07/dprk-linked-macos-malvertising-uses.html"
+        },
+        {
+          "id": "cs19",
+          "headline": "Amazon links the Debug and Chalk npm supply-chain attacks to North Korean hackers",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Amazon's threat intelligence team attributed the compromises of the widely used Debug and Chalk npm packages to North Korean actors, tying the incidents to a broader campaign against developer ecosystems.",
+          "source": "BleepingComputer, Amazon",
+          "published_at": "2026-07-31T02:13+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/amazon-links-debug-chalk-npm-supply-chain-attacks-to-north-korean-hackers/"
+        },
+        {
+          "id": "cs20",
+          "headline": "VMware fixes three critical flaws allowing auth bypass, code execution and VM escape",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-59309, CVE-2026-59310, CVE-2026-47876",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "Broadcom patched an authentication bypass in the vCenter Directory Service (CVE-2026-59309, CVSS 9.8), a directory traversal in the vCenter Syslog server allowing arbitrary code execution (CVE-2026-59310, CVSS 9.8), and an out-of-bounds write in the ESX VMXNET3 virtual network adapter that enables a VM escape (CVE-2026-47876, CVSS 9.3). Scores per NVD.",
+          "source": "BleepingComputer, Broadcom, NVD",
+          "published_at": "2026-07-31T02:00+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/vmware-fixes-three-critical-flaws-allowing-auth-bypass-vm-escapes/"
+        },
+        {
+          "id": "cs21",
+          "headline": "ShinyHunters claims Brinks Home breach and threatens to leak stolen data",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "The extortion group ShinyHunters claimed to have stolen data from home security provider Brinks Home and threatened to publish it. The claim comes from the attackers and has not been independently confirmed.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-31T00:46+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-claims-brinks-home-breach-threatens-to-leak-stolen-data/"
+        },
+        {
+          "id": "cs22",
+          "headline": "Azure Cosmos DB flaw exposed a platform-wide key that could reach any database",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers found a flaw in Azure Cosmos DB that exposed a platform-wide key capable of granting access to any customer database on the service. Microsoft has remediated the issue server-side; no CVE was assigned.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-30T23:25+08:00",
+          "url": "https://thehackernews.com/2026/07/azure-cosmos-db-flaw-exposed-platform.html"
+        }
+      ]
+    }
+  }
+}
