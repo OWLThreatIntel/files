@@ -1,0 +1,522 @@
+{
+  "meta": {
+    "date": "2026-06-28",
+    "generated_at": "2026-06-28T21:10:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "BBC",
+      "Channel NewsAsia",
+      "The Straits Times",
+      "Mothership",
+      "The Hacker News",
+      "BleepingComputer",
+      "CISA",
+      "NVD",
+      "WHO",
+      "NEA",
+      "LTA / data.gov.sg"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "Disasters dominate the day: rescuers in Venezuela are still pulling survivors from quake rubble with the death toll past 1,400, while a record-breaking heatwave is blamed for around 1,000 excess deaths in France. A skydivers' plane crashed in eastern France killing 11, and a Saudi Aramco helicopter went down near the Strait of Hormuz, killing 14. Politically, the US and Iran are again trading strikes and accusing each other of breaking their ceasefire, Serbia's president says he'll resign within weeks, and China stripped several generals of their posts.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "Venezuela earthquake death toll passes 1,400 as rescues continue",
+          "category": "Disaster",
+          "summary": "Authorities say more than 1,400 people have now died in the Venezuela earthquake as search teams intensify efforts; rescuers pulled two boys from the rubble alive after days trapped. The EU is sending emergency aid and Pope Leo offered prayers for the victims.",
+          "source": "Channel NewsAsia, BBC",
+          "published_at": "2026-06-28T03:57+08:00",
+          "url": "https://www.channelnewsasia.com/world/death-toll-in-venezuela-quake-tops-1400-rescue-efforts-intensify-6215536"
+        },
+        {
+          "id": "ts2",
+          "headline": "Record heatwave blamed for about 1,000 excess deaths in France",
+          "category": "Climate",
+          "summary": "France recorded roughly 1,000 more deaths than expected during a record-breaking heatwave, officials say, as temperature records fell across Germany, Denmark and the Czech Republic and the heat pushed eastward across Europe.",
+          "source": "Channel NewsAsia, The Straits Times, BBC",
+          "published_at": "2026-06-28T16:15+08:00",
+          "url": "https://www.channelnewsasia.com/world/france-heatwave-1000-more-deaths-6216196"
+        },
+        {
+          "id": "ts3",
+          "headline": "Plane carrying skydivers crashes in eastern France, 11 killed",
+          "category": "Disaster",
+          "summary": "Eleven people were killed when a plane carrying skydivers crashed in north-eastern France, officials said. An investigation into the cause is under way.",
+          "source": "The Straits Times, BBC",
+          "published_at": "2026-06-28T20:45+08:00",
+          "url": "https://www.straitstimes.com/world/europe/eleven-people-killed-in-plane-crash-in-northeastern-france-officials-say"
+        },
+        {
+          "id": "ts4",
+          "headline": "US and Iran trade fresh strikes, accuse each other of breaking ceasefire",
+          "category": "Conflict",
+          "summary": "The US and Iran exchanged new strikes and each accused the other of violating their ceasefire, days after a tanker was struck in the Strait of Hormuz in the worst escalation since the peace deal. Both sides' accounts are contested.",
+          "source": "BBC, Channel NewsAsia",
+          "published_at": "2026-06-28T12:54+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cdxdwkgqgq0o"
+        },
+        {
+          "id": "ts5",
+          "headline": "Serbian President Vucic says he will resign within weeks",
+          "category": "Politics",
+          "summary": "Serbian President Aleksandar Vucic said he will resign within weeks, a move that comes amid sustained student-led protests. The timing and succession remain unclear.",
+          "source": "Channel NewsAsia",
+          "published_at": "2026-06-28T05:00+08:00",
+          "url": "https://www.channelnewsasia.com/world/serbian-president-vucic-says-he-will-resign-within-weeks-move-comes-amid-student-protests-6215441"
+        },
+        {
+          "id": "ts6",
+          "headline": "Saudi Aramco helicopter crash west of Hormuz kills 14",
+          "category": "Disaster",
+          "summary": "A Saudi Aramco helicopter crashed west of the Strait of Hormuz, killing 14 Saudi nationals, the state news agency said. The cause has not been confirmed.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-28T20:09+08:00",
+          "url": "https://www.straitstimes.com/world/middle-east/saudi-aramco-helicopter-crash-kills-14-nationals-state-news-agency-says"
+        },
+        {
+          "id": "ts7",
+          "headline": "Strong earthquake strikes Hindu Kush, shaking Afghanistan and Pakistan",
+          "category": "Disaster",
+          "summary": "A strong earthquake hit the Hindu Kush region, shaking Afghanistan and Pakistan. Damage and casualty assessments were still being gathered.",
+          "source": "Channel NewsAsia",
+          "published_at": "2026-06-28T04:11+08:00",
+          "url": "https://www.channelnewsasia.com/asia/strong-earthquake-hits-hindu-kush-shaking-afghanistan-and-pakistan-6215251"
+        },
+        {
+          "id": "ts8",
+          "headline": "China strips generals and ex-financial regulator of lawmaker posts",
+          "category": "Politics",
+          "summary": "China removed several generals, a former financial regulator and a politburo member from their posts as lawmakers, the latest move in a wide-ranging anti-corruption drive within the party and military.",
+          "source": "Channel NewsAsia",
+          "published_at": "2026-06-28T12:51+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/china-corruption-generals-financial-regulator-congress-6214736"
+        },
+        {
+          "id": "ts9",
+          "headline": "Uganda's leading media outlets shut down by army chief",
+          "category": "Politics",
+          "summary": "Several of Uganda's leading media outlets were shut down on the orders of the army chief, in a move press-freedom advocates have criticised.",
+          "source": "BBC",
+          "published_at": "2026-06-28T18:11+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cj9gyk1z7ngo"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "Politics led the day as Pritam Singh held on to the Workers' Party leadership after a secret cadre vote. From Jun 29, a new Online Safety Commission opens to help victims of doxxing and online harm. There was grim news too — a man missing since Jun 23 was found dead off Coney Island and an elderly motorcyclist died after a TPE accident — while the unpaid-wages saga moved forward as the director behind the firms returned to assist a manpower probe. Expect thundery showers, with highs around 33°C.",
+      "weather": {
+        "forecast": "Thundery Showers",
+        "temp_low": 25,
+        "temp_high": 33,
+        "humidity_low": 60,
+        "humidity_high": 95,
+        "as_of": "2026-06-28T17:31+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jun 2026 · 2nd bidding",
+        "as_of": "2026-06-24",
+        "next_results": "2026-07-08",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          { "code": "A", "label": "Cars up to 1600cc & 130bhp", "premium": 123847, "change": -2162 },
+          { "code": "B", "label": "Cars above 1600cc or 130bhp", "premium": 123502, "change": -3487 }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "Pritam Singh re-elected Workers' Party secretary-general after secret vote",
+          "category": "Politics",
+          "summary": "Pritam Singh held on to his position as Workers' Party secretary-general after a secret-ballot vote at a special cadres' conference. He said he will respect the cadres' decision to retain him as party chief.",
+          "source": "Channel NewsAsia, The Straits Times",
+          "published_at": "2026-06-28T17:51+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/workers-party-pritam-singh-cadres-cec-election-6216191"
+        },
+        {
+          "id": "sg2",
+          "headline": "New Online Safety Commission opens Jun 29 to help victims of online harm",
+          "category": "Policy",
+          "summary": "From Jun 29, a new Online Safety Commission will help victims of online harassment, doxxing and other harmful content seek redress and have material taken down. It is part of a broader set of laws governing Singapore's online space.",
+          "source": "Channel NewsAsia, The Straits Times",
+          "published_at": "2026-06-28T18:11+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/online-harassment-safety-commission-doxxing-osc-report-6207016"
+        },
+        {
+          "id": "sg3",
+          "headline": "Man missing since Jun 23 found dead in waters off Coney Island",
+          "category": "Incident",
+          "summary": "A 50-year-old man who went missing on Jun 23 was found dead in the waters off Coney Island the next day. Police said no foul play is suspected.",
+          "source": "The Straits Times, Mothership",
+          "published_at": "2026-06-28T13:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/man-who-went-missing-on-june-23-found-dead-in-waters-off-coney-island-no-foul-play-suspected"
+        },
+        {
+          "id": "sg4",
+          "headline": "Unpaid wages: director behind firms back in Singapore, assisting MOM probe",
+          "category": "Labour",
+          "summary": "The director behind the firms linked to a case of hundreds of unpaid migrant workers has returned to Singapore and is assisting a Ministry of Manpower investigation, the ministry said. Affected workers had been left anxious over unpaid wages.",
+          "source": "Channel NewsAsia, The Straits Times",
+          "published_at": "2026-06-28T13:12+08:00",
+          "url": "https://www.straitstimes.com/singapore/courts-crime/unpaid-wages-director-behind-firms-linked-to-case-back-in-spore-man-is-assisting-mom-probe"
+        },
+        {
+          "id": "sg5",
+          "headline": "Elderly motorcyclist dies after TPE accident; car driver arrested",
+          "category": "Incident",
+          "summary": "An elderly motorcyclist died in hospital after an accident on the Tampines Expressway. A car driver was arrested as police investigate.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-28T10:40+08:00",
+          "url": "https://www.straitstimes.com/singapore/elderly-motorcyclist-dies-in-hospital-after-accident-on-tpe-car-driver-arrested"
+        },
+        {
+          "id": "sg6",
+          "headline": "Police trial canine-mounted cameras on K-9 unit dogs",
+          "category": "Police",
+          "summary": "The Singapore Police Force is trialling a new camera system mounted on its K-9 unit dogs to improve search and security operations, beaming back live footage from areas that are hard for officers to reach.",
+          "source": "The Straits Times, Channel NewsAsia",
+          "published_at": "2026-06-28T12:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/spf-trials-new-canine-mounted-camera-system-to-improve-search-operations"
+        },
+        {
+          "id": "sg7",
+          "headline": "Study: teenage boys in Singapore physically punished twice as often as girls",
+          "category": "Society",
+          "summary": "A new study found teenage boys in Singapore are physically punished about twice as often as girls, raising questions about how discipline differs by gender and its effects on adolescents.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-28T17:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/community/study-finds-that-teenage-boys-in-spore-get-physically-punished-twice-as-often-as-girls"
+        },
+        {
+          "id": "sg8",
+          "headline": "Actor Wu Chun slams Cathay Pacific after luggage lost for three days",
+          "category": "Trending",
+          "summary": "Singapore-based actor-singer Wu Chun publicly criticised Cathay Pacific after his luggage went missing for three days — just weeks after he appeared in one of the airline's ads. The complaint, posted on social media, drew wide attention online.",
+          "source": "Mothership",
+          "published_at": "2026-06-28T13:12+08:00",
+          "url": "https://mothership.sg/2026/06/wu-chun-cathay-pacific/"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "The Middle East remains volatile. A fragile US–Iran ceasefire is unravelling, with both sides trading fresh strikes and blaming each other after a tanker was struck in the Strait of Hormuz. In Lebanon, a US-mediated framework deal with Israel has been signed but Hezbollah rejects it as 'surrender', warning of internal conflict as Israeli strikes continue in the south. On the eastern front, Ukraine stepped up long-range strikes, hitting two Russian oil refineries overnight.",
+      "theatres": [
+        {
+          "name": "US / Israel–Iran (Strait of Hormuz)",
+          "status": "Ceasefire unravelling; tit-for-tat strikes after Hormuz tanker attack",
+          "timeline": [
+            {
+              "date": "2026-06-27",
+              "event": "A tanker is struck in the Strait of Hormuz as Iran and the US trade attacks, in what CNA calls the worst escalation since the peace deal.",
+              "source": "Channel NewsAsia",
+              "url": "https://www.channelnewsasia.com/world/iran-us-war-hit-targets-bahrain-drone-attack-6215026"
+            },
+            {
+              "date": "2026-06-28",
+              "event": "The US and Iran exchange fresh strikes and each accuses the other of violating the ceasefire; both accounts are contested.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cdxdwkgqgq0o"
+            },
+            {
+              "date": "2026-06-28",
+              "event": "A Saudi Aramco helicopter crashes west of the Strait of Hormuz, killing 14; the cause has not been confirmed.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/saudi-aramco-helicopter-crash-kills-14-nationals-state-news-agency-says"
+            }
+          ]
+        },
+        {
+          "name": "Israel–Lebanon / Hezbollah",
+          "status": "Framework deal signed but contested; sporadic strikes and protests",
+          "timeline": [
+            {
+              "date": "2026-06-27",
+              "event": "Hezbollah rejects a US-brokered Israel–Lebanon security deal as a 'surrender' as Israel strikes southern Lebanon.",
+              "source": "Channel NewsAsia, BBC",
+              "url": "https://www.channelnewsasia.com/world/hezbollah-us-israel-lebanon-deal-surrender-6215236"
+            },
+            {
+              "date": "2026-06-28",
+              "event": "A Hezbollah lawmaker warns the deal could spark Lebanese 'internal conflict'; Lebanon's minister says Israeli strikes damaged heritage sites across the south.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/hezbollah-lawmaker-warns-of-lebanese-internal-conflict-after-israel-deal"
+            }
+          ]
+        },
+        {
+          "name": "Russia–Ukraine",
+          "status": "Grinding war; Ukraine steps up long-range strikes on Russian oil refineries",
+          "timeline": [
+            {
+              "date": "2026-06-28",
+              "event": "Ukraine strikes two Russian oil refineries overnight, including in the Krasnodar region, continuing its campaign against Russian energy infrastructure.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/ukraine-hits-two-russian-oil-refineries-overnight"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "The Bundibugyo Ebola epidemic across DR Congo and Uganda remains the gravest active outbreak, with WHO confirming 915 cases and 234 deaths as of mid-June, still concentrated in DRC's Ituri province. In India, Kerala is managing a single confirmed Nipah virus case with extensive contact tracing and no secondary spread reported. WHO has also issued a global yellow fever update flagging continued epidemic potential, but the Ebola outbreak is the one to watch.",
+      "outbreaks": [
+        {
+          "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
+          "status": "Still expanding in DRC's Ituri province; imported and secondary cases contained in Uganda",
+          "cases": 915,
+          "deaths": 234,
+          "countries": 2,
+          "as_of": "2026-06-18",
+          "scope_note": "WHO DON608 (19 Jun): confirmed cases only, DRC + Uganda combined — DRC 896 cases/232 deaths (CFR 26%, as of 17 Jun), Uganda 19 cases/2 deaths (as of 18 Jun). Outbreak concentrated in Ituri province (~91% of DRC cases)."
+        },
+        {
+          "name": "Nipah virus — India (Kerala)",
+          "status": "Single confirmed case; contact tracing under way, no secondary cases reported",
+          "cases": 1,
+          "deaths": 0,
+          "countries": 1,
+          "as_of": "2026-06-18",
+          "scope_note": "WHO DON609 (25 Jun): one lab-confirmed case (adult male, Kozhikode district) on ventilatory support; 104 contacts identified and monitored, no secondary cases to date. Nipah CFR in past regional outbreaks has ranged 40–75%."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "WHO: Bundibugyo Ebola cases climb to 915 with 234 deaths in DRC and Uganda",
+          "category": "Ebola",
+          "summary": "WHO's latest Disease Outbreak News reports 915 confirmed Bundibugyo virus cases and 234 deaths across DR Congo (896 cases, 232 deaths) and Uganda (19 cases, 2 deaths) as of mid-June, with cases rising rapidly in DRC's Ituri province. Uganda's cases are imported or secondary contacts.",
+          "source": "WHO",
+          "published_at": "2026-06-19",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON608"
+        },
+        {
+          "id": "ob2",
+          "headline": "WHO confirms single Nipah virus case in Kerala; no secondary spread so far",
+          "category": "Nipah",
+          "summary": "WHO reported one laboratory-confirmed Nipah virus case in Kozhikode district, Kerala — an adult male on ventilatory support. Authorities have identified and are monitoring 104 contacts, with no secondary cases reported to date. Kerala has seen recurrent Nipah outbreaks since 2018.",
+          "source": "WHO",
+          "published_at": "2026-06-25",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON609"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "Vulnerabilities and state-backed espionage lead this cycle. A critical PTC Windchill RCE (CVE-2026-12569, CVSS 9.8) and an exploited Cisco Unified CM flaw (CVE-2026-20230) both landed on CISA's must-patch list, alongside two fresh Linux local-root flaws. The FBI and Ukraine's SSU warned that Russian intelligence is targeting Signal and other messaging-account recovery, and supply-chain attacks keep coming — malicious repos hijacking AI coding agents, poisoned npm packages, and a $3M Polymarket theft.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "FBI and Ukraine's SSU warn Russian intelligence is targeting Signal and messaging accounts",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Ukraine's SSU and the FBI say Russian intelligence ran a long campaign using fake 'support' texts to steal messaging-app credentials from officials, military and activists, and is now also targeting Signal backup recovery keys to hijack accounts. Users are urged to secure backups and ignore unsolicited verification prompts.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-28",
+          "url": "https://thehackernews.com/2026/06/ukraine-says-russian-intelligence-used.html"
+        },
+        {
+          "id": "cs2",
+          "headline": "Malicious repos trick AI coding agents into running code (incl. Amazon Q via MCP)",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers showed how a clean-looking GitHub repository can trick AI coding agents into executing malware, and a separate flaw in Amazon Q Developer could let malicious repos run code via MCP configuration files. Both highlight the risk of AI agents auto-executing untrusted project content.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-06-27",
+          "url": "https://www.bleepingcomputer.com/news/security/clean-github-repo-tricks-ai-coding-agents-into-running-malware/"
+        },
+        {
+          "id": "cs3",
+          "headline": "CISA sets urgent deadline to fix exploited Cisco Unified CM flaw",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-20230",
+          "cvss": 8.6,
+          "severity": "HIGH",
+          "summary": "CISA added a server-side request forgery flaw in Cisco Unified Communications Manager to its Known Exploited Vulnerabilities catalog and set an urgent remediation deadline after attacks were observed. Administrators should patch immediately.",
+          "source": "BleepingComputer, The Hacker News, CISA",
+          "published_at": "2026-06-27",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-sets-urgent-deadline-to-fix-cisco-flaw-exploited-in-attacks/"
+        },
+        {
+          "id": "cs4",
+          "headline": "SharkLoader malware deploys Cobalt Strike in 'StrikeShark' attacks",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A newly documented loader dubbed SharkLoader is being used to drop Cobalt Strike beacons in a campaign researchers call StrikeShark, giving operators hands-on access to compromised networks.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-27",
+          "url": "https://thehackernews.com/2026/06/new-sharkloader-malware-deploys-cobalt.html"
+        },
+        {
+          "id": "cs5",
+          "headline": "Polymarket customers lose $3 million in supply-chain attack",
+          "category": "Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Customers of prediction-market platform Polymarket lost about $3 million after a supply-chain compromise, BleepingComputer reported. Affected users are urged to review account activity and revoke any unauthorised approvals.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-27",
+          "url": "https://www.bleepingcomputer.com/news/security/polymarket-customers-lose-3-million-in-supply-chain-attack/"
+        },
+        {
+          "id": "cs6",
+          "headline": "Cybersecurity firms targeted by fraudulent OpenAI organisation invites",
+          "category": "Phishing",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Attackers are sending fake OpenAI 'organisation invite' emails to cybersecurity firms in a social-engineering campaign designed to harvest credentials or push malicious actions. Recipients are advised to verify invites directly in their accounts.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-27",
+          "url": "https://www.bleepingcomputer.com/news/security/cybersecurity-firms-targeted-by-fraudulent-openai-organization-invites/"
+        },
+        {
+          "id": "cs7",
+          "headline": "Chinese-speaking APT deploys new TinyRCT backdoor in Southeast Asia",
+          "category": "APT",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A Chinese-speaking advanced persistent threat group is using a newly discovered backdoor called TinyRCT in a campaign targeting Southeast Asia, researchers said — a region-relevant espionage operation for Singapore-area defenders to watch.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-27",
+          "url": "https://thehackernews.com/2026/06/chinese-speaking-apt-deploys-new.html"
+        },
+        {
+          "id": "cs8",
+          "headline": "New Linux 'pedit' COW exploit enables root by poisoning cached binaries",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A new copy-on-write exploit technique against the Linux 'pedit' path lets a local user gain root by poisoning cached binaries, researchers disclosed. Admins should apply kernel and tooling updates as they become available.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-26",
+          "url": "https://thehackernews.com/2026/06/new-linux-pedit-cow-exploit-enables.html"
+        },
+        {
+          "id": "cs9",
+          "headline": "Critical PTC Windchill RCE added to CISA KEV amid web-shell attacks",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-12569",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "CISA added a critical improper-input-validation/RCE flaw in PTC Windchill and FlexPLM (CVE-2026-12569, CVSS 9.8) to its Known Exploited Vulnerabilities catalog as web-shell attacks continued. Organisations running Windchill should patch without delay.",
+          "source": "The Hacker News, CISA, NVD",
+          "published_at": "2026-06-26",
+          "url": "https://thehackernews.com/2026/06/cisa-adds-exploited-ptc-windchill-rce.html"
+        },
+        {
+          "id": "cs10",
+          "headline": "New DirtyClone Linux kernel flaw lets local users gain root via cloned packets",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers disclosed 'DirtyClone', a Linux kernel flaw that lets a local user escalate to root by abusing cloned network packets. Patching the kernel is the primary mitigation.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-26",
+          "url": "https://thehackernews.com/2026/06/new-dirtyclone-linux-kernel-flaw-lets.html"
+        },
+        {
+          "id": "cs11",
+          "headline": "Miasma malware hits npm packages and GitHub Actions in supply-chain attack",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A supply-chain campaign dubbed Miasma is targeting npm packages and GitHub Actions workflows to compromise developer pipelines. Teams should pin dependencies, review workflow permissions and audit recently added packages.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-26",
+          "url": "https://thehackernews.com/2026/06/miasma-malware-targets-npm-packages-and.html"
+        },
+        {
+          "id": "cs12",
+          "headline": "Microsoft warns of 'Photo ZIP' phishing targeting hotels with Node.js implant",
+          "category": "Phishing",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Microsoft warned of a phishing campaign aimed at the hospitality sector that uses ZIP archives posing as photos to deliver a Node.js-based implant. Hotel staff are urged to be wary of unsolicited image attachments.",
+          "source": "The Hacker News, Microsoft",
+          "published_at": "2026-06-26",
+          "url": "https://thehackernews.com/2026/06/microsoft-warns-of-photo-zip-phishing.html"
+        },
+        {
+          "id": "cs13",
+          "headline": "Google details Turla's new STOCKSTAY backdoor in Ukraine espionage",
+          "category": "APT",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Google researchers detailed a new backdoor named STOCKSTAY used by the Russia-linked Turla group in espionage attacks against targets in Ukraine, expanding the group's known toolset.",
+          "source": "The Hacker News, Google",
+          "published_at": "2026-06-26",
+          "url": "https://thehackernews.com/2026/06/google-details-turlas-new-stockstay.html"
+        },
+        {
+          "id": "cs14",
+          "headline": "Poland busts SIM-swapping gang tied to millions in crypto theft",
+          "category": "Law Enforcement",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Polish authorities dismantled a SIM-swapping gang linked to millions of dollars in cryptocurrency theft, arresting suspects accused of hijacking phone numbers to bypass two-factor authentication.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-26",
+          "url": "https://www.bleepingcomputer.com/news/security/poland-busts-sim-swapping-gang-tied-to-millions-in-crypto-theft/"
+        },
+        {
+          "id": "cs15",
+          "headline": "New 'Gaslight' macOS malware uses prompt injection to disrupt AI analysis",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A new macOS malware strain dubbed Gaslight embeds fake error messages and prompt-injection text to confuse AI-assisted malware-analysis tools, an emerging tactic aimed at slowing automated reverse engineering.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-06-26",
+          "url": "https://www.bleepingcomputer.com/news/security/new-macos-malware-embeds-fake-errors-to-confuse-ai-analysis-tools/"
+        },
+        {
+          "id": "cs16",
+          "headline": "Bluekit phishing kit adopts browser-in-the-middle for login theft",
+          "category": "Phishing",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "The Bluekit phishing kit has adopted a browser-in-the-middle technique to steal logins in real time, defeating some multi-factor protections by relaying victims through an attacker-controlled browser session.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-25",
+          "url": "https://www.bleepingcomputer.com/news/security/bluekit-phishing-kit-adopts-browser-in-the-middle-for-login-theft/"
+        },
+        {
+          "id": "cs17",
+          "headline": "Chrome ad blocker with 10M+ installs found with dormant script-injection capability",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A Chrome ad-blocker extension with more than 10 million installs was found to contain dormant code capable of injecting scripts into web pages, a latent supply-chain risk to a very large user base. Users are advised to remove or scrutinise the extension.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-25",
+          "url": "https://thehackernews.com/2026/06/chrome-ad-blocker-with-10m-installs.html"
+        }
+      ]
+    }
+  }
+}
