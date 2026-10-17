@@ -1,0 +1,788 @@
+{
+  "meta": {
+    "date": "2026-07-21",
+    "generated_at": "2026-07-21T21:00:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "BBC",
+      "CNA",
+      "The Straits Times",
+      "Mothership",
+      "WHO Disease Outbreak News",
+      "US CDC",
+      "US FDA",
+      "ECDC",
+      "Africa CDC",
+      "NEA (data.gov.sg)",
+      "LTA (data.gov.sg)",
+      "The Hacker News",
+      "BleepingComputer",
+      "CISA KEV",
+      "NVD"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "The Gulf is the night's story: US strikes hit southern Iran for a 10th straight night and Tehran says it fired back at US sites in Bahrain, Kuwait and Jordan and struck tankers in the Strait of Hormuz, with the IEA warning supply risks are climbing. Elsewhere Trump slapped 50% tariffs on a swathe of Canadian goods, Lebanese troops moved into a southern zone vacated by Israel, and Ukraine's leadership is consumed by a fight over its army chief.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "US strikes southern Iran as Tehran says it hit US sites in Bahrain, Kuwait and Jordan",
+          "category": "Conflict",
+          "summary": "US Central Command said its latest round of strikes — the 10th consecutive night — hit Iranian military command centres, maritime capabilities, missile and drone launch sites and air defences, with explosions reported near Tabriz and at several Gulf and south-eastern ports. Iranian state media said Iranian forces struck two oil tankers in the Strait of Hormuz and US assets in Bahrain, Kuwait and Jordan; President Masoud Pezeshkian said Iran was now in a \"full-scale war\" with the US. The UK Maritime Trade Operations agency said a tanker was hit by an unknown projectile and its crew abandoned ship. Damage and casualty claims from both sides have not been independently verified.",
+          "source": "The Straits Times, BBC",
+          "published_at": "2026-07-21T18:07+08:00",
+          "url": "https://www.straitstimes.com/world/middle-east/iranian-forces-target-bahrain-and-kuwait-after-us-hits-irans-south"
+        },
+        {
+          "id": "ts2",
+          "headline": "IEA says Middle East fighting is raising energy-supply concerns",
+          "category": "Energy",
+          "summary": "International Energy Agency chief Fatih Birol said escalating hostilities affecting the Strait of Hormuz and regional energy infrastructure \"increases security of supply concerns and uncertainty over the market outlook\". He added that crude markets still benefit from \"cushioning factors\", including higher exports elsewhere and Saudi and Emirati oil reaching buyers via alternative routes — though Saudi Arabia's Red Sea pipeline outlet at Yanbu is itself now threatened by the Houthis' declared blockade of Saudi ports.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-21T20:42+08:00",
+          "url": "https://www.channelnewsasia.com/world/iea-says-mideast-fighting-increases-energy-concerns-6268261"
+        },
+        {
+          "id": "ts3",
+          "headline": "Lebanese troops deploy into southern 'pilot zone' after Israeli withdrawal",
+          "category": "Middle East",
+          "summary": "The Lebanese army said its troops were moving into a small area of southern Lebanon vacated by Israeli forces, the first test of a US-brokered arrangement. Reporters at the site described an Israeli flag and a manned checkpoint at the zone's edge; Israel presents the arrangement as a security measure, while Lebanese officials and residents describe it as occupation. President Joseph Aoun is due to present Washington with a plan for disarming Hezbollah.",
+          "source": "BBC, CNA, The Straits Times",
+          "published_at": "2026-07-21T18:43+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cy8mynlmn55o"
+        },
+        {
+          "id": "ts4",
+          "headline": "Trump imposes 50% tariffs on Canadian goods; Carney vows to 'intensify' talks",
+          "category": "Trade",
+          "summary": "President Donald Trump imposed a 50% tariff on a wide range of Canadian imports — including wine, hockey sticks and cement — in retaliation for what he called \"unequal treatment\" of US cars, dairy and alcohol. Energy, potash, critical minerals and fish are exempt. The White House said the duties take effect in 30 days and apply regardless of USMCA coverage, and used a different, court-untested legal authority after the Supreme Court struck down earlier emergency-powers tariffs. Prime Minister Mark Carney said Canada was ready to \"intensify\" trade talks.",
+          "source": "BBC, CNA, The Straits Times",
+          "published_at": "2026-07-21T19:42+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o"
+        },
+        {
+          "id": "ts5",
+          "headline": "Ukraine's row over its army chief escalates as protesters set a Friday deadline",
+          "category": "Politics",
+          "summary": "Organisers of daily protests in Kyiv said that if commander-in-chief Oleksandr Syrskyi is not dismissed and Mykhailo Fedorov not nominated as defence minister by Friday 24 July, they will begin an \"open-ended nationwide protest\". The crisis follows President Volodymyr Zelensky's decision last week to part ways with Fedorov. The General Staff has denied reports that Syrskyi was about to be, or had been, sacked, and presidential office head Kyrylo Budanov urged Ukrainians to stay calm, saying \"the position of society has been heard\".",
+          "source": "BBC",
+          "published_at": "2026-07-21T20:33+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c7vgel8374yo"
+        },
+        {
+          "id": "ts6",
+          "headline": "Dozens hurt in Bologna unrest after man dies while restrained by police",
+          "category": "Europe",
+          "summary": "Several thousand people marched in Bologna on Monday night after the death of Moroccan-born Abderrahim Fakir, who died while being forcibly restrained by two police officers. A smaller group clashed with police; prosecutors say 64 officers were injured and have opened a manslaughter investigation. Prime Minister Giorgia Meloni said the truth about the death must be established but that \"nothing can justify violence against law enforcement\".",
+          "source": "BBC, The Straits Times",
+          "published_at": "2026-07-21T20:48+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c86nwgw148xo"
+        },
+        {
+          "id": "ts7",
+          "headline": "Africa overtakes Asia as the continent with the most people facing hunger, UN says",
+          "category": "Development",
+          "summary": "The UN's annual food security and nutrition report, compiled by the FAO and four other agencies, found hunger affected an estimated 309 million people in Africa last year — about 20% of the continent's population — making it for the first time the region with the largest hungry population. FAO agrifood economics director David Laborde said \"the centre of gravity of hunger has shifted from Asia to Africa\", crediting progress in China and India. Overall global hunger has eased gradually, but unevenly.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-21T19:09+08:00",
+          "url": "https://www.channelnewsasia.com/world/africa-surpasses-asia-highest-population-facing-hunger-un-6267991"
+        },
+        {
+          "id": "ts8",
+          "headline": "Turkey's opposition leader Ozgur Ozel to quit CHP and form a new party",
+          "category": "Politics",
+          "summary": "Ozgur Ozel told parliament he will resign from the Republican People's Party (CHP) and found a new one, saying it marked \"a new beginning\" rather than surrender to political pressure. A court in May annulled the CHP's 2023 congress, stripping him of the chairmanship and reinstating Kemal Kilicdaroglu; Ozel and his supporters called that ruling a politically motivated \"coup\". Most CHP voters and lawmakers are expected to follow him. The government says the judiciary is independent.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-21T20:32+08:00",
+          "url": "https://www.straitstimes.com/world/europe/turkeys-opposition-leader-to-form-new-party-to-challenge-erdogan"
+        },
+        {
+          "id": "ts9",
+          "headline": "More than 600 firefighters battle Spanish mega-wildfire for a sixth day",
+          "category": "Disaster",
+          "summary": "Over 600 firefighters and troops backed by 29 aircraft fought a large wildfire in Guadalajara province, about 100km north of Madrid, which authorities called one of the most difficult they have faced. About 1,200 people have left their homes, 34 isolated hamlets have been evacuated across Castilla-La Mancha, and 29,000 hectares have burned. Regional president Emiliano Garcia-Page said crews had \"practically stopped\" the fire's advance toward Soria, but it is not yet under control.",
+          "source": "CNA",
+          "published_at": "2026-07-21T19:14+08:00",
+          "url": "https://www.channelnewsasia.com/world/spain-wildfire-heat-guadalajara-6268071"
+        },
+        {
+          "id": "ts10",
+          "headline": "Scientists warn Great Barrier Reef faces high risk of 'ecosystem collapse'",
+          "category": "Environment",
+          "summary": "Marine conservation ecologist Morgan Pratchett of James Cook University told the International Coral Reef Symposium in Auckland that this year's \"extreme El Nino\" puts Australia's Great Barrier Reef at very high risk of extreme, widespread bleaching and ecosystem collapse. The 2,300km reef avoided being listed as endangered earlier this month, despite the UN expressing \"utmost concern\" about mass bleaching and climate impacts.",
+          "source": "CNA",
+          "published_at": "2026-07-21T17:52+08:00",
+          "url": "https://www.channelnewsasia.com/world/great-barrier-reef-risk-collapse-climate-change-6267851"
+        },
+        {
+          "id": "ts11",
+          "headline": "Johor orders Network School to cease operations at Forest City",
+          "category": "Asia",
+          "summary": "Iskandar Puteri City Council revoked tech startup Network School's business licence and ordered it to stop all operations at its Forest City premises from Wednesday, after inspections between 12 and 20 July. The decision follows claims that Israeli nationals were among participants and had entered Malaysia on other countries' passports; Malaysia bars Israeli passport holders. Founder Balaji Srinivasan had said over the weekend that the school would continue operating. Johor Chief Minister Onn Hafiz Ghazi said the council acted within existing legal provisions.",
+          "source": "CNA",
+          "published_at": "2026-07-21T19:25+08:00",
+          "url": "https://www.channelnewsasia.com/asia/network-school-forest-city-startup-johor-6267971"
+        },
+        {
+          "id": "ts12",
+          "headline": "Seoul probes hack of diplomatic academy, does not rule out state-backed actors",
+          "category": "Cybersecurity",
+          "summary": "South Korea's Foreign Ministry said a \"considerable\" amount of data appears to have been exposed in a cyberattack on the government-run Korea National Diplomatic Academy's online education system. Spokesperson Park Il said the full extent is not yet known and no misuse has been confirmed, and that there is insufficient technical evidence to attribute the attack — though foreign state-backed groups are not being ruled out. The ministry said attackers exploited a previously unknown zero-day flaw and security misconfigurations.",
+          "source": "CNA",
+          "published_at": "2026-07-21T16:54+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/south-korea-probes-north-korea-diplomatic-academy-hacking-6267481"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "Defence tech led the day: Mindef warned AI is turning technology into an \"actor in its own right\", and the SAF said it is testing quantum computing with IBM. Closer to home, a 59-year-old man died after a fight at Lengkok Bahru, an EV burned outside a Woodlands carpark, and Tan Boon Liat's furniture tenants face eviction after the building's S$950 million en bloc sale. Thundery showers overnight.",
+      "weather": {
+        "forecast": "Thundery Showers",
+        "temp_low": 26,
+        "temp_high": 33,
+        "humidity_low": 60,
+        "humidity_high": 95,
+        "as_of": "2026-07-21T17:40+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jul 2026 · 1st bidding",
+        "as_of": "2026-07-08",
+        "next_results": "2026-07-22",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          {
+            "code": "A",
+            "label": "Cars up to 1600cc & 130bhp",
+            "premium": 129000,
+            "change": 5153
+          },
+          {
+            "code": "B",
+            "label": "Cars above 1600cc or 130bhp",
+            "premium": 130889,
+            "change": 7387
+          }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "Mindef warns technology is becoming an 'actor in its own right' as AI reshapes warfare",
+          "category": "Defence",
+          "summary": "Permanent Secretary for Defence Joseph Leong told the 4th Digital Defence Symposium that technology is moving from \"just a tool\" to an \"actor in its own right\", with agentic AI letting systems evaluate, decide and execute at machine speed. He said the digital domain is now a strategic one where \"decisive actions can be taken before a single shot is fired\". Singapore will host the inaugural ASEAN Regional Cyber Exercise on the sidelines of the symposium.",
+          "source": "CNA",
+          "published_at": "2026-07-21T20:15+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/digital-defence-symposium-technology-tool-actor-agentic-ai-6267791"
+        },
+        {
+          "id": "sg2",
+          "headline": "SAF teams up with IBM to explore quantum computing for mission and logistics planning",
+          "category": "Defence",
+          "summary": "IBM, the SAF's Digital and Intelligence Service and the Defence Science and Technology Agency announced a tie-up to test whether quantum computers can optimise mission planning — possibly involving unmanned drones identifying hostile forces — and route supply trucks and fuel bowsers more efficiently. Military Expert 7 Guo Jinghua, commander of the SAF's C4 and Digitalisation Command, said there is \"significant advantage in national security\" in exploring it, while cautioning that practical utility is \"still some years away\".",
+          "source": "The Straits Times",
+          "published_at": "2026-07-21T17:14+08:00",
+          "url": "https://www.straitstimes.com/tech/spore-military-explores-quantum-computing-for-mission-logistics-planning"
+        },
+        {
+          "id": "sg3",
+          "headline": "Tan Boon Liat tenants face break-up of furniture hub after S$950 million en bloc sale",
+          "category": "Property",
+          "summary": "The 15-storey Tan Boon Liat Building on Outram Road — a decades-old furniture and home-decor cluster whose retailers referred customers to one another and ran block parties — has been sold to Kingsford Group for S$950 million (US$756 million). Tenants began discussing next steps in a WhatsApp group on Tuesday morning, with some hoping to relocate together to preserve the community.",
+          "source": "CNA",
+          "published_at": "2026-07-21T20:51+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/tan-boon-liat-furniture-hub-tenants-en-bloc-6268106"
+        },
+        {
+          "id": "sg4",
+          "headline": "Heritage group My Community enters provisional liquidation",
+          "category": "Community",
+          "summary": "Notices in the Government Gazette dated 16 July show heritage company My Community Limited — known for its Queenstown walking tours — has entered provisional liquidation after executive director and founder Kwek Li Yong declared it could not continue trading because of liabilities. A creditors' meeting is set for 24 July. Kwek was arrested in September 2025 over suspected forgery offences; details have not been released, and he could not be reached for comment.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-21T20:40+08:00",
+          "url": "https://www.straitstimes.com/singapore/community/heritage-firm-my-community-winding-up-founder-says-it-cannot-continue-business-due-to-liabilities"
+        },
+        {
+          "id": "sg5",
+          "headline": "Man to be charged with murder after fatal Lengkok Bahru fight",
+          "category": "Crime",
+          "summary": "A 59-year-old man died after a fight between neighbours at Lengkok Bahru on Tuesday morning. Police said one man was arrested and will be charged with murder. The case is ongoing; no further details about the circumstances have been released.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-07-21T18:38+08:00",
+          "url": "https://www.straitstimes.com/singapore/courts-crime/lengkok-bahru-fight-man-to-be-charged-with-murder"
+        },
+        {
+          "id": "sg6",
+          "headline": "Electric car catches fire outside Woodlands HDB carpark; no injuries",
+          "category": "Incident",
+          "summary": "SCDF said it was alerted at about 10.10am to a fire near the entrance of the multi-storey carpark at Block 548 Woodlands Drive 44. The blaze involved the car's interior and was put out with one water jet; no one was hurt. The driver told Shin Min Daily News she noticed a burning smell while driving out of the carpark and pulled over. SCDF said the cause is under investigation.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-21T15:50+08:00",
+          "url": "https://www.straitstimes.com/singapore/ev-catches-fire-outside-woodlands-hdb-carpark-no-injuries-reported"
+        },
+        {
+          "id": "sg7",
+          "headline": "Car showrooms keep spreading into shopping malls as dealers chase footfall",
+          "category": "Motoring",
+          "summary": "Nine of Singapore's 13 mall-based car showrooms opened in the last 18 months, with at least one more due in Bedok later this year, as dealers look beyond traditional car belts like Leng Kee, Ubi and Alexandra. BYD's new Tampines 1 outlet, launched on 21 July, is its 11th here. Industry watchers say the mall push is driven as much by brand-awareness and competitive pressure as by proven profitability, given Singapore's high rents.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-21T19:35+08:00",
+          "url": "https://www.straitstimes.com/singapore/transport/more-car-dealers-opening-showrooms-in-shopping-malls-as-competition-heats-up-in-motoring-sector"
+        },
+        {
+          "id": "sg8",
+          "headline": "A-level philosophy subject Knowledge and Inquiry gets a syllabus refresh from 2027",
+          "category": "Education",
+          "summary": "MOE said a revised Knowledge and Inquiry syllabus takes effect in 2027, two decades after the H2 subject was introduced in 2006. The refresh adds a clearer body of disciplinary knowledge with named thinkers and concepts, plus a new inquiry tool to guide questioning across topics. KI is offered at five junior colleges — Eunoia, Hwa Chong, National JC, Raffles and Temasek — and is taken by about 100 A-level candidates a year.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-21T19:10+08:00",
+          "url": "https://www.straitstimes.com/singapore/parenting-education/jc-philosophy-subject-knowledge-and-inquiry-to-get-syllabus-refresh-in-2027"
+        },
+        {
+          "id": "sg9",
+          "headline": "SIA warns 'KrisFlyer Anniversary Draw' e-mails are a phishing scam",
+          "category": "Advisory",
+          "summary": "Singapore Airlines said e-mails inviting recipients to take part in a \"KrisFlyer Anniversary Draw\" are not from the airline and may be a phishing attempt. Recipients are advised not to click the links or enter personal or KrisFlyer account details.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-21T13:55+08:00",
+          "url": "https://www.straitstimes.com/singapore/received-a-krisflyer-anniversary-draw-e-mail-it-could-be-a-phishing-scam-sia-warns"
+        },
+        {
+          "id": "sg10",
+          "headline": "Metro to close its last two department stores at Paragon and Causeway Point",
+          "category": "Retail",
+          "summary": "Metro said it will shut its remaining department stores at Paragon and Causeway Point when their leases expire, as part of a retail overhaul. The closures end the chain's department-store presence in Singapore after decades on Orchard Road and in the heartlands.",
+          "source": "CNA, Mothership",
+          "published_at": "2026-07-21T00:02+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/metro-paragon-causeway-point-department-stores-close-6266141"
+        },
+        {
+          "id": "sg11",
+          "headline": "Muslim community and Kembangan residents stunned by Faishal Ibrahim's resignation",
+          "category": "Politics",
+          "summary": "Community leaders and residents in Marine Parade-Braddell Heights GRC said they were caught off guard by Associate Professor Muhammad Faishal Ibrahim's resignation. Minister Desmond Lee has said no by-election will be called in the GRC. Analysts told The Straits Times the departure could hasten a Cabinet reshuffle.",
+          "source": "CNA, The Straits Times, Mothership",
+          "published_at": "2026-07-21T12:10+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/faishal-ibrahim-resigns-muslim-community-marine-parade-braddell-heights-6265176"
+        },
+        {
+          "id": "sg12",
+          "headline": "Power bank catches fire at Woodlands MRT station; commuter suffers minor blisters",
+          "category": "Transport",
+          "summary": "SMRT Trains president Lam Sheau Kai said a commuter was waiting on the Thomson-East Coast Line platform at Woodlands station at about 9am on 20 July when the power bank in her bag began emitting smoke. Another commuter alerted staff, who put out the fire; the woman suffered minor blisters on her fingers and no one else was hurt. The station's exhaust ventilation was activated and trains bypassed Woodlands for about 20 minutes.",
+          "source": "Mothership, SMRT",
+          "published_at": "2026-07-21T11:33+08:00",
+          "url": "https://mothership.sg/2026/07/power-bank-woodlands-mrt-smoke/"
+        },
+        {
+          "id": "sg13",
+          "headline": "Influencer's video confronting a man she says filmed her at pickleball goes viral",
+          "category": "Trending",
+          "summary": "Content creator Kasey Avarielle Low, 28, posted a video of herself confronting a man at an HDB void deck who she says was photographing her while she played pickleball at a public court in the north-east on 18 July. The clip has passed 500,000 views on Instagram. Low told Mothership a friend spotted the man appearing to zoom in on her; a male friend asked him whether he had been filming and he denied it. She said she confronted him because she did not want to \"leave it to chance\", and hopes others in similar situations will speak up.",
+          "source": "Mothership",
+          "published_at": "2026-07-21T13:52+08:00",
+          "url": "https://mothership.sg/2026/07/local-influencer-confronts-man-allegedly-filmed-butt/"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "US–Iran is now openly two-way: American strikes hit southern Iran for a 10th night, and Tehran says it struck US sites in Bahrain, Kuwait and Jordan plus two tankers, with President Pezeshkian calling it \"full-scale war\". In Ukraine, Russia keeps hitting Black Sea shipping — a gas carrier was struck off Romania — while Kyiv is gripped by a row over its army chief. In Lebanon, troops entered a \"pilot zone\" as Israel pulled back.",
+      "theatres": [
+        {
+          "name": "US–Iran conflict (Strait of Hormuz)",
+          "status": "Escalating and now openly two-way — a 10th consecutive night of US strikes on Iran, met by Iranian attacks on US sites in three Gulf states and on tankers in the Strait.",
+          "timeline": [
+            {
+              "date": "2026-07-13",
+              "event": "The US and Iran traded fire as tensions rose over control of the Strait of Hormuz.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cevlr112pmgo"
+            },
+            {
+              "date": "2026-07-16",
+              "event": "The US struck an oil tanker with missiles while enforcing its blockade on Iranian oil exports.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/clyqwkegqk0o"
+            },
+            {
+              "date": "2026-07-19",
+              "event": "The US said a soldier was killed and another wounded in an Iranian attack on American forces in Iraq. Trump said Iran had been hit \"very hard\" in honour of three US soldiers killed recently — two in Jordan and one in Iraq.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cgk417jp83po"
+            },
+            {
+              "date": "2026-07-20",
+              "event": "Yemen's Iran-aligned Houthis declared a maritime blockade of Saudi Arabia; Riyadh condemned the threat and the group warned of escalation. An e-mail to shipping companies warned that vessels calling at Saudi ports could be targeted \"in any location\".",
+              "source": "BBC, CNA, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/saudi-condemns-houthi-maritime-blockade-threat-group-warns-escalation-6266786"
+            },
+            {
+              "date": "2026-07-21",
+              "event": "US Central Command said it completed its latest strikes on Iran — the 10th successive night — hitting military command centres, maritime capabilities, missile and drone launch sites and air defence systems. Iranian state media reported explosions near Tabriz, where one person was said to be killed, and at the ports of Bandar Mahshahr, Bandar Imam Khomeini, Chabahar and Konarak.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cx25wg2x26do"
+            },
+            {
+              "date": "2026-07-21",
+              "event": "Iran's state news agency IRNA said Iranian forces struck two oil tankers in the Strait of Hormuz and US military assets in Bahrain, Kuwait and Jordan; the IRGC also claimed an attack on an Amazon data centre in Bahrain. President Masoud Pezeshkian said Iran was in a \"full-scale war\" with the US. The UK Maritime Trade Operations agency separately reported a tanker struck by an unknown projectile, forcing its crew into a lifeboat. None of these claims has been independently verified.",
+              "source": "BBC, The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/iranian-forces-target-bahrain-and-kuwait-after-us-hits-irans-south"
+            },
+            {
+              "date": "2026-07-21",
+              "event": "IEA executive director Fatih Birol said the escalation affecting the Strait of Hormuz \"increases security of supply concerns\", while noting that crude markets still have cushioning factors. Saudi Arabia's alternative Red Sea loading route at Yanbu is now itself under threat from the Houthi blockade declaration.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/iea-says-mideast-fighting-increases-energy-concerns-6268261"
+            }
+          ]
+        },
+        {
+          "name": "Russia–Ukraine War",
+          "status": "Grinding on — Russia keeps striking Black Sea merchant shipping while Kyiv is consumed by a political crisis over its defence minister and army chief.",
+          "timeline": [
+            {
+              "date": "2022-02-24",
+              "event": "Russia launched a full-scale invasion of Ukraine, beginning the largest war in Europe since 1945.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/world-europe-60506682"
+            },
+            {
+              "date": "2026-07-19",
+              "event": "Russia launched a major ballistic-missile attack on Ukrainian cities, with Kyiv among the areas targeted.",
+              "source": "BBC, CNA",
+              "url": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo"
+            },
+            {
+              "date": "2026-07-20",
+              "event": "Russian attacks on merchant ships in the Black Sea intensified, killing at least 10 including in a strike on a corn-carrying vessel off Odesa, Ukrainian officials said. Moscow has not confirmed the strikes.",
+              "source": "BBC, CNA",
+              "url": "https://www.bbc.co.uk/news/articles/c4gvpv3ewv2o"
+            },
+            {
+              "date": "2026-07-21",
+              "event": "Romanian President Nicusor Dan said the Liberian-flagged gas carrier LPG Gas Lisbon, sailing from Egypt to Ukraine, was hit about 20 nautical miles off Romania's coast overnight. Three crew were injured and rescued. Dan said the incident was \"most likely\" part of Russia's war on Ukraine; Moscow has previously denied or deflected responsibility for such attacks.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/romania-says-ship-heading-to-ukraine-struck-off-its-coast"
+            },
+            {
+              "date": "2026-07-21",
+              "event": "Protest organisers in Kyiv threatened an \"open-ended nationwide protest\" unless commander-in-chief Oleksandr Syrskyi is dismissed and Mykhailo Fedorov nominated as defence minister by Friday 24 July. The General Staff denied reports Syrskyi had been sacked, and presidential office head Kyrylo Budanov urged calm, saying \"the position of society has been heard\".",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/c7vgel8374yo"
+            }
+          ]
+        },
+        {
+          "name": "Israel–Lebanon / Gaza",
+          "status": "First test of a US-brokered deal — Lebanese troops are entering a southern 'pilot zone' vacated by Israel, while strikes and a deepening health crisis continue in Gaza.",
+          "timeline": [
+            {
+              "date": "2026-07-20",
+              "event": "Hamas said Khalil al-Hayya, a senior figure in ceasefire talks, was chosen as its new overall leader.",
+              "source": "BBC, CNA",
+              "url": "https://www.bbc.co.uk/news/articles/cx25nzkyj50o"
+            },
+            {
+              "date": "2026-07-20",
+              "event": "The US said the Lebanese army had begun taking over southern \"pilot zones\" under a brokered arrangement with Israel.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/lebanon-army-begins-taking-over-southern-pilot-zones-us"
+            },
+            {
+              "date": "2026-07-21",
+              "event": "The Lebanese army said troops were deploying into a southern \"pilot zone\" after an Israeli withdrawal — the first practical test of the US-brokered agreement. Reporters described an Israeli flag and a manned checkpoint at the zone's edge; Israel calls the arrangement a security measure, Lebanese officials and residents call it occupation.",
+              "source": "BBC, CNA, The Straits Times",
+              "url": "https://www.bbc.co.uk/news/articles/cy8mynlmn55o"
+            },
+            {
+              "date": "2026-07-21",
+              "event": "Lebanese President Joseph Aoun is due to present President Trump with a plan for disarming Hezbollah, hoping to generate pressure on Israel.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/lebanons-aoun-to-meet-trump-at-white-house-hoping-to-generate-pressure-on-israel1"
+            },
+            {
+              "date": "2026-07-21",
+              "event": "Gaza medics said an Israeli airstrike killed a family of six. The Israeli military has not commented on the specific strike and the account has not been independently verified.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/israeli-airstrike-kills-family-of-six-in-gaza-medics-say"
+            },
+            {
+              "date": "2026-07-21",
+              "event": "Reporting from Gaza described a chickenpox surge in overcrowded, unsanitary displacement camps and worsening access to clean water.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/all-these-rashes-chickenpox-surges-in-gazas-overcrowded-filthy-camps"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "DR Congo's Bundibugyo Ebola outbreak is still the serious one — WHO confirmed 2,145 cases and 830 deaths as of 17 July, and Africa CDC said on Tuesday that Congo has since passed 2,400. Uganda has gone about a month without a case and wants US travel curbs lifted. In the US, the Taco Bell-linked cyclospora outbreak stands at 1,644 illnesses after a key lettuce test was retracted as a false positive.",
+      "outbreaks": [
+        {
+          "name": "Bundibugyo Ebola — DR Congo & Uganda",
+          "status": "Escalating sharply in DRC; Uganda's arm appears to have ended.",
+          "cases": 2145,
+          "deaths": 830,
+          "countries": 3,
+          "as_of": "2026-07-17",
+          "scope_note": "WHO-confirmed cumulative: 2,145 confirmed cases and 830 deaths — DRC 2,124 cases/828 deaths (CFR 39%, as of 15 Jul), Uganda 20 cases/2 deaths, plus one imported case in France (two DRC-diagnosed patients were treated in Germany). In the preceding 21 days DRC reported 969 confirmed cases and 524 deaths; the outbreak remains active in 38 of 46 affected health zones, with Ituri province accounting for about 90% of cases. Figures per WHO DON613, 17 Jul 2026. Africa CDC said on 21 Jul that Congo had passed 2,400 cases — a more recent figure not yet ratified in a WHO DON."
+        },
+        {
+          "name": "Cyclospora — United States (shredded lettuce)",
+          "status": "Active investigation; Taylor Farms de Mexico iceberg lettuce identified as the source, though a later confirmatory test was retracted.",
+          "cases": 1644,
+          "deaths": 0,
+          "countries": 1,
+          "as_of": "2026-07-20",
+          "scope_note": "CDC outbreak-specific count: 1,644 people infected with Cyclospora who reported Taco Bell exposure, across 5 US states (Indiana, Kentucky, Michigan, Ohio, West Virginia), with 94 hospitalisations and no deaths. Illness onsets 13 May–13 Jul 2026. CDC and FDA say the true burden is likely higher — Michigan alone has reported more than 5,000 confirmed cyclosporiasis cases statewide. Figures per the US CDC investigation update."
+        },
+        {
+          "name": "Andes hantavirus — M/V Hondius cruise ship",
+          "status": "Contained — no new cases; figures are three weeks old.",
+          "cases": 13,
+          "deaths": 3,
+          "countries": 33,
+          "as_of": "2026-07-02",
+          "scope_note": "12 confirmed plus 1 probable case and 3 deaths (CFR 23%), all among M/V Hondius travellers, with no secondary spread off the ship. Two patients remain hospitalised, in South Africa and France. Contact tracing was conducted across 33 countries and overseas territories, where 317 high-risk contacts completed quarantine. Figures per WHO DON611, 2 Jul 2026 — WHO has not published an update since, so these numbers may be out of date."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "Africa CDC asks Washington to lift Ebola travel restrictions on Uganda",
+          "category": "Ebola",
+          "summary": "Africa CDC director-general Jean Kaseya said he had written to US Health Secretary Robert F. Kennedy Jr asking him to lift Ebola-related travel restrictions on Uganda, which has reported no new infections for about a month. \"There is no reason for the U.S. to continue with this travel restriction,\" he told a conference in Accra. Uganda's last Ebola patient was discharged on 16 July, starting a 42-day countdown to being declared free of the virus. The US restricts entry for travellers recently in DR Congo and some who visited Uganda or South Sudan.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-21T20:22+08:00",
+          "url": "https://www.straitstimes.com/world/africas-top-health-official-asks-us-to-lift-ebola-related-travel-restrictions-on-uganda"
+        },
+        {
+          "id": "ob2",
+          "headline": "Chickenpox spreads through Gaza's overcrowded displacement camps",
+          "category": "Infectious disease",
+          "summary": "Reporting from Gaza described a surge of chickenpox in crowded, unsanitary camps, alongside a worsening struggle for clean water. Health conditions in the camps have deteriorated as displacement continues; no independently verified case count for the outbreak has been published.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-21T15:14+08:00",
+          "url": "https://www.straitstimes.com/world/middle-east/all-these-rashes-chickenpox-surges-in-gazas-overcrowded-filthy-camps"
+        },
+        {
+          "id": "ob3",
+          "headline": "US officials say a lettuce test in the cyclospora outbreak was a false positive",
+          "category": "Foodborne",
+          "summary": "The FDA said a batch of iceberg lettuce that tested positive for cyclospora on 18 July was re-reviewed and judged a false positive, leaving the confirmatory laboratory evidence weaker even as epidemiologic and traceback data still point to Taylor Farms de Mexico lettuce served at Taco Bell. The outbreak stands at 1,644 reported infections and 94 hospitalisations across five states, with no deaths.",
+          "source": "BBC, US CDC, US FDA",
+          "published_at": "2026-07-20",
+          "url": "https://www.bbc.co.uk/news/articles/c4gw9n1kx9do"
+        },
+        {
+          "id": "ob4",
+          "headline": "ECDC issues guidance to help Europe spot respiratory virus threats earlier",
+          "category": "Surveillance",
+          "summary": "The European Centre for Disease Prevention and Control published an integrated respiratory-virus surveillance framework for EU/EEA countries, aimed at detecting emerging respiratory threats sooner and standardising how member states report them.",
+          "source": "ECDC",
+          "published_at": "2026-07-20",
+          "url": "https://www.ecdc.europa.eu/en/news-events/new-guidance-launched-help-europe-detect-respiratory-virus-threats-earlier"
+        },
+        {
+          "id": "ob5",
+          "headline": "WHO: DR Congo Bundibugyo Ebola cases pass 2,100 as deaths near 830",
+          "category": "Ebola",
+          "summary": "WHO's latest Disease Outbreak News reported 664 additional confirmed cases and 376 additional deaths in DR Congo since 3 July, taking the confirmed regional total to 2,145 cases and 830 deaths. WHO attributed part of the rise to scaled-up surveillance, testing and diagnostic capacity. Ituri province accounts for roughly 90% of cases, and 12,693 contacts were under follow-up as of 15 July.",
+          "source": "WHO Disease Outbreak News",
+          "published_at": "2026-07-17",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON613"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "Patch first, read later: a critical Palo Alto GlobalProtect bypass (CVE-2026-0257) is now being used to drop Qilin ransomware, WordPress's wp2shell chain is drawing tens of thousands of exploit attempts, and ServiceNow's AI Platform flaw is under active attack. The other thread is AI as attack surface — new ransomware encrypting model files via an old Langflow bug, sandbox escapes in coding agents, and research showing Android AI agents can be hijacked by invisible on-screen text.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "Android AI-agent frameworks can be hijacked by invisible text on screen",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers from Simon Fraser University, CUHK, Shandong University and QAX's Xingtu Lab showed that open-source Android AI agent frameworks — AppAgent, AppAgentX, Mobile-Agent-v3, Open-AutoGLM and MobA — pass unsanitised model output straight into shell commands, letting invisible text embedded in screenshots run code on the connected host PC. Attack paths included file races, overlay windows, steganography and unprotected broadcast channels; every framework tested fell to at least six of seven attacks. No CVEs were assigned, maintainers have not responded, and no in-the-wild exploitation is known.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-21T19:58+08:00",
+          "url": "https://thehackernews.com/2026/07/open-source-android-ai-agents-could-let.html"
+        },
+        {
+          "id": "cs2",
+          "headline": "'Bit2Watt' research shows cloud GPU workloads could destabilise power grids",
+          "category": "Research",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Three Zhejiang University researchers described a technique that shapes GPU power draw into controllable oscillations using ordinary, legitimate workloads — either a synthetic load or one embedded in real LLM training. In simulation with 1,000 synchronised GPUs on a 1MW local grid, current harmonic distortion reached 46.8%, far above safe guidelines, with larger models suggesting cascading failures affecting 81% of load. There is no CVE and no product to patch; the work was accepted to the CHES 2026 hardware-security conference.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-21T19:24+08:00",
+          "url": "https://thehackernews.com/2026/07/new-bit2watt-attack-could-let-cloud.html"
+        },
+        {
+          "id": "cs3",
+          "headline": "Critical Palo Alto GlobalProtect bypass now used to deploy Qilin ransomware",
+          "category": "Actively exploited",
+          "cve": "CVE-2026-0257",
+          "cvss": 9.1,
+          "severity": "CRITICAL",
+          "summary": "Arctic Wolf Labs said it observed multiple distinct intrusions during June 2026 that ended in Qilin ransomware deployment, all starting from exploitation of CVE-2026-0257 — an authentication bypass in the GlobalProtect portal and gateway of Palo Alto Networks PAN-OS that lets an attacker establish an unauthorised VPN connection. Palo Alto patched it on 13 May, exploitation was seen from 17 May, and CISA added it to the KEV catalogue on 29 May. Panorama and Cloud NGFW are not affected.",
+          "source": "BleepingComputer, CISA KEV, NVD",
+          "published_at": "2026-07-21T18:12+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/critical-globalprotect-vpn-bug-now-exploited-in-ransomware-attacks/"
+        },
+        {
+          "id": "cs4",
+          "headline": "WordPress 'wp2shell' chain draws tens of thousands of exploit attempts",
+          "category": "Actively exploited",
+          "cve": "CVE-2026-63030, CVE-2026-60137",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "Mass scanning and exploitation of the wp2shell chain — an SQL injection (CVE-2026-60137, WordPress 6.8 onwards) combined with an RCE (CVE-2026-63030, 6.9 and later) that yields unauthenticated code execution on default installs — was already well underway by the weekend, with honeypots logging tens of thousands of attempts. Researchers at watchTowr, Searchlight Cyber, Cloudflare, Wiz and Intruder traced blind, UNION-based and Boolean SQLi payloads from 13 IP addresses across seven countries, with attackers uploading malicious plugins, harvesting credentials and dropping web shells. Wiz found 60% of WordPress organisations had vulnerable instances.",
+          "source": "The Hacker News, BleepingComputer, NVD",
+          "published_at": "2026-07-21T16:59+08:00",
+          "url": "https://thehackernews.com/2026/07/wordpress-wp2shell-exploitation-grows.html"
+        },
+        {
+          "id": "cs5",
+          "headline": "Unofficial micropatches released for unfixed Windows 'LegacyHive' zero-day",
+          "category": "Zero-day",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "ACROS Security's 0patch platform issued free micropatches for a Windows User Profile Service flaw that lets a non-admin user mount any other user's registry hive in full-access mode — enough to extract secrets or plant registry values that run code when an administrator logs in. It affects Windows 10 2004 and later, Windows Server 2019 and Server 2022 and later. Researcher \"Nightmare Eclipse\" disclosed it, with a stripped proof-of-concept, on July Patch Tuesday. No CVE has been assigned and Microsoft says it is \"actively investigating\" with no patch timeline.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-21T16:06+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/windows-legacyhive-zero-day-flaw-gets-free-unofficial-patches/"
+        },
+        {
+          "id": "cs6",
+          "headline": "ENCFORGE ransomware encrypts AI model files after exploiting old Langflow flaw",
+          "category": "Ransomware",
+          "cve": "CVE-2025-3248",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "Sysdig's Threat Research Team documented ENCFORGE, a Go ransomware that targets AI infrastructure — encrypting model weights, vector indexes and training datasets with AES-256-CTR keys wrapped under an embedded RSA-2048 public key. Initial access came via CVE-2025-3248, an unauthenticated code-injection flaw in the /api/v1/validate/code endpoint of Langflow before 1.3.0, which CISA added to its KEV catalogue back in May 2025. Sysdig estimates rebuilding a single encrypted production model can cost US$75,000–500,000 in compute and engineering time.",
+          "source": "The Hacker News, NVD, CISA KEV",
+          "published_at": "2026-07-21T15:34+08:00",
+          "url": "https://thehackernews.com/2026/07/new-encforge-ransomware-targets-ai.html"
+        },
+        {
+          "id": "cs7",
+          "headline": "Critical ServiceNow AI Platform flaw exploited for unauthenticated code execution",
+          "category": "Actively exploited",
+          "cve": "CVE-2026-6875",
+          "cvss": 9.5,
+          "severity": "CRITICAL",
+          "summary": "A sandbox escape in the ServiceNow AI Platform lets an unauthenticated user run arbitrary code, and in-the-wild exploitation has been confirmed by Defused Cyber and Searchlight Cyber. Affected releases include Brazil EA/GA, Australia Patch 2, Zurich Patch 7b and 9, and Yokohama Patch 12 Hot Fix 1b and Patch 13; fixes shipped through June 2026. ServiceNow says it is severely restricting what code can run in sandbox contexts. Successful exploitation can compromise the instance and connected proxy servers.",
+          "source": "The Hacker News, BleepingComputer, NVD",
+          "published_at": "2026-07-21T14:29+08:00",
+          "url": "https://thehackernews.com/2026/07/critical-servicenow-ai-platform-flaw.html"
+        },
+        {
+          "id": "cs8",
+          "headline": "Estée Lauder discloses data breach via exploited Oracle E-Business Suite flaw",
+          "category": "Data breach",
+          "cve": "CVE-2026-46817",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "The cosmetics group said attackers accessed data through a flaw in Oracle E-Business Suite. The bug is an unauthenticated privilege-management flaw in Oracle Payments (versions 12.2.3–12.2.15) that CISA added to its Known Exploited Vulnerabilities catalogue on 15 July. Anyone still running unpatched EBS should treat this as active exploitation.",
+          "source": "BleepingComputer, CISA KEV, NVD",
+          "published_at": "2026-07-21T06:39+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/est-e-lauder-discloses-data-breach-via-oracle-e-business-flaw/"
+        },
+        {
+          "id": "cs9",
+          "headline": "SonicWall SMA1000 zero-days exploited to deploy custom malware",
+          "category": "Zero-day",
+          "cve": "CVE-2026-15409, CVE-2026-15410",
+          "cvss": 10.0,
+          "severity": "CRITICAL",
+          "summary": "Two SMA1000 flaws — a server-side request forgery and a code-injection bug — were exploited as zero-days before disclosure to gain root access and plant custom malware. CISA added both to its Known Exploited Vulnerabilities catalogue on 14 July. Organisations running SMA1000 appliances should patch and hunt for compromise rather than assume prevention.",
+          "source": "BleepingComputer, The Hacker News, CISA KEV, NVD",
+          "published_at": "2026-07-21T06:23+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/sonicwall-sma1000-flaws-exploited-as-zero-days-to-push-custom-malware/"
+        },
+        {
+          "id": "cs10",
+          "headline": "Hackers steal US$23.7 million in crypto from Ostium in off-chain attack",
+          "category": "Cybercrime",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Decentralised trading platform Ostium lost about US$23.7 million after attackers compromised off-chain infrastructure rather than exploiting a smart-contract bug — a reminder that the operational plumbing around a protocol is often the softer target.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-21T06:22+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-steal-237-million-in-crypto-from-ostium-in-off-chain-attack/"
+        },
+        {
+          "id": "cs11",
+          "headline": "Sandbox escapes hit Cursor, Codex, Gemini CLI and Antigravity",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers disclosed sandbox-escape weaknesses across several popular AI coding agents, allowing code the agent runs to break out of its confinement and act on the developer's machine. If you run these tools with repository or shell access, treat the sandbox as a speed bump rather than a security boundary until vendors ship fixes.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-21T05:14+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/cursor-codex-gemini-cli-antigravity-hit-by-sandbox-escapes/"
+        },
+        {
+          "id": "cs12",
+          "headline": "JadePuffer agentic attacks now target AI model data with ransomware",
+          "category": "Ransomware",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "The JadePuffer operation, which uses AI agents to automate intrusion steps, has begun encrypting AI model data for extortion — part of a broader shift toward treating trained models and datasets as the crown jewels worth ransoming.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-21T05:08+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-agentic-attacks-now-target-ai-model-data-with-ransomware/"
+        },
+        {
+          "id": "cs13",
+          "headline": "FakeGit campaign uses 7,600 GitHub repositories to spread SmartLoader malware",
+          "category": "Supply chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Attackers stood up roughly 7,600 GitHub repositories posing as legitimate tools and game cheats to distribute the SmartLoader downloader, which then pulls further payloads. Developers pulling code from unfamiliar repositories are the target audience.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-21T02:23+08:00",
+          "url": "https://thehackernews.com/2026/07/fakegit-campaign-uses-7600-github.html"
+        },
+        {
+          "id": "cs14",
+          "headline": "HollowGraph malware hides C2 traffic and stolen files in Microsoft 365 events",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "HollowGraph abuses the Microsoft Graph API to smuggle command-and-control traffic and exfiltrated files inside Microsoft 365 calendar events dated to 2050, so the activity blends into normal tenant traffic. Detection needs to look at Graph API usage patterns, not just network egress.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-21T01:43+08:00",
+          "url": "https://thehackernews.com/2026/07/hollowgraph-malware-hides-c2-and-stolen.html"
+        },
+        {
+          "id": "cs15",
+          "headline": "Exposed server reveals AI-assisted phishing toolkit behind WebDAV malware campaign",
+          "category": "Threat campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "An unsecured server exposed the tooling behind a WebDAV-based malware campaign, including an AI-assisted kit used to generate phishing lures at scale. The find gives defenders indicators and a clearer picture of how the operators automate their lure production.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-21T01:29+08:00",
+          "url": "https://thehackernews.com/2026/07/exposed-server-reveals-ai-assisted.html"
+        },
+        {
+          "id": "cs16",
+          "headline": "Russian intelligence hacks IP cameras to watch military logistics across NATO states",
+          "category": "Espionage",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers reported that Russian intelligence-linked operators compromised internet-exposed IP cameras near rail hubs, borders and depots in NATO countries and Ukraine to monitor military logistics movements. Internet-facing cameras with default or weak credentials remain the entry point.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-20T20:13+08:00",
+          "url": "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html"
+        },
+        {
+          "id": "cs17",
+          "headline": "Hugging Face says an autonomous AI agent breached its network",
+          "category": "Data breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "The AI model repository said an autonomous AI agent — not a human operator working interactively — compromised parts of its internal systems, reaching internal datasets and credentials. It is an early, concrete example of agent-driven intrusion against a major platform.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-07-20T19:56+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/"
+        },
+        {
+          "id": "cs18",
+          "headline": "7-Zip flaw lets crafted XZ archives run code during extraction",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-14266",
+          "cvss": 7.0,
+          "severity": "HIGH",
+          "summary": "A flaw in 7-Zip's XZ handling allows code execution when a specially crafted archive is extracted, reported via Zero Day Initiative. Anywhere 7-Zip is used to auto-extract untrusted archives — mail gateways, sandboxes, build systems — is worth checking and updating.",
+          "source": "The Hacker News, BleepingComputer, Zero Day Initiative",
+          "published_at": "2026-07-20T17:10+08:00",
+          "url": "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html"
+        },
+        {
+          "id": "cs19",
+          "headline": "Attacker uses Google Gemini CLI as command-and-control for a small botnet",
+          "category": "Threat campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "A Russian-speaking operator wired Google's Gemini CLI into a makeshift command-and-control channel for a botnet of eight compromised dental-clinic PCs. The scale is trivial, but the technique — riding a legitimate AI CLI tool for C2 — is the part worth noting.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-20T17:07+08:00",
+          "url": "https://thehackernews.com/2026/07/russian-speaking-hacker-uses-google.html"
+        },
+        {
+          "id": "cs20",
+          "headline": "SleeperGem uses three malicious RubyGems packages to target developer machines",
+          "category": "Supply chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Three malicious packages published to RubyGems installed a delayed-activation payload aimed at developer workstations. Ruby shops should audit recent gem installs and lock dependencies.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-20T13:15+08:00",
+          "url": "https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html"
+        },
+        {
+          "id": "cs21",
+          "headline": "Critical NGINX flaw can crash workers and may allow remote code execution",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-42533",
+          "cvss": 8.1,
+          "severity": "HIGH",
+          "summary": "A flaw in NGINX can be triggered remotely to crash worker processes and, under some conditions, may permit code execution. F5 has published fixed versions; given how widely NGINX fronts public services, patching should be prioritised.",
+          "source": "The Hacker News, NVD, F5",
+          "published_at": "2026-07-20T04:42+08:00",
+          "url": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html"
+        },
+        {
+          "id": "cs22",
+          "headline": "Hackers abuse ViPNet software to target Russian government agencies",
+          "category": "Threat campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Attackers abused the ViPNet secure-networking product to deliver malware into Russian government networks, using the trusted update/distribution path rather than a direct exploit — the same supply-chain pattern seen against Western vendors.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-19T22:23+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-vipnet-software-to-target-russian-govt-agencies/"
+        },
+        {
+          "id": "cs23",
+          "headline": "Microsoft warns of a surge in ACR Stealer attacks on customers",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Microsoft flagged a marked rise in ACR Stealer infostealer activity against its customers. The malware harvests browser credentials, session cookies and crypto-wallet data; credential rotation and token invalidation matter more than reimaging alone.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-07-18T22:17+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/"
+        }
+      ]
+    }
+  }
+}

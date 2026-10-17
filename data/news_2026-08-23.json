@@ -1,0 +1,1917 @@
+{
+  "meta": {
+    "date": "2026-08-23",
+    "generated_at": "2026-08-23T21:14:24+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "BBC World RSS + BBC article pages",
+      "CNA (Singapore, World, Asia RSS)",
+      "The Straits Times (Singapore, World RSS) + ST article pages",
+      "Mothership.sg (homepage + article pages)",
+      "NEA / data.gov.sg 24-hour weather forecast",
+      "LTA COE bidding results (data.gov.sg)",
+      "WHO Disease Outbreak News (2026-DON615)",
+      "ECDC Communicable Disease Threats Report week 34 (PDF) + weekly West Nile virus surveillance",
+      "The Hacker News",
+      "BleepingComputer",
+      "CISA Known Exploited Vulnerabilities catalog",
+      "NVD",
+      "Notes: Reuters not used (unreachable, so no link can be date-verified). The Mothership RSS feed has been stale since 21 Aug and its newest entry was 10 hours old at run time, so the homepage was scraped and each article page read directly for its own published timestamp. gov.sg agency newsrooms carried nothing inside the 24h Singapore window. ECDC's week-34 CDTR figures were read from the source PDF rather than carried forward."
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "The United States and Canada are now in an open trade war: after talks collapsed on Friday, Washington's new 50% tariffs took effect and Prime Minister Mark Carney says Canada will match them dollar-for-dollar from 8 September. Trump's reply — that Canada wants 'the benefits of being a State, without being one' — suggests neither capital sees a way back soon. Elsewhere the day was defined by violence nobody has claimed: more than 50 co-ordinated arson attacks across Thailand's insurgency-hit south, and gunmen taking over 60 worshippers from a mosque in Nigeria. The thing to watch is Monday's US Treasury announcement on Iran sanctions, which Tehran has already dismissed as desperation.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "Canada to match US tariffs 'dollar-for-dollar' as trade talks collapse into open trade war",
+          "category": "Trade & Economy",
+          "summary": "After negotiations broke down late on Friday, new 50% US tariffs took effect on a range of Canadian goods. Prime Minister Mark Carney called the move a 'miscalculation' designed to 'hurt and divide us' and confirmed Canada will match the tariffs dollar-for-dollar from 8 September, including on steel, dairy, appliances and electronics. Asked about it, President Donald Trump said Canada wants 'the benefits of being a State, without being one'. Both sides accuse the other of making last-minute changes.",
+          "source": "BBC, CNA, The Straits Times",
+          "published_at": "2026-08-23T13:46+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo"
+        },
+        {
+          "id": "ts2",
+          "headline": "More than 50 co-ordinated arson attacks hit southern Thailand",
+          "category": "Security",
+          "summary": "Thailand's Internal Security Operations Command said more than 50 co-ordinated arson and incendiary attacks 'aimed at creating unrest' were carried out across the southern border provinces between 20:00 local time and midnight on Saturday. At least two people were injured; targets included a local government office, a convenience store and telecommunications towers. Most incidents were in Narathiwat, with others in Yala and Pattani. An overnight curfew in Narathiwat was lifted on Sunday morning and no group has claimed responsibility.",
+          "source": "BBC, CNA",
+          "published_at": "2026-08-23T19:50+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c8enegx4xy3o"
+        },
+        {
+          "id": "ts3",
+          "headline": "Syria says Israeli strike near Damascus violated international law",
+          "category": "Middle East",
+          "summary": "Israel's military said it fired at a 'terrorist' in southern Syria whose activity posed an immediate threat to its soldiers. Syria's foreign ministry said the strike hit a civilian car on a road near Beit Jinn, west of Damascus, injuring civilians, and called it a 'blatant violation' of Syrian sovereignty and of international law. Syrian state TV reported one person injured. It was the second Israeli strike on Syria in a week, after an airbase attack that the US envoy to Syria called 'unnecessary'.",
+          "source": "BBC, CNA, The Straits Times",
+          "published_at": "2026-08-23T05:42+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c2dkdegr2xeo"
+        },
+        {
+          "id": "ts4",
+          "headline": "Iran calls threatened US sanctions a sign of desperation ahead of Monday announcement",
+          "category": "Middle East",
+          "summary": "Iranian Foreign Minister Abbas Araqchi dismissed the coming US measures as 'repetitive scenarios' and said they would fail to defeat Tehran, in a video posted to Telegram. US Treasury Secretary Scott Bessent, who has promised 'the toughest sanctions in history', is due to hold a press conference at 2pm EDT on Monday. Iran's economy is already under heavy sanctions pressure and Tehran has brought shipping in the Strait of Hormuz to a virtual standstill, pushing up global oil prices.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-08-23T20:28+08:00",
+          "url": "https://www.straitstimes.com/world/middle-east/iran-says-new-sanctions-threatened-by-desperate-us-will-fail"
+        },
+        {
+          "id": "ts5",
+          "headline": "US judge strikes down Trump's 75-country visa ban",
+          "category": "US Politics",
+          "summary": "A US federal judge has struck down the Trump administration's entry ban covering nationals of 75 countries. The ruling is the latest judicial check on the administration's immigration measures; an appeal is expected.",
+          "source": "CNA",
+          "published_at": "2026-08-23T01:40+08:00",
+          "url": "https://www.channelnewsasia.com/world/us-judge-strikes-down-trumps-75-country-visa-ban-6335151"
+        },
+        {
+          "id": "ts6",
+          "headline": "Zelensky rejects a wartime election, saying a vote now would 'destroy' Ukraine",
+          "category": "Europe",
+          "summary": "Holding an election while active fighting continues would split Ukrainians and 'destroy' the country, President Volodymyr Zelensky said in comments released to reporters on Sunday. It was his first response to ousted defence minister Mykhailo Fedorov, who last week became the first major Ukrainian political figure to call for a wartime poll. Elections in war are prohibited by Ukrainian law, and the country has been under martial law since Russia's full-scale invasion in 2022.",
+          "source": "The Straits Times, BBC",
+          "published_at": "2026-08-23T19:28+08:00",
+          "url": "https://www.straitstimes.com/world/europe/wartime-election-would-destroy-ukraine-zelenskiy-says"
+        },
+        {
+          "id": "ts7",
+          "headline": "Fourteen killed in strike on Myanmar monastery",
+          "category": "Asia",
+          "summary": "Fourteen people were killed in a strike on a monastery in Myanmar, according to accounts reported by the BBC. Attribution for the strike is contested and the figures come from local sources; they have not been independently verified.",
+          "source": "BBC",
+          "published_at": "2026-08-22T21:48+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cqlxlvz01z1o"
+        },
+        {
+          "id": "ts8",
+          "headline": "Gunmen abduct more than 60 worshippers from a Nigerian mosque, police say",
+          "category": "Africa",
+          "summary": "Police say gunmen seized more than 60 worshippers from a mosque in Nigeria. Mass abductions for ransom have become a recurring feature of insecurity in the country's north-west. The police account is the sole source for the figure so far.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-22T21:47+08:00",
+          "url": "https://www.straitstimes.com/world/gunmen-abduct-over-60-worshippers-from-nigeria-mosque-police-say"
+        },
+        {
+          "id": "ts9",
+          "headline": "Girl, 17, killed in Swedish school sword attack; suspect remanded in custody",
+          "category": "Europe",
+          "summary": "Swedish police say a 17-year-old girl was killed in a sword attack at a school. A suspect has been remanded in custody by a Swedish court. Police have not published a motive.",
+          "source": "BBC, The Straits Times",
+          "published_at": "2026-08-23T09:34+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c8jnjp0lwlwo"
+        },
+        {
+          "id": "ts10",
+          "headline": "Seven dead in UK after vehicle travelling the wrong way hits a police car",
+          "category": "Europe",
+          "summary": "Seven people were killed in the United Kingdom after a vehicle travelling in the wrong direction collided with a police car. Police have not released further details pending investigation.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-22T21:22+08:00",
+          "url": "https://www.straitstimes.com/world/europe/seven-dead-in-uk-after-vehicle-travelling-wrong-way-hits-police-car"
+        },
+        {
+          "id": "ts11",
+          "headline": "Bangladesh's gas crisis hits factories, homes and transport",
+          "category": "Asia",
+          "summary": "A deepening natural gas shortage in Bangladesh is disrupting industrial production, household cooking and CNG-powered transport, CNA reports. Factories in the garment sector — the country's biggest export earner — are among those affected as supply falls short of demand.",
+          "source": "CNA",
+          "published_at": "2026-08-23T12:42+08:00",
+          "url": "https://www.channelnewsasia.com/asia/bangladesh-gas-shortage-energy-crisis-6335601"
+        },
+        {
+          "id": "ts12",
+          "headline": "South Korea sends its first container ship through the Arctic route",
+          "category": "Asia",
+          "summary": "South Korea has sent its first container ship along the Arctic shipping route, CNA reports. The passage is being framed as a test of a shorter Asia-Europe corridor that becomes navigable as sea ice retreats, with implications for the traffic that currently transits the Suez Canal and Singapore.",
+          "source": "CNA",
+          "published_at": "2026-08-22T23:06+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/south-korea-container-ship-arctic-route-6335006"
+        },
+        {
+          "id": "ts13",
+          "headline": "Two rescued after Panama-flagged bulk carrier sinks off India",
+          "category": "Asia",
+          "summary": "Two crew members were rescued after the Panama-flagged bulk carrier MV Ocean Winner sank off the Indian coast, CNA reports. Search efforts for the remaining crew were continuing.",
+          "source": "CNA",
+          "published_at": "2026-08-23T13:16+08:00",
+          "url": "https://www.channelnewsasia.com/asia/india-bulk-carrier-mv-ocean-winner-panana-flagged-singapore-6335636"
+        },
+        {
+          "id": "ts14",
+          "headline": "Four bodies found after Swiss apartment block fire",
+          "category": "Europe",
+          "summary": "Swiss police say four bodies were recovered after a fire tore through an apartment block. The cause of the blaze is under investigation.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-23T20:37+08:00",
+          "url": "https://www.straitstimes.com/world/europe/four-bodies-found-after-swiss-apartment-block-fire-police"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "Prime Minister Lawrence Wong used the National Day Rally to put around $70,000 of government support behind every Singaporean child, replacing the Baby Bonus with a $62,000 SG Child Support Package and cutting full-day childcare fees to $150 a month by 2030. The housing half lands almost immediately: BTO income ceilings rise to $16,000 for families and $8,000 for singles for anyone applying for an HDB Flat Eligibility letter from tomorrow. Wong also signalled Singapore is prepared to push the minimum social media age above 13 if platforms will not build in real safeguards, and framed the US tariffs as one symptom of a world whose rules are being rewritten. Away from the rally, the number worth noting is 772 — accidents involving cyclists in 2025, a four-year high. The online chatter, meanwhile, was all neighbourhood friction and small indignities.",
+      "weather": {
+        "forecast": "Partly Cloudy (Day)",
+        "temp_low": 26,
+        "temp_high": 35,
+        "humidity_low": 55,
+        "humidity_high": 85,
+        "as_of": "2026-08-23T17:40+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Aug 2026 · 2nd bidding",
+        "as_of": "2026-08-19",
+        "next_results": "2026-09-09",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          {
+            "code": "A",
+            "label": "Cars up to 1600cc & 130bhp",
+            "premium": 128501,
+            "change": 4611
+          },
+          {
+            "code": "B",
+            "label": "Cars above 1600cc or 130bhp",
+            "premium": 131001,
+            "change": 1091
+          }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "NDR 2026: Every Singaporean child to get a $62,000 support package, about $70,000 in total help to age 17",
+          "category": "National Day Rally",
+          "summary": "Prime Minister Lawrence Wong announced a new SG Child Support Package worth $62,000 per child, replacing the Baby Bonus and Large Families Scheme and paid regardless of birth order. It comprises a $10,000 Baby Gift in cash, $32,000 in Child Credits, a $5,000 CDA First Step Grant, up to $5,000 in government CDA co-matching and a $10,000 Post-Secondary Education Account top-up. With existing benefits such as the $5,000 Medisave Grant for Newborns and Edusave contributions, each child receives around $70,000 from birth to age 17 — up from $27,500 to $56,500 today. More than 610,000 children across 380,000 households are expected to benefit.",
+          "source": "The Straits Times, CNA, Mothership",
+          "published_at": "2026-08-23T20:36+08:00",
+          "url": "https://www.straitstimes.com/singapore/politics/ndr-2026-each-sporean-child-to-get-almost-70000-from-birth-to-age-17"
+        },
+        {
+          "id": "sg2",
+          "headline": "NDR 2026: Childcare fees to fall to $150 a month by 2030, infant care to $300",
+          "category": "National Day Rally",
+          "summary": "Fees for a full day of childcare at government-supported pre-schools will be cut to $150 a month and infant care to $300 a month, less than half of today's levels. The reductions will be phased in gradually from 2028 and reach the target levels by 2030. All families will eventually qualify for full childcare and infant care subsidies regardless of the main applicant's working status; today full subsidies require the applicant to be working. Further details on timing have yet to be released.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-08-23T20:41+08:00",
+          "url": "https://www.straitstimes.com/singapore/politics/ndr-2026-monthly-childcare-fees-to-fall-by-more-than-half-to-150-by-2030-infant-care-fees-to-drop-to"
+        },
+        {
+          "id": "sg3",
+          "headline": "NDR 2026: Income ceilings for BTO flats and ECs raised, extra ballot chance per child",
+          "category": "Housing",
+          "summary": "The household income ceiling for Build-To-Order flats rises to $16,000 for families and $8,000 for singles, from $14,000 and $7,000. The executive condominium ceiling rises to $18,000 from $16,000. For HDB buyers the change applies to those applying for an HDB Flat Eligibility letter from 24 August; the EC ceiling applies to developments with land sale tenders closing from 24 August, and not to balance units in existing ECs. First-time buyers also get an extra ballot chance per child. The BTO ceiling was last raised in September 2019.",
+          "source": "The Straits Times, CNA, Mothership",
+          "published_at": "2026-08-23T20:43+08:00",
+          "url": "https://www.straitstimes.com/singapore/politics/ndr-2026-higher-income-ceiling-for-bto-flats-ecs-more-ballot-chances-for-first-timers-with-kids"
+        },
+        {
+          "id": "sg4",
+          "headline": "NDR 2026: Working parents to get 8 to 12 days of childcare leave a year",
+          "category": "National Day Rally",
+          "summary": "Working parents with children aged 12 and below will receive between eight and 12 days of childcare leave a year, depending on how many children they have in that age group; those with three or more get the maximum 12 days. The Government will fully reimburse employers for all child-related leave up to set caps. The change extends protected caregiving time through a child's primary school years, and follows Singapore's total fertility rate hitting a historic low in 2025.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-08-23T20:34+08:00",
+          "url": "https://www.straitstimes.com/singapore/politics/ndr-2026-working-parents-to-get-8-to-12-days-of-childcare-leave-a-year-for-kids-aged-12-and-below"
+        },
+        {
+          "id": "sg5",
+          "headline": "NDR 2026: Government prepared to raise the minimum social media age beyond 13",
+          "category": "Technology & Policy",
+          "summary": "Platforms that fail to protect teenagers from addictive design features may be required to raise their minimum age above the current industry standard of 13, PM Wong said. 'If its safeguards remain inadequate, we will consider additional restrictions — including raising the minimum age for access to that platform beyond 13.' He said features engineered to keep users scrolling are 'hard enough for adults to resist' and riskier for teenagers, and separately flagged 'unsettling' risks from AI, saying Singapore is ready to put safeguards in place.",
+          "source": "The Straits Times, CNA, Mothership",
+          "published_at": "2026-08-23T20:28+08:00",
+          "url": "https://www.straitstimes.com/singapore/politics/ndr-2026-govt-prepared-to-raise-minimum-age-beyond-13-for-social-media-platforms-with-weak"
+        },
+        {
+          "id": "sg6",
+          "headline": "NDR 2026: Singapore takes US allegations seriously but 'can't trace every product passing through'",
+          "category": "Trade & Economy",
+          "summary": "Addressing the 12.5 per cent US tariff on Singapore's exports imposed over alleged use of forced labour, and US concerns about goods routed through third countries to dodge tariffs, PM Wong said Singapore will not let itself be used as a conduit for illegal trade practices but cannot verify the entire supply chain behind every product that passes through its port. He framed the tariffs as one symptom of deeper global instability, saying the rules that underpinned decades of stability are being overturned as China becomes a peer competitor of the US.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-08-23T20:19+08:00",
+          "url": "https://www.straitstimes.com/singapore/politics/ndr-2026-spore-takes-us-allegations-seriously-but-cant-trace-every-product-passing-through-pm"
+        },
+        {
+          "id": "sg7",
+          "headline": "NDR 2026: Singapore to strengthen South-east Asian unity as ASEAN chair in 2027",
+          "category": "Foreign Relations",
+          "summary": "Singapore will use its 2027 ASEAN chairmanship to push for closer regional integration and build resilience against future crises, PM Wong said at the National Day Rally. He also said trust remains one of Singapore's greatest strengths in a fast-changing world.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-08-23T20:15+08:00",
+          "url": "https://www.straitstimes.com/singapore/politics/ndr-2026-spore-to-strengthen-s-e-asian-unity-as-asean-chair-in-2027-build-resilience-to-face-crisis"
+        },
+        {
+          "id": "sg8",
+          "headline": "NDR 2026: Cap on dialect film screenings to be lifted where a Mandarin-dubbed version exists",
+          "category": "Culture",
+          "summary": "The limit on the number of screenings of dialect films will be relaxed so long as a Mandarin-dubbed version is available, PM Wong said in his Mandarin speech. Free-to-air broadcasts will remain mainly in Mandarin, but restrictions will ease for pay television and cinema. MDDI is to relax the rules from September 2026. The announcement follows public discussion sparked by the Teochew-language film Dear You.",
+          "source": "The Straits Times, CNA, Mothership",
+          "published_at": "2026-08-23T19:12+08:00",
+          "url": "https://www.straitstimes.com/singapore/politics/ndr-2026-cap-on-screenings-of-dialect-films-will-be-lifted-if-they-have-mandarin-dubbed-versions"
+        },
+        {
+          "id": "sg9",
+          "headline": "NDR 2026: New committee to help the Malay/Muslim community seize economic opportunities",
+          "category": "National Day Rally",
+          "summary": "A new committee will be set up to help the Malay/Muslim community build economic resilience, develop skills and take up new opportunities, PM Wong announced. He also said the team of Malay/Muslim office-holders and MPs will be continually renewed and strengthened.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-08-23T19:01+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/national-day-rally-2026-malay-muslim-community-economic-resilience-committee-6335806"
+        },
+        {
+          "id": "sg10",
+          "headline": "Accidents involving cyclists hit a four-year high, with 772 cases in 2025",
+          "category": "Transport & Safety",
+          "summary": "Police told The Straits Times there were 772 traffic accidents involving cyclists in 2025, up almost 25 per cent from 620 in 2024 and 581 in 2023 — the highest in four years. More than half were caused by disorderly cycling or failing to keep a proper lookout. There were 45 fatal accidents involving cyclists between 2023 and 2025. Cyclists interviewed called for more mutual respect between riders and other road users.",
+          "source": "The Straits Times (Singapore Police Force)",
+          "published_at": "2026-08-23T05:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/accidents-involving-cyclists-surge-to-4-year-high-with-over-770-cases-in-2025-as-road-safety-worsens"
+        },
+        {
+          "id": "sg11",
+          "headline": "18 caught in night enforcement operation against errant cyclists, including riders from a viral video",
+          "category": "Transport & Safety",
+          "summary": "Traffic Police and LTA officers caught 17 cyclists and one PMD user in a night operation at West Coast Highway and Jalan Anak Bukit. Among those nabbed were cyclists seen in a viral video being chased by Traffic Police. Riding on expressways and certain roads is prohibited, and offenders face fines.",
+          "source": "The Straits Times, Mothership",
+          "published_at": "2026-08-23T12:15+08:00",
+          "url": "https://www.straitstimes.com/singapore/cyclists-in-viral-video-chased-by-traffic-police-among-18-nabbed-in-enforcement-operation"
+        },
+        {
+          "id": "sg12",
+          "headline": "Pipe leak in Bukit Timah cuts water supply to 17 homes for about nine hours",
+          "category": "Utilities",
+          "summary": "PUB was alerted at about 5am on 22 August to a leak in King's Road, Bukit Timah, and isolated the water mains for repairs. Supply to 17 units in a private estate was disrupted and a water wagon was deployed; a section of King's Road was temporarily closed. Repairs finished and supply was restored at 2pm the same day. PUB is investigating the cause.",
+          "source": "The Straits Times (PUB)",
+          "published_at": "2026-08-23T18:25+08:00",
+          "url": "https://www.straitstimes.com/singapore/pipe-leak-in-bukit-timah-road-disrupts-residents-water-supply-for-nearly-nine-hours"
+        },
+        {
+          "id": "sg13",
+          "headline": "Ecuador's President to make the first state visit to Singapore by a South American country",
+          "category": "Foreign Relations",
+          "summary": "Ecuador's President will make a state visit to Singapore, the first by a head of state from South America, The Straits Times reports. The visit is expected to cover trade and investment ties.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-23T18:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/politics/ecuador-president-to-make-south-american-countrys-first-state-visit-to-singapore"
+        },
+        {
+          "id": "sg14",
+          "headline": "SM Lee Hsien Loong to make official visits to Kazakhstan and Uzbekistan",
+          "category": "Foreign Relations",
+          "summary": "Senior Minister Lee Hsien Loong will make official visits to Kazakhstan and Uzbekistan, CNA reports, as Singapore continues to widen its engagement with Central Asia.",
+          "source": "CNA",
+          "published_at": "2026-08-23T17:02+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/kazakhstan-uzbekistan-singapore-lee-hsien-loong-6330961"
+        },
+        {
+          "id": "sg15",
+          "headline": "Public Hygiene Council campaign puts clean-up reminders on trains and buses",
+          "category": "Community",
+          "summary": "Train and bus commuters will see reminders to keep Singapore clean under a new Public Hygiene Council campaign, The Straits Times reports. The messages target litter left behind on public transport and at stations.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-23T13:55+08:00",
+          "url": "https://www.straitstimes.com/singapore/environment/train-and-bus-users-will-have-reminders-to-keep-singapore-clean-in-public-hygiene-council-campaign"
+        },
+        {
+          "id": "sg16",
+          "headline": "Someone has been splashing faeces and urine in Hougang lift lobbies for the past year",
+          "category": "Trending",
+          "summary": "Residents of a Hougang block say lift lobbies have been repeatedly splashed with faeces and urine over the past year, Mothership reports. The town council has been cleaning up after each incident and residents want the culprit identified.",
+          "source": "Mothership",
+          "published_at": "2026-08-23T19:10+08:00",
+          "url": "https://mothership.sg/2026/08/faeces-urine-hougang-lift-lobbies/"
+        },
+        {
+          "id": "sg17",
+          "headline": "Yew Tee food court fight: man, 50, swings a chair at a 75-year-old and pushes him to the ground",
+          "category": "Trending",
+          "summary": "A fight at a Yew Tee food court saw a 50-year-old man swing a chair into a 75-year-old man and push him onto the ground, according to footage and accounts reported by Mothership. The circumstances leading to the altercation were not clear.",
+          "source": "Mothership",
+          "published_at": "2026-08-23T19:02+08:00",
+          "url": "https://mothership.sg/2026/08/yew-tee-foodcourt-fight/"
+        },
+        {
+          "id": "sg18",
+          "headline": "Man allegedly kicks a dog twice in Toa Payoh, tells the elderly owner 'you're in the way'",
+          "category": "Trending",
+          "summary": "A man was filmed allegedly kicking a dog twice in Toa Payoh and telling its elderly owner that they were in the way, Mothership reports. The clip circulated widely online.",
+          "source": "Mothership",
+          "published_at": "2026-08-23T17:16+08:00",
+          "url": "https://mothership.sg/2026/08/man-kick-dog-toa-payoh/"
+        },
+        {
+          "id": "sg19",
+          "headline": "Woman, 76, traps 20 rats in three weeks at a Chinatown block using ikan bilis and duck bones",
+          "category": "Trending",
+          "summary": "A 76-year-old resident of a Chinatown block of flats says she has trapped 20 rats in three weeks, baiting her traps with ikan bilis, duck bones and oyster sauce, Mothership reports. Neighbours have complained about rodents in the area.",
+          "source": "Mothership",
+          "published_at": "2026-08-23T14:12+08:00",
+          "url": "https://mothership.sg/2026/08/woman-trap-rats-chinatown/"
+        },
+        {
+          "id": "sg20",
+          "headline": "Bus driver gets off his bus to scold car drivers using the bus lane near JB customs",
+          "category": "Trending",
+          "summary": "A bus driver was filmed stepping off his bus to confront car drivers using the bus lane on the approach to the Johor Bahru customs checkpoint, Mothership reports. Bus-lane misuse at the crossing is a long-running complaint among commuters.",
+          "source": "Mothership",
+          "published_at": "2026-08-23T12:25+08:00",
+          "url": "https://mothership.sg/2026/08/bus-driver-scold-car-drivers-bus-lane/"
+        },
+        {
+          "id": "sg21",
+          "headline": "Tree falls on at least two cars in Dempsey, trapping a driver under a crushed roof",
+          "category": "Trending",
+          "summary": "A tree fell onto at least two cars in Dempsey, crushing one vehicle's roof and trapping the driver, Mothership reports. The driver was freed at the scene.",
+          "source": "Mothership",
+          "published_at": "2026-08-23T12:11+08:00",
+          "url": "https://mothership.sg/2026/08/fallen-tree-dempsey/"
+        },
+        {
+          "id": "sg22",
+          "headline": "Ex-actor Huang Yiliang on the Roxy Square altercation: the father 'overreacted'",
+          "category": "Trending",
+          "summary": "Former actor Huang Yiliang has given his account of an altercation at Roxy Square, telling Mothership the child's father 'overreacted' but adding that 'you can't just go and touch other people's children'. The exchange has been circulating on social media.",
+          "source": "Mothership",
+          "published_at": "2026-08-23T11:11+08:00",
+          "url": "https://mothership.sg/2026/08/huang-yi-liang-roxy-square/"
+        },
+        {
+          "id": "sg23",
+          "headline": "Man, 66, jailed for spraying insecticide at a flame to burn his roommate and stealing a girl's slippers",
+          "category": "Courts",
+          "summary": "A 66-year-old Singaporean man was sentenced to six months and one week's jail after spraying insecticide at a flame to burn his 66-year-old roommate, and separately stealing a girl's slippers, Mothership reports from the court hearing.",
+          "source": "Mothership",
+          "published_at": "2026-08-23T09:58+08:00",
+          "url": "https://mothership.sg/2026/08/man-burn-man-steal-girl-slippers-jail/"
+        },
+        {
+          "id": "sg24",
+          "headline": "Malaysian man, 35, jailed 12 weeks for repeatedly punching a Singaporean at Limbang Shopping Centre",
+          "category": "Courts",
+          "summary": "A 35-year-old Malaysian man was jailed for 12 weeks and ordered to pay $873 in compensation after repeatedly punching a 52-year-old Singaporean man at Limbang Shopping Centre in Choa Chu Kang, Mothership reports from court.",
+          "source": "Mothership",
+          "published_at": "2026-08-23T15:12+08:00",
+          "url": "https://mothership.sg/2026/08/man-punch-man-limbang-shopping-centre-jail/"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "Ukraine's war has turned into a question of who can outlast whom: Zelensky says Moscow plans to conscript another 300,000 troops after next month's Russian parliamentary elections, and he has rejected any wartime vote of his own, saying an election now would 'destroy' the country. Kyiv's immediate problem is still air-defence interceptors, and its answer is money and hardware from outside — Norway alone has pledged about US$9.2 billion for 2027. In the Gulf the shooting has stopped but the pressure has not: Washington unveils its Iran sanctions package on Monday and Tehran is pre-emptively calling it desperation. Syria has quietly become the most dangerous ground on the board, hit twice by Israel in a week even as its foreign minister says security talks could resume. No theatre is anywhere near a ceasefire.",
+      "theatres": [
+        {
+          "name": "Russia-Ukraine War",
+          "status": "No change on the front line; the contest has shifted to endurance and politics. Ukraine says Russia intends to draft another 300,000 troops after its mid-September parliamentary elections and is pushing missile output towards 1,300 a year - Ukrainian assessments Moscow has not confirmed. Zelensky has rejected calls for a wartime election, saying a vote now would 'destroy' the country, while his sacked defence minister Mykhailo Fedorov keeps pressing the issue and has told the BBC that Zelensky should answer questions about corruption in his government. Kyiv's material constraint is still air-defence interceptors: France has agreed to accelerate deliveries and Norway has pledged another 85 billion crowns (about US$9.2 billion) for 2027. The toll from Friday's double-tap drone strike on a Kryvyi Rih shopping centre stands at 16 dead and 130 injured with four missing, and Putin has said Ukraine opened a 'Pandora's box' by hitting economic targets. Casualty claims from both governments are not independently verified.",
+          "timeline": [
+            {
+              "date": "2022-02-24",
+              "event": "Russia launches a full-scale invasion of Ukraine, opening the largest land war in Europe since 1945.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/world"
+            },
+            {
+              "date": "2026-08-10",
+              "event": "At least 13 people are killed in a Ukrainian drone strike deep inside Russia, according to Russian officials. The claim has not been independently verified.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/world/europe"
+            },
+            {
+              "date": "2026-08-11",
+              "event": "President Volodymyr Zelensky says Russia is using North Korean missiles to strike Ukraine. Moscow and Pyongyang have not confirmed the claim.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/world/europe"
+            },
+            {
+              "date": "2026-08-13",
+              "event": "Major Russian grain export terminals are hit in a Ukrainian attack on a Black Sea port, extending the campaign against Russian export infrastructure.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/world/europe"
+            },
+            {
+              "date": "2026-08-14",
+              "event": "Russia dismisses the idea of a Black Sea ceasefire, saying it sees no grounds for 'half-measures' that would give the other side a respite.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe"
+            },
+            {
+              "date": "2026-08-14",
+              "event": "NATO jets shoot down a drone that entered Latvian airspace, the latest spillover of the air war into alliance territory.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world"
+            },
+            {
+              "date": "2026-08-15",
+              "event": "Russia's defence ministry says its summer campaign has resulted in the capture of 19 settlements in southeastern Ukraine. Kyiv has not confirmed the claim.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe"
+            },
+            {
+              "date": "2026-08-15",
+              "event": "Ukraine's General Staff says long-range strikes hit the Progress Rocket Space Centre in Samara, some 900km inside Russia, and a military airfield.",
+              "source": "The Straits Times, Ukrainska Pravda",
+              "url": "https://www.straitstimes.com/world/europe"
+            },
+            {
+              "date": "2026-08-16",
+              "event": "Ukrainian drones kill five people in a residential area of Russia's Rostov region and three more in the Belgorod, Kursk and Moscow regions, regional governors say; four others are reported killed in Russian-occupied parts of Ukraine. Moscow's regional governor calls it 'one of the most massive drone attacks in recent memory' and Russia's defence ministry says it intercepted 822 drones overnight.",
+              "source": "The Straits Times, AFP",
+              "url": "https://www.straitstimes.com/world/europe/strikes-kill-19-in-ukraine-and-russia"
+            },
+            {
+              "date": "2026-08-16",
+              "event": "Russian drones and missiles kill two people and wound 14 at ArcelorMittal's steel plant in Kryvyi Rih, which partially halts production, and burn down stalls at Kyiv's Pochaina second-hand book market. Zelensky says Ukrainian cities were hit by more than 1,550 attack drones, nearly 1,560 guided bombs and 62 missiles over the past week, and renews his appeal for air defence.",
+              "source": "The Straits Times, AFP",
+              "url": "https://www.straitstimes.com/world/europe/strikes-kill-19-in-ukraine-and-russia"
+            },
+            {
+              "date": "2026-08-16",
+              "event": "A Spanish F-18 on NATO air-policing duty shoots down a drone that entered Romanian airspace from Moldova, about 24km north of Galati - the fourth drone downed over Romania this year.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe"
+            },
+            {
+              "date": "2026-08-16",
+              "event": "North Korean leader Kim Jong Un and President Vladimir Putin exchange messages reaffirming bilateral ties to mark Korean Liberation Day.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/asia/north-koreas-kim-russias-putin-reaffirm-ties-korean-liberation-day-6321956"
+            },
+            {
+              "date": "2026-08-17",
+              "event": "Six people are killed and four injured, including a 14-year-old, in Ukrainian missile strikes on Russia's Belgorod region overnight, acting governor Alexander Shuvaev says on Telegram. A woman is also killed by a drone strike on a home in the Astrakhan region, its governor says. The claims have not been independently verified.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cn7n4lm11vro"
+            },
+            {
+              "date": "2026-08-17",
+              "event": "Russian forces attack port infrastructure in the Izmail district of Ukraine's Odesa region overnight, Ukrainian authorities say.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/russia-hits-ukraines-izmail-and-odesa-ports-in-overnight-strikes"
+            },
+            {
+              "date": "2026-08-17",
+              "event": "Ukrainian energy company Naftogaz says Russia attacked its facilities 13 times over the past week.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cn7n4lm11vro"
+            },
+            {
+              "date": "2026-08-17",
+              "event": "EU foreign policy chief Kaja Kallas says the bloc plans its most far-reaching sanctions package against Russia in the autumn, without giving timing or detail.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/eu-plans-most-far-reaching-sanctions-package-against-russia-in-autumn-foreign-chief-says"
+            },
+            {
+              "date": "2026-08-17",
+              "event": "Documents reported by The Straits Times show Binance gave Russian authorities client details later used to charge a Russian over donations to Ukraine.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/binance-gave-moscow-client-details-used-to-charge-russian-over-ukraine-donations-documents-show"
+            },
+            {
+              "date": "2026-08-17",
+              "event": "Russia's defence ministry says air defences intercepted 205 Ukrainian drones over Russia and Crimea between Sunday night and Monday morning. Kyiv has not commented on the figure.",
+              "source": "BBC, Al Jazeera",
+              "url": "https://www.bbc.co.uk/news/articles/cn7n4lm11vro"
+            },
+            {
+              "date": "2026-08-17",
+              "event": "A separate overnight Russian attack on the Black Sea port city of Odesa damages a civilian vessel and injures four people, Ukrainian authorities say.",
+              "source": "BBC, Al Jazeera",
+              "url": "https://www.bbc.co.uk/news/articles/cn7n4lm11vro"
+            },
+            {
+              "date": "2026-08-17",
+              "event": "Moldova's foreign ministry condemns a violation of its airspace by an unidentified aerial object that later exploded on Moldovan territory. It did not name a country responsible.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/moldovas-foreign-ministry-condemns-violation-of-airspace-explosion-of-aerial-object"
+            },
+            {
+              "date": "2026-08-17",
+              "event": "Italy's government says it sees no sign of a Russian link to the explosion at the Colleferro munitions plant, pushing back on speculation about sabotage.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/italy-sees-no-sign-of-russian-link-to-colleferro-munitions-blast-minister-says"
+            },
+            {
+              "date": "2026-08-17",
+              "event": "A Russian court jails a prominent anti-war opposition politician for 11 years over comments about the war, the independent outlet Mediazona reports.",
+              "source": "BBC, The Straits Times",
+              "url": "https://www.bbc.co.uk/news/articles/cj4kjnle2neo"
+            },
+            {
+              "date": "2026-08-18",
+              "event": "Moscow warns of 'consequences' after reports that British-made drones were used in strikes on Russian territory. London has not confirmed the reports.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/moscow-warns-of-consequences-after-reports-that-british-made-drones-hit-russia"
+            },
+            {
+              "date": "2026-08-18",
+              "event": "Moscow Mayor Sergei Sobyanin says 620 Ukrainian drones headed for the Moscow region between Monday evening and 5am and that 180 were downed over the region, in one of the largest attacks on the capital region of the war. Regional governor Andrei Vorobyov says drones hit a Wildberries warehouse and other sites and that three people, including a 10-year-old girl, were injured; Moscow's airports temporarily restricted flights. The figures are Russian officials' account and Kyiv has not commented.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/russia-downs-180-drones-in-moscow-region-overnight-mayor-says"
+            },
+            {
+              "date": "2026-08-18",
+              "event": "Russia's foreign ministry says the United Kingdom 'will pay' for supplying drones used in strikes on Russian territory, hardening the earlier warning of 'consequences'. London has not confirmed that British-made drones were used.",
+              "source": "BBC, The Straits Times",
+              "url": "https://www.bbc.co.uk/news/articles/cy5dz0kkn0wo"
+            },
+            {
+              "date": "2026-08-18",
+              "event": "Russia summons Japan's ambassador over the disputed Kuril Islands, which Tokyo calls the Northern Territories. Japan has not detailed its response.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.channelnewsasia.com/east-asia/russia-japan-ambassador-disputed-kuril-islands-6324746"
+            },
+            {
+              "date": "2026-08-18",
+              "event": "Myanmar's leader Min Aung Hlaing is due in Moscow to meet President Vladimir Putin on his first trip there as president, one of a small number of leaders visiting Russia during the war.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/myanmars-leader-to-meet-putin-on-first-moscow-trip-as-president"
+            },
+            {
+              "date": "2026-08-18",
+              "event": "A Russian missile attack kills 10 people in a village in Ukraine's north-eastern Kharkiv region, President Volodymyr Zelensky says, adding that Kyiv will respond. The figure is Ukraine's and has not been independently verified; Moscow has not commented.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/russian-missile-attack-kills-10-in-ukraines-kharkiv-region-officials-say"
+            },
+            {
+              "date": "2026-08-18",
+              "event": "A court in Stuttgart convicts a Ukrainian man over what German prosecutors describe as a Russian intelligence-linked plot to detonate parcels in Europe. Moscow has denied involvement in previous parcel-bomb cases.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/german-court-convicts-ukrainian-man-over-parcel-bomb-plot-tied-to-russia"
+            },
+            {
+              "date": "2026-08-18",
+              "event": "The IAEA says a drone exploded at a bus stop used by staff of the Russian-held Zaporizhzhia nuclear power plant, killing one person and injuring several others. Russian officials blame Ukraine and call it one of the most serious incidents at the plant; Kyiv has not commented. The IAEA reports no nuclear safety or security damage.",
+              "source": "The Straits Times, IAEA",
+              "url": "https://www.straitstimes.com/world/europe/iaea-drone-exploded-at-zaporizhzhia-nuclear-plant-bus-stop-killing-one"
+            },
+            {
+              "date": "2026-08-18",
+              "event": "Foreign Minister Sergei Lavrov says Russia has the right to treat British involvement in strikes on Russian territory as participation in the war, according to Interfax. London has not confirmed that British-made drones were used.",
+              "source": "The Straits Times, Interfax",
+              "url": "https://www.straitstimes.com/world/europe/russias-lavrov-says-britain-risks-being-seen-as-party-to-ukraine-war"
+            },
+            {
+              "date": "2026-08-18",
+              "event": "Greater Manchester mayor Andy Burnham says the United Kingdom 'supports Ukraine 100%' in response to Russia's warning over drones used against Russian territory.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cy5dz0kkn0wo"
+            },
+            {
+              "date": "2026-08-18",
+              "event": "Estonia's prime minister says the country is investigating whether Russia was involved in an arson attack last week on a building housing a defence contractor. No conclusion has been announced and Moscow has not commented.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/estonia-pm-says-arson-attack-on-defence-contractor-may-be-linked-to-russia"
+            },
+            {
+              "date": "2026-08-19",
+              "event": "Ukraine's new defence minister takes office after a parliamentary vote, which the country's anti-corruption agencies had opened a probe ahead of.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/ukraines-anti-corruption-agencies-launch-probe-ahead-of-key-defence-minister-vote"
+            },
+            {
+              "date": "2026-08-19",
+              "event": "Mykhailo Fedorov, removed as defence minister, publicly calls for a presidential election to be held during the war - the most direct domestic challenge to President Volodymyr Zelensky since the 2022 invasion. Ukraine has not held elections under martial law.",
+              "source": "BBC, The Straits Times",
+              "url": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo"
+            },
+            {
+              "date": "2026-08-19",
+              "event": "German federal prosecutors say a second suspect in the 2022 Nord Stream pipeline sabotage investigation has been arrested in Croatia. Prosecutors have not published the suspect's identity or alleged role.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/second-suspect-in-nord-stream-case-arrested-in-croatia-say-german-prosecutors"
+            },
+            {
+              "date": "2026-08-19",
+              "event": "The Straits Times reports that Russia's 'pivot to Asia' is prioritising ties with isolated states over larger economies, as Moscow's options for trade and diplomacy narrow.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/russias-pivot-to-asia-takes-a-turn-as-it-prioritises-ties-with-isolated-regimes-over-bigger"
+            },
+            {
+              "date": "2026-08-19",
+              "event": "Kim Yo Jong, sister of North Korean leader Kim Jong Un, denies President Volodymyr Zelensky's claim that Pyongyang is deploying additional troops to support Russia. Kyiv has not withdrawn the claim.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/east-asia/north-korea-deny-russia-more-troops-ukraine-war-6328991"
+            },
+            {
+              "date": "2026-08-19",
+              "event": "Black Sea grain exports from both Russia and Ukraine grind to a virtual halt, The Straits Times reports, after weeks of strikes on port and terminal infrastructure on both sides.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/russia-and-ukraines-black-sea-grain-exports-grind-to-a-virtual-halt"
+            },
+            {
+              "date": "2026-08-19",
+              "event": "A suspected sabotage attack fails to disrupt deliveries by Estonian defence manufacturer Milrem to Ukraine, according to the company. Investigators have not publicly attributed the attempt.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/suspected-sabotage-attack-fails-to-disrupt-milrem-deliveries-to-ukraine"
+            },
+            {
+              "date": "2026-08-19",
+              "event": "Protests in Kyiv back former defence minister Mykhailo Fedorov's call for a wartime presidential election, Al Jazeera reports, turning his statement into the first visible street mobilisation on the question since 2022.",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/video/newsfeed/2026/8/19/19-08-reported-audreymacalpine-kyiv-ua"
+            },
+            {
+              "date": "2026-08-19",
+              "event": "Russia and Ukraine each hand over 103 prisoners of war in an exchange, one of the few channels between the two sides still operating.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/russia-and-ukraine-swap-103-prisoners-of-war-each"
+            },
+            {
+              "date": "2026-08-20",
+              "event": "Ukrainian officials say at least 15 people were killed and dozens injured in an overnight ballistic-missile and drone attack on Kyiv, with a nine-storey residential block destroyed in Solomianskyi district and a children's hospital, a school and warehouses damaged. The toll was revised upward through the day from an initial five. Moscow has not commented on the toll.",
+              "source": "BBC, CNN, The Moscow Times",
+              "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo"
+            },
+            {
+              "date": "2026-08-20",
+              "event": "Ukraine's air force says Russia launched dozens of missiles and 168 drones overnight and that most cruise missiles and nearly 90% of the drones were downed, without specifying how many ballistic missiles were fired or intercepted. Officials say Kyiv is effectively defenceless against ballistic missiles because of an acute shortage of interceptors.",
+              "source": "Ukrainian Air Force via BBC, NBC News",
+              "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo"
+            },
+            {
+              "date": "2026-08-20",
+              "event": "German prosecutors say a Ukrainian man has been arrested in Croatia over the 2022 Nord Stream pipeline sabotage, the second arrest in the investigation. Prosecutors have not detailed his alleged role.",
+              "source": "BBC, The Straits Times",
+              "url": "https://www.bbc.co.uk/news/articles/c78gp7l5348o"
+            },
+            {
+              "date": "2026-08-20",
+              "event": "Mykhailo Fedorov, removed as defence minister, calls for a presidential election to be held during the war - the most direct domestic challenge yet to President Volodymyr Zelensky. The Kremlin says the call shows splits in Kyiv.",
+              "source": "BBC, CNA, The Straits Times",
+              "url": "https://www.bbc.co.uk/news/articles/cdew8n9erlwo"
+            },
+            {
+              "date": "2026-08-20",
+              "event": "Poland says it has arrested a man over an alleged plot to assassinate an official in Ukraine's arms industry. Warsaw has not named the suspect or the intended target.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/poland-arrests-man-over-alleged-plot-to-assassinate-ukrainian-arms-industry-official"
+            },
+            {
+              "date": "2026-08-20",
+              "event": "Romania's defence minister says the country destroyed a marine drone near the Neptun Deep gas project in the Black Sea. Bucharest has not attributed the drone to a party.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/romania-destroys-marine-drone-near-neptun-deep-gas-project-minister-says"
+            },
+            {
+              "date": "2026-08-20",
+              "event": "Black Sea grain exports from both Russia and Ukraine remain at a virtual halt after weeks of strikes on port and terminal infrastructure on both sides.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/kremlin-says-ousted-ukrainian-ministers-call-for-elections-shows-splits-in-kyiv"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "Ukraine's State Emergency Service says at least 17 people were killed and more than 40 injured in the overnight attack on Kyiv, which struck blocks of flats and warehouses and damaged a children's hospital and a school. CNA's earlier count was 16. The figures are Ukrainian and have not been independently verified.",
+              "source": "BBC, CNA, The Straits Times (Ukraine State Emergency Service)",
+              "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "Kyiv mayor Vitali Klitschko tells the BBC that critical infrastructure was 'purposefully attacked' for the first time in several months, disrupting hot water supply in parts of the city.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/c98vzmden5yo"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "President Volodymyr Zelensky says Ukraine urgently needs more Patriot interceptors and that the shortage is costing lives.",
+              "source": "The Straits Times, CNA",
+              "url": "https://www.straitstimes.com/world/europe/russian-strikes-kill-17-in-ukraine-zelensky-says-lack-of-patriots-costing-lives"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "A senior Russian diplomat says Moscow is ready to consider new ideas on a Ukraine peace settlement but only on its own conditions, repeating that any talks must recognise the 'new realities on the ground'.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/russia-is-ready-for-new-ideas-on-ukraine-peace-but-with-conditions-senior-diplomat-says"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "Russia holds a rare missile test near the disputed islands north of Japan that Tokyo calls the Northern Territories.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/russia-holds-rare-missile-test-near-islands-claimed-by-japan"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "Australia charges a 27-year-old Russian-Australian citizen with foreign interference, alleging he joined Ukraine's armed forces to gather information on their military activities for Russia. The allegations have not been tested in court.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/australia-charge-man-informing-russia-ukraine-military-activity-foreign-intelligence-6332806"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "Russia's FSB says nine people have been arrested for planned attacks and espionage on behalf of Ukraine, according to Russian state agencies. Kyiv has not commented and the claims are not independently verified.",
+              "source": "The Straits Times (Russian state agencies)",
+              "url": "https://www.straitstimes.com/world/europe/russia-arrests-nine-for-planned-attacks-espionage-on-behalf-of-ukraine-state-agencies-report"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "A Ukrainian man wanted over the 2022 Nord Stream pipeline sabotage is detained in Croatia, the second arrest in the German-led investigation.",
+              "source": "The Straits Times, BBC",
+              "url": "https://www.straitstimes.com/world/europe/ukrainian-nord-stream-blast-suspect-detained-in-croatia"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "Mykhailo Fedorov, removed as defence minister, plans a trip to the United States to raise funding for his projects, The Straits Times reports - a sign his domestic challenge to Zelensky has shifted abroad after the wartime-election protests ended.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/ukraines-ousted-defence-minister-plans-us-trip-to-raise-project-funding"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "The BBC's Steve Rosenberg reports petrol shortages spreading in Russia as the cumulative effect of Ukrainian strikes on refineries and export infrastructure reaches ordinary consumers, though he finds little erosion of public support for the war.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/c4gknzgje7go"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "Japan lodges a formal protest over Russia's missile test near the disputed Kuril Islands, held days ahead of an expected Putin visit.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.channelnewsasia.com/east-asia/japan-protests-russia-missile-tests-disputed-islands-putin-visit-6333311"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "Russian drones strike a shopping centre in Kryvyi Rih, President Zelensky's home city, with a second drone hitting about half an hour after the first. Regional military head Oleksandr Hanzha says 16 people were killed and 130 injured, among them 23 children. Zelensky calls the two-wave attack 'cynical and despicable' and says the second strike targeted emergency workers at the scene; the BBC says it verified footage of the second drone hitting the already burning mall. Russia's military has not commented on the mall.",
+              "source": "BBC, The Straits Times, CNA",
+              "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "A separate Russian drone strike in the southern Mykolaiv region kills at least four people, three of them children, and wounds a woman, Ukrainian state media report.",
+              "source": "The Straits Times (Ukrainian state media)",
+              "url": "https://www.straitstimes.com/world/europe/five-killed-52-wounded-in-russian-strike-on-ukraines-kryvyi-rih"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "The leaders of France, Britain and Germany announce they will co-chair a meeting on Ukraine on Monday.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/french-british-german-leaders-to-co-chair-meeting-on-ukraine-on-monday"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "Russian state agencies report that nine people have been arrested on suspicion of planning attacks and conducting espionage on Ukraine's behalf. The claim comes from Russian authorities and has not been independently verified.",
+              "source": "The Straits Times (Russian state agencies)",
+              "url": "https://www.straitstimes.com/world/europe/russia-arrests-nine-for-planned-attacks-espionage-on-behalf-of-ukraine-state-agencies-report"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "Russia designates the independent news outlet Mediazona a 'foreign agent'.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/russia-designates-independent-mediazona-news-outlet-as-foreign-agent"
+            },
+            {
+              "date": "2026-08-22",
+              "event": "German authorities are investigating possible Russian links to a weapons cache discovered in woodland, according to reports cited by the BBC. The investigation is unconfirmed by German officials on the record.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cp9edjpvplpo"
+            },
+            {
+              "date": "2026-08-22",
+              "event": "Rescuers work through the night in the wreckage of the Kryvyi Rih shopping centre; Hanzha says the death toll reached 16 after another body was recovered overnight, with nine people reported still missing and 29 in a serious condition. Local officials say at least two more people were killed in further Russian strikes early on Saturday. Russia's defence ministry says it targeted transport infrastructure and warehouses.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o"
+            },
+            {
+              "date": "2026-08-22",
+              "event": "Ukrainian drone strikes on Russia kill at least 10 people according to Russian regional officials and halt work at a warehouse of the online retailer Ozon in the Samara region. Russia's figures are not independently verified.",
+              "source": "The Straits Times (Russian regional officials)",
+              "url": "https://www.straitstimes.com/world/europe/ukrainian-drones-hit-warehouse-of-russian-online-retailer-ozon-in-overnight-strikes"
+            },
+            {
+              "date": "2026-08-22",
+              "event": "The death toll from Friday's double-tap drone strike on a shopping centre in Kryvyi Rih rises to 16, with 130 injured and four people still missing, says Dnipropetrovsk regional head Oleksandr Hanzha. Rescue work may run for two more days.",
+              "source": "BBC (Dnipropetrovsk regional administration)",
+              "url": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o"
+            },
+            {
+              "date": "2026-08-22",
+              "event": "President Vladimir Putin says Ukraine has opened a 'Pandora's box' by striking economic targets and that Russia will hit back at Ukraine's 'most sensitive economic sectors'.",
+              "source": "The Straits Times (Kremlin)",
+              "url": "https://www.straitstimes.com/world/europe/putin-says-ukraine-opened-pandoras-box-with-strikes-on-economic-targets"
+            },
+            {
+              "date": "2026-08-22",
+              "event": "German Foreign Minister Johann Wadephul, visiting Ukraine, condemns what he calls Russia's escalating attacks on civilian areas.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/in-ukraine-german-fm-slams-russias-escalating-attacks"
+            },
+            {
+              "date": "2026-08-23",
+              "event": "President Volodymyr Zelensky says French President Emmanuel Macron agreed to accelerate deliveries of French air-defence equipment, after Kyiv said a shortage of interceptors was costing lives. Paris has not published a delivery schedule.",
+              "source": "The Straits Times (Ukrainian presidency)",
+              "url": "https://www.straitstimes.com/world/europe/france-agrees-to-accelerate-air-defence-deliveries-to-ukraine-zelenskiy-says"
+            },
+            {
+              "date": "2026-08-23",
+              "event": "Norway's government says it will give Ukraine another 85 billion Norwegian crowns (about US$9.2 billion) in financial support in the 2027 fiscal year, matching its 2026 contribution and split between military and humanitarian spending. Prime Minister Jonas Gahr Stoere announced it while visiting Kyiv with Nordic and Baltic leaders.",
+              "source": "The Straits Times (Norwegian government)",
+              "url": "https://www.straitstimes.com/world/europe/norway-to-give-over-9-billion-to-ukraine-in-2027"
+            },
+            {
+              "date": "2026-08-23",
+              "event": "President Volodymyr Zelensky says Ukraine believes Russia plans to draft an additional 300,000 troops after Russian parliamentary elections in mid-September, working towards 500,000 overall by 2027, and that Moscow is raising missile production to about 1,300 a year. These are Ukrainian assessments and have not been independently verified; the Kremlin has not confirmed them.",
+              "source": "The Straits Times (Ukrainian presidency)",
+              "url": "https://www.straitstimes.com/world/europe/putin-wants-to-draft-300000-new-troops-zelenskiy-says"
+            },
+            {
+              "date": "2026-08-23",
+              "event": "Zelensky rejects holding a wartime election, saying a vote during this kind of war would 'destroy' the country by splitting Ukrainians. It is his first response to ousted defence minister Mykhailo Fedorov's call for a poll. Elections in war are prohibited by Ukrainian law and the country has been under martial law since 2022.",
+              "source": "The Straits Times, BBC",
+              "url": "https://www.straitstimes.com/world/europe/wartime-election-would-destroy-ukraine-zelenskiy-says"
+            },
+            {
+              "date": "2026-08-23",
+              "event": "Sacked defence minister Mykhailo Fedorov tells the BBC that Zelensky should be asked what he knew about corruption in his government, following a money-laundering investigation announced last week, while saying he never saw the president act corruptly and never received an improper instruction from him. He repeats his call for a wartime vote.",
+              "source": "BBC (Mykhailo Fedorov)",
+              "url": "https://www.bbc.co.uk/news/articles/cwy4ypzvd7po"
+            }
+          ]
+        },
+        {
+          "name": "US/Israel-Iran (Strait of Hormuz)",
+          "status": "Still a war of announcements rather than fire, and everything now points at Monday, when US Treasury Secretary Scott Bessent unveils the sanctions package he has billed as 'the toughest sanctions in history'. Iran's foreign minister Abbas Araqchi has pre-emptively called the measures a sign of desperation that will fail, after security council chief Mohsen Rezai warned on state television that any country joining the US 'economic war' would be 'considered an enemy' - Iranian state claims that are not independently verified. Tehran also executed a man it accused of aiding the US and Israel during anti-government protests. Nearly six months after the 28 February US-Israeli strikes the two sides are not shooting at each other and there are no talks; oil movement through the Strait of Hormuz remains near a standstill, though Iran has let a number of Iraqi tankers through.",
+          "timeline": [
+            {
+              "date": "2026-08-06",
+              "event": "Iran says a deal with Oman on the Strait of Hormuz is in its final stages.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/world/middle_east"
+            },
+            {
+              "date": "2026-08-11",
+              "event": "Houthis reportedly kill six people in their first deadly attack since the start of the Iran war.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/world/middle_east"
+            },
+            {
+              "date": "2026-08-14",
+              "event": "Yemen's internationally recognised government says the Houthis fired six ballistic missiles at the Red Sea port of Mocha, killing four civilians. The Houthis have not commented.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east"
+            },
+            {
+              "date": "2026-08-14",
+              "event": "Treasury Secretary Scott Bessent says the US will step up economic pressure on Iran, as two more ships are reported attacked in the Strait of Hormuz.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world"
+            },
+            {
+              "date": "2026-08-15",
+              "event": "Abu Dhabi National Oil Company says one of its vessels came under attack while transiting the Strait of Hormuz the previous day, according to Emirati state media.",
+              "source": "The Straits Times, WAM",
+              "url": "https://www.straitstimes.com/world/middle-east"
+            },
+            {
+              "date": "2026-08-15",
+              "event": "Iran's deputy foreign minister Kazem Gharibabadi says the strait 'has been Iranian, is Iranian, and will remain Iranian', responding to Trump's threat to declare Hormuz US territory.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/iran-fires-back-trumps-threat-declare-hormuz-us-territory-6321731"
+            },
+            {
+              "date": "2026-08-15",
+              "event": "Yemen's Mocha port suspends commercial and maritime operations after being hit by more than 25 missiles in Houthi attacks over recent days, the port's management says.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east"
+            },
+            {
+              "date": "2026-08-16",
+              "event": "Qatar denies capturing three Iranian pilots, rejecting Tehran's claim that they have been held since Qatari forces downed two Iranian fighter jets.",
+              "source": "BBC, The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east"
+            },
+            {
+              "date": "2026-08-16",
+              "event": "Iran accuses Qatar of thwarting the investigation into the fate of the three pilots, according to Iranian state-linked media.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/iran-accuse-qatar-probe-pilots-war-6322221"
+            },
+            {
+              "date": "2026-08-16",
+              "event": "Iran's parliament advances a bill further criminalising interviews given to media the state designates as hostile.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/iranian-parliament-votes-to-further-criminalise-interviews-with-hostile-media"
+            },
+            {
+              "date": "2026-08-16",
+              "event": "Iran's army chief Amir Hatami announces a bounty of about US$30,000 for the killing or capture of US soldiers, saying the plan followed a 'large number of requests' to take part, according to state news agency IRNA.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/iran-offers-us30000-bounty-killing-capturing-us-soldiers-6322661"
+            },
+            {
+              "date": "2026-08-17",
+              "event": "The US and Iran pass the 60-day deadline set under June's ceasefire memorandum without agreeing a deal on Iran's nuclear programme. Washington has rescinded oil sanctions waivers and reimposed a naval blockade of Iranian ports; Iran keeps the Strait of Hormuz effectively closed.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/us-and-iran-blow-through-deadline-to-agree-to-a-broad-deal-to-end-war"
+            },
+            {
+              "date": "2026-08-17",
+              "event": "President Trump threatens to bomb Oman if it 'gets in the way' of a US deal with Iran on the Strait of Hormuz, according to a report carried by CNA.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/us-trump-threatens-bomb-oman-in-way-iran-deal-6323946"
+            },
+            {
+              "date": "2026-08-17",
+              "event": "Iran says it now considers the three missing pilots to be prisoners held in Qatar, saying they went missing during an operation against Al Udeid Air Base. Doha denies holding them.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/iran-considers-missing-pilots-to-be-prisoners-in-qatar"
+            },
+            {
+              "date": "2026-08-17",
+              "event": "Houthi military spokesman Yahya Saree says the group attacked a Saudi military ship and four escort vessels off Yemen's Mocha with missiles. Riyadh has not confirmed the claim.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/houthis-say-they-attacked-saudi-vessels-off-yemens-mocha"
+            },
+            {
+              "date": "2026-08-17",
+              "event": "Drones target the office of the Iraqi Kurdistan region's prime minister; no casualties are reported and no group has claimed responsibility.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/drones-target-office-of-iraqi-kurdistans-pm-no-casualties-reported"
+            },
+            {
+              "date": "2026-08-17",
+              "event": "Iran says two French embassy employees have been barred from returning to the country.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/iran-says-two-french-embassy-employees-barred-from-returning"
+            },
+            {
+              "date": "2026-08-17",
+              "event": "Iran threatens to 'go on the offensive' in the Strait of Hormuz if diplomacy with the United States fails, and says separately it will escalate if Washington does not honour June's memorandum within weeks. The threats are Tehran's own characterisation.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/iran-threatens-go-offensive-in-strait-hormuz-if-diplomacy-us-fails-6324116"
+            },
+            {
+              "date": "2026-08-17",
+              "event": "President Trump says Iran will not agree to the deal he believes is needed, and repeats his threat to strike Oman if it obstructs a Hormuz arrangement.",
+              "source": "BBC, The Straits Times",
+              "url": "https://www.bbc.co.uk/news/articles/cy5dzk0ryzdo"
+            },
+            {
+              "date": "2026-08-17",
+              "event": "Turkish President Recep Tayyip Erdogan urges Trump to pursue talks with Iran and offers Ankara's support in facilitating them.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/erdogan-urges-trump-to-pursue-talks-with-iran-offers-support"
+            },
+            {
+              "date": "2026-08-18",
+              "event": "Government bond yields jump and oil extends gains after the US-Iran ceasefire deadline passes without an agreement, with US stocks having fallen in the previous session on the same combination.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/business/bond-yields-jump-oil-extends-gains-us-iran-ceasefire-expires-6324846"
+            },
+            {
+              "date": "2026-08-18",
+              "event": "Iranian fishermen begin venturing back into waters near the Strait of Hormuz despite fears of renewed fighting, an early sign of civilian activity returning to the waterway even as it stays effectively closed to commercial traffic.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/iran-fishermen-venture-back-to-hormuz-despite-fears-of-new-fighting"
+            },
+            {
+              "date": "2026-08-18",
+              "event": "Iran's chief negotiator, parliament speaker Mohammad Bagher Ghalibaf, says the Strait of Hormuz will not reopen until the United States meets Tehran's conditions under the interim deal signed in June. Washington has not publicly responded to the specific terms.",
+              "source": "The Straits Times, CNA",
+              "url": "https://www.straitstimes.com/world/middle-east/iran-negotiator-ghalibaf-says-hormuz-will-not-open-until-us-meets-demands"
+            },
+            {
+              "date": "2026-08-18",
+              "event": "The UK Maritime Trade Operations agency says it received a report that a vessel transiting outbound through the Strait of Hormuz was struck by an unknown projectile, causing engine-room damage and one crew casualty. No party has claimed the strike.",
+              "source": "The Straits Times, UKMTO",
+              "url": "https://www.straitstimes.com/world/middle-east/vessel-struck-by-unknown-projectile-in-strait-of-hormuz-crew-casualty-reported-ukmto-says"
+            },
+            {
+              "date": "2026-08-18",
+              "event": "The United Arab Emirates says its air defences detected two ballistic missiles launched from Iran, both of which fell into the sea. Iran's foreign ministry rejects the statement as 'baseless'.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/uae-iran-two-missiles-shipping-6326876"
+            },
+            {
+              "date": "2026-08-18",
+              "event": "President Donald Trump says talks with Iran are neither taking place nor scheduled and asserts the Strait of Hormuz is open. Iran says the waterway will stay closed until Washington meets the terms of June's interim deal.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.straitstimes.com/world/trump-says-no-talks-are-taking-place-with-iran-and-none-are-scheduled"
+            },
+            {
+              "date": "2026-08-18",
+              "event": "Trump posts a map showing the Strait of Hormuz as US territory, days after Iran's deputy foreign minister said the strait 'has been Iranian, is Iranian, and will remain Iranian'.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/trump-strait-hormuz-map-us-territory-6326196"
+            },
+            {
+              "date": "2026-08-18",
+              "event": "France says it will expel two Iranian diplomats in the coming days over a July incident involving two staff of the French embassy in Tehran.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/france-to-expel-two-iranian-diplomats-in-coming-days-foreign-minister-says"
+            },
+            {
+              "date": "2026-08-18",
+              "event": "The US Justice Department unseals charges against 17 people it links to Iran's Mabna Institute over hacking of US universities, companies and government agencies.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/united-states/doj-unseals-new-charges-against-17-hackers-in-iran-backed-campaign"
+            },
+            {
+              "date": "2026-08-19",
+              "event": "The United Arab Emirates halts all trade and financial dealings with Iran, saying its air defences detected two ballistic missiles launched from Iranian territory and that Tehran has repeatedly targeted its tankers. Iran's foreign ministry rejects the missile allegation as baseless.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/uae-iran-two-missiles-shipping-6326876"
+            },
+            {
+              "date": "2026-08-19",
+              "event": "Iran warns Gulf countries against assisting the United States militarily, after the UAE's decision to cut trade ties.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/iran-warns-gulf-countries-us-military-uae-cut-trade-ties-6328211"
+            },
+            {
+              "date": "2026-08-19",
+              "event": "The Straits Times reports that the UAE's financial embargo puts the long-standing Abu Dhabi-Tehran rivalry back in the spotlight, with the UAE having been one of Iran's largest trade and re-export partners.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/uaes-financial-embargo-on-iran-after-missile-threat-puts-rivalry-back-in-spotlight"
+            },
+            {
+              "date": "2026-08-19",
+              "event": "Traffic through the Strait of Hormuz slows further as uncertainty over the waterway's status persists.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/hormuz-traffic-slows-as-uncertainty-over-waterway-persists"
+            },
+            {
+              "date": "2026-08-19",
+              "event": "The US Justice Department's charges against 17 people it links to Iran's Mabna Institute are reported in full, covering hacking of US universities, companies and government agencies. The defendants are not in US custody.",
+              "source": "BBC, The Straits Times",
+              "url": "https://www.bbc.co.uk/news/articles/c1m14n4llvvo"
+            },
+            {
+              "date": "2026-08-19",
+              "event": "Iran says its ambassador has met four Iranian nationals detained in Kuwait. Kuwaiti authorities have not commented publicly.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/iran-says-its-ambassador-met-four-nationals-detained-in-kuwait"
+            },
+            {
+              "date": "2026-08-19",
+              "event": "An Iranian academic detained in the United States over an alleged link to the 1979 hostage crisis writes about conditions in US detention, in an account published by the BBC.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cgjeped6ewxo"
+            },
+            {
+              "date": "2026-08-19",
+              "event": "President Donald Trump says on Truth Social that the United States is launching 'the most crushing economic operation ever taken against any country' against Iran, saying Tehran failed to take the chance to make a deal. No sanctions list has been published.",
+              "source": "Al Jazeera, BBC, CNA",
+              "url": "https://www.aljazeera.com/news/2026/8/19/trump-announces-most-crushing-economic-operation-ever-against-iran"
+            },
+            {
+              "date": "2026-08-19",
+              "event": "Trump warns that any country whose financial institutions, businesses, airports or government entities give Iran 'any type of lifeline' will face 'tremendous economic consequences'. The administration has not named which states it means.",
+              "source": "BBC, CNA, The Straits Times",
+              "url": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o"
+            },
+            {
+              "date": "2026-08-19",
+              "event": "The US warns that Siemens programmable logic controllers can be exploited, amid concern that Iranian-linked actors are breaching water treatment plants. CISA has issued advisories; no confirmed compromise of a US utility has been announced.",
+              "source": "The Straits Times, BleepingComputer (CISA)",
+              "url": "https://www.straitstimes.com/world/united-states/us-warns-siemens-devices-can-be-hacked-amid-fears-iran-is-breaching-water-plants"
+            },
+            {
+              "date": "2026-08-19",
+              "event": "Analysts tell Al Jazeera that maintenance problems aboard the carrier USS Abraham Lincoln illustrate the limits of sustaining US naval presence through a prolonged Iran conflict. The Navy has not commented on the assessment.",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/8/19/uss-lincoln-woes-highlight-us-navy-limits-in-prolonged-iran-war-experts"
+            },
+            {
+              "date": "2026-08-20",
+              "event": "Trump says he will impose tougher economic measures on Iran and warns that any country whose financial institutions, businesses, airports or government entities give Tehran 'any type of lifeline' will face consequences. No sanctions list or named target country has been published.",
+              "source": "BBC, CNA, The Straits Times",
+              "url": "https://www.bbc.co.uk/news/articles/c2k7e83ynj4o"
+            },
+            {
+              "date": "2026-08-20",
+              "event": "Iranian officials publicly deride Trump's threat of 'economic warfare'. Separately, Iran's military says it is prepared to conduct offensive strikes as diplomacy with Washington stalls; the statement is Tehran's and has not been independently corroborated.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/iran-military-threatens-offensive-strikes-us-diplomacy-stalls-6330121"
+            },
+            {
+              "date": "2026-08-20",
+              "event": "The Straits Times reports that Iran's practical control over traffic through the Strait of Hormuz is slipping, while the United States is far from having secured the waterway - leaving both sides short of their stated aims.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/iran-finds-control-over-the-hormuz-strait-slipping-away-but-the-us-is-far-from-becoming-victorious"
+            },
+            {
+              "date": "2026-08-20",
+              "event": "The US Justice Department charges 17 Iranian nationals linked to the Mabna Institute over an alleged US$3.4 billion theft of academic and corporate data. The defendants are not in US custody.",
+              "source": "BleepingComputer (US Department of Justice)",
+              "url": "https://www.bleepingcomputer.com/news/security/us-charges-iranian-hackers-over-34-billion-intellectual-property-theft/"
+            },
+            {
+              "date": "2026-08-20",
+              "event": "US agencies including the NSA, CISA, the FBI, the Department of Energy and the EPA warn that attackers are using AI-generated tooling against Siemens S7 programmable logic controllers, with water treatment operators among the concerns.",
+              "source": "BleepingComputer (CISA/NSA/FBI/DOE/EPA advisory)",
+              "url": "https://www.bleepingcomputer.com/news/security/us-warns-of-ai-powered-attacks-on-siemens-plcs-in-critical-infrastructure/"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "US Treasury Secretary Scott Bessent says the coming sanctions will be the toughest in history, will 'squash' Iran's economy and that Washington intends to 'collapse this regime', suggesting the move lessens the need for new major military operations. No details of the measures have been released.",
+              "source": "CNA, The Straits Times, BBC",
+              "url": "https://www.channelnewsasia.com/world/iran-us-china-bessent-sanctions-6331921"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "The BBC reports that Iran has for years proved adept at working around punishing sanctions, raising doubts about how much the threatened measures would bite.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cre4gdvlj9ro"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "The US Treasury issues fresh sanctions on Hezbollah, including re-designating it under a terrorism authority, in a move framed around the group's links to the Iranian government.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/u-s-targets-hezbollah-with-fresh-sanctions-emphasizes-ties-to-iranian-government"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "A new US aircraft carrier arrives in the Middle East to relieve the USS Abraham Lincoln, which has been on station for an extended deployment.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/uss-washington-carrier-lincoln-middle-east-6331816"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "Yemen's Houthis say they targeted a Saudi airport and a Saudi Aramco facility. Saudi authorities have not confirmed any damage and the claim is not independently verified.",
+              "source": "CNA (Houthi statement)",
+              "url": "https://www.channelnewsasia.com/world/yemen-houthi-rebels-attack-saudi-airport-aramco-6331696"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "Iranian President Masoud Pezeshkian says it is time to end the war: 'It is better that we bring the war to an end now as we are in a position of power and dignity.' It is the clearest signal yet from Iran's civilian leadership that Tehran wants an exit, and follows its foreign ministry accusing Washington of 'economic terrorism'.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/iran-president-time-end-war-us-sanctions-6333426"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "The chief of staff of Iran's armed forces, Major-General Ali Abdollahi, says Tehran will answer new US threats with 'crushing, punishing and devastating responses' across land, sea, air, air defence and cyberspace, according to Iranian media. Parliament speaker and chief negotiator Mohammad Bagher Ghalibaf says Washington appears to have concluded it cannot prevail militarily.",
+              "source": "The Straits Times (Iranian media)",
+              "url": "https://www.straitstimes.com/world/middle-east/iran-vows-devastating-response-as-us-threatens-toughest-ever-economic-hit"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "Treasury Secretary Scott Bessent says details of the threatened sanctions package will be published on Aug 24, after saying the measures will be the toughest in history and are intended to collapse the Iranian government.",
+              "source": "The Straits Times, CNA, BBC",
+              "url": "https://www.straitstimes.com/world/middle-east/us-says-it-will-impose-toughest-sanctions-in-history-on-iran"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "China says US 'sanctions and pressure' will not resolve the conflict and urges a political solution, rebuffing Washington's request that Beijing help isolate Iran's economy.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/east-asia/china-us-iran-sanctions-economic-pressure-6333101"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "A teenager pleads guilty in London over an arson attack on the offices of the Persian-language broadcaster Iran International.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/teen-pleads-guilty-over-arson-attack-on-iran-international-offices-in-london"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "NATO's supreme allied commander, US Air Force General Alexus Grynkewich, hosted a chiefs-of-defence videoconference on Aug 19 to help interested allies coordinate possible contributions to freedom of navigation in the Strait of Hormuz. His spokesperson stresses it is not a NATO mission; France and Britain have been assembling a coalition of about a dozen countries to guarantee safe passage, which would ultimately need Iranian acquiescence.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/nato-members-discuss-strait-of-hormuz-options-without-alliance-involvement"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "President Masoud Pezeshkian says it is time to end the war 'while we are in a position of power and dignity' - the clearest exit signal yet from Iran's civilian leadership, delivered as Washington prepares to publish its sanctions package on Aug 24.",
+              "source": "The Straits Times, CNA",
+              "url": "https://www.straitstimes.com/world/middle-east/irans-president-says-time-to-end-war-while-tehran-is-in-position-of-strength"
+            },
+            {
+              "date": "2026-08-22",
+              "event": "Iran's foreign ministry spokesman Esmaeil Baghaei calls the imminent US sanctions package an 'assertion of extraterritorial sovereignty over every independent member state of the United Nations' with 'no foundation in international law'. US Treasury Secretary Scott Bessent is due to detail the measures at a press conference at 2pm EDT on Monday and is pressing Beijing to cooperate; China, which buys more than 80 per cent of Iran's shipped oil on 2025 Kpler data, has urged diplomacy instead. The two sides are neither exchanging fire nor holding talks.",
+              "source": "The Straits Times, CNA",
+              "url": "https://www.straitstimes.com/world/middle-east/us-iran-keep-up-hostile-rhetoric-ahead-of-new-sanctions1"
+            },
+            {
+              "date": "2026-08-22",
+              "event": "Ship-tracking data shows only four commodity ships transited the Strait of Hormuz on Aug 20, none of them large crude or LNG carriers, with thousands of seafarers stranded on hundreds of vessels. US Energy Secretary Chris Wright says the US military helped move a seven-day average of 8 million barrels a day through the strait, against more than 20 million a day before the war.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/us-iran-keep-up-hostile-rhetoric-ahead-of-new-sanctions1"
+            },
+            {
+              "date": "2026-08-22",
+              "event": "Iran grants permission for a number of Iraqi oil tankers to transit the Strait of Hormuz after repeated requests from Baghdad, state news agency IRNA reports. Iraqi President Nizar Amedi says passage has been facilitated in recent days but calls the issue complicated. Traffic remains far below pre-war levels and ships continue to face attacks.",
+              "source": "The Straits Times (IRNA, Iraqi President Nizar Amedi)",
+              "url": "https://www.straitstimes.com/world/middle-east/iran-grants-permission-for-a-number-of-iraqi-oil-tankers-to-pass-through-hormuz"
+            },
+            {
+              "date": "2026-08-22",
+              "event": "US Treasury Secretary Scott Bessent schedules a 2pm EDT Monday press conference to unveil the sanctions package, having promised 'the toughest sanctions in history' and urged Beijing to cooperate. China buys more than 80% of Iran's shipped oil, according to 2025 data from analytics firm Kpler, and has urged diplomacy.",
+              "source": "The Straits Times, CNA",
+              "url": "https://www.straitstimes.com/world/middle-east/us-iran-keep-up-hostile-rhetoric-ahead-of-new-sanctions1"
+            },
+            {
+              "date": "2026-08-22",
+              "event": "Two US tanker aircraft leave Bulgaria's Bezmer air base, the Bulgarian defence minister says, nearly a month after their deployment angered Tehran.",
+              "source": "The Straits Times (Bulgarian defence ministry)",
+              "url": "https://www.straitstimes.com/world/europe/two-us-tanker-aircraft-leave-bulgaria-a-month-after-deployment-upset-iran"
+            },
+            {
+              "date": "2026-08-22",
+              "event": "An Iranian official urges Qatar to move detained pilots from a vessel to a hospital on land.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/iranian-official-urges-qatar-to-move-detained-pilots-to-hospital-on-land"
+            },
+            {
+              "date": "2026-08-23",
+              "event": "Iran's foreign ministry spokesman Esmaeil Baghaei denounces the US plan to announce new sanctions, calling it an 'assertion of extraterritorial sovereignty' over other states. CNA notes that after nearly six months since the US and Israel began strikes on Feb 28, the sides are not firing at each other but show no sign of peace talks, and that oil shipments through the Strait of Hormuz are at a virtual standstill.",
+              "source": "CNA (Iranian foreign ministry)",
+              "url": "https://www.channelnewsasia.com/world/iran-condemns-us-plans-announce-new-sanctions-6335291"
+            },
+            {
+              "date": "2026-08-23",
+              "event": "Mohsen Rezai, head of Iran's supreme national security council, warns on state television that any country joining the US 'economic war' will be 'considered an enemy'. US Treasury Secretary Scott Bessent is due to detail the package on Monday; China, which buys more than 80% of Iran's shipped oil according to 2025 Kpler data, has urged diplomacy.",
+              "source": "The Straits Times, CNA (Iranian state television)",
+              "url": "https://www.straitstimes.com/world/middle-east/iran-warns-any-country-joining-us-sanctions-will-be-considered-an-enemy"
+            },
+            {
+              "date": "2026-08-23",
+              "event": "Iranian Foreign Minister Abbas Araqchi dismisses the threatened US sanctions as 'repetitive scenarios' and a sign of desperation, saying they will fail to defeat Tehran. US Treasury Secretary Scott Bessent is due to detail the package at a 2pm EDT press conference on Monday, having promised 'the toughest sanctions in history'.",
+              "source": "The Straits Times (Iranian foreign ministry)",
+              "url": "https://www.straitstimes.com/world/middle-east/iran-says-new-sanctions-threatened-by-desperate-us-will-fail"
+            },
+            {
+              "date": "2026-08-23",
+              "event": "Iran executes a man it accused of aiding the United States and Israel during anti-government protests. The charges and the trial process are Iranian state accounts and have not been independently verified.",
+              "source": "The Straits Times (Iranian judiciary)",
+              "url": "https://www.straitstimes.com/world/middle-east/iran-executes-man-accused-of-aiding-us-israel-in-anti-govt-protests"
+            }
+          ]
+        },
+        {
+          "name": "Israel-Gaza & Lebanon",
+          "status": "Syria is the live flashpoint. Israel struck the village of Beit Jinn south-west of Damascus, saying it hit a 'terrorist' in the final stages of preparing an attack on its soldiers; Syria says the strike hit a civilian vehicle, injured several people and violated its sovereignty and international law. It was the second Israeli strike on Syria in a week, after an attack on the Abu al-Duhur airbase that Washington publicly called an 'unnecessary escalation'. Even so, Syrian Foreign Minister Asaad al-Shaibani says he expects security talks with Israel to resume soon, with Damascus seeking an Israeli withdrawal and an end to the strikes. Running underneath it is a widening Israel-Turkey standoff in which Ankara is seeking an Interpol notice for Netanyahu, which Israel calls a 'pathetic attempt' at intimidation. On the Gaza and West Bank track, the UK, Canada and Australia have called Israel's refusal to open a criminal investigation into the killing of aid workers 'shameful'.",
+          "timeline": [
+            {
+              "date": "2026-08-06",
+              "event": "Israel strikes south Lebanon after two soldiers are killed by an explosion.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/world/middle_east"
+            },
+            {
+              "date": "2026-08-09",
+              "event": "Prime Minister Benjamin Netanyahu says Israel rejects President Trump's 15-point plan for Gaza.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/world/middle_east"
+            },
+            {
+              "date": "2026-08-13",
+              "event": "Palestinians are told to leave homes in the West Bank village of Qusra that Israeli settlers had besieged.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/world/middle_east"
+            },
+            {
+              "date": "2026-08-14",
+              "event": "Israeli forces block activists attempting to deliver aid to Palestinian families besieged by settlers at Qusra.",
+              "source": "BBC, The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east"
+            },
+            {
+              "date": "2026-08-14",
+              "event": "US officials say Washington wants Netanyahu to publicly condemn the settler siege at Qusra. Netanyahu has not commented publicly.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world"
+            },
+            {
+              "date": "2026-08-15",
+              "event": "Israeli airstrikes on Ansar and Deir al-Zahrani in southern Lebanon kill at least 11 people, Lebanon's health ministry says, in the deadliest day since the June truce. Israel says the strikes targeted Hezbollah.",
+              "source": "BBC, CNA",
+              "url": "https://www.channelnewsasia.com/world/lebanon-reports-11-dead-in-strikes-israel-says-targeted-hezbollah-6321486"
+            },
+            {
+              "date": "2026-08-16",
+              "event": "A Hamas delegation led by Khalil al-Hayya holds talks with Egypt's intelligence chief in Cairo on a plan for Gaza.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/hamas-delegation-egypt-spy-chief-hold-talks-on-gaza-plan-official"
+            },
+            {
+              "date": "2026-08-16",
+              "event": "US envoy Jared Kushner meets Hamas chief Khalil al-Hayya in Cairo - a rare direct meeting between a senior US official and the group's leadership - while Israel carries out fresh strikes on Gaza.",
+              "source": "The Straits Times, BBC",
+              "url": "https://www.straitstimes.com/world/middle-east/who-is-khalil-al-hayya-the-hamas-leader-who-met-kushner-in-cairo"
+            },
+            {
+              "date": "2026-08-16",
+              "event": "The Pope calls for an end to violence against Palestinians in the occupied West Bank.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east"
+            },
+            {
+              "date": "2026-08-17",
+              "event": "Kushner meets Netanyahu in Jerusalem to push Trump's Gaza plan, a day after the Cairo meeting. Israel rejected the plan on 9 August and has not said whether its position has changed.",
+              "source": "BBC, The Straits Times, CNA",
+              "url": "https://www.bbc.co.uk/news/articles/c77gg5vn44yo"
+            },
+            {
+              "date": "2026-08-17",
+              "event": "UNIFIL says Israeli flags placed along a road in southern Lebanon violate UN Security Council Resolution 1701. Israel has not responded publicly.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/israeli-flags-on-lebanon-road-violate-un-resolution-unifil-says"
+            },
+            {
+              "date": "2026-08-17",
+              "event": "Kushner's round of talks with Israel and Hamas ends without a breakthrough on Trump's Gaza plan. US officials say Netanyahu and Kushner discussed Hamas handing over weapons under the supervision of an American general, with disarmament possibly beginning within 30 days; Hamas has not publicly accepted disarmament.",
+              "source": "The Straits Times, CNA, BBC",
+              "url": "https://www.straitstimes.com/world/middle-east/netanyahu-presses-role-for-us-general-in-hamas-disarmament"
+            },
+            {
+              "date": "2026-08-18",
+              "event": "An Israeli settler walks onto the land of Loui Ridi, a Palestinian American whose West Bank home in Qusra has been besieged by settlers, in a tense face-to-face confrontation. The Israeli authorities have not commented on the incident.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/israeli-settler-confronts-palestinian-american-at-his-besieged-west-bank-home"
+            },
+            {
+              "date": "2026-08-18",
+              "event": "An Israeli airstrike kills at least six Palestinians in the Gaza Strip, health officials say, a day after Jared Kushner's regional trip ended without advancing Trump's plan to end the war. Israel has not commented on the strike.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/israel-kills-six-in-gaza-on-day-after-kushner-meeting-with-netanyahu-medics-say"
+            },
+            {
+              "date": "2026-08-18",
+              "event": "A US envoy says Washington is working on a deconfliction mechanism between Turkey, Israel and Syria to avoid clashes as all three operate in Syrian territory.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/us-working-on-deconfliction-mechanism-among-turkey-israel-and-syria-us-envoy-says"
+            },
+            {
+              "date": "2026-08-18",
+              "event": "The United States sanctions ICC president Tomoko Akane and senior trial lawyer Abdoulaye Seye, extending a campaign that began with the court's warrants against Israeli officials over alleged war crimes in Gaza. The ICC says the measures undermine the rule of law.",
+              "source": "BBC, CNA, The Straits Times",
+              "url": "https://www.bbc.co.uk/news/articles/cnvnl0elz47o"
+            },
+            {
+              "date": "2026-08-18",
+              "event": "Syrian state television reports eight Israeli airstrikes on the disused Abu al-Duhur military airfield in Idlib province, saying there were no casualties. Damascus calls the attack an unjustified act of aggression.",
+              "source": "The Straits Times, Al Jazeera",
+              "url": "https://www.straitstimes.com/world/middle-east/eight-israeli-airstrikes-hit-syrias-abu-al-duhur-airbase-no-casualties-state-tv-reports"
+            },
+            {
+              "date": "2026-08-19",
+              "event": "US envoy Tom Barrack says Washington is deeply concerned by Israel's strikes on the Abu al-Duhur airbase and calls them an 'unnecessary escalation that does not advance regional stability'.",
+              "source": "BBC, CNA, Al Jazeera",
+              "url": "https://www.channelnewsasia.com/world/turkiye-rejects-israeli-claims-after-strike-syria-air-base-6326741"
+            },
+            {
+              "date": "2026-08-19",
+              "event": "Turkey rejects as untenable Israel's claim that it struck the Abu al-Duhur airbase to prevent Turkish forces deploying there. Washington says it is working on a deconfliction mechanism between Turkey, Israel and Syria.",
+              "source": "The Straits Times, CNA",
+              "url": "https://www.straitstimes.com/world/europe/turkey-slams-israels-untenable-claims-after-strikes-on-syrian-base"
+            },
+            {
+              "date": "2026-08-19",
+              "event": "The Israeli military says it has ordered criminal investigations into the January 2024 killing of five-year-old Hind Rajab in Gaza City and into the killings of Palestinian paramedics and rescue workers. Israel had previously said its forces were unaware of the vehicle Hind Rajab was in.",
+              "source": "BBC, CNA, The Straits Times",
+              "url": "https://www.bbc.co.uk/news/articles/crl7yjlpx2po"
+            },
+            {
+              "date": "2026-08-19",
+              "event": "The International Criminal Court calls the US sanctions on its president, Tomoko Akane, and senior trial lawyer Abdoulaye Seye a 'flagrant attack' on the tribunal's independence. Japan separately calls the designations 'unfortunate'.",
+              "source": "The Straits Times, CNA, BBC",
+              "url": "https://www.straitstimes.com/world/international-criminal-court-says-us-sanctions-flagrant-attack-on-tribunals-independence"
+            },
+            {
+              "date": "2026-08-19",
+              "event": "The BBC reports that thousands of people remain missing in Gaza, with recovery and identification work far behind the scale of the task and families still searching for answers.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/ce34r0er75go"
+            },
+            {
+              "date": "2026-08-19",
+              "event": "Syria arrests an Assad-era officer who had fled Austria after being convicted there.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/syria-arrests-assad-era-officer-who-fled-austria-after-conviction"
+            },
+            {
+              "date": "2026-08-19",
+              "event": "An Israeli airstrike on a Gaza police station kills nine Palestinians, medics say; Al Jazeera reports the strike hit the Gaza City police headquarters and killed the head of the women's police. Israel has not published its account of the target.",
+              "source": "The Straits Times, Al Jazeera",
+              "url": "https://www.straitstimes.com/world/middle-east/israeli-airstrike-kills-nine-palestinians-at-gaza-police-station-medics-say"
+            },
+            {
+              "date": "2026-08-19",
+              "event": "Sources tell The Straits Times that the Mossad chief and Syria's foreign minister discussed Turkish military deployments before Israel's strikes on the Abu al-Duhur airbase. Neither government has confirmed the meeting.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/mossad-director-syria-foreign-minister-discussed-turkish-military-deployments-before-strikes-sources"
+            },
+            {
+              "date": "2026-08-19",
+              "event": "Lebanon hands a former Assad-era Syrian army general to Damascus after an arrest warrant, the first such transfer since Assad's fall.",
+              "source": "The Straits Times, Al Jazeera",
+              "url": "https://www.straitstimes.com/world/middle-east/lebanon-hands-assad-era-general-to-syria-in-first-such-transfer-since-assads-fall"
+            },
+            {
+              "date": "2026-08-20",
+              "event": "The Israeli military confirms its soldiers fired at the car in which five-year-old Hind Rajab was killed in Gaza City in January 2024, reversing its earlier account, and opens a criminal investigation. Her family says it does not trust the Israeli judiciary.",
+              "source": "BBC, Al Jazeera, CNA",
+              "url": "https://www.bbc.co.uk/news/articles/crl7yjlpx2po"
+            },
+            {
+              "date": "2026-08-20",
+              "event": "The United States commits US$206 million towards an international stabilisation force for Gaza, despite its 15-point peace plan remaining deadlocked.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/us-provide-206-million-gaza-peace-plan-israel-palestinians-6329441"
+            },
+            {
+              "date": "2026-08-20",
+              "event": "Australia says it is 'outraged' after Israel decides not to open a criminal investigation into the killing of an Australian World Central Kitchen aid worker in Gaza.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cp87g29r718o"
+            },
+            {
+              "date": "2026-08-20",
+              "event": "Israel opens bidding for construction in a highly sensitive area of the occupied West Bank; critics say the project would sever the northern West Bank from the south. Britain's foreign minister says he plans sanctions over settlement expansion.",
+              "source": "BBC, The Straits Times",
+              "url": "https://www.bbc.co.uk/news/articles/cly50gn1e54o"
+            },
+            {
+              "date": "2026-08-20",
+              "event": "US ambassador to Israel Mike Huckabee warns Israeli settlers not to take land belonging to Palestinian Americans.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/us-envoy-huckabee-tells-israeli-settlers-not-to-take-palestinian-americans-land"
+            },
+            {
+              "date": "2026-08-20",
+              "event": "The BBC reports multiple deadly Israeli strikes across Gaza in under 24 hours. Casualty figures are from Gaza health officials and have not been independently verified.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/videos/cp3rgxzk5x2o"
+            },
+            {
+              "date": "2026-08-20",
+              "event": "Israel and Turkey step up warnings over Syria after Israel's bombing of the Abu al-Duhur airbase; Syria says no Turkish military build-up is planned there. The Straits Times reports Netanyahu is putting Turkey in Israel's crosshairs as an election approaches.",
+              "source": "The Straits Times, CNA",
+              "url": "https://www.straitstimes.com/world/europe/syria-says-no-turkish-military-build-up-planned-at-airbase-struck-by-israel"
+            },
+            {
+              "date": "2026-08-20",
+              "event": "An Assad-era officer is extradited to Syria to face war crimes charges, the first such extradition since Assad's fall, after Lebanon handed a former Assad-era general to Damascus under an arrest warrant.",
+              "source": "BBC, The Straits Times, Al Jazeera",
+              "url": "https://www.bbc.co.uk/news/articles/cvgjdy8q766o"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "The UK, France, Germany, Italy and Canada issue a joint statement demanding Israel withdraw plans for more than 1,200 homes in the E1 area of the occupied West Bank, a day after Israel opened bidding. The UN has said the E1 plan poses an 'existential threat' to a contiguous Palestinian state; Israel rejects the criticism.",
+              "source": "BBC, CNA, The Straits Times",
+              "url": "https://www.bbc.co.uk/news/articles/c998evlgz8ko"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "Australia says it is 'outraged' after Israel decided not to open a criminal investigation into the killing of an Australian aid worker in Gaza.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cp87g29r718o"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "Thirty settler families move into Kadim, outside Jenin in the occupied West Bank, 21 years after a previous Israeli government evacuated it under the 2005 Disengagement Plan; the current government has overturned a 20-year ban on settlement around Jenin. Finance Minister Bezalel Smotrich, the Justice Minister and the Knesset Speaker attend the ceremony. All settlements are illegal under international law; Israel disputes this.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cn7n0l4p0kzo"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "ICC president Tomoko Akane, sanctioned by Washington on Aug 18, warns the measures point towards the 'demise of international rule of law'.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/us-sanctioned-icc-head-akane-warns-against-demise-of-international-rule-of-law"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "The UK, Canada and Australia issue a joint statement calling 'shameful' Israel's decision not to open a criminal investigation into the April 2024 strikes on a World Central Kitchen convoy that killed seven aid workers. Israel's ambassador to Australia, Hillel Newman, says there was 'no criminal intention' and therefore no criminal responsibility.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cvgl2pe09eno"
+            },
+            {
+              "date": "2026-08-21",
+              "event": "Israeli forces shoot dead a Palestinian teenager after settlers entered a West Bank village, according to Palestinian officials. The Israeli military's account has not been reported alongside it.",
+              "source": "The Straits Times (Palestinian officials)",
+              "url": "https://www.straitstimes.com/world/middle-east/israeli-shoots-dead-palestinian-teen-after-settlers-enter-west-bank-village-officials-say"
+            },
+            {
+              "date": "2026-08-22",
+              "event": "Israel rejects Turkey's move to seek an Interpol red notice for Prime Minister Benjamin Netanyahu over the Gaza aid flotilla case, calling it a 'pathetic attempt' to intimidate its leaders and soldiers. Netanyahu calls President Recep Tayyip Erdogan an 'antisemitic dictator'.",
+              "source": "The Straits Times, CNA",
+              "url": "https://www.straitstimes.com/world/middle-east/turkey-to-seek-interpol-notice-for-netanyahu-in-gaza-flotilla-case"
+            },
+            {
+              "date": "2026-08-22",
+              "event": "Former French and British ambassadors urge Paris and London to take joint action on the Palestinian territories, where violence in the Israeli-occupied West Bank has surged since the Gaza war began.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/france-uk-palestinian-territories-action-israel-6334816"
+            },
+            {
+              "date": "2026-08-22",
+              "event": "Israel says it fired at a 'terrorist' in southern Syria; Syria's foreign ministry says an Israeli drone hit a civilian car near Beit Jinn, west of Damascus, calling it a 'blatant violation' of Syrian sovereignty. Syrian state TV reports one person injured. It is the second Israeli strike in Syria in a week, after the Abu al-Duhur airbase attack the US called an 'unnecessary escalation'.",
+              "source": "BBC, CNA, The Straits Times (Israeli military, Syrian foreign ministry)",
+              "url": "https://www.bbc.co.uk/news/articles/c2dkdegr2xeo"
+            },
+            {
+              "date": "2026-08-22",
+              "event": "The Straits Times reports that the widening confrontation between Israel and Turkey could reshape the region, with Syria - which physically separates the two - bearing the brunt of their rivalry.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/growing-confrontation-between-israel-and-turkey-could-reshape-middle-east"
+            },
+            {
+              "date": "2026-08-23",
+              "event": "Syria's government condemns the Israeli strike on the village of Beit Jinn, south-west of Damascus, as a violation of its sovereignty and of international law; officials say it hit a civilian vehicle and injured several people. The Israeli military says it targeted a 'terrorist' in the 'final stages' of preparing attacks posing an immediate threat to its soldiers.",
+              "source": "BBC, CNA, The Straits Times (Syrian officials, Israeli military)",
+              "url": "https://www.bbc.co.uk/news/articles/c2dkdegr2xeo"
+            },
+            {
+              "date": "2026-08-23",
+              "event": "US ambassador to Turkey Tom Barrack says the earlier Israeli strike on the Abu al-Duhur airbase could be 'the Israelis baiting the Turks' in an attempt to draw Ankara into a conflict. Washington had already called that strike an 'unnecessary escalation that does not advance regional stability'.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/c2dkdegr2xeo"
+            },
+            {
+              "date": "2026-08-23",
+              "event": "Syrian Foreign Minister Asaad al-Shaibani says he expects security talks with Israel to resume soon despite an absence of trust, with Damascus seeking an Israeli withdrawal from Syrian land and an end to strikes. He says the US is pressing Israel to return to negotiations, and denies Syria allowed Turkish forces at the airbase Israel bombed this week.",
+              "source": "The Straits Times (Syrian foreign ministry)",
+              "url": "https://www.straitstimes.com/world/middle-east/syria-foreign-minister-sees-israel-security-talks-resuming-despite-no-trust"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "DR Congo's Bundibugyo Ebola outbreak keeps outrunning the response — it is now the largest Ebola epidemic the country has ever documented, and close to half of confirmed patients are dying. Europe's summer threats are milder but broadening, with West Nile transmission reaching 21 newly affected areas in a single week and a festival measles cluster still finding unvaccinated contacts. The one to watch is Australia's first H5N1 infection in a local mammal, a fur seal in South Australia: mammal cases are the step that usually precedes wider spillover, so expect closer surveillance of marine wildlife there over the coming weeks.",
+      "outbreaks": [
+        {
+          "name": "DR Congo — Ebola (Bundibugyo virus)",
+          "status": "Still expanding; largest Ebola outbreak ever documented in DR Congo",
+          "cases": 5290,
+          "deaths": 2516,
+          "countries": 3,
+          "as_of": "2026-08-20",
+          "scope_note": "DR Congo confirmed cases and confirmed deaths only, per ECDC's week-34 CDTR (data to 19 Aug); crude case-fatality ratio about 47%. Uganda reported 20 confirmed cases and two deaths and declared its outbreak over on 28 Jul; one exported case was reported in France. WHO's latest formal Disease Outbreak News (DON615, 14 Aug) counted 4,686 confirmed cases and 2,186 deaths across all three countries as of 12 Aug — the newer ECDC/DRC figures are not yet DON-ratified."
+        },
+        {
+          "name": "Europe — West Nile virus (2026 season)",
+          "status": "Seasonal transmission still accelerating; 21 areas newly affected this week",
+          "cases": 625,
+          "deaths": "—",
+          "countries": 12,
+          "as_of": "2026-08-21",
+          "scope_note": "Locally acquired human cases reported to ECDC's EpiPulse for the 2026 transmission season as at 21 Aug, across 98 affected areas in 12 countries: Italy 311, Greece 157, Spain 63, North Macedonia 37, Romania 28, France 17, Serbia 6, Netherlands 2, and one each in Albania, Austria, Germany and Kosovo. ECDC's weekly overview does not publish a season death toll."
+        },
+        {
+          "name": "Australia — H5N1 avian influenza",
+          "status": "First infection in a local mammal; no poultry or agricultural cases reported",
+          "cases": 297,
+          "deaths": "—",
+          "countries": 1,
+          "as_of": "2026-08-23",
+          "scope_note": "Confirmed H5N1 detections nationwide since the virus reached Australia in June, per the federal government's count published on 21 Aug. The 297 are animal detections, overwhelmingly in wild birds; the figure is not a human case count. A long-nosed fur seal found dead at Beachport, South Australia is the country's first confirmed mammal case."
+        },
+        {
+          "name": "EU/EEA — Dermatophilus congolensis skin infections",
+          "status": "Spreading; four new countries since the June risk assessment",
+          "cases": 126,
+          "deaths": 0,
+          "countries": 10,
+          "as_of": "2026-08-20",
+          "scope_note": "Confirmed human skin infections across Austria, Denmark, France, Germany, the Netherlands, Norway, Spain, Sweden, Switzerland and the UK, per ECDC's week-34 CDTR. Denmark, the Netherlands, Switzerland and the UK are new since ECDC's 17 Jun rapid risk assessment. Infections have generally been mild and resolve with antibiotics."
+        },
+        {
+          "name": "Europe — Salmonella Enteritidis ST11 cluster",
+          "status": "Ongoing; new cases reported in early August",
+          "cases": 341,
+          "deaths": "—",
+          "countries": 7,
+          "as_of": "2026-08-21",
+          "scope_note": "Multi-country cluster of cases reported between May 2025 and August 2026 whose isolates sequence-cluster with the UK outbreak strain, per ECDC's week-34 CDTR. Cases are in the UK (61% of the total), the Netherlands (31%), Austria, Belgium, Denmark, France and Germany. No death toll published."
+        },
+        {
+          "name": "Sweden & Finland — festival measles cluster",
+          "status": "Contained so far; more cases possible among unvaccinated attendees",
+          "cases": 27,
+          "deaths": 0,
+          "countries": 2,
+          "as_of": "2026-08-21",
+          "scope_note": "Epidemiologically linked cases across nine regions in Sweden and one in Finland (Åland), all traced to a music festival in northern Sweden attended by about 10,000 people, roughly 10% of them international visitors. Most cases are unvaccinated school-age children and young adults. ECDC rates the risk to the highly vaccinated general population as low."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "Australia confirms its first H5N1 bird flu case in a local mammal",
+          "category": "Avian influenza",
+          "summary": "A long-nosed fur seal found dead at Beachport in South Australia, about 300km south of Adelaide, has tested positive for H5N1 — Australia's first confirmed case in a local mammal. Federal agriculture minister Julie Collins called it 'concerning' but 'not unexpected' where infection rates in wild birds are high. The government said on 21 August that 297 cases have been confirmed nationwide since the virus arrived in June; it has not been found in poultry or agriculture.",
+          "source": "CNA, ABC News (Australian federal agriculture ministry)",
+          "published_at": "2026-08-23T15:05+08:00",
+          "url": "https://www.channelnewsasia.com/world/australia-confirms-first-h5n1-bird-flu-case-in-local-mammal-6335541"
+        },
+        {
+          "id": "ob2",
+          "headline": "ECDC week-34 report puts DR Congo's Ebola toll at 5,290 confirmed cases and 2,516 deaths",
+          "category": "Ebola",
+          "summary": "ECDC's Communicable Disease Threats Report for 15–21 August records 5,290 confirmed Bundibugyo virus cases and 2,516 confirmed deaths in DR Congo as of 20 August, based on data to 19 August, across six provinces. Uganda has reported no new cases since 21 June and declared its outbreak over on 28 July after 20 confirmed cases and two deaths. ECDC assesses the likelihood of infection for people in the EU/EEA as very low.",
+          "source": "ECDC Communicable Disease Threats Report, week 34",
+          "published_at": "2026-08-21T23:31+08:00",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-15-21-august-2026-week-34"
+        },
+        {
+          "id": "ob3",
+          "headline": "West Nile virus reaches 21 newly affected areas in Europe in a single week",
+          "category": "West Nile virus",
+          "summary": "ECDC's weekly surveillance overview identifies 98 areas affected by West Nile virus across 12 European countries as at 21 August, of which 21 were reported affected for the first time this season. The 12 countries have reported 625 locally acquired human infections, with Italy (311) and Greece (157) accounting for most. The data supports blood-donor deferral and testing decisions in affected regions.",
+          "source": "ECDC weekly West Nile virus surveillance",
+          "published_at": "2026-08-21T23:31+08:00",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/seasonal-surveillance-west-nile-virus-infections-weekly-report"
+        },
+        {
+          "id": "ob4",
+          "headline": "WHO says DR Congo's Bundibugyo outbreak is now the country's largest Ebola epidemic on record",
+          "category": "Ebola",
+          "summary": "WHO's Disease Outbreak News of 14 August reported 4,686 confirmed cases and 2,186 deaths as of 12 August — 4,665 cases in DR Congo (case-fatality ratio 46.8%), 20 in Uganda and one in France. That already exceeds the 3,317 cases of the 2018–2020 outbreak, making this the largest Ebola outbreak documented in DR Congo. WHO attributed part of the 1,060-case rise since 1 August to stronger surveillance and testing, but said most of it reflects genuine expansion of the outbreak.",
+          "source": "WHO Disease Outbreak News (2026-DON615)",
+          "published_at": "2026-08-14",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON615"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "Patch Cisco and GitLab first: Cisco shipped fixes for nine Crosswork and Secure Workload flaws, five of them scoring a perfect CVSS 10.0, while attackers began exploiting GitLab's CVE-2026-19478 about two days after disclosure. Microsoft's maximum-severity Entra ID bug needs nothing from you — it was mitigated server-side, and Microsoft has since retracted its 'exploited' label. The rest of the cycle was a supply-chain one: poisoned Rust crates and trojanised npm packages that run their payload at build time, so a clean compile was enough to get infected. If you run WordPress with Elementor Pro, Zimbra with SNMP enabled, or an AI agent platform built on isolated-vm, treat those as urgent too.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "TikTok agrees to $400 million settlement in US child privacy lawsuit",
+          "category": "Privacy & Legal",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "TikTok has agreed to a $400 million settlement of a US lawsuit over the handling of children's personal data. No technical action is required of defenders, but the size of the settlement sets a marker for how children's-data claims are being priced in the US.",
+          "source": "The Hacker News",
+          "published_at": "2026-08-22T22:32+08:00",
+          "url": "https://thehackernews.com/2026/08/tiktok-agrees-to-400-million-settlement.html"
+        },
+        {
+          "id": "cs2",
+          "headline": "Android car head units infected with proxy-botnet and ad-fraud malware via built-in updaters",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Attackers are abusing the built-in over-the-air updaters on Android-based car head units to install malware that enrols the units in a residential proxy botnet and commits ad fraud. The devices are rarely monitored, run outdated Android builds and often sit on the owner's home or mobile network, making them useful relay infrastructure.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-08-22T22:14+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-infect-android-car-head-units-with-proxy-botnet-malware/"
+        },
+        {
+          "id": "cs3",
+          "headline": "14 trojanised npm packages drop the RedC2 4.0 Linux backdoor",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Fourteen malicious npm packages were found installing RedC2 4.0, a Linux backdoor whose command-and-control tooling is described as AI-assisted. Installing any of the packages is enough to plant the implant, so organisations should audit recent npm installs and lockfile changes rather than relying on runtime detection.",
+          "source": "The Hacker News",
+          "published_at": "2026-08-22T02:53+08:00",
+          "url": "https://thehackernews.com/2026/08/14-trojanized-npm-packages-drop-redc2.html"
+        },
+        {
+          "id": "cs4",
+          "headline": "Hundreds of leaked AWS keys give full control over corporate accounts",
+          "category": "Cloud Exposure",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers found hundreds of live AWS access keys exposed in public sources that grant broad or full administrative control over the corporate accounts behind them. This is a credential-hygiene problem rather than a product flaw: rotate long-lived keys, scan repositories and build artefacts for secrets, and prefer short-lived role credentials.",
+          "source": "BleepingComputer",
+          "published_at": "2026-08-21T23:55+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/hundreds-of-leaked-aws-keys-give-full-control-over-corporate-accounts/"
+        },
+        {
+          "id": "cs5",
+          "headline": "Microsoft Defender's own signed boot-time driver can be weaponised to delete security software",
+          "category": "Security Research",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Check Point Research's Jiri Vinopal showed at Black Hat USA 2026 and DEF CON 34 on 20 August that BTR.sys — the legitimately signed boot-time remediation driver embedded in Defender's MpEngine.dll — can be abused for arbitrary kernel-level file and registry operations on Windows 7 through Windows 11 25H2, including deleting rival security products before they start. A proof-of-concept tool, BTR_CLI, was published. Check Point says it found no evidence the technique has been used in real attacks, which leaves room to build detections first.",
+          "source": "The Hacker News (Check Point Research)",
+          "published_at": "2026-08-21T23:52+08:00",
+          "url": "https://thehackernews.com/2026/08/microsoft-defenders-own-driver-can-be.html"
+        },
+        {
+          "id": "cs6",
+          "headline": "CISA orders federal agencies to patch actively exploited TrueConf Server flaws",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-72530, CVE-2026-72529",
+          "cvss": 9.5,
+          "severity": "CRITICAL",
+          "summary": "CISA added two TrueConf Server flaws to its Known Exploited Vulnerabilities catalog on 20 August, giving federal agencies a patch deadline. Both are reachable by an unauthenticated remote attacker over port 4307/TCP: CVE-2026-72530 (code injection, CVSS 9.5 per NVD) and CVE-2026-72529 (missing authentication for a critical function, CVSS 9.3). Versions 5.3.x to 5.3.9, 5.4.x to 5.4.9, 5.5.x to 5.5.5 and earlier are affected.",
+          "source": "BleepingComputer, CISA KEV, NVD",
+          "published_at": "2026-08-21T20:25+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-trueconf-server-flaws/"
+        },
+        {
+          "id": "cs7",
+          "headline": "Attackers abuse FTP server banners to deliver new Windows malware",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A campaign is hiding staged payloads inside FTP server banner text, letting an implant pull its next stage from a protocol interaction that most monitoring treats as benign. Defenders should look for outbound FTP from workstations and unusually long banner responses.",
+          "source": "BleepingComputer",
+          "published_at": "2026-08-21T19:00+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-abuse-ftp-server-banners-to-deliver-new-windows-malware/"
+        },
+        {
+          "id": "cs8",
+          "headline": "SickKids data breach exposes employee and job applicant information",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Toronto's Hospital for Sick Children (SickKids) disclosed a breach exposing employee and job-applicant data. Patient care systems were not reported as affected. The hospital is notifying those involved.",
+          "source": "BleepingComputer",
+          "published_at": "2026-08-21T18:10+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/sickkids-data-breach-exposes-employee-and-job-applicant-info/"
+        },
+        {
+          "id": "cs9",
+          "headline": "Cisco patches nine Crosswork and Secure Workload flaws, five scoring CVSS 10.0",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-20030, CVE-2026-20357, CVE-2026-20358, CVE-2026-20315",
+          "cvss": 10.0,
+          "severity": "CRITICAL",
+          "summary": "Cisco's 19 August hardening advisories cover four critical Crosswork vulnerabilities — three at CVSS 10.0: CVE-2026-20030 (SQL injection), CVE-2026-20357 (missing authentication) and CVE-2026-20358 (external control of the file system), plus CVE-2026-20359 at 9.9 — and five Secure Workload CVEs, two of them at CVSS 10.0 including CVE-2026-20315. Exploitation could yield remote code execution, authentication bypass, path traversal and file overwrite or deletion. Fixed in Crosswork 7.2.1-SP and Secure Workload 4.0.4.16 and 3.10.9.1.",
+          "source": "The Hacker News, Cisco security advisories, SecurityWeek",
+          "published_at": "2026-08-21T18:03+08:00",
+          "url": "https://thehackernews.com/2026/08/cisco-patches-nine-crosswork-and-secure.html"
+        },
+        {
+          "id": "cs10",
+          "headline": "GitLab flaw exploited in the wild within days of disclosure",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-19478",
+          "cvss": 9.4,
+          "severity": "CRITICAL",
+          "summary": "CVE-2026-19478 is a GraphQL code-injection flaw in self-managed GitLab CE/EE that lets an unauthenticated attacker modify or delete publicly accessible projects and rewrite their data — deleting repositories, forging merge records and banning maintainers. Attack-surface firm watchTowr reported honeypot exploitation roughly two days after disclosure, after researchers reproduced the bug from the public advisory and patch diff alone. NVD scores it 9.4. Fixed in 19.2.4, 19.1.6, 19.0.8 and 18.11.11.",
+          "source": "The Hacker News, NVD, SecurityWeek (watchTowr)",
+          "published_at": "2026-08-21T15:04+08:00",
+          "url": "https://thehackernews.com/2026/08/gitlab-cve-2026-19478-comes-under.html"
+        },
+        {
+          "id": "cs11",
+          "headline": "Microsoft fixes maximum-severity Entra ID flaw, then retracts its 'exploited' label",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-69836",
+          "cvss": 10.0,
+          "severity": "CRITICAL",
+          "summary": "CVE-2026-69836 is a deserialisation-of-untrusted-data bug in Microsoft Entra ID allowing unauthenticated remote code execution over the network, scored CVSS 10.0. Because Entra ID is a Microsoft-operated cloud service, Microsoft mitigated it in its own infrastructure and no customer patch is required. Microsoft initially marked the flaw as exploited in the wild, then corrected that status to 'No' on 21 August, saying it was not exploited — worth noting, as several outlets ran the original 'exploited' framing.",
+          "source": "The Hacker News, BleepingComputer, Help Net Security",
+          "published_at": "2026-08-21T14:06+08:00",
+          "url": "https://thehackernews.com/2026/08/microsoft-entra-id-flaw-cvss-100.html"
+        },
+        {
+          "id": "cs12",
+          "headline": "Poisoned Rust crates run build-time malware in packages with 245 million downloads",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Malicious versions of three crates — arrayref 0.3.10, internment 0.8.7 and append-only-vec 0.1.9 — were published to crates.io from the same owner account on 20 August and pulled within 86 to 107 minutes. Each added a typosquatted proc-macro1 dependency whose build script downloaded and ran an infostealer, so simply compiling an affected project was enough to be hit. arrayref has over 245 million all-time downloads. The Rust Security Response Team believes the maintainer's machine or credentials were compromised rather than the maintainer acting maliciously; Wiz notes infrastructure overlap with recent DPRK supply-chain campaigns.",
+          "source": "The Hacker News, BleepingComputer, Rust Security Response Team, Wiz",
+          "published_at": "2026-08-21T04:22+08:00",
+          "url": "https://thehackernews.com/2026/08/rust-supply-chain-attack-puts-build.html"
+        },
+        {
+          "id": "cs13",
+          "headline": "Suspected Russian hackers abuse Google OAuth and WhatsApp device linking to hijack accounts",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A campaign attributed to suspected Russian operators is abusing legitimate Google OAuth consent flows and WhatsApp's device-linking feature to take over accounts without stealing a password. Because the flows are legitimate, MFA prompts look normal to the victim — defenders should audit OAuth app grants and linked WhatsApp devices rather than watching only for credential theft.",
+          "source": "The Hacker News",
+          "published_at": "2026-08-21T03:59+08:00",
+          "url": "https://thehackernews.com/2026/08/suspected-russian-hackers-abuse-google.html"
+        },
+        {
+          "id": "cs14",
+          "headline": "New SynkLoader malware pushed in a Microsoft Teams phishing campaign",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A phishing campaign running through Microsoft Teams is delivering a new loader dubbed SynkLoader. Teams messages from compromised or spoofed external tenants carry the lure, bypassing controls tuned for email. Restricting external Teams chat and alerting on first-contact messages from unknown tenants blunts the delivery path.",
+          "source": "BleepingComputer",
+          "published_at": "2026-08-21T02:01+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/new-synkloader-malware-pushed-in-microsoft-teams-phishing-campaign/"
+        },
+        {
+          "id": "cs15",
+          "headline": "AI-generated exploit scripts target Siemens S7 PLCs in US critical infrastructure",
+          "category": "ICS/OT",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers observed exploit scripts against Siemens S7 programmable logic controllers in US critical-infrastructure environments that show signs of having been generated with AI assistance. The significance is the lowered barrier to entry for OT attacks rather than a new vulnerability: operators should verify that S7 controllers are not reachable from IT networks or the internet.",
+          "source": "The Hacker News",
+          "published_at": "2026-08-21T00:59+08:00",
+          "url": "https://thehackernews.com/2026/08/ai-generated-exploit-scripts-target.html"
+        },
+        {
+          "id": "cs16",
+          "headline": "Critical Elementor Pro file-upload bug exposes WordPress sites to unauthenticated RCE",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-32475",
+          "cvss": 9.0,
+          "severity": "CRITICAL",
+          "summary": "CVE-2026-32475 affects Elementor Pro before 4.2.2. The Forms module validates file extensions and moves files in two separate loops that handle empty filename entries differently, so a multipart upload with an empty filename in the first part followed by a PHP payload lands an executable file in wp-content/uploads/elementor/forms/. No authentication is needed, and any site with a published page containing a Form widget with a File Upload field is exposed. Patched in 4.2.2 on 19 August; admins should also check the upload directory for planted files.",
+          "source": "BleepingComputer, The Hacker News, Patchstack",
+          "published_at": "2026-08-20T22:39+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/critical-elementor-pro-bug-exposes-wordpress-sites-to-rce-attacks/"
+        },
+        {
+          "id": "cs17",
+          "headline": "Cryptographic context injection attack could let web pages steal Grok chat data",
+          "category": "AI Security",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers describe a cryptographic context injection technique that could allow a malicious web page to read a user's Grok conversation data. It is a browser-context isolation weakness in how the assistant's session data is bound, not a model flaw — the practical mitigation is to avoid keeping assistant sessions open alongside untrusted pages until it is fixed.",
+          "source": "The Hacker News",
+          "published_at": "2026-08-20T22:36+08:00",
+          "url": "https://thehackernews.com/2026/08/new-cryptographic-context-injection.html"
+        },
+        {
+          "id": "cs18",
+          "headline": "isolated-vm flaw lets sandboxed JavaScript escape to the host",
+          "category": "Vulnerability",
+          "cve": "GHSA-864f-rcv7-6rh4 (no CVE assigned)",
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "A type confusion in ExternalCopy's handling of the transferList option lets code inside an isolated-vm sandbox corrupt memory in the host process; Endor Labs escalated it from a controlled-address crash to full hijacking of the host's control flow. All versions up to and including 7.0.0 are affected, with fixes in 6.2.0 and 7.0.1. isolated-vm is downloaded over a million times a week and underpins AI agent frameworks including n8n, Sim.ai, Mastra and Activepieces — so the sandbox many agent platforms rely on as their security boundary was not one. No CVE has been assigned.",
+          "source": "The Hacker News, Endor Labs, CSO Online",
+          "published_at": "2026-08-20T21:48+08:00",
+          "url": "https://thehackernews.com/2026/08/isolated-vm-flaw-lets-sandboxed.html"
+        },
+        {
+          "id": "cs19",
+          "headline": "Critical NetScaler flaw can bypass authentication on Gateway and AAA virtual servers",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-19490",
+          "cvss": 9.3,
+          "severity": "CRITICAL",
+          "summary": "Citrix disclosed CVE-2026-19490 on 19 August: an unauthenticated remote attacker can bypass login checks via an alternate path on NetScaler ADC and Gateway appliances configured as a Gateway (SSL VPN, ICA Proxy, CVPN or RDP Proxy) or as an AAA virtual server. On 14.1-43.56+ and 13.1-61.28+ it requires a SAML action configuration; earlier builds have a much broader attack surface. Rapid7 had seen no in-the-wild exploitation as of 19 August but expects it. Fixed in 14.1-73.32 and 13.1-63.21 and later.",
+          "source": "The Hacker News, BleepingComputer, Rapid7",
+          "published_at": "2026-08-20T21:35+08:00",
+          "url": "https://thehackernews.com/2026/08/critical-netscaler-flaw-can-bypass.html"
+        },
+        {
+          "id": "cs20",
+          "headline": "Attackers exploit Zimbra SNMP flaw for unauthenticated remote code execution",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-73570",
+          "cvss": 8.9,
+          "severity": "HIGH",
+          "summary": "CVE-2026-73570 is an OS command injection in Zimbra Collaboration Suite before 10.1.20, reachable when the optional zimbra-snmp package is installed and SNMP notifications are enabled. CISA added it to the Known Exploited Vulnerabilities catalog on 21 August, confirming active exploitation; NVD scores it 8.9. Upgrade to 10.1.20, or remove zimbra-snmp / disable SNMP notifications if you cannot patch immediately.",
+          "source": "The Hacker News, CISA KEV, NVD",
+          "published_at": "2026-08-20T21:24+08:00",
+          "url": "https://thehackernews.com/2026/08/attackers-exploit-zimbra-snmp-flaw-for.html"
+        }
+      ]
+    }
+  }
+}
