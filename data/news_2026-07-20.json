@@ -1,0 +1,529 @@
+{
+  "meta": {
+    "date": "2026-07-20",
+    "generated_at": "2026-07-20T21:00:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "CNA",
+      "The Straits Times",
+      "BBC",
+      "Mothership",
+      "WHO Disease Outbreak News",
+      "NEA (data.gov.sg)",
+      "LTA (data.gov.sg)",
+      "Motorist.sg",
+      "The Hacker News",
+      "BleepingComputer",
+      "CISA KEV"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "The Middle East dominates: the US widened air strikes inside Iran after a US soldier was killed in Iraq, Iran's president declared his country in a “full-scale war” with Washington, and Yemen's Houthis announced a naval blockade of Saudi Arabia — pushing oil to a one-month high. Russia unleashed one of its larger missile barrages on Ukrainian cities. In lighter news, Spain beat Argentina 1-0 to win the World Cup in Lionel Messi's likely last tournament, and Andy Burnham became Britain's new prime minister.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "US widens strikes inside Iran as Tehran declares “full-scale war”; oil hits one-month high",
+          "category": "Conflict",
+          "summary": "Washington broadened its air campaign against Iran, with President Donald Trump saying the strikes were carried out in “honour” of American soldiers killed. Iran's president said the country is now in a “full-scale war” with the US and lashed out at Gulf neighbours; fears grew for Gulf shipping and regional water supplies, and oil prices climbed to a one-month high. Contested casualty and damage claims from both sides are not independently verified.",
+          "source": "The Straits Times, CNA, BBC",
+          "published_at": "2026-07-20T20:29+08:00",
+          "url": "https://www.straitstimes.com/world/middle-east/iran-and-us-widen-attacks-raising-fears-for-gulf-shipping-and-water-supplies"
+        },
+        {
+          "id": "ts2",
+          "headline": "Yemen's Houthis announce naval blockade of Saudi Arabia",
+          "category": "Conflict",
+          "summary": "Yemen's Iran-aligned Houthi movement said it would impose a naval blockade on Saudi Arabia, widening the maritime threat in a region already on edge over the US-Iran confrontation and shipping in the Strait of Hormuz.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-20T20:48+08:00",
+          "url": "https://www.channelnewsasia.com/world/yemen-saudi-arabia-houthis-maritime-blockade-6265876"
+        },
+        {
+          "id": "ts3",
+          "headline": "Andy Burnham becomes Britain's new prime minister",
+          "category": "World Politics",
+          "summary": "Andy Burnham took over as UK prime minister after meeting the king, and used his first speech to promise a “new economic model.” Analysts expect broad continuity on foreign policy. PM Lawrence Wong congratulated him on his appointment.",
+          "source": "BBC, CNA, The Straits Times",
+          "published_at": "2026-07-20T19:36+08:00",
+          "url": "https://www.channelnewsasia.com/world/andy-burham-new-british-prime-minister-6265696"
+        },
+        {
+          "id": "ts4",
+          "headline": "Spain win the 2026 World Cup, beating Argentina in Messi's last tournament",
+          "category": "Sport",
+          "summary": "Spain outlasted Argentina 1-0 in the final at MetLife Stadium in New Jersey, with Ferran Torres scoring the extra-time winner for the team's second world title. Lionel Messi, who has said this was his final World Cup, left the pitch in tears after collecting a runners-up medal.",
+          "source": "CNA, Mothership, ESPN",
+          "published_at": "2026-07-20T08:00+08:00",
+          "url": "https://www.channelnewsasia.com/sport/last-messi-argentines-mourn-loss-and-end-era-6264411"
+        },
+        {
+          "id": "ts5",
+          "headline": "Russia launches major ballistic-missile barrage on Ukrainian cities",
+          "category": "Conflict",
+          "summary": "Russia fired one of its larger ballistic-missile attacks of the war at Ukrainian cities, with Kyiv among the areas hit — coming days after a Ukrainian strike on a major Russian e-commerce firm. Both sides reported further deadly cross-border strikes over the weekend.",
+          "source": "BBC, CNA",
+          "published_at": "2026-07-20T02:25+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo"
+        },
+        {
+          "id": "ts6",
+          "headline": "Scores feared dead as passenger ferry capsizes off Guyana",
+          "category": "World",
+          "summary": "A passenger ferry capsized off Guyana, with many people feared dead, authorities said. Rescue operations were under way; a full toll had not been confirmed.",
+          "source": "BBC",
+          "published_at": "2026-07-20T19:37+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cm2gm99nrm7o"
+        },
+        {
+          "id": "ts7",
+          "headline": "Mali insurgents ambush army convoy; more than 50 soldiers reported killed",
+          "category": "World",
+          "summary": "Insurgents ambushed a Malian army convoy, with a security source saying more than 50 soldiers were killed. The toll had not been independently confirmed.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-20T18:37+08:00",
+          "url": "https://www.straitstimes.com/world/europe/mali-insurgents-ambush-army-convoy-source-says-more-than-50-killed"
+        },
+        {
+          "id": "ts8",
+          "headline": "Utah firefighter and four family members killed in flash flooding",
+          "category": "World",
+          "summary": "A firefighter and four members of their family were killed in flash flooding in Utah, US authorities said, amid a spell of severe weather.",
+          "source": "BBC",
+          "published_at": "2026-07-20T20:13+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c9d8l88jnwvo"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "Politics leads the day: Acting Minister for Muslim Affairs Faishal Ibrahim resigned over online messages with a woman that “fell short of standards,” and the government said no by-election will be called for his Marine Parade-Braddell Heights ward. On policy, the PDPC made AI-specific notifications mandatory for firms training AI on personal data, and a transport survey flagged crowding and train air-conditioning as top gripes. COE premiums hit fresh highs at the July exercise, and thundery showers are forecast.",
+      "weather": {
+        "forecast": "Thundery Showers",
+        "temp_low": 25,
+        "temp_high": 34,
+        "humidity_low": 65,
+        "humidity_high": 95,
+        "as_of": "2026-07-20T18:49+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jul 2026 · 1st bidding",
+        "as_of": "2026-07-08",
+        "next_results": "2026-07-22",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          {
+            "code": "A",
+            "label": "Cars up to 1600cc & 130bhp",
+            "premium": 129000,
+            "change": 5153
+          },
+          {
+            "code": "B",
+            "label": "Cars above 1600cc or 130bhp",
+            "premium": 130889,
+            "change": 7387
+          }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "Acting Minister for Muslim Affairs Faishal Ibrahim resigns over messages with woman",
+          "category": "Politics",
+          "summary": "Faishal Ibrahim resigned as Acting Minister-in-charge of Muslim Affairs and as an MP after PM Wong said online interactions with a female member of the public “fell short of standards.” Faishal said there was no physical relationship but acknowledged a lapse of judgment, apologised to residents and thanked his wife. Zaqy Mohamad takes over the Muslim affairs portfolio.",
+          "source": "CNA, The Straits Times, Mothership",
+          "published_at": "2026-07-20T12:45+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/faishal-ibrahim-resigns-mp-pap-interactions-woman-fell-short-pm-wong-6264686"
+        },
+        {
+          "id": "sg2",
+          "headline": "No by-election after Faishal's exit; PAP to bolster Marine Parade-Braddell Heights team",
+          "category": "Politics",
+          "summary": "Minister Desmond Lee said no by-election will be called following Faishal Ibrahim's resignation, and the four remaining Marine Parade-Braddell Heights GRC MPs will cover his Kembangan ward. Analysts said the swift response limits damage but a string of indiscretions could chip at the PAP's reputation.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-20T20:40+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/faishal-ibrahim-resigns-no-election-marine-parade-braddell-heights-6265851"
+        },
+        {
+          "id": "sg3",
+          "headline": "PDPC makes AI-specific notifications mandatory for firms training AI on personal data",
+          "category": "Tech Policy",
+          "summary": "Singapore's Personal Data Protection Commission said firms using customers' personal data to train AI models must issue AI-specific notifications, and launched new “nutrition label” guidelines for GenAI chatbots to improve transparency about how data is used.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-07-20T10:30+08:00",
+          "url": "https://www.straitstimes.com/tech/ai-specific-notifications-mandatory-for-firms-using-personal-data-to-train-ai-models-pdpc"
+        },
+        {
+          "id": "sg4",
+          "headline": "Crowding and train air-conditioning top commuter concerns, PTC survey finds",
+          "category": "Transport",
+          "summary": "A Public Transport Council survey flagged crowding and waiting times, air-conditioning in trains, and inconsiderate commuter behaviour as the main areas Singaporeans want improved on public transport.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-20T15:16+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/train-bus-crowding-air-con-inconsiderate-behaviour-public-transport-6264926"
+        },
+        {
+          "id": "sg5",
+          "headline": "Dialysis operators warn out-of-pocket fees may rise as Middle East conflict lifts costs",
+          "category": "Health",
+          "summary": "Smaller kidney dialysis operators warned that patients' out-of-pocket fees could rise as the Middle East conflict pushes up energy and supply-chain costs, even as subsidies cushion some of the impact.",
+          "source": "CNA",
+          "published_at": "2026-07-20T17:09+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/kidney-dialysis-operators-fees-costs-subsidies-middle-east-energy-supply-chain-6265111"
+        },
+        {
+          "id": "sg6",
+          "headline": "Family of teen who died on Maldives school trip sues SJI International",
+          "category": "Courts",
+          "summary": "The family of a Singaporean teenager who died during a 2024 SJI International school trip to the Maldives has filed a negligence claim against the school, seeking to hold it accountable over the death.",
+          "source": "CNA, The Straits Times, Mothership",
+          "published_at": "2026-07-20T16:37+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/sji-international-sued-maldives-jenna-chan-6264986"
+        },
+        {
+          "id": "sg7",
+          "headline": "Tourist jailed over theft of $200,000 diamond hidden in mouth at Chinatown store",
+          "category": "Crime",
+          "summary": "A tourist was jailed for a heist in which a $200,000 diamond was swapped for a fake substitute at a Chinatown store, with his partner hiding the real stone in her mouth. He was convicted over the scheme.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-20T14:10+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/man-jailed-diamond-heist-chinatown-6264676"
+        },
+        {
+          "id": "sg8",
+          "headline": "About $274,000 lost to scam calls from numbers starting with '3'",
+          "category": "Advisory",
+          "summary": "Police warned that about $274,000 was lost in scams involving phone calls from numbers beginning with the digit 3, urging the public to be wary of unsolicited calls and not to share personal or banking details.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-19T21:25+08:00",
+          "url": "https://www.straitstimes.com/singapore/about-274000-lost-in-scams-involving-phone-calls-from-numbers-starting-with-the-digit-3"
+        },
+        {
+          "id": "sg9",
+          "headline": "Illegal tortoises offered for sale in Singapore on TikTok and Telegram",
+          "category": "Trending",
+          "summary": "Protected and illegal tortoises are being openly offered for sale in Singapore via TikTok and Telegram, an investigation found, raising conservation and enforcement concerns over the online wildlife trade.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-20T05:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/environment/illegal-tortoises-offered-for-sale-in-singapore-on-tiktok-and-telegram"
+        },
+        {
+          "id": "sg10",
+          "headline": "Ex-actor Edmund Chen's jail term cut from five days to one on appeal",
+          "category": "Human Interest",
+          "summary": "Former actor Edmund Chen had his jail term over a traffic accident that injured a motorcyclist reduced from five days to one day on appeal, a case that drew attention given his public profile.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-20T12:08+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/actor-edmund-chen-appeal-6263866"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "The US-Iran confrontation is the most volatile theatre: Washington widened strikes inside Iran after a US soldier was killed in Iraq, Iran's president declared a “full-scale war,” and the Houthis announced a naval blockade of Saudi Arabia, stoking fears over Gulf shipping. In Ukraine, Russia launched one of its larger missile barrages while both sides traded deadly cross-border strikes. In Gaza, Hamas named a new leader as Israeli demonstrators pressed for renewed settlements.",
+      "theatres": [
+        {
+          "name": "US–Iran conflict (Strait of Hormuz)",
+          "status": "Active and widening — US and Iran trading strikes; Gulf shipping and Saudi Arabia now under threat.",
+          "timeline": [
+            {
+              "date": "2026-07-19",
+              "event": "The US said a soldier was killed and another wounded in an Iranian attack on American forces in Iraq.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cgk417jp83po"
+            },
+            {
+              "date": "2026-07-20",
+              "event": "The US widened air strikes inside Iran; Trump said they honoured US soldiers killed. Iran's president declared a “full-scale war” with the US and lashed out at Gulf neighbours, as fears grew for Gulf shipping and water supplies and oil hit a one-month high.",
+              "source": "The Straits Times, CNA, BBC",
+              "url": "https://www.straitstimes.com/world/middle-east/iran-and-us-widen-attacks-raising-fears-for-gulf-shipping-and-water-supplies"
+            },
+            {
+              "date": "2026-07-20",
+              "event": "Yemen's Iran-aligned Houthis announced a naval blockade of Saudi Arabia, widening the maritime threat in the region.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/yemen-saudi-arabia-houthis-maritime-blockade-6265876"
+            }
+          ]
+        },
+        {
+          "name": "Russia–Ukraine War",
+          "status": "Grinding on — Russia launches a large missile barrage; both sides report deadly cross-border strikes.",
+          "timeline": [
+            {
+              "date": "2022-02-24",
+              "event": "Russia launched a full-scale invasion of Ukraine, beginning the largest war in Europe since World War II; fighting has continued for more than three years.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/world/europe"
+            },
+            {
+              "date": "2026-07-19",
+              "event": "Russia launched a major ballistic-missile attack on Ukrainian cities, with Kyiv among areas hit — days after a Ukrainian strike on a major Russian e-commerce firm.",
+              "source": "BBC, CNA",
+              "url": "https://www.bbc.co.uk/news/articles/c2el7xpnzrpo"
+            },
+            {
+              "date": "2026-07-20",
+              "event": "Ukraine said Russian strikes on a Turkish-flagged cargo ship killed five crew. Russia accused Ukraine of killing five civilians in a drone strike on a bus in a border region and said Ukrainian drones wounded ten in the Moscow region — claims not independently verified.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/russia-accuses-ukraine-of-killing-five-civilians-in-drone-strike-on-bus-in-border-region"
+            }
+          ]
+        },
+        {
+          "name": "Israel–Gaza",
+          "status": "Uneasy — Hamas names a new leader; Israeli demonstrators press for renewed Gaza settlements.",
+          "timeline": [
+            {
+              "date": "2026-07-20",
+              "event": "Hamas said Khalil al-Hayya was elected as the group's new chief.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/hamas-names-khalil-al-hayya-as-new-leader-statement-says"
+            },
+            {
+              "date": "2026-07-20",
+              "event": "Israeli demonstrators marched to the Gaza border demanding the re-establishment of Jewish settlements there.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/israelis-march-gaza-border-demanding-re-establishment-settlements-6264051"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "The Bundibugyo Ebola epidemic in the Democratic Republic of the Congo is the dominant active outbreak, with WHO reporting 2,145 confirmed cases and 830 deaths across DRC, Uganda and one imported case in France as of 17 July — cases in DRC have risen sharply since early July (CFR around 39%), while Uganda's arm has effectively ended. The cruise-ship Andes hantavirus cluster (M/V Hondius) remains contained at 13 cases and 3 deaths with no off-ship spread. Separately, US officials said a positive test in an “explosive diarrhoea” scare was a false positive.",
+      "outbreaks": [
+        {
+          "name": "Bundibugyo Ebola — DR Congo & Uganda",
+          "status": "Escalating sharply in DRC; Uganda's outbreak effectively ended (42-day countdown started).",
+          "cases": 2145,
+          "deaths": 830,
+          "countries": 3,
+          "as_of": "2026-07-17",
+          "scope_note": "WHO-confirmed cumulative: 2,145 confirmed cases and 830 deaths — DRC 2,124 cases/828 deaths (CFR 39%), Uganda 20/2, plus one imported case in France. DRC cases rose steeply since 3 Jul (969 cases in the prior 21 days); Uganda's last case was 21 Jun. Per WHO DON613, 17 Jul 2026."
+        },
+        {
+          "name": "Andes hantavirus — M/V Hondius cruise ship",
+          "status": "Contained — no new cases; international response wound down.",
+          "cases": 13,
+          "deaths": 3,
+          "countries": 33,
+          "as_of": "2026-07-02",
+          "scope_note": "12 confirmed + 1 probable case and 3 deaths (CFR 23%), all among M/V Hondius travellers; no secondary spread off the ship. Contacts followed across 33 countries/territories. Figures per WHO DON611, 2 Jul 2026 — no WHO update since; outbreak appears contained (figures may be stale)."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "WHO: DR Congo Bundibugyo Ebola cases pass 2,100 as deaths near 830",
+          "category": "Ebola",
+          "summary": "WHO's latest Disease Outbreak News (17 Jul) reported a sharp rise in the Bundibugyo Ebola epidemic in DR Congo, with 2,124 confirmed cases and 828 deaths there (CFR 39%) and 969 cases in the prior 21 days. Including Uganda (20 cases, 2 deaths) and one imported case in France, the total stands at 2,145 confirmed cases and 830 deaths. Uganda's outbreak is effectively over, with a 42-day countdown under way.",
+          "source": "WHO Disease Outbreak News",
+          "published_at": "2026-07-17",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON613"
+        },
+        {
+          "id": "ob2",
+          "headline": "US officials say positive test in 'explosive diarrhoea' scare was a false positive",
+          "category": "Foodborne",
+          "summary": "US health officials said a test that had appeared to identify the source of an outbreak of severe (“explosive”) diarrhoea was a false positive, meaning the source remains unconfirmed and easing an earlier alarm.",
+          "source": "BBC",
+          "published_at": "2026-07-20",
+          "url": "https://www.bbc.co.uk/news/articles/c4gw9n1kx9do"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "This cycle is dominated by actively-exploited flaws and AI-related risk. A critical ServiceNow code-execution bug and SonicWall SMA 1000 zero-days are under active attack (SonicWall is now in CISA's KEV catalogue), while fresh critical flaws hit NGINX, WordPress Core (“wp2shell”) and 7-Zip. AI infrastructure is increasingly a target: Hugging Face disclosed a breach tied to an autonomous AI agent, and new botnets hunt exposed AI services for cloud keys. Patch the exploited items first.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "Russian intelligence hijacks internet-connected cameras to spy on NATO and Ukraine military logistics",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "At least one Russian intelligence service is systematically hijacking internet-connected security cameras across Europe and Ukraine, using the feeds to track military transport routes and weapons shipments bound for Kyiv, researchers say.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-20T20:13+08:00",
+          "url": "https://thehackernews.com/2026/07/russian-intelligence-hacks-ip-cameras.html"
+        },
+        {
+          "id": "cs2",
+          "headline": "Critical ServiceNow code-execution flaw now exploited in attacks",
+          "category": "Exploited Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "A critical code-execution vulnerability in ServiceNow is now being exploited in the wild, allowing attackers to run code on affected instances. Administrators are urged to apply the vendor's fixes immediately.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-20T17:29+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/critical-servicenow-code-execution-flaw-now-exploited-in-attacks/"
+        },
+        {
+          "id": "cs3",
+          "headline": "New 7-Zip flaw lets crafted XZ archives run code during extraction",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A newly disclosed 7-Zip vulnerability can let a maliciously crafted XZ archive execute code when it is extracted. Users should update to the patched release, as archive-handling bugs are commonly abused in phishing and supply-chain attacks.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-20T17:10+08:00",
+          "url": "https://thehackernews.com/2026/07/new-7-zip-vulnerability-could-let.html"
+        },
+        {
+          "id": "cs4",
+          "headline": "Hugging Face discloses breach linked to an autonomous AI agent",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Hugging Face, the world's largest AI model repository, disclosed a breach in which an autonomous AI agent gained access to internal systems, datasets and credentials — an early example of AI-agent-driven intrusion against AI infrastructure.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-20T13:27+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/hugging-face-breach-autonomous-ai-agent-system-internal-datasets-credentials/"
+        },
+        {
+          "id": "cs5",
+          "headline": "SleeperGem uses three malicious RubyGems packages to target developers",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A campaign dubbed SleeperGem published three malicious RubyGems packages designed to compromise developer machines, the latest in a run of open-source supply-chain attacks aimed at software builders.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-20T13:15+08:00",
+          "url": "https://thehackernews.com/2026/07/sleepergem-uses-three-malicious.html"
+        },
+        {
+          "id": "cs6",
+          "headline": "Critical NGINX vulnerability can crash workers and may allow remote code execution",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "A critical flaw in NGINX can crash worker processes and, in some conditions, may allow remote code execution, researchers warned. Given NGINX's ubiquity as a web server and reverse proxy, administrators should patch promptly.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-20T04:42+08:00",
+          "url": "https://thehackernews.com/2026/07/critical-nginx-vulnerability-can-crash.html"
+        },
+        {
+          "id": "cs7",
+          "headline": "SonicWall SMA 1000 zero-days exploited before disclosure to gain root access",
+          "category": "Exploited Zero-Day",
+          "cve": "CVE-2026-15409, CVE-2026-15410",
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "Two SonicWall SMA 1000 zero-days were exploited before public disclosure, chained to gain root access on the appliances. Both are listed in CISA's Known Exploited Vulnerabilities catalogue; SonicWall has released fixes.",
+          "source": "The Hacker News, CISA KEV",
+          "published_at": "2026-07-19T21:18+08:00",
+          "url": "https://thehackernews.com/2026/07/sonicwall-sma-zero-days-exploited.html"
+        },
+        {
+          "id": "cs8",
+          "headline": "Microsoft warns of surge in ACR Stealer attacks on customers",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Microsoft warned of a surge in attacks distributing ACR Stealer, which uses “ClickFix”-style lures to trick victims into running commands that steal browser tokens and Microsoft 365 files.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-18T22:17+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-surge-in-acr-stealer-attacks-on-customers/"
+        },
+        {
+          "id": "cs9",
+          "headline": "WordPress Core 'wp2shell' RCE flaws get public exploits — patch now",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "Public exploits are now available for the WordPress Core “wp2shell” flaws, which let unauthenticated attackers run code on affected sites. Given WordPress's huge footprint, sites should update immediately.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-18T05:20+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/wordpress-core-wp2shell-rce-flaws-get-public-exploits-patch-now/"
+        },
+        {
+          "id": "cs10",
+          "headline": "Abbott probes two cyber incidents amid extortion claims",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Medical-device and healthcare firm Abbott said it is investigating two cyber incidents after extortion claims surfaced, though the scope and any data impact were still being assessed.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-18T04:45+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/abbott-laboratories-probes-two-cyber-incidents-amid-extortion-claims/"
+        },
+        {
+          "id": "cs11",
+          "headline": "OpenSSL 'HollowByte' flaw lets an 11-byte TLS request bloat server memory",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A denial-of-service flaw dubbed HollowByte lets an attacker send an 11-byte TLS request that causes OpenSSL servers to balloon memory usage, potentially freezing or crashing them. Affected servers should update OpenSSL.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-18T04:20+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/hollowbyte-ddos-flaw-bloats-openssl-server-memory-with-11-byte-payload/"
+        },
+        {
+          "id": "cs12",
+          "headline": "Seven malicious Vite npm packages use blockchain C2 to deliver a RAT",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Seven malicious npm packages impersonating the Vite ecosystem used blockchain-based command-and-control to deliver a remote-access trojan to developers, extending the wave of open-source supply-chain abuse.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-18T02:54+08:00",
+          "url": "https://thehackernews.com/2026/07/seven-malicious-vite-npm-packages-use.html"
+        },
+        {
+          "id": "cs13",
+          "headline": "New NadMesh botnet hunts exposed AI services for cloud keys and Kubernetes tokens",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A new botnet named NadMesh scans for exposed AI services to steal cloud keys and Kubernetes tokens, underscoring how misconfigured AI and cloud infrastructure is becoming a favoured target.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-18T01:12+08:00",
+          "url": "https://thehackernews.com/2026/07/new-nadmesh-botnet-hunts-exposed-ai.html"
+        },
+        {
+          "id": "cs14",
+          "headline": "GoldenEyeDog subgroup linked to DigiCert breach and code-signing certificate theft",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers linked a subgroup dubbed GoldenEyeDog to a breach at certificate authority DigiCert involving the theft of code-signing certificates — stolen certs can be abused to make malware appear trusted.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-18T00:39+08:00",
+          "url": "https://thehackernews.com/2026/07/goldeneyedog-subgroup-linked-to.html"
+        },
+        {
+          "id": "cs15",
+          "headline": "Ernst & Young discloses data breach after support-system hack",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Professional-services giant Ernst & Young disclosed a data breach after attackers compromised a support system, exposing data. The firm said it was investigating and notifying affected parties.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-17T22:55+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/ernst-and-young-discloses-data-breach-after-support-system-hack/"
+        }
+      ]
+    }
+  }
+}
