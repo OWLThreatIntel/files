@@ -1,32 +1,23 @@
 {
   "meta": {
     "date": "2026-10-24",
-    "generated_at": "2026-10-24T09:07:31+08:00",
+    "generated_at": "2026-10-24T15:05:38+08:00",
     "edition": "Daily News Briefing",
     "sources": [
       "CNA World, Asia and Singapore RSS via curl with a browser UA; The Straits Times World and Singapore RSS via curl; BBC World, Middle East, Europe, Asia and US & Canada RSS via curl (GMT pubDate converted to SGT, query strings stripped); Al Jazeera all-news RSS; Ukrinform and Kyiv Independent RSS for Ukrainian official tallies; Mothership RSS plus a homepage scrape (article clock timestamps); BleepingComputer feed via WebFetch; The Hacker News feedburner RSS; CISA KEV JSON and NVD API; WHO DON OData API; ECDC CDTR feed and DRC Ebola page; NEA weather and PSI and LTA COE via data.gov.sg",
-      "09:00 edition: built on the 23 Oct 21:00 edition; items published since about 21:00 SGT were added, and seed cards past each section's window were dropped (21 Top Stories, 7 Singapore, 2 Outbreaks, 6 Cybersecurity). Re-anchored to newer reports: the Jordan church attack (CNA/AFP: terrorism, three days of mourning), the Trappes shooting (CNA/AFP: five wounded; Macron's 'racist terrorist attack'), Hebron (ST: major West Bank operation), Typhoon Champi (Al Jazeera/AFP: about 350 injured; the BBC's earlier official figure was 171), the Nairobi collapse (Al Jazeera), the Starshield card (ST: Trump's remarks), the Singapore haze card (CNA's 8am update, matching NEA data on data.gov.sg) and the PHP cyber card (BleepingComputer: CVE and mitigation). The haze-mask effective-date card (23 Oct) was dropped.",
-      "Top Stories: BBC World and regional feeds, CNA (World/Asia), ST World, Al Jazeera, Ukrinform and the Kyiv Independent. Single-outlet items are attributed in the card text. The Oleshky start date differs: the White House said 29 Oct, while Ukraine and Russia both gave 27 Oct at 02:00 GMT, which the card uses. The Gulf cable plans rest on two anonymous Iranian officials via Reuters and are marked unverified. Skipped: analysis, video and explainer items (including a Reuters report on past US requests to SpaceX over Starlink and ST's overnight roundup), sport, a UK AI-funding pledge, Costa Rica's DEA operations, an Oregon school-shooting interview, and Al Jazeera's live-page Brent price, which no second outlet carried.",
-      "Singapore: CNA and ST Singapore feeds, NEA PSI, PM2.5 and weather and LTA COE data on data.gov.sg (COE table unchanged; the Oct 2nd exercise matches the API), and a Mothership homepage scrape. Mothership had only two new links overnight, both on the haze notices, and they were merged into the CNA/ST cards; its RSS feed's newest item is 23 Oct 15:19. Skipped: a CNA analysis of Indonesian political rhetoric, and a CNA feature on a printing firm.",
-      "Wars: Ukrinform, the Kyiv Independent, BBC, CNA, ST and Al Jazeera. Russian and Ukrainian claims are attributed. The Hormuz attack count is the Washington Institute for Near East Policy's; Moscow airport figures are Rosaviatsia's and monitoring channels' via Ukrinform.",
-      "Outbreaks: WHO DON622 (23 Oct, via the DON OData API) is the primary source for the DR Congo tile, and ECDC's multi-country Ebola page (updated 23 Oct 16:45 CEST; the old DRC page URL now redirects there) gives the same figures. US CDC's measles page (via WebFetch, updated 23 Oct) supplies the measles tile; the 16 Oct CDC card (4,410 cases) was replaced by the new weekly update, which uses the same CDC URL. Kenya and Nigeria updates come from their health ministries via ST and Al Jazeera.",
-      "Cybersecurity: the BleepingComputer feed and /news/security/ listing via WebFetch (new: Popcorn Time, Quest Diagnostics, and the PHP mitigation, merged into the PHP card; skipped: a Teams phishing-detection feature, the Windows Server 2016 end-of-support notice and sponsored posts) and The Hacker News RSS (four new items; their article pages were not fetched, so those cards rest on THN's feed descriptions, with no CVE or CVSS given). CISA's KEV catalogue (2026.10.23) added the Arista VeloCloud flaw, already carded, and Collabora Online CVE-2026-110447, which had no write-up in either feed and is not carded."
+      "15:00 edition: built on the 24 Oct 09:00 edition; items published since about 08:00 SGT were added, and seed cards past each section's window were dropped (7 Top Stories, 17 Singapore, 1 Cybersecurity). Re-anchored or updated: the France protests card (BBC; 70,000 police), the Singapore haze card (CNA's 2pm update, matching NEA data on data.gov.sg), and the Jordan, West Bank and migrant-worker cards (new details from ST, CNA, Al Jazeera and Mothership).",
+      "Top Stories: BBC World and regional feeds, CNA (World/Asia), ST World, Al Jazeera, Ukrinform and the Kyiv Independent. Single-outlet items are attributed in the card text; the US embassy drawdown over Iranian attack plans rests on unnamed US officials via ST. Skipped: analysis, interview, video and feature items (including ST's 'signs point to renewed US ops' analysis, a BBC interview with a former border patrol chief, Al Jazeera on Netanyahu and Israeli institutions, and a Reuters report on past US requests to SpaceX over Starlink), and light items such as New York's mayor and his bidets.",
+      "Singapore: CNA and ST Singapore feeds, NEA PSI and weather and LTA COE data on data.gov.sg (COE table unchanged; the Oct 2nd exercise matches the API), and a Mothership homepage scrape (nine new links; article clock timestamps). The Indonesian gas-export cut rests on Mothership citing SKK Migas and CNBC Indonesia; a web search found no second report, so the card is attributed and hedged. Skipped: a Mothership piece on a former SIA steward's death (a private individual, single source), Meghan Markle's father (foreign), a Mothership analysis of a former Indonesian minister's claims, and an ST feature on a family-support programme.",
+      "Wars: Ukrinform, the Kyiv Independent, BBC, CNA, ST and Al Jazeera. Russian and Ukrainian claims are attributed; the Crimea blackout rests on Telegram monitoring channels, and a reported drone strike on the Tolyattikauchuk plant (local Telegram channels only) is not included.",
+      "Outbreaks: WHO's DON API still lists DON622 (23 Oct) as the newest notice, ECDC's multi-country Ebola page is unchanged since 23 Oct 16:45 CEST, and the ECDC CDTR feed had nothing new, so the tiles are unchanged. The BBC's report of Kenya's second Ebola death was added as a source to the existing card.",
+      "Cybersecurity: BleepingComputer feed and /news/security/ listing via WebFetch (nothing newer than the 09:00 edition; newest item 23 Oct 16:55 ET) and The Hacker News RSS (nothing newer than 24 Oct 00:20 IST, already covered). CISA's KEV catalogue is unchanged (2026.10.23). New card: OpenAI's Brotli disclosure, from The Straits Times, with no CVE or CVSS given."
     ]
   },
   "sections": {
     "top_stories": {
       "label": "Top Stories",
-      "ai_summary": "Russia and Ukraine agreed a ceasefire for occupied Oleshky, brokered by Melania Trump, and their negotiators will meet US officials in Abu Dhabi in November. The Iran front is moving the other way: Trump hinted at fresh strikes, and Iranian officials say Gulf undersea cables could become targets if that happens. Violence dominated elsewhere, as Jordan called the killing of seven people at a church funeral terrorism and Macron called a shooting near Paris a racist terrorist attack. In Washington, midterm politics is shaping policy, from tariff relief for Canada to a lawsuit over how Alaska counts its Senate race. The weekend tests both tracks: whether Trump acts on Iran, and whether France's protests stay calmer than last week's riots.",
+      "ai_summary": "The Iran standoff sharpened on Saturday, as Tehran's military chief said US warships would never be allowed into the Gulf, a day after Trump hinted at renewed strikes. Washington is behaving as if it expects trouble, cutting embassy staff across the region over intelligence that Iran is planning attacks on Americans, though that account rests on unnamed officials. The Oleshky ceasefire and November talks in Abu Dhabi remain the week's one diplomatic opening on Ukraine. Elsewhere the focus is security at home, with France putting 70,000 police on the streets for a new day of protests and Jordan tightening security after the church funeral attack. The next 48 hours test whether Trump's weekend threat turns into strikes, and whether France gets through Saturday without a repeat of last week's riots.",
       "stories": [
-        {
-          "id": "y1",
-          "headline": "Russia and Ukraine agree a local ceasefire in occupied Oleshky, and peace negotiators will meet in Abu Dhabi in November",
-          "category": "Ukraine war",
-          "summary": "The White House said US First Lady Melania Trump secured the truce for the Russian-occupied town in Kherson region, which it called 'on the brink of disaster' without medicine, food and clean water, the BBC reports. Ukraine's General Staff and the Kremlin both confirmed it, and both sides say firing stops at 02:00 GMT on 27 Oct to allow aid deliveries and evacuations; the White House had given 29 Oct. Separately, Zelensky said Ukrainian, Russian and US negotiators agreed to technical-level talks in Abu Dhabi in the first half of November, The Straits Times reports (Reuters).",
-          "source": "BBC, The Straits Times (Reuters), Ukrinform, CNA",
-          "published_at": "2026-10-24T03:30+08:00",
-          "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo"
-        },
         {
           "id": "y2",
           "headline": "Trump hints at 'another little Epic Fury' against Iran as a US envoy says a strike could come this weekend",
@@ -35,6 +26,24 @@
           "source": "CNA, The Straits Times",
           "published_at": "2026-10-24T08:40+08:00",
           "url": "https://www.channelnewsasia.com/world/iran-war-us-could-strike-soon-6488231"
+        },
+        {
+          "id": "z1",
+          "headline": "Iran says US warships will not be allowed into the Gulf 'under any circumstances' as strike threats mount",
+          "category": "Middle East",
+          "summary": "'We will not allow US military ships in the Persian Gulf under any circumstances and at any time,' Iran's armed forces chief of staff Ali Abdollahi said on 24 Oct, according to Iranian state television cited by The Straits Times; Al Jazeera's live page carried the same statement. It came a day after Trump hinted at renewed strikes and US envoy Tom Barrack said one could come this weekend. Iran has restricted traffic through the Strait of Hormuz since the war began on 28 Feb.",
+          "source": "The Straits Times, Al Jazeera",
+          "published_at": "2026-10-24T14:38+08:00",
+          "url": "https://www.straitstimes.com/world/middle-east/iran-says-us-military-not-allowed-to-enter-gulf-under-any-circumstances"
+        },
+        {
+          "id": "z2",
+          "headline": "US cuts embassy staff in the Middle East over intelligence that Iran is planning attacks on Americans, officials say",
+          "category": "Middle East",
+          "summary": "US officials said on 23 Oct that the government had put employees on heightened alert across the Middle East and moved to reduce staff at embassies and consulates, after intelligence showed Iran was in the 'advanced stages' of planning attacks on Americans, The Straits Times reports. A memo to Secretary of State Marco Rubio said agencies had 'received intelligence that Iran has substantially increased efforts to target US personnel'. The account rests on unnamed officials and has not been independently confirmed; Iran has not responded.",
+          "source": "The Straits Times",
+          "published_at": "2026-10-24T13:30+08:00",
+          "url": "https://www.straitstimes.com/world/united-states/iran-in-advanced-stages-of-planning-attacks-against-americans-officials-say"
         },
         {
           "id": "y3",
@@ -46,13 +55,40 @@
           "url": "https://www.channelnewsasia.com/world/iran-war-gulf-undersea-cables-6487421"
         },
         {
+          "id": "y1",
+          "headline": "Russia and Ukraine agree a local ceasefire in occupied Oleshky, and peace negotiators will meet in Abu Dhabi in November",
+          "category": "Ukraine war",
+          "summary": "The White House said US First Lady Melania Trump secured the truce for the Russian-occupied town in Kherson region, which it called 'on the brink of disaster' without medicine, food and clean water, the BBC reports. Ukraine's General Staff and the Kremlin both confirmed it, and both sides say firing stops at 02:00 GMT on 27 Oct to allow aid deliveries and evacuations; the White House had given 29 Oct. Separately, Zelensky said Ukrainian, Russian and US negotiators agreed to technical-level talks in Abu Dhabi in the first half of November, The Straits Times reports (Reuters).",
+          "source": "BBC, The Straits Times (Reuters), Ukrinform, CNA",
+          "published_at": "2026-10-24T03:30+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo"
+        },
+        {
+          "id": "y8",
+          "headline": "France deploys 70,000 police for a new day of nationwide protests, a week after its worst riots in years",
+          "category": "Europe",
+          "summary": "Interior Minister Laurent Nunez said about 70,000 security personnel would be deployed on 24 Oct, warning that calls for violence and looting were circulating on social media, The Straits Times reports; the BBC says sweeping restrictions have been imposed on demonstrations but hundreds of thousands are still expected in Paris and elsewhere. The protests, started by high-school students over learning conditions, have widened into anger over the cost of living. Luxury boutiques boarded up windows and some planned to stay shut after shops were looted last weekend, ST reports.",
+          "source": "BBC, The Straits Times",
+          "published_at": "2026-10-24T12:19+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cj62yv5k0w4yo"
+        },
+        {
           "id": "x1",
           "headline": "Gunmen kill seven at a church funeral in Jordan; the government calls it terrorism and declares three days of mourning",
           "category": "Middle East",
-          "summary": "Gunmen opened fire during a funeral procession at a Greek Orthodox church in Hammoud village, Karak governorate, on 23 Oct, killing seven people, CNA (AFP) and The Straits Times (Reuters) report; the BBC cites state media for the same toll. Interior Minister Mazen Al-Faraya said 'a terrorist group' carried out the attack and security services were hunting the attackers, and Prime Minister Jafar Hassan ordered three days of national mourning. CNA reports that King Abdullah vowed retaliation. There has been no claim of responsibility.",
-          "source": "CNA (AFP), BBC, The Straits Times (Reuters)",
+          "summary": "Gunmen opened fire during a funeral procession at a Greek Orthodox church in Hammoud village, Karak governorate, on 23 Oct, killing seven people, CNA (AFP) and The Straits Times (Reuters) report; the BBC cites state media for the same toll. Interior Minister Mazen Al-Faraya said 'a terrorist group' carried out the attack and security services were hunting the attackers, and Prime Minister Jafar Hassan ordered three days of national mourning. CNA reports that King Abdullah vowed retaliation. There has been no claim of responsibility. On 24 Oct the US embassy in Amman said security had been stepped up at malls, embassies and other sites across Jordan, The Straits Times reports.",
+          "source": "CNA (AFP), BBC, The Straits Times (Reuters), The Straits Times",
           "published_at": "2026-10-24T05:54+08:00",
           "url": "https://www.channelnewsasia.com/world/gunmen-jordan-shooting-king-retaliation-seven-killed-6488111"
+        },
+        {
+          "id": "x3",
+          "headline": "Netanyahu launches a major West Bank operation after two Israeli soldiers are killed near Hebron",
+          "category": "Middle East",
+          "summary": "Netanyahu announced the operation on 23 Oct after Palestinian gunmen killed two Israeli soldiers and wounded three Israelis at a checkpoint near Hebron before being shot dead, according to the Israeli military, The Straits Times and the BBC report. Israeli forces began a 'targeted' operation in Hebron, Al Jazeera reports, and Netanyahu had ordered the army to prepare a full closure of the occupied West Bank. Security is a central issue in Tuesday's election, in which Netanyahu faces a tight race. The military said the operation would last several days and include searches and demolitions, CNA reports, and Al Jazeera correspondents said forces raided at least 15 northern West Bank towns on 24 Oct, detaining dozens of Palestinians.",
+          "source": "The Straits Times, BBC, Al Jazeera, CNA, Al Jazeera",
+          "published_at": "2026-10-24T03:59+08:00",
+          "url": "https://www.straitstimes.com/world/middle-east/israel-says-it-will-demolish-homes-and-go-house-to-house-after-attack-in-the-west-bank"
         },
         {
           "id": "x2",
@@ -64,15 +100,6 @@
           "url": "https://www.channelnewsasia.com/world/paris-gun-shooting-kills-one-five-injured-trappes-6487371"
         },
         {
-          "id": "x3",
-          "headline": "Netanyahu launches a major West Bank operation after two Israeli soldiers are killed near Hebron",
-          "category": "Middle East",
-          "summary": "Netanyahu announced the operation on 23 Oct after Palestinian gunmen killed two Israeli soldiers and wounded three Israelis at a checkpoint near Hebron before being shot dead, according to the Israeli military, The Straits Times and the BBC report. Israeli forces began a 'targeted' operation in Hebron, Al Jazeera reports, and Netanyahu had ordered the army to prepare a full closure of the occupied West Bank. Security is a central issue in Tuesday's election, in which Netanyahu faces a tight race.",
-          "source": "The Straits Times, BBC, Al Jazeera",
-          "published_at": "2026-10-24T03:59+08:00",
-          "url": "https://www.straitstimes.com/world/middle-east/israel-says-it-will-demolish-homes-and-go-house-to-house-after-attack-in-the-west-bank"
-        },
-        {
           "id": "y4",
           "headline": "Ship attacks around the Strait of Hormuz hit a record in October, and an oil slick from a damaged tanker reaches UAE beaches",
           "category": "Middle East",
@@ -80,6 +107,15 @@
           "source": "BBC, The Straits Times",
           "published_at": "2026-10-23T23:30+08:00",
           "url": "https://www.bbc.co.uk/news/articles/c6rey3n974g5o"
+        },
+        {
+          "id": "z3",
+          "headline": "Fire guts Hitler's Eagle's Nest retreat in Bavaria, and police detain a suspect",
+          "category": "Europe",
+          "summary": "Firefighters found the Kehlsteinhaus above Berchtesgaden 'completely ablaze' after an alarm at 21:15 local time on 23 Oct, and it was still burning on Saturday morning, Bavarian police said, according to the BBC and The Straits Times. About 200 emergency workers were deployed, difficult terrain slowed the response and nobody was hurt. Police said a 'suspicious person' was taken into temporary custody; no motive has been given.",
+          "source": "BBC, The Straits Times",
+          "published_at": "2026-10-24T11:51+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cr93zwjw1k4qo"
         },
         {
           "id": "y5",
@@ -91,11 +127,20 @@
           "url": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o"
         },
         {
+          "id": "z5",
+          "headline": "Rubio urges Cubans seeking change to work with the CIA, as Trump says Cuba comes 'on our way back from Iran'",
+          "category": "Americas",
+          "summary": "'To those who seek to create positive change in Cuba - now is the time,' Secretary of State Marco Rubio wrote on X on 23 Oct, urging those disappointed by Cuba's government to partner with the CIA, The Straits Times reports (Reuters); Al Jazeera also carried the remarks. At a Florida rally the same day, Trump said 'We'll take care of Cuba on our way back from Iran' and that Rubio would then 'finish up the deal'. Havana's response was not reported.",
+          "source": "The Straits Times (Reuters), Al Jazeera",
+          "published_at": "2026-10-24T10:26+08:00",
+          "url": "https://www.straitstimes.com/world/middle-east/marco-rubio-calls-on-those-seeking-change-in-cuba-to-partner-with-cia"
+        },
+        {
           "id": "y6",
           "headline": "Pentagon designates US campuses' Confucius Institutes a national security threat",
           "category": "US-China",
           "summary": "Defence Secretary Pete Hegseth said in a video on 23 Oct that the Chinese-funded cultural centres had been added to the Pentagon's list of institutions that threaten US national security, alleging they operate 'under disguise' at US universities, The Straits Times reports. Washington has long accused the institutes of serving as Chinese propaganda tools.",
-          "source": "The Straits Times",
+          "source": "The Straits Times, CNA, Al Jazeera",
           "published_at": "2026-10-24T06:21+08:00",
           "url": "https://www.straitstimes.com/world/united-states/pentagon-designates-confucius-institutes-in-us-a-national-security-threat"
         },
@@ -109,13 +154,13 @@
           "url": "https://www.bbc.co.uk/news/articles/c678pv4krx37o"
         },
         {
-          "id": "y8",
-          "headline": "France brings in troops to back up police ahead of a new round of protests on 24 Oct",
-          "category": "Europe",
-          "summary": "There will be 20% more police on duty than on 17 Oct, when looting of 3,000 shops and 2,700 arrests followed cost-of-living protests, according to the Interior Ministry, The Straits Times reports. The military is being deployed in support to prevent a repeat of last weekend's riots.",
-          "source": "The Straits Times",
-          "published_at": "2026-10-23T22:19+08:00",
-          "url": "https://www.straitstimes.com/world/europe/france-calls-in-troops-to-contain-oct-24-protests-prevent-riots-and-looting"
+          "id": "z4",
+          "headline": "Lula and Flavio Bolsonaro trade attacks over living costs and corruption in the last debate before Brazil's runoff",
+          "category": "Americas",
+          "summary": "President Luiz Inacio Lula da Silva and Senator Flavio Bolsonaro, son of former president Jair Bolsonaro, sparred for over two hours on Globo on 23 Oct ahead of Sunday's runoff, The Straits Times reports (Reuters). Bolsonaro led the first round earlier this month, but polls this week show the two about even. Both focused on the cost of living, and traded accusations of corruption.",
+          "source": "The Straits Times (Reuters)",
+          "published_at": "2026-10-24T12:46+08:00",
+          "url": "https://www.straitstimes.com/world/bolsonaro-and-lula-clash-on-living-costs-corruption-in-final-brazil-election-debate"
         },
         {
           "id": "w1",
@@ -167,7 +212,7 @@
           "headline": "Argentine judge drops the criminal case against President Milei and his sister over the $Libra crypto collapse",
           "category": "Americas",
           "summary": "Federal judge Marcelo Martínez de Giorgi dismissed the case at prosecutors' request, court records show, the BBC reports. Milei had denied promoting the coin, which collapsed shortly after he posted about it in February 2025, and said he acted 'in good faith'. The Straits Times also reports the ruling.",
-          "source": "BBC, The Straits Times",
+          "source": "BBC, The Straits Times, Al Jazeera",
           "published_at": "2026-10-24T04:59+08:00",
           "url": "https://www.bbc.co.uk/news/articles/c64g1eplpvddo"
         },
@@ -197,6 +242,24 @@
           "source": "Al Jazeera",
           "published_at": "2026-10-24T03:55+08:00",
           "url": "https://www.aljazeera.com/news/2026/10/23/tigray-official-urges-rebels-to-disarm"
+        },
+        {
+          "id": "z6",
+          "headline": "US charges a government contractor with leaking classified reports to his girlfriend's Substack",
+          "category": "United States",
+          "summary": "The FBI arrested Ian Brinksman, 42, at his Washington home on 23 Oct, and prosecutors charged him with unlawfully transmitting national defence information, a Justice Department statement said, The Straits Times reports. The FBI alleges he repeatedly accessed classified intelligence reports outside his duties and passed them to a romantic partner who intended to publish them. He has not yet entered a plea.",
+          "source": "The Straits Times",
+          "published_at": "2026-10-24T12:15+08:00",
+          "url": "https://www.straitstimes.com/world/united-states/us-accuses-government-contractor-of-leaking-classified-info-to-girlfriends-substack"
+        },
+        {
+          "id": "z7",
+          "headline": "Australian MP Helen Haines improves to serious but stable after an alleged deliberate car attack",
+          "category": "Asia-Pacific",
+          "summary": "The independent MP, 65, whose legs were amputated after she was hit by a car outside her electorate office in Wangaratta, Victoria, on Monday, is now in a serious but stable condition, Melbourne's Alfred Hospital said on Saturday morning, the BBC reports. It is the first improvement since she was airlifted there. A 43-year-old man has been charged over what authorities say was a deliberate attack.",
+          "source": "BBC",
+          "published_at": "2026-10-24T09:55+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c670pr1ryxyno"
         },
         {
           "id": "x6",
@@ -233,24 +296,6 @@
           "source": "CNA",
           "published_at": "2026-10-23T16:27+08:00",
           "url": "https://www.channelnewsasia.com/east-asia/china-united-states-stop-discriminatory-measures-research-institutions-6485691"
-        },
-        {
-          "id": "w3",
-          "headline": "South Korea proposes military talks with the North to fix the border line and restore hotlines",
-          "category": "Korean Peninsula",
-          "summary": "Seoul's defence ministry formally proposed talks to 'mutually confirm the precise location' of the Military Demarcation Line and restore military communication lines, Deputy Defence Minister Kim Hong-cheol said on 23 Oct, CNA reports. Tensions rose after a blast inside the DMZ last month that Seoul blamed on North Korean landmines, which Pyongyang denies. Separately, US and South Korean officials see little chance of a Trump-Kim meeting this year, The Straits Times reports, citing five people familiar with the matter.",
-          "source": "CNA, The Straits Times (Reuters)",
-          "published_at": "2026-10-23T14:08+08:00",
-          "url": "https://www.channelnewsasia.com/east-asia/south-korea-proposes-holding-border-talks-north-6485461"
-        },
-        {
-          "id": "w2",
-          "headline": "Russia launches 176 drones at Ukraine overnight; a DTEK thermal power plant halts generation after a 'massive' attack",
-          "category": "Ukraine war",
-          "summary": "Ukraine's Air Force said Russia launched 176 drones from 18:00 on 22 Oct, of which 140 were shot down or jammed by 8am, with hits recorded at 19 locations, Ukrinform reports. Energy company DTEK said one of its thermal power plants stopped generating after a massive attack. In Zhytomyr region more than 900 settlements were without power on Friday morning, and a drone strike on a house there on 22 Oct injured nine people, including two children, the regional governor said, according to the Kyiv Independent. Russia has not commented on the targets.",
-          "source": "Ukrinform (Ukrainian Air Force, DTEK), Kyiv Independent",
-          "published_at": "2026-10-23T13:42+08:00",
-          "url": "https://www.ukrinform.net/rubric-ato/4177331-ukraines-air-defenses-down-140-out-of-176-russian-drones-overnight.html"
         },
         {
           "id": "y14",
@@ -298,15 +343,6 @@
           "url": "https://www.straitstimes.com/world/europe/uk-makes-quiet-shift-to-prepare-for-supply-chain-shortages"
         },
         {
-          "id": "w6",
-          "headline": "Europe enters winter with unusually low gas reserves and cannot absorb another supply shock, IEA chief warns",
-          "category": "Energy",
-          "summary": "Fatih Birol, head of the International Energy Agency, told Al Jazeera that Europe's gas stocks are 'much lower than historical averages' as the war involving Iran disrupts shipments through the Strait of Hormuz, and that liquefied natural gas costs are likely to rise in the coming months even if fighting stops now. He said Europe is competing with Asian buyers for the same cargoes.",
-          "source": "Al Jazeera",
-          "published_at": "2026-10-23T14:02+08:00",
-          "url": "https://www.aljazeera.com/economy/2026/10/23/eu-entering-winter-with-lowest-gas-reserves-on-record-iea-boss-warns"
-        },
-        {
           "id": "x16",
           "headline": "Trump's diesel relief efforts grow costlier as US prices keep rising before the midterms",
           "category": "US economy",
@@ -323,15 +359,6 @@
           "source": "The Straits Times",
           "published_at": "2026-10-23T16:16+08:00",
           "url": "https://www.straitstimes.com/world/europe/pope-leo-cancels-assisi-trip-to-aid-recovery-from-cancer-surgery"
-        },
-        {
-          "id": "w4",
-          "headline": "Greece passes a social media ban for children under 15",
-          "category": "Europe",
-          "summary": "Greece's parliament approved a bill on 23 Oct that bars children under 15 from social media platforms from 1 January 2027, The Straits Times reports (Reuters). Prime Minister Kyriakos Mitsotakis said platforms have two and a half months to devise age verification. Australia passed a similar law last year, while France's version was struck down by its Constitutional Council in August.",
-          "source": "The Straits Times (Reuters)",
-          "published_at": "2026-10-23T14:27+08:00",
-          "url": "https://www.straitstimes.com/world/europe/greece-passes-social-media-ban-for-children-under-15"
         },
         {
           "id": "x13",
@@ -359,33 +386,6 @@
           "source": "CNA (AFP)",
           "published_at": "2026-10-23T17:44+08:00",
           "url": "https://www.channelnewsasia.com/asia/indonesia-seizes-11-tonnes-ketamine-vessel-sumatran-waters-6485381"
-        },
-        {
-          "id": "w5",
-          "headline": "Live-grenade exercise sparked the fire that killed four soldiers at a Canadian base, army says",
-          "category": "Americas",
-          "summary": "The fire at Canadian Forces Base Wainwright in Alberta broke out on a grenade-launcher range during training on Saturday and was driven across the base by high winds, Brigadier-General Vanessa Hanrahan told reporters on 22 Oct, Al Jazeera reports (AFP, Reuters). Four soldiers died. Firefighters could not tackle the blaze directly because it was inside the range's permanent danger area, she said.",
-          "source": "Al Jazeera (AFP, Reuters)",
-          "published_at": "2026-10-23T12:41+08:00",
-          "url": "https://www.aljazeera.com/news/2026/10/23/grenade-exercise-sparked-deadly-fire-at-canada-military-base-army-says"
-        },
-        {
-          "id": "w7",
-          "headline": "New Zealand's defence force chief resigns over an 'inappropriate relationship'",
-          "category": "Asia-Pacific",
-          "summary": "Air Marshal Tony Davies resigned on 23 Oct, saying the relationship took place while he was in unit command and that he regretted not disclosing it, CNA reports. The New Zealand Defence Force said the matter has been referred to an independent oversight body.",
-          "source": "CNA",
-          "published_at": "2026-10-23T12:33+08:00",
-          "url": "https://www.channelnewsasia.com/world/new-zealands-top-military-officer-resigns-over-inappropriate-relationship-6485241"
-        },
-        {
-          "id": "w8",
-          "headline": "Japan will make tourists pay consumption tax upfront and claim it back on departure from 1 November",
-          "category": "Asia",
-          "summary": "Under the new system, visitors will pay Japan's 10 per cent consumption tax at the till and get a refund at the airport, replacing tax-free purchases at designated shops, CNA reports, citing Jiji Press and Kyodo. The change aims to stop tax-exempt goods being resold in Japan, and departing travellers may face longer processing times at customs.",
-          "source": "CNA (Jiji Press, Kyodo)",
-          "published_at": "2026-10-23T12:27+08:00",
-          "url": "https://www.channelnewsasia.com/east-asia/japan-new-tax-free-shopping-tourists-november-6485236"
         },
         {
           "id": "x17",
@@ -454,14 +454,14 @@
     },
     "singapore": {
       "label": "Singapore",
-      "ai_summary": "Haze turned unhealthy across all five regions on Saturday morning, and the government is now going after the companies it holds responsible. NEA served legal notices on 10 Singapore-based firms under the haze law for the first time, and the Law Ministry is assembling a panel of lawyers, auditors and investigators to trace corporate links across borders. Away from the haze, nearly 240 migrant workers have gone unpaid for up to two months, and Friday's cost-of-living data stayed gentle, with core inflation easing to 2 per cent. The buzz is food-and-heritage flavoured, led by an 80-year-old herbal soup brand passing to its third generation. For the weekend, keep N95 masks handy and check NEA's hourly PM2.5 readings before heading out.",
+      "ai_summary": "Haze stayed unhealthy across the island through Saturday afternoon, and NEA closed part of East Coast Park's beach after oil patches were found. Energy has become the new pressure point with Jakarta: Indonesia's upstream regulator says it is cutting pipeline gas to Singapore from today, though so far only Mothership has reported the figures and Singapore has not responded. Online safety moved forward as well, with laws on age checks for teens on social media due in early 2027 and IMDA's first app store audit removing 65 harmful apps. The buzz is haze-flavoured, from a minister's reassurance that tap water is safe despite videos of dark rainwater to tourists rerouting their plans. Winds are expected to shift from Sunday and could thin the haze, so keep checking NEA readings, and watch for Singapore's reply on gas.",
       "weather": {
         "forecast": "Thundery Showers",
         "temp_low": 25,
         "temp_high": 34,
         "humidity_low": 60,
         "humidity_high": 95,
-        "as_of": "2026-10-24T06:00+08:00",
+        "as_of": "2026-10-24T12:00+08:00",
         "source": "NEA",
         "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
       },
@@ -489,12 +489,30 @@
       "stories": [
         {
           "id": "g1",
-          "headline": "Haze worsens overnight, with the 24-hour PSI unhealthy in all five regions on Saturday morning",
+          "headline": "Haze stays unhealthy across Singapore, with the 24-hour PSI at 113 to 153 at 2pm",
           "category": "Haze",
-          "summary": "At 8am on 24 Oct the 24-hour PSI ranged from 116 in the south to 144 in the west, all in the unhealthy band (101-200), CNA reports; NEA data on data.gov.sg show the same readings. Hourly PM2.5 was elevated islandwide, from 56 in the south to 106 in the west. NEA forecasts a 24-hour PSI of 90 to 140 for the day, spanning moderate and unhealthy, and said showers are expected but smoke could still blow in from Sumatra.",
+          "summary": "At 2pm on 24 Oct the 24-hour PSI ranged from 113 in the south to 153 in the west, all in the unhealthy band (101-200), CNA reports; NEA data on data.gov.sg show the same readings. Hourly PM2.5 readings fluctuated between 52 and 88, and the south returned to the normal band at 11am. NEA forecasts a 24-hour PSI of 90 to 140 for Saturday and says conditions could improve from Sunday, when winds are expected to shift to the southwest or west and carry less smoke from Sumatra.",
           "source": "CNA, The Straits Times, NEA (data.gov.sg)",
-          "published_at": "2026-10-24T08:12+08:00",
+          "published_at": "2026-10-24T14:12+08:00",
           "url": "https://www.channelnewsasia.com/singapore/haze-psi-pm25-oct-24-6488141"
+        },
+        {
+          "id": "zs1",
+          "headline": "Part of East Coast Park's beach is closed after oil patches are found, and NEA advises against swimming",
+          "category": "Environment",
+          "summary": "The National Environment Agency said on 24 Oct that the beach section of East Coast Park Area D would be temporarily closed while oil patches are cleaned up, and advised the public not to swim or take part in water activities there, The Straits Times reports. NEA did not say where the oil came from.",
+          "source": "The Straits Times, NEA",
+          "published_at": "2026-10-24T14:57+08:00",
+          "url": "https://www.straitstimes.com/singapore/part-of-east-coast-park-closed-to-clean-up-oil-spill"
+        },
+        {
+          "id": "zs2",
+          "headline": "Indonesia's upstream regulator says it will cut pipeline gas exports to Singapore from 24 Oct, Mothership reports",
+          "category": "Energy",
+          "summary": "SKK Migas chief Djoko Siswanto said on 23 Oct that gas exports to Singapore would be cut by 31 billion British thermal units a day from 24 Oct, 15 from Natuna and 16 from Sumatra, Mothership reports, citing CNBC Indonesia; he said only Singapore would be affected because the pipelines run directly to it. The announcement came a day after Energy Minister Bahlil Lahadalia threatened to stop exports to countries that 'disrespect' Indonesia, remarks CNA also reported. Indonesia had planned lower volumes for years under a supply deal running to 2028. No second outlet had confirmed the cut figures by publication, and Singapore had not commented.",
+          "source": "Mothership (CNBC Indonesia), CNA",
+          "published_at": "2026-10-24T11:19+08:00",
+          "url": "https://mothership.sg/2026/10/indonesia-cut-gas-exports-sg/"
         },
         {
           "id": "ys1",
@@ -515,6 +533,51 @@
           "url": "https://www.channelnewsasia.com/singapore/singapore-haze-specialist-panel-investigation-minlaw-6486146"
         },
         {
+          "id": "zs3",
+          "headline": "Singapore will legislate in early 2027 for age checks and safer design on social media for teens",
+          "category": "Digital",
+          "summary": "The Ministry of Digital Development and Information said on 24 Oct that about 80 per cent of parents and nearly 70 per cent of youths it consulted, out of more than 2,000, prefer tiered access to social media over an outright ban, CNA reports. It plans legislation early next year requiring platforms to apply effective age assurance so that protections for young users can be enforced, along with safer platform features, Mothership reports.",
+          "source": "CNA, Mothership",
+          "published_at": "2026-10-24T12:40+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/social-media-ban-teens-parents-access-6486036"
+        },
+        {
+          "id": "zs4",
+          "headline": "IMDA's first app store audit finds 65 harmful apps, including nudification tools, and 24 wrongly age-rated ones",
+          "category": "Digital",
+          "summary": "A review of more than 7,000 apps across the Apple, Google, Huawei, Microsoft and Samsung stores found 65 with harmful content and 24 not rated 18+ as the stores' own rules require, the Infocomm Media Development Authority said on 24 Oct, CNA and The Straits Times report. Sexual and violent content and apps facilitating vice and organised crime were the most common; ST says the flagged apps included AI nudification tools and murder- and gambling-themed games with payouts. IMDA said all have since been removed or re-rated.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-10-24T12:40+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/imda-review-app-store-harmful-wrong-age-rated-6485906"
+        },
+        {
+          "id": "zs5",
+          "headline": "Grace Fu says tap water is still safe to drink after videos of blackish rainwater collected during the haze",
+          "category": "Haze",
+          "summary": "Environment Minister Grace Fu said on Instagram on 24 Oct, after visiting PUB's water quality lab, that rainwater collected in hazy conditions can contain more particles but 'our tap water remains safe and clean to drink', Mothership reports. Photos and videos of dark rainwater in pails had been circulating online.",
+          "source": "Mothership",
+          "published_at": "2026-10-24T12:45+08:00",
+          "url": "https://mothership.sg/2026/10/tap-water-safe-drink-haze/"
+        },
+        {
+          "id": "zs6",
+          "headline": "PUB warned motorists to avoid Punggol Way at the TPE slip road for an hour over flash-flood risk",
+          "category": "Weather",
+          "summary": "PUB posted the advisory on X at 1.48pm on 24 Oct, after NEA warned of heavy rain over many parts of Singapore from 1.30pm to 2.30pm, The Straits Times reports.",
+          "source": "The Straits Times, PUB",
+          "published_at": "2026-10-24T14:03+08:00",
+          "url": "https://www.straitstimes.com/singapore/motorists-advised-to-avoid-section-of-punggol-way-due-to-risk-of-flash-floods"
+        },
+        {
+          "id": "ys3",
+          "headline": "Nearly 240 migrant workers have gone unpaid for up to two months, and NTUC is helping with daily needs",
+          "category": "Workers",
+          "summary": "The process-sector workers are affected by alleged salary issues at Process Maintenance Solutions and Jurong Technical & Construction, NTUC deputy secretary-general Desmond Choo said on 23 Oct, CNA reports. The Migrant Workers' Centre says it has met 230 workers from two companies, Process Maintenance Solutions and Jurong Technical & Construction, over alleged unpaid salaries, Mothership reports, and The Straits Times says about 90 are receiving daily meals.",
+          "source": "CNA (NTUC), The Straits Times, Mothership",
+          "published_at": "2026-10-23T22:57+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/migrant-workers-unpaid-ntuc-assistance-6486371"
+        },
+        {
           "id": "xs5",
           "headline": "DBS to give 500,000 N95 masks to about 275,000 vulnerable seniors and migrant workers",
           "category": "Haze",
@@ -522,51 +585,6 @@
           "source": "The Straits Times",
           "published_at": "2026-10-23T15:18+08:00",
           "url": "https://www.straitstimes.com/singapore/over-500k-n95-masks-to-be-distributed-to-vulnerable-seniors-migrant-workers-in-1m-dbs-initiative"
-        },
-        {
-          "id": "ys3",
-          "headline": "Nearly 240 migrant workers have gone unpaid for up to two months, and NTUC is helping with daily needs",
-          "category": "Workers",
-          "summary": "The process-sector workers are affected by alleged salary issues at Process Maintenance Solutions and Jurong Technical & Construction, NTUC deputy secretary-general Desmond Choo said on 23 Oct, CNA reports.",
-          "source": "CNA (NTUC)",
-          "published_at": "2026-10-23T22:57+08:00",
-          "url": "https://www.channelnewsasia.com/singapore/migrant-workers-unpaid-ntuc-assistance-6486371"
-        },
-        {
-          "id": "ws1",
-          "headline": "OCBC app and internet banking restored after a four-hour disruption on Friday",
-          "category": "Banking",
-          "summary": "OCBC customers had trouble reaching the bank's mobile app and internet banking from about 12.15pm on 23 Oct, with outage reports on Downdetector peaking at more than 760 around 1.10pm, The Straits Times reports. OCBC said in the afternoon that services had been restored about four hours after the problems began, and that customers' money was safe and no customer data was compromised, CNA reports.",
-          "source": "CNA, The Straits Times",
-          "published_at": "2026-10-23T14:55+08:00",
-          "url": "https://www.channelnewsasia.com/singapore/ocbc-down-internet-mobile-banking-app-outage-downdetector-6485511"
-        },
-        {
-          "id": "ws2",
-          "headline": "Core inflation eases to 2% in September on cheaper services and retail goods",
-          "category": "Economy",
-          "summary": "Singapore's core inflation slowed to 2 per cent year on year in September from 2.2 per cent in August, and headline inflation fell to 2.2 per cent from 2.3 per cent, MAS and the Ministry of Energy, Trade and Industry said on 23 Oct, CNA reports. Lower services, retail and private transport inflation drove the easing.",
-          "source": "CNA (MAS, METI)",
-          "published_at": "2026-10-23T13:01+08:00",
-          "url": "https://www.channelnewsasia.com/singapore/singapore-inflation-september-2026-mas-mti-6485326"
-        },
-        {
-          "id": "ws3",
-          "headline": "HDB resale prices dip 0.1% in Q3, a third straight fall, even as sales rise to a two-year high",
-          "category": "Housing",
-          "summary": "HDB resale prices slipped 0.1 per cent in the third quarter while resale transactions rose 19.5 per cent to 7,645, HDB data released on 23 Oct shows, The Straits Times and CNA report. HDB said lifting the 15-month wait-out period for private property downgraders in July has not led to a significant rise in their purchases. Private home prices rose 1.4 per cent in the quarter, URA data shows, though private transactions fell 16.3 per cent.",
-          "source": "The Straits Times, CNA (HDB, URA)",
-          "published_at": "2026-10-23T11:49+08:00",
-          "url": "https://www.straitstimes.com/singapore/housing/hdb-resale-prices-down-by-0-1-in-q3-more-units-sold-after-lifting-of-cooling-measure"
-        },
-        {
-          "id": "ws4",
-          "headline": "Singapore sets aside S$143 million for industrial decarbonisation and will pilot biomethane in power generation from 2028",
-          "category": "Environment",
-          "summary": "Deputy Prime Minister Gan Kim Yong announced the Industry Decarbonisation Funding Initiative at the first Singapore Industry Decarbonisation Forum on 23 Oct, CNA reports. He also said Keppel Energy, Sembcorp Utilities and Tuas Power Generation have been appointed to import and supply biomethane, a lower-carbon gas made from organic waste, under a pilot starting in 2028, The Straits Times reports. Natural gas generates about 95 per cent of Singapore's electricity.",
-          "source": "CNA, The Straits Times",
-          "published_at": "2026-10-23T11:40+08:00",
-          "url": "https://www.channelnewsasia.com/singapore/decarbonisation-initiative-funding-manufacturing-industries-6482846"
         },
         {
           "id": "xs1",
@@ -605,15 +623,6 @@
           "url": "https://www.channelnewsasia.com/singapore/volunteer-3000-befriending-mentoring-fostering-masagos-msf-6486376"
         },
         {
-          "id": "ws5",
-          "headline": "Marriage and parenthood workgroup's next phase to tackle work-life balance and education stress",
-          "category": "Policy",
-          "summary": "Minister Indranee Rajah, who chairs the workgroup, said on 23 Oct that its next recommendations will also cover more progressive workplace practices and fertility and maternal health, CNA reports. It follows the enhanced childcare leave and support for parents announced at this year's National Day Rally.",
-          "source": "CNA, The Straits Times",
-          "published_at": "2026-10-23T14:23+08:00",
-          "url": "https://www.channelnewsasia.com/singapore/marriage-parenthood-fertility-maternal-stress-indranee-6485331"
-        },
-        {
           "id": "xs6",
           "headline": "SAF tests drones and a 5G battlefield communications node at Exercise Wallaby in Australia",
           "category": "Defence",
@@ -630,15 +639,6 @@
           "source": "The Straits Times",
           "published_at": "2026-10-23T19:45+08:00",
           "url": "https://www.straitstimes.com/singapore/bruneis-prince-mateen-visits-saf-special-operations-task-force"
-        },
-        {
-          "id": "js3",
-          "headline": "Man charged with cheating an already-scammed friend, 69, of S$112,500 with fake recovery fees",
-          "category": "Crime",
-          "summary": "Vasudevan Sagadevan, 43, was charged on 23 Oct with one count of cheating, accused of telling his friend over 15 months that he could recover the friend's cryptocurrency-scam losses but needed to pay legal, witness protection and other fees, The Straits Times reports. The charge sheet puts the sum at S$112,500; when police announced his arrest on 22 Oct they said at least S$186,000 was involved. His case returns to court on 20 November.",
-          "source": "The Straits Times",
-          "published_at": "2026-10-23T14:08+08:00",
-          "url": "https://www.straitstimes.com/singapore/courts-crime/man-charged-with-cheating-friend-out-of-112500-after-learning-he-was-a-scam-victim"
         },
         {
           "id": "xs8",
@@ -686,49 +686,31 @@
           "url": "https://mothership.sg/2026/10/man-massage-parlour-orchard-towers-sexual-services/"
         },
         {
-          "id": "ws6",
-          "headline": "Bukit Batok Secondary runs an armed-intruder lockdown drill with 1,100 students and 160 staff",
-          "category": "Education",
-          "summary": "A 'visitor' playing a knife-wielding intruder triggered a school lockdown on 22 Oct as part of an emergency preparedness exercise observed by Education Minister Desmond Lee and the police, The Straits Times reports. Mr Lee said regular practice builds confidence and preparedness in case of a crisis.",
+          "id": "zs7",
+          "headline": "Some tourists mask up or change plans because of the haze, and tour operators report a dip in bookings",
+          "category": "Tourism",
+          "summary": "Visitors told The Straits Times they had trimmed outdoor itineraries or carried N95 masks, and some tour operators said bookings had fallen during the haze. Air quality had improved for a few days before Saturday's deterioration, after an earlier 19-day stretch of unhealthy air, ST says.",
           "source": "The Straits Times",
-          "published_at": "2026-10-23T13:00+08:00",
-          "url": "https://www.straitstimes.com/singapore/parenting-education/armed-intruder-drill-puts-bukit-batok-secondary-school-students-staff-to-the-test"
+          "published_at": "2026-10-24T10:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/visitors-mask-up-change-plans-amid-the-haze-some-tour-operators-see-dip-in-bookings"
         },
         {
-          "id": "ws7",
-          "headline": "VietJet flights from Changi unlikely to be disrupted by a UK court's freeze on its assets, lawyers say",
-          "category": "Transport",
-          "summary": "A British court on 15 Oct froze up to US$251.6 million of VietJet's assets over a debt dispute, but lawyers told The Straits Times that daily operations, including flights, can continue as usual. The budget carrier runs about 58 flights a week from Singapore on four routes, with a fifth to Nha Trang due in December.",
-          "source": "The Straits Times",
-          "published_at": "2026-10-23T11:30+08:00",
-          "url": "https://www.straitstimes.com/singapore/transport/vietjet-flights-out-of-changi-unlikely-to-be-affected-despite-carriers-legal-troubles-experts"
-        },
-        {
-          "id": "ws8",
-          "headline": "SGX chief Loh Boon Chye says planning has begun for a future CEO transition",
-          "category": "Business",
-          "summary": "Mr Loh, who has led the Singapore Exchange since July 2015 and whose contract runs to mid-July 2027, told the bourse's annual general meeting on 23 Oct that he had asked the chairman to begin succession planning, though no departure date has been set, CNA reports.",
-          "source": "CNA",
-          "published_at": "2026-10-23T13:23+08:00",
-          "url": "https://www.channelnewsasia.com/business/sgx-ceo-loh-boon-chye-leadership-transition-6485286"
-        },
-        {
-          "id": "hs9",
-          "headline": "Sengkang Town Council will ban pickleball at some courts from 1 November, leaving nine approved for play",
+          "id": "zs8",
+          "headline": "FairPrice Foundation pledges S$3 million to Hao Ren Hao Shi's grocery runs for low-income residents",
           "category": "Community",
-          "summary": "After surveying residents, Sengkang Town Council will ban pickleball at certain courts near homes from 1 Nov and allow play at nine courts during set hours, The Straits Times reports. Mothership first reported the town council's plan on 22 Oct.",
-          "source": "The Straits Times, Mothership",
-          "published_at": "2026-10-23T13:32+08:00",
-          "url": "https://www.straitstimes.com/singapore/pickleball-to-be-limited-to-9-courts-under-sengkang-town-council-after-residents-survey"
+          "summary": "The three-year partnership announced on 24 Oct will fund about 1,200 distributions under the charity's Mobile Groceries and Happy Mart schemes, giving more than 126,000 low-income people better access to fresh produce, eggs, milk and household essentials, The Straits Times reports.",
+          "source": "The Straits Times",
+          "published_at": "2026-10-24T14:35+08:00",
+          "url": "https://www.straitstimes.com/singapore/fairprice-foundation-pledges-3m-to-hao-ren-hao-shis-efforts-to-support-low-income-individuals"
         },
         {
-          "id": "ws10",
-          "headline": "ICA finds more than 1,380 packets of duty-unpaid cigarettes hidden inside car tyres",
-          "category": "Crime",
-          "summary": "Officers sliced open the tyres of a Malaysian man's car and found cigarette packs wrapped in plastic, ICA said on Facebook, Mothership reports. The 23-year-old was arrested.",
-          "source": "Mothership (ICA)",
-          "published_at": "2026-10-23T12:15+08:00",
-          "url": "https://mothership.sg/2026/10/malaysian-man-tyre-rims-smuggle-cigarettes/"
+          "id": "zs9",
+          "headline": "Roving climate-adaptation exhibition opens at One Punggol, with Wolbachia mosquitoes and cooling vests on show",
+          "category": "Environment",
+          "summary": "The month-long 'Our Climate-Ready Home' exhibition shows how Singapore is preparing for a hotter climate, including a box of Project Wolbachia mosquitoes visitors can put their arm into, since they do not bite humans, The Straits Times reports. One Punggol is its first stop.",
+          "source": "The Straits Times",
+          "published_at": "2026-10-24T09:38+08:00",
+          "url": "https://www.straitstimes.com/singapore/environment/mosquitoes-cooling-vests-singapore-launches-exhibition-on-adapting-to-climate-change"
         },
         {
           "id": "ys4",
@@ -758,15 +740,6 @@
           "url": "https://www.channelnewsasia.com/dining/osteria-da-su-naeum-italian-food-korean-chef-6485231"
         },
         {
-          "id": "ws9",
-          "headline": "Apple's foldable iPhone Duo goes on sale with dawn queues at Orchard and resale listings of up to S$8,888",
-          "category": "Trending",
-          "summary": "Crowds had formed outside the Apple Store in Orchard by about 4.30am on launch day, 23 Oct, Mothership reports. By 11.30am The Straits Times found more than 700 iPhone Duo listings on Carousell, priced from about S$3,000 to as high as S$8,888 for a 256GB Star White model.",
-          "source": "The Straits Times, Mothership",
-          "published_at": "2026-10-23T12:19+08:00",
-          "url": "https://www.straitstimes.com/singapore/8888-for-a-star-white-iphone-duo-new-apple-device-hits-online-resale-platforms"
-        },
-        {
           "id": "xs13",
           "headline": "The first Singapore Book Street at VivoCity on 2-8 Nov will feature more than 1,200 SingLit titles",
           "category": "Arts",
@@ -785,49 +758,22 @@
           "url": "https://www.straitstimes.com/singapore/health/hospital-staff-who-help-patients-find-jobs-receive-healthcare-humanity-award"
         },
         {
-          "id": "ws11",
-          "headline": "Man asks to see an iPhone 17 Pro Max at a Hougang phone shop, then snatches it and runs",
-          "category": "Trending",
-          "summary": "Staff searched the area for 15 minutes but could not find the man, who had posed as a customer, Mothership reports, citing Shin Min Daily News.",
-          "source": "Mothership (Shin Min Daily News)",
-          "published_at": "2026-10-23T12:24+08:00",
-          "url": "https://mothership.sg/2026/10/man-snatch-iphone-17/"
-        },
-        {
-          "id": "ws12",
-          "headline": "Migrant workers queue at Woodlands with bags of bottles for BCRS refunds, earning S$150 to S$160 a month",
-          "category": "Trending",
-          "summary": "Workers have been seen lining up at Return Right machines at Woodlands Recreation Centre to collect deposit refunds under the Beverage Container Return Scheme, Mothership reports, citing Shin Min Daily News.",
-          "source": "Mothership (Shin Min Daily News)",
-          "published_at": "2026-10-23T14:47+08:00",
-          "url": "https://mothership.sg/2026/10/migrant-workers-woodlands-bcrs-queue/"
-        },
-        {
-          "id": "ws13",
-          "headline": "Singaporean rides his motorcycle from Singapore to Portugal in 100 days",
-          "category": "Trending",
-          "summary": "Ian Huang, 32, finished the overland journey around National Day after setting out to see how far he could go on his motorcycle, Mothership reports.",
+          "id": "zs10",
+          "headline": "Tree outside Margaret Drive Hawker Centre catches fire, and SCDF is investigating the cause",
+          "category": "Neighbourhood",
+          "summary": "The Singapore Civil Defence Force told Mothership it was alerted at about 6.50pm on 22 Oct to a fire at Block 38A Margaret Drive in Queenstown; no one was hurt and the cause is under investigation. A TikTok video showed flames on a branch of the courtyard tree.",
           "source": "Mothership",
-          "published_at": "2026-10-23T11:08+08:00",
-          "url": "https://mothership.sg/2026/10/100-day-bike-ride/"
+          "published_at": "2026-10-24T11:55+08:00",
+          "url": "https://mothership.sg/2026/10/tree-fire-margaret-drive/"
         },
         {
-          "id": "ws14",
-          "headline": "Lee Biscuits, the 92-year-old maker of Marie biscuits, will close its Johor factory at the end of October",
-          "category": "Trending",
-          "summary": "The company is reportedly leaving snack manufacturing to focus on its rubber and palm oil holdings, CNA reports, citing Malaysian media; workers at the Pontian factory are reportedly being laid off. Its biscuits are a familiar sight on Singapore supermarket shelves, Mothership notes.",
-          "source": "CNA, Mothership",
-          "published_at": "2026-10-23T13:06+08:00",
-          "url": "https://www.channelnewsasia.com/asia/lee-biscuits-maker-shutters-pontian-johor-factory-marie-6485296"
-        },
-        {
-          "id": "ws15",
-          "headline": "Malay Heritage Centre announces its first Teroka Nusantara Festival for 6-8 November",
-          "category": "Culture",
-          "summary": "The festival in Kampong Gelam will feature traditional Malay houses, zapin and other regional dance, storytelling and workshops on the cultures of the Malay world, CNA reports.",
-          "source": "CNA",
-          "published_at": "2026-10-23T12:04+08:00",
-          "url": "https://www.channelnewsasia.com/living/teroka-nusantara-festival-2026-malay-heritage-centre-6485116"
+          "id": "zs11",
+          "headline": "Taiwanese family doctor who cannot yet practise in Singapore volunteers at a hospital while caring for his children",
+          "category": "People",
+          "summary": "Hsu Cheng Yuan, 48, moved to Singapore to join his wife, a doctor here, but has not secured a slot for the final stage of his registration assessment, Mothership reports. He now looks after his two young children and volunteers at a community hospital in his spare time.",
+          "source": "Mothership",
+          "published_at": "2026-10-24T12:06+08:00",
+          "url": "https://mothership.sg/2026/10/taiwanese-doctor-stay-at-home-dad-volunteer-singapore/"
         },
         {
           "id": "xs15",
@@ -851,11 +797,11 @@
     },
     "wars": {
       "label": "Wars & Conflicts",
-      "ai_summary": "The Oleshky truce is narrow, covering one occupied town so aid can get in and residents out from 27 Oct, and it has not slowed the wider air war. Russia struck Chernihiv in daylight, killing one and injuring 25, and Ukrainian drones forced all four Moscow airports to restrict flights. The Iran front is heading the other way, with Trump hinting at new strikes and October already the worst month on record for attacks on Hormuz shipping, according to a US think-tank. In the West Bank, Israel launched a major operation after two soldiers were killed near Hebron, days before its election. Watch whether the Oleshky ceasefire holds from Tuesday, and whether Washington's threats against Iran turn into strikes.",
+      "ai_summary": "Iran and the US escalated their warnings on Saturday: Tehran says US warships will never enter the Gulf, and Washington is thinning out its embassies over what officials call advanced Iranian attack plans. In Ukraine the Oleshky truce has not spread to the air war, with Russia launching 126 drones overnight and glide bombs killing a civilian in Kramatorsk. Ukraine is hitting infrastructure in return, and monitoring channels say a strike on a southern Russian substation blacked out most of occupied Crimea. In the West Bank, Israel's operation after the Hebron killings has spread to raids on at least 15 northern towns, three days before Israelis vote. Tuesday brings both the Oleshky ceasefire and Israel's election, so watch whether either front calms, or whether Trump's weekend strike threat lands first.",
       "theatres": [
         {
           "name": "Russia-Ukraine War",
-          "status": "Russia and Ukraine agreed a local ceasefire for occupied Oleshky from 27 Oct and technical-level talks in Abu Dhabi in November, Kyiv, Moscow and Washington say; strikes went on regardless on 23 Oct, with a deadly daytime attack on Chernihiv and drones forcing restrictions at all four Moscow airports.",
+          "status": "Russia and Ukraine agreed a local ceasefire for occupied Oleshky from 27 Oct and technical-level talks in Abu Dhabi in November, Kyiv, Moscow and Washington say; strikes went on regardless, with 126 Russian drones overnight into 24 Oct, and monitoring channels report a blackout across occupied Crimea after an attack on a substation in southern Russia.",
           "timeline": [
             {
               "date": "2022-02-24",
@@ -6382,12 +6328,36 @@
               "event": "Zelensky says Ukrainian, Russian and US negotiators will hold technical-level talks in Abu Dhabi in the first half of November; Trump says he will call Musk if Starshield problems persist.",
               "source": "The Straits Times (Reuters)",
               "url": "https://www.straitstimes.com/world/europe/zelenskiy-says-ukrainian-russian-and-us-negotiators-to-meet-in-early-november-in-abu-dhabi"
+            },
+            {
+              "date": "2026-10-23",
+              "event": "Russian glide bombs hit a residential area of Kramatorsk, killing one person and injuring six, including three children, the Donetsk regional prosecutor's office says.",
+              "source": "Ukrinform",
+              "url": "https://www.ukrinform.net/rubric-ato/4177691-one-killed-six-injured-in-russian-airstrike-on-kramatorsk.html"
+            },
+            {
+              "date": "2026-10-23",
+              "event": "Trump tells a Florida rally the US could put 200% tariffs on both Ukraine and Russia to force peace, while doubting it would work given low trade, Ukrinform's correspondent reports.",
+              "source": "Ukrinform",
+              "url": "https://www.ukrinform.net/rubric-polytics/4177699-trump-floats-possibility-of-imposing-200-tariffs-on-ukraine-and-russia-to-force-peace.html"
+            },
+            {
+              "date": "2026-10-24",
+              "event": "Ukraine's Air Force says Russia launched 126 drones overnight and 101 were shot down or suppressed; drones injure two in Kyiv's Obolonskyi district. The General Staff says Russia launched 2,597 drones over the past week.",
+              "source": "Ukrinform",
+              "url": "https://www.ukrinform.net/rubric-ato/4177712-air-defense-neutralizes-101-out-of-126-drones-used-by-russia-to-attack-ukraine-overnight.html"
+            },
+            {
+              "date": "2026-10-24",
+              "event": "A blackout hits most of occupied Crimea after an attack on a substation in southern Russia, Telegram monitoring channels say; not independently confirmed.",
+              "source": "Kyiv Independent, Ukrinform",
+              "url": "https://kyivindependent.com/mass-blackouts-reported-across-occupied-crimea/"
             }
           ]
         },
         {
           "name": "US/Israel-Iran (Strait of Hormuz)",
-          "status": "Trump hinted on 23 Oct at renewed strikes ('another little Epic Fury') and a US envoy said one could come this weekend; Turkey says European and regional ministers agree that would widen the war, and two Iranian officials tell Reuters that Gulf undersea cables could be targets. A US think-tank counts October as the worst month on record for attacks on Hormuz shipping.",
+          "status": "Iran's military chief said on 24 Oct that US warships will not be allowed into the Gulf 'under any circumstances', a day after Trump hinted at renewed strikes and a US envoy said one could come this weekend; US officials say embassy staff are being cut over intelligence of Iranian attack plans. A US think-tank counts October as the worst month on record for attacks on Hormuz shipping.",
           "timeline": [
             {
               "date": "2026-08-16",
@@ -9846,16 +9816,28 @@
               "url": "https://www.straitstimes.com/world/middle-east/ship-attacks-in-strait-of-hormuz-hit-record-high-in-october"
             },
             {
+              "date": "2026-10-23",
+              "event": "US officials say the State Department is cutting embassy staff and has put personnel on alert after intelligence that Iran is in 'advanced stages' of planning attacks on Americans; not independently confirmed.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/united-states/iran-in-advanced-stages-of-planning-attacks-against-americans-officials-say"
+            },
+            {
               "date": "2026-10-24",
               "event": "Two senior Iranian security officials tell Reuters Tehran has detailed plans to hit Gulf undersea cables if the US and Israel attack again; not independently verified.",
               "source": "CNA, The Straits Times (both Reuters)",
               "url": "https://www.channelnewsasia.com/world/iran-war-gulf-undersea-cables-6487421"
+            },
+            {
+              "date": "2026-10-24",
+              "event": "Iran's armed forces chief Ali Abdollahi says US warships will not be allowed into the Gulf 'under any circumstances', according to Iranian state TV.",
+              "source": "The Straits Times, Al Jazeera",
+              "url": "https://www.straitstimes.com/world/middle-east/iran-says-us-military-not-allowed-to-enter-gulf-under-any-circumstances"
             }
           ]
         },
         {
           "name": "Israel-Gaza & Lebanon",
-          "status": "Netanyahu launched a major West Bank operation on 23 Oct after two Israeli soldiers were killed near Hebron, the Israeli military says; Israel votes on Tuesday 27 Oct.",
+          "status": "Israel's West Bank operation after two soldiers were killed near Hebron on 23 Oct widened on 24 Oct to raids on at least 15 northern towns, Al Jazeera reports; the military says it will last several days. Israel votes on Tuesday 27 Oct.",
           "timeline": [
             {
               "date": "2026-08-16",
@@ -11608,6 +11590,12 @@
               "event": "Netanyahu announces a major West Bank operation after the Hebron attack, and Israeli forces launch a 'targeted' operation in Hebron; Italy calls for the release of five Italian activists detained by Israeli police in Kiryat Arba.",
               "source": "The Straits Times, Al Jazeera",
               "url": "https://www.straitstimes.com/world/middle-east/israel-says-it-will-demolish-homes-and-go-house-to-house-after-attack-in-the-west-bank"
+            },
+            {
+              "date": "2026-10-24",
+              "event": "Israeli forces raid at least 15 towns in the northern West Bank and detain dozens, Al Jazeera reports; the military says its operation will last several days and include demolitions.",
+              "source": "Al Jazeera, CNA",
+              "url": "https://www.aljazeera.com/news/2026/10/24/israel-raids-towns-detains-dozens-of-palestinians-in-occupied-west-bank"
             }
           ]
         }
@@ -11615,7 +11603,7 @@
     },
     "outbreaks": {
       "label": "Outbreaks",
-      "ai_summary": "WHO's first formal Ebola update in two weeks shows the DR Congo epidemic still adding hundreds of confirmed cases a week, and the first vaccine trial of this outbreak has begun in Bunia, at its epicentre. The spillover cases look contained for now: Kenya's second death was a relative already in quarantine, and Nigeria's case turns out to be genetically close to Kenya's first, a link investigators still cannot explain. The vaccine being tested, Ervebo, is approved only against the Zaire strain, so a result would matter for future Bundibugyo outbreaks as well as this one. Outside Africa, US measles cases keep climbing week on week. For readers the risk stays travel-linked: check advisories for East and Central Africa and mention recent trips if a fever follows.",
+      "ai_summary": "No new outbreak figures arrived between editions, so WHO's 23 Oct Ebola update is still the latest word: DR Congo is adding hundreds of confirmed cases a week, and the outbreak's first vaccine trial is under way in Bunia. Kenya's cluster looks closed for now, because its second death was a relative of the first patient who was already in quarantine, and the health ministry still sees no community spread. Nigeria's case is the open question, as its virus is genetically close to Kenya's but investigators have not found how the two connect. The vaccine on trial, Ervebo, is licensed only against the Zaire strain, so a result would matter beyond this epidemic. Outside Africa, US measles cases are still rising week on week. For readers the risk stays travel-linked: check advisories for East and Central Africa and mention recent trips if a fever follows.",
       "outbreaks": [
         {
           "name": "DR Congo - Ebola (Bundibugyo virus)",
@@ -11660,7 +11648,7 @@
           "headline": "Kenya reports a second Ebola death and says there is 'no evidence' of community spread",
           "category": "Ebola",
           "summary": "The 65-year-old woman developed symptoms in quarantine and was a close relative of the Kenyan man who died of Ebola on 5 Oct, the health ministry said on 23 Oct, The Straits Times (Reuters) and Al Jazeera report. Kenya has seven patients in treatment at two isolation facilities, all linked to the first case.",
-          "source": "The Straits Times (Reuters), Al Jazeera (AFP)",
+          "source": "The Straits Times (Reuters), Al Jazeera (AFP), BBC",
           "published_at": "2026-10-24T06:33+08:00",
           "url": "https://www.aljazeera.com/news/2026/10/23/kenya-announces-second-ebola-death-says-no-evidence-of-community-spread"
         },
@@ -11902,8 +11890,20 @@
     },
     "cybersecurity": {
       "label": "CyberSecurity",
-      "ai_summary": "Patch HPE Aruba controllers and gateways first: eight maximum-severity ArubaOS flaws allow unauthenticated code execution, and researchers are tracking a separate campaign that has harvested more than 70,000 firewall and VPN credentials. PHP admins have a second job, because a new session-handling RCE has no patch yet but can be switched off with one setting. Ruby has fixed the regex-engine bugs behind GitLab's critical flaws, so update the language runtime as well as GitLab itself. On the threat side, a suspected APT41 UEFI bootkit shows why Secure Boot revocations matter, and ransomware affiliates are now running intrusions through AI agents. The order this weekend is edge devices, then web runtimes, then firmware revocations on Windows fleets.",
+      "ai_summary": "Patch HPE Aruba controllers and gateways first: eight maximum-severity ArubaOS flaws allow unauthenticated code execution, and a separate campaign has already harvested more than 70,000 firewall and VPN credentials. Web stacks come second: PHP's new session-handling RCE has only a one-setting mitigation so far, and OpenAI says its agents found a code-execution bug in the Brotli library that Node.js, Bun and Envoy rely on. Ruby has fixed the regex-engine bugs behind GitLab's critical flaws, so update the runtime as well as GitLab itself. On the threat side, a suspected APT41 UEFI bootkit shows why Secure Boot revocations matter, and ransomware affiliates are now steering intrusions through AI agents. The weekend order is edge devices, then web runtimes and libraries, then firmware revocations on Windows fleets.",
       "stories": [
+        {
+          "id": "zc1",
+          "headline": "OpenAI says its agents found a code-execution flaw in the Brotli compression library used by Node.js, Bun and Envoy",
+          "category": "Vulnerability",
+          "summary": "OpenAI said on 23 Oct that AI agents testing its defences found a flaw in Brotli that lets attackers run code by sending malicious data, affecting systems built on Node.js, Bun and Envoy, The Straits Times reports. The root cause was fixed in Brotli's source in February without a release, and Brotli has now shipped updated versions and published a public record. OpenAI also said it resumed frontier training on 1 Oct after a research model gained limited internet access in September. No CVE or CVSS score was given in the report; update Brotli and runtimes that bundle it.",
+          "source": "The Straits Times",
+          "published_at": "2026-10-24T09:28+08:00",
+          "url": "https://www.straitstimes.com/world/openai-resumes-frontier-ai-training-after-security-overhaul-discloses-flaw-in-widely-used-software",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH"
+        },
         {
           "id": "yc1",
           "headline": "Abandoned Popcorn Time fork's updater let anyone holding a lapsed domain run code as SYSTEM or root",
@@ -12272,18 +12272,6 @@
           "source": "The Hacker News (SBI filing)",
           "published_at": "2026-10-21T15:44+08:00",
           "url": "https://thehackernews.com/2026/10/state-bank-of-india-confirms-data-leak.html",
-          "cve": null,
-          "cvss": null,
-          "severity": "MEDIUM"
-        },
-        {
-          "id": "kc5",
-          "headline": "Belarus-aligned Cyber Partisans hid a 'Vasilek' backdoor in VMware Tools during a two-year intrusion at a Russian healthcare organisation",
-          "category": "Threat actor",
-          "summary": "Russian security firm Solar attributes the activity to the cluster it calls Partisan Zmiy, also known as the Cyber Partisans, a hacktivist group active since at least 2020, The Hacker News reports. Attribution comes from a single vendor and has not been independently confirmed.",
-          "source": "The Hacker News (Solar)",
-          "published_at": "2026-10-21T14:05+08:00",
-          "url": "https://thehackernews.com/2026/10/hackers-hid-vasilek-backdoor-in-vmware.html",
           "cve": null,
           "cvss": null,
           "severity": "MEDIUM"
