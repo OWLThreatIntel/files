@@ -1,49 +1,139 @@
 {
   "meta": {
-    "date": "2026-10-23",
-    "generated_at": "2026-10-23T21:09:06+08:00",
+    "date": "2026-10-24",
+    "generated_at": "2026-10-24T09:07:31+08:00",
     "edition": "Daily News Briefing",
     "sources": [
       "CNA World, Asia and Singapore RSS via curl with a browser UA; The Straits Times World and Singapore RSS via curl; BBC World, Middle East, Europe, Asia and US & Canada RSS via curl (GMT pubDate converted to SGT, query strings stripped); Al Jazeera all-news RSS; Ukrinform and Kyiv Independent RSS for Ukrainian official tallies; Mothership RSS plus a homepage scrape (article clock timestamps); BleepingComputer feed via WebFetch; The Hacker News feedburner RSS; CISA KEV JSON and NVD API; WHO DON OData API; ECDC CDTR feed and DRC Ebola page; NEA weather and PSI and LTA COE via data.gov.sg",
-      "21:00 edition: built on the 23 Oct 15:00 edition; items published since about 14:30 SGT were added, and seed cards past each section's window were dropped (15 Top Stories, 14 Singapore, 6 Cybersecurity). Re-anchored to newer reports: the Singapore haze card (CNA's 6pm update, modified 20:37; the 8pm PSI matches NEA data on data.gov.sg), OCBC (CNA: restored after about four hours), Typhoon Champi (BBC; its injury and evacuation figures differ from the earlier government figures cited by CNA, and both are given), the Starshield card (ST and Al Jazeera), the Ethiopia-Kenya border card (ST, Kenya Red Cross), and the PHP2Shell and Node.js Brotli cyber cards (newer THN follow-ups). The haze-mask card stays as an effective-date item: round two opened today, announced 22 Oct.",
-      "Top Stories: BBC World and regional feeds, CNA (World/Asia), ST World, Al Jazeera, Ukrinform and the Kyiv Independent. Single-outlet items are attributed in the card text. Hebron casualty figures are the Israeli military's, via the BBC (CNA's earlier AFP report said five wounded); the Jordan toll is from Jordanian state media via BBC and ST; the Black Sea ship figures are Romania's naval authority's. Skipped: opinion, analysis and video items, sport, an Indonesia MSCI explainer about a 16 Oct event, a Rubio India analysis, a UK sailor's court appearance and an Al Jazeera video report from Syria with no written account.",
-      "Singapore: CNA and ST Singapore feeds, NEA PSI, PM2.5 and weather and LTA COE data on data.gov.sg (COE table unchanged; the Oct 2nd exercise matches the API), and a Mothership homepage scrape with article clock timestamps. Merged: Mothership's playground, canal, biomethane and iPhone Duo resale items into the matching CNA/ST cards, and ST's marriage-and-parenthood report into the CNA card. Skipped from Mothership: a branded (sponsored) Changi travel piece, a Malaysian school attack story involving a minor, and a West Coast motorcycle death from 20 Oct that only Mothership carried, so the death could not be checked against a second source.",
-      "Wars: Ukrinform, the Kyiv Independent, BBC, CNA, ST and Al Jazeera. The Azot plant strike comes from the Russian Telegram outlet ASTRA via Ukrinform and is attributed as such. The Iran theatre had no new independently reported event since the 15:00 edition, so its timeline is unchanged and Iran's seven-tanker claim stays marked unverified.",
-      "Outbreaks: WHO's DON API (latest still the 15 Oct MERS item; newest Ebola DON is DON619 of 8 Oct), the ECDC feed (a week-42 respiratory virus update only, not carded) and ST. Africa CDC's figure of about 4,700 Ebola deaths, via ST, is newer than the ECDC count on the DR Congo tile (data to 19 Oct, published 20 Oct); the tile keeps the ECDC figure until a primary update is published.",
-      "Cybersecurity: the BleepingComputer feed via WebFetch (new: HPE ArubaOS, 23 Oct 08:48 EDT) and The Hacker News RSS (six new items since 15:00). THN article pages returned 403 to WebFetch this run and the feed carried no descriptions, so the PHP, Pillow, x402 and mesh-backdoor cards are limited to what THN's headlines state, attributed to THN, with no CVE or CVSS given; their severity labels follow THN's 'critical' wording where it is used. The HPE CVE range and mitigations come from BleepingComputer citing HPE advisory HPESBNW05162; no NVD scores yet. Skipped: BleepingComputer's sponsored post, Microsoft's Exchange Online EWS fix (admin guidance), Chrome's Gemini scam detection (product feature), THN's webinar post and an ST feature on AI-found bugs."
+      "09:00 edition: built on the 23 Oct 21:00 edition; items published since about 21:00 SGT were added, and seed cards past each section's window were dropped (21 Top Stories, 7 Singapore, 2 Outbreaks, 6 Cybersecurity). Re-anchored to newer reports: the Jordan church attack (CNA/AFP: terrorism, three days of mourning), the Trappes shooting (CNA/AFP: five wounded; Macron's 'racist terrorist attack'), Hebron (ST: major West Bank operation), Typhoon Champi (Al Jazeera/AFP: about 350 injured; the BBC's earlier official figure was 171), the Nairobi collapse (Al Jazeera), the Starshield card (ST: Trump's remarks), the Singapore haze card (CNA's 8am update, matching NEA data on data.gov.sg) and the PHP cyber card (BleepingComputer: CVE and mitigation). The haze-mask effective-date card (23 Oct) was dropped.",
+      "Top Stories: BBC World and regional feeds, CNA (World/Asia), ST World, Al Jazeera, Ukrinform and the Kyiv Independent. Single-outlet items are attributed in the card text. The Oleshky start date differs: the White House said 29 Oct, while Ukraine and Russia both gave 27 Oct at 02:00 GMT, which the card uses. The Gulf cable plans rest on two anonymous Iranian officials via Reuters and are marked unverified. Skipped: analysis, video and explainer items (including a Reuters report on past US requests to SpaceX over Starlink and ST's overnight roundup), sport, a UK AI-funding pledge, Costa Rica's DEA operations, an Oregon school-shooting interview, and Al Jazeera's live-page Brent price, which no second outlet carried.",
+      "Singapore: CNA and ST Singapore feeds, NEA PSI, PM2.5 and weather and LTA COE data on data.gov.sg (COE table unchanged; the Oct 2nd exercise matches the API), and a Mothership homepage scrape. Mothership had only two new links overnight, both on the haze notices, and they were merged into the CNA/ST cards; its RSS feed's newest item is 23 Oct 15:19. Skipped: a CNA analysis of Indonesian political rhetoric, and a CNA feature on a printing firm.",
+      "Wars: Ukrinform, the Kyiv Independent, BBC, CNA, ST and Al Jazeera. Russian and Ukrainian claims are attributed. The Hormuz attack count is the Washington Institute for Near East Policy's; Moscow airport figures are Rosaviatsia's and monitoring channels' via Ukrinform.",
+      "Outbreaks: WHO DON622 (23 Oct, via the DON OData API) is the primary source for the DR Congo tile, and ECDC's multi-country Ebola page (updated 23 Oct 16:45 CEST; the old DRC page URL now redirects there) gives the same figures. US CDC's measles page (via WebFetch, updated 23 Oct) supplies the measles tile; the 16 Oct CDC card (4,410 cases) was replaced by the new weekly update, which uses the same CDC URL. Kenya and Nigeria updates come from their health ministries via ST and Al Jazeera.",
+      "Cybersecurity: the BleepingComputer feed and /news/security/ listing via WebFetch (new: Popcorn Time, Quest Diagnostics, and the PHP mitigation, merged into the PHP card; skipped: a Teams phishing-detection feature, the Windows Server 2016 end-of-support notice and sponsored posts) and The Hacker News RSS (four new items; their article pages were not fetched, so those cards rest on THN's feed descriptions, with no CVE or CVSS given). CISA's KEV catalogue (2026.10.23) added the Arista VeloCloud flaw, already carded, and Collabora Online CVE-2026-110447, which had no write-up in either feed and is not carded."
     ]
   },
   "sections": {
     "top_stories": {
       "label": "Top Stories",
-      "ai_summary": "Gunmen killed at least seven people at a church funeral in Jordan on Friday, the worst of several deadly shootings in a single day that also brought a suspected terror attack near Paris. Europe's frictions with Russia sharpened, as Romania blamed a Russian drone for sinking a cargo ship off its coast and Austria expelled four Russian diplomats over suspected spying. Moscow and Kyiv still managed their first prisoner swap in two months, 270 for 270, and Putin says he is ready for US-mediated talks in November. Asia had its own emergencies, with Typhoon Champi shutting down Taiwan hours after a deadly earthquake in Tibet. The coming days turn on two votes, Brazil's runoff on Sunday and Israel's election on Tuesday, the latter now overshadowed by a West Bank closure.",
+      "ai_summary": "Russia and Ukraine agreed a ceasefire for occupied Oleshky, brokered by Melania Trump, and their negotiators will meet US officials in Abu Dhabi in November. The Iran front is moving the other way: Trump hinted at fresh strikes, and Iranian officials say Gulf undersea cables could become targets if that happens. Violence dominated elsewhere, as Jordan called the killing of seven people at a church funeral terrorism and Macron called a shooting near Paris a racist terrorist attack. In Washington, midterm politics is shaping policy, from tariff relief for Canada to a lawsuit over how Alaska counts its Senate race. The weekend tests both tracks: whether Trump acts on Iran, and whether France's protests stay calmer than last week's riots.",
       "stories": [
         {
-          "id": "x1",
-          "headline": "Gunmen kill at least seven people at a church funeral in Jordan",
+          "id": "y1",
+          "headline": "Russia and Ukraine agree a local ceasefire in occupied Oleshky, and peace negotiators will meet in Abu Dhabi in November",
+          "category": "Ukraine war",
+          "summary": "The White House said US First Lady Melania Trump secured the truce for the Russian-occupied town in Kherson region, which it called 'on the brink of disaster' without medicine, food and clean water, the BBC reports. Ukraine's General Staff and the Kremlin both confirmed it, and both sides say firing stops at 02:00 GMT on 27 Oct to allow aid deliveries and evacuations; the White House had given 29 Oct. Separately, Zelensky said Ukrainian, Russian and US negotiators agreed to technical-level talks in Abu Dhabi in the first half of November, The Straits Times reports (Reuters).",
+          "source": "BBC, The Straits Times (Reuters), Ukrinform, CNA",
+          "published_at": "2026-10-24T03:30+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo"
+        },
+        {
+          "id": "y2",
+          "headline": "Trump hints at 'another little Epic Fury' against Iran as a US envoy says a strike could come this weekend",
           "category": "Middle East",
-          "summary": "Two gunmen opened fire during a funeral at the Hamoud church in Jordan's Karak governorate on 23 Oct, killing at least seven people and injuring 10, state-owned Al-Mamlaka TV reported, according to The Straits Times; the BBC cites state media for the same toll. The attackers arrived by car and fled, and security forces were pursuing them, government spokesman Mohammad al-Momani said. There was no immediate claim of responsibility.",
-          "source": "BBC, The Straits Times (Reuters)",
-          "published_at": "2026-10-23T20:55+08:00",
-          "url": "https://www.bbc.co.uk/news/articles/ck87zlpzny15o"
+          "summary": "'We may do another little Epic Fury,' Trump told a rally in Fort Myers, Florida, on 23 Oct, using the US military's name for its war on Iran, The Straits Times reports; he did not elaborate. Tom Barrack, the US ambassador to Turkey, who has no direct role on Iran, answered 'Absolutely' when asked on a podcast whether there could be a strike this weekend, CNA reports. Turkey's foreign minister Hakan Fidan, after meeting counterparts from Egypt, Pakistan, Saudi Arabia, Germany, France, Britain and Italy in Istanbul, said they agreed a new attack on Iran would widen the war.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-10-24T08:40+08:00",
+          "url": "https://www.channelnewsasia.com/world/iran-war-us-could-strike-soon-6488231"
+        },
+        {
+          "id": "y3",
+          "headline": "Iran has plans to target Gulf undersea internet cables if attacked again, two Iranian officials tell Reuters",
+          "category": "Middle East",
+          "summary": "Two senior Iranian security officials, speaking anonymously, told Reuters that Tehran has drawn up detailed plans to hit undersea communications cables in the Gulf if the US and Israel attack Iran again, CNA and The Straits Times report; they gave few details. Iranian officials had earlier warned the cables could become targets if diplomacy with Washington collapses. The claim has not been independently verified.",
+          "source": "CNA, The Straits Times (both Reuters)",
+          "published_at": "2026-10-24T08:54+08:00",
+          "url": "https://www.channelnewsasia.com/world/iran-war-gulf-undersea-cables-6487421"
+        },
+        {
+          "id": "x1",
+          "headline": "Gunmen kill seven at a church funeral in Jordan; the government calls it terrorism and declares three days of mourning",
+          "category": "Middle East",
+          "summary": "Gunmen opened fire during a funeral procession at a Greek Orthodox church in Hammoud village, Karak governorate, on 23 Oct, killing seven people, CNA (AFP) and The Straits Times (Reuters) report; the BBC cites state media for the same toll. Interior Minister Mazen Al-Faraya said 'a terrorist group' carried out the attack and security services were hunting the attackers, and Prime Minister Jafar Hassan ordered three days of national mourning. CNA reports that King Abdullah vowed retaliation. There has been no claim of responsibility.",
+          "source": "CNA (AFP), BBC, The Straits Times (Reuters)",
+          "published_at": "2026-10-24T05:54+08:00",
+          "url": "https://www.channelnewsasia.com/world/gunmen-jordan-shooting-king-retaliation-seven-killed-6488111"
         },
         {
           "id": "x2",
-          "headline": "Gunman kills one and wounds at least four near Paris; anti-terror prosecutors take over",
+          "headline": "Macron calls a drive-by shooting near Paris that killed one and wounded five a 'racist terrorist attack'",
           "category": "Europe",
-          "summary": "A man fired from his car at people in Trappes and La Verrière, south-west of Paris, at about 10.30am local time on 23 Oct, killing one person and wounding at least four, police said, according to CNA (AFP). He was arrested in nearby Coignières. France's National Anti-Terrorist Prosecutor's Office said it had taken over the investigation into what appeared to be 'murder in connection with a terrorist enterprise', the BBC reports. Prime Minister Sébastien Lecornu called the events 'very serious'.",
-          "source": "BBC, CNA (AFP)",
-          "published_at": "2026-10-23T20:47+08:00",
-          "url": "https://www.bbc.co.uk/news/articles/c6ev38dj1g8zo"
+          "summary": "A gunman firing from a car killed one person and wounded five, including a 12-year-old girl, in Trappes and La Verrière south-west of Paris on 23 Oct, CNA (AFP) reports; he was arrested. Most of the victims were from foreign backgrounds, and anti-terror prosecutors are investigating whether they were targeted for their real or supposed race, ethnicity, nationality or religion. 'What happened here today was a racist terrorist attack,' Macron said on a visit to Trappes.",
+          "source": "CNA (AFP), BBC",
+          "published_at": "2026-10-24T01:05+08:00",
+          "url": "https://www.channelnewsasia.com/world/paris-gun-shooting-kills-one-five-injured-trappes-6487371"
         },
         {
           "id": "x3",
-          "headline": "Two Israeli soldiers killed at a Hebron checkpoint; Netanyahu orders a West Bank closure days before the election",
+          "headline": "Netanyahu launches a major West Bank operation after two Israeli soldiers are killed near Hebron",
           "category": "Middle East",
-          "summary": "Two suspected Palestinian gunmen killed two Israeli soldiers and wounded three Israelis at a checkpoint at the entrance to Hebron on 23 Oct before being shot dead, the Israeli military says, according to the BBC; earlier reports carried by CNA (AFP) said five Israelis were wounded. Prime Minister Benjamin Netanyahu said troops had prevented what could have been a major attack and ordered the army to prepare a full closure of the occupied West Bank from later on Friday, ahead of Tuesday's general election.",
-          "source": "BBC, CNA (AFP), The Straits Times",
-          "published_at": "2026-10-23T20:48+08:00",
-          "url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko"
+          "summary": "Netanyahu announced the operation on 23 Oct after Palestinian gunmen killed two Israeli soldiers and wounded three Israelis at a checkpoint near Hebron before being shot dead, according to the Israeli military, The Straits Times and the BBC report. Israeli forces began a 'targeted' operation in Hebron, Al Jazeera reports, and Netanyahu had ordered the army to prepare a full closure of the occupied West Bank. Security is a central issue in Tuesday's election, in which Netanyahu faces a tight race.",
+          "source": "The Straits Times, BBC, Al Jazeera",
+          "published_at": "2026-10-24T03:59+08:00",
+          "url": "https://www.straitstimes.com/world/middle-east/israel-says-it-will-demolish-homes-and-go-house-to-house-after-attack-in-the-west-bank"
+        },
+        {
+          "id": "y4",
+          "headline": "Ship attacks around the Strait of Hormuz hit a record in October, and an oil slick from a damaged tanker reaches UAE beaches",
+          "category": "Middle East",
+          "summary": "A Washington Institute for Near East Policy tracker has logged 28 confirmed and reported attacks on shipping in and around the strait in October, the most on record, and 113 since the war began on 28 Feb, The Straits Times reports. BBC Verify says satellite images show an oil slick from a tanker matching the Gem No.2, damaged on 9-10 Oct, spreading more than 35km along the UAE coast; UAE authorities said beaches near Umm Al Quwain were affected and some were closed.",
+          "source": "BBC, The Straits Times",
+          "published_at": "2026-10-23T23:30+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c6rey3n974g5o"
+        },
+        {
+          "id": "y5",
+          "headline": "US lifts some tariffs on Canadian goods two weeks before the midterms, after Senator Susan Collins lobbied for it",
+          "category": "Trade",
+          "summary": "From 30 Oct, the 50% tariffs will be eased on goods including plywood, some paper products, certain machinery and refrigeration equipment, the White House said, the BBC reports. Collins, a Republican in a tight race in Maine, first announced the exemptions. Trump also said Canada was 'working very hard' to reach a trade deal, CNA reports.",
+          "source": "BBC, The Straits Times, CNA",
+          "published_at": "2026-10-24T08:36+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o"
+        },
+        {
+          "id": "y6",
+          "headline": "Pentagon designates US campuses' Confucius Institutes a national security threat",
+          "category": "US-China",
+          "summary": "Defence Secretary Pete Hegseth said in a video on 23 Oct that the Chinese-funded cultural centres had been added to the Pentagon's list of institutions that threaten US national security, alleging they operate 'under disguise' at US universities, The Straits Times reports. Washington has long accused the institutes of serving as Chinese propaganda tools.",
+          "source": "The Straits Times",
+          "published_at": "2026-10-24T06:21+08:00",
+          "url": "https://www.straitstimes.com/world/united-states/pentagon-designates-confucius-institutes-in-us-a-national-security-threat"
+        },
+        {
+          "id": "y7",
+          "headline": "Trump administration sues to block certification of Alaska's Senate race if Republican Dan Sullivan loses",
+          "category": "US politics",
+          "summary": "The Justice Department's lawsuit, filed on 22 Oct, argues that a second candidate named Dan Sullivan on the ballot could confuse voters, the BBC reports. Polls show Democrat Mary Peltola narrowly ahead of Senator Sullivan before the 3 Nov vote. Al Jazeera also reports the suit.",
+          "source": "BBC, Al Jazeera",
+          "published_at": "2026-10-24T02:49+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c678pv4krx37o"
+        },
+        {
+          "id": "y8",
+          "headline": "France brings in troops to back up police ahead of a new round of protests on 24 Oct",
+          "category": "Europe",
+          "summary": "There will be 20% more police on duty than on 17 Oct, when looting of 3,000 shops and 2,700 arrests followed cost-of-living protests, according to the Interior Ministry, The Straits Times reports. The military is being deployed in support to prevent a repeat of last weekend's riots.",
+          "source": "The Straits Times",
+          "published_at": "2026-10-23T22:19+08:00",
+          "url": "https://www.straitstimes.com/world/europe/france-calls-in-troops-to-contain-oct-24-protests-prevent-riots-and-looting"
+        },
+        {
+          "id": "w1",
+          "headline": "Typhoon Champi kills one and injures about 350 in Taiwan before heading towards China and Japan",
+          "category": "Asia",
+          "summary": "The storm swept past Taiwan's north-east on 23 Oct, toppling trees, closing schools and shops, cutting power to thousands of households and forcing more than 4,300 people from their homes, Al Jazeera (AFP) reports, citing one death and at least 350 injured. Earlier official figures cited by the BBC were 171 injured. Hundreds of flights in the region were cancelled as Champi moves towards China and Japan.",
+          "source": "Al Jazeera (AFP), BBC, CNA",
+          "published_at": "2026-10-24T07:10+08:00",
+          "url": "https://www.aljazeera.com/news/2026/10/23/typhoon-champi-hits-taiwan-killing-one-and-injuring-350"
+        },
+        {
+          "id": "y9",
+          "headline": "Moldova expels a Russian diplomat after a Russian Geran drone falls near homes",
+          "category": "Europe",
+          "summary": "President Maia Sandu said on 23 Oct that the drone came down near family homes and an energy facility in central Moldova, and a member of the Russian embassy was declared persona non grata, the Kyiv Independent reports. 'Russia's war keeps putting Moldovan lives at risk,' she said.",
+          "source": "Kyiv Independent",
+          "published_at": "2026-10-24T00:51+08:00",
+          "url": "https://kyivindependent.com/moldova-expels-russian-diplomat-after-russian-geran-drone-falls-near-family-homes/"
         },
         {
           "id": "x4",
@@ -65,30 +155,48 @@
         },
         {
           "id": "j3",
-          "headline": "Ukraine says Starshield signal losses persist despite Trump's claim that access was restored, and plans its own satellite system",
+          "headline": "Trump says he will call Musk if Ukraine's Starshield problems persist, as Ukraine reports continuing signal losses",
           "category": "Ukraine war",
-          "summary": "'As of this morning, instances of signal loss are still being observed,' a Defence Ministry source told reporters on 23 Oct, adding there was no confirmation the restrictions had been lifted, a day after Trump said Elon Musk had restored access, The Straits Times reports. Zelensky announced plans to build an independent satellite communications system, Al Jazeera reports (DPA). The Kyiv Independent reports that US Senator Richard Blumenthal has opened a probe into the restrictions.",
-          "source": "The Straits Times, Al Jazeera (DPA), BBC, Kyiv Independent",
-          "published_at": "2026-10-23T18:20+08:00",
-          "url": "https://www.straitstimes.com/world/europe/ukraine-reports-problems-with-starshield-after-trump-said-access-restored"
+          "summary": "'If there is a problem, I will get it straightened out,' Trump told reporters on 23 Oct, saying he had not yet spoken to Musk, The Straits Times reports; Ukraine's Defence Ministry said signal losses on the military-grade service were still being observed. British Prime Minister Andy Burnham stressed in a call with Trump that Ukraine needs full Starlink access, Downing Street said. Zelensky has announced plans for an independent satellite system, Al Jazeera reports (DPA).",
+          "source": "The Straits Times, Al Jazeera (DPA), Kyiv Independent",
+          "published_at": "2026-10-24T00:06+08:00",
+          "url": "https://www.straitstimes.com/world/europe/trump-will-talk-to-musk-if-ukraines-starlink-not-fixed-after-kyiv-reports-problems"
         },
         {
-          "id": "w1",
-          "headline": "Taiwan all but shuts down as Typhoon Champi nears, with hundreds of flights cancelled",
-          "category": "Asia",
-          "summary": "Schools and offices across Taiwan shut on 23 Oct and hundreds of flights in the region were cancelled as Typhoon Champi neared the island's north-east coast, the BBC reports; it was forecast to bring up to 90cm of rain until Saturday. Authorities said one person died after being swept away by waves, 171 were injured and about 1,000 evacuated, according to the BBC; earlier government figures cited by CNA were 94 injured and almost 1,300 evacuated from mountain areas. The storm is forecast to pass off north-eastern Taiwan before turning towards the Chinese coast and southern Japan.",
-          "source": "BBC, CNA",
-          "published_at": "2026-10-23T16:45+08:00",
-          "url": "https://www.bbc.co.uk/news/articles/cw98zn304zg7o"
+          "id": "y10",
+          "headline": "Argentine judge drops the criminal case against President Milei and his sister over the $Libra crypto collapse",
+          "category": "Americas",
+          "summary": "Federal judge Marcelo Martínez de Giorgi dismissed the case at prosecutors' request, court records show, the BBC reports. Milei had denied promoting the coin, which collapsed shortly after he posted about it in February 2025, and said he acted 'in good faith'. The Straits Times also reports the ruling.",
+          "source": "BBC, The Straits Times",
+          "published_at": "2026-10-24T04:59+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c64g1eplpvddo"
         },
         {
-          "id": "j1",
-          "headline": "Magnitude 7.0 earthquake in Tibet kills at least 16, Chinese state media say",
-          "category": "Asia",
-          "summary": "The quake struck Baqên County in the Nagqu region at 10.33pm on 22 Oct, about 400km north-east of Lhasa, killing at least 16 people, state news agency Xinhua reported, citing local authorities. State media say 339 homes collapsed and power was cut; CCTV put the injured at 46, 11 of them seriously, while earlier reports gave 32. Authorities declared an emergency and sent rescue teams, the BBC and CNA report.",
-          "source": "BBC, CNA, Al Jazeera (citing Xinhua and CCTV)",
-          "published_at": "2026-10-23T08:25+08:00",
-          "url": "https://www.bbc.co.uk/news/articles/ck5ynd1z6e83o"
+          "id": "y11",
+          "headline": "Ecuador judge orders former presidential candidate Luisa González held in pre-trial detention",
+          "category": "Americas",
+          "summary": "The order on 23 Oct came a day after González, who ran against President Daniel Noboa in 2023, was arrested in a money-laundering investigation, Al Jazeera reports (AFP).",
+          "source": "Al Jazeera (AFP)",
+          "published_at": "2026-10-24T03:45+08:00",
+          "url": "https://www.aljazeera.com/news/2026/10/23/ecuador-judge-orders-pre-trial-detention-of-leftist-presidential-candidate"
+        },
+        {
+          "id": "y12",
+          "headline": "UN warns time is running out to reach Yemen's Taiz after almost three weeks of a Houthi siege",
+          "category": "Middle East",
+          "summary": "The Houthis have encircled the city since early October, cutting the road to Aden, the seat of the internationally recognised government, and blocking supplies, the UN said, according to Al Jazeera (AFP).",
+          "source": "Al Jazeera (AFP)",
+          "published_at": "2026-10-24T04:44+08:00",
+          "url": "https://www.aljazeera.com/news/2026/10/23/time-running-out-to-reach-yemens-taiz-amid-deepening-crisis-un-says"
+        },
+        {
+          "id": "y13",
+          "headline": "Tigray official urges rebels to disarm after the TPLF lost Mekelle; a rebel commander vows to keep fighting",
+          "category": "Africa",
+          "summary": "An official in Tigray's new federally backed administration called on fighters to lay down their weapons on 23 Oct, hours after a TPLF commander told them to keep resisting, Al Jazeera reports. TPLF forces withdrew from Mekelle, the regional capital, in early October.",
+          "source": "Al Jazeera",
+          "published_at": "2026-10-24T03:55+08:00",
+          "url": "https://www.aljazeera.com/news/2026/10/23/tigray-official-urges-rebels-to-disarm"
         },
         {
           "id": "x6",
@@ -98,24 +206,6 @@
           "source": "The Straits Times (Reuters), Kyiv Independent (DPA)",
           "published_at": "2026-10-23T19:01+08:00",
           "url": "https://www.straitstimes.com/world/europe/austria-expels-four-russian-diplomats-on-security-grounds"
-        },
-        {
-          "id": "j2",
-          "headline": "Putin says Russia is ready to resume US-mediated talks with Ukraine in November; Zelensky says new strikes show 'no change'",
-          "category": "Ukraine war",
-          "summary": "In a Russian television interview a day after meeting US envoy Steve Witkoff, Vladimir Putin said talks should secure Russia and Ukraine after a final peace deal, not a short-lived ceasefire, and should cover 'the architecture of European security as a whole', The Straits Times reports (Reuters). Volodymyr Zelensky said the latest Russian strikes showed 'no real change' in Moscow's position, while saying Ukraine is ready for talks likely by early November (CNA, ST).",
-          "source": "The Straits Times (Reuters), CNA",
-          "published_at": "2026-10-23T05:26+08:00",
-          "url": "https://www.straitstimes.com/world/europe/putin-says-talks-must-focus-on-security-for-russia-ukraine-and-europe-overall"
-        },
-        {
-          "id": "w2",
-          "headline": "Russia launches 176 drones at Ukraine overnight; a DTEK thermal power plant halts generation after a 'massive' attack",
-          "category": "Ukraine war",
-          "summary": "Ukraine's Air Force said Russia launched 176 drones from 18:00 on 22 Oct, of which 140 were shot down or jammed by 8am, with hits recorded at 19 locations, Ukrinform reports. Energy company DTEK said one of its thermal power plants stopped generating after a massive attack. In Zhytomyr region more than 900 settlements were without power on Friday morning, and a drone strike on a house there on 22 Oct injured nine people, including two children, the regional governor said, according to the Kyiv Independent. Russia has not commented on the targets.",
-          "source": "Ukrinform (Ukrainian Air Force, DTEK), Kyiv Independent",
-          "published_at": "2026-10-23T13:42+08:00",
-          "url": "https://www.ukrinform.net/rubric-ato/4177331-ukraines-air-defenses-down-140-out-of-176-russian-drones-overnight.html"
         },
         {
           "id": "x7",
@@ -154,6 +244,51 @@
           "url": "https://www.channelnewsasia.com/east-asia/south-korea-proposes-holding-border-talks-north-6485461"
         },
         {
+          "id": "w2",
+          "headline": "Russia launches 176 drones at Ukraine overnight; a DTEK thermal power plant halts generation after a 'massive' attack",
+          "category": "Ukraine war",
+          "summary": "Ukraine's Air Force said Russia launched 176 drones from 18:00 on 22 Oct, of which 140 were shot down or jammed by 8am, with hits recorded at 19 locations, Ukrinform reports. Energy company DTEK said one of its thermal power plants stopped generating after a massive attack. In Zhytomyr region more than 900 settlements were without power on Friday morning, and a drone strike on a house there on 22 Oct injured nine people, including two children, the regional governor said, according to the Kyiv Independent. Russia has not commented on the targets.",
+          "source": "Ukrinform (Ukrainian Air Force, DTEK), Kyiv Independent",
+          "published_at": "2026-10-23T13:42+08:00",
+          "url": "https://www.ukrinform.net/rubric-ato/4177331-ukraines-air-defenses-down-140-out-of-176-russian-drones-overnight.html"
+        },
+        {
+          "id": "y14",
+          "headline": "Storm Austen cuts power to nearly 300,000 homes in France and about 12,000 in Britain",
+          "category": "Europe",
+          "summary": "Winds of up to 179km/h and heavy rain disrupted trains and flights on 23 Oct, utility Enedis said, according to The Straits Times.",
+          "source": "The Straits Times",
+          "published_at": "2026-10-23T21:31+08:00",
+          "url": "https://www.straitstimes.com/world/europe/storm-causes-power-outages-and-traffic-disruptions-in-france-and-britain"
+        },
+        {
+          "id": "y15",
+          "headline": "US consumer sentiment falls to a near-record low before the midterms",
+          "category": "Economy",
+          "summary": "The University of Michigan's index fell in its final reading before the 3 Nov elections, as tensions with Iran pushed up prices, Al Jazeera reports (Reuters).",
+          "source": "Al Jazeera (Reuters)",
+          "published_at": "2026-10-24T01:26+08:00",
+          "url": "https://www.aljazeera.com/economy/2026/10/23/us-consumer-sentiment-hits-a-near-record-low-before-midterm-elections"
+        },
+        {
+          "id": "y16",
+          "headline": "Two former FBI agents are charged with lying to Congress over the 2020 Hunter Biden laptop probe",
+          "category": "US politics",
+          "summary": "Nikki Floris and Bradley Benavides made their first court appearance in Washington on 23 Oct, Al Jazeera reports (AP).",
+          "source": "Al Jazeera (AP)",
+          "published_at": "2026-10-24T02:22+08:00",
+          "url": "https://www.aljazeera.com/news/2026/10/23/former-fbi-officials-charged-in-connection-with-hunter-biden-laptop-probe"
+        },
+        {
+          "id": "x12",
+          "headline": "Several people missing after a multistorey building under construction collapses in Nairobi",
+          "category": "Africa",
+          "summary": "The building came down at about 1pm local time on 23 Oct on a busy commercial street in Eastleigh, and rescuers were digging through the rubble for several missing people, Al Jazeera reports (AFP, AP). The Nairobi governor's office had said its ground floor was occupied. The cause is not yet known.",
+          "source": "Al Jazeera (AFP, AP), The Straits Times (Reuters)",
+          "published_at": "2026-10-24T01:49+08:00",
+          "url": "https://www.aljazeera.com/news/2026/10/23/many-feared-trapped-after-multistorey-building-collapses-in-kenya"
+        },
+        {
           "id": "x10",
           "headline": "UK quietly advises households to keep three days of emergency supplies",
           "category": "Europe",
@@ -181,15 +316,6 @@
           "url": "https://www.straitstimes.com/world/united-states/trumps-diesel-price-relief-efforts-grow-costlier-as-election-nears"
         },
         {
-          "id": "j5",
-          "headline": "US stocks slide and the Nasdaq has its steepest drop since early June as AI earnings revive spending fears",
-          "category": "Markets",
-          "summary": "The Nasdaq fell 2.6% on 22 Oct, dragged down by chipmakers, after a batch of high-profile AI-related earnings reports reignited doubts about the AI spending race, and the S&P 500 also closed sharply lower, CNA reports (Reuters).",
-          "source": "CNA (Reuters)",
-          "published_at": "2026-10-23T05:34+08:00",
-          "url": "https://www.channelnewsasia.com/world/sp-500-nasdaq-end-sharply-lower-revived-ai-doubts-ignite-tech-selloff-6484366"
-        },
-        {
           "id": "x11",
           "headline": "Pope Leo cancels an Assisi visit to aid his recovery from lung cancer surgery",
           "category": "Europe",
@@ -197,24 +323,6 @@
           "source": "The Straits Times",
           "published_at": "2026-10-23T16:16+08:00",
           "url": "https://www.straitstimes.com/world/europe/pope-leo-cancels-assisi-trip-to-aid-recovery-from-cancer-surgery"
-        },
-        {
-          "id": "x12",
-          "headline": "A 12-storey building under construction collapses in Nairobi; people may be trapped",
-          "category": "Africa",
-          "summary": "The building in the Eastleigh neighbourhood collapsed on 23 Oct, and the Nairobi governor's office said there were reports that people may be trapped under the rubble, The Straits Times reports (Reuters). Its ground floor was occupied, the governor's office said. The cause is not yet known.",
-          "source": "The Straits Times (Reuters)",
-          "published_at": "2026-10-23T20:57+08:00",
-          "url": "https://www.straitstimes.com/world/building-collapses-in-kenyan-capital-rescuers-on-the-scene"
-        },
-        {
-          "id": "j8",
-          "headline": "Egypt calls for a political solution in Yemen as its parliament weighs letting the army defend Saudi Arabia against the Houthis",
-          "category": "Middle East",
-          "summary": "Foreign Minister Badr Abdelatty said Egypt would explore 'every opportunity' for talks, ahead of a parliamentary vote, postponed to 26 Oct, on authorising the armed forces to support Saudi Arabia, The Straits Times reports (Reuters). President Abdel Fattah al-Sisi has said any support would be limited to defending Saudi territory and borders rather than attacking Yemen.",
-          "source": "The Straits Times (Reuters)",
-          "published_at": "2026-10-23T02:06+08:00",
-          "url": "https://www.straitstimes.com/world/middle-east/egypt-calls-for-yemen-talks-as-parliament-weighs-military-support-to-saudi-arabia"
         },
         {
           "id": "w4",
@@ -251,51 +359,6 @@
           "source": "CNA (AFP)",
           "published_at": "2026-10-23T17:44+08:00",
           "url": "https://www.channelnewsasia.com/asia/indonesia-seizes-11-tonnes-ketamine-vessel-sumatran-waters-6485381"
-        },
-        {
-          "id": "j4",
-          "headline": "US judge orders Trump to testify under oath by 11 December in his US$10 billion lawsuit against the BBC",
-          "category": "United States",
-          "summary": "Judge Enjolique Lett in Miami set the deadline after the BBC complained that Trump had cancelled a 16 Oct deposition citing 'matters of national importance'; BBC lawyers told the court he was campaigning in Georgia that day, CNA and the BBC report. Trump is suing over a Panorama episode that edited together two parts of his speech before the 6 Jan 2021 Capitol riot. The BBC is the defendant in the case.",
-          "source": "CNA (Reuters), BBC, Al Jazeera, The Straits Times (AP)",
-          "published_at": "2026-10-23T03:06+08:00",
-          "url": "https://www.channelnewsasia.com/world/trump-bbc-defamation-case-lawsuit-deposition-dec-11-6484181"
-        },
-        {
-          "id": "j7",
-          "headline": "Israel releases nine of 10 settlers held over attacks on a US journalist and European diplomats, placing them under house arrest",
-          "category": "Middle East",
-          "summary": "A court in Jerusalem ordered the release; police said one suspect remains in custody and the investigation continues, Al Jazeera and The Straits Times report (Reuters). The arrests followed attacks by masked settlers on a Washington Post photojournalist and, separately, on French, Belgian and Polish diplomats in the occupied West Bank. UN Secretary-General Antonio Guterres said the situation in the occupied Palestinian territory was 'out of control'.",
-          "source": "Al Jazeera (Reuters), The Straits Times",
-          "published_at": "2026-10-23T02:17+08:00",
-          "url": "https://www.aljazeera.com/news/2026/10/22/israel-frees-suspects-in-two-settler-attacks-as-west-bank-pogroms-intensify"
-        },
-        {
-          "id": "h7",
-          "headline": "Paris extends its curfew and Marseille and Lyon ban protests this weekend, as French courts jail 217 people over last weekend's riots",
-          "category": "Europe",
-          "summary": "Paris is extending a partial curfew in parts of the city until Monday, and the Louvre, Orsay and Picasso museums will close on Saturday, while Marseille and Lyon impose a total ban on protests this weekend, the BBC reports. Justice Minister Gerald Darmanin said courts had jailed 217 people in fast-track trials and 2,700 had been detained (CNA, AFP); lawyers criticised the speed of the trials and prison overcrowding. President Emmanuel Macron said on 22 Oct that 'illegitimate' protests would be banned and blamed ultra-left groups for the riots (The Straits Times).",
-          "source": "BBC, CNA (AFP), The Straits Times (Reuters)",
-          "published_at": "2026-10-23T03:25+08:00",
-          "url": "https://www.bbc.co.uk/news/articles/cvde8g40xx42o"
-        },
-        {
-          "id": "j6",
-          "headline": "Germany arrests a Ukrainian man suspected of spying on its military for Russia; Merz warns of 'intensive' espionage",
-          "category": "Europe",
-          "summary": "Officials say the suspect, named as Vadym Y., allegedly collected military-related intelligence in Germany, the BBC reports. Chancellor Friedrich Merz called the arrest a success but said Russian intelligence activity in Germany 'remains at a consistently high level'.",
-          "source": "BBC, The Straits Times",
-          "published_at": "2026-10-23T01:07+08:00",
-          "url": "https://www.bbc.co.uk/news/articles/cmx28y5e04ggo"
-        },
-        {
-          "id": "j9",
-          "headline": "Trump invokes the Defense Production Act to support oil production and refining",
-          "category": "United States",
-          "summary": "In a presidential memo on 22 Oct, Trump determined that petroleum production, refining and related activities are essential to national defence, allowing financial incentives for oil-related activities, pipelines and fuel storage, The Straits Times reports.",
-          "source": "The Straits Times",
-          "published_at": "2026-10-23T08:20+08:00",
-          "url": "https://www.straitstimes.com/world/united-states/trump-invokes-cold-war-era-defense-production-act-for-oil-production-refining"
         },
         {
           "id": "w5",
@@ -379,42 +442,6 @@
           "url": "https://www.channelnewsasia.com/asia/indonesia-forest-fire-worlds-oldest-cave-paintings-6485476"
         },
         {
-          "id": "j16",
-          "headline": "Romania will speed up Black Sea surveillance and counter-drone capabilities after drone attacks on cargo ships",
-          "category": "Europe",
-          "summary": "Romania's top defence council said it would accelerate work on surveillance, counter-mine and counter-drone equipment after at least seven cargo ships were hit near the coasts of Romania and Bulgaria in the past two weeks, with some 30 sailors reported dead or missing, The Straits Times reports (Reuters).",
-          "source": "The Straits Times (Reuters)",
-          "published_at": "2026-10-23T01:41+08:00",
-          "url": "https://www.straitstimes.com/world/europe/romania-to-speed-up-development-of-black-sea-capabilities-after-cargo-ship-attacks"
-        },
-        {
-          "id": "j10",
-          "headline": "About 150,000 people rally in Belgrade for Serbia's student movement before Sunday's election",
-          "category": "Europe",
-          "summary": "The Student List, a leaderless movement of student-backed candidates, wants to end more than 14 years of rule by Aleksandar Vucic's Serbian Progressive Party in the 25 Oct parliamentary vote, The Straits Times reports; the crowd size is an estimate reported by ST, and Al Jazeera described thousands at the final rally.",
-          "source": "The Straits Times, Al Jazeera",
-          "published_at": "2026-10-23T07:45+08:00",
-          "url": "https://www.straitstimes.com/world/europe/around-150000-rally-in-belgrade-as-serbia-heads-to-pivotal-poll"
-        },
-        {
-          "id": "j13",
-          "headline": "Lula's campaign asks Brazil's electoral court to disqualify Flávio Bolsonaro over alleged Meta interference before Sunday's runoff",
-          "category": "Americas",
-          "summary": "Lula's petition accuses Meta of limiting his campaign's content to boost Bolsonaro, and Bolsonaro has filed his own petition seeking Lula's disqualification over government posts spread on WhatsApp, the BBC reports. Meta denies treating the campaigns unequally. A Datafolha poll shows the two candidates about even (The Straits Times).",
-          "source": "BBC, The Straits Times",
-          "published_at": "2026-10-23T01:01+08:00",
-          "url": "https://www.bbc.co.uk/news/articles/c6pwgve2lk5go"
-        },
-        {
-          "id": "j15",
-          "headline": "BBC investigation finds Sudan's RSF systematically destroyed el-Fasher's health system during its siege of the city",
-          "category": "Africa",
-          "summary": "The BBC says it found evidence that Rapid Support Forces fighters deliberately targeted hospitals during their long siege and takeover of the Darfur city a year ago. UN human rights chief Volker Türk called the findings 'deeply disturbing'. The findings are the BBC's own.",
-          "source": "BBC",
-          "published_at": "2026-10-23T07:16+08:00",
-          "url": "https://www.bbc.co.uk/news/articles/c54g1kxw4nvvo"
-        },
-        {
           "id": "j14",
           "headline": "Hundreds of Ethiopians flee into Kenya after fighting in the border town of Moyale",
           "category": "Africa",
@@ -422,91 +449,19 @@
           "source": "The Straits Times (Reuters), Al Jazeera (AP, Reuters)",
           "published_at": "2026-10-23T15:31+08:00",
           "url": "https://www.straitstimes.com/world/kenya-red-cross-rushes-aid-to-ethiopians-who-crossed-border-fleeing-violence"
-        },
-        {
-          "id": "j11",
-          "headline": "Ecuador's opposition leader Luisa Gonzalez is arrested in a campaign-finance investigation",
-          "category": "Americas",
-          "summary": "Gonzalez, an ally of former president Rafael Correa who lost to President Daniel Noboa, was detained in the western town of Canuto over alleged irregularities in financing her 2023 presidential campaign, Al Jazeera reports, citing local media and Reuters.",
-          "source": "Al Jazeera (Reuters), The Straits Times",
-          "published_at": "2026-10-23T06:09+08:00",
-          "url": "https://www.aljazeera.com/news/2026/10/22/ecuador-opposition-leader-luisa-gonzalez-arrested-in-campaign-finance-probe"
-        },
-        {
-          "id": "j12",
-          "headline": "Thousands of Venezuelans join the first nationwide opposition protest in nearly two years to demand elections",
-          "category": "Americas",
-          "summary": "Demonstrators called for free elections and other political changes, with a notably thin security presence, The Straits Times reports (Reuters). The US has been working with the interim government of acting President Delcy Rodriguez since US forces captured Nicolas Maduro in January.",
-          "source": "The Straits Times (Reuters)",
-          "published_at": "2026-10-23T05:21+08:00",
-          "url": "https://www.straitstimes.com/world/venezuelans-call-for-elections-in-first-national-protest-in-nearly-two-years"
-        },
-        {
-          "id": "j17",
-          "headline": "Pentagon plans to buy at least 850 more F-35 fighter jets in what would be the programme's biggest contract",
-          "category": "United States",
-          "summary": "The contract with Lockheed Martin, which is not yet final, also covers spare parts, modification kits and 10 years of fleet sustainment, the Defense Department said in a statement on 22 Oct; it gave no value, The Straits Times reports.",
-          "source": "The Straits Times",
-          "published_at": "2026-10-22T22:11+08:00",
-          "url": "https://www.straitstimes.com/world/united-states/pentagon-eyes-biggest-ever-f-35-deal-with-plans-to-buy-at-least-850-more-jets"
-        },
-        {
-          "id": "j18",
-          "headline": "US judge orders Homeland Security to halt operations to find non-citizen voters in nine states before the midterms",
-          "category": "United States",
-          "summary": "District Judge Araceli Martínez-Olguín ordered the Department of Homeland Security to stop the operations, which reportedly included field interviews about voters' citizenship status, Al Jazeera reports (AP).",
-          "source": "Al Jazeera (AP)",
-          "published_at": "2026-10-23T05:52+08:00",
-          "url": "https://www.aljazeera.com/news/2026/10/22/us-judge-blocks-federal-operations-seeking-to-identify-non-citizen-voters"
-        },
-        {
-          "id": "j19",
-          "headline": "Europe's summer heat caused about 50,000 deaths in cities, a record, researchers estimate",
-          "category": "Climate",
-          "summary": "Imperial College London researchers estimate that nearly two-thirds of the deaths would not have happened without climate change, and Bloomberg Economics says extreme heat cut EU output by about 0.17%, or close to €17 billion, The Straits Times reports.",
-          "source": "The Straits Times (Bloomberg)",
-          "published_at": "2026-10-23T08:08+08:00",
-          "url": "https://www.straitstimes.com/world/europe/summer-heats-toll-on-europe-50000-deaths-and-a-24-3b-gdp-hit"
-        },
-        {
-          "id": "j20",
-          "headline": "Crowd of about 50 people beats a foreign national to death in Durban, South African police say",
-          "category": "Africa",
-          "summary": "Police say the man, believed to be in his late 30s or early 40s, was approached by two men by the roadside before a larger group assaulted him; a murder investigation has been opened and the motive is not yet known, the BBC reports. The killing comes amid anti-migrant protests in South Africa.",
-          "source": "BBC",
-          "published_at": "2026-10-23T00:15+08:00",
-          "url": "https://www.bbc.co.uk/news/articles/ck5yn9z3vnego"
-        },
-        {
-          "id": "j21",
-          "headline": "Denmark buys long-range missiles from US and Norwegian makers to deter Russia",
-          "category": "Europe",
-          "summary": "Defence Minister Jeppe Bruus said Denmark had bought Kongsberg strike missiles that can be launched from its F-35s and land-fired Anthem missiles from US company Covenant, a year after announcing it would acquire such weapons, The Straits Times reports.",
-          "source": "The Straits Times",
-          "published_at": "2026-10-22T23:16+08:00",
-          "url": "https://www.straitstimes.com/world/europe/danish-military-orders-long-range-missiles-drawing-russian-ire"
-        },
-        {
-          "id": "j22",
-          "headline": "Tunisian police fire tear gas at protesters near the capital after a man dies in custody",
-          "category": "Africa",
-          "summary": "Police dispersed protesters in Ettadhamen, a suburb of Tunis, after the death of a man detained on suspicion of drug dealing, whose family blames police violence, amid clashes in two southern towns, The Straits Times reports (Reuters).",
-          "source": "The Straits Times (Reuters)",
-          "published_at": "2026-10-23T06:21+08:00",
-          "url": "https://www.straitstimes.com/world/middle-east/tunisian-police-clash-with-protesters-in-capital-on-day-of-heightened-tensions"
         }
       ]
     },
     "singapore": {
       "label": "Singapore",
-      "ai_summary": "Haze pushed the 24-hour PSI into the unhealthy range in western and central Singapore on Friday evening, and NEA says the risk of severe haze remains as hotspots burn in Sumatra and Kalimantan. Help is arriving on two fronts: free masks for all Singaporeans aged 60 and above, and N95 masks from DBS for 275,000 vulnerable seniors and migrant workers. Cost-of-living signals were gentle, with core inflation easing to 2 per cent and HDB resale prices dipping for a third straight quarter. Foodpanda's new salaried rider jobs and a call for 3,000 more volunteers led the rest, alongside a handful of court cases and buzz about iPhone Duo queues and recycling-machine etiquette. For the weekend, keep masks handy and check NEA's hourly readings before heading outdoors.",
+      "ai_summary": "Haze turned unhealthy across all five regions on Saturday morning, and the government is now going after the companies it holds responsible. NEA served legal notices on 10 Singapore-based firms under the haze law for the first time, and the Law Ministry is assembling a panel of lawyers, auditors and investigators to trace corporate links across borders. Away from the haze, nearly 240 migrant workers have gone unpaid for up to two months, and Friday's cost-of-living data stayed gentle, with core inflation easing to 2 per cent. The buzz is food-and-heritage flavoured, led by an 80-year-old herbal soup brand passing to its third generation. For the weekend, keep N95 masks handy and check NEA's hourly PM2.5 readings before heading out.",
       "weather": {
         "forecast": "Thundery Showers",
         "temp_low": 25,
         "temp_high": 34,
         "humidity_low": 60,
         "humidity_high": 95,
-        "as_of": "2026-10-23T18:00+08:00",
+        "as_of": "2026-10-24T06:00+08:00",
         "source": "NEA",
         "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
       },
@@ -534,22 +489,30 @@
       "stories": [
         {
           "id": "g1",
-          "headline": "24-hour PSI enters the unhealthy range in western and central Singapore as haze thickens",
+          "headline": "Haze worsens overnight, with the 24-hour PSI unhealthy in all five regions on Saturday morning",
           "category": "Haze",
-          "summary": "The 24-hour PSI in the west crossed into the unhealthy band (101-200) at 4pm on 23 Oct, reaching 103, and the central region followed at 6pm with 102, CNA reports. NEA data on data.gov.sg show 110 in the west and 107 in the central region at 8pm, with the other three regions moderate at 89 to 93. Hourly PM2.5 readings were elevated across the island. NEA said widespread hotspots were detected in southern Kalimantan and Sumatra and that the risk of severe transboundary haze remains.",
-          "source": "CNA, NEA (data.gov.sg)",
-          "published_at": "2026-10-23T20:37+08:00",
-          "url": "https://www.channelnewsasia.com/singapore/haze-psi-pm25-oct-23-6484486"
+          "summary": "At 8am on 24 Oct the 24-hour PSI ranged from 116 in the south to 144 in the west, all in the unhealthy band (101-200), CNA reports; NEA data on data.gov.sg show the same readings. Hourly PM2.5 was elevated islandwide, from 56 in the south to 106 in the west. NEA forecasts a 24-hour PSI of 90 to 140 for the day, spanning moderate and unhealthy, and said showers are expected but smoke could still blow in from Sumatra.",
+          "source": "CNA, The Straits Times, NEA (data.gov.sg)",
+          "published_at": "2026-10-24T08:12+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/haze-psi-pm25-oct-24-6488141"
         },
         {
-          "id": "sf1",
-          "headline": "Second round of haze mask distribution starts 23 Oct, with eligibility widened to all Singaporeans aged 60 and above",
-          "category": "Environment",
-          "summary": "Announced by Minister for Sustainability and the Environment Grace Fu on 22 Oct; collection opens today. Singaporeans aged 60 and above can collect two masks each from community clubs and designated vending machines; the threshold was previously 67. People who collected masks in the first round can collect two more, and those who missed it can collect both sets at once, CNA reports. Ms Fu said the change followed feedback from seniors who are not Pioneer or Merdeka Generation cardholders (The Straits Times).",
-          "source": "CNA, The Straits Times",
-          "published_at": "2026-10-23T00:00+08:00",
-          "url": "https://www.channelnewsasia.com/singapore/haze-mask-collection-vending-machines-age-60-6481056",
-          "effective_date": "2026-10-23"
+          "id": "ys1",
+          "headline": "NEA serves legal notices on 10 Singapore-based firms under the haze law for the first time, including Asia Pulp & Paper",
+          "category": "Haze",
+          "summary": "The palm oil and forestry companies own land concessions in Indonesia or have related companies that do, and must provide information on those links, the locations of the concessions, and their fire prevention and firefighting measures, NEA said on 23 Oct, CNA, The Straits Times and Mothership report. It is the first time NEA has issued such notices to Singapore companies since the Transboundary Haze Pollution Act took effect. Firms' representatives who fail to comply face a fine of up to S$5,000, a month in jail, or both, ST reports. NEA is also seeking more from 10 Indonesian firms served notices in the past week.",
+          "source": "CNA, The Straits Times, Mothership (NEA)",
+          "published_at": "2026-10-23T21:09+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/nea-haze-notices-companies-transboundary-pollution-6486086"
+        },
+        {
+          "id": "ys2",
+          "headline": "Singapore will set up a specialist panel of law, audit and investigative firms to probe companies linked to the haze",
+          "category": "Haze",
+          "summary": "The Ministry of Law said on 23 Oct that the panel will trace corporate relationships and supply chains across jurisdictions to establish whether local and foreign companies caused or condoned the fires, CNA and The Straits Times report. Davinder Singh Chambers has been appointed to advise the government on coordinating its work, ST reports.",
+          "source": "CNA, The Straits Times, Mothership (MinLaw)",
+          "published_at": "2026-10-23T21:00+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/singapore-haze-specialist-panel-investigation-minlaw-6486146"
         },
         {
           "id": "xs5",
@@ -559,6 +522,15 @@
           "source": "The Straits Times",
           "published_at": "2026-10-23T15:18+08:00",
           "url": "https://www.straitstimes.com/singapore/over-500k-n95-masks-to-be-distributed-to-vulnerable-seniors-migrant-workers-in-1m-dbs-initiative"
+        },
+        {
+          "id": "ys3",
+          "headline": "Nearly 240 migrant workers have gone unpaid for up to two months, and NTUC is helping with daily needs",
+          "category": "Workers",
+          "summary": "The process-sector workers are affected by alleged salary issues at Process Maintenance Solutions and Jurong Technical & Construction, NTUC deputy secretary-general Desmond Choo said on 23 Oct, CNA reports.",
+          "source": "CNA (NTUC)",
+          "published_at": "2026-10-23T22:57+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/migrant-workers-unpaid-ntuc-assistance-6486371"
         },
         {
           "id": "ws1",
@@ -642,15 +614,6 @@
           "url": "https://www.channelnewsasia.com/singapore/marriage-parenthood-fertility-maternal-stress-indranee-6485331"
         },
         {
-          "id": "js1",
-          "headline": "PAP cadres elect the party's 39th central executive committee on Sunday, with younger ministers expected to step up",
-          "category": "Politics",
-          "summary": "The 25 Oct vote is the first CEC election for secretary-general Lawrence Wong since he led the party through his first general election as prime minister; political observers told CNA some senior figures may make way as part of leadership renewal.",
-          "source": "CNA",
-          "published_at": "2026-10-23T06:00+08:00",
-          "url": "https://www.channelnewsasia.com/singapore/pap-cec-election-central-executive-committee-6478606"
-        },
-        {
           "id": "xs6",
           "headline": "SAF tests drones and a 5G battlefield communications node at Exercise Wallaby in Australia",
           "category": "Defence",
@@ -667,15 +630,6 @@
           "source": "The Straits Times",
           "published_at": "2026-10-23T19:45+08:00",
           "url": "https://www.straitstimes.com/singapore/bruneis-prince-mateen-visits-saf-special-operations-task-force"
-        },
-        {
-          "id": "js4",
-          "headline": "TSH Resources says the 274 hotspots found within its estate this year were in community enclaves, not its operational areas",
-          "category": "Haze",
-          "summary": "Responding to Singapore Exchange queries about whether its operations contributed to the regional haze, the palm oil company said no fire was detected in its planted or operational areas between January and 21 Oct, CNA reports.",
-          "source": "CNA",
-          "published_at": "2026-10-23T00:18+08:00",
-          "url": "https://www.channelnewsasia.com/singapore/tsh-resources-hotspots-sgx-questions-haze-6483271"
         },
         {
           "id": "js3",
@@ -732,15 +686,6 @@
           "url": "https://mothership.sg/2026/10/man-massage-parlour-orchard-towers-sexual-services/"
         },
         {
-          "id": "js2",
-          "headline": "Law Society elects four new council members as police investigate matters raised in its audit committee report",
-          "category": "Legal",
-          "summary": "Jimmy Yim, Debby Lim, Foo Hsien Weng and Siddartha Bodi were elected in the 22 Oct vote and two current executive committee members were dropped, The Straits Times reports. The election took place amid police investigations into matters the audit committee said allegedly occurred between 2022 and 2025.",
-          "source": "The Straits Times, CNA",
-          "published_at": "2026-10-22T22:15+08:00",
-          "url": "https://www.straitstimes.com/singapore/courts-crime/lawsoc-council-gets-4-new-members-after-election"
-        },
-        {
           "id": "ws6",
           "headline": "Bukit Batok Secondary runs an armed-intruder lockdown drill with 1,100 students and 160 staff",
           "category": "Education",
@@ -768,24 +713,6 @@
           "url": "https://www.channelnewsasia.com/business/sgx-ceo-loh-boon-chye-leadership-transition-6485286"
         },
         {
-          "id": "js5",
-          "headline": "Changi General, Singapore General and National University hospitals named AI innovation leaders in Newsweek's smart hospitals ranking",
-          "category": "Health",
-          "summary": "The three were among institutions given the 'Leader in Artificial Intelligence Innovation' distinction in Newsweek's World's Best Smart Hospitals 2027, which covers more than 400 hospitals in 33 countries; CGH was the top-placed Singapore hospital at 17th, The Straits Times reports.",
-          "source": "The Straits Times",
-          "published_at": "2026-10-22T23:15+08:00",
-          "url": "https://www.straitstimes.com/singapore/cgh-sgh-nuh-lauded-as-ai-innovation-leaders-in-ranking-of-worlds-best-smart-hospitals"
-        },
-        {
-          "id": "js6",
-          "headline": "Singaporeans with trips to France weigh whether to cancel as violent protests continue",
-          "category": "Travel",
-          "summary": "Travellers told CNA they are reluctant to give up long-planned trips, such as a birthday trip to Paris later this month, even as more demonstrations are planned for the coming weekend.",
-          "source": "CNA",
-          "published_at": "2026-10-23T06:00+08:00",
-          "url": "https://www.channelnewsasia.com/singapore/france-protests-singaporeans-travel-paris-rioting-6481226"
-        },
-        {
           "id": "hs9",
           "headline": "Sengkang Town Council will ban pickleball at some courts from 1 November, leaving nine approved for play",
           "category": "Community",
@@ -802,6 +729,33 @@
           "source": "Mothership (ICA)",
           "published_at": "2026-10-23T12:15+08:00",
           "url": "https://mothership.sg/2026/10/malaysian-man-tyre-rims-smuggle-cigarettes/"
+        },
+        {
+          "id": "ys4",
+          "headline": "Tan Ser Seng's third-generation owners open a new outlet as the herbal soup brand turns 80",
+          "category": "Food",
+          "summary": "Siblings Allan and Vivian Tan, who had not planned to take over their grandfather's business, now run the brand known for traditionally brewed soups, CNA Lifestyle reports.",
+          "source": "CNA",
+          "published_at": "2026-10-24T07:25+08:00",
+          "url": "https://www.channelnewsasia.com/dining/tan-ser-seng-turtle-soup-third-gen-owners-6485146"
+        },
+        {
+          "id": "ys6",
+          "headline": "ITE student with a rare genetic disorder wins swimming bronze medals despite low muscle tone",
+          "category": "Health",
+          "summary": "Jessica Quek, 18, was born with PTPS deficiency, which affects brain chemicals and muscle tone, and won two bronze medals at the ITE Inter-College Swimming Meet in 2025 and 2026, The Straits Times reports.",
+          "source": "The Straits Times",
+          "published_at": "2026-10-24T08:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/health/rare-disorder-and-low-muscle-tone-cannot-dampen-teens-swimming-passion"
+        },
+        {
+          "id": "ys5",
+          "headline": "Team behind Michelin-starred Nae:um opens Osteria Da Su, an Italian restaurant led by a Korean chef",
+          "category": "Food",
+          "summary": "Chef Park Su-ji spent 10 years in Italy, including at three-Michelin-starred Da Vittorio, and pastas start from S$22 at the new restaurant next door to Nae:um, CNA Lifestyle reports.",
+          "source": "CNA",
+          "published_at": "2026-10-24T07:26+08:00",
+          "url": "https://www.channelnewsasia.com/dining/osteria-da-su-naeum-italian-food-korean-chef-6485231"
         },
         {
           "id": "ws9",
@@ -892,25 +846,16 @@
           "source": "Mothership (Taiwan CNA)",
           "published_at": "2026-10-23T15:45+08:00",
           "url": "https://mothership.sg/2026/10/zhang-linghe-denied-entry-to-taiwan-for-fanmeeting/"
-        },
-        {
-          "id": "js7",
-          "headline": "ITE student praised for spending 30 minutes walking a lost 77-year-old man home near JEM",
-          "category": "Trending",
-          "summary": "The student heard the man asking for help at a bicycle parking area at about 8pm and walked with him until he found his home; ITE praised her in a Facebook post, Mothership reports.",
-          "source": "Mothership",
-          "published_at": "2026-10-23T07:19+08:00",
-          "url": "https://mothership.sg/2026/10/ite-student-walk-elderly-man-home/"
         }
       ]
     },
     "wars": {
       "label": "Wars & Conflicts",
-      "ai_summary": "Russia and Ukraine swapped 270 prisoners each on Friday, but the air war on Ukraine's grid ground on, with Kyiv reporting eight civilians killed in a day of strikes on energy sites. The Black Sea is becoming a second front for NATO members, as Romania blames a Russian drone for sinking a cargo ship off Constanța, the latest of at least seven ships hit off Romania and Bulgaria in two weeks. On the Iran front, Saudi Arabia remains the main battleground, and Iran's claim that seven tankers were damaged in Hormuz in one day is still unverified. The West Bank flared as gunmen killed two Israeli soldiers near Hebron and Netanyahu ordered a full closure four days before the election. Watch whether Trump follows his hints of new strikes on Iran, and whether the ship attacks draw a firmer NATO response.",
+      "ai_summary": "The Oleshky truce is narrow, covering one occupied town so aid can get in and residents out from 27 Oct, and it has not slowed the wider air war. Russia struck Chernihiv in daylight, killing one and injuring 25, and Ukrainian drones forced all four Moscow airports to restrict flights. The Iran front is heading the other way, with Trump hinting at new strikes and October already the worst month on record for attacks on Hormuz shipping, according to a US think-tank. In the West Bank, Israel launched a major operation after two soldiers were killed near Hebron, days before its election. Watch whether the Oleshky ceasefire holds from Tuesday, and whether Washington's threats against Iran turn into strikes.",
       "theatres": [
         {
           "name": "Russia-Ukraine War",
-          "status": "Russia and Ukraine swapped 270 prisoners each on 23 Oct even as Russian strikes on energy sites killed at least eight civilians in a day and cut power in eight regions, Ukrainian officials say; Romania blames a Russian drone for sinking a cargo ship off Constanța, and Ukraine says Starshield problems persist.",
+          "status": "Russia and Ukraine agreed a local ceasefire for occupied Oleshky from 27 Oct and technical-level talks in Abu Dhabi in November, Kyiv, Moscow and Washington say; strikes went on regardless on 23 Oct, with a deadly daytime attack on Chernihiv and drones forcing restrictions at all four Moscow airports.",
           "timeline": [
             {
               "date": "2022-02-24",
@@ -6407,12 +6352,42 @@
               "event": "Russia and Ukraine exchange 270 prisoners each, the first swap in two months, Zelensky says; most of the Ukrainians had been held since 2022.",
               "source": "Kyiv Independent, The Straits Times (Reuters)",
               "url": "https://kyivindependent.com/270-ukrainian-pows-return-home-in-latest-swap-with-russia/"
+            },
+            {
+              "date": "2026-10-23",
+              "event": "Russian forces attack an enterprise in Chernihiv during the day, killing one man and injuring at least 25, local authorities say; the Air Force reported drones and a Banderol cruise missile.",
+              "source": "Kyiv Independent, Ukrinform",
+              "url": "https://kyivindependent.com/russian-daytime-attack-on-chernihiv-civilian-businesses-kills-1-injures-at-least-25/"
+            },
+            {
+              "date": "2026-10-23",
+              "event": "Drone attacks bring restrictions at all four Moscow airports, with more than 340 flights delayed or cancelled, Rosaviatsia and monitoring channels say, according to Ukrinform.",
+              "source": "Ukrinform, Kyiv Independent",
+              "url": "https://www.ukrinform.net/rubric-ato/4177537-drone-attacks-shut-down-all-four-moscow-airports.html"
+            },
+            {
+              "date": "2026-10-23",
+              "event": "Moldova expels a Russian diplomat after a Russian Geran drone falls near family homes and an energy facility, President Maia Sandu says.",
+              "source": "Kyiv Independent",
+              "url": "https://kyivindependent.com/moldova-expels-russian-diplomat-after-russian-geran-drone-falls-near-family-homes/"
+            },
+            {
+              "date": "2026-10-23",
+              "event": "The White House says Melania Trump brokered a local ceasefire for Russian-occupied Oleshky; Ukraine's General Staff and the Kremlin confirm it, with firing to stop at 02:00 GMT on 27 Oct for aid and evacuations.",
+              "source": "BBC, Ukrinform, The Straits Times (Reuters)",
+              "url": "https://www.bbc.co.uk/news/articles/c6vgxkvl4w5eo"
+            },
+            {
+              "date": "2026-10-23",
+              "event": "Zelensky says Ukrainian, Russian and US negotiators will hold technical-level talks in Abu Dhabi in the first half of November; Trump says he will call Musk if Starshield problems persist.",
+              "source": "The Straits Times (Reuters)",
+              "url": "https://www.straitstimes.com/world/europe/zelenskiy-says-ukrainian-russian-and-us-negotiators-to-meet-in-early-november-in-abu-dhabi"
             }
           ]
         },
         {
           "name": "US/Israel-Iran (Strait of Hormuz)",
-          "status": "Saudi Arabia remains the main front after this week's deadly attack on Dammam's airport; Trump hints at new strikes on Iran, Iran's claim of seven tankers damaged in Hormuz in one day is unverified, and European and Middle Eastern ministers met in Istanbul on Hormuz security on 23 Oct. Egypt's parliament votes on 26 Oct on helping defend the kingdom.",
+          "status": "Trump hinted on 23 Oct at renewed strikes ('another little Epic Fury') and a US envoy said one could come this weekend; Turkey says European and regional ministers agree that would widen the war, and two Iranian officials tell Reuters that Gulf undersea cables could be targets. A US think-tank counts October as the worst month on record for attacks on Hormuz shipping.",
           "timeline": [
             {
               "date": "2026-08-16",
@@ -9851,12 +9826,36 @@
               "event": "European and Middle Eastern foreign ministers meet in Istanbul for security talks on the Strait of Hormuz and other regional crises, Al Jazeera's live page reports.",
               "source": "Al Jazeera (live page)",
               "url": "https://www.aljazeera.com/news/liveblog/2026/10/23/trump-hints-new-strikes-says-us-knocked-hell-out-of-iran"
+            },
+            {
+              "date": "2026-10-23",
+              "event": "Trump tells a Florida rally 'We may do another little Epic Fury'; US ambassador to Turkey Tom Barrack says a strike could come this weekend.",
+              "source": "The Straits Times, CNA",
+              "url": "https://www.straitstimes.com/world/middle-east/trump-says-us-may-do-another-military-operation-against-iran"
+            },
+            {
+              "date": "2026-10-23",
+              "event": "After meeting counterparts from Egypt, Pakistan, Saudi Arabia, Germany, France, Britain and Italy in Istanbul, Turkey's Hakan Fidan says they agree a new attack on Iran would widen the war.",
+              "source": "The Straits Times (Reuters)",
+              "url": "https://www.straitstimes.com/world/middle-east/turkey-says-renewed-attack-on-iran-would-expand-conflict-diplomacy-only-way"
+            },
+            {
+              "date": "2026-10-23",
+              "event": "A Washington Institute tracker counts 28 attacks on shipping in and around the Strait of Hormuz in October, a record, and 113 since 28 Feb; BBC Verify tracks an oil slick from the damaged tanker Gem No.2 onto UAE beaches near Umm Al Quwain.",
+              "source": "The Straits Times, BBC",
+              "url": "https://www.straitstimes.com/world/middle-east/ship-attacks-in-strait-of-hormuz-hit-record-high-in-october"
+            },
+            {
+              "date": "2026-10-24",
+              "event": "Two senior Iranian security officials tell Reuters Tehran has detailed plans to hit Gulf undersea cables if the US and Israel attack again; not independently verified.",
+              "source": "CNA, The Straits Times (both Reuters)",
+              "url": "https://www.channelnewsasia.com/world/iran-war-gulf-undersea-cables-6487421"
             }
           ]
         },
         {
           "name": "Israel-Gaza & Lebanon",
-          "status": "Two Israeli soldiers were killed at a Hebron checkpoint on 23 Oct, the Israeli military says, and Netanyahu ordered a West Bank closure ahead of Tuesday's election; Israeli fire in Gaza killed at least four people on 22 Oct, medics say.",
+          "status": "Netanyahu launched a major West Bank operation on 23 Oct after two Israeli soldiers were killed near Hebron, the Israeli military says; Israel votes on Tuesday 27 Oct.",
           "timeline": [
             {
               "date": "2026-08-16",
@@ -11603,6 +11602,12 @@
               "event": "Two suspected Palestinian gunmen kill two Israeli soldiers and wound three Israelis at a checkpoint at Hebron before being shot dead, the Israeli military says; Netanyahu orders the army to prepare a full closure of the West Bank ahead of Tuesday's election.",
               "source": "BBC, CNA (AFP)",
               "url": "https://www.bbc.co.uk/news/articles/cq4g1p974wxko"
+            },
+            {
+              "date": "2026-10-23",
+              "event": "Netanyahu announces a major West Bank operation after the Hebron attack, and Israeli forces launch a 'targeted' operation in Hebron; Italy calls for the release of five Italian activists detained by Israeli police in Kiryat Arba.",
+              "source": "The Straits Times, Al Jazeera",
+              "url": "https://www.straitstimes.com/world/middle-east/israel-says-it-will-demolish-homes-and-go-house-to-house-after-attack-in-the-west-bank"
             }
           ]
         }
@@ -11610,28 +11615,73 @@
     },
     "outbreaks": {
       "label": "Outbreaks",
-      "ai_summary": "Switzerland now says Nigeria's Ebola patient never went to DR Congo, contradicting Uganda's account and leaving WHO still searching for where she was infected. That keeps attention on Uganda's Entebbe airport, which she and Kenya's first patient both passed through on 3 October, though Africa CDC stresses no link is proven. Africa CDC's newest death toll is already above the ECDC count on the tile, a sign the epidemic is still growing faster than formal reports. Beyond Ebola, the US measles outbreak keeps climbing and France's first human Shamonda case remains a one-off. For readers the practical point is travel: check advisories before visiting East or Central Africa, and mention where you have been if a fever follows.",
+      "ai_summary": "WHO's first formal Ebola update in two weeks shows the DR Congo epidemic still adding hundreds of confirmed cases a week, and the first vaccine trial of this outbreak has begun in Bunia, at its epicentre. The spillover cases look contained for now: Kenya's second death was a relative already in quarantine, and Nigeria's case turns out to be genetically close to Kenya's first, a link investigators still cannot explain. The vaccine being tested, Ervebo, is approved only against the Zaire strain, so a result would matter for future Bundibugyo outbreaks as well as this one. Outside Africa, US measles cases keep climbing week on week. For readers the risk stays travel-linked: check advisories for East and Central Africa and mention recent trips if a fever follows.",
       "outbreaks": [
         {
           "name": "DR Congo - Ebola (Bundibugyo virus)",
-          "status": "Still growing in DR Congo; WHO calls the outbreak 'more complex' with cases in Kenya and Nigeria, while Uganda has been declared Ebola-free",
-          "cases": 9552,
-          "deaths": 4602,
+          "status": "Still growing in DR Congo, where a first vaccine trial began on 23 Oct; Kenya reports a second death and Nigeria one imported case",
+          "cases": 9704,
+          "deaths": 4687,
           "countries": 3,
-          "as_of": "2026-10-19",
-          "scope_note": "ECDC, as of 19 Oct (data to 18 Oct, page updated 20 Oct): 9,552 confirmed cases and 4,602 deaths in DR Congo. WHO's latest DON619 (8 Oct) had 8,728/4,205 as of 6 Oct. Countries = DRC + Kenya (nine confirmed cases per its health ministry on 20 Oct) + Nigeria (one imported case, confirmed 20 Oct). WHO's Africa office said on 22 Oct that these three have active or recent cases; Uganda had cases earlier and is now Ebola-free."
+          "as_of": "2026-10-20",
+          "scope_note": "WHO DON622 (23 Oct), data as of 20 Oct: 9,704 confirmed cases and 4,687 deaths in DR Congo; ECDC's 23 Oct update gives the same. Countries = DRC + Kenya (nine confirmed cases per ECDC as of 22 Oct; a second death reported by its health ministry on 23 Oct) + Nigeria (one imported case). WHO counts five countries since May, including Uganda (now Ebola-free) and France."
         },
         {
           "name": "United States - measles",
-          "status": "CDC now lists three deaths in 2026; cases stand at 4,410 as of 15 Oct",
-          "cases": 4410,
+          "status": "CDC lists 4,588 cases and three deaths in 2026, as of 22 Oct",
+          "cases": 4588,
           "deaths": 3,
           "countries": 1,
-          "as_of": "2026-10-15",
-          "scope_note": "US CDC data as of 15 Oct (page updated 16 Oct): 4,410 confirmed cases in 2026, 42 outbreaks. CDC now lists 3 deaths, flagged as subject to change. Pennsylvania's officials separately report at least five measles-linked deaths in the state, so tallies diverge."
+          "as_of": "2026-10-22",
+          "scope_note": "US CDC data as of 22 Oct (page updated 23 Oct): 4,588 confirmed cases in 2026, 43 outbreaks. CDC lists 3 deaths, flagged as subject to change. Pennsylvania's officials separately report at least five measles-linked deaths in the state, so tallies diverge."
         }
       ],
       "stories": [
+        {
+          "id": "yo1",
+          "headline": "WHO: DR Congo's Ebola count reaches 9,704 confirmed cases and 4,687 deaths, with Nigeria the fifth country affected",
+          "category": "Ebola",
+          "summary": "WHO's Disease Outbreak News of 23 Oct reports 976 more confirmed cases and 482 more deaths in DR Congo since its 8 Oct update, bringing the total to 9,704 cases and 4,687 deaths as of 20 Oct, a crude fatality rate of 48.3%. Cases have been found in 66 health zones across eight provinces, and Ituri remains the epicentre with 7,040 cases. Since May the outbreak has reached DR Congo, Uganda, France, Kenya and Nigeria. ECDC's page, updated on 23 Oct, gives the same DR Congo figures.",
+          "source": "WHO, ECDC",
+          "published_at": "2026-10-23T23:03+08:00",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON622"
+        },
+        {
+          "id": "yo2",
+          "headline": "First Ebola vaccine trial in DR Congo's outbreak begins in Bunia, testing Ervebo against the Bundibugyo strain",
+          "category": "Ebola",
+          "summary": "WHO chief Tedros Adhanom Ghebreyesus said on 23 Oct that the first participants were vaccinated in Bunia, capital of Ituri province, the epicentre of the outbreak, Al Jazeera (AFP) and The Straits Times report. Ervebo is approved against the more common Zaire strain; the Tumaini trial uses ring vaccination of high-risk contacts and includes pregnant women and children aged 12 and older, ST reports. No vaccine is approved for Bundibugyo.",
+          "source": "The Straits Times, Al Jazeera (AFP), WHO",
+          "published_at": "2026-10-24T08:12+08:00",
+          "url": "https://www.straitstimes.com/world/ebola-vaccine-trial-begins-in-democratic-republic-of-congo"
+        },
+        {
+          "id": "yo3",
+          "headline": "Kenya reports a second Ebola death and says there is 'no evidence' of community spread",
+          "category": "Ebola",
+          "summary": "The 65-year-old woman developed symptoms in quarantine and was a close relative of the Kenyan man who died of Ebola on 5 Oct, the health ministry said on 23 Oct, The Straits Times (Reuters) and Al Jazeera report. Kenya has seven patients in treatment at two isolation facilities, all linked to the first case.",
+          "source": "The Straits Times (Reuters), Al Jazeera (AFP)",
+          "published_at": "2026-10-24T06:33+08:00",
+          "url": "https://www.aljazeera.com/news/2026/10/23/kenya-announces-second-ebola-death-says-no-evidence-of-community-spread"
+        },
+        {
+          "id": "yo4",
+          "headline": "Nigeria says its Ebola case is genetically close to the virus in Kenya's first case",
+          "category": "Ebola",
+          "summary": "Genomic analysis shows the virus in Nigeria's only confirmed case is closely related to the strain detected in Kenya's index case, Health Minister Muhammad Ali Pate said on 23 Oct, The Straits Times reports; there is no evidence the two patients had direct contact. Contacts are being traced and tested.",
+          "source": "The Straits Times",
+          "published_at": "2026-10-24T05:46+08:00",
+          "url": "https://www.straitstimes.com/world/nigeria-ebola-case-linked-to-virus-found-in-kenya-index-case-health-minister-says"
+        },
+        {
+          "id": "yo5",
+          "headline": "US measles cases reach 4,588 this year across 43 outbreaks, CDC says",
+          "category": "Measles",
+          "summary": "CDC's weekly update, as of 22 Oct and published on 23 Oct, adds 178 cases in a week; it still lists three deaths in 2026, flagged as subject to change.",
+          "source": "US CDC",
+          "published_at": "2026-10-23",
+          "url": "https://www.cdc.gov/measles/data-research/index.html"
+        },
         {
           "id": "xo1",
           "headline": "Switzerland says Nigeria's Ebola patient did not travel to DR Congo, contradicting Uganda",
@@ -11804,15 +11854,6 @@
           "url": "https://www.who.int/emergencies/disease-outbreak-news/item/middle-east-respiratory-syndrome-coronavirus---kingdom-of-saudi-arabia"
         },
         {
-          "id": "ob33",
-          "headline": "US measles count rises to 4,410 confirmed cases, up 330 in a week, and CDC sends an investigator to Pennsylvania",
-          "category": "Measles",
-          "summary": "CDC's 16 Oct update counts 4,410 confirmed cases in 2026 as of 15 Oct, in 42 outbreaks, with two deaths (flagged as subject to change). Al Jazeera, citing CDC figures, reports 451 hospitalisations and says children and teenagers aged five to 19 make up 42% of cases; CDC has sent an investigator to help contain Pennsylvania's outbreak, the country's largest.",
-          "source": "US CDC, Al Jazeera",
-          "published_at": "2026-10-16",
-          "url": "https://www.cdc.gov/measles/data-research/index.html"
-        },
-        {
           "id": "ox1",
           "headline": "Belgium reports its first two deaths from West Nile virus",
           "category": "West Nile virus",
@@ -11856,31 +11897,85 @@
           "source": "WHO, The Straits Times, Al Jazeera",
           "published_at": "2026-10-10T23:00+08:00",
           "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON620"
-        },
-        {
-          "id": "oa1",
-          "headline": "Kenya's first Ebola case went undetected through multiple clinics and two borders before diagnosis in Nairobi, raising screening questions",
-          "category": "Health",
-          "summary": "The 40-year-old businessman spent time in one of DR Congo's worst-affected regions, then travelled through two more countries before arriving seriously ill at a Nairobi hospital, where he was diagnosed and died two days later on 5 Oct; nearly 70 potential contacts are quarantined in Nairobi, the BBC reports.",
-          "source": "BBC",
-          "published_at": "2026-10-10T08:00+08:00",
-          "url": "https://www.bbc.co.uk/news/articles/cqp8gknl1njjo"
-        },
-        {
-          "id": "oa2",
-          "headline": "ECDC's weekly threats report for 3-9 Oct (week 41) keeps DR Congo's Ebola epidemic at the top of Europe's watch list alongside chikungunya, dengue and West Nile virus",
-          "category": "Health",
-          "summary": "The Communicable Disease Threats Report published on 9 Oct carries ECDC's EU/EEA risk assessment and case definitions for the Bundibugyo outbreak; detailed figures are in the report PDF, and headline Ebola counts here remain anchored to WHO's DON619.",
-          "source": "ECDC",
-          "published_at": "2026-10-09T21:30+08:00",
-          "url": "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-3-9-october-week-41"
         }
       ]
     },
     "cybersecurity": {
       "label": "CyberSecurity",
-      "ai_summary": "Patch HPE Aruba gear first: HPE fixed eight maximum-severity ArubaOS flaws that let unauthenticated attackers run code on controllers and gateways, though no exploitation is known yet. PHP is the other urgent queue, with PHP2Shell exploit attempts now in the millions and PHP warning of a second RCE that is still unpatched. Developer tooling remains a soft spot, led by a critical code-execution flaw in Python's Pillow image library and the earlier GitLab regex bug. On the threat side, Arista's exploited VeloCloud zero-day and a new Russian-linked destructive backdoor in Ukraine show attackers working both edge devices and wipers. The practical order is network gear and web servers first, then CI and package pipelines where secrets may have leaked.",
+      "ai_summary": "Patch HPE Aruba controllers and gateways first: eight maximum-severity ArubaOS flaws allow unauthenticated code execution, and researchers are tracking a separate campaign that has harvested more than 70,000 firewall and VPN credentials. PHP admins have a second job, because a new session-handling RCE has no patch yet but can be switched off with one setting. Ruby has fixed the regex-engine bugs behind GitLab's critical flaws, so update the language runtime as well as GitLab itself. On the threat side, a suspected APT41 UEFI bootkit shows why Secure Boot revocations matter, and ransomware affiliates are now running intrusions through AI agents. The order this weekend is edge devices, then web runtimes, then firmware revocations on Windows fleets.",
       "stories": [
+        {
+          "id": "yc1",
+          "headline": "Abandoned Popcorn Time fork's updater let anyone holding a lapsed domain run code as SYSTEM or root",
+          "category": "Vulnerability",
+          "summary": "Eye Security found that Time4Popcorn's Windows and macOS updaters fetched updates over plain HTTP from the lapsed domain popcorntimeupd.xyz and ran them without signature checks (CVE-2026-30612), BleepingComputer reports. After registering the domain, Eye saw up to 3 million Windows and 350,000 macOS client connections, and used the updater to disable it, cutting requests by 98%; the domain now sits with the Shadowserver Foundation. Android users remain exposed. Remove the app.",
+          "source": "BleepingComputer (Eye Security)",
+          "published_at": "2026-10-24T04:55+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/abandoned-popcorn-time-app-exposed-millions-of-device-to-rce-attacks/",
+          "cve": "CVE-2026-30612",
+          "cvss": null,
+          "severity": "HIGH"
+        },
+        {
+          "id": "yc2",
+          "headline": "China-linked APT41 suspected behind 'BlackX', a UEFI bootkit that beats Secure Boot on Windows systems missing revocations",
+          "category": "Threat actor",
+          "summary": "Kaspersky says the bootkit targeted diplomatic organisations in Tajikistan, Uzbekistan and Turkmenistan in early 2026, The Hacker News reports, and works on patched Windows systems that have not applied the Secure Boot revocation updates. Apply the revocations (DBX updates), not just the patches.",
+          "source": "The Hacker News (Kaspersky)",
+          "published_at": "2026-10-24T02:50+08:00",
+          "url": "https://thehackernews.com/2026/10/blackx-uefi-bootkit-bypasses-secure.html",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH"
+        },
+        {
+          "id": "yc3",
+          "headline": "Ruby patches three Onigmo regex-engine bugs that sat behind four critical GitLab RCE flaws",
+          "category": "Vulnerability",
+          "summary": "Ruby 4.0.9, 3.4.12 and 3.3.13 fix the bugs, which GitLab found could corrupt memory while Ruby compiles a crafted regular expression and potentially lead to code execution, The Hacker News reports. GitLab patched its four critical flaws over the past month. Update Ruby on any service that compiles user-supplied patterns.",
+          "source": "The Hacker News",
+          "published_at": "2026-10-24T01:54+08:00",
+          "url": "https://thehackernews.com/2026/10/ruby-fixes-three-regex-engine-bugs.html",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH"
+        },
+        {
+          "id": "xc2",
+          "headline": "PHP shares a mitigation for a new, unpatched session-handling RCE flaw (CVE-2026-115560)",
+          "category": "Vulnerability",
+          "summary": "The flaw only affects sites that set session.serialize_handler to php_binary or php_serialize, switch it to php at runtime with ini_set() before session_start(), and keep session upload progress enabled, BleepingComputer reports. Until a patch ships, PHP advises setting session.upload_progress.enabled=0. No exploitation of this CVE is known; the exploit attempts in the wild target the separate PHP2Shell flaws, which are patched. No CVSS score has been published.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-10-23T23:38+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/php-shares-mitigation-for-new-and-unpatched-rce-vulnerability/",
+          "cve": "CVE-2026-115560",
+          "cvss": null,
+          "severity": "HIGH"
+        },
+        {
+          "id": "yc4",
+          "headline": "INC and The Gentlemen ransomware affiliates used an AI 'kill chain' framework called Phantom, exposed infrastructure shows",
+          "category": "Threat actor",
+          "summary": "Researchers found an AI-driven intrusion set-up run by affiliates of the two ransomware groups, assessed to be Russian-speaking, which acts as both an intrusion and data-extortion operation, The Hacker News reports.",
+          "source": "The Hacker News",
+          "published_at": "2026-10-24T01:50+08:00",
+          "url": "https://thehackernews.com/2026/10/exposed-infrastructure-reveals-how.html",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM"
+        },
+        {
+          "id": "yc5",
+          "headline": "Quest Diagnostics confirms a breach of its Quanum LSM ordering system exposed patient records",
+          "category": "Data breach",
+          "summary": "Quest said it learned of unauthorised access on 21 Oct and reported it to the SEC; the number of people affected and the data types are not yet known, and the system has been taken offline, with clients told to use paper requisitions or Quanum eLabs, BleepingComputer reports. No group has claimed the attack.",
+          "source": "BleepingComputer (Quest SEC filing)",
+          "published_at": "2026-10-24T00:40+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/quest-diagnostics-confirms-data-breach-exposed-patient-records/",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM"
+        },
         {
           "id": "xc1",
           "headline": "HPE patches eight maximum-severity ArubaOS flaws that allow unauthenticated remote code execution",
@@ -11894,6 +11989,18 @@
           "severity": "CRITICAL"
         },
         {
+          "id": "yc6",
+          "headline": "Large campaign against exposed FortiGate and GlobalProtect firewalls exposes more than 70,000 credentials",
+          "category": "Threat actor",
+          "summary": "Researchers say operators targeting internet-facing Fortinet and Palo Alto Networks edge devices gained access to numerous organisations worldwide and tried to compromise some victims further, The Hacker News reports. Check edge devices for compromise and rotate VPN credentials.",
+          "source": "The Hacker News",
+          "published_at": "2026-10-23T21:50+08:00",
+          "url": "https://thehackernews.com/2026/10/hackers-breach-enterprise-firewalls-and.html",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH"
+        },
+        {
           "id": "xc4",
           "headline": "Critical flaw in Python's Pillow image library allows code execution via a crafted image",
           "category": "Vulnerability",
@@ -11904,18 +12011,6 @@
           "cve": null,
           "cvss": null,
           "severity": "CRITICAL"
-        },
-        {
-          "id": "xc2",
-          "headline": "PHP warns of another unpatched remote code execution flaw, two days after emergency PHP2Shell fixes",
-          "category": "Vulnerability",
-          "summary": "The PHP project has warned of a further remote code execution flaw that is not yet patched, The Hacker News reports. A CVE and severity score were not available in THN's feed at publication; watch php.net and your distribution's advisories, and keep the PHP2Shell fixes in place.",
-          "source": "The Hacker News",
-          "published_at": "2026-10-23T19:25+08:00",
-          "url": "https://thehackernews.com/2026/10/urgent-php-warns-of-another-unpatched.html",
-          "cve": null,
-          "cvss": null,
-          "severity": "HIGH"
         },
         {
           "id": "xc3",
@@ -12192,78 +12287,6 @@
           "cve": null,
           "cvss": null,
           "severity": "MEDIUM"
-        },
-        {
-          "id": "qc1",
-          "headline": "Stolen UpdraftCentral keys are being used to plant backdoor plugins on WordPress sites after a TeamUpdraft breach",
-          "category": "Supply chain",
-          "summary": "TeamUpdraft, maker of the UpdraftPlus backup plugin, says an intruder reached its customer database over the weekend of 17-18 Oct, including connection keys for UpdraftCentral, UpdraftVault and UpdraftClone, BleepingComputer reports. Patchstack says attacks began on 18 Oct and logged at least 99 malicious backdoor plugins with names such as 'Site Health Cache' that add administrator accounts; about 10% of UpdraftPlus sites, potentially around 400,000, have the affected keys. The first fixed release had a bug, so update to UpdraftPlus 1.26.13 (free) or 2.26.13 (Premium), delete UpdraftCentral connection keys, rotate storage credentials and check for the published indicators of compromise.",
-          "source": "BleepingComputer (TeamUpdraft, Patchstack, Nethemba), The Hacker News",
-          "published_at": "2026-10-21T09:01+08:00",
-          "url": "https://www.bleepingcomputer.com/news/security/stolen-updraftcentral-keys-used-to-backdoor-wordpress-sites/",
-          "cve": null,
-          "cvss": null,
-          "severity": "HIGH"
-        },
-        {
-          "id": "uc2",
-          "headline": "Zeabur hosting platform will shut down after a second breach in two months exposed 321,810 accounts and 3.2 million secrets records",
-          "category": "Data breach",
-          "summary": "In the 14-15 Oct incident an attacker used internal credentials stored in plaintext to reach shared clusters and read the platform database, exposing more than 3.2 million environment-variable records and data for 321,810 accounts across nine regions, BleepingComputer reports; an August breach had exposed API keys and other secrets. Zeabur will pause shared-cluster services on 1 Dec and stop all of them by 31 Dec. Users should rotate every secret stored on the platform and revoke sessions now.",
-          "source": "BleepingComputer",
-          "published_at": "2026-10-21T03:33+08:00",
-          "url": "https://www.bleepingcomputer.com/news/security/zeabur-shutting-down-after-second-security-breach-in-two-months/",
-          "cve": null,
-          "cvss": null,
-          "severity": "HIGH"
-        },
-        {
-          "id": "uc3",
-          "headline": "Public exploit released for critical unauthenticated FortiSIEM path traversal flaw",
-          "category": "Vulnerability",
-          "summary": "Researchers have published a proof-of-concept for CVE-2026-106173, a recently patched path traversal flaw in Fortinet FortiSIEM that can let an unauthenticated attacker run code or commands via crafted packets, The Hacker News reports. NVD lists Fortinet's CVSS 3.1 score of 9.8 for FortiSIEM 7.5.0; The Hacker News gives 9.4. It is not in CISA's KEV catalog. With a public exploit out, patch FortiSIEM now.",
-          "source": "The Hacker News, NVD",
-          "published_at": "2026-10-20T23:38+08:00",
-          "url": "https://thehackernews.com/2026/10/critical-fortisiem-flaw-gets-public.html",
-          "cve": "CVE-2026-106173",
-          "cvss": 9.8,
-          "severity": "CRITICAL"
-        },
-        {
-          "id": "uc4",
-          "headline": "Qilin and INC ransomware groups exploit a patched PAN-OS GlobalProtect flaw to set up VPN sessions and bypass MFA",
-          "category": "Exploited vulnerability",
-          "summary": "Palo Alto Networks says it is still seeing ransomware actors exploit CVE-2026-0257, an authentication bypass in the GlobalProtect portal and gateway of PAN-OS and Prisma Access that lets attackers establish unauthorised VPN connections, The Hacker News reports. Palo Alto scores it 7.8 (CVSS v4) and NVD 9.1 (v3.1); it was patched in May and has been in CISA's KEV catalog since 29 May. Unpatched GlobalProtect gateways should be updated and checked for unknown VPN sessions.",
-          "source": "The Hacker News, CISA KEV, NVD",
-          "published_at": "2026-10-20T23:32+08:00",
-          "url": "https://thehackernews.com/2026/10/qilin-and-inc-ransomware-groups-exploit.html",
-          "cve": "CVE-2026-0257",
-          "cvss": 9.1,
-          "severity": "HIGH"
-        },
-        {
-          "id": "uc5",
-          "headline": "Chinese-speaking criminal used autonomous AI agents to probe more than 1,200 company websites, breaching sites of over 100 firms",
-          "category": "Threat campaign",
-          "summary": "A security researcher watched the agents work because the operators left their control panels exposed online; the agents tried more than 1,200 sites and reached websites belonging to more than 100 companies, including farm-equipment maker Deere, The Hacker News reports. The findings come from the researcher and have not been independently confirmed.",
-          "source": "The Hacker News",
-          "published_at": "2026-10-20T22:07+08:00",
-          "url": "https://thehackernews.com/2026/10/hackers-use-autonomous-ai-agents-to.html",
-          "cve": null,
-          "cvss": null,
-          "severity": "MEDIUM"
-        },
-        {
-          "id": "uc6",
-          "headline": "DHS orders federal civilian agencies to remove DeepSeek products, including third-party tools built on its technology",
-          "category": "Policy",
-          "summary": "The order, published on 20 Oct as Federal Register document 2026-21447, directs agencies to immediately remove DeepSeek products from their IT systems or seek an exception within 60 days, with CISA reviewing requests, BleepingComputer reports. DHS cites the risk of Chinese government access to DeepSeek infrastructure and data. The BBC and The Straits Times reported the move on 20 Oct.",
-          "source": "BleepingComputer, BBC, The Straits Times, The Hacker News",
-          "published_at": "2026-10-20T22:19+08:00",
-          "url": "https://www.bleepingcomputer.com/news/security/dhs-bans-deepseek-products-across-us-federal-civilian-agencies/",
-          "cve": null,
-          "cvss": null,
-          "severity": "INFORMATIONAL"
         }
       ]
     }
