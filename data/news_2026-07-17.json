@@ -1,0 +1,858 @@
+{
+  "meta": {
+    "date": "2026-07-17",
+    "generated_at": "2026-07-17T21:00:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "BBC",
+      "CNA (Channel NewsAsia)",
+      "The Straits Times",
+      "Mothership",
+      "WHO Disease Outbreak News",
+      "US FDA / CDC",
+      "NEA (data.gov.sg)",
+      "LTA (data.gov.sg)",
+      "CISA KEV",
+      "NVD",
+      "BleepingComputer",
+      "The Hacker News",
+      "Motorist.sg"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "The Iran war dominates again: the US bombed bridges, a railway station and an airport for a sixth straight night, Iran says civilian infrastructure was hit, and the Strait of Hormuz stays shut. In Washington, Trump used a primetime address to accuse China of meddling in the 2020 election — a claim US intelligence has rejected and Beijing calls \"entirely fabricated\". Elsewhere, Britain has a new Labour leader in Andy Burnham, and Canadian wildfire smoke is choking US cities.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "Iran accuses US of hitting civilian infrastructure in sixth night of strikes",
+          "category": "Conflict",
+          "summary": "Iranian state media and provincial authorities said Iranshahr Airport, a railway station and six bridges in Hormozgan province were struck on Thursday night, and Hormozgan authorities said seven people were killed. BBC Verify confirmed damage to the Gariveh Bridge. US Central Command did not list targets, saying the strikes were meant to \"further degrade Iranian military capabilities\". Trump has threatened Iranian bridges and power stations to force Tehran back to talks; UN human rights chief Volker Turk has said deliberately attacking civilians and civilian infrastructure is a war crime.",
+          "source": "BBC, The Straits Times",
+          "published_at": "2026-07-17T18:57+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o"
+        },
+        {
+          "id": "ts2",
+          "headline": "Trump alleges China meddled in 2020 election; Beijing calls claims \"entirely fabricated\"",
+          "category": "World Politics",
+          "summary": "In a half-hour primetime White House address three months before the midterms, Trump accused China of interfering in the 2020 election and alleged \"shocking vulnerabilities\" in US voting systems, saying he had declassified hundreds of supporting intelligence files. He claimed the \"illicit acquisition\" of 220 million voter files and that voter data in 18 states was \"bought, stolen or hacked by China\", but presented no evidence it altered any outcome. The US intelligence community has previously concluded China did not interfere in 2020. China's foreign ministry spokesman Lin Jian called the allegations \"malicious smears\".",
+          "source": "BBC, CNA, The Straits Times",
+          "published_at": "2026-07-17T12:08+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cx2k9wvv5wyo"
+        },
+        {
+          "id": "ts3",
+          "headline": "Andy Burnham becomes UK Labour leader, on course to be prime minister",
+          "category": "World Politics",
+          "summary": "The Greater Manchester mayor has won the Labour leadership, putting him in line to become Britain's next prime minister. Burnham has said he wants to remake Britain's centralised state; the government he inherits is also under fire over what critics call \"wrecking ball\" cuts to overseas aid.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-17T15:59+08:00",
+          "url": "https://www.channelnewsasia.com/world/uk-andy-burnham-labour-prime-minister-6259746"
+        },
+        {
+          "id": "ts4",
+          "headline": "Hazardous Canadian wildfire smoke chokes millions across US cities",
+          "category": "Climate & Environment",
+          "summary": "Smoke from Canadian wildfires has pushed air quality into hazardous ranges across major US cities, triggering official air-quality alerts affecting millions of people.",
+          "source": "BBC, CNA",
+          "published_at": "2026-07-17T10:15+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c0m7n427xd8o"
+        },
+        {
+          "id": "ts5",
+          "headline": "Twenty pupils die in Uganda bus crash; government bans all school outings",
+          "category": "World",
+          "summary": "Twenty schoolchildren were killed in a bus crash in Uganda, prompting the government to suspend all school trips nationwide.",
+          "source": "BBC, The Straits Times",
+          "published_at": "2026-07-17T20:25+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c151gegwqv1o"
+        },
+        {
+          "id": "ts6",
+          "headline": "Israel's parliament dissolves, clearing way for 27 October elections",
+          "category": "World Politics",
+          "summary": "The Knesset voted 62 of 120 to dissolve itself early on 17 July, setting elections for 27 October. Prime Minister Benjamin Netanyahu, 76, is seeking another term despite waning popularity and faces rival Gadi Eisenkot. In a marathon final session the coalition passed contentious bills stripping powers from the attorney-general, freezing arrests of draft dodgers and expanding government oversight of the media. The Knesset's legal adviser said the chamber can keep operating about 10 more days after a law confirming the election date was sent back to committee.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-17T18:15+08:00",
+          "url": "https://www.straitstimes.com/world/middle-east/israel-parliament-dissolves-as-it-gears-up-for-elections"
+        },
+        {
+          "id": "ts7",
+          "headline": "Ukraine's military leadership splits after Zelensky ousts defence minister",
+          "category": "Conflict",
+          "summary": "Protests erupted in Kyiv and other cities after President Volodymyr Zelensky replaced popular Defence Minister Mykhailo Fedorov, 35, who was appointed only in January. Zelensky named Maj-Gen Yevhenii Khmara, head of the SBU security service, as acting defence minister. Fedorov publicly accused Commander-in-Chief Oleksandr Syrskyi of \"splitting our country\" and said he had urged Zelensky to replace Syrskyi and Chief of the General Staff Andrii Hnatov. Zelensky, speaking beside UK Prime Minister Keir Starmer, acknowledged the friction was \"systemic\" and appealed for unity.",
+          "source": "BBC, CNA",
+          "published_at": "2026-07-17T01:28+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cdx76069n3do"
+        },
+        {
+          "id": "ts8",
+          "headline": "Texas floods kill at least two as state braces for historic rains",
+          "category": "Climate & Environment",
+          "summary": "Flooding has killed at least two people in Texas, striking the same area where campers died in an earlier flood disaster, as forecasters warn of historic rainfall still to come.",
+          "source": "BBC, The Straits Times",
+          "published_at": "2026-07-17T06:08+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c3v0xe5elzyo"
+        },
+        {
+          "id": "ts9",
+          "headline": "Children among dead in Algeria foster-care home fire blamed on air conditioner",
+          "category": "World",
+          "summary": "A blaze at an Algerian foster care home killed several people including children, the president said. Police have attributed the fire to an air conditioner.",
+          "source": "BBC, The Straits Times",
+          "published_at": "2026-07-17T00:14+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cvgwd4nz344o"
+        },
+        {
+          "id": "ts10",
+          "headline": "Japan relaxes imperial succession rules but keeps ban on female emperors",
+          "category": "Asia",
+          "summary": "Japan has tweaked its imperial succession rules, but the prohibition on women ascending the Chrysanthemum Throne remains in place.",
+          "source": "CNA, BBC",
+          "published_at": "2026-07-17T12:03+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/japan-imperial-succession-laws-no-woman-emperor-6260226"
+        },
+        {
+          "id": "ts11",
+          "headline": "Philippines condemns Chinese state media video depicting Filipinos as monkeys",
+          "category": "Asia",
+          "summary": "Manila has condemned as racist a video circulated by Chinese state media depicting Filipinos as monkeys, in the latest flare-up of tensions over the South China Sea.",
+          "source": "CNA, BBC",
+          "published_at": "2026-07-17T07:50+08:00",
+          "url": "https://www.channelnewsasia.com/asia/philippines-south-china-sea-racist-video-6259726"
+        },
+        {
+          "id": "ts12",
+          "headline": "China's Moonshot AI chases a \"DeepSeek moment\" with much-hyped Kimi K3",
+          "category": "Asia / Technology",
+          "summary": "Chinese startup Moonshot AI is betting its new Kimi K3 model can replicate the global impact DeepSeek had, as China's AI sector pushes to close the gap with US labs. Separately, President Xi Jinping said AI should not be dominated by any one country.",
+          "source": "CNA",
+          "published_at": "2026-07-17T15:12+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/china-moonshot-ai-kimi-k3-6260536"
+        },
+        {
+          "id": "ts13",
+          "headline": "Landslide buries residents in south-west China's Chongqing",
+          "category": "Asia",
+          "summary": "A landslide in Pengshui, Chongqing municipality, has buried residents, with rescue efforts under way.",
+          "source": "CNA",
+          "published_at": "2026-07-17T14:58+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/china-chongqing-landslide-pengshui-6260461"
+        },
+        {
+          "id": "ts14",
+          "headline": "Stocks drop on tech sell-off; oil choppy on Middle East fears",
+          "category": "Economy",
+          "summary": "Wall Street fell in a technology-led sell-off while oil prices swung on concerns about the widening Middle East conflict, with the Strait of Hormuz still closed.",
+          "source": "CNA",
+          "published_at": "2026-07-17T05:38+08:00",
+          "url": "https://www.channelnewsasia.com/world/stocks-oil-prices-market-wall-street-mideast-6259636"
+        },
+        {
+          "id": "ts15",
+          "headline": "Northeast Spain wildfire destroys more than 12,000 hectares",
+          "category": "Climate & Environment",
+          "summary": "Regional authorities said a wildfire in north-east Spain has burned over 12,000 hectares, as wildfires, drought and storms continue to hit Europe even after the recent heatwave receded.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-17T19:20+08:00",
+          "url": "https://www.channelnewsasia.com/world/northeast-spain-wildfire-destroys-over-12000-hectares-regional-authorities-6261151"
+        },
+        {
+          "id": "ts16",
+          "headline": "Trump Media to sell faster access to the president's social posts",
+          "category": "Business",
+          "summary": "Trump Media plans to sell subscribers quicker access to President Trump's social media posts, which the company markets as potentially market-moving.",
+          "source": "BBC, CNA",
+          "published_at": "2026-07-17T15:25+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c79gw4lj89eo"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "A gasoline-like smell drifting across central Singapore had NEA fielding questions today; the agency says air quality stayed within its usual range. The bigger news: Chief Justice Sundaresh Menon is retiring after 14 years, with Justice Sushil Nair named successor, and Josephine Teo signalled Singapore may block under-18s from social media platforms that fail child-safety standards. Expect thundery showers, and COE premiums hit new highs — Cat A closed at a record S$129,000.",
+      "weather": {
+        "forecast": "Thundery Showers",
+        "temp_low": 25,
+        "temp_high": 34,
+        "humidity_low": 65,
+        "humidity_high": 95,
+        "as_of": "2026-07-17T18:00+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jul 2026 · 1st bidding",
+        "as_of": "2026-07-08",
+        "next_results": "2026-07-22",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          {
+            "code": "A",
+            "label": "Cars up to 1600cc & 130bhp",
+            "premium": 129000,
+            "change": 5153
+          },
+          {
+            "code": "B",
+            "label": "Cars above 1600cc or 130bhp",
+            "premium": 130889,
+            "change": 7387
+          }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "Chemical smell across central Singapore; NEA says air quality within \"usual\" range",
+          "category": "Environment",
+          "summary": "Residents across the central region reported a gasoline-like chemical smell. NEA said it was monitoring the situation and that air quality readings remained within the usual range.",
+          "source": "CNA, Mothership",
+          "published_at": "2026-07-17T19:52+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/chemical-gas-smell-central-region-nea-air-quality-usual-6261091"
+        },
+        {
+          "id": "sg2",
+          "headline": "Chief Justice Sundaresh Menon to retire after 14 years; Justice Sushil Nair named successor",
+          "category": "Government",
+          "summary": "Sundaresh Menon is stepping down as Chief Justice after 14 years leading the judiciary. Justice Sushil Nair has been named as his successor.",
+          "source": "CNA",
+          "published_at": "2026-07-17T16:01+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/chief-justice-sundaresh-menon-retire-replaced-sushil-nair-6260611"
+        },
+        {
+          "id": "sg3",
+          "headline": "Singapore may block under-18s from social media platforms that fail child safety standards",
+          "category": "Policy",
+          "summary": "Minister Josephine Teo said Singapore could block users under 18 from platforms that do not meet child safety standards, while adding that outright social media bans are not the preferred outcome.",
+          "source": "CNA, Mothership",
+          "published_at": "2026-07-17T13:53+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/social-media-ban-children-under-18s-josephine-teo-6260356"
+        },
+        {
+          "id": "sg4",
+          "headline": "GovTech layoffs not part of wider public service restructuring, says PSD",
+          "category": "Government",
+          "summary": "The Public Service Division said the GovTech retrenchments are not part of a broader restructuring across the public service. Zaobao reported that GovTech held an \"Ask Me Anything\" session at its Punggol office after the news, with staff morale still low.",
+          "source": "CNA, Mothership",
+          "published_at": "2026-07-17T18:08+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/govtech-layoffs-retrenchment-public-service-division-6260851"
+        },
+        {
+          "id": "sg5",
+          "headline": "Shanmugam and Tan See Leng: free expression does not cover false, defamatory allegations",
+          "category": "Government",
+          "summary": "Ministers K Shanmugam and Tan See Leng said freedom of expression carries responsibilities and does not extend to false and defamatory allegations, in comments on the Bloomberg defamation case.",
+          "source": "CNA, Mothership",
+          "published_at": "2026-07-17T14:58+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/shanmugam-tan-see-leng-bloomberg-defamation-6260396"
+        },
+        {
+          "id": "sg6",
+          "headline": "Singapore's June non-oil exports rise 20.7% as AI demand stays robust",
+          "category": "Economy",
+          "summary": "Non-oil domestic exports grew 20.7% in June, with sustained demand tied to artificial intelligence hardware supporting the gain.",
+          "source": "CNA",
+          "published_at": "2026-07-17T08:30+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/nodx-june-exports-growth-ai-demand-6259826"
+        },
+        {
+          "id": "sg7",
+          "headline": "CNB arrests 100 suspected drug offenders in islandwide operation",
+          "category": "Crime",
+          "summary": "The Central Narcotics Bureau arrested 100 suspected drug offenders in an islandwide operation that included a foreign worker dormitory, seizing drugs worth more than S$34,000.",
+          "source": "CNA",
+          "published_at": "2026-07-17T19:19+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/cnb-100-suspected-drug-offenders-arrested-islandwide-operation-foreign-worker-dorm-6260961"
+        },
+        {
+          "id": "sg8",
+          "headline": "Singapore cancels work permits of two Bangladeshis over extremist social media posts",
+          "category": "Security",
+          "summary": "The Internal Security Department said the work permits of two Bangladeshi nationals were cancelled over extremist posts on social media.",
+          "source": "CNA",
+          "published_at": "2026-07-17T16:07+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/isd-bangladeshis-extremist-posts-social-media-cancel-work-permit-6260576"
+        },
+        {
+          "id": "sg9",
+          "headline": "MRT network logs third straight month of high reliability",
+          "category": "Transport",
+          "summary": "LTA figures for June show the MRT network recorded a third consecutive month of high reliability, with no major delays since November.",
+          "source": "CNA",
+          "published_at": "2026-07-17T17:24+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/lta-train-reliability-june-2026-mrt-transport-6260541"
+        },
+        {
+          "id": "sg10",
+          "headline": "NParks to expand crow shooting to more districts after culling over 500 birds",
+          "category": "Environment",
+          "summary": "NParks will widen its crow shooting operations to additional districts. More than 500 birds have been culled since March 2026 as part of efforts to manage the invasive population.",
+          "source": "CNA, Mothership",
+          "published_at": "2026-07-17T11:51+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/crows-nparks-shooting-culling-invasive-birds-6260046"
+        },
+        {
+          "id": "sg11",
+          "headline": "Maid jailed after stealing more than S$217,000 from employer",
+          "category": "Crime",
+          "summary": "A domestic helper was jailed after stealing more than S$217,000 in cash and jewellery from her employer, using the proceeds to buy a condominium unit, vehicles and farmland in the Philippines.",
+          "source": "CNA",
+          "published_at": "2026-07-17T19:18+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/domestic-helper-stole-cash-jewellery-employer-buy-condo-unit-car-farmland-philippines-6260966"
+        },
+        {
+          "id": "sg12",
+          "headline": "Actor Richard Low reveals incurable colon condition behind six-day hospital stay",
+          "category": "Trending",
+          "summary": "Local actor Richard Low disclosed that a recent six-day hospitalisation was due to an incurable colon condition, adding that his health is \"okay for now\".",
+          "source": "CNA, Mothership",
+          "published_at": "2026-07-17T10:09+08:00",
+          "url": "https://www.channelnewsasia.com/entertainment/richard-low-hospitalised-colon-condition-6259891"
+        },
+        {
+          "id": "sg13",
+          "headline": "Actor Ben Yeo shuts all six sliced fish soup stalls, losing a mid-five-figure sum",
+          "category": "Trending",
+          "summary": "Singaporean actor Ben Yeo, 47, has closed all six of his sliced fish soup stalls, saying he lost a mid-five-figure sum on the venture.",
+          "source": "Mothership",
+          "published_at": "2026-07-17T14:38+08:00",
+          "url": "https://mothership.sg/2026/07/ben-yeo-shuts-down-stalls/"
+        },
+        {
+          "id": "sg14",
+          "headline": "Toa Payoh resident finds note on \"lift etiquette\" — then realises it's about his son",
+          "category": "Trending",
+          "summary": "A Toa Payoh HDB resident came across a neighbour's note suggesting a Primary 6 boy could develop better \"lift etiquette\", before realising the boy in question was his own son.",
+          "source": "Mothership",
+          "published_at": "2026-07-17T15:23+08:00",
+          "url": "https://mothership.sg/2026/07/lift-etiquette-toa-payoh/"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "Iran is the hottest theatre: a sixth consecutive night of US strikes hit bridges, a railway station and an airport, Iran's Revolutionary Guard says it struck back at US sites in Oman, Kuwait, Bahrain and Syria, and the Strait of Hormuz remains shut. Ukraine's war has been overshadowed by a political crisis — Zelensky's removal of defence minister Mykhailo Fedorov drew street protests and a public row with the army chief. Israel dissolved parliament and heads to elections on 27 October.",
+      "theatres": [
+        {
+          "name": "US–Iran / Strait of Hormuz",
+          "status": "Escalating — a sixth consecutive night of US strikes hit bridges, a railway station and an airport, with Iran saying civilian infrastructure was targeted and provincial authorities reporting seven dead. Iran's IRGC says it struck back at US sites in Oman, Kuwait and Bahrain and claims an attack in Syria. The Strait of Hormuz, effectively blocked by Tehran throughout the war, remains shut.",
+          "timeline": [
+            {
+              "date": "2026-02-28",
+              "event": "The war began with US and Israeli attacks on Iran, prompting Tehran to retaliate against Israel and against US targets and allies in the Gulf. Iran has effectively blocked the Strait of Hormuz — through which about a fifth of the world's oil passes — throughout the conflict.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o"
+            },
+            {
+              "date": "2026-04",
+              "event": "Trump said the US would bomb civilian infrastructure in Iran, including bridges and power plants. UN human rights chief Volker Turk responded that \"deliberately attacking civilians and civilian infrastructure is a war crime\".",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o"
+            },
+            {
+              "date": "2026-07-16",
+              "event": "US Central Command said it completed a wave of strikes on command centres, air-defence sites and coastal targets, marking a sixth consecutive night of attacks.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/us-military-says-it-completed-latest-strikes-on-iran-marking-6th-consecutive-night-of-attacks"
+            },
+            {
+              "date": "2026-07-16",
+              "event": "Trump said Iran had freed a detained US citizen, describing it as a goodwill gesture that could signal a path to a climbdown; Tehran disputed that framing.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/iran-us-exchange-fire-strait-hormuz-escalation-6258651"
+            },
+            {
+              "date": "2026-07-17",
+              "event": "Iranian state media and provincial authorities said Iranshahr Airport, a railway station and six bridges in Hormozgan province were hit overnight, and Hormozgan authorities said seven people were killed. BBC Verify confirmed damage to the Gariveh Bridge. Centcom gave no target list, saying the strikes were intended to \"further degrade Iranian military capabilities\".",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o"
+            },
+            {
+              "date": "2026-07-17",
+              "event": "Iran's Revolutionary Guard Corps said it had struck US maritime surveillance radar sites in Oman as well as targets in Kuwait and Bahrain, and claimed an attack on a US special operations command centre at al-Tanf in Syria — a claim neither Syria nor the US has commented on. Kuwaiti authorities said the strikes hit power generation and water desalination stations.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/c151gdjwd10o"
+            },
+            {
+              "date": "2026-07-17",
+              "event": "Qatar said it thwarted an Iranian missile attack, in which a child was injured.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/qatar-says-it-thwarted-missile-attack-security-threat-over"
+            },
+            {
+              "date": "2026-07-17",
+              "event": "Yemen's Houthis threatened attacks on Saudi oil facilities, widening the risk to regional energy infrastructure.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/yemens-houthis-threaten-attacks-saudi-oil-facilities-6259486"
+            },
+            {
+              "date": "2026-07-17",
+              "event": "US Vice-President JD Vance accused some Israeli politicians of manipulating US public opinion to prolong the war with Iran, exposing a public rift between Washington and a close ally.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/c1m107yj327o"
+            }
+          ]
+        },
+        {
+          "name": "Russia–Ukraine",
+          "status": "Active — mutual strikes on front-line towns and cities killed at least 13 on 16 July, according to local officials on both sides. The bigger development is political: Zelensky's removal of Defence Minister Mykhailo Fedorov has triggered street protests and an open row between the defence ministry and the army command.",
+          "timeline": [
+            {
+              "date": "2026-01",
+              "event": "Mykhailo Fedorov, 35, was appointed defence minister and credited with energising the ministry, heading a drive against corruption and using data to improve performance in an army fatigued after four years of fighting off the Russian invasion.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cdx76069n3do"
+            },
+            {
+              "date": "2026-07-16",
+              "event": "Russian and Ukrainian attacks on civilian areas killed at least 13 people, local officials said. A Russian guided bomb on Zaporizhzhia killed three and wounded 15 (governor Ivan Fedorov); missiles on Odesa killed two and injured six; drone attacks killed one near Kharkiv and three near Kupiansk; one was killed near Kramatorsk in Donetsk region. Russia's Belgorod region said one person died in Ukrainian shelling, and the Moscow-installed head of occupied Donetsk reported one death. Accounts from both sides could not be independently verified.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/russian-and-ukrainian-attacks-kill-at-least-13-officials-say"
+            },
+            {
+              "date": "2026-07-16",
+              "event": "Zelensky replaced Fedorov, prompting crowds — mostly young people — to gather in Kyiv and other cities holding signs reading \"Hands off Fedorov\" and chanting \"Shame!\". By evening Zelensky had named Maj-Gen Yevhenii Khmara, acting head of the SBU security service, as acting defence minister.",
+              "source": "BBC, CNA",
+              "url": "https://www.bbc.co.uk/news/articles/cdx76069n3do"
+            },
+            {
+              "date": "2026-07-16",
+              "event": "A teenager was accused of carrying out sabotage actions in Poland on behalf of Russia. Moscow has denied involvement in previous such cases.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cp305dx493do"
+            },
+            {
+              "date": "2026-07-17",
+              "event": "The row deepened. Fedorov said he had urged Zelensky to replace Commander-in-Chief Oleksandr Syrskyi and Chief of the General Staff Andrii Hnatov, and accused Syrskyi of finding \"a way of splitting our country\" instead of a way to defeat Russia asymmetrically. Syrskyi replied on Telegram that he would continue to focus on the war and an effective strategy. Zelensky, speaking beside UK PM Keir Starmer in Kyiv, called the conflict between the ministry and general staff \"systemic\" and appealed for unity.",
+              "source": "BBC, CNA",
+              "url": "https://www.channelnewsasia.com/world/ukraine-protests-defence-minister-zelenskyy-6259311"
+            },
+            {
+              "date": "2026-07-17",
+              "event": "Russian courts moved against two outspoken critics of the war in Ukraine.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/russian-blogger-who-criticised-putin-and-the-war-has-been-detained-tass-reports"
+            },
+            {
+              "date": "2026-07-17",
+              "event": "A quiet US pullback of forces in Eastern Europe has sparked wider worries among allies.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/quiet-u-s-pullback-in-eastern-europe-sparks-wider-allied-worries"
+            }
+          ]
+        },
+        {
+          "name": "Israel–Lebanon / Gaza",
+          "status": "Israel is heading to elections — parliament dissolved on 17 July for a 27 October vote — while operations continue and Israel says it will keep troops in \"security zones\" in Lebanon, Syria and Gaza. A public rift has opened with Washington over the Iran war.",
+          "timeline": [
+            {
+              "date": "2026-07-15",
+              "event": "Lebanon and Israel concluded a round of US-brokered talks in Rome on proposed \"pilot zones\" along the border.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/israel-tells-pentagon-chief-will-keep-troops-in-lebanon-syria-gaza-security-zones"
+            },
+            {
+              "date": "2026-07-16",
+              "event": "Israeli strikes killed five people in Gaza, medics said. Israel says it targets militants; casualty figures come from Gaza medical sources and are not independently verified.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/israel-tells-pentagon-chief-will-keep-troops-in-lebanon-syria-gaza-security-zones"
+            },
+            {
+              "date": "2026-07-16",
+              "event": "Israel told the visiting Pentagon chief it will keep troops in \"security zones\" in Lebanon, Syria and Gaza.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/israel-tells-pentagon-chief-will-keep-troops-in-lebanon-syria-gaza-security-zones-6258096"
+            },
+            {
+              "date": "2026-07-17",
+              "event": "US Vice-President JD Vance publicly accused some in Israel's government of manipulating US public opinion to prolong the war with Iran.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/c1m107yj327o"
+            },
+            {
+              "date": "2026-07-17",
+              "event": "The Knesset voted 62 of 120 to dissolve itself, clearing the way for elections on 27 October. In a marathon final session the coalition passed bills stripping powers from the attorney-general, freezing arrests of draft dodgers and expanding government oversight of the media. Netanyahu, 76, is seeking another term against rival Gadi Eisenkot.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/israel-parliament-dissolves-as-it-gears-up-for-elections"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "DR Congo's Bundibugyo Ebola epidemic is the most serious story here and it is getting worse: WHO's director-general said on 16 July it has reached 2,273 cases and 796 deaths, now the third-largest Ebola outbreak on record and outpacing the response. Uganda, by contrast, discharged its last patient and has started a 42-day countdown to being declared free. In the US, Cyclospora tied to Taco Bell lettuce has infected 1,644 people across five states.",
+      "outbreaks": [
+        {
+          "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
+          "status": "Outpacing the response in DR Congo and now the third-largest Ebola outbreak on record; Uganda has discharged its last patient and begun a 42-day countdown to being declared free",
+          "cases": 1481,
+          "deaths": 454,
+          "countries": 3,
+          "as_of": "2026-07-03",
+          "scope_note": "Card figures are the latest WHO DON-ratified counts — Disease Outbreak News 612 (3 Jul 2026), confirmed cases only: DRC 1,460, Uganda 20, France 1 (imported, linked to DRC); 454 deaths including 2 in Uganda. DRC data as of 1 Jul, Uganda as of 2 Jul; crude case fatality ratio in DRC 30.9%; 229 recovered; 102 confirmed cases and 25 deaths among health and care workers; active in 21 of 36 affected health zones across Ituri, North Kivu and South Kivu. MORE RECENT AND HIGHER: at a 16 Jul briefing in Geneva, WHO Director-General Tedros Adhanom Ghebreyesus said 2,273 cases and 796 deaths had been reported — not yet ratified in a DON, which is why this card retains the DON612 count. He said the outbreak is the third largest on record, spreading faster than any previous outbreak in its first month, with more than 80% of new infections detected outside known contact lists and about two-thirds of deaths occurring in communities among people who never reach a health facility.",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON612"
+        },
+        {
+          "name": "Cyclosporiasis — United States (Taco Bell shredded lettuce)",
+          "status": "Active multistate investigation; implicated lettuce pulled from Taco Bell's supply chain",
+          "cases": 1644,
+          "deaths": 0,
+          "countries": 1,
+          "as_of": "2026-07-16",
+          "scope_note": "FDA statement of 16 Jul 2026 citing CDC data: 1,644 people infected who also reported Taco Bell exposure, across 5 states (Indiana, Kentucky, Michigan, Ohio, West Virginia); 94 hospitalisations and no deaths. Illness onsets 13 May – 13 Jul 2026. This counts ONLY the Taco Bell–linked cluster: CDC separately reports Cyclospora infections across 34 states in a wider 2026 surge, and Michigan health officials alone reported 4,312 cases on 16 Jul.",
+          "url": "https://www.cdc.gov/cyclosporiasis/outbreaks/07-26/index.html"
+        },
+        {
+          "name": "Andes hantavirus — M/V Hondius cruise ship",
+          "status": "Contained; no WHO update since 2 July, so figures may be stale",
+          "cases": 13,
+          "deaths": 3,
+          "countries": 33,
+          "as_of": "2026-07-02",
+          "scope_note": "WHO Disease Outbreak News 611 (2 Jul 2026): 13 cases (12 confirmed, 1 probable) including 3 deaths (2 confirmed, 1 probable); case fatality ratio 23%. All 13 cases travelled aboard the M/V Hondius. \"Countries\" here = the 33 countries and overseas territories where contact tracing was carried out, NOT countries reporting cases. 317 high-risk contacts have completed quarantine. WHO has published no further DON on this outbreak since 2 Jul, so these figures are now more than two weeks old.",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON611"
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob0",
+          "headline": "WHO says DR Congo Ebola outbreak is outpacing the response and now third-largest on record",
+          "category": "Ebola",
+          "summary": "WHO Director-General Tedros Adhanom Ghebreyesus told reporters in Geneva that the two-month-old DR Congo outbreak has continued to expand despite efforts by the government, WHO and Africa CDC, with 2,273 cases and 796 deaths reported. He said it is the third-largest Ebola outbreak on record and has spread faster than any previous outbreak during its first month. Intense transmission in Ituri province remains WHO's biggest concern: more than 80% of new infections are detected outside known contact lists, and about two-thirds of deaths occur in communities among people who never receive treatment in a health facility. These figures are more recent than WHO's last formal Disease Outbreak News and have not yet been ratified in one.",
+          "source": "UN News, France 24",
+          "published_at": "2026-07-16",
+          "url": "https://news.un.org/en/story/2026/07/1167959"
+        },
+        {
+          "id": "ob1",
+          "headline": "Transport of dead bodies within Congo risks further Ebola spread, UN agency warns",
+          "category": "Ebola",
+          "summary": "A UN agency has warned that the movement of dead bodies within the Democratic Republic of the Congo risks spreading Ebola further. Unsafe burial practices involving direct contact with the deceased are a known amplifier of Bundibugyo virus transmission.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-17T18:41+08:00",
+          "url": "https://www.straitstimes.com/world/transport-of-dead-bodies-within-congo-risks-further-ebola-spread-un-agency-warns"
+        },
+        {
+          "id": "ob2",
+          "headline": "\"Moment of joy\" as Uganda discharges its last Ebola patient",
+          "category": "Ebola",
+          "summary": "Uganda has discharged its last confirmed Ebola patient after two negative tests, starting a 42-day countdown before the outbreak there can be officially declared over. Uganda has recorded 20 confirmed cases and two deaths since 15 May — against a far larger and still-growing epidemic in neighbouring DR Congo.",
+          "source": "BBC",
+          "published_at": "2026-07-17T01:15+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cx2myxjv172o"
+        },
+        {
+          "id": "ob3",
+          "headline": "Seven Americans quarantining at Kenya Ebola facility after US travel ban, aid group says",
+          "category": "Ebola",
+          "summary": "An aid group said seven Americans are quarantining at an Ebola facility in Kenya following a US travel ban linked to the outbreak.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-17T15:31+08:00",
+          "url": "https://www.straitstimes.com/world/europe/aid-group-says-seven-americans-quarantining-at-kenya-ebola-facility-after-us-travel-ban"
+        },
+        {
+          "id": "ob4",
+          "headline": "Taco Bell to stop using lettuce linked to Cyclospora outbreak",
+          "category": "Cyclosporiasis",
+          "summary": "The FDA said on 16 July that Taco Bell, owned by Yum Brands, will stop using lettuce from a supplier the agency has linked to an ongoing cyclosporiasis outbreak; Taco Bell said the ingredient is being removed from its supply chain nationwide. The FDA said CDC data shows 1,644 infected people across five states who also reported Taco Bell exposure, with 94 hospitalisations and no deaths. The FDA's traceback identified a common supplier of iceberg lettuce from Mexico but did not name it; the Washington Post reported that investigators identified California-based Taylor Farms as a potential source. Taylor Farms had not commented.",
+          "source": "The Straits Times, BBC",
+          "published_at": "2026-07-17T13:15+08:00",
+          "url": "https://www.straitstimes.com/world/united-states/taco-bell-to-stop-using-lettuce-identified-with-cyclosporiasis-outbreak"
+        },
+        {
+          "id": "ob5",
+          "headline": "US regulators to warn against Taco Bell shredded lettuce in five states",
+          "category": "Cyclosporiasis",
+          "summary": "The FDA is recommending consumers avoid shredded lettuce at Taco Bell locations in Michigan, Ohio, West Virginia, Kentucky and Indiana. CDC says the Cyclospora parasite, which causes severe diarrhoea, has sickened people in 34 states, with Michigan reporting the largest number at more than 4,000 cases. The outbreak has been hard to track because cyclosporiasis does not spread person to person and symptoms can take up to two weeks to appear.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-17T07:33+08:00",
+          "url": "https://www.straitstimes.com/world/united-states/us-authority-to-warn-of-taco-bell-lettuce-in-5-states-over-parasite"
+        },
+        {
+          "id": "ob6",
+          "headline": "New Zealand confirms first H5N1 bird flu case in a native bird",
+          "category": "Avian influenza",
+          "summary": "New Zealand has confirmed its first H5N1 avian influenza case in a native bird. No human cases have been reported in connection with the detection.",
+          "source": "CNA",
+          "published_at": "2026-07-17T12:53+08:00",
+          "url": "https://www.channelnewsasia.com/world/new-zealand-first-h5n1-bird-flu-case-native-6260316"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "Patch urgency is the theme: CISA has ordered US agencies to fix actively exploited SharePoint, Fortinet FortiSandbox and Oracle E-Business Suite flaws — all rated CVSS 9.8 — on deadlines measured in days. A public proof-of-concept is also circulating for an unpatched Windows privilege-escalation zero-day that has no CVE yet. On the criminal side, ransomware halted Coca-Cola's Fairlife dairy production, and ClickFix-style lures are pushing a wave of new information stealers.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "Unpatched Windows \"LegacyHive\" zero-day gives non-admin users admin code execution",
+          "category": "Zero-day",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A researcher going by \"Nightmare Eclipse\" published a proof-of-concept exploit hours after Microsoft's July 2026 Patch Tuesday. The flaw in the Windows User Profile Service lets a non-admin user mount the target user hive in the current user's classes root; as researcher Will Dormann explained, this allows modifying the classes registry hive and gaining automatic code execution when an administrator logs into the machine. It has not been assigned a CVE ID and Microsoft had not patched it as of publication. No in-the-wild exploitation has been reported.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-07-17T19:05+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/new-windows-legacyhive-zero-day-exploit-grants-hackers-admin-access/"
+        },
+        {
+          "id": "cs2",
+          "headline": "ACR Stealer uses ClickFix lures to steal browser tokens and Microsoft 365 files",
+          "category": "Malware campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "ACR Stealer is being delivered through ClickFix-style social engineering — pages that trick users into pasting and running attacker commands themselves — and is used to steal browser session tokens and Microsoft 365 files.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-17T16:56+08:00",
+          "url": "https://thehackernews.com/2026/07/acr-stealer-uses-clickfix-lures-to.html"
+        },
+        {
+          "id": "cs3",
+          "headline": "New GoSerpent malware targets Southeast Asian governments and diplomats",
+          "category": "APT campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A newly documented malware family dubbed GoSerpent is being used in espionage operations against Southeast Asian government bodies and diplomatic staff — a campaign of direct regional relevance.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-17T16:46+08:00",
+          "url": "https://thehackernews.com/2026/07/new-goserpent-malware-targets-southeast.html"
+        },
+        {
+          "id": "cs4",
+          "headline": "CISA urges immediate action on actively exploited Fortinet FortiSandbox flaws",
+          "category": "Actively exploited",
+          "cve": "CVE-2026-25089, CVE-2026-39808",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "CISA added two Fortinet FortiSandbox OS command injection flaws to its Known Exploited Vulnerabilities catalog on 16 July and told federal agencies to patch by Sunday. Both carry an NVD CVSS 3.1 base score of 9.8. CVE-2026-25089 affects the FortiSandbox 5.0.x branch and CVE-2026-39808 affects 4.4.x.",
+          "source": "BleepingComputer, CISA KEV, NVD",
+          "published_at": "2026-07-17T15:03+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-feds-to-patch-exploited-fortinet-fortisandbox-flaws-by-sunday/"
+        },
+        {
+          "id": "cs5",
+          "headline": "CISA adds exploited SharePoint RCE zero-day CVE-2026-58644 to KEV",
+          "category": "Actively exploited",
+          "cve": "CVE-2026-58644",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "CISA added a Microsoft SharePoint deserialization-of-untrusted-data flaw to its Known Exploited Vulnerabilities catalog on 16 July. NVD rates it CVSS 3.1 9.8 CRITICAL: it allows an unauthorised attacker to execute code over a network. A second SharePoint issue, CVE-2026-56164 (missing authentication for a critical function, CVSS 5.3), was added to KEV on 14 July.",
+          "source": "The Hacker News, CISA KEV, NVD",
+          "published_at": "2026-07-17T14:42+08:00",
+          "url": "https://thehackernews.com/2026/07/cisa-adds-exploited-sharepoint-rce-zero.html"
+        },
+        {
+          "id": "cs6",
+          "headline": "New ClickLock macOS stealer kills apps every 210ms until victims type their password",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A macOS information stealer dubbed ClickLock repeatedly terminates applications — reportedly every 210 milliseconds — to badger victims into entering their login password, which it then captures.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-07-17T05:52+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/new-clicklock-macos-malware-traps-users-into-revealing-login-password/"
+        },
+        {
+          "id": "cs7",
+          "headline": "Coca-Cola says Fairlife ransomware attack halted US dairy production",
+          "category": "Ransomware",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Coca-Cola said a ransomware attack on its Fairlife dairy business stopped production in the US — an operational-impact incident rather than a data-only breach.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-17T05:09+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/coca-cola-says-fairlife-ransomware-attack-halts-us-dairy-production/"
+        },
+        {
+          "id": "cs8",
+          "headline": "Claude Chrome extension flaw lets malicious extensions trigger AI actions",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Ax Sharma of Manifold Security reported that a malicious browser extension can inject a page element carrying one of nine supported task identifiers and generate a synthetic click, triggering predefined workflows in Anthropic's Claude for Chrome extension without genuine user interaction — potentially abusing Claude's authenticated access to Gmail, Google Docs, Google Calendar and Salesforce. Manifold said both findings remained reproducible in version 1.0.80. Anthropic acknowledged the reports through its bug bounty programme, closing the synthetic-click issue as already tracked under a broader issue and classifying the second finding as informational.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-17T03:26+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/claude-chrome-extension-flaw-lets-malicious-extensions-trigger-ai-actions/"
+        },
+        {
+          "id": "cs9",
+          "headline": "New OkoBot framework deploys 20 payloads to steal data and crypto",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "The OkoBot malware framework delivers around 20 distinct payloads for data and cryptocurrency theft, including injecting seed-phrase phishing into Ledger and Trezor wallet apps.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-07-17T03:09+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/new-okobot-framework-deploys-20-payloads-to-steal-data-crypto/"
+        },
+        {
+          "id": "cs10",
+          "headline": "n8n token exchange flaw could let attackers log in as users from another issuer",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A token exchange weakness in the n8n workflow automation platform could allow an attacker to authenticate as a user belonging to a different identity issuer.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-16T21:33+08:00",
+          "url": "https://thehackernews.com/2026/07/n8n-token-exchange-flaw-could-let.html"
+        },
+        {
+          "id": "cs11",
+          "headline": "New TELEPUZ malware spreads via ClickFix to steal data and run commands",
+          "category": "Malware campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "TELEPUZ is a newly documented malware family distributed through ClickFix lures, capable of stealing data and executing attacker commands on infected hosts.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-16T20:50+08:00",
+          "url": "https://thehackernews.com/2026/07/new-telepuz-malware-spreads-via.html"
+        },
+        {
+          "id": "cs12",
+          "headline": "More than 20 hijacked government websites turned into an attack channel",
+          "category": "Threat campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Attackers hijacked over 20 government websites and repurposed the trusted domains as a delivery channel for malicious content.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-16T19:58+08:00",
+          "url": "https://thehackernews.com/2026/07/20-hijacked-government-websites.html"
+        },
+        {
+          "id": "cs13",
+          "headline": "New \"agent data injection\" attack can make AI agents misclick or run attacker commands",
+          "category": "Security research",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers described an agent data injection technique that manipulates the data an AI agent consumes, causing it to click the wrong targets or execute commands supplied by an attacker.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-16T19:32+08:00",
+          "url": "https://thehackernews.com/2026/07/new-agent-data-injection-attack-can.html"
+        },
+        {
+          "id": "cs14",
+          "headline": "Daxin resurfaces in Taiwan alongside \"Stupig\" pre-login SYSTEM backdoor",
+          "category": "APT campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "The Daxin backdoor has reappeared in intrusions in Taiwan, deployed alongside a backdoor dubbed Stupig that runs with SYSTEM privileges before user login.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-16T19:17+08:00",
+          "url": "https://thehackernews.com/2026/07/daxin-resurfaces-in-taiwan-alongside.html"
+        },
+        {
+          "id": "cs15",
+          "headline": "CISA orders federal agencies to patch actively exploited Oracle E-Business Suite flaw",
+          "category": "Actively exploited",
+          "cve": "CVE-2026-46817",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "CISA added an Oracle E-Business Suite improper privilege management flaw to its KEV catalog on 15 July with a patch deadline of Saturday for federal agencies. NVD rates it CVSS 3.1 9.8 CRITICAL; it affects the Oracle Payments product's File Transmission component in E-Business Suite 12.2.",
+          "source": "BleepingComputer, CISA KEV, NVD",
+          "published_at": "2026-07-16T18:56+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-actively-exploited-oracle-flaw-by-saturday/"
+        },
+        {
+          "id": "cs16",
+          "headline": "Russian hackers trojanize WebEx and Zoom installers to push Starland malware",
+          "category": "Threat campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A Russian-linked threat group is distributing trojanized Cisco WebEx and Zoom applications to deliver malware tracked as Starland.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-16T18:19+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/russian-hackers-trojanize-webex-zoom-apps-to-push-starland-malware/"
+        },
+        {
+          "id": "cs17",
+          "headline": "New Spirals ransomware encrypts a victim network in under 24 hours",
+          "category": "Ransomware",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A ransomware operation tracked as Spirals is moving from initial access to full network encryption in less than a day, compressing the window defenders have to detect and respond.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-16T18:00+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/new-spirals-ransomware-encrypts-victim-network-in-under-24-hours/"
+        },
+        {
+          "id": "cs18",
+          "headline": "Unpatched Shark vacuum flaw could let attackers control other vacuums region-wide",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A flaw in Shark robot vacuums could allow an attacker to control other users' devices across an entire region. No CVE has been assigned and the issue remains unpatched, leaving owners with no fix to apply.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-16T17:23+08:00",
+          "url": "https://thehackernews.com/2026/07/unpatched-shark-vacuum-flaw-could-let.html"
+        },
+        {
+          "id": "cs19",
+          "headline": "Zoom patches critical Windows flaw that could enable account takeover",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "Zoom has released a fix for a critical vulnerability in its Windows client that could have allowed an attacker to take over a user's account.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-16T15:22+08:00",
+          "url": "https://thehackernews.com/2026/07/zoom-patches-critical-windows-flaw-that.html"
+        },
+        {
+          "id": "cs20",
+          "headline": "TuxBot v3 evolution shows signs of LLM-assisted IoT botnet development",
+          "category": "Security research",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Analysis of the TuxBot v3 IoT botnet suggests its operators are using large language models to assist in developing the malware.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-16T02:43+08:00",
+          "url": "https://thehackernews.com/2026/07/tuxbot-v3-evolution-shows-signs-of-llm.html"
+        },
+        {
+          "id": "cs21",
+          "headline": "Firefox, Chrome, Adobe and VMware updates fix multiple critical flaws",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A round of vendor updates from Mozilla, Google, Adobe and VMware addresses multiple critical-severity security vulnerabilities across widely deployed software.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-15T21:18+08:00",
+          "url": "https://thehackernews.com/2026/07/firefox-chrome-adobe-and-vmware-updates.html"
+        },
+        {
+          "id": "cs22",
+          "headline": "Cursor flaw lets maliciously cloned repositories trigger Windows code execution",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A vulnerability in the Cursor AI code editor allows a maliciously crafted cloned repository to trigger code execution on Windows — a supply-chain style risk for developers opening untrusted projects.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-15T18:55+08:00",
+          "url": "https://thehackernews.com/2026/07/cursor-flaw-lets-malicious-cloned.html"
+        }
+      ]
+    }
+  }
+}

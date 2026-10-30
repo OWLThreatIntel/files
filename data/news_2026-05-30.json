@@ -1,0 +1,394 @@
+{
+  "meta": {
+    "date": "2026-05-30",
+    "generated_at": "2026-05-30T23:35:00+08:00",
+    "edition": "Daily News Briefing — Evening SGT",
+    "sources": [
+      "Reuters",
+      "Associated Press",
+      "BBC",
+      "CBC News",
+      "Al Jazeera",
+      "Times of Israel",
+      "NPR",
+      "South China Morning Post",
+      "Washington Post",
+      "Euronews",
+      "Kyiv Independent",
+      "Ukrainska Pravda",
+      "Ukrinform",
+      "CNN",
+      "PBS NewsHour",
+      "Axios",
+      "Mothership",
+      "NEA / Meteorological Service Singapore",
+      "World Health Organization",
+      "ECDC",
+      "US CDC",
+      "Singapore Communicable Diseases Agency",
+      "The Hacker News",
+      "BleepingComputer"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "Conflict dominated the day. Israel pushed its ground offensive across Lebanon's Litani River as Netanyahu vowed to crush Hezbollah, while Lebanese authorities reported new deadly strikes. In Singapore, US Defense Secretary Pete Hegseth struck a milder tone on China at the Shangri-La Dialogue, urging Asian allies to spend more on defence while omitting Taiwan. Zelensky warned of a looming Russian 'massive' attack after drones hit foreign ships in the Black Sea, and the WHO chief visited Congo amid a rare Ebola outbreak.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "Israeli forces cross Lebanon's Litani River as Netanyahu vows to crush Hezbollah",
+          "category": "Conflict / Middle East",
+          "summary": "Netanyahu said Israeli troops crossed the Litani River and seized commanding terrain in southern Lebanon, expanding the offensive against Hezbollah as Israeli and Lebanese officials held ceasefire-implementation talks at the Pentagon. Lebanese authorities reported new deadly strikes. (Israeli claim; Lebanese-reported casualties.)",
+          "source": "CBC News",
+          "published_at": "2026-05-29T20:00:00+08:00",
+          "url": "https://www.cbc.ca/news/world/israel-lebanon-litani-river-9.7216696"
+        },
+        {
+          "id": "ts2",
+          "headline": "Hegseth urges Asian allies to boost military spending against China, omits Taiwan",
+          "category": "Geopolitics / US-China",
+          "summary": "At the Shangri-La Dialogue in Singapore, US Defense Secretary Pete Hegseth called on Asian partners to raise defence spending to counter China's 'historic military build-up', but struck a notably milder tone than last year, praising recent Xi-Trump talks and not mentioning Taiwan in his allies roll-call.",
+          "source": "NPR",
+          "published_at": "2026-05-30T13:00:00+08:00",
+          "url": "https://www.npr.org/2026/05/30/nx-s1-5837615/hegseth-shangri-la-security-summit"
+        },
+        {
+          "id": "ts3",
+          "headline": "Zelensky warns Russia preparing 'massive' new attack on Ukraine",
+          "category": "Conflict / Ukraine",
+          "summary": "President Zelensky said Ukraine has intelligence indicating Russia is preparing a new large-scale strike on its cities, urging residents to heed air-raid alerts and renewing calls for more Patriot systems. The warning follows recent heavy missile-and-drone barrages on the Kyiv region.",
+          "source": "Euronews",
+          "published_at": "2026-05-30T09:00:00+08:00",
+          "url": "https://www.euronews.com/my-europe/2026/05/30/zelenskyy-warns-russia-may-be-preparing-massive-new-attack"
+        },
+        {
+          "id": "ts4",
+          "headline": "Russian drones strike three foreign merchant ships in Black Sea corridor",
+          "category": "Conflict / Ukraine",
+          "summary": "Russian drones hit three foreign-flagged merchant vessels overnight in Ukraine's Black Sea shipping corridor, injuring two crew on a Vanuatu-flagged ship and knocking out power to parts of the Odesa region, in what Kyiv called a threat to global food security.",
+          "source": "Kyiv Independent",
+          "published_at": "2026-05-29T15:00:00+08:00",
+          "url": "https://kyivindependent.com/3-russian-shadow-fleet-tankers-attacked-by-drones-near-turkeys-black-sea-coast/"
+        },
+        {
+          "id": "ts5",
+          "headline": "WHO chief visits Congo as rare Ebola outbreak spreads",
+          "category": "Health / Outbreak",
+          "summary": "WHO Director-General Tedros Adhanom Ghebreyesus travelled to Kinshasa to back the response to an outbreak of the rare Bundibugyo strain of Ebola, saying it 'can be stopped'. The WHO has reported scores of confirmed cases and deaths in Congo, with the volatile, conflict-hit region complicating containment.",
+          "source": "NPR",
+          "published_at": "2026-05-29T20:00:00+08:00",
+          "url": "https://www.npr.org/2026/05/29/nx-s1-5838635/who-chief-visits-congo-ebola-outbreak"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "Singapore is hosting the Shangri-La Dialogue (May 29-31), and it dominates the news today. US Defence Secretary Pete Hegseth used his Saturday address to press Asian allies to lift defence spending toward 3.5% of GDP and warned of China's military build-up, while saying Washington seeks 'respectful' and stable relations with Beijing; China again sent only a low-level delegation. Weather: warm with afternoon thundery showers likely (highs around 33-34°C).",
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "Hegseth urges Asian allies to lift defence spending to 3.5% of GDP at Shangri-La Dialogue",
+          "category": "Foreign relations / defence",
+          "summary": "At the Singapore-hosted Shangri-La Dialogue, US Defence Secretary Pete Hegseth called on Asia-Pacific allies to 'step up' and raise defence spending toward 3.5% of GDP, citing alarm over China's military build-up. He pointed to South Korea, the Philippines, Japan and Australia as examples.",
+          "source": "Mothership",
+          "published_at": "2026-05-30T13:00:00+08:00",
+          "url": "https://mothership.sg/2026/05/us-asian-allies-step-up-defence-spending-pete-hegseth-shangri-la-dialogue/"
+        },
+        {
+          "id": "sg2",
+          "headline": "Hegseth: US seeks 'respectful relations' with China but military strength preserves stability",
+          "category": "Foreign relations",
+          "summary": "In the same Shangri-La Dialogue address in Singapore, Hegseth said the US wants stable, respectful relations with China while maintaining military strength, striking a milder tone than in 2025. China's defence minister skipped the forum for a second year, sending a lower-level delegation.",
+          "source": "Mothership",
+          "published_at": "2026-05-30T14:30:00+08:00",
+          "url": "https://mothership.sg/2026/05/us-china-pete-hegseth-shangri-la-dialogue/"
+        },
+        {
+          "id": "sg3",
+          "headline": "Traffic restrictions near Shangri-La hotel as security summit runs through May 31",
+          "category": "Transport / public advisory",
+          "summary": "Police advised motorists to avoid roads near Shangri-La Singapore during the Shangri-La Dialogue from May 28-31, with vehicle security checks in the vicinity for the duration of the event.",
+          "source": "Mothership",
+          "published_at": "2026-05-29T12:00:00+08:00",
+          "url": "https://mothership.sg/2026/05/shangri-la-singapore-dialogue-security-arrangements/"
+        },
+        {
+          "id": "sg4",
+          "headline": "Warm with afternoon thundery showers expected in Singapore",
+          "category": "Weather",
+          "summary": "For the second half of May 2026, NEA's Meteorological Service expects short-duration thundery showers over parts of the island on most afternoons, occasionally into the evening, with daily highs around 33-34°C (up to ~35°C on some days). (Fortnightly outlook, not a 24-hour forecast.)",
+          "source": "NEA / Meteorological Service Singapore",
+          "published_at": "2026-05-30T07:00:00+08:00",
+          "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "Russia escalated in Ukraine — a record May 24 missile-and-drone barrage on Kyiv and a May 28-29 drone crash into a Romanian apartment block raised NATO spillover fears. In the Gulf, US and Iranian negotiators reached a tentative 60-day ceasefire framework to reopen the Strait of Hormuz, but it awaits Trump's approval and Iran has not confirmed; the strait stays effectively closed. The Israel-Lebanon truce and Gaza ceasefire are fraying: Netanyahu ordered the IDF to seize 70% of Gaza, and Israel escalated in Lebanon — striking a Beirut suburb on May 28 and, on May 29, saying its troops had crossed the Litani River.",
+      "theatres": [
+        {
+          "name": "Russia-Ukraine War",
+          "status": "Russia escalating; record strike on Kyiv and drone spillover into NATO-member Romania",
+          "timeline": [
+            {
+              "date": "2026-05-14",
+              "event": "Russia launches large overnight missile and drone strikes across Ukraine, part of an intensifying spring air campaign.",
+              "source": "Wikipedia (compiled from wire reports)",
+              "url": "https://en.wikipedia.org/wiki/14_May_2026_Russian_strikes_on_Ukraine"
+            },
+            {
+              "date": "2026-05-17",
+              "event": "One of Ukraine's largest drone strikes on Russian territory kills at least four people, including three near Moscow, and wounds about a dozen, local authorities say.",
+              "source": "NPR",
+              "url": "https://www.npr.org/2026/05/17/nx-s1-5824987/ukrainian-drone-strikes-on-russia-kill-4-moscow"
+            },
+            {
+              "date": "2026-05-21",
+              "event": "Ukraine says drone strikes killed at least 65 Russian drone-pilot cadets and an instructor at a training camp in occupied territory; Zelensky says a separate strike killed and wounded nearly 100. (Ukrainian claims; Russia had not confirmed tolls.)",
+              "source": "CNN",
+              "url": "https://www.cnn.com/2026/05/21/europe/ukraine-claims-strikes-russia-drone-pilot-academy-intl"
+            },
+            {
+              "date": "2026-05-24",
+              "event": "Russia hits Kyiv with its largest attack on the capital of the war — Ukraine's Air Force says 600 drones and 90 missiles were launched, including a hypersonic Oreshnik that struck Bila Tserkva; defences downed/jammed 549 drones and 55 missiles. Kyiv officials report at least 2-4 killed and ~77-100 injured. (Russia did not dispute the strike.)",
+              "source": "Ukrainska Pravda / NPR",
+              "url": "https://www.pravda.com.ua/eng/news/2026/05/24/8036159/"
+            },
+            {
+              "date": "2026-05-29",
+              "event": "A Russian drone crashes into an apartment building in Galati, eastern Romania, wounding two — the 28th Russian drone incursion into the NATO member's airspace; Romania summons Moscow's ambassador and NATO/EU condemn the 'reckless incursion', raising spillover concerns. Separately, Zelensky warns Russia is preparing a new 'massive' strike. (Latest state of play.)",
+              "source": "Al Jazeera / CNN",
+              "url": "https://www.aljazeera.com/news/2026/5/29/nato-states-slam-russia-after-drone-crashes-in-romania"
+            }
+          ]
+        },
+        {
+          "name": "US/Israel-Iran (Strait of Hormuz)",
+          "status": "Tentative 60-day ceasefire framework reached by negotiators but unconfirmed; strait still effectively closed",
+          "timeline": [
+            {
+              "date": "2026-02-28",
+              "event": "US and Israel launch coordinated air war on Iran (Operation Epic Fury), striking military, nuclear and leadership sites; Iran retaliates with missiles and drones on Israel, US bases and Gulf states.",
+              "source": "Wikipedia (compiled from wire reports)",
+              "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis"
+            },
+            {
+              "date": "2026-03-04",
+              "event": "Iran declares the Strait of Hormuz 'closed', threatens to attack ships transiting it; IRGC boards merchant vessels and lays sea mines, choking the key oil chokepoint.",
+              "source": "Britannica",
+              "url": "https://www.britannica.com/event/2026-Iran-war"
+            },
+            {
+              "date": "2026-05-04",
+              "event": "The US launches Operation Project Freedom, a Navy mission to escort merchant ships out of the Gulf; Trump pauses it on May 6 citing 'great progress' toward a deal.",
+              "source": "NPR",
+              "url": "https://www.npr.org/2026/05/05/nx-s1-5810988/u-s-launches-operation-to-reopen-strait-of-hormuz"
+            },
+            {
+              "date": "2026-05-23",
+              "event": "Trump says a deal to reopen the Strait of Hormuz is 'largely negotiated' and will be announced soon.",
+              "source": "CNBC",
+              "url": "https://www.cnbc.com/2026/05/23/us-iran-war-talks.html"
+            },
+            {
+              "date": "2026-05-28",
+              "event": "US and Iranian negotiators reach a tentative 60-day MOU to extend the ceasefire, reopen and de-mine the Strait of Hormuz, lift the US port blockade and begin nuclear talks — but it awaits Trump's final approval and Iran has not formally confirmed; sticking points include Iran's enriched-uranium stockpile and frozen assets. The strait remains effectively closed in the meantime.",
+              "source": "PBS NewsHour / Axios",
+              "url": "https://www.pbs.org/newshour/world/u-s-and-iranian-negotiators-reach-tentative-deal-to-extend-ceasefire-and-start-new-nuclear-talks"
+            },
+            {
+              "date": "2026-05-29",
+              "event": "Iran publicly pushes back, with Tehran claiming 'no negotiations' are taking place on its nuclear programme, underscoring that the framework is not finalised. (Latest state of play.)",
+              "source": "The Times of Israel (liveblog)",
+              "url": "https://www.timesofisrael.com/liveblog-may-29-2026/"
+            }
+          ]
+        },
+        {
+          "name": "Israel-Lebanon / Gaza",
+          "status": "Both truces fraying; Israel crosses the Litani River into south Lebanon (May 29) and orders seizure of 70% of Gaza",
+          "timeline": [
+            {
+              "date": "2025-10",
+              "event": "An October 2025 ceasefire deal with Hamas takes effect in Gaza, with Israel permitted to temporarily hold roughly 53% of the territory.",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/5/28/israels-netanyahu-directs-army-to-seize-70-percent-of-gaza-strip"
+            },
+            {
+              "date": "2026-04-16",
+              "event": "Israel and Lebanon agree a US-brokered ceasefire (effective ~April 17), initially a 10-day truce to halt fighting and open negotiations.",
+              "source": "Wikipedia (compiled from wire reports)",
+              "url": "https://en.wikipedia.org/wiki/2026_Israel%E2%80%93Lebanon_ceasefire"
+            },
+            {
+              "date": "2026-05-15",
+              "event": "The Israel-Lebanon truce is extended for a further period, though violations continue.",
+              "source": "Council on Foreign Relations",
+              "url": "https://www.cfr.org/articles/israel-lebanon-ceasefire-extended-for-three-weeks"
+            },
+            {
+              "date": "2026-05-23",
+              "event": "Israeli air attacks across southern Lebanon and near the Syrian border kill at least 20 people, Lebanon's Health Ministry says, despite the ceasefire; Israel says it is targeting Hezbollah. (Lebanese toll; Israel cites militant targets.)",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/5/23/israel-attacks-southern-lebanon-and-near-syrian-border-despite-ceasefire"
+            },
+            {
+              "date": "2026-05-28",
+              "event": "Gaza: Netanyahu says he ordered the IDF to seize 70% of Gaza — beyond the truce terms — stating Israel already controls ~60%; the UN and UNICEF warn it would deepen the humanitarian crisis. In Lebanon, Israel strikes a southern suburb of Beirut (Choueifat) and southern towns; a drone hits a fleeing family's car in Adloun, killing six including children, Lebanon's Health Ministry says. (Lebanese-reported tolls.)",
+              "source": "Al Jazeera / Times of Israel",
+              "url": "https://www.aljazeera.com/news/2026/5/28/israels-netanyahu-directs-army-to-seize-70-percent-of-gaza-strip"
+            },
+            {
+              "date": "2026-05-29",
+              "event": "Netanyahu says Israeli forces crossed the Litani River and seized commanding terrain in southern Lebanon, expanding the offensive as he vowed to crush Hezbollah; Lebanese authorities report new deadly strikes. (Israeli claim; Lebanese-reported casualties. Latest state of play.)",
+              "source": "CBC News / Al Jazeera / Times of Israel",
+              "url": "https://www.cbc.ca/news/world/israel-lebanon-litani-river-9.7216696"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "Two outbreaks dominate this cycle. The MV Hondius Andes-hantavirus cluster has grown to 13 cases (11 confirmed, 2 probable) and 3 deaths as of 27 May per WHO, with genomic data supporting limited person-to-person spread aboard the ship; over 600 contacts are being monitored across 32 countries but no confirmed onward community transmission has been reported off-ship. Separately, WHO declared the DRC/Uganda Bundibugyo Ebola epidemic a PHEIC on 17 May, with confirmed and suspected counts climbing. Overall public risk outside affected settings remains assessed as low.",
+      "outbreaks": [
+        {
+          "name": "MV Hondius — Andes hantavirus",
+          "status": "Limited person-to-person spread aboard ship; off-ship risk low",
+          "cases": 13,
+          "deaths": 3,
+          "countries": 32,
+          "as_of": "2026-05-27",
+          "scope_note": "13 cases = 11 lab-confirmed Andes virus + 2 probable; 3 deaths = 2 confirmed + 1 probable (WHO Disease Outbreak News DON604, as of 27 May 2026, corroborated by ECDC). All cases are MV Hondius passengers/crew from a single vessel; the '32' is the number of countries/territories tracing 600+ contacts, NOT countries with cases."
+        },
+        {
+          "name": "DRC / Uganda — Bundibugyo Ebola (PHEIC)",
+          "status": "PHEIC declared 17 May; counts rising",
+          "cases": "~105",
+          "deaths": "10+",
+          "countries": 2,
+          "as_of": "2026-05-24",
+          "scope_note": "Figures diverge by source and are provisional/rising: WHO DON603 (as of 21 May) cited 85 lab-confirmed cases, 10 confirmed deaths and 746 suspected; WHO AFRO's situation report (data as of 24 May) cited ~105 lab-confirmed and >900 suspected, with ~220 suspected deaths. DRC + Uganda combined (2 confirmed in Uganda). 'Cases'/'Deaths' shown are lab-confirmed; suspected counts are higher."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "WHO: MV Hondius hantavirus cluster reaches 13 cases, 3 deaths",
+          "category": "Outbreak update",
+          "summary": "As of 27 May, WHO reports 13 cases (11 confirmed Andes virus, 2 probable) and 3 deaths among MV Hondius passengers and crew, with three new confirmed cases since the 13 May update (one each in Canada, the Netherlands and Spain).",
+          "source": "WHO Disease Outbreak News (DON604)",
+          "published_at": "2026-05-28",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON604"
+        },
+        {
+          "id": "ob2",
+          "headline": "Genomic data point to person-to-person spread aboard ship; 600+ contacts traced",
+          "category": "Investigation",
+          "summary": "WHO says near-identical viral sequences across cases support limited human-to-human Andes virus transmission onboard; as of 22 May, more than 600 contacts (53% high-risk) are under monitoring across 32 countries, territories and areas.",
+          "source": "WHO Disease Outbreak News (DON604)",
+          "published_at": "2026-05-28",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON604"
+        },
+        {
+          "id": "ob3",
+          "headline": "CDC: no US-linked Andes virus cases; risk to public extremely low",
+          "category": "National response",
+          "summary": "CDC reports no confirmed outbreak-associated Andes virus cases in the United States as of its mid-May testing guidance, and assesses the risk of broad US spread as extremely low; 18 repatriated passengers are being monitored at the Nebraska Quarantine Unit.",
+          "source": "US CDC (Health Alert Network HAN00529)",
+          "published_at": "2026-05-18",
+          "url": "https://www.cdc.gov/han/php/notices/han00529.html"
+        },
+        {
+          "id": "ob4",
+          "headline": "WHO declares DRC/Uganda Bundibugyo Ebola epidemic a PHEIC",
+          "category": "New outbreak",
+          "summary": "WHO declared the Bundibugyo virus Ebola epidemic in DRC and Uganda a public health emergency of international concern on 17 May. Case figures vary by source: WHO DON tallies (as of 21 May) cite 85 confirmed cases and 10 confirmed deaths with rising suspected counts, while WHO AFRO's situation report (data as of 24 May) cites ~105 confirmed and >900 suspected. Figures are provisional and rising.",
+          "source": "WHO (PHEIC determination) / WHO DON603",
+          "published_at": "2026-05-21",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON603"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "This cycle is dominated by AI-enabled threat activity and max-severity, actively-exploited flaws. North Korea's Kimsuky (HTTPSpy) and Russia-linked GREYVIBE show espionage groups leaning on AI and living-off-the-land tradecraft, while attackers used an LLM agent to fully automate post-exploitation of Marimo CVE-2026-39987. The most urgent patch priorities are LiteSpeed cPanel CVE-2026-48172 (CVSS 10.0, in CISA KEV) and the actively-exploited Microsoft Defender privilege-escalation zero-day CVE-2026-41091.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "Kimsuky deploys HTTPSpy RAT, adds HelloDoor and VS Code tunnels to arsenal",
+          "category": "Threat actor campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "North Korea's Kimsuky targeted South Korean military and corporate entities using spoofed security-software installers and fake Webex pages to drop the HTTPSpy RAT, and abused legitimate VS Code Remote Tunnels for covert, malware-light C2.",
+          "source": "The Hacker News",
+          "published_at": "2026-05-30",
+          "url": "https://thehackernews.com/2026/05/kimsuky-deploys-httpspy-expands-arsenal.html"
+        },
+        {
+          "id": "cs2",
+          "headline": "Attackers use LLM agent for automated post-exploitation after Marimo RCE",
+          "category": "Threat actor campaign",
+          "cve": "CVE-2026-39987",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "Following exploitation of a critical pre-auth RCE in an internet-exposed Marimo notebook, an attacker drove an LLM agent to harvest AWS Secrets Manager credentials and exfiltrate a full PostgreSQL database via an SSH bastion in under two minutes.",
+          "source": "The Hacker News",
+          "published_at": "2026-05-29",
+          "url": "https://thehackernews.com/2026/05/attackers-use-llm-agent-for-post.html"
+        },
+        {
+          "id": "cs3",
+          "headline": "Russian-linked GREYVIBE targets Ukraine with AI-powered cyberattacks",
+          "category": "Threat actor campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A newly documented Russian-speaking group, GREYVIBE, has run persistent intelligence-gathering attacks against Ukrainian military, government and civilian targets since at least August 2025 using spear-phishing, fake CAPTCHA pages and lure websites.",
+          "source": "The Hacker News",
+          "published_at": "2026-05-29",
+          "url": "https://thehackernews.com/2026/05/new-russian-linked-greyvibe-targets.html"
+        },
+        {
+          "id": "cs4",
+          "headline": "Malicious Sicoob NuGet package steals banking credentials; npm packages target cloud secrets",
+          "category": "Supply chain / malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A trojanized 'Sicoob.Sdk' NuGet package (v2.0.0-2.0.4) impersonating a Brazilian banking SDK exfiltrated PFX certificates and passwords to an attacker endpoint, downloaded nearly 500 times, alongside npm packages designed to steal cloud secrets.",
+          "source": "The Hacker News",
+          "published_at": "2026-05-29",
+          "url": "https://thehackernews.com/2026/05/malicious-sicoob-nuget-steals-banking.html"
+        },
+        {
+          "id": "cs5",
+          "headline": "LiteSpeed cPanel plugin flaw (CVSS 10.0) exploited to run scripts as root",
+          "category": "Zero-day / actively exploited",
+          "cve": "CVE-2026-48172",
+          "cvss": 10.0,
+          "severity": "CRITICAL",
+          "summary": "A maximum-severity incorrect-privilege-assignment flaw in the LiteSpeed user-end cPanel plugin (versions 2.3-2.4.4) lets any cPanel user run arbitrary scripts as root; it is actively exploited and CISA added it to KEV on May 26 with a May 29 fix deadline.",
+          "source": "The Hacker News",
+          "published_at": "2026-05-27",
+          "url": "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html"
+        },
+        {
+          "id": "cs6",
+          "headline": "Microsoft patches two actively exploited Defender zero-days",
+          "category": "Zero-day / actively exploited",
+          "cve": "CVE-2026-41091",
+          "cvss": 7.8,
+          "severity": "HIGH",
+          "summary": "Microsoft began rolling out fixes for two exploited Defender flaws: CVE-2026-41091 ('RedSun', CVSS 7.8), a link-following privilege escalation granting SYSTEM, and CVE-2026-45498 ('UnDefend', CVSS 4.0), a DoS blocking definition updates; both added to CISA KEV.",
+          "source": "BleepingComputer",
+          "published_at": "2026-05-27",
+          "url": "https://www.bleepingcomputer.com/news/security/microsoft-warns-of-new-defender-zero-days-exploited-in-attacks/"
+        }
+      ]
+    }
+  }
+}
