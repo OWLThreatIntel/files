@@ -1,0 +1,500 @@
+{
+  "meta": {
+    "date": "2026-06-22",
+    "generated_at": "2026-06-22T21:00:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "CNA",
+      "The Straits Times",
+      "BBC",
+      "Mothership",
+      "Gulf News",
+      "NEA",
+      "LTA / data.gov.sg",
+      "WHO",
+      "CISA",
+      "The Hacker News",
+      "BleepingComputer",
+      "Motorist.sg"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "Political upheaval and Middle East energy jitters lead a busy day. UK PM Keir Starmer abruptly resigned after two years, triggering a Labour leadership scramble. A first round of US-Iran talks in Switzerland ended with what mediators called 'encouraging progress', even as an explosion ripped through a Qatari gas terminal restarting after earlier Iranian strikes. A heatwave is roasting Europe, and former Fed chief Alan Greenspan died at 100.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "Keir Starmer resigns as UK prime minister after two years",
+          "category": "World Politics",
+          "summary": "Keir Starmer stepped down as British prime minister, ending a turbulent two-year tenure and setting off a Labour leadership contest in which Greater Manchester mayor Andy Burnham is seen as a frontrunner. It makes Britain set for its seventh prime minister in a decade.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-22T16:36+08:00",
+          "url": "https://www.channelnewsasia.com/world/uk-pm-keir-starmer-resigns-labour-andy-burnham-6200291"
+        },
+        {
+          "id": "ts2",
+          "headline": "First round of US-Iran talks ends with 'encouraging progress'",
+          "category": "Middle East",
+          "summary": "Mediators said the opening round of US-Iran negotiations in Switzerland concluded with encouraging progress toward a permanent end to the war, though tensions remain. The talks had run into a second day after Iranian negotiators briefly walked out following a Trump threat over the Strait of Hormuz.",
+          "source": "BBC, CNA",
+          "published_at": "2026-06-22T18:46+08:00",
+          "url": "https://www.bbc.com/news/articles/cwy0q41v1lzo"
+        },
+        {
+          "id": "ts3",
+          "headline": "Explosion at Qatar gas export terminal injures 54, leaves 18 missing",
+          "category": "Middle East / Energy",
+          "summary": "A blast and fire tore through Qatar's Ras Laffan gas export terminal as workers tried to restart operations damaged by earlier Iranian strikes, injuring at least 54 people and leaving 18 missing. Qatar's interior ministry attributed it to a technical accident; the disruption could ripple through global gas markets.",
+          "source": "CNA, Gulf News",
+          "published_at": "2026-06-22T12:53+08:00",
+          "url": "https://www.channelnewsasia.com/world/qatar-explosion-gas-export-terminal-6199241"
+        },
+        {
+          "id": "ts4",
+          "headline": "Alan Greenspan, longtime US Federal Reserve chairman, dies aged 100",
+          "category": "United States",
+          "summary": "Alan Greenspan, who chaired the US Federal Reserve for nearly two decades across four presidencies, has died at 100 after battling Parkinson's disease. Once dubbed 'the maestro' for steering the economy through booms and crises, his low-rate legacy was later scrutinised after the 2008 crash.",
+          "source": "BBC, CNA, The Straits Times",
+          "published_at": "2026-06-22T19:55+08:00",
+          "url": "https://www.bbc.com/news/articles/cjer7x7yl12o"
+        },
+        {
+          "id": "ts5",
+          "headline": "Trump-backed outsider wins razor-tight Colombia presidential election",
+          "category": "Americas",
+          "summary": "A Trump-backed political outsider won Colombia's presidential election by a razor-thin margin, according to the initial count, shifting the country rightward. Opposition protesters vowed 'resistance' to the incoming right-wing administration.",
+          "source": "CNA, BBC",
+          "published_at": "2026-06-22T12:14+08:00",
+          "url": "https://www.channelnewsasia.com/world/trump-backed-candidate-wins-razor-tight-colombia-presidential-election-6199071"
+        },
+        {
+          "id": "ts6",
+          "headline": "China sanctions 10 US firms over Pentagon blacklist",
+          "category": "US-China Relations",
+          "summary": "Beijing imposed sanctions on 10 US companies in retaliation for their addition to a Pentagon blacklist, the latest tit-for-tat in an escalating trade and tech standoff tied to export controls and rare earths.",
+          "source": "CNA",
+          "published_at": "2026-06-22T10:59+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/china-us-companies-export-controls-rare-earth-6199301"
+        },
+        {
+          "id": "ts7",
+          "headline": "Europe braces as heatwave intensifies; France schools close under red alerts",
+          "category": "Europe / Climate",
+          "summary": "A punishing heatwave is intensifying across Europe, with more than half of France under red heat alerts, schools closed and trains cancelled. Temperatures are forecast to exceed 40C in parts of the continent; at least three people have died in France.",
+          "source": "CNA, The Straits Times, BBC",
+          "published_at": "2026-06-22T11:20+08:00",
+          "url": "https://www.channelnewsasia.com/world/europe-heatwave-france-uk-spain-school-train-6199326"
+        },
+        {
+          "id": "ts8",
+          "headline": "Three killed in Philippine high school shooting",
+          "category": "Asia-Pacific",
+          "summary": "A shooting at a high school in the Philippines killed three people and injured several others, with authorities linking the attack to a bullying-related grudge.",
+          "source": "BBC, CNA",
+          "published_at": "2026-06-22T17:45+08:00",
+          "url": "https://www.bbc.com/news/articles/cjegy777xw5o"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "Thundery showers are forecast over Singapore with highs around 33C. On the watch-out list: police flag a fresh wave of LTA-impersonation phishing scams that have cost victims at least $74,000 in three weeks, and MOM is investigating two firms after more than 100 migrant workers sought help over unpaid wages. In lighter news, demand for the Teochew film 'Dear You' is spurring more dialect screenings, and ComfortDelGro's driverless shuttles began free rides in Punggol.",
+      "weather": {
+        "forecast": "Thundery Showers",
+        "temp_low": 24,
+        "temp_high": 33,
+        "humidity_low": 60,
+        "humidity_high": 95,
+        "as_of": "2026-06-22T17:39+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jun 2026 · 2nd bidding",
+        "as_of": "2026-06-17",
+        "next_results": "2026-07-08",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          {
+            "code": "A",
+            "label": "Cars up to 1600cc & 130bhp",
+            "premium": 123847,
+            "change": -2162
+          },
+          {
+            "code": "B",
+            "label": "Cars above 1600cc or 130bhp",
+            "premium": 123502,
+            "change": -3487
+          }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "LTA-impersonation phishing scams surge again; at least $74,000 lost in 3 weeks",
+          "category": "Scam Advisory",
+          "summary": "Police warned that scams impersonating the Land Transport Authority are on the rise again, with victims losing at least $74,000 over three weeks. The scams use fake messages about unpaid fines or fees to harvest banking details.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-22T20:53+08:00",
+          "url": "https://www.straitstimes.com/singapore/lta-impersonation-phishing-scams-on-the-rise-again-with-at-least-74000-lost-in-3-weeks"
+        },
+        {
+          "id": "sg2",
+          "headline": "MOM investigating two firms after 100+ migrant workers seek help over unpaid wages",
+          "category": "Labour",
+          "summary": "More than 100 migrant workers turned up at a Ministry of Manpower office over unpaid wages and housing problems, prompting MOM to investigate two companies. The ministry said it is helping affected workers.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-22T13:50+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/migrant-workers-mom-offices-help-unpaid-wages-housing-6200021"
+        },
+        {
+          "id": "sg3",
+          "headline": "Singapore High Court halts X Corp defamation suit, says case belongs in US",
+          "category": "Courts",
+          "summary": "The High Court halted a defamation suit filed by an X subsidiary over ads appearing next to Nazi content, ruling the case against Media Matters should be heard in the United States rather than Singapore.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-22T12:48+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/x-defamation-ads-nazi-content-media-matters-singapore-high-court-us-6199781"
+        },
+        {
+          "id": "sg4",
+          "headline": "Free rides on ComfortDelGro driverless shuttles begin in Punggol",
+          "category": "Transport",
+          "summary": "ComfortDelGro began offering free rides on its driverless shuttles in Punggol, an early step in Singapore's push to roll out autonomous public transport.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-22T14:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/transport/free-rides-on-comfortdelgro-driverless-shuttles-kick-off-in-punggol"
+        },
+        {
+          "id": "sg5",
+          "headline": "Jail for man who molested SIA stewardess and harassed her during flight",
+          "category": "Courts / Crime",
+          "summary": "A man was jailed for molesting a Singapore Airlines stewardess and harassing her during a flight while his friends laughed, the courts heard.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-22T18:00+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/man-jail-molest-singapore-airlines-stewardess-6200491"
+        },
+        {
+          "id": "sg6",
+          "headline": "Campaign to normalise asking for less salt and sauce to roll out in late 2026",
+          "category": "Health",
+          "summary": "A national campaign encouraging diners to request less salt and fewer sauces will roll out in the last quarter of 2026, part of efforts to cut sodium intake and curb diet-related disease.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-22T05:05+08:00",
+          "url": "https://www.straitstimes.com/singapore/health/campaign-to-normalise-request-for-less-salt-and-sauces-to-roll-out-in-last-quarter-of-2026"
+        },
+        {
+          "id": "sg7",
+          "headline": "More Teochew screenings of 'Dear You' planned as demand surges",
+          "category": "Trending / Culture",
+          "summary": "Authorities signalled a 'more flexible approach' to dialect films and openness to more Teochew screenings of the hit movie 'Dear You', after additional shows sold out within 1.5 hours. Golden Village is seeking approval for up to 50 Teochew screenings.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-22T18:12+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/dear-you-teochew-movie-screening-cinema-mandarin-6200506"
+        },
+        {
+          "id": "sg8",
+          "headline": "'Please don't do this': SFA responds to diner appearing to eat off hawker centre table",
+          "category": "Trending / Buzz",
+          "summary": "The Singapore Food Agency urged the public not to eat directly off hawker centre tables after a clip of a diner appearing to do so circulated online, citing hygiene concerns.",
+          "source": "The Straits Times, Mothership",
+          "published_at": "2026-06-22T18:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/cmon-please-dont-do-this-sfa-in-response-to-diner-appearing-to-eat-off-hawker-centre-table"
+        },
+        {
+          "id": "sg9",
+          "headline": "Jack Neo opens casting call for new 'Ah Boys to Firemen' film",
+          "category": "Trending / Entertainment",
+          "summary": "Director Jack Neo announced an open casting call for a new film, 'Ah Boys to Firemen', open to men and women of all races - reviving one of his best-known local franchises.",
+          "source": "CNA, Mothership",
+          "published_at": "2026-06-22T09:56+08:00",
+          "url": "https://www.channelnewsasia.com/entertainment/ah-boys-firemen-open-casting-call-6199161"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "Diplomacy and fighting run in parallel. The US and Iran wrapped a first round of talks in Switzerland that mediators called 'encouraging', though a blast at a Qatari gas terminal restarting after earlier Iranian strikes underscored how fragile the calm is. In Ukraine, strikes on Crimea are choking fuel supplies - forcing fuel-sale halts and suspended summer camps - while Russia masses troops near a key Donbas city. Israeli strikes in Gaza and Lebanon again killed civilians, including a journalist.",
+      "theatres": [
+        {
+          "name": "US / Israel-Iran (Strait of Hormuz & nuclear talks)",
+          "status": "First round of US-Iran talks in Switzerland ends with 'encouraging progress', mediators say, after Trump threats over Hormuz.",
+          "timeline": [
+            {
+              "date": "2026-06-22",
+              "event": "US and Iran conclude the first round of high-level talks in Switzerland; mediators report 'encouraging progress'.",
+              "source": "BBC",
+              "url": "https://www.bbc.com/news/articles/cwy0q41v1lzo"
+            },
+            {
+              "date": "2026-06-22",
+              "event": "Talks ran into a second day after Iranian negotiators briefly walked out of the venue following a Trump threat over the Strait of Hormuz.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/middle-east-war-iranians-walk-out-talks-venue-after-trump-threat-6198646"
+            }
+          ]
+        },
+        {
+          "name": "Russia-Ukraine War",
+          "status": "Ukraine strikes choke Crimea fuel supply; Russia masses troops near a key Donbas city; diplomacy over talks format active.",
+          "timeline": [
+            {
+              "date": "2026-06-22",
+              "event": "Kremlin accused Ukraine of threatening the sovereignty of close Russian ally Belarus.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/kremlin-accuses-ukraine-of-threatening-sovereignty-of-close-russian-ally-belarus"
+            },
+            {
+              "date": "2026-06-22",
+              "event": "Crimea suspended children's summer camps as Ukrainian strikes squeezed fuel supplies on the peninsula.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/crimea-suspends-childrens-summer-camps-as-ukraine-strikes-squeeze-fuel-supplies"
+            },
+            {
+              "date": "2026-06-22",
+              "event": "Zelensky said Ukraine will decide who represents Europe in talks with Russia.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/ukraine-to-decide-who-represents-europe-in-russia-talks-zelenskiy-says"
+            },
+            {
+              "date": "2026-06-22",
+              "event": "Moscow says it shot down nearly 60 Ukrainian drones overnight; Russian attacks killed five people in Ukraine, Kyiv authorities said.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/moscow-shoots-down-nearly-60-drones-airports-reopen-authorities-say"
+            },
+            {
+              "date": "2026-06-21",
+              "event": "Fuel sales halted in occupied Crimea as Ukraine targets Russian oil facilities, BBC reports.",
+              "source": "BBC",
+              "url": "https://www.bbc.com/news/articles/clyx2lk9d15o"
+            },
+            {
+              "date": "2026-06-21",
+              "event": "A Russian troop build-up threatens a city seen as key to seizing Ukraine's Donbas region, according to BBC reporting.",
+              "source": "BBC",
+              "url": "https://www.bbc.com/news/articles/c9w2g0ewk95o"
+            },
+            {
+              "date": "2026-06-20",
+              "event": "Zelensky and top Ukrainian officials return Poland's highest honour amid a World War II-era award row.",
+              "source": "BBC",
+              "url": "https://www.bbc.com/news/articles/c2lye7xje9yo"
+            }
+          ]
+        },
+        {
+          "name": "Israel-Gaza / Lebanon",
+          "status": "Israeli strikes continue in Gaza and Lebanon; local officials report civilian and journalist deaths.",
+          "timeline": [
+            {
+              "date": "2026-06-22",
+              "event": "Syria's president denied wanting to intervene in Lebanon after remarks by Trump.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/syria-president-denies-wanting-to-intervene-in-lebanon-after-trump-remarks"
+            },
+            {
+              "date": "2026-06-21",
+              "event": "Israeli strikes killed six people in Gaza, including an Al Jazeera cameraman, local officials said.",
+              "source": "BBC",
+              "url": "https://www.bbc.com/news/articles/c4gy26p6pwzo"
+            },
+            {
+              "date": "2026-06-21",
+              "event": "Lebanese turtle conservationist Mona Khalil was killed in an Israeli strike, BBC reports.",
+              "source": "BBC",
+              "url": "https://www.bbc.com/news/articles/cwylx1vq18zo"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "The Bundibugyo Ebola epidemic in the Democratic Republic of the Congo and Uganda is the dominant active outbreak and is escalating fast - WHO confirmed 915 cases and 234 deaths as of mid-June, and The Straits Times reported on 22 June that confirmed cases have since topped 1,000 in Congo, with frontline health workers being infected. The cruise-ship-linked Andes hantavirus cluster has gone quiet, with no new WHO outbreak notice since late May. Overall risk remains high in the affected African region and low elsewhere.",
+      "outbreaks": [
+        {
+          "name": "Ebola (Bundibugyo virus) - DR Congo & Uganda",
+          "status": "Rising rapidly in DR Congo; infecting frontline health workers",
+          "cases": 915,
+          "deaths": 234,
+          "countries": 2,
+          "as_of": "2026-06-19",
+          "scope_note": "WHO-confirmed Bundibugyo virus disease, DR Congo + Uganda combined (DRC ~896 cases / 232 deaths; Uganda 19 cases / 2 deaths), per WHO Disease Outbreak News 608 (data as of 17-18 Jun). At least 88 patients have recovered. The Straits Times reported on 22 Jun that confirmed cases have since topped 1,000 in Congo - a more recent figure not yet ratified in a WHO DON."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "Ebola cases top 1,000 in Congo as virus infects frontline health workers",
+          "category": "Ebola / DR Congo",
+          "summary": "The Straits Times reported that confirmed Bundibugyo Ebola cases have surpassed 1,000 in the Democratic Republic of the Congo, with the virus now infecting frontline health workers - a sharp escalation from the WHO's mid-June tally of 915 confirmed cases.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-22T13:40+08:00",
+          "url": "https://www.straitstimes.com/world/ebola-cases-top-1000-in-congo-as-virus-infects-frontline-health-workers"
+        },
+        {
+          "id": "ob2",
+          "headline": "WHO: 915 confirmed Bundibugyo Ebola cases, 234 deaths across DRC and Uganda",
+          "category": "Ebola / WHO DON",
+          "summary": "In Disease Outbreak News 608, WHO reported 915 confirmed cases (896 in DR Congo, 19 in Uganda) and 234 deaths as of 17-18 June, warning that cases and deaths rose rapidly in DR Congo, partly due to expanded testing. At least 88 people have recovered.",
+          "source": "WHO",
+          "published_at": "2026-06-19",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON608"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "Botnets and AI-targeting attacks dominate this cycle. A new 'AryStinger' botnet has hijacked thousands of legacy D-Link and other routers into a reconnaissance proxy network, while CISA is urging Fortinet customers to act after the 'FortiBleed' leak exposed tens of thousands of FortiGate devices. Researchers also disclosed 'AutoJack', where a single web page can hijack an AI agent into running host code, and Microsoft tied a poisoned npm supply-chain attack to North Korean hackers. On the breach front, a Texas government leak exposed over 3 million driver's licences.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "AryStinger botnet infects thousands of legacy routers to build proxy network",
+          "category": "Botnet / Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A newly documented botnet dubbed AryStinger has infected thousands of end-of-life D-Link and other legacy routers worldwide, conscripting them into a reconnaissance proxy network. Owners of unsupported routers are urged to replace or isolate them.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-22T14:57+08:00",
+          "url": "https://thehackernews.com/2026/06/arystinger-malware-infects-4300-legacy.html"
+        },
+        {
+          "id": "cs2",
+          "headline": "Canada's spy agency used first-of-its-kind warrant to clean botnet-infected devices",
+          "category": "Law Enforcement",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Canada's CSE obtained a first-of-its-kind warrant to remotely remediate botnet-infected devices, a notable expansion of state-led active defence that raises both security and civil-liberties questions.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-22T17:11+08:00",
+          "url": "https://thehackernews.com/2026/06/canadas-spy-agency-used-first-of-its.html"
+        },
+        {
+          "id": "cs3",
+          "headline": "Prinz Eugen ransomware prioritises recently modified files for encryption",
+          "category": "Ransomware",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A new ransomware strain called Prinz Eugen speeds up attacks by encrypting recently modified files first, maximising damage before defenders can respond. Researchers detail its targeting logic and extortion approach.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-20T23:23+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/new-prinz-eugen-ransomware-prioritizes-recent-files-for-encryption/"
+        },
+        {
+          "id": "cs4",
+          "headline": "Microsoft links Mastra AI npm supply-chain attack to North Korean hackers",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Microsoft attributed the compromise of 145 npm packages tied to the Mastra AI project - pushed via a hijacked contributor account - to North Korean state-aligned hackers, the latest DPRK move against the software supply chain and AI developers.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-06-20T22:09+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/microsoft-links-mastra-ai-supply-chain-attack-to-north-korean-hackers/"
+        },
+        {
+          "id": "cs5",
+          "headline": "Klue OAuth breach victim list grows as 'Icarus' hackers claim the attack",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "The fallout from an OAuth token abuse incident involving the Klue app widened as more victim organisations emerged and a group calling itself Icarus claimed responsibility. Salesforce had earlier disabled the Klue integration after the token abuse exposed customer data.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-20T06:31+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/klue-oauth-breach-victim-list-grows-as-icarus-hackers-claim-attack/"
+        },
+        {
+          "id": "cs6",
+          "headline": "Hackers exploit info-disclosure bug in Gravity SMTP WordPress plugin",
+          "category": "Vulnerability / Exploited",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Attackers are actively exploiting an information-disclosure flaw in the Gravity SMTP WordPress plugin that can expose API keys, putting affected sites at risk of further compromise. Admins are urged to update immediately.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-20T17:56+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-info-disclosure-bug-in-gravity-smtp-wordpress-plugin/"
+        },
+        {
+          "id": "cs7",
+          "headline": "'usbliter8' exploit breaks Apple A12/A13 SecureROM boot chain - and is unpatchable",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers disclosed 'usbliter8', a bootrom-level exploit affecting Apple A12 and A13 devices that cannot be fixed in software. It requires physical access, limiting mass exploitation, but enables persistent compromise of affected hardware.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-20T02:37+08:00",
+          "url": "https://thehackernews.com/2026/06/unpatchable-usbliter8-exploit-breaks.html"
+        },
+        {
+          "id": "cs8",
+          "headline": "The Gentlemen RaaS deploys 'GentleKiller' framework targeting 400 security processes",
+          "category": "Ransomware / EDR Evasion",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "The Gentlemen ransomware-as-a-service operation is using a 'GentleKiller' framework that tries to disable some 400 security processes to blind EDR and antivirus before encryption - part of a growing trend of EDR-killer tooling.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-20T02:33+08:00",
+          "url": "https://thehackernews.com/2026/06/the-gentlemen-raas-uses-gentlekiller.html"
+        },
+        {
+          "id": "cs9",
+          "headline": "Texas government data breach exposes over 3 million driver's licences",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A breach of a Texas government system exposed more than 3 million driver's licences, raising identity-theft risk for affected residents. The scale makes it one of the larger US government data exposures this year.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-20T00:12+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/texas-govt-data-breach-exposes-over-3-million-drivers-licenses/"
+        },
+        {
+          "id": "cs10",
+          "headline": "'AutoJack' attack lets one web page hijack an AI agent into host code execution",
+          "category": "AI Security / Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers detailed 'AutoJack', in which a single malicious web page can hijack a browsing AI agent and chain it into executing code on the host machine - a stark example of the new attack surface created by autonomous AI agents.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-20T01:30+08:00",
+          "url": "https://thehackernews.com/2026/06/autojack-attack-lets-one-web-page.html"
+        },
+        {
+          "id": "cs11",
+          "headline": "Operation Endgame disrupts SocGholish servers, cleans nearly 15,000 WordPress sites",
+          "category": "Law Enforcement / Takedown",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "An international law-enforcement action, Operation Endgame, disrupted SocGholish (FakeUpdates) infrastructure and remediated 14,971 compromised WordPress sites used to push malware to visitors.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-20T01:07+08:00",
+          "url": "https://thehackernews.com/2026/06/operation-endgame-disrupts-socgholish.html"
+        },
+        {
+          "id": "cs12",
+          "headline": "CISA warns Fortinet customers as 'FortiBleed' exposes 86,644 FortiGate devices",
+          "category": "Vulnerability / Exploited",
+          "cve": null,
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "CISA urged Fortinet customers to secure their devices after the 'FortiBleed' leak left an estimated 86,644 internet-facing FortiGate devices exposed. Administrators are advised to rotate credentials and apply mitigations urgently.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-19T22:00+08:00",
+          "url": "https://thehackernews.com/2026/06/cisa-warns-fortinet-customers-as.html"
+        }
+      ]
+    }
+  }
+}

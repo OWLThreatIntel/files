@@ -1,0 +1,768 @@
+{
+  "meta": {
+    "date": "2026-07-28",
+    "generated_at": "2026-07-28T21:30:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "BBC News",
+      "Channel NewsAsia",
+      "The Straits Times",
+      "Mothership",
+      "CBS News",
+      "NEA / data.gov.sg",
+      "LTA / data.gov.sg",
+      "Motorist.sg",
+      "Samaritans of Singapore",
+      "Monetary Authority of Singapore",
+      "Council for Estate Agencies",
+      "Ministry of National Development",
+      "WHO Disease Outbreak News",
+      "ECDC",
+      "US CDC (via ABC News)",
+      "UN News",
+      "University of Oxford",
+      "The Hacker News",
+      "BleepingComputer",
+      "CISA (KEV catalog)",
+      "NVD",
+      "JetBrains",
+      "SSD Secure Disclosure",
+      "QiAnXin XLab",
+      "STAR Labs"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "A magnitude 7.1 earthquake in Japan's Kumamoto prefecture collapsed part of a shopping mall and dominated the day, with rescuers still working and no official death toll. Washington is the other centre of gravity: Zelensky and Netanyahu both flew in to see Trump, while Oman floated a Gulf-backed plan to defuse the Hormuz standoff and oil kept sliding. Southern Europe is fighting wildfires ahead of another heatwave.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "Magnitude 7.1 earthquake hits Japan's Kyushu; mall floor collapses with people trapped",
+          "category": "Disaster",
+          "summary": "A magnitude 7.1 quake struck Kumamoto prefecture on Kyushu at about 4.27pm local time, registering the top level of 7 on Japan's shindo intensity scale (the US Geological Survey measured it at 6.8). The second floor of an Aeon shopping mall in the town of Kashima collapsed after what police described as reports resembling an explosion, leaving many people trapped; local broadcasters cited a police source saying there were \"a lot of deaths\" and CNA reported a \"considerable number\" killed, but no official toll had been confirmed. CBS News reported at least 50 people hospitalised and around 45,000 households without power, with JR Kyushu suspending services including Shinkansen trains. A tsunami advisory for waves of up to about 1m was issued and withdrawn within a couple of hours; three operating nuclear reactors were reported functioning normally.",
+          "source": "BBC, Channel NewsAsia, CBS News",
+          "published_at": "2026-07-28T18:44+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cgewg24qgnjo"
+        },
+        {
+          "id": "ts2",
+          "headline": "Zelensky in Washington to press Trump on air defences and fresh support",
+          "category": "Russia-Ukraine",
+          "summary": "Ukrainian President Volodymyr Zelensky arrived in the United States seeking renewed backing from President Donald Trump, with air-defence supplies at the top of his list after months of Russian missile and drone strikes. He was also due to meet US senators as a vote on further Russia sanctions was expected. Separately, a source told The Straits Times the Pentagon does not expect to finish spending money already allocated to Ukraine until the year Trump leaves office.",
+          "source": "BBC, Channel NewsAsia, The Straits Times",
+          "published_at": "2026-07-28T18:41+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c9v4g7e047zo"
+        },
+        {
+          "id": "ts3",
+          "headline": "Netanyahu heads to Washington for first Trump meeting since the Iran war began",
+          "category": "Middle East",
+          "summary": "Israeli Prime Minister Benjamin Netanyahu departed for the United States for his first face-to-face meeting with President Trump since the war with Iran started in February. On the agenda: the pause in US strikes on Iran, the proposed international stabilisation force for Gaza, and Israel's coming election. Netanyahu and Zelensky are both in Washington this week, and The Straits Times reported both will attend the funeral of US Senator Lindsey Graham.",
+          "source": "Channel NewsAsia, The Straits Times, BBC",
+          "published_at": "2026-07-28T10:59+08:00",
+          "url": "https://www.straitstimes.com/world/middle-east/netanyahu-heads-to-us-for-first-trump-meeting-since-iran-war"
+        },
+        {
+          "id": "ts4",
+          "headline": "Oman puts a Gulf-backed Hormuz plan to Iran as oil slides on the strike pause",
+          "category": "Middle East",
+          "summary": "Oman has presented Iran with a regional mechanism, backed by Gulf states, under which shipping would pay voluntary fees to transit the Strait of Hormuz — an attempt to give Tehran something short of the control it has claimed while keeping the waterway open, according to sources cited by The Straits Times. Iran's foreign minister discussed the strait in calls with Oman and Saudi Arabia. Oil fell sharply during the pause in US strikes, with Brent back below $90 a barrel after topping $100 last week. Iran has publicly said it still controls the strait and is not seeking talks; Washington says talks are under way, and neither account has been independently verified.",
+          "source": "The Straits Times, Channel NewsAsia",
+          "published_at": "2026-07-28T19:31+08:00",
+          "url": "https://www.straitstimes.com/world/middle-east/gulf-states-back-plan-to-let-iran-collect-voluntary-fees-to-use-hormuz"
+        },
+        {
+          "id": "ts5",
+          "headline": "France and Spain race to contain wildfires before a fourth heatwave",
+          "category": "Climate",
+          "summary": "Firefighters in south-west France and across Spain worked to get major blazes under control before another heatwave arrives, with farmers joining the effort near Bordeaux. France is bracing for its fourth major heatwave of the summer. One fire-hit French village accused authorities of sacrificing it to protect a wealthy peninsula nearby — an accusation local officials dispute.",
+          "source": "BBC, The Straits Times, Channel NewsAsia",
+          "published_at": "2026-07-28T20:03+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c235m71mrreo"
+        },
+        {
+          "id": "ts6",
+          "headline": "Johnson & Johnson announces talc settlement to end a decade of litigation",
+          "category": "Business",
+          "summary": "Johnson & Johnson said it would settle the long-running lawsuits alleging its talc-based baby powder caused cancer. BBC and CNA, citing the company's announcement, put the figure at up to US$5.5 billion; The Straits Times headlined the deal at about US$7 billion. The two figures have not been reconciled in the coverage available, so treat the headline number as approximate. J&J has consistently denied its products cause cancer.",
+          "source": "BBC, Channel NewsAsia, The Straits Times",
+          "published_at": "2026-07-28T09:53+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/clyqnz52rp6o"
+        },
+        {
+          "id": "ts7",
+          "headline": "FAA says seats on hundreds of Boeing 737 MAX jets were installed incorrectly",
+          "category": "Aviation",
+          "summary": "The US Federal Aviation Administration said passenger seats on hundreds of Boeing 737 MAX aircraft were fitted incorrectly and may need inspections. No injuries linked to the issue have been reported. It is the latest quality-control problem to surface around the MAX programme.",
+          "source": "The Straits Times, Channel NewsAsia",
+          "published_at": "2026-07-28T09:09+08:00",
+          "url": "https://www.straitstimes.com/world/united-states/us-aviation-authority-says-seats-on-hundreds-of-boeing-737-max-jets-were-incorrectly-installed"
+        },
+        {
+          "id": "ts8",
+          "headline": "Seoul and Tokyo lead Asian sell-off as tech stocks slump again",
+          "category": "Markets",
+          "summary": "Asian markets fell sharply, with South Korea's Kospi and Japan's Nikkei leading the decline as chip and tech stocks suffered a fresh rout. The drop came as investors reassessed AI-related valuations. Separately, CNA reported that Chinese memory-chip maker CXMT has become China's most valuable listed company.",
+          "source": "Channel NewsAsia",
+          "published_at": "2026-07-28T11:51+08:00",
+          "url": "https://www.channelnewsasia.com/asia/asia-markets-kospi-nikkei-tech-stocks-6282211"
+        },
+        {
+          "id": "ts9",
+          "headline": "US delegation walks out of UN Security Council meeting during France's remarks",
+          "category": "Diplomacy",
+          "summary": "The United States walked out of a UN Security Council session while France's representative was speaking, in a public display of the rift between the two allies. Washington and Paris have also been trading barbs over a second term for the UN human rights chief.",
+          "source": "BBC, The Straits Times",
+          "published_at": "2026-07-28T17:32+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c87nj3w9gxjo"
+        },
+        {
+          "id": "ts10",
+          "headline": "Johor police arrest 335 scam suspects in Forest City crackdown",
+          "category": "Southeast Asia",
+          "summary": "Malaysian police detained 335 people in a raid on suspected scam call centres operating out of the Forest City development in Johor, just across the strait from Singapore. The operation is part of a wider regional push against industrial-scale online fraud syndicates.",
+          "source": "Channel NewsAsia",
+          "published_at": "2026-07-28T18:50+08:00",
+          "url": "https://www.channelnewsasia.com/asia/malaysia-forest-city-johor-scam-syndicates-call-centres-6282901"
+        },
+        {
+          "id": "ts11",
+          "headline": "Fujimori takes power in Peru, extending Latin America's rightward tilt",
+          "category": "World Politics",
+          "summary": "Peru's Fujimori was sworn in as president, continuing a swing to the right across Latin America, The Straits Times reported. The change of government comes after years of political instability in Lima.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-28T18:11+08:00",
+          "url": "https://www.straitstimes.com/world/perus-fujimori-takes-power-extending-latin-americas-rightward-tilt"
+        },
+        {
+          "id": "ts12",
+          "headline": "Iran executes two men over charges linked to January protests",
+          "category": "Middle East",
+          "summary": "Iran publicly hanged two men convicted on charges connected to anti-government protests in January, according to reports carried by The Straits Times. Iranian authorities say the men were convicted through due process; rights groups have long criticised the speed and fairness of such trials. The executions come as Tehran manages both the pause in US strikes and domestic unrest.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-28T17:15+08:00",
+          "url": "https://www.straitstimes.com/world/middle-east/iran-executes-two-men-over-charges-related-to-january-protests"
+        },
+        {
+          "id": "ts13",
+          "headline": "Third suspect identified in fatal Seattle food festival shooting",
+          "category": "US News",
+          "summary": "Police said the number of suspects in the deadly shooting at a Seattle food festival has risen to three. The city held tributes for the victims, one of whom was remembered as \"a lover of life\". The investigation is ongoing and no motive has been confirmed.",
+          "source": "BBC",
+          "published_at": "2026-07-28T07:36+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c78gjyx4q2yo"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "Property led the day: the 15-month wait-out period for private home owners buying HDB resale flats is gone, and en-bloc developers get more time under revised ABSD rules. A fire at a Circuit Road HDB flat killed a 70-year-old man and forced about 80 people out. New figures show 441 suicides in 2024, with deaths among people in their 30s up sharply. Thundery showers tonight and tomorrow.",
+      "weather": {
+        "forecast": "Thundery Showers",
+        "temp_low": 26,
+        "temp_high": 34,
+        "humidity_low": 60,
+        "humidity_high": 95,
+        "as_of": "2026-07-28T18:08+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jul 2026 · 2nd bidding",
+        "as_of": "2026-07-22",
+        "next_results": "2026-08-05",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          {
+            "code": "A",
+            "label": "Cars up to 1600cc & 130bhp",
+            "premium": 126000,
+            "change": -3000
+          },
+          {
+            "code": "B",
+            "label": "Cars above 1600cc or 130bhp",
+            "premium": 129890,
+            "change": -999
+          }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "15-month wait-out period for private home owners buying HDB resale flats scrapped",
+          "category": "Housing",
+          "summary": "National Development Minister Chee Hong Tat announced the removal of the 15-month wait-out period that required private property owners to wait after selling before buying an HDB resale flat. The rule was introduced in September 2022 as a cooling measure. Analysts told CNA the change is unlikely to push resale prices up much, given the measure had already been waived for seniors and supply has since increased.",
+          "source": "Channel NewsAsia, The Straits Times",
+          "published_at": "2026-07-28T09:56+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/15-month-wait-out-period-removed-hdb-private-chee-hong-tat-6281891"
+        },
+        {
+          "id": "sg2",
+          "headline": "En-bloc developers get more time to sell units under revised ABSD rules",
+          "category": "Housing",
+          "summary": "The government extended the timelines under which housing developers of large collective-sale (en bloc) projects must complete and sell their units before the additional buyer's stamp duty clawback applies. The move is aimed at making large redevelopment sites viable again after several years of a slow collective-sale market.",
+          "source": "Channel NewsAsia, The Straits Times, Mothership",
+          "published_at": "2026-07-28T10:14+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/en-bloc-housing-development-absd-additional-buyer-stamp-duty-6281986"
+        },
+        {
+          "id": "sg3",
+          "headline": "Man, 70, dies in Circuit Road HDB flat fire; about 80 residents evacuated",
+          "category": "Local",
+          "summary": "A fire broke out in a flat at Block 39 Circuit Road in MacPherson on the morning of 28 July. A 70-year-old man was pronounced dead and about 80 residents were evacuated by the Singapore Civil Defence Force. The cause of the fire is under investigation.",
+          "source": "Channel NewsAsia, The Straits Times",
+          "published_at": "2026-07-28T09:24+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/hdb-flat-fire-circuit-road-block-39-macpherson-6281951"
+        },
+        {
+          "id": "sg4",
+          "headline": "Singapore PR to be charged with terrorism financing over money sent for Gaza attacks",
+          "category": "Security",
+          "summary": "A Singapore permanent resident is to be charged with terrorism financing for transferring money — S$93, according to The Straits Times — to facilitate terrorist acts overseas in Gaza. The Straits Times separately reported that 23 young people have been issued restriction or detention orders under the Internal Security Act in the past 10 years.",
+          "source": "Channel NewsAsia, The Straits Times",
+          "published_at": "2026-07-28T15:06+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/man-charged-terrorism-financing-gaza-6282546"
+        },
+        {
+          "id": "sg5",
+          "headline": "441 suicides reported in Singapore in 2024; deaths among those in their 30s up 50%",
+          "category": "Health",
+          "summary": "Figures released by the Samaritans of Singapore show 441 suicides were reported in 2024. Deaths among adults aged 30 to 39 rose 50 per cent year on year, and suicide remained the leading cause of death for those aged 10 to 29. The median age of those who died is the highest since 2017. Support is available from SOS on 1767 or via its 24-hour CareText on WhatsApp.",
+          "source": "Channel NewsAsia, The Straits Times, Mothership",
+          "published_at": "2026-07-28T09:05+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/suicide-deaths-2024-samaritans-sos-mental-health-6280316"
+        },
+        {
+          "id": "sg6",
+          "headline": "SIA swings to a first-quarter loss despite record revenue",
+          "category": "Business",
+          "summary": "Singapore Airlines reported a net loss for its first quarter even as revenue hit a record, blaming higher fuel costs and losses at Air India, in which it holds a stake. Air India's owner Tata Sons said separately that turning the carrier around could take up to a decade.",
+          "source": "Channel NewsAsia",
+          "published_at": "2026-07-28T17:55+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/sia-q1-net-loss-air-india-fuel-costs-6282861"
+        },
+        {
+          "id": "sg7",
+          "headline": "MAS flags AI and quantum computing risks to banks, sets up task force",
+          "category": "Finance",
+          "summary": "The Monetary Authority of Singapore warned that artificial intelligence and quantum computing pose major risks to financial institutions — from AI-powered scams to the eventual threat quantum machines pose to today's encryption — and is forming a task force to prepare defences. MAS separately reported a net profit of S$20 billion, driven by investment gains.",
+          "source": "Channel NewsAsia",
+          "published_at": "2026-07-28T17:30+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/ai-quantum-scams-financial-mas-task-force-6282126"
+        },
+        {
+          "id": "sg8",
+          "headline": "Six to be charged with rioting after Yishun fight left man unconscious",
+          "category": "Crime",
+          "summary": "Six people will be charged with rioting over a fight in Yishun that left a man unconscious, police said. Police have not released further details of the incident.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-28T20:07+08:00",
+          "url": "https://www.straitstimes.com/singapore/6-to-be-charged-with-rioting-after-yishun-fight-that-left-man-unconscious"
+        },
+        {
+          "id": "sg9",
+          "headline": "Property agents will need a minimum number of deals to renew their licence from 2027",
+          "category": "Policy",
+          "summary": "The Council for Estate Agencies said that from 1 January 2027, property agents will need to complete a minimum number of transactions — three in three years — to extend their licence validity period, or sit a refresher exam. The change is part of a wider review of standards in the industry.",
+          "source": "Channel NewsAsia, The Straits Times, Mothership",
+          "published_at": "2026-07-28T13:22+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/property-agents-minimum-transactions-licence-renewal-cea-6279891"
+        },
+        {
+          "id": "sg10",
+          "headline": "SM Lee: each generation must write its own laws as new challenges emerge",
+          "category": "Politics",
+          "summary": "Senior Minister Lee Hsien Loong said Singapore's rule of law is a \"continuing endeavour\" and that each generation must design and pass laws suited to its own circumstances, while cautioning that the Constitution should not be changed on a whim. Speaking at the same event, Minister for Home Affairs and Law K. Shanmugam said the government has proactively reformed laws to address real-world problems.",
+          "source": "Channel NewsAsia, The Straits Times, Mothership",
+          "published_at": "2026-07-28T12:49+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/rule-law-future-generations-challenges-sm-lee-6282161"
+        },
+        {
+          "id": "sg11",
+          "headline": "Michelin Bib Gourmand 2026: 97 Singapore eateries make the list, 10 of them new",
+          "category": "Food",
+          "summary": "The Michelin Guide released its 2026 Bib Gourmand selection for Singapore, naming 97 eateries offering good food at moderate prices, including 10 new entries. The list is the traditional curtain-raiser to the full Michelin star announcement.",
+          "source": "Channel NewsAsia, Mothership",
+          "published_at": "2026-07-28T12:48+08:00",
+          "url": "https://www.channelnewsasia.com/dining/michelin-bib-gourmand-2026-singapore-6282151"
+        },
+        {
+          "id": "sg12",
+          "headline": "KFC Singapore teams up with Pokemon for limited-run merchandise and menu",
+          "category": "Trending",
+          "summary": "KFC Singapore is launching a Pokemon collaboration with exclusive merchandise and a Japanese-inspired menu for a limited period. Local fast-food tie-ups of this kind reliably draw queues, and this one has been circulating widely on social media since the announcement.",
+          "source": "The Straits Times, Channel NewsAsia",
+          "published_at": "2026-07-28T18:58+08:00",
+          "url": "https://www.straitstimes.com/singapore/pokemon-and-kfc-team-up-for-exclusive-merchandise-and-events-in-singapore"
+        },
+        {
+          "id": "sg13",
+          "headline": "Restaurant hit with one-star reviews over allegedly cooking marine life foraged from Changi",
+          "category": "Trending",
+          "summary": "A Singapore restaurant has been flooded with one-star reviews after allegations it cooked marine life foraged from the Changi shoreline, Mothership reported, with the Pasir Ris-Changi MP calling the incident \"deplorable\". The allegations have not been tested by any authority and the restaurant's own account has not been reported. Collecting marine life from Singapore's shores is restricted under NParks rules.",
+          "source": "Mothership",
+          "published_at": "2026-07-28T12:05+08:00",
+          "url": "https://mothership.sg/2026/07/restaurant-one-star-changi-foraged-marine-life/"
+        },
+        {
+          "id": "sg14",
+          "headline": "Meteor shower to be visible over Singapore on 29 and 30 July",
+          "category": "Trending",
+          "summary": "Shooting stars are expected to streak across Singapore's sky on the nights of 29 and 30 July, The Straits Times reported. Viewing depends on cloud cover — NEA's current 24-hour outlook is for thundery showers — and dark, open spots away from city lights offer the best chance.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-28T10:55+08:00",
+          "url": "https://www.straitstimes.com/singapore/shooting-stars-set-to-streak-across-singapore-sky-on-july-29-30"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "The Iran front is in its longest lull yet — a fifth day without US strikes, oil back below $90, and Oman shopping a Gulf-backed deal letting Iran collect voluntary Hormuz transit fees. Tehran still says it is not negotiating. Russia and Ukraine trade daily strikes, with Zelensky in Washington asking for air defences. In Gaza, Israel has approved a legal framework for an international stabilisation force.",
+      "theatres": [
+        {
+          "name": "US / Israel–Iran (Strait of Hormuz)",
+          "status": "Longest pause in the air campaign so far, now into a fifth day. Oman has presented Iran with a Gulf-backed mechanism for voluntary transit fees through the Strait of Hormuz, oil has slumped back below $90, and Netanyahu is in Washington — but Tehran publicly insists it controls the strait and is not seeking talks, and Iran-aligned attacks continue in the Red Sea and from Iraqi territory.",
+          "timeline": [
+            {
+              "date": "2026-07-23",
+              "event": "Trump threatened to target Iran's bridges and power plants if attacks on shipping through the Strait of Hormuz persisted; oil hit $100 a barrel for the first time since May.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/world"
+            },
+            {
+              "date": "2026-07-24",
+              "event": "US strikes on Iran continued and Yemen's Houthis attacked a Saudi tanker, with officials signalling no clear path to de-escalation.",
+              "source": "BBC, Channel NewsAsia",
+              "url": "https://www.bbc.co.uk/news/world"
+            },
+            {
+              "date": "2026-07-26",
+              "event": "The US paused its run of nightly strikes on Iran for a second night; the US ambassador to the UN said Washington was giving talks \"a little bit of room\". A senior Iranian source denied any negotiations were under way.",
+              "source": "The Straits Times, Channel NewsAsia",
+              "url": "https://www.straitstimes.com/world/middle-east"
+            },
+            {
+              "date": "2026-07-27",
+              "event": "Brent crude sank more than 9% to $87.59 a barrel at one point, after topping $100 last week, as traders judged the pause reduced near-term risk to the Strait of Hormuz.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/business"
+            },
+            {
+              "date": "2026-07-27",
+              "event": "Iran said it still controls the Strait of Hormuz and is not seeking talks, after Trump halted the bombing.",
+              "source": "Channel NewsAsia, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/iran-still-control-strait-hormuz-trump-halts-bombing-6280411"
+            },
+            {
+              "date": "2026-07-28",
+              "event": "Trump said talks with Iran are taking place during the lull and there is a \"good chance\" of progress, while warning strikes could resume.",
+              "source": "BBC, Channel NewsAsia",
+              "url": "https://www.channelnewsasia.com/world/trump-iran-deal-us-halt-strikes-resume-6281561"
+            },
+            {
+              "date": "2026-07-28",
+              "event": "Oil prices slumped further as the US and Iran held their fire, extending losses from last week's $100-plus peak.",
+              "source": "Channel NewsAsia",
+              "url": "https://www.channelnewsasia.com/world/oil-prices-us-stocks-market-wall-street-6281696"
+            },
+            {
+              "date": "2026-07-28",
+              "event": "Iraq said it had opened an investigation into Saudi Arabia's claim that drones launched from Iraqi territory targeted the kingdom.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/iraq-says-opens-probe-into-saudi-drone-attack-claim"
+            },
+            {
+              "date": "2026-07-28",
+              "event": "Yemen's foreign minister said the Houthis are trying to replicate Iran's Strait of Hormuz leverage in the Red Sea; his internationally recognised government said it is \"prepared for any escalations\". Shipping through the Bab el-Mandeb strait rose on hopes of a resolution.",
+              "source": "The Straits Times, Channel NewsAsia",
+              "url": "https://www.straitstimes.com/world/middle-east/houthis-pushing-to-model-irans-hormuz-control-in-red-sea-yemeni-fm-says"
+            },
+            {
+              "date": "2026-07-28",
+              "event": "Jordan's army said it shot down a drone in its eastern desert.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/jordan-army-says-it-downed-drone-in-eastern-desert"
+            },
+            {
+              "date": "2026-07-28",
+              "event": "Iran's foreign minister discussed the Strait of Hormuz in calls with Oman and Saudi Arabia, and Oman presented Tehran with a Gulf-backed mechanism under which shipping would pay voluntary fees to transit the strait, sources told The Straits Times.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/gulf-states-back-plan-to-let-iran-collect-voluntary-fees-to-use-hormuz"
+            },
+            {
+              "date": "2026-07-28",
+              "event": "Netanyahu departed for Washington for his first meeting with Trump since the Iran war began in February.",
+              "source": "Channel NewsAsia, The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/netanyahu-heads-to-us-for-first-trump-meeting-since-iran-war"
+            }
+          ]
+        },
+        {
+          "name": "Russia–Ukraine War",
+          "status": "No ceasefire and daily strikes in both directions. Zelensky is in Washington pressing Trump for air defences with a US Senate sanctions vote expected, while Russian attacks in eastern Ukraine killed seven and Ukrainian drones reached the Moscow region.",
+          "timeline": [
+            {
+              "date": "2026-07-25",
+              "event": "A Russian attack on a drone and arms exhibition near Kyiv killed at least 10 people, Ukrainian officials said.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/world/europe"
+            },
+            {
+              "date": "2026-07-26",
+              "event": "Romania shot down a third Russian drone in its airspace; its president called the repeated breaches \"intolerable\".",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe"
+            },
+            {
+              "date": "2026-07-27",
+              "event": "Russian attacks killed one person and damaged vessels in Ukraine's Mykolaiv region, a Ukrainian official said. The Kremlin separately said it has seen nothing tangible on any new US peace proposal.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe"
+            },
+            {
+              "date": "2026-07-27",
+              "event": "New UK Prime Minister Andy Burnham welcomed Zelensky as his first foreign visitor and pledged a new \"Stone Cloak\" package for Ukrainian drones.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe"
+            },
+            {
+              "date": "2026-07-28",
+              "event": "Russian attacks in eastern Ukraine killed seven people, Ukrainian officials said. A Russian regional governor said an apartment building in Chekhov, near Moscow, was damaged in a drone attack.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/apartment-building-in-chekhov-near-moscow-damaged-in-drone-attack-regional-governor-says"
+            },
+            {
+              "date": "2026-07-28",
+              "event": "The Kremlin said the government is monitoring the situation at online retailer Wildberries following Ukrainian attacks on its facilities.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/kremlin-says-the-government-is-monitoring-situation-with-wildberries-retailer-after-ukrainian"
+            },
+            {
+              "date": "2026-07-28",
+              "event": "The US began a review of its military force presence in Europe, and Poland's Prime Minister Donald Tusk called for an end to hate crimes against Ukrainians in Poland.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/us-begins-review-of-military-force-presence-in-europe"
+            },
+            {
+              "date": "2026-07-28",
+              "event": "Zelensky arrived in Washington to press Trump on air defences and secure fresh support, and was due to meet US senators with a Russia sanctions vote expected. A source said the Pentagon will not finish spending allocated Ukraine funds until the year Trump leaves office.",
+              "source": "BBC, Channel NewsAsia, The Straits Times",
+              "url": "https://www.bbc.co.uk/news/articles/c9v4g7e047zo"
+            }
+          ]
+        },
+        {
+          "name": "Israel–Gaza / West Bank",
+          "status": "Israel's security cabinet has approved a legal framework for an international stabilisation force in Gaza, and Netanyahu is now in Washington. On the ground, Gazans are being pushed from their homes along the shifting \"yellow line\", and Palestinians in the West Bank report intensifying settler arson and Israeli military raids; Israeli authorities have not confirmed those accounts.",
+          "timeline": [
+            {
+              "date": "2026-07-24",
+              "event": "Four Palestinians and two Israelis were killed in a West Bank shooting; the two sides gave differing accounts of how it began.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/world/middle_east"
+            },
+            {
+              "date": "2026-07-26",
+              "event": "An Israeli strike killed a senior Hamas security official in Gaza, according to medics and police in the territory.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east"
+            },
+            {
+              "date": "2026-07-27",
+              "event": "An Israeli official said Netanyahu's security cabinet approved the legal framework for an International Stabilization Force to enter areas of Gaza.",
+              "source": "Channel NewsAsia, The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east"
+            },
+            {
+              "date": "2026-07-27",
+              "event": "Palestinians said Israeli settlers set fire to mosques, cars and farmland in the West Bank, and that settler violence and military raids are bringing communities to breaking point.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/world/middle_east"
+            },
+            {
+              "date": "2026-07-28",
+              "event": "The Straits Times reported on Israel's \"yellow line\" in Gaza — a shifting edge of the war zone that is pushing Palestinians out of their homes as it moves.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/israels-yellow-line-a-shifting-edge-of-war-pushing-gazans-from-home"
+            },
+            {
+              "date": "2026-07-28",
+              "event": "Netanyahu left for Washington for his first meeting with Trump since the Iran war began, with the Gaza stabilisation force and the Iran talks in the background.",
+              "source": "The Straits Times, Channel NewsAsia",
+              "url": "https://www.straitstimes.com/world/middle-east/netanyahu-heads-to-us-for-first-trump-meeting-since-iran-war"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "DR Congo's Bundibugyo Ebola epidemic is the fastest-growing on record: ECDC's 27 July update puts it at 3,200 confirmed cases and 1,405 deaths, well above WHO's last bulletin of 2,145 cases ten days earlier. Uganda has had no new case since 21 June and has begun its 42-day countdown to declaring its arm over. US measles is at a 35-year high of 2,318 cases, no deaths.",
+      "outbreaks": [
+        {
+          "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
+          "status": "Fastest-growing Ebola outbreak on record and still expanding in Ituri province; no approved vaccine or treatment exists for this Ebola strain. Uganda has recorded no new case since 21 June.",
+          "cases": 3220,
+          "deaths": 1407,
+          "countries": 2,
+          "as_of": "2026-07-25",
+          "scope_note": "Confirmed cases only, DR Congo + Uganda combined, per ECDC's outbreak page last updated 27 Jul 2026: DR Congo 3,200 cases / 1,405 deaths from data up to 25 Jul (125 new cases and 51 new deaths since the previous report), and Uganda 20 cases / 2 deaths as of 17 Jul. Only these two countries have local transmission; separate imported or medically evacuated cases in France and Germany are not counted here. WHO's most recent formal bulletin, DON613 of 17 Jul, put the total at 2,145 confirmed cases and 830 deaths (DR Congo 2,124/828, crude CFR 39%, 89.6% of cases in Ituri) — the higher ECDC/national figures above are not yet DON-ratified. Outbreak declared 15 May 2026."
+        },
+        {
+          "name": "Measles — United States",
+          "status": "35-year high; 2026 has already passed all of 2025 with five months of the year left.",
+          "cases": 2318,
+          "deaths": 0,
+          "countries": 1,
+          "as_of": "2026-07-23",
+          "scope_note": "Confirmed US cases in calendar 2026 as of 23 Jul, per US CDC surveillance data reported on 24 Jul (CDC's own pages return HTTP 403 to the fetch tool, so figures are taken from outlets reporting the same CDC dataset). Already above 2025's full-year total of 2,289 and the highest annual count since 1991. 2,302 cases were reported by 45 jurisdictions and 16 among international visitors; there have been 35 outbreaks in 2026 and 93% of confirmed cases are outbreak-associated. Seven states account for more than 84% of the national total, led by South Carolina (670) and Utah (522). No measles deaths reported in 2026, against three in all of 2025. CDC updates this dataset weekly on Wednesdays."
+        },
+        {
+          "name": "Cholera — Sudan",
+          "status": "Third wave in three years, spreading through war-hit Darfur and Kordofan with an extremely high fatality ratio; official figures are now three weeks old.",
+          "cases": 1330,
+          "deaths": 114,
+          "countries": 1,
+          "as_of": "2026-07-07",
+          "scope_note": "WHO-confirmed cases and deaths in Sudan as of 7 Jul 2026, reported via UN News on 10 Jul — a case fatality ratio of 13.7%, which WHO calls extremely high. Concentrated in the Darfur and Kordofan states, with West Kordofan worst hit and close to 300 suspected cases plus three deaths in neighbouring North Kordofan. FIGURES ARE STALE: a re-check on 28 Jul found no newer WHO tally in the past three weeks. Sudan's health ministry separately reported 1,547 cases in West and North Kordofan alone on 15 Jul (not WHO-ratified). WHO says the true toll is likely higher because the war limits surveillance. Sudan's previous wave (Jul 2024 – Mar 2026) infected more than 124,400 people and killed about 3,500."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "Inside DR Congo's overstretched Ebola surveillance teams",
+          "category": "Ebola",
+          "summary": "The Straits Times followed contact-tracing and surveillance teams working the Bundibugyo Ebola outbreak in DR Congo. WHO's last bulletin recorded 12,693 contacts under follow-up, with follow-up rates of 78% in Ituri, 92% in North Kivu and 50% in Tshopo — surveillance capacity is the main constraint on containing an outbreak ECDC now puts at 3,200 confirmed cases in DR Congo.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-28T15:10+08:00",
+          "url": "https://www.straitstimes.com/world/a-day-in-the-life-of-congos-overstretched-ebola-surveillance-teams"
+        },
+        {
+          "id": "ob2",
+          "headline": "ECDC puts DR Congo's Ebola outbreak at 3,200 confirmed cases and 1,405 deaths",
+          "category": "Ebola",
+          "summary": "ECDC's outbreak page, last updated 27 July, records 3,200 confirmed cases and 1,405 deaths in DR Congo from data up to 25 July — 125 new cases and 51 new deaths since its previous report. Uganda remains at 20 cases and two deaths, with its last confirmed case on 21 June; it began a 42-day countdown towards declaring its outbreak over after discharging its final patient on 16 July.",
+          "source": "ECDC",
+          "published_at": "2026-07-27",
+          "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"
+        },
+        {
+          "id": "ob3",
+          "headline": "First volunteer vaccinated in the world's first Bundibugyo Ebola vaccine trial",
+          "category": "Ebola",
+          "summary": "The University of Oxford said the first volunteer has been dosed in the world's first clinical trial of a vaccine against Bundibugyo ebolavirus. There is currently no approved vaccine or specific treatment for this Ebola species, which is why containment relies entirely on isolation, contact tracing and safe burials.",
+          "source": "University of Oxford",
+          "published_at": "2026-07-24",
+          "url": "https://www.ox.ac.uk/news/2026-07-24-first-volunteer-vaccinated-in-the-worlds-first-bundibugyo-ebolavirus-vaccine-trial"
+        },
+        {
+          "id": "ob4",
+          "headline": "US measles cases hit 2,318 — the highest since 1991",
+          "category": "Measles",
+          "summary": "US CDC surveillance data as of 23 July records 2,318 confirmed measles cases in 2026, past 2025's full-year total of 2,289 and the highest annual count in 35 years. Seven states account for more than 84% of cases, led by South Carolina and Utah, and 93% of confirmed cases are linked to one of 35 outbreaks. No deaths have been reported this year.",
+          "source": "US CDC (via ABC News)",
+          "published_at": "2026-07-24",
+          "url": "https://abcnews.com/Health/us-measles-cases-hit-2318-2026-surpassing-years/story?id=134813573"
+        },
+        {
+          "id": "ob5",
+          "headline": "WHO bulletin: 2,145 confirmed Bundibugyo cases and 830 deaths, with 664 new cases in 12 days",
+          "category": "Ebola",
+          "summary": "WHO's Disease Outbreak News of 17 July — still the latest formal bulletin — recorded 2,145 confirmed cases and 830 deaths across DR Congo (2,124/828), Uganda (20/2) and one case in France. DR Congo added 664 confirmed cases and 376 deaths in the 12 days since the previous bulletin, partly reflecting scaled-up testing. Ituri province accounts for 89.6% of cases, and the crude case-fatality ratio is 39%.",
+          "source": "WHO Disease Outbreak News",
+          "published_at": "2026-07-17",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON613"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "Two flaws need attention now: a CVSS 10.0 command-injection bug in Arista's VeloCloud Orchestrator that CISA flagged as actively exploited on 27 July, and an unauthenticated code-execution hole in JetBrains TeamCity (CVSS 9.8) that hands over your build server and its stored credentials. A FastJson zero-day is being exploited with no fix coming. On breaches: ShinyHunters is squeezing Ernst & Young and Anubis dumped Fairlife's data.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "Over 24,000 exposed server BMCs leak password hashes via a decades-old IPMI flaw",
+          "category": "Vulnerability",
+          "cve": "CVE-2013-4786",
+          "cvss": 7.5,
+          "severity": "HIGH",
+          "summary": "Researchers at the startup Lava found that 24,650 of 36,872 internet-exposed hosts on UDP port 623 leak authentication material that can be cracked offline — a 20-year-old weakness in IPMI 2.0's RAKP authentication that has no patch. Supermicro BMCs and HPE iLO 4 were named; 2,340 of the exposed hosts used weak administrator passwords, and 39% of vulnerable servers are in the US. Supermicro recommended rotating default passwords and isolating management networks. Keep IPMI and Redfish off the public internet.",
+          "source": "BleepingComputer, NVD",
+          "published_at": "2026-07-28T20:10+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/over-24-000-exposed-server-bmcs-leak-password-hash-via-decades-old-flaw/"
+        },
+        {
+          "id": "cs2",
+          "headline": "Medical billing firm MCBS breach exposes health records of 1.26 million people",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Medical Computer Business Services, a medical billing and practice-management firm in Augusta, Georgia, is notifying 1,261,464 people that their data was taken. Unauthorised access occurred between 22 and 26 September 2025; the investigation finished on 28 May 2026 and notifications went out in late June. Exposed data includes names, addresses, Social Security numbers, dates of birth, insurance policy numbers, diagnoses and treatment details. The PEAR ransomware group claimed the attack and said it took 3.3TB of data.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-28T17:10+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/data-breach-at-medical-billing-firm-mcbs-affects-126-million-people/"
+        },
+        {
+          "id": "cs3",
+          "headline": "Critical TeamCity flaw lets attackers run OS commands without logging in",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-63077",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "JetBrains patched a critical flaw affecting all TeamCity On-Premises versions: an unauthenticated attacker with HTTP(S) access to the server can abuse the agent polling protocol to bypass authentication and execute arbitrary OS commands. Depending on the server process's privileges, that means exposure of TeamCity data, configurations and stored credentials. Fixed in 2025.11.7 and 2026.1.3; TeamCity Cloud is already updated. JetBrains credits Antoni Tremblay, who reported it on 10 July, and advises putting internet-facing servers behind a VPN.",
+          "source": "The Hacker News, JetBrains",
+          "published_at": "2026-07-28T16:11+08:00",
+          "url": "https://thehackernews.com/2026/07/critical-teamcity-flaw-could-let.html"
+        },
+        {
+          "id": "cs4",
+          "headline": "AI-assisted research turns a Linux traffic-control race into a root exploit",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-53264",
+          "cvss": 7.8,
+          "severity": "HIGH",
+          "summary": "STAR Labs published an exploit turning a use-after-free race in the Linux kernel's network traffic-control subsystem into local root on a CentOS Stream 9 target. Researcher Lee Jia Jie said AI helped find the bug, produce a KASAN proof of concept and optimise the race window. This is local privilege escalation, not remote code execution — the attacker needs a foothold, unprivileged user namespaces, and the CONFIG_NET_ACT_GACT and CONFIG_NET_CLS_FLOWER options. The upstream fix landed on 1 June 2026 and has been backported to several stable branches; no in-the-wild exploitation has been reported and it is not in CISA's KEV catalog.",
+          "source": "The Hacker News, STAR Labs",
+          "published_at": "2026-07-28T16:04+08:00",
+          "url": "https://thehackernews.com/2026/07/researcher-says-ai-helped-develop-linux.html"
+        },
+        {
+          "id": "cs5",
+          "headline": "Arista VeloCloud Orchestrator command-injection zero-day exploited; added to CISA KEV",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-16812",
+          "cvss": 10.0,
+          "severity": "CRITICAL",
+          "summary": "Arista patched a maximum-severity OS command-injection flaw in on-premises VeloCloud Orchestrator (SD-WAN management) that lets a remote attacker reach privileged internal functionality and compromise the orchestrator host and the data it manages. NVD scores it CVSS 4.0 10.0. CISA added it to the Known Exploited Vulnerabilities catalog on 27 July, confirming active exploitation. Patch immediately and treat exposed orchestrators as potentially compromised.",
+          "source": "The Hacker News, BleepingComputer, CISA KEV, NVD",
+          "published_at": "2026-07-28T12:43+08:00",
+          "url": "https://thehackernews.com/2026/07/attackers-exploit-arista-velocloud.html"
+        },
+        {
+          "id": "cs6",
+          "headline": "FastJson RCE zero-day exploited against US firms — and there is no fix coming",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-16723",
+          "cvss": 9.0,
+          "severity": "CRITICAL",
+          "summary": "Attackers are exploiting a critical remote code execution flaw in Alibaba's FastJson Java library, versions 1.2.68 through 1.2.83, against US organisations in financial services, healthcare, computing, retail and business sectors, according to ThreatBook and Imperva. The flaw is exploitable under FastJson's stock default configuration — no AutoType enablement or classpath gadget required — and works without user interaction in Spring Boot fat-JAR deployments. Alibaba says FastJson 1.x is no longer actively maintained and is unlikely to get a security update; enable SafeMode or migrate to fastjson2. Versions 1.2.60 and earlier are unaffected.",
+          "source": "BleepingComputer, NVD",
+          "published_at": "2026-07-28T07:49+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-target-us-firms-in-fastjson-rce-zero-day-attacks/"
+        },
+        {
+          "id": "cs7",
+          "headline": "Dysphoria IoT botnet reaches 200,000 devices using blockchain command-and-control",
+          "category": "Botnet",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "QiAnXin XLab researchers report that Dysphoria, a botnet evolved from the jackskid and fbot families, has compromised roughly 200,000 routers, cameras and IoT devices worldwide. It spreads via weak Telnet/SSH credentials and a mix of recent and old flaws including CVE-2025-55182, CVE-2025-34152, CVE-2025-28137 (Totolink), CVE-2025-9528 (Linksys), CVE-2017-17215 (Huawei) and CVE-2020-8515 (DrayTek). Its operators claim up to 4 Tbps of DDoS capacity, and it hides infrastructure behind Ethereum ENS and Solana SNS domains with C2 addresses concealed inside fake IPv6 strings.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-07-28T05:08+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/new-dysphoria-ddos-botnet-spreads-to-200k-devices-worldwide/"
+        },
+        {
+          "id": "cs8",
+          "headline": "Certighost proof-of-concept lets low-privileged users hijack Windows domains",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-54121",
+          "cvss": 8.8,
+          "severity": "HIGH",
+          "summary": "Researchers H0j3n and Aniq Fakhrul released a public proof of concept for Certighost, an Active Directory Certificate Services flaw that lets a low-privileged domain user impersonate a domain controller. It abuses the certificate-enrolment \"chase\" fallback, which fails to validate server identity, letting an attacker point the CA at rogue SMB, LSA and LDAP services and obtain fraudulent certificates. Microsoft patched it in the July 2026 Patch Tuesday and there is no report of in-the-wild exploitation. If you have not applied July's updates to AD CS, do it now.",
+          "source": "BleepingComputer, NVD",
+          "published_at": "2026-07-28T05:00+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/new-certighost-poc-exploit-lets-attackers-hijack-windows-domains/"
+        },
+        {
+          "id": "cs9",
+          "headline": "Coca-Cola confirms data theft in Fairlife ransomware attack; Anubis leaks the files",
+          "category": "Ransomware",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Coca-Cola's dairy subsidiary Fairlife was hit by ransomware in mid-July that disrupted production across its US facilities and encrypted its Nutanix systems. Coca-Cola disclosed the incident to the SEC on 16 July and confirmed data was stolen. The Anubis ransomware gang claimed the attack and said it took about 1TB of files; its ransom deadline expired on 27 July and the stolen data was made available for download. Coca-Cola reported the breach to authorities and declined to negotiate.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-27T23:39+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/coca-cola-confirms-data-theft-in-fairlife-ransomware-attack/"
+        },
+        {
+          "id": "cs10",
+          "headline": "ShinyHunters claims Ernst & Young breach, sets 31 July extortion deadline",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "The ShinyHunters extortion gang claimed responsibility for the Ernst & Young breach and threatened to publish stolen data unless EY makes contact by 31 July. The group says it obtained credentials through a supply-chain compromise reaching EY's Jira, GitHub and Azure environments — a claim EY has not confirmed. EY has said the compromised system was a third-party IT service-management platform, that it detected suspicious activity on 23 April and traced unauthorised access to 28 March–12 April, and that support tickets may include documents containing client tax, personal and financial information. EY has not said how many people are affected and is offering 24 months of identity monitoring.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-27T23:12+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/ernst-and-young-data-breach-claimed-by-shinyhunters-extortion-gang/"
+        },
+        {
+          "id": "cs11",
+          "headline": "Public exploit released for patched vBulletin pre-auth code execution flaw",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-61511",
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "SSD Secure Disclosure published a proof of concept for an unauthenticated remote code execution flaw in vBulletin's template engine, affecting versions 6.2.1 and earlier and 6.1.6 and earlier. The bug sits in vB5_Template_Runtime::runMaths(), which applies an inadequate regex filter before passing input to PHP's eval(). The published script contains a one-character error, but the mistake is trivial to correct. No in-the-wild attacks had been confirmed as of 27 July and the CVE is not in CISA's KEV catalog. Self-hosted administrators should patch their branch or upgrade to 6.2.2.",
+          "source": "The Hacker News, SSD Secure Disclosure",
+          "published_at": "2026-07-27T22:40+08:00",
+          "url": "https://thehackernews.com/2026/07/public-exploit-released-for-patched.html"
+        },
+        {
+          "id": "cs12",
+          "headline": "n8n sandbox escape lets workflow editors run OS commands — no CVE assigned",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": 8.7,
+          "severity": "HIGH",
+          "summary": "The automation platform n8n patched an expression-sandbox escape that lets an authenticated workflow editor run operating-system commands as the n8n process. It is tracked as GHSA-gv7g-jm28-cr3m with a CVSS 4.0 score of 8.7, and no CVE had been assigned as of 27 July. Affected ranges are below 2.31.5 and 2.32.0 up to 2.32.1; fixes shipped on 22 July in 2.31.5 and 2.32.1. It is the latest in a run of n8n sandbox escapes after CVE-2026-25049 and CVE-2026-27577. Defenders should review recently created or modified workflows for unexpected arrow functions or obfuscated JavaScript, and hunt for shells, PowerShell, curl or wget spawned by the n8n or Node.js process.",
+          "source": "The Hacker News, n8n advisory",
+          "published_at": "2026-07-27T21:05+08:00",
+          "url": "https://thehackernews.com/2026/07/n8n-sandbox-escape-lets-workflow.html"
+        },
+        {
+          "id": "cs13",
+          "headline": "GitHub and PyPI add time-based brakes against supply-chain attacks",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "GitHub added a 72-hour cooldown to Dependabot so newly published package versions are not adopted automatically, configurable per repository. PyPI separately introduced a 14-day cutoff after which maintainers can no longer upload new files to an existing release, closing off release-poisoning by attackers holding stolen credentials. Both are responses to the chalk/debug, s1ngularity, Shai-Hulud and GhostAction incidents: malicious packages are usually spotted within minutes, so a delay buys defenders time. PyPI notes no confirmed attack has yet used the release-poisoning technique it is now blocking.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-27T16:01+08:00",
+          "url": "https://thehackernews.com/2026/07/github-adds-3-day-dependabot-cooldown.html"
+        },
+        {
+          "id": "cs14",
+          "headline": "Steam forum ClickFix lures infect gamers with XMRig cryptominers",
+          "category": "Malware Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Attackers are posting ClickFix-style lures on Steam community forums that trick users into pasting commands which install the XMRig cryptominer. ClickFix relies entirely on the victim running the command themselves, so it sidesteps most download-based defences. Treat any forum post asking you to paste something into the Run dialog or a terminal as hostile.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-26T06:37+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/steam-forum-clickfix-attacks-infect-gamers-with-xmrig-cryptominers/"
+        },
+        {
+          "id": "cs15",
+          "headline": "Malvertising ships malware in pieces and has the browser assemble it in memory",
+          "category": "Malware Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A malvertising campaign delivers its payload as fragments and uses JavaScript to reassemble the executable in browser memory, so no single downloaded file looks malicious to network or endpoint scanners. The technique defeats signature-based inspection of the delivery stage and shifts detection to what happens after the file is written or executed.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-26T02:48+08:00",
+          "url": "https://thehackernews.com/2026/07/malvertising-sends-malware-in-pieces.html"
+        }
+      ]
+    }
+  }
+}

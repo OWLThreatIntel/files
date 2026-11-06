@@ -1,0 +1,767 @@
+{
+  "meta": {
+    "date": "2026-07-12",
+    "generated_at": "2026-07-12T21:00:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "BBC",
+      "CNA",
+      "The Straits Times",
+      "Mothership",
+      "LTA (data.gov.sg)",
+      "NEA (data.gov.sg)",
+      "WHO Disease Outbreak News",
+      "ECDC",
+      "US CDC",
+      "CISA KEV",
+      "NVD",
+      "The Hacker News",
+      "BleepingComputer",
+      "Motorist.sg",
+      "NBC News"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "Iran dominates tonight: Tehran declared the Strait of Hormuz closed and fired missiles and drones at Qatar, the UAE, Bahrain and Jordan, after the US said it struck about 140 Iranian military targets. Two political heavyweights died — US Senator Lindsey Graham, 71, and Qatar's former emir Sheikh Hamad, 74 — and Typhoon Bavi drove nearly two million people from their homes in eastern China. Watch the strait: a prolonged closure would push up oil and shipping costs across Asia.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "Iran declares Strait of Hormuz closed and strikes Gulf neighbours after new US attacks",
+          "category": "Wars & Conflicts",
+          "summary": "Iran's Revolutionary Guards said the Strait of Hormuz would be closed \"until further notice and until the end of American interventions in this region\", after firing on a Cyprus-flagged container ship they said was on an \"unauthorised route\". US Central Command said Iran \"blatantly attacked\" the vessel, which was disabled by fire with one crew member missing. Iran then launched missiles and drones at Gulf states: Qatar said three people were injured, the UAE and Bahrain reported interceptions, and Jordan said three Iranian missiles fell on its territory. Iran's Guards claimed they destroyed US refuelling facilities at Oman's port of Duqm — a claim that has not been independently verified.",
+          "source": "CNA, BBC, The Straits Times",
+          "published_at": "2026-07-12T07:36+08:00",
+          "url": "https://www.channelnewsasia.com/world/iran-strait-hormuz-closed-unauthorised-vessel-hit-6248636"
+        },
+        {
+          "id": "ts2",
+          "headline": "US says it struck about 140 Iranian military targets as talks focus on the strait",
+          "category": "Wars & Conflicts",
+          "summary": "US Central Command said it hit approximately 140 Iranian military targets on Saturday, completing a third round of strikes this week carried out at President Donald Trump's direction. Defence Secretary Pete Hegseth said: \"Iran made a poor choice. Now they pay.\" Iranian media reported explosions in Bandar Abbas, Sirik, Jask, Qeshm Island and Khuzestan province, with no immediate reports of casualties. In parallel, US negotiators are pressing Tehran to state publicly that it will halt attacks on shipping and keep all Hormuz lanes open without tolls.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-07-12T12:31+08:00",
+          "url": "https://www.straitstimes.com/world/middle-east/us-says-it-struck-140-iranian-military-targets-saturday"
+        },
+        {
+          "id": "ts3",
+          "headline": "US Senator Lindsey Graham dies at 71 after 'brief and sudden illness'",
+          "category": "World Politics",
+          "summary": "Lindsey Graham, the South Carolina Republican and close Trump ally who was one of the Senate's most influential voices on foreign policy and defence, has died aged 71 after what was described as a brief and sudden illness. Graham had served in the Senate since 2003 and was a central figure in Republican debates over Middle East policy. Israeli officials were among those offering condolences.",
+          "source": "BBC, CNA, The Straits Times",
+          "published_at": "2026-07-12T17:47+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cvgj25j6nmeo"
+        },
+        {
+          "id": "ts4",
+          "headline": "Former Qatari emir Sheikh Hamad bin Khalifa Al Thani dies at 74",
+          "category": "World Politics",
+          "summary": "Sheikh Hamad bin Khalifa Al Thani, who seized power in a bloodless 1995 palace coup and turned Qatar into an outsized diplomatic and media power, has died at 74. He abdicated in favour of his son, the current emir Sheikh Tamim, in 2013. His death comes as Qatar finds itself in the firing line of the Iran conflict, having reported injuries from Sunday's missile attacks.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-12T19:25+08:00",
+          "url": "https://www.channelnewsasia.com/world/former-qatar-ruler-sheikh-hamad-dies-6249071"
+        },
+        {
+          "id": "ts5",
+          "headline": "China evacuates nearly two million people as Typhoon Bavi makes landfall",
+          "category": "Weather & Disasters",
+          "summary": "Typhoon Bavi came ashore in eastern China after battering Japan's southern islands and Taiwan, with authorities moving close to two million people to safety and warning of days of heavy rain in Zhejiang and neighbouring provinces. The storm has already disrupted air travel across the region — at least 20 flights from Singapore were cancelled over the weekend.",
+          "source": "BBC, CNA",
+          "published_at": "2026-07-12T15:39+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cdxd3wkp2rzo"
+        },
+        {
+          "id": "ts6",
+          "headline": "Barisan Nasional sweeps Johor state election in blow to Anwar's coalition",
+          "category": "Asia-Pacific",
+          "summary": "Barisan Nasional won 48 of the 56 seats in the Johor state election, an even larger supermajority than in 2022, while Prime Minister Anwar Ibrahim's Pakatan Harapan ceded ground in the southern state bordering Singapore. Analysts told CNA the result strengthens UMNO's hand inside the federal unity government and raises questions about Anwar's standing ahead of the next general election.",
+          "source": "CNA, Mothership",
+          "published_at": "2026-07-12T15:25+08:00",
+          "url": "https://www.channelnewsasia.com/asia/malaysia-johor-election-results-bn-ph-anwar-6248941"
+        },
+        {
+          "id": "ts7",
+          "headline": "Two killed in shooting at Toronto street festival",
+          "category": "World News",
+          "summary": "At least two people were killed and several others wounded when a gunman opened fire at a street festival in Toronto, police said. The attacker was still at large at the time of reporting and police had not established a motive.",
+          "source": "BBC, CNA, The Straits Times",
+          "published_at": "2026-07-12T11:56+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/ce3e66e1x3go"
+        },
+        {
+          "id": "ts8",
+          "headline": "Zelensky says he will replace Ukraine's prime minister",
+          "category": "Wars & Conflicts",
+          "summary": "President Volodymyr Zelensky said he intends to replace Prime Minister Yulia Svyrydenko — a shake-up at the top of Ukraine's government as Kyiv presses allies for faster weapons deliveries. It follows a Russian strike on a weapons store in a residential area that killed 10 people, over which Zelensky said Ukrainian officials would be held accountable.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-12T19:56+08:00",
+          "url": "https://www.straitstimes.com/world/europe/ukraines-zelenskiy-says-he-will-replace-prime-minister-svyrydenko"
+        },
+        {
+          "id": "ts9",
+          "headline": "Germany to fund 50,000 strike drones for Ukraine, source says",
+          "category": "Wars & Conflicts",
+          "summary": "Germany will finance the production of 50,000 long-range strike drones for Ukraine, according to a source cited by The Straits Times. The figure has not been formally confirmed by Berlin. If borne out, it would be one of the largest single European contributions to Ukraine's deep-strike capability, and it lands as Kyiv complains of a munitions shortfall.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-12T20:31+08:00",
+          "url": "https://www.straitstimes.com/world/europe/germany-funds-50000-strike-drones-for-ukraine-source-says"
+        },
+        {
+          "id": "ts10",
+          "headline": "Badly burned British couple rescued from ravine as deadly Spanish wildfire stabilises",
+          "category": "Weather & Disasters",
+          "summary": "A British couple were rescued with severe burns from a ravine in Spain's Almeria region, where a wildfire has killed several people. Firefighters have gained the upper hand on the blaze and evacuees have been allowed home, though the son of one Belgian victim has publicly disputed Spanish officials' account of how quickly warnings were issued.",
+          "source": "BBC, The Straits Times, CNA",
+          "published_at": "2026-07-12T19:23+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cx2x7441762o"
+        },
+        {
+          "id": "ts11",
+          "headline": "Floods and landslides kill 44 in Bangladesh, stranding more than a million",
+          "category": "Weather & Disasters",
+          "summary": "At least 44 people have been killed by floods and landslides in Bangladesh, with more than one million left stranded as waters cut off roads and villages, authorities said. Rescue and relief operations are continuing.",
+          "source": "CNA",
+          "published_at": "2026-07-12T02:53+08:00",
+          "url": "https://www.channelnewsasia.com/world/floods-landslides-kill-44-in-bangladesh-leave-over-1-million-stranded-6248421"
+        },
+        {
+          "id": "ts12",
+          "headline": "Venezuela earthquake toll rises to 4,333 dead and 16,740 injured",
+          "category": "Weather & Disasters",
+          "summary": "The death toll from the earthquakes that struck Venezuela has climbed to 4,333, with 16,740 injured, according to the president of the country's National Assembly. This is an official Venezuelan government count and has not been independently verified; earlier reporting had put the toll just above 4,000.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-07-12T02:06+08:00",
+          "url": "https://www.straitstimes.com/world/venezuela-quakes-have-killed-4333-injured-16740-national-assembly-president-says"
+        },
+        {
+          "id": "ts13",
+          "headline": "South Korea issues first emergency heatwave warning under new rating system",
+          "category": "Weather & Disasters",
+          "summary": "South Korea has issued its first \"emergency\" heatwave warning — the top tier of a rating system introduced this year — as temperatures climb across the peninsula. It comes amid a broader run of extreme heat: a quarter of France is sweltering under a heatwave that closed Paris landmarks early, Germany has reported a surge in drownings, and a new heatwave is blasting the United States.",
+          "source": "CNA",
+          "published_at": "2026-07-12T15:54+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/south-korea-heatwave-first-emergency-warning-6249051"
+        },
+        {
+          "id": "ts14",
+          "headline": "Trump administration subpoenas New York Times journalists over Air Force One reporting",
+          "category": "World Politics",
+          "summary": "The Trump administration has subpoenaed New York Times journalists over their reporting on Air Force One, the newspaper said. It is the latest escalation in the administration's confrontations with the press, and raises fresh questions about legal protections for journalists' sources.",
+          "source": "BBC, CNA, The Straits Times",
+          "published_at": "2026-07-12T00:11+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cpd3g8q51g7o"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "The Circle Line finally closed its loop today — Keppel, Cantonment and Prince Edward Road opened to passengers, drawing pre-dawn crowds and an Austrian tourist who flew in just for the ride. President Tharman is on his first state visit to Malaysia. Two practical notes: roads near the National Stadium are cordoned off for an SAF exercise on 13–14 July, and COE hit a record $129,000 for Cat A. Tonight: cloudy, 26–33°C.",
+      "weather": {
+        "forecast": "Cloudy",
+        "temp_low": 26,
+        "temp_high": 33,
+        "humidity_low": 50,
+        "humidity_high": 90,
+        "as_of": "2026-07-12T17:31+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jul 2026 · 1st bidding",
+        "as_of": "2026-07-08",
+        "next_results": "2026-07-22",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          {
+            "code": "A",
+            "label": "Cars up to 1600cc & 130bhp",
+            "premium": 129000,
+            "change": 5153
+          },
+          {
+            "code": "B",
+            "label": "Cars above 1600cc or 130bhp",
+            "premium": 130889,
+            "change": 7387
+          }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "Circle Line goes full circle as three new stations open to passengers",
+          "category": "Transport",
+          "summary": "Keppel, Cantonment and Prince Edward Road stations opened for passenger service today, completing the Circle Line as a true loop. LTA says the 39km line now has 33 stations and 12 interchanges, and that the Telok Blangah to Marina Bay journey becomes a direct ride, saving about 10 minutes. Commuters turned up before dawn to be among the first to ride the new stretch.",
+          "source": "The Straits Times, LTA",
+          "published_at": "2026-07-12T11:34+08:00",
+          "url": "https://www.straitstimes.com/singapore/transport/three-new-circle-line-stations-draw-early-morning-crowds-on-opening-day"
+        },
+        {
+          "id": "sg2",
+          "headline": "President Tharman makes first state visit to Malaysia",
+          "category": "Foreign Relations",
+          "summary": "President Tharman Shanmugaratnam is in Malaysia for his first state visit since taking office. Speaking ahead of the trip, he said the bilateral relationship \"must never be a purely transactional relationship\" and is driven by mutual respect and an understanding of each other's interests. The visit comes a day after Barisan Nasional's sweeping win in the neighbouring Johor state election.",
+          "source": "CNA, The Straits Times, Mothership",
+          "published_at": "2026-07-12T10:38+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/president-tharman-shanmugaratnam-first-state-visit-malaysia-6248816"
+        },
+        {
+          "id": "sg3",
+          "headline": "Inter-agency task force to publish disability support recommendations by end-2026",
+          "category": "Government Policy",
+          "summary": "An inter-agency task force is examining how to widen job opportunities for people with disabilities, strengthen community care and lower the cost of support services, and will unveil its recommendations by the end of 2026, CNA reports.",
+          "source": "CNA",
+          "published_at": "2026-07-12T18:23+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/task-force-disability-employment-community-affordability-msf-6246356"
+        },
+        {
+          "id": "sg4",
+          "headline": "'The ground is not ready': persons with disabilities and caregivers on finding and keeping jobs",
+          "category": "Community",
+          "summary": "Ahead of the task force's recommendations, persons with disabilities and their caregivers told The Straits Times that employers remain hesitant and that staying employed is often harder than getting hired, citing inflexible workplaces and limited job coaching. Their accounts set out what the policy review will need to address.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-12T18:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/community/the-ground-is-not-ready-pwds-caregivers-raise-concerns-over-finding-jobs-and-staying-employed"
+        },
+        {
+          "id": "sg5",
+          "headline": "Areas near the National Stadium to be cordoned off for SAF exercise on 13–14 July",
+          "category": "Public Advisory",
+          "summary": "Parts of the area around the National Stadium will be cordoned off on 13 and 14 July for an SAF training exercise. Commuters and residents in the Kallang area should expect access restrictions and plan alternative routes on both days.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-12T16:35+08:00",
+          "url": "https://www.straitstimes.com/singapore/areas-near-national-stadium-to-be-cordoned-off-for-saf-training-exercise-on-july-13-and-14"
+        },
+        {
+          "id": "sg6",
+          "headline": "Woodlands Gateway to get a major transport hub with retail, park and office space",
+          "category": "Urban Planning",
+          "summary": "The upcoming Woodlands Gateway development will feature a major transport hub integrated with retail, office space and a park, The Straits Times reports, as the north continues its build-out around the Woodlands Regional Centre.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-12T15:15+08:00",
+          "url": "https://www.straitstimes.com/singapore/transport/upcoming-woodlands-gateway-to-feature-major-transport-hub-with-retail-park-and-office-spaces"
+        },
+        {
+          "id": "sg7",
+          "headline": "Tampines bus services fully handed over to Go-Ahead Singapore on 19 July",
+          "category": "Transport",
+          "summary": "Bus services in the Tampines area will be fully transferred to Go-Ahead Singapore on 19 July. Routes and fares are not changing; the operator running the services is.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-12T11:55+08:00",
+          "url": "https://www.straitstimes.com/singapore/transport/bus-services-in-tampines-to-be-fully-handed-over-to-go-ahead-singapore-on-july-19"
+        },
+        {
+          "id": "sg8",
+          "headline": "Austrian man flies to Singapore just for the Circle Line opening, among first to ride the 3 new stations",
+          "category": "Trending",
+          "summary": "A rail enthusiast from Austria flew to Singapore specifically to ride the newly completed Circle Line on opening day, joining locals who queued before dawn at the three new stations. Mothership reports he was among the first passengers through the gates — a cheerful footnote to a project that took years to close the loop.",
+          "source": "Mothership",
+          "published_at": "2026-07-12T12:41+08:00",
+          "url": "https://mothership.sg/2026/07/circle-line-stage-6-opens/"
+        },
+        {
+          "id": "sg9",
+          "headline": "Singaporean actress Ya Hui announces her mother's death",
+          "category": "Trending",
+          "summary": "Local actress Ya Hui shared on social media that her mother has died, writing that she \"won't be in pain anymore\". Fans and fellow artistes have posted tributes.",
+          "source": "Mothership",
+          "published_at": "2026-07-12T11:09+08:00",
+          "url": "https://mothership.sg/2026/07/mother-singapore-ya-hui-passes-away/"
+        },
+        {
+          "id": "sg10",
+          "headline": "14-year-old cyclist taken to hospital after accident with car in Jurong East",
+          "category": "Crime & Accidents",
+          "summary": "A 14-year-old cyclist was taken to hospital after being trapped under a car in an accident in Jurong East, The Straits Times reports. Police are investigating.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-11T22:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/14-year-old-cyclist-taken-to-hospital-after-getting-trapped-under-car-in-jurong-east-accident"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "Iran escalated sharply: Tehran declared the Strait of Hormuz closed and fired on Qatar, the UAE, Bahrain and Jordan after the US said it struck about 140 Iranian targets — yet both sides are still talking about the waterway. In Ukraine, Russian strikes killed at least eight and Zelensky moved to replace his prime minister. The Israel–Gaza ceasefire is fraying, with deadly strikes in Gaza and settler violence in the West Bank.",
+      "theatres": [
+        {
+          "name": "US / Israel – Iran (Strait of Hormuz)",
+          "status": "Escalating sharply — Iran declares Hormuz closed and strikes four Gulf and Arab states; the US says it hit about 140 Iranian targets, while talks on the waterway continue",
+          "timeline": [
+            {
+              "date": "Late Feb 2026",
+              "event": "The war breaks out with massive US–Israeli strikes on Iran that, according to CNA's reporting, killed then-supreme leader Ali Khamenei.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/iran-strait-hormuz-closed-unauthorised-vessel-hit-6248636"
+            },
+            {
+              "date": "2026-03-11",
+              "event": "The Thai-flagged Mayuree Naree is struck while transiting the Strait of Hormuz, killing three Thai crewmen. The surviving crew are now suing the ship's operators.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/asia/thai-ship-crew-strait-hormuz-sues-operators-6246621"
+            },
+            {
+              "date": "2026-07-11",
+              "event": "Iran hits back rhetorically after Trump insists the June interim truce is over.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/iran-trump-ceasefire-over-hormuz-6247936"
+            },
+            {
+              "date": "2026-07-11",
+              "event": "Iran's supreme leader Mojtaba Khamenei vows revenge for the killing of his father, former supreme leader Ali Khamenei.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/revenge-mojtaba-khamenei-iran-leader-6248091"
+            },
+            {
+              "date": "2026-07-12",
+              "event": "The IRGC fires on a Cyprus-flagged container ship it says was on an \"unauthorised route\"; US CENTCOM says Iran \"blatantly attacked\" the vessel, which was disabled by fire with one crew member missing. Iran then declares the Strait of Hormuz closed \"until further notice and until the end of American interventions in this region\".",
+              "source": "CNA, BBC, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/iran-strait-hormuz-closed-unauthorised-vessel-hit-6248636"
+            },
+            {
+              "date": "2026-07-12",
+              "event": "The Pentagon says US forces struck Iran early Sunday; CENTCOM later says it hit approximately 140 Iranian military targets, completing a third round of strikes this week. Iran launches missiles and drones at its Gulf neighbours — Qatar reports three people injured, the UAE and Bahrain report interceptions, and Jordan says three Iranian missiles fell on its territory.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/us-says-it-struck-140-iranian-military-targets-saturday"
+            },
+            {
+              "date": "2026-07-12",
+              "event": "India says 10 crew were rescued and one remains missing from the vessel attacked off Oman.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/india-says-10-rescued-one-missing-after-vessel-attacked-off-oman"
+            },
+            {
+              "date": "2026-07-12",
+              "event": "US negotiators press Iran to state publicly that it will halt attacks on shipping and keep all Hormuz lanes open with no tolls.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/iran-war-us-strait-hormuz-iran-talks-6248521"
+            }
+          ]
+        },
+        {
+          "name": "Russia – Ukraine",
+          "status": "Grinding on — Russian strikes continue on Ukrainian cities; Zelensky moves to replace his prime minister while pressing allies for faster weapons deliveries",
+          "timeline": [
+            {
+              "date": "2022-02-24",
+              "event": "Russia launches a full-scale invasion of Ukraine, beginning the largest land war in Europe since 1945.",
+              "source": "BBC",
+              "url": "https://www.bbc.com/news/topics/c1vw6q14rzqt"
+            },
+            {
+              "date": "2026-07-12",
+              "event": "Russia says Ukraine struck a tanker in the Sea of Azov; Russian authorities earlier reported one person killed in a drone attack on four vessels, including a methanol tanker, in Taganrog Bay. Kyiv has not confirmed the strike.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/russia-says-ukraine-struck-tanker-in-sea-of-azov"
+            },
+            {
+              "date": "2026-07-12",
+              "event": "Ukrainian officials report at least eight killed and dozens wounded in Russian strikes; President Zelensky presses allies for faster weapons deliveries.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/russian-strikes-kill-eight-wound-dozens-ukraines-zelenskyy-seeks-faster-weapons-deliveries-6248431"
+            },
+            {
+              "date": "2026-07-12",
+              "event": "Zelensky says Ukrainian officials will be held accountable after a Russian strike hit a warehouse storing arms in a residential area, killing 10 people.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/zelenskiy-says-ukraine-officials-will-be-held-accountable-for-weapons-store"
+            },
+            {
+              "date": "2026-07-12",
+              "event": "Zelensky says he will replace Prime Minister Yulia Svyrydenko.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/ukraines-zelenskiy-says-he-will-replace-prime-minister-svyrydenko"
+            },
+            {
+              "date": "2026-07-12",
+              "event": "Germany is funding the production of 50,000 strike drones for Ukraine, according to a source cited by The Straits Times; Berlin has not formally confirmed the figure.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/germany-funds-50000-strike-drones-for-ukraine-source-says"
+            }
+          ]
+        },
+        {
+          "name": "Israel – Gaza / Lebanon / West Bank",
+          "status": "Ceasefire holding but fraying — deadly Israeli strikes continue in Gaza; US mediators discuss a phased Israeli withdrawal from Lebanese 'pilot zones'; settler violence persists in the West Bank",
+          "timeline": [
+            {
+              "date": "2026-07-11",
+              "event": "A US delegation is in Lebanon to discuss an Israeli withdrawal from two 'pilot zones'; under a June agreement the Lebanese military is to take full control of the areas.",
+              "source": "CNA, The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/us-lebanon-israel-pilot-zone-withdrawal-6248221"
+            },
+            {
+              "date": "2026-07-11",
+              "event": "US Democratic congressman Ro Khanna says he was detained by armed Israeli settlers while visiting the occupied West Bank.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/c0qyk9jwq9no"
+            },
+            {
+              "date": "2026-07-12",
+              "event": "Israeli police arrest four settlers over an attack on a CNN crew in the West Bank; CNN said its team was blocked by settlers armed with rods and stones.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/israel-police-arrest-four-settlers-over-west-bank-attack-on-cnn-crew"
+            },
+            {
+              "date": "2026-07-12",
+              "event": "Israeli attacks in Gaza kill three people, including a girl, according to medics. Israel has not commented on the specific strikes.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/israeli-attacks-in-gaza-kill-three-people-including-a-girl-say-medics"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "Bundibugyo Ebola in DR Congo is still the world's most serious outbreak and still growing fast — ECDC now counts about 1,813 confirmed cases and 627 deaths, above WHO's last formal 3 July figure of 1,481 and 454, with a fatality rate near 31%. Uganda's chain looks contained at 20 cases. The MV Hondius hantavirus cluster appears closed at 13 cases. In the US, CDC has confirmed 843 cyclosporiasis cases across 31 states.",
+      "outbreaks": [
+        {
+          "name": "Bundibugyo Ebola — DR Congo & Uganda",
+          "status": "Still growing rapidly in DR Congo; Uganda's chain appears contained",
+          "cases": 1813,
+          "deaths": 627,
+          "countries": 3,
+          "as_of": "2026-07-10",
+          "scope_note": "Laboratory-confirmed cases only. Per ECDC (page updated 10 Jul 2026): DR Congo 1,792 cases / 625 deaths as of 8 Jul; Uganda 20 / 2 (last Ugandan case 21 Jun); plus one exported case in France linked to DRC — the totals here sum those parts. WHO's last formal Disease Outbreak News (DON612, 3 Jul) put the confirmed total at 1,481 cases / 454 deaths; the higher figure reflects more recent national reporting that is not yet DON-ratified. Suspected cases are excluded. Crude case-fatality ratio in DRC is about 31%."
+        },
+        {
+          "name": "Cyclosporiasis — United States",
+          "status": "Rising; CDC says no single multistate outbreak has been established",
+          "cases": 843,
+          "deaths": 0,
+          "countries": 1,
+          "as_of": "2026-07-09",
+          "scope_note": "CDC-confirmed domestically-acquired cases since 1 May 2026, reported by 31 states, as of 9 Jul; CDC is aware of 1,500+ further cases still awaiting confirmation. Tallies diverge sharply: NBC News' count from state health departments put the total above 3,000 as of 10 Jul, with Michigan alone reporting 1,562 — those figures are not CDC-confirmed. CDC says it has no evidence of a single multistate Cyclospora outbreak; contaminated fresh produce is the working hypothesis. No deaths reported."
+        },
+        {
+          "name": "Andes hantavirus — MV Hondius cruise ship",
+          "status": "Cluster appears closed out; the last case was detected after disembarkation and isolated",
+          "cases": 13,
+          "deaths": 3,
+          "countries": "Multi-country",
+          "as_of": "2026-07-02",
+          "scope_note": "WHO Disease Outbreak News 611 (2 Jul 2026): 13 cases (12 confirmed, one probable) including three deaths (two confirmed, one probable), all among people who travelled aboard the M/V Hondius; case-fatality ratio 23%. Cases were notified across several countries and territories — including the UK, the Netherlands, South Africa, France and Tristan da Cunha — and WHO does not publish a single country count. Eight hospitalised patients have recovered; two remain in hospital."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "Bundibugyo Ebola passes 1,800 confirmed cases as DR Congo's death toll tops 600",
+          "category": "Ebola",
+          "summary": "ECDC's outbreak page, updated 10 July, reports 1,792 confirmed cases and 625 deaths in DR Congo as of 8 July — 33 new cases and 25 new deaths on the previous reporting period. Cases are concentrated in Ituri and North Kivu, with two reported in Kisangani (Tshopo province), one linked to Ituri. About 764 patients are hospitalised in isolation, 295 have recovered, and 78.6% of identified contacts are under follow-up. Uganda's outbreak remains at 20 cases and two deaths.",
+          "source": "ECDC",
+          "published_at": "2026-07-10",
+          "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"
+        },
+        {
+          "id": "ob2",
+          "headline": "US cyclosporiasis surge reaches 843 CDC-confirmed domestic cases across 31 states",
+          "category": "Foodborne illness",
+          "summary": "CDC has confirmed 843 domestically-acquired cyclosporiasis cases across 31 states since 1 May, with more than 1,500 further cases awaiting confirmation. Patients ranged from 5 to 88 years old (median 44), and 59% were female. CDC cautions that it has \"no evidence of a single, multistate Cyclospora outbreak\" despite press reports, and points to contaminated fresh produce as the likely driver. State health departments are reporting substantially higher numbers than CDC's confirmed count.",
+          "source": "US CDC, NBC News",
+          "published_at": "2026-07-09",
+          "url": "https://www.cdc.gov/cyclosporiasis/php/surveillance/index.html"
+        },
+        {
+          "id": "ob3",
+          "headline": "WHO: Bundibugyo Ebola climbs to 1,481 confirmed cases and 454 deaths on rapid DRC rise",
+          "category": "Ebola",
+          "summary": "In its 3 July Disease Outbreak News, WHO reported 1,481 confirmed cases (1,460 in DR Congo, 20 in Uganda, one in France) and 454 deaths — an increase of 564 cases and 220 deaths in DRC since the 19 June update, driven partly by a scale-up in surveillance and testing capacity. The crude case-fatality ratio in DRC stands at 30.9%. Cases have been reported across 36 health zones, with the outbreak still active in 21 of them; 102 health and care workers have been infected, 25 of them fatally.",
+          "source": "WHO",
+          "published_at": "2026-07-03",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON612"
+        },
+        {
+          "id": "ob4",
+          "headline": "ECDC keeps Bundibugyo Ebola on its weekly communicable disease threats report",
+          "category": "Surveillance",
+          "summary": "ECDC's Communicable Disease Threats Report for week 27 (27 June – 3 July) continues to list the Bundibugyo Ebola outbreak as an active threat to the EU/EEA, alongside its routine monitoring of other cross-border health events.",
+          "source": "ECDC",
+          "published_at": "2026-07-03",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-27-june-3-july-2026-week-27"
+        },
+        {
+          "id": "ob5",
+          "headline": "WHO confirms 13th Andes hantavirus case from the MV Hondius as the cruise-ship cluster stabilises",
+          "category": "Hantavirus",
+          "summary": "WHO's 2 July Disease Outbreak News reports a 13th case linked to the M/V Hondius — a probable case in Tristan da Cunha, laboratory-confirmed after the patient developed symptoms following disembarkation. Early detection and isolation prevented further transmission, though limited diagnostic capacity on the island delayed confirmation until a sample was shipped to the UK. The total stands at 13 cases and three deaths, a case-fatality ratio of 23%.",
+          "source": "WHO",
+          "published_at": "2026-07-02",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON611"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "Supply-chain attacks dominate: a compromised jscrambler npm release dropped a Rust infostealer, Injective Labs' GitHub was hijacked to push wallet-stealing packages, and npm 12 has responded by disabling install scripts by default. Two urgent items lead — a critical Zimbra web-client flaw found by Google's Threat Analysis Group (fixed in 10.1.19), and Progress telling ShareFile customers to power down Storage Zone Controllers. An actively exploited Gitea auth bypass (CVE-2026-20896, CVSS 9.8) rounds out the set.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "Compromised jscrambler 8.14.0 npm release drops Rust infostealer during install",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A malicious release of the jscrambler npm package (8.14.0) executed a Rust-based infostealer during installation, harvesting credentials from developer machines. Anyone who installed or updated the package should treat the host as compromised and rotate secrets. It is the third npm supply-chain incident in this cycle.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-12T01:59+08:00",
+          "url": "https://thehackernews.com/2026/07/compromised-jscrambler-8140-npm-release.html"
+        },
+        {
+          "id": "cs2",
+          "headline": "Hackers weaponise Balochistan police portal in multi-group espionage campaigns",
+          "category": "Threat Actor",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Multiple espionage groups have independently compromised the Balochistan police portal and used it as a watering hole to serve malware to visitors. The overlap of several distinct actors on a single government site is the notable part — it suggests the portal was broadly exposed rather than surgically targeted.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-12T01:49+08:00",
+          "url": "https://thehackernews.com/2026/07/hackers-weaponize-balochistan-police.html"
+        },
+        {
+          "id": "cs3",
+          "headline": "Australia warns of global campaign deploying webshells via vulnerable CMS platforms",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-56291",
+          "cvss": 9.8,
+          "severity": "HIGH",
+          "summary": "The Australian Cyber Security Centre warns that attackers are scanning for and exploiting at least 19 known CMS vulnerabilities — across WordPress (Ninja Forms, Breeze Cache, WPvivid Backup, Gravity Forms), Craft CMS, MaxSite, MetInfo and Joomla JCE — to plant webshells, and says many small and medium Australian businesses are already compromised. CISA corroborates the pressure on Joomla extensions: it added actively-exploited flaws in Balbooa Forms (CVE-2026-56291, CVSS 9.8 per NVD) and iCagenda (CVE-2026-48939) to its Known Exploited Vulnerabilities catalog on 10 July.",
+          "source": "BleepingComputer, CISA KEV, NVD",
+          "published_at": "2026-07-11T22:18+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/australia-warns-of-global-campaign-targeting-vulnerable-cms-platforms/"
+        },
+        {
+          "id": "cs4",
+          "headline": "'Ghostcommit' hides prompt injection inside images to fool AI coding agents into leaking secrets",
+          "category": "AI Security",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers at the University of Missouri-Kansas City's ASSET Research Group hid malicious instructions inside PNG images attached to pull requests, instructing AI coding agents to pull secrets from .env files and smuggle them out encoded as integer arrays — evading both human reviewers, who skip binary files, and secret scanners. Cursor and Antigravity were vulnerable across multiple models; the researchers reported that Anthropic's Claude Code refused the attack under every model they tested, concluding \"the tooling decided, not the model\". They also found 73% of merged pull requests in their sample showed no substantive review.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-11T17:03+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/ghostcommit-hides-prompt-injection-in-images-to-fool-ai-agents-steal-secrets/"
+        },
+        {
+          "id": "cs5",
+          "headline": "Critical Zimbra flaw lets crafted emails run malicious code in user sessions",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "A stored cross-site scripting flaw in the Zimbra Classic Web Client lets a specially crafted email execute code when it is opened, potentially exposing session data, account settings and mailbox contents. It is fixed in Zimbra 10.1.19 and no CVE has been assigned yet. Zimbra has not tagged it as exploited in the wild, but it was reported by Google's Threat Analysis Group, which typically surfaces zero-days used by state-backed groups — treat patching as urgent.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-11T14:45+08:00",
+          "url": "https://thehackernews.com/2026/07/critical-zimbra-flaw-could-let-crafted_0483473395.html"
+        },
+        {
+          "id": "cs6",
+          "headline": "Six new U-Boot flaws could let malicious images run code before the OS boots",
+          "category": "Firmware",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Binarly disclosed six flaws (BRLY-2026-037 to BRLY-2026-042) in U-Boot's FIT signature verification. Two allow arbitrary code execution during firmware verification — before the operating system starts, so an attacker can disable security features and install persistent malware — while four cause denial of service. Binarly says the bugs potentially affect over 50 stable U-Boot releases and many downstream vendor builds. No CVEs have been assigned.",
+          "source": "BleepingComputer, The Hacker News",
+          "published_at": "2026-07-11T05:59+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/new-u-boot-flaws-could-enable-stealthy-firmware-attacks/"
+        },
+        {
+          "id": "cs7",
+          "headline": "Dutch police suspect domestic hackers were involved in the Odido telecom breach",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Police investigating the breach at Dutch telecoms operator Odido believe Dutch nationals were involved, BleepingComputer reports. The case is a reminder that telecom subscriber databases remain a high-value target for domestic as well as state-linked actors.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-11T00:37+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/police-suspects-dutch-hackers-were-involved-in-odido-breach/"
+        },
+        {
+          "id": "cs8",
+          "headline": "Injective Labs GitHub compromise pushes wallet-key-stealing npm packages",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Attackers compromised Injective Labs' GitHub organisation and published trojanised versions of the Injective SDK to npm that steal cryptocurrency wallet private keys. Developers who pulled affected SDK versions should assume any keys handled on that machine are compromised and move funds.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-11T00:29+08:00",
+          "url": "https://thehackernews.com/2026/07/injective-labs-github-compromise-pushes.html"
+        },
+        {
+          "id": "cs9",
+          "headline": "Progress tells ShareFile customers to shut down Storage Zone Controllers over 'credible' threat",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "Progress emailed ShareFile customers with the subject \"Service Disruption. Immediate Action Required\", telling them to manually shut down the servers hosting their Storage Zone Controllers over a \"credible external security threat\", and temporarily disabled access for affected accounts. Progress has not said whether a zero-day is involved, and reported no indication of unauthorised access at the time of notification. The parallel with Clop's 2023 exploitation of Progress MOVEit Transfer is hard to miss — managed file transfer remains a prime target.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-11T00:26+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/progress-urges-sharefile-customers-to-shut-down-servers-over-credible-threat/"
+        },
+        {
+          "id": "cs10",
+          "headline": "Hackers exploit critical authentication bypass in the Gitea Docker image",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-20896",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "Official Gitea Docker images up to 1.26.2 ship with REVERSE_PROXY_TRUSTED_PROXIES set to a wildcard, so when reverse-proxy authentication is enabled Gitea trusts the X-WEBAUTH-USER header from any source IP — letting an unauthenticated internet client become any user, including an administrator, with no password or token. NVD rates it CVSS 9.8 (CRITICAL). Exploitation is under way, with the first confirmed attack 13 days after the advisory; around 6,200 Gitea instances are exposed online. Fix: upgrade to 1.26.3 or 1.26.4, or restrict trusted proxies to specific IPs.",
+          "source": "BleepingComputer, NVD",
+          "published_at": "2026-07-10T23:48+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-critical-auth-bypass-in-gitea-docker-image/"
+        },
+        {
+          "id": "cs11",
+          "headline": "Laser attack resets Tangem wallet passwords on cards that cannot be patched",
+          "category": "Hardware",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers demonstrated a laser fault-injection attack that resets the access password on Tangem hardware wallet cards. Because the weakness is in the card silicon, existing cards cannot be patched — mitigation comes down to physical custody. The attack requires local access to the device.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-10T22:51+08:00",
+          "url": "https://thehackernews.com/2026/07/laser-attack-resets-tangem-wallet.html"
+        },
+        {
+          "id": "cs12",
+          "headline": "Researcher details WhatsApp-to-host attack chain using three OpenClaw flaws",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A researcher chained three flaws in OpenClaw to escalate from an inbound WhatsApp message all the way to code execution on the host machine. The chain illustrates how message-driven agent integrations widen the attack surface from the messaging app to the underlying system.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-10T22:19+08:00",
+          "url": "https://thehackernews.com/2026/07/researcher-details-whatsapp-to-host.html"
+        },
+        {
+          "id": "cs13",
+          "headline": "Unpatched XRING flaw in XQUIC lets remote clients crash HTTP/3 servers",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A remotely triggerable denial-of-service flaw dubbed XRING in the XQUIC library lets any client crash an HTTP/3 server. It remains unpatched, so operators exposing HTTP/3 via XQUIC should consider rate-limiting or disabling the protocol until a fix lands. No CVE has been assigned.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-10T19:47+08:00",
+          "url": "https://thehackernews.com/2026/07/unpatched-xring-flaw-in-xquic-lets.html"
+        },
+        {
+          "id": "cs14",
+          "headline": "Exposed hacker server reveals WP-SHELLSTORM backdooring thousands of WordPress sites",
+          "category": "Threat Actor",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "An exposed attacker server revealed the scale of WP-SHELLSTORM, a campaign that has backdoored thousands of WordPress sites. It dovetails with Australia's CMS webshell warning — WordPress plugin flaws remain the most reliably exploited entry point on the open web.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-10T19:30+08:00",
+          "url": "https://thehackernews.com/2026/07/exposed-hacker-server-reveals-wp.html"
+        },
+        {
+          "id": "cs15",
+          "headline": "Hackers use fake Microsoft Entra passkey enrolment to gain Microsoft 365 access",
+          "category": "Threat Actor",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Attackers are socially engineering users into enrolling an attacker-controlled passkey in Microsoft Entra, granting durable access to Microsoft 365 accounts that survives a password reset. Passkeys are phishing-resistant at sign-in, but the enrolment step is not — lock down who can register new authentication methods.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-10T18:30+08:00",
+          "url": "https://thehackernews.com/2026/07/hackers-use-fake-microsoft-entra.html"
+        },
+        {
+          "id": "cs16",
+          "headline": "Attackers exploit 'Ill Bloom' vulnerability to drain over $5 million from crypto wallets",
+          "category": "Exploited Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A vulnerability dubbed Ill Bloom has been actively exploited to drain more than US$5 million from cryptocurrency wallets. The theft is visible on-chain; affected users should move any remaining funds to fresh keys.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-10T17:00+08:00",
+          "url": "https://thehackernews.com/2026/07/attackers-exploit-ill-bloom.html"
+        },
+        {
+          "id": "cs17",
+          "headline": "OpenMandriva says a contributor tried to sabotage the project",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "The OpenMandriva Linux project says one of its contributors attempted to sabotage the distribution. Insider risk in open-source projects has drawn scrutiny since the XZ Utils backdoor, and this case follows the same shape: trust earned over time, then abused.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-10T06:14+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/openmandriva-linux-says-contributor-tried-to-sabotage-the-project/"
+        },
+        {
+          "id": "cs18",
+          "headline": "Dormant GitHub accounts help attackers blend in while mapping corporate orgs",
+          "category": "Threat Actor",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Attackers are reactivating long-dormant GitHub accounts — which carry aged, innocuous histories — to quietly enumerate corporate organisations and repositories without tripping new-account heuristics. Worth factoring into how you run org membership and access reviews.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-10T02:38+08:00",
+          "url": "https://thehackernews.com/2026/07/dormant-github-accounts-help-attackers.html"
+        },
+        {
+          "id": "cs19",
+          "headline": "New GigaWiper Windows backdoor bundles disk wiping, fake ransomware and spyware",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "GigaWiper is a Windows backdoor that combines disk-wiping, a fake ransomware note and spyware capability in a single package. The bogus ransom demand appears designed to disguise destructive intent as a financially-motivated attack, which complicates incident triage.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-10T02:08+08:00",
+          "url": "https://thehackernews.com/2026/07/new-gigawiper-windows-backdoor-bundles.html"
+        },
+        {
+          "id": "cs20",
+          "headline": "New Helix vishing group emerges in SharePoint data theft attacks",
+          "category": "Threat Actor",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A new group tracked as Helix is calling employees directly — voice phishing — to talk them into granting access, then exfiltrating data from SharePoint. It follows the Scattered Spider playbook of attacking the help desk rather than the perimeter; verify identity out-of-band before granting any access over the phone.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-10T01:08+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/new-helix-vishing-group-emerges-in-sharepoint-data-theft-attacks/"
+        },
+        {
+          "id": "cs21",
+          "headline": "Microsoft expects more Windows security updates from AI-discovered flaws",
+          "category": "Industry",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Microsoft says AI-assisted vulnerability discovery is finding enough Windows bugs that customers should expect a higher volume of security updates. The practical implication for defenders: patch cadence and testing windows may need to tighten.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-10T01:00+08:00",
+          "url": "https://www.bleepingcomputer.com/news/microsoft/microsoft-expects-more-windows-security-updates-from-ai-discovered-flaws/"
+        },
+        {
+          "id": "cs22",
+          "headline": "npm 12 disables install scripts by default to reduce supply-chain risk",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "npm 12 no longer runs package install scripts by default — the mechanism behind both the jscrambler and Injective SDK compromises, where malicious code executed the moment a package was installed. It is a direct response to an active, ongoing class of attack, and it will break legitimate packages that rely on postinstall hooks.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-10T00:49+08:00",
+          "url": "https://thehackernews.com/2026/07/npm-12-disables-install-scripts-by.html"
+        }
+      ]
+    }
+  }
+}

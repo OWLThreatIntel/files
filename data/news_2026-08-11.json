@@ -1,0 +1,930 @@
+{
+  "meta": {
+    "date": "2026-08-11",
+    "generated_at": "2026-08-11T21:14:24+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "BBC News",
+      "CNA",
+      "The Straits Times",
+      "Mothership",
+      "AP",
+      "Al Jazeera",
+      "Bloomberg",
+      "CNBC",
+      "WHO Disease Outbreak News",
+      "US CDC",
+      "US FDA",
+      "ECDC",
+      "CISA KEV",
+      "NVD",
+      "BleepingComputer",
+      "The Hacker News",
+      "Microsoft",
+      "Kaspersky",
+      "Wordfence",
+      "Genians",
+      "NEA (data.gov.sg)",
+      "LTA (data.gov.sg)",
+      "Motorist.sg",
+      "MTI",
+      "Enterprise Singapore"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "Rescuers in western Colombia worked a second day through collapsed buildings after Monday's magnitude-7.4 earthquake, with the official death toll climbing through Tuesday from 111 to at least 164 and officials warning it will rise further. Disaster news ran across the region — Venezuela revised the toll from its June twin quakes up to 6,301, and Typhoon Dolphin flooded central China. Washington set the political weather, with Trump ordering a thinner childhood vaccine schedule that the WHO and US paediatricians publicly disputed within hours, and Syria's courts closing a chapter of their own by sentencing Bashar al-Assad to death in absentia. The number to watch is the Colombian toll, which rescue teams expect to keep climbing as more buildings are cleared.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "Colombia quake death toll passes 160 as rescuers dig for a second day",
+          "category": "Disasters",
+          "summary": "Emergency teams searched collapsed buildings across western Colombia for a second day after Monday's magnitude-7.4 earthquake struck the country's coffee-growing heartland. Official tolls rose through Tuesday: BBC reported at least 132 dead and more than 480 injured in the morning, and CNA put the figure at at least 164 by mid-afternoon. President Abelardo de la Espriella has declared a state of emergency, and authorities say the toll is expected to rise.",
+          "source": "CNA; BBC News",
+          "published_at": "2026-08-11T15:31+08:00",
+          "url": "https://www.channelnewsasia.com/world/colombia-earthquake-rescue-efforts-death-toll-rise-6311401"
+        },
+        {
+          "id": "ts2",
+          "headline": "Syria sentences ousted leader Bashar al-Assad to death in absentia",
+          "category": "World Politics",
+          "summary": "A Syrian court sentenced former president Bashar al-Assad to death in absentia, convicting him over killings and torture during the country's civil war. Assad fled Damascus as rebel fighters approached nearly two years ago and is in Moscow, so the sentence cannot be carried out unless he returns or is handed over.",
+          "source": "BBC News; CNA; The Straits Times",
+          "published_at": "2026-08-11T18:43+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/ce34dkpnyg7o"
+        },
+        {
+          "id": "ts3",
+          "headline": "Trump orders narrower childhood vaccine schedule; WHO pushes back",
+          "category": "Health Policy",
+          "summary": "President Donald Trump signed an executive order pushing for an overhaul of the US childhood immunisation schedule, including splitting the combined measles, mumps and rubella shot into separate doses. A WHO spokesman said immunisation schedules rest on more than 60 years of research, and the American Academy of Pediatrics called the MMR recommendation \"dangerous\". Many medical experts quoted by wire services described the push as scientifically unsupported.",
+          "source": "BBC News; The Straits Times",
+          "published_at": "2026-08-11T18:00+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/ce3q5vl581wo"
+        },
+        {
+          "id": "ts4",
+          "headline": "Trump left Türkiye on a secret plane swap over Iranian threat, Washington Post reports",
+          "category": "US Politics",
+          "summary": "The Washington Post reported that after Trump boarded Air Force One in front of cameras in Ankara following a NATO summit, he was moved by an airport catering truck to a smaller aircraft because of an Iranian threat, with reporters told he was still aboard the original plane. The account is a media report; the White House has not publicly confirmed the details.",
+          "source": "BBC News; CNA; The Straits Times",
+          "published_at": "2026-08-11T17:58+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cm2g90vvy62o"
+        },
+        {
+          "id": "ts5",
+          "headline": "Zelensky says Russia fired North Korean missiles in Zaporizhzhia attack that killed six",
+          "category": "Wars & Conflicts",
+          "summary": "President Volodymyr Zelensky said Russian forces killed six people and injured 19 in a pre-dawn attack on Zaporizhzhia that used North Korean ballistic missiles, and said Moscow is readying more North Korean troops and missiles. These are Ukrainian official claims and have not been independently verified; Russia's defence ministry said separately that it struck military-related logistics sites and a steel works.",
+          "source": "BBC News; The Straits Times; CNA",
+          "published_at": "2026-08-11T17:39+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c151dpzwnvxo"
+        },
+        {
+          "id": "ts6",
+          "headline": "Wall Street firms line up US$500 billion to finance Nvidia-powered AI build-out",
+          "category": "Business",
+          "summary": "Nvidia said it is working with a group of large asset managers and banks — reported to include Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR — to mobilise more than US$500 billion of third-party capital for AI data centres, power and chips. The financing is structured through special-purpose vehicles using compute capacity as collateral, aimed at hyperscalers and frontier AI labs buying Nvidia hardware.",
+          "source": "BBC News; Bloomberg; CNBC",
+          "published_at": "2026-08-11T16:44+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c78gr0jv0mdo"
+        },
+        {
+          "id": "ts7",
+          "headline": "Congo says Ebola deaths have passed 2,000 in the fastest-spreading outbreak on record",
+          "category": "Health",
+          "summary": "The Democratic Republic of Congo's public health institute said confirmed Ebola deaths had reached 2,011, with 4,381 confirmed cases across five provinces. Health officials describe it as the fastest-spreading Ebola outbreak recorded; only the 2014–16 West Africa epidemic was larger. The strain is Bundibugyo, for which there is no approved vaccine or treatment. These national figures are more recent than WHO's last formal Disease Outbreak News count.",
+          "source": "The Straits Times; AP; Al Jazeera",
+          "published_at": "2026-08-11T16:24+08:00",
+          "url": "https://www.straitstimes.com/world/ebola-deaths-surpass-2000-in-democratic-republic-of-congo"
+        },
+        {
+          "id": "ts8",
+          "headline": "Philippine Vice-President Sara Duterte charged over alleged threat to Marcos",
+          "category": "Asia Politics",
+          "summary": "Philippine prosecutors filed a criminal charge against Vice-President Sara Duterte over remarks authorities treated as a threat against President Ferdinand Marcos Jr. The case adds to the long-running rupture between the two families that dominated the country's 2022 election ticket.",
+          "source": "CNA",
+          "published_at": "2026-08-11T19:23+08:00",
+          "url": "https://www.channelnewsasia.com/asia/philippines-sara-duterte-marcos-threat-criminal-charge-6312101"
+        },
+        {
+          "id": "ts9",
+          "headline": "Thai PM suspends gun licences after school shooting; teen gunman and grandparents cremated",
+          "category": "Asia",
+          "summary": "Prime Minister Anutin Charnvirakul suspended the issuing of new gun licences following the school shooting carried out by a teenager, as funerals were held for the gunman and his grandparents. The shooter's mother apologised to victims' families at the funeral and said there had been \"no signs\" beforehand.",
+          "source": "CNA; Mothership",
+          "published_at": "2026-08-11T18:34+08:00",
+          "url": "https://www.channelnewsasia.com/asia/thailand-gun-licence-suspended-shooting-anutin-6311946"
+        },
+        {
+          "id": "ts10",
+          "headline": "Hormuz traffic drops to six vessels a day as US–Iran hopes fade",
+          "category": "Energy & Shipping",
+          "summary": "Shipping data showed traffic through the Strait of Hormuz fell to six vessels on Monday, against a 10-day average of about 11, as prospects of a US–Iran agreement receded. Trump said any deal would require Iranian reparations covering deaths among civilian demonstrators and US forces in the region; oil prices rose on the standoff while global equities were mixed.",
+          "source": "The Straits Times; CNA",
+          "published_at": "2026-08-11T12:49+08:00",
+          "url": "https://www.straitstimes.com/world/middle-east/gulf-shipping-traffic-via-strait-of-hormuz-falls-to-six-vessels"
+        },
+        {
+          "id": "ts11",
+          "headline": "Venezuela raises June earthquake death toll to 6,301",
+          "category": "Disasters",
+          "summary": "National Assembly chief Jorge Rodriguez said the death toll from Venezuela's twin June earthquakes rose to 6,301 as of Aug 10, up from 6,125 on Aug 3. The governor of the worst-hit state of La Guaira said about 1,400 people remain missing. The 7.2- and 7.5-magnitude tremors destroyed around 190 buildings and left some 24,000 people homeless, many still in makeshift camps.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-11T07:40+08:00",
+          "url": "https://www.straitstimes.com/world/venezuela-quake-death-toll-rises-to-6301"
+        },
+        {
+          "id": "ts12",
+          "headline": "US court clears thousands of social-media addiction lawsuits against Meta and rivals",
+          "category": "Technology & Law",
+          "summary": "A US court ruled that Meta, Alphabet, ByteDance and other technology firms must face thousands of lawsuits alleging their platforms were designed to addict young users. The decision lets the consolidated claims proceed toward trial rather than being dismissed at the threshold.",
+          "source": "CNA; The Straits Times",
+          "published_at": "2026-08-11T00:13+08:00",
+          "url": "https://www.channelnewsasia.com/business/meta-alphabet-bytedance-social-media-addiction-lawsuits-6310301"
+        },
+        {
+          "id": "ts13",
+          "headline": "Prabowo orders coordinated response as Indonesian wildfires spread",
+          "category": "Asia",
+          "summary": "Indonesian President Prabowo Subianto ordered coordinated measures against wildfires burning amid an intense El Nino, with the smoke raising haze concerns for neighbouring Singapore, Malaysia and Sarawak. CNA separately reported that meteorologists describe the current El Nino as unusually strong for South-east Asia.",
+          "source": "CNA",
+          "published_at": "2026-08-11T14:03+08:00",
+          "url": "https://www.channelnewsasia.com/asia/indonesia-wildfire-bromo-el-nino-haze-singapore-sarawak-6311376"
+        },
+        {
+          "id": "ts14",
+          "headline": "Typhoon Dolphin floods central China, Beijing on alert for heavy rain",
+          "category": "Asia",
+          "summary": "Typhoon Dolphin brought flooding to central China and prompted heavy-rain alerts in Beijing. Forecasters separately warned that this year's typhoon season is on track to be among the most intense for Asia.",
+          "source": "CNA; The Straits Times",
+          "published_at": "2026-08-11T12:00+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/typhoon-dolphin-central-china-storm-6311111"
+        },
+        {
+          "id": "ts15",
+          "headline": "Turkish parliament passes law to advance PKK peace process",
+          "category": "World Politics",
+          "summary": "Türkiye's parliament passed legislation described as a landmark step in the process aimed at ending the decades-long conflict with the PKK. The law is intended to underpin the disarmament and reintegration track that Ankara has been pursuing.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-11T03:49+08:00",
+          "url": "https://www.straitstimes.com/world/middle-east/turkish-parliament-passes-landmark-law-to-advance-pkk-peace-process"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "The government raised its 2026 growth forecast to 4.5–5.5 per cent after the economy grew 5.9 per cent in the second quarter, with AI-driven demand lifting key exports 27.4 per cent — though manufacturers say they are still absorbing the new 12.5 per cent US tariff rather than shifting production out of Singapore. Enforcement filled much of the rest of the day: lawyer and opposition politician Lim Tean was handed to Singapore police by Malaysian authorities after failing to surrender for his jail term, and health authorities caught more than 2,400 vaping offenders in a single quarter. NUS made AI courses compulsory and will give every student and staff member ChatGPT access from Aug 31. The buzz skewed to everyday heroics and food, led by the Clementi cleaner who disarmed a knife-wielding man and insists he is not a hero. The thing to watch is whether the tariff bill starts eating into that export run.",
+      "weather": {
+        "forecast": "Fair (Day)",
+        "temp_low": 26,
+        "temp_high": 34,
+        "humidity_low": 50,
+        "humidity_high": 85,
+        "as_of": "2026-08-11T17:31+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Aug 2026 · 1st bidding",
+        "as_of": "2026-08-05",
+        "next_results": "2026-08-19",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          {
+            "code": "A",
+            "label": "Cars up to 1600cc & 130bhp",
+            "premium": 123890,
+            "change": -2110
+          },
+          {
+            "code": "B",
+            "label": "Cars above 1600cc or 130bhp",
+            "premium": 129910,
+            "change": 20
+          }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "MTI raises 2026 growth forecast to 4.5%–5.5% after 5.9% second quarter",
+          "category": "Economy",
+          "summary": "The Ministry of Trade and Industry upgraded its 2026 GDP growth forecast to 4.5–5.5 per cent, after the economy expanded 5.9 per cent year on year in the second quarter. MTI cited stronger AI-related spending and a less severe-than-feared impact from the Middle East conflict. Several private-sector economists raised their own forecasts, describing the revision as a bullish signal of AI-driven expansion while noting other sectors also contributed.",
+          "source": "CNA",
+          "published_at": "2026-08-11T08:00+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/economy-gdp-forecast-mti-growth-6310711"
+        },
+        {
+          "id": "sg2",
+          "headline": "Key exports surge 27.4% in Q2 on AI-driven electronics demand",
+          "category": "Economy",
+          "summary": "Non-oil domestic exports rose 27.4 per cent in the second quarter as AI demand fuelled an electronics boom, according to Enterprise Singapore data reported by CNA. NODX grew 18.6 per cent in the first half of 2026, the strongest first-half performance since 2010.",
+          "source": "CNA",
+          "published_at": "2026-08-11T09:59+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/q2-2026-key-exports-surge-ai-electronics-6310796"
+        },
+        {
+          "id": "sg3",
+          "headline": "Lim Tean handed over to Singapore police after arrest in Johor",
+          "category": "Courts & Crime",
+          "summary": "Lawyer and opposition politician Lim Tean was arrested by Singapore police on Tuesday after Malaysian authorities handed him over, following his arrest by the Royal Malaysia Police in Johor on Aug 6. He had failed to surrender to the Singapore courts to begin serving his jail term.",
+          "source": "CNA; The Straits Times",
+          "published_at": "2026-08-11T20:46+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/lim-team-arrest-malaysia-return-6312281"
+        },
+        {
+          "id": "sg4",
+          "headline": "More than 2,400 people caught vaping in the second quarter",
+          "category": "Health",
+          "summary": "Authorities caught more than 2,400 vaping offenders between April and June, of whom 457 were etomidate vaporiser offenders, according to figures from MOH and HSA. Separately, schools and tertiary institutions referred 245 students to HSA for vaping over the same period, and more than 480 young people received smoking and vaping cessation counselling.",
+          "source": "CNA; The Straits Times",
+          "published_at": "2026-08-11T17:23+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/vaping-offenders-caught-etomidate-moh-hsa-6311451"
+        },
+        {
+          "id": "sg5",
+          "headline": "NUS makes AI courses compulsory and gives all students free ChatGPT Edu access",
+          "category": "Education",
+          "summary": "The National University of Singapore announced a partnership with OpenAI under which all students, faculty and staff get ChatGPT Edu access from Aug 31, and incoming freshmen must take a compulsory AI module. The university framed the moves as part of a new institution-wide AI strategy.",
+          "source": "The Straits Times; CNA; Mothership",
+          "published_at": "2026-08-11T11:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/parenting-education/nus-makes-ai-courses-compulsory-gives-all-students-and-staff-free-chatgpt-edu-access"
+        },
+        {
+          "id": "sg6",
+          "headline": "Manufacturers absorb higher US tariff but hold off shifting production",
+          "category": "Business",
+          "summary": "Singapore manufacturers are adjusting to the new 12.5 per cent US duty by seeking productivity gains rather than moving production, CNA reported. Firms said a practical difficulty is working out which of their products are affected and how much they owe.",
+          "source": "CNA",
+          "published_at": "2026-08-11T12:25+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/manufacturers-adjust-productivity-united-states-tariffs-6309396"
+        },
+        {
+          "id": "sg7",
+          "headline": "S$1 million ransom allegedly demanded for kidnapped Singaporean, 72",
+          "category": "Crime",
+          "summary": "Kidnappers of a 72-year-old Singaporean man seized in Malaysia allegedly demanded a S$1 million ransom from his family, Mothership reported, following his rescue in Kedah. Singapore police and CNA confirmed the man was rescued and is safe; The Straits Times also reported the S$1 million ransom demand.",
+          "source": "Mothership; The Straits Times; CNA",
+          "published_at": "2026-08-11T11:48+08:00",
+          "url": "https://mothership.sg/2026/08/sporean-man-kidnapped-ransom/"
+        },
+        {
+          "id": "sg8",
+          "headline": "Man on the run for 24 years caught at Changi Airport immigration",
+          "category": "Courts & Crime",
+          "summary": "A 58-year-old Singaporean who fled the country by fishing boat in 2002 to avoid jail was arrested after failing immigration clearance at Changi Airport. He had re-entered and left Singapore several times over the years using Indonesian passports under the false identity \"Ken Srona\", and has been jailed for more than 14 months.",
+          "source": "The Straits Times; CNA; Mothership",
+          "published_at": "2026-08-11T15:47+08:00",
+          "url": "https://www.straitstimes.com/singapore/courts-crime/man-on-the-run-for-24-years-arrested-after-failing-immigration-clearance-at-changi-airport"
+        },
+        {
+          "id": "sg9",
+          "headline": "Ride vouchers and after-dark discounts on offer to pull tourists into the precincts",
+          "category": "Tourism",
+          "summary": "A new initiative offers ride vouchers and after-dark discounts to draw visitors to nightlife hot spots and neighbourhoods beyond the city centre, The Straits Times reported. The push is aimed at spreading tourist spending into precincts outside the traditional Orchard–Marina core.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-11T12:55+08:00",
+          "url": "https://www.straitstimes.com/singapore/ride-vouchers-after-dark-discounts-up-for-grabs-to-draw-tourists-to-singapores-precincts"
+        },
+        {
+          "id": "sg10",
+          "headline": "Property agents may 'borrow' transactions to meet new renewal rule, industry says",
+          "category": "Housing",
+          "summary": "From 2027, property agents must complete at least three transactions over three years, or pass a refresher examination, to renew their registration. CNA reported concerns within the industry that some agents may attribute or \"borrow\" colleagues' transactions to meet the threshold, despite rules against it.",
+          "source": "CNA",
+          "published_at": "2026-08-11T06:00+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/property-agents-borrow-transactions-minimum-requirement-licence-6305691"
+        },
+        {
+          "id": "sg11",
+          "headline": "Google rolls out AI-powered Ask Maps in Singapore",
+          "category": "Technology",
+          "summary": "Google began rolling out an updated, AI-powered Ask Maps feature to users in Singapore, which answers questions about places and includes real-time traffic and crowd-level updates.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-11T20:06+08:00",
+          "url": "https://www.straitstimes.com/singapore/google-rolls-out-updated-ai-powered-ask-maps-feature-in-singapore"
+        },
+        {
+          "id": "sg12",
+          "headline": "Prudential warns of scammers impersonating its staff and agents",
+          "category": "Scams",
+          "summary": "Prudential warned the public about scam calls and WhatsApp messages from people impersonating its employees and financial representatives, after members of the public reported being contacted.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-11T15:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/prudential-warns-against-scammers-impersonating-staff-financial-representatives"
+        },
+        {
+          "id": "sg13",
+          "headline": "Former teacher charged over sexual communication with male student",
+          "category": "Courts & Crime",
+          "summary": "A former teacher was charged with sexual communication with a minor, having allegedly sent a male student one-time-view images of a person in his underwear. The case is before the courts.",
+          "source": "CNA",
+          "published_at": "2026-08-11T19:08+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/teacher-sexual-communication-student-6311991"
+        },
+        {
+          "id": "sg14",
+          "headline": "Man to be charged after allegedly pushing airline staff and delaying Changi flight",
+          "category": "Courts & Crime",
+          "summary": "A man will be charged after allegedly pushing airline staff at Changi Airport, in an incident that delayed the flight's departure by 45 minutes.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-11T19:50+08:00",
+          "url": "https://www.straitstimes.com/singapore/man-to-be-charged-after-allegedly-pushing-airline-staff-delaying-changi-flight"
+        },
+        {
+          "id": "sg15",
+          "headline": "Man to be charged over alleged misappropriation of mosque donations",
+          "category": "Courts & Crime",
+          "summary": "A man is to be charged over the alleged misappropriation of more than S$14,000 in mosque donations between February and May 2026.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-11T17:45+08:00",
+          "url": "https://www.straitstimes.com/singapore/man-to-be-charged-over-allegedly-misappropriating-mosque-donations"
+        },
+        {
+          "id": "sg16",
+          "headline": "'I'm not a hero': cleaner who disarmed knife-wielding man in Clementi learned silat in prison",
+          "category": "Trending",
+          "summary": "Mr Osman Sidin, 56, wrestled a knife away from a man in Clementi and pinned him down until help arrived. He told CNA he is not a hero, and that he learned silat while serving time in prison. Mothership, which also identified him, reported the incident involved a man injuring himself with the knife.",
+          "source": "CNA; Mothership",
+          "published_at": "2026-08-11T19:38+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/clementi-knife-osman-sidin-hero-yellow-ribbon-silat-6312061"
+        },
+        {
+          "id": "sg17",
+          "headline": "Big crowds crossed to Johor Bahru over the long weekend — but tills stayed quiet",
+          "category": "Trending",
+          "summary": "Mothership reported large crowds travelling from Singapore to Johor Bahru over the National Day long weekend, but said stores there recorded a smaller-than-expected bump in sales.",
+          "source": "Mothership",
+          "published_at": "2026-08-11T12:17+08:00",
+          "url": "https://mothership.sg/2026/08/national-day-weekend-jb-sales-less-than-expected/"
+        },
+        {
+          "id": "sg18",
+          "headline": "Young Singaporeans put hard questions to the National Youth Council on the SG Youth Plan",
+          "category": "Trending",
+          "summary": "Mothership reported that young Singaporeans pressed the National Youth Council with pointed questions about the new SG Youth Plan, and published NYC's responses.",
+          "source": "Mothership",
+          "published_at": "2026-08-11T12:00+08:00",
+          "url": "https://mothership.sg/2026/08/national-youth-council-sg-youth-plan/"
+        },
+        {
+          "id": "sg19",
+          "headline": "BigBang concert queue tops 300,000 on the first day of ticket sales",
+          "category": "Trending",
+          "summary": "More than 300,000 people were in the online queue on the first day of ticket sales for K-pop group BigBang's XX: Cosmos concert in Singapore, CNA reported.",
+          "source": "CNA",
+          "published_at": "2026-08-11T12:39+08:00",
+          "url": "https://www.channelnewsasia.com/entertainment/bigbang-singapore-ticket-sales-first-day-6311231"
+        },
+        {
+          "id": "sg20",
+          "headline": "Tian Tian Chicken Rice opens a flagship at Jewel Changi Airport",
+          "category": "Trending",
+          "summary": "The family-run Michelin Bib Gourmand hawker brand opened a flagship restaurant at Jewel Changi Airport, adding outlet-exclusive dishes including a chicken curry made to founder Foo Kui Lian's own recipe.",
+          "source": "CNA",
+          "published_at": "2026-08-11T19:32+08:00",
+          "url": "https://www.channelnewsasia.com/dining/tian-tian-chicken-rice-jewel-changi-airport-6311871"
+        },
+        {
+          "id": "sg21",
+          "headline": "Havelock Palace apologises for cooking seafood foraged from Changi Beach",
+          "category": "Trending",
+          "summary": "The Chinese restaurant apologised after online criticism over cooking seafood that had been foraged in large quantities from Changi Beach, and said it now bars food from unauthorised or unverified sources from its kitchen.",
+          "source": "CNA; The Straits Times",
+          "published_at": "2026-08-11T10:25+08:00",
+          "url": "https://www.channelnewsasia.com/dining/havelock-palace-apology-foraged-seafood-changi-beach-6310846"
+        },
+        {
+          "id": "sg22",
+          "headline": "Tickets for Singapore's ASEAN championship semi-final against Thailand go on sale Aug 12",
+          "category": "Sport",
+          "summary": "Tickets for the first leg of Singapore's ASEAN football championship semi-final against Thailand go on sale on Aug 12. The match is at Jalan Besar Stadium on Aug 15 at 9pm.",
+          "source": "CNA",
+          "published_at": "2026-08-11T19:01+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/singapore-asean-championship-semi-final-first-leg-thailand-sale-aug-12-6311976"
+        },
+        {
+          "id": "sg23",
+          "headline": "Andrea De Cruz and Pierre Png revisit her liver transplant, 23 years on",
+          "category": "Trending",
+          "summary": "The couple spoke on an episode of On The Red Dot about De Cruz's life-saving liver transplant, their 23-year marriage and overcoming fear.",
+          "source": "CNA",
+          "published_at": "2026-08-11T16:05+08:00",
+          "url": "https://www.channelnewsasia.com/entertainment/andrea-decruz-pierre-png-liver-transplant-marriage-6311531"
+        },
+        {
+          "id": "sg24",
+          "headline": "The double lives of well-educated professionals battling drug addiction",
+          "category": "Society",
+          "summary": "The Straits Times reported on a growing cohort of drug rehabilitation centre inmates with tertiary education and above, including an engineering manager with a master's degree who turned to methamphetamine under work stress.",
+          "source": "The Straits Times",
+          "published_at": "2026-08-11T17:55+08:00",
+          "url": "https://www.straitstimes.com/singapore/community/the-double-lives-of-well-educated-professionals-in-spore-with-drug-addiction"
+        },
+        {
+          "id": "sg25",
+          "headline": "Experts say youth radicalisation in Singapore is now taking weeks, not months",
+          "category": "Security",
+          "summary": "Security and counter-extremism experts told The Straits Times that more young people are behind terror-related threats and that online radicalisation that once took months can now take weeks. A CNA commentary published the same day argued that blocking platforms such as Roblox is unlikely to address the underlying problem.",
+          "source": "The Straits Times; CNA",
+          "published_at": "2026-08-11T05:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/more-young-people-behind-terror-threats-with-radicalisation-taking-just-weeks"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "Zelensky says Russia fired North Korean ballistic missiles into Zaporizhzhia in a pre-dawn attack that killed six people and injured 19, and that more North Korean troops and missiles are being readied — the sharpest claim yet that Pyongyang's hardware is landing on Ukrainian cities. Moscow's account of the same night is entirely different: its defence ministry says it hit transport and logistics sites in Kyiv and a steel works serving the war effort. Neither version is independently verified and the front line itself has not moved. In the Gulf the blockade has settled into a bargaining position rather than a fight, with the strait quieter than at any point in the crisis at six vessels a day. Gaza cooled only in tone, Trump insisting his relationship with Netanyahu is 'very good' while the rejected 15-point plan stays unresolved. Watch whether a steady North Korean missile supply changes the tempo of strikes on cities.",
+      "theatres": [
+        {
+          "name": "Russia–Ukraine War",
+          "status": "Both sides claim overnight strikes deep in the other's territory — Kyiv says a Zaporizhzhia attack that killed six used North Korean ballistic missiles, Moscow says it hit logistics and steel targets — while the ground line stays unchanged",
+          "timeline": [
+            {
+              "date": "2022-02-24",
+              "event": "Russia launches a full-scale invasion of Ukraine. Since then Russia has seized parts of the east, and the front lines have been largely static for a long period.",
+              "source": "BBC News",
+              "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo"
+            },
+            {
+              "date": "2026-08-04",
+              "event": "Russia says seven people were killed and 40 injured by a Ukrainian drone that hit a busy beach. Ukraine has not confirmed the account.",
+              "source": "BBC News",
+              "url": "https://www.bbc.co.uk/news/articles/cr7kmnyrdn7o"
+            },
+            {
+              "date": "2026-08-08",
+              "event": "Ukraine's general staff says its forces hit Russia's Ilsky and Syzran oil refineries overnight, causing fires at both. Local authorities in Krasnodar say the Ilsky fire was extinguished and blamed falling debris.",
+              "source": "BBC News; The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/fire-at-russias-ilsky-oil-refinery-put-out-after-ukrainian-drone-attack"
+            },
+            {
+              "date": "2026-08-09",
+              "event": "Zelensky says on X that a decision has been made to deploy 30,000 to 50,000 North Korean soldiers on Russian territory, up from his July estimate of 30,000, and urges South Korea to supply air-defence support. He did not say how he obtained the figure and it has not been independently verified.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/ukraines-zelenskiy-says-up-to-50000-north-korean-troops-to-be-deployed-in-russia"
+            },
+            {
+              "date": "2026-08-10",
+              "event": "Russia's defence ministry says its forces captured two villages in eastern Ukraine; Ukraine's general staff reports continuing front-line battles and does not confirm the losses.",
+              "source": "The Straits Times; CNA",
+              "url": "https://www.straitstimes.com/world/europe/russia-says-it-captures-two-villages-in-eastern-ukraine-kyiv-reports-frontline-battles"
+            },
+            {
+              "date": "2026-08-10",
+              "event": "Russian officials say at least 13 people, including a child, were killed and dozens injured in a Ukrainian drone attack on Nizhnekamsk in Tatarstan, about 1,000km from the front. Ukraine's general staff says its drones struck refinery complexes in the city and has not commented on the civilian casualties. Injury counts given by officials differ: BBC reports 75 injured, wire copy carried by The Straits Times reports 39.",
+              "source": "BBC News; The Straits Times",
+              "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po"
+            },
+            {
+              "date": "2026-08-11",
+              "event": "President Zelensky says Russian forces killed six people and injured 19 in a pre-dawn attack on Zaporizhzhia that involved North Korean ballistic missiles, and says Russia is readying more North Korean troops and missiles. These are Ukrainian official claims and have not been independently verified; Pyongyang and Moscow have not confirmed the missile transfers.",
+              "source": "BBC News; The Straits Times; CNA",
+              "url": "https://www.bbc.co.uk/news/articles/c151dpzwnvxo"
+            },
+            {
+              "date": "2026-08-11",
+              "event": "Russia's defence ministry says its forces carried out overnight strikes on military-related transport and logistics centres in Kyiv and on a major iron and steel works in Zaporizhzhia that it says supports Ukraine's war effort. Russian official claim, not independently verified; Ukraine has not confirmed the targets described.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/russia-says-it-struck-military-related-warehouses-and-steel-works-in-overnight-ukraine-strikes"
+            },
+            {
+              "date": "2026-08-11",
+              "event": "Voronezh regional governor Alexander Gusev says an overnight drone attack killed one person and injured two others, with falling debris setting warehouse facilities ablaze. Russian official claim; Ukraine has not commented.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/drone-attack-kills-one-in-russias-voronezh-region-sets-warehouses-ablaze"
+            },
+            {
+              "date": "2026-08-11",
+              "event": "Former Ukrainian prisoners describe torture and sexual abuse in Russian detention at an informal UN Security Council meeting. Russia rejects the allegations.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/ukrainian-prisoners-recount-torture-sexual-abuse-while-in-russian-detention"
+            },
+            {
+              "date": "2026-08-11",
+              "event": "Russia's top court bars the country's only anti-war party from the parliamentary vote.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/russias-top-court-bars-anti-war-party-from-parliamentary-vote"
+            }
+          ]
+        },
+        {
+          "name": "US/Israel–Iran (Strait of Hormuz)",
+          "status": "The blockade has hardened into a negotiation — Trump has added a reparations demand to Tehran's list of conditions, and traffic through the strait has fallen to six vessels a day",
+          "timeline": [
+            {
+              "date": "2026-02-28",
+              "event": "The US military operation against Iran begins; Tehran effectively blockades the Strait of Hormuz, through which around a fifth of the world's oil and gas normally flows.",
+              "source": "BBC News",
+              "url": "https://www.bbc.co.uk/news/articles/c934j5y2lq9o"
+            },
+            {
+              "date": "2026-08-02",
+              "event": "President Donald Trump says he has cancelled planned strikes on Iran, conditional on a deal being made \"rapidly\".",
+              "source": "BBC News",
+              "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o"
+            },
+            {
+              "date": "2026-08-07",
+              "event": "Saudi Arabia, Türkiye and Pakistan sign the Mecca Joint Defence Agreement, a mutual-defence pact treating an armed attack on one as an attack on all three.",
+              "source": "BBC News; CNA",
+              "url": "https://www.bbc.co.uk/news/articles/c30418m4mj4o"
+            },
+            {
+              "date": "2026-08-08",
+              "event": "The UAE says a \"hostile Iranian attack\" struck an Adnoc-affiliated tanker with a missile in the strait, with no casualties. UKMTO separately reports a ship hit by an unknown projectile off Oman. Iran has not publicly confirmed the UAE account.",
+              "source": "BBC News; The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/uae-says-iran-attacked-adnoc-vessel-with-missile-in-strait-of-hormuz"
+            },
+            {
+              "date": "2026-08-09",
+              "event": "Foreign Minister Abbas Araghchi says the agreement with Oman on new shipping lanes is in its \"final stages\" but repeats that the strait reopens only once the US meets other conditions, including compensation for what Tehran calls a violation of the June interim deal. Iran says it is not in direct talks with Washington.",
+              "source": "The Straits Times; CNA",
+              "url": "https://www.straitstimes.com/world/middle-east/iran-says-oman-deal-is-in-final-stages-but-us-must-act-to-open-hormuz"
+            },
+            {
+              "date": "2026-08-10",
+              "event": "Iran's Revolutionary Guards say the Strait of Hormuz will not reopen unless Washington meets Tehran's demands. Yemen's Houthis separately say they attacked Saudi Aramco's Jazan refinery; Saudi Arabia says the fire there was extinguished and has not commented on the claim of responsibility.",
+              "source": "CNA; The Straits Times",
+              "url": "https://www.channelnewsasia.com/world/us-iran-hormuz-reopening-demands-6308791"
+            },
+            {
+              "date": "2026-08-11",
+              "event": "Trump says any agreement requires Iranian reparations covering deaths among civilian demonstrators and US forces in the region, and hopes of a Hormuz deal fade. Oil prices rose on the standoff while global equities were mixed.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/trump-us-iran-hormuz-deal-compensation-6310521"
+            },
+            {
+              "date": "2026-08-11",
+              "event": "Shipping data show traffic through the Strait of Hormuz fell to six vessels on Monday, against a 10-day average of about 11.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/gulf-shipping-traffic-via-strait-of-hormuz-falls-to-six-vessels"
+            },
+            {
+              "date": "2026-08-11",
+              "event": "The Washington Post reports that Trump was secretly moved by an airport catering truck to a smaller aircraft when leaving a NATO summit in Türkiye, because of an Iranian threat, while reporters were told he was aboard Air Force One. The account is a media report and has not been confirmed on the record by the White House.",
+              "source": "BBC News; CNA; The Straits Times",
+              "url": "https://www.bbc.co.uk/news/articles/cm2g90vvy62o"
+            }
+          ]
+        },
+        {
+          "name": "Israel–Gaza & Lebanon",
+          "status": "Netanyahu's rejection of the US 15-point document still stands, but the rhetoric has cooled — Trump publicly plays down the rift while the plan's US sponsor calls it the only way forward",
+          "timeline": [
+            {
+              "date": "2026-07-31",
+              "event": "Hamas agrees a disarmament deal as part of a wider Gaza roadmap; analysts note the plan faces significant obstacles.",
+              "source": "BBC News",
+              "url": "https://www.bbc.co.uk/news/articles/c2dkje4p4klo"
+            },
+            {
+              "date": "2026-08-02",
+              "event": "At least 13 people are killed in Israeli strikes on Gaza after the Hamas disarmament agreement.",
+              "source": "BBC News",
+              "url": "https://www.bbc.co.uk/news/articles/czjlvvkzj20o"
+            },
+            {
+              "date": "2026-08-06",
+              "event": "Israel strikes south Lebanon after two soldiers were killed by an explosion. Rights groups separately say an Israeli attack that killed a Lebanese journalist appears to be a war crime; Israel has not accepted that characterisation.",
+              "source": "BBC News",
+              "url": "https://www.bbc.co.uk/news/articles/c998711dyjvo"
+            },
+            {
+              "date": "2026-08-08",
+              "event": "Lebanon says Israeli troops built an earth barrier in a village held by the Lebanese army — one of two \"pilot zones\" designated under a June agreement. Israel has not publicly responded to the specific allegation.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/lebanon-says-israeli-troops-built-earth-barrier-in-lebanese-army-held-village"
+            },
+            {
+              "date": "2026-08-09",
+              "event": "Netanyahu tells a cabinet meeting that \"Israel rejects the 15-point document\" and that the military will carry out no withdrawal until Hamas is \"genuinely\" disarmed. Hamas says handing over heavy weapons depends on Israel ending all forms of aggression and withdrawing from Gaza.",
+              "source": "BBC News; The Straits Times",
+              "url": "https://www.bbc.co.uk/news/articles/c5yw4lpe0yeo"
+            },
+            {
+              "date": "2026-08-10",
+              "event": "The head of the US-backed Board of Peace says the plan Netanyahu rejected is still \"the only way forward\". Israel's military separately closes the Palestinian Christian village of Taybeh in the occupied West Bank, saying the move is intended to halt settler attacks there.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/israel-military-closes-palestinian-christian-village-taybeh-to-halt-settler-attacks"
+            },
+            {
+              "date": "2026-08-11",
+              "event": "Trump says his relationship with Netanyahu is \"very good\" despite the rift over Gaza, after the two diverged when Washington sought a ceasefire and a settlement to the Iran conflict.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/united-states/trump-insists-netanyahu-relationship-very-good-despite-gaza-rift"
+            },
+            {
+              "date": "2026-08-11",
+              "event": "Colombia recognises Israel's claim over the Golan Heights, a territory most of the international community regards as occupied Syrian land.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/colombia-recognises-israeli-claim-over-golan-heights-6310936"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "Congo's Ebola epidemic is now doubling faster than any on record — it took the 2014–16 West Africa outbreak nearly five months to reach a thousand deaths, and this one added its second thousand in about three weeks. The strain is Bundibugyo, for which no approved vaccine or treatment exists, and WHO's last formal count is nearly two weeks behind Kinshasa's national figures, so the ratified numbers will jump when the next Disease Outbreak News lands. The two US outbreaks we track look flat by comparison, but Trump's order thinning the childhood immunisation schedule arrives in a measles year already the worst since 1991 — which is why WHO spent Tuesday publicly defending the existing schedule.",
+      "outbreaks": [
+        {
+          "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
+          "status": "Expanding rapidly across five DRC provinces; no approved vaccine or treatment for this strain; WHO risk in DRC assessed as very high",
+          "cases": 4381,
+          "deaths": 2011,
+          "countries": 3,
+          "as_of": "2026-08-11",
+          "scope_note": "Cases/deaths are DR Congo national figures — confirmed only, across five provinces — announced by Congo's public health institute on 11 August 2026 and reported by AP, Al Jazeera and The Straits Times. They are NOT yet ratified by WHO: the latest WHO Disease Outbreak News (DON 614, published 1 August, data to 30 July) put the WHO-confirmed total at 3,626 confirmed cases and 1,589 deaths — DR Congo 3,605/1,587 (CFR 44%), Uganda 20/2 and France 1/0, with two DRC patients treated in Germany. The countries count (3) reflects those WHO-confirmed locations. WHO says the outbreak is now the largest recorded in DRC, and an IHR Emergency Committee meeting is scheduled for 18 August."
+        },
+        {
+          "name": "Measles — United States",
+          "status": "Worst US year since 1991; the great majority of cases are outbreak-associated",
+          "cases": 2465,
+          "deaths": 0,
+          "countries": 1,
+          "as_of": "2026-08-06",
+          "scope_note": "US CDC surveillance data as of 6 August 2026: 2,465 confirmed cases in 2026, of which 2,449 were reported by 47 jurisdictions and 16 among international visitors. CDC lists 38 outbreaks that began in 2026, with 94% of confirmed cases (2,309 of 2,465) outbreak-associated. CDC updates this count weekly, so the next revision is due mid-August."
+        },
+        {
+          "name": "Salmonella Javiana — United States (fresh jalapeños)",
+          "status": "Multistate foodborne outbreak; product recalled, illness onsets stopped in late July",
+          "cases": 345,
+          "deaths": 0,
+          "countries": 1,
+          "as_of": "2026-08-05",
+          "scope_note": "CDC/FDA outbreak tally as of 5 August 2026: 345 illnesses across 27 states with 36 hospitalisations and no deaths. Illness onsets ran from 19 June to 20 July 2026; of 191 people interviewed, 177 (93%) reported eating at a Mexican-style restaurant. Traceback points to fresh jalapeños grown in Sinaloa, Mexico and distributed by Coast Citrus Distributors. CDC notes the true case count is likely higher than reported."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "Congo says confirmed Ebola deaths have passed 2,000",
+          "category": "Ebola",
+          "summary": "Congo's public health institute said on Aug 11 that confirmed Ebola deaths had reached 2,011, with 4,381 confirmed cases across five provinces — a threshold reached in under a month from 1,000 deaths. Health officials call it the fastest-spreading Ebola outbreak on record; only the 2014–16 West Africa epidemic, with 28,616 cases and 11,310 deaths, was larger. The Bundibugyo strain has no approved vaccine or treatment, and a study published in July in Science found transmission may have begun in Ituri province in January or earlier.",
+          "source": "The Straits Times; AP; Al Jazeera",
+          "published_at": "2026-08-11T16:24+08:00",
+          "url": "https://www.straitstimes.com/world/ebola-deaths-surpass-2000-in-democratic-republic-of-congo"
+        },
+        {
+          "id": "ob2",
+          "headline": "WHO defends childhood immunisation schedules after Trump orders fewer shots",
+          "category": "Immunisation",
+          "summary": "A WHO spokesman said vaccination recommendations rest on more than 60 years of research, responding to Trump's executive order pushing a narrower US childhood vaccine schedule and separate MMR doses. The American Academy of Pediatrics called the MMR recommendation dangerous. The order lands in a year in which US measles cases are already the highest since 1991.",
+          "source": "The Straits Times; BBC News",
+          "published_at": "2026-08-11T19:01+08:00",
+          "url": "https://www.straitstimes.com/world/who-defends-immunisation-schedules-after-trump-orders-fewer-childhood-shots"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "CISA says the SharePoint deserialisation flaw CVE-2026-45659 is now being used in ransomware attacks, and with over 200 internet-facing servers still unpatched that is the first thing to fix this cycle. Two other exploited edge bugs sit right behind it — a perfect-10 SonicWall SMA1000 SSRF and a critical command-injection hole in Progress LoadMaster, both freshly flagged as ransomware entry points. The research side was noisier than the patch side: a malicious SIM card can run attacker code inside the cellular modems in EV chargers and industrial routers, and a poisoned MCP server can talk an AI coding assistant into handing over SSH keys and secrets a fragment at a time. If you run SharePoint, SonicWall SMA1000 or LoadMaster on your edge, patch those before you read the rest of this section.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "CISA: Microsoft SharePoint flaw now exploited in ransomware attacks",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-45659",
+          "cvss": 8.8,
+          "severity": "HIGH",
+          "summary": "CISA has flagged the SharePoint deserialisation-of-untrusted-data flaw as abused by ransomware gangs. It lets low-privileged attackers run arbitrary code on unpatched servers in low-complexity attacks, and affects SharePoint Enterprise Server 2016, Server 2019 and Subscription Edition. CISA added it to the KEV catalog on 1 July 2026; BleepingComputer reports over 200 of 8,500-plus internet-exposed SharePoint servers remain unpatched. NVD scores it 8.8.",
+          "source": "BleepingComputer; CISA KEV; NVD",
+          "published_at": "2026-08-11T20:12+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-microsoft-sharepoint-flaw-now-exploited-in-ransomware-attacks/"
+        },
+        {
+          "id": "cs2",
+          "headline": "A malicious SIM card can run attacker code inside cellular IoT modems",
+          "category": "Vulnerability Research",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers at the University of Birmingham and security firm Fuzzware showed that a malicious SIM card can instruct the device it sits in to execute the attacker's commands. On cellular modules embedded in EV chargers, industrial routers and car telematics units, that is enough to take over the whole device. The team tested 26 phones and cellular modules for the capability. No CVE has been assigned to the underlying behaviour.",
+          "source": "The Hacker News",
+          "published_at": "2026-08-11T20:05+08:00",
+          "url": "https://thehackernews.com/2026/08/a-malicious-sim-card-can-run-attacker.html"
+        },
+        {
+          "id": "cs3",
+          "headline": "Mozilla revokes Firefox and Thunderbird Linux signing key after leak into private repo",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Mozilla scrapped the cryptographic key used to sign Firefox and Thunderbird Linux downloads after an unencrypted copy was mistakenly committed to one of its own private code repositories. The key is how users and Linux distributions verify that a downloaded tarball came from Mozilla untampered, so packagers and users relying on the old key need to move to the replacement.",
+          "source": "The Hacker News",
+          "published_at": "2026-08-11T20:04+08:00",
+          "url": "https://thehackernews.com/2026/08/mozilla-revokes-firefox-and-thunderbird.html"
+        },
+        {
+          "id": "cs4",
+          "headline": "Researchers ran a fake crypto startup and hired three suspected North Korean IT workers",
+          "category": "Threat Actor",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Security researchers set up a fictitious cryptocurrency startup, advertised developer roles and hired three people they assess to be North Korean operatives, recording every company-issued virtual machine. The write-up focuses on the onboarding paperwork hiring teams can screen against — one hire claimed a Texas address, then supplied a California driver's licence and a New York bank account.",
+          "source": "The Hacker News",
+          "published_at": "2026-08-11T19:35+08:00",
+          "url": "https://thehackernews.com/2026/08/researchers-built-fake-crypto-startup.html"
+        },
+        {
+          "id": "cs5",
+          "headline": "Cisco warns of high-severity ClamAV ZIP parser flaws with public exploits",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-20337, CVE-2026-20338",
+          "cvss": 7.5,
+          "severity": "HIGH",
+          "summary": "Two flaws in ClamAV's ZIP archive parser, caused by improper boundary checks and memory handling, let a remote unauthenticated attacker crash the scanning process with a crafted ZIP file. They affect ClamAV 1.5.0 through 1.5.3 and are fixed in 1.5.4, released 7 August. Impact is highest on Windows, the only platform that runs the scanner in a privileged context. Cisco PSIRT says there is no evidence of exploitation in the wild, but proof-of-concept code is public. NVD scores both 7.5.",
+          "source": "BleepingComputer; NVD",
+          "published_at": "2026-08-11T19:03+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/cisco-warns-of-high-severity-clamav-flaws-with-public-exploits/"
+        },
+        {
+          "id": "cs6",
+          "headline": "USB auto-install abused for full SYSTEM takeover on Windows 11",
+          "category": "Vulnerability Research",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers abused Windows Plug and Play to make a fully updated Windows 11 machine fetch signed vendor software for an emulated USB device and run privileged installer components, chaining that to SYSTEM access. The same path can be triggered over Remote Desktop without physical hardware where PnP or low-level USB redirection is enabled. No CVE has been assigned; Microsoft has issued a statement on the reported behaviour.",
+          "source": "The Hacker News",
+          "published_at": "2026-08-11T18:48+08:00",
+          "url": "https://thehackernews.com/2026/08/researchers-turn-usb-auto-install-into.html"
+        },
+        {
+          "id": "cs7",
+          "headline": "Malicious MCP servers can split instructions to make AI coding agents leak secrets",
+          "category": "AI Security",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A malicious tool server connected to an AI coding assistant can extract SSH keys, environment secrets, source code and customer data without ever issuing an obviously harmful instruction. Researchers showed the technique works even after the assistant refuses a blunt version of the same request: the ask is split into fragments that each look routine and placed in channels the assistant already uses.",
+          "source": "The Hacker News",
+          "published_at": "2026-08-11T18:24+08:00",
+          "url": "https://thehackernews.com/2026/08/malicious-mcp-servers-can-split.html"
+        },
+        {
+          "id": "cs8",
+          "headline": "US and South Korea warn Gunra ransomware is exploiting Fortinet and Schneider Electric flaws",
+          "category": "Ransomware",
+          "cve": "CVE-2024-55591, CVE-2025-24472",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "A joint advisory from US agencies including CISA and the FBI, with South Korea's National Police Agency, warns that Gunra ransomware is hitting critical infrastructure worldwide — healthcare and public health, financial services, government facilities and professional/nonprofit services. The group exploits two Fortinet FortiOS/FortiProxy authentication-bypass flaws (CVE-2024-55591, CVSS 9.8; CVE-2025-24472, CVSS 8.1), plus Schneider Electric flaws and credential and SSH access-control weaknesses on internet-facing VPN gateways. Gunra emerged in April 2025, is built from leaked Conti source code and launched a formal affiliate programme in January 2026. Both Fortinet CVEs are in CISA's KEV catalog.",
+          "source": "BleepingComputer; The Hacker News; CISA KEV; NVD",
+          "published_at": "2026-08-11T17:47+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/us-warns-of-gunra-ransomware-attacks-against-government-critical-infrastructure/"
+        },
+        {
+          "id": "cs9",
+          "headline": "Attackers shut a turbine at a Polish power plant via the operator's private cellular network",
+          "category": "ICS / Critical Infrastructure",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Intruders shut down a steam turbine and the process-water treatment system at a Polish combined heat and power plant supplying heat to roughly 50,000 residents, entering over the private cellular network (APN) the local grid operator uses to reach remote equipment. Recovery began at about 7.30am while the attackers were still inside the network; customers lost neither heat nor water. BleepingComputer reports the intrusion occurred last year and is only now disclosed.",
+          "source": "The Hacker News; BleepingComputer",
+          "published_at": "2026-08-11T14:55+08:00",
+          "url": "https://thehackernews.com/2026/08/hackers-breach-polish-power-plant.html"
+        },
+        {
+          "id": "cs10",
+          "headline": "BdThemes WordPress supply-chain hack poisons JSON to create rogue admins",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers warned of a supply-chain compromise at WordPress plugin vendor BdThemes, prompting the WordPress plugins team to temporarily disable downloads. Wordfence researcher Paolo Tresso said no source code files were modified in the official WordPress.org repository — the attack instead poisoned JSON data the plugins consume, resulting in rogue administrator accounts on affected sites.",
+          "source": "The Hacker News; BleepingComputer; Wordfence",
+          "published_at": "2026-08-11T13:48+08:00",
+          "url": "https://thehackernews.com/2026/08/bdthemes-supply-chain-attack-poisons.html"
+        },
+        {
+          "id": "cs11",
+          "headline": "China-linked Storm-1175 deploys new StormEncryptor ransomware, likely via N-central flaw",
+          "category": "Ransomware",
+          "cve": "CVE-2026-18577",
+          "cvss": 8.2,
+          "severity": "HIGH",
+          "summary": "Microsoft says Storm-1175, a financially motivated China-linked actor, has deployed a previously undocumented C++ ransomware strain called StormEncryptor that appends a .encrypted extension — a shift from its earlier use of Medusa. Initial access is assessed as likely via an N-able N-central authentication-bypass flaw; CVE-2026-18577 (NVD 8.2) is an incomplete patch for CVE-2026-18556 (also 8.2), and both were added to CISA's KEV catalog on 3–4 August. BleepingComputer reports the operator is a former Medusa affiliate.",
+          "source": "The Hacker News; BleepingComputer; Microsoft; CISA KEV; NVD",
+          "published_at": "2026-08-11T00:38+08:00",
+          "url": "https://thehackernews.com/2026/08/china-linked-hackers-deploy-new.html"
+        },
+        {
+          "id": "cs12",
+          "headline": "CISA: SonicWall SMA1000 flaws now exploited by ransomware gangs",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-15409, CVE-2026-15410",
+          "cvss": 10.0,
+          "severity": "CRITICAL",
+          "summary": "CISA says two SonicWall SMA1000 appliance flaws are being exploited by ransomware crews. CVE-2026-15409 is a server-side request forgery in the SMA1000 Work Place interface that a remote unauthenticated attacker can reach, scored 10.0 by NVD; CVE-2026-15410 is a post-authentication code-injection flaw in the Appliance Management Console, scored 7.2. Both were added to the KEV catalog on 14 July. SMA1000 appliances are internet-facing remote-access gateways, so patching is urgent.",
+          "source": "BleepingComputer; CISA KEV; NVD",
+          "published_at": "2026-08-10T22:34+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-sonicwall-sma1000-flaws-now-exploited-by-ransomware-gangs/"
+        },
+        {
+          "id": "cs13",
+          "headline": "Kimsuky builds an offline AI stack to industrialise phishing and malware work",
+          "category": "Threat Actor",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "South Korean security firm Genians says North Korea's Kimsuky espionage group has moved off public chatbots and begun running AI models offline on its own servers, wiring document-search tools to files it holds and assembling the components needed to build AI into its malware. The shift removes the monitoring and abuse controls that commercial AI providers apply.",
+          "source": "The Hacker News; Genians",
+          "published_at": "2026-08-10T21:19+08:00",
+          "url": "https://thehackernews.com/2026/08/kimsuky-builds-offline-ai-stack-that.html"
+        },
+        {
+          "id": "cs14",
+          "headline": "New passkey attacks recover synced private keys and bypass phishing-resistant MFA",
+          "category": "Vulnerability Research",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Three separate research efforts demonstrated ways to defeat passkey protections without breaking the underlying cryptography. The techniques reused signed authentication material that Windows had exposed, abused a cloud-synced passkey system from malware already resident on the victim's machine, and worked around the phishing resistance passkeys are meant to guarantee. Passkeys remain stronger than reusable passwords, but device compromise is not a threat they neutralise.",
+          "source": "The Hacker News",
+          "published_at": "2026-08-10T20:25+08:00",
+          "url": "https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html"
+        },
+        {
+          "id": "cs15",
+          "headline": "LexisNexis takes Nexis services offline after suspicious activity on vendor servers",
+          "category": "Incident",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "LexisNexis detected unusual activity on servers managed by a third-party vendor and disconnected from those systems, taking Nexis Diligence, the Nexis Metabase API and Nexis Newsdesk offline. Nexis Solutions president Todd Larsen said the investigation is ongoing with an outside forensics firm and that affected systems are being rebuilt in a new environment. The company has not said whether customer data was compromised, and notes its Metabase API is unrelated to the Metabase Cloud zero-day disclosed elsewhere.",
+          "source": "BleepingComputer",
+          "published_at": "2026-08-10T20:11+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/lexisnexis-shuts-down-services-after-suspicious-activity-on-servers/"
+        },
+        {
+          "id": "cs16",
+          "headline": "Valve notifies Steam hardware buyers of a breach at its European shipping partner",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Valve began notifying Steam hardware customers on 10 August after CEVA Logistics, which handles Steam hardware deliveries in Europe, was breached between 29 July and 1 August. Exposed data includes names, addresses, phone numbers, email addresses and ordered product details and prices. Valve says payment information, passwords and Steam Guard codes were not affected because CEVA does not hold them, and warns customers to expect phishing attempts.",
+          "source": "BleepingComputer",
+          "published_at": "2026-08-10T19:47+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/"
+        },
+        {
+          "id": "cs17",
+          "headline": "Head Mare exploits TrueConf server flaws to trojanise client installers with PhantomCore",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-3502",
+          "cvss": 7.8,
+          "severity": "HIGH",
+          "summary": "Kaspersky says it detected attacks in July 2026 in which the Head Mare group again weaponised a vulnerability chain in unpatched TrueConf servers to replace client installers with ones carrying the PhantomCore backdoor. Targets were Russian companies in instrumentation, electronics, transport, energy, IT and software development. A related TrueConf Client integrity-check flaw, CVE-2026-3502, has been in CISA's KEV catalog since 2 April 2026; NVD has no CVSS score published for it.",
+          "source": "The Hacker News; BleepingComputer; Kaspersky; CISA KEV",
+          "published_at": "2026-08-10T19:33+08:00",
+          "url": "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html"
+        },
+        {
+          "id": "cs18",
+          "headline": "Critical Progress LoadMaster flaw now actively exploited",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-8037",
+          "cvss": 9.6,
+          "severity": "CRITICAL",
+          "summary": "An unauthenticated OS command-injection flaw in the API of Progress ADC products, including LoadMaster, is under active attack. NVD scores it 9.6 and CISA added it to the KEV catalog on 7 August 2026 after hundreds of reported exploit attempts. LoadMaster sits in front of application traffic, so an unauthenticated remote-code-execution path on it is a direct route into the network.",
+          "source": "BleepingComputer; The Hacker News; CISA KEV; NVD",
+          "published_at": "2026-08-10T17:49+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/"
+        },
+        {
+          "id": "cs19",
+          "headline": "Malicious 'Solidity Pro' VS Code extensions steal crypto wallets and credentials",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers flagged malicious Visual Studio Code extensions published as \"Solidity Pro\" (helper-beeps.solidity-pro and web3devtoolsx.solidity-pro) that deliver a browser-wallet and credential stealer targeting crypto wallets, API keys and saved credentials. Neither extension is still available on Open VSX, but the associated GitHub repository remained up at the time of reporting.",
+          "source": "The Hacker News",
+          "published_at": "2026-08-10T15:38+08:00",
+          "url": "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html"
+        },
+        {
+          "id": "cs20",
+          "headline": "OpenAI pauses internal work on its Astra model over cyber capability",
+          "category": "AI Security",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "OpenAI said it is pausing some internal activities involving its upcoming Astra model after an internal evaluation found significant advances in agentic coding and cybersecurity capability, and is applying additional security controls such as isolated environments for higher-capability models. BleepingComputer separately reported on 10 August that OpenAI released a restricted \"ChatGPT 5.6 Cyber\" available only to approved users.",
+          "source": "The Hacker News; BleepingComputer",
+          "published_at": "2026-08-10T13:50+08:00",
+          "url": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html"
+        }
+      ]
+    }
+  }
+}
