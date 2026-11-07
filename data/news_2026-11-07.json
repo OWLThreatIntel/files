@@ -1,31 +1,68 @@
 {
   "meta": {
     "date": "2026-11-07",
-    "generated_at": "2026-11-07T09:14:32+08:00",
+    "generated_at": "2026-11-07T15:10:17+08:00",
     "edition": "Daily News Briefing",
     "sources": [
-      "CNA (Singapore, World and Asia RSS; curl; article pages read for the LTA Grab AV pause, haze review, Stephen Miller, tech-stock rebound, Microsoft Amsterdam protest, Thomas Markle, Cornell, Japan cyber package, Kenya sentence, Pope Leo, bus crash and newsroom bomb threats)",
-      "The Straits Times (Singapore and World RSS; curl; pages read for seventh scam fugitive, OK Lim condo, graduate job market, Europe security-architecture pushback, Canada residency plan, Qeshm missiles, US measles, Canadian sanctions, Zelensky strike warning and Kyiv blackout row, Rzeszow, Rassvet satellites, tanker death, Paraguay, Israel opposition, Joshua Wong, Syria-Saudi and Germany talks)",
-      "BBC World, Europe, Asia, Middle East and US RSS (curl; GMT converted to +08:00; Miller, AI stocks, Markle, Cornell, Mississippi recount, Cybertruck and Spanish rail pages read for corroboration)",
-      "Al Jazeera RSS (curl; Paraguay, New Zealand election, Busan trade talks, DRC raid and Pope Leo pages read; live blogs, opinion and video items not carded)",
-      "Mothership (RSS still stale at 15:21 on 6 Nov, so the homepage was scraped and 23 article pages fetched with clock timestamps read; PIE overturned car carded and the Vietnam deportation arrest merged into the ST card; the NUS vice-provost death notice remains uncarded with no Tier-1 or NUS confirmation found, the Xinjiang hospital donation skipped as state-media-only, an anonymised scam account, a Hong Kong court case and a stockpiling explainer not carded; items before 09:20 on 6 Nov aged out)",
-      "The Hacker News RSS (feedburner; WordPress fix window, SSHole exploitation and Barracuda chain pages read via curl; the sponsored \"Flood is Coming\" post skipped)",
-      "BleepingComputer (RSS feed and /news/security/ listing via WebFetch at 09:01; SonicWall, WorkOS, GPT-6 Cyber, GitHub fake tools and QNAP Plex2Shell pages read; the Veeam boot-failure item skipped as not a security issue)",
-      "CISA KEV JSON (catalogue 2026.11.06; CVE-2026-19868 SonicWall added 6 Nov)",
-      "NVD API (CVE-2026-19868 scored 7.5 HIGH; SonicWall rates it 7.1)",
-      "WHO Disease Outbreak News OData API (new DON625 Ebola, API-stamped 2026-11-06T20:42Z and carded at 04:42 SGT on 7 Nov; Overview and Assessment read for figures)",
-      "ECDC CDTR feed (week-44 respiratory virus update of 6 Nov read; no new CDTR)",
-      "US CDC measles data page via WebFetch (updated 6 Nov, data as of 5 Nov: 5,182 cases, 4 deaths listed)",
-      "NEA 24-hour forecast (data.gov.sg; 06:00 7 Nov to 06:00 8 Nov validity)",
+      "CNA (Singapore, World and Asia RSS; curl; article pages read for the River Valley assault and chase, Najib royal decree, Busan trade call, Paraguay, Nepal-Tibet aid, banks outlook and Sheila Sim)",
+      "The Straits Times (Singapore and World RSS; curl; pages read for Lee Yiok Seng, seven-vehicle PIE crash, Amber Road crash, men's shelter, migrant wages, Iran forces statement, CENTCOM reward, Kyiv strike, Hegseth criticism, Houston ICE policy, Democrats' agenda, France protests, IMF, Haiti and the NYT Nvidia spy report)",
+      "BBC World, Europe, Asia, Middle East and US RSS (curl; GMT converted to +08:00; Paraguay and Houston ICE pages read)",
+      "Al Jazeera RSS (curl; Qeshm strikes, New Zealand results, Herzog, Kyiv attack, Haiti, Canadian sanctions, Spain rail probe and measles pages read; opinion, sport and video items not carded)",
+      "Ukrinform RSS (curl; Kyiv injury toll, Northern Bridge and Rutte pages read; attributed as Ukrainian official figures)",
+      "Mothership (RSS stale since 17:55 on 6 Nov, so the homepage was scraped and 14 new article pages fetched with clock timestamps read; food-hall wind-up, Teochew meat puff and zi char chef carded, the Race Course Road overturn merged into the CNA/ST chase card, the LTA-Grab follow-up merged into the existing card; the 2028 explainer, Brazil murder sentence and merchandise/promotion posts not carded; items before 15:10 on 6 Nov aged out)",
+      "The Hacker News RSS (feedburner; newest item 00:08 on 7 Nov, nothing newer than the 09:00 edition)",
+      "BleepingComputer (RSS feed and /news/security/ listing via WebFetch at 15:02; newest item the SonicWall advisory already carded, nothing newer than the 09:00 edition)",
+      "CISA KEV JSON (catalogue 2026.11.06 unchanged; CVE-2026-19868 SonicWall the latest addition)",
+      "NVD API (scores unchanged from the morning edition)",
+      "WHO Disease Outbreak News OData API (no DON newer than DON625 of 6 Nov)",
+      "ECDC CDTR feed (no item newer than the week-44 respiratory update of 6 Nov)",
+      "US CDC measles data (as of 5 Nov, via the morning edition; Al Jazeera corroboration added)",
+      "NEA 24-hour forecast (data.gov.sg; 12:00 7 Nov to 12:00 8 Nov validity)",
       "LTA COE results (data.gov.sg; Nov 2026 1st bidding re-verified, next results 18 Nov)",
-      "Notes: 09:00 edition built on the 6 Nov 21:00 JSON with the 24h/3-day/14-day cutoffs re-applied; Friday-morning cards aged out. The Qeshm strikes rest on Tasnim/IRNA reports only; the Rassvet satellite claim is Ukrainian intelligence; the Syria-Saudi training report rests on unnamed Reuters sources; the measles death toll differs between CDC (4) and ST (at least 8) and both are stated; the Ebola tile now anchors to WHO DON625 rather than Africa CDC, whose regional tally differs. Reuters links are not used."
+      "Notes: 15:00 edition built on the same-day 09:00 JSON with the 24h/3-day/14-day cutoffs re-applied; Friday-midday cards aged out. The Qeshm strikes are now confirmed by Trump but damage is unverified; the Iranian drone-downing claim is state media only; Kyiv casualty figures are Ukrainian official tallies; the Nvidia spy report rests on the NYT's unnamed sources and is denied by Nvidia and Beijing; the Haiti gang leader's death is confirmed by police with the circumstances contested. Reuters links are not used."
     ]
   },
   "sections": {
     "top_stories": {
       "label": "Top Stories",
-      "ai_summary": "Trump has made Stephen Miller, the architect of his immigration crackdown, White House chief of staff from Monday, the clearest sign yet that the post-midterm White House plans to fight the new Democratic Congress rather than accommodate it. Markets steadied a little, with tech shares recovering part of Thursday's rout on strong jobs data. On Ukraine, Europe is openly resisting Washington's push to bundle a wider 'security architecture' into next week's Abu Dhabi talks. The Gulf looks hotter again, with Iranian media reporting two missile strikes on Qeshm Island and a seafarer killed in a tanker attack. Elsewhere, Paraguay swore in a new president hours after impeaching Pena, and the US logged its worst measles year in 35 years. Watch Sunday's two set pieces, Herzog's nomination in Israel and whether the Qeshm reports are confirmed, and New Zealand's results from this afternoon.",
+      "ai_summary": "Trump has confirmed that US forces struck Iranian air defences on Qeshm Island, calling them 'minor strikes' that took minutes while insisting talks with Tehran are progressing; Iran says it shot down an American drone over the island and that the Strait of Hormuz stays closed until its demands are met. Paraguay woke to a new president after the Senate impeached and arrested Santiago Pena over the Ueno Bank collapse, and Malaysia's king has told the government not to dispute Najib's house-arrest pardon. In the US the post-midterm reckoning is spreading, from Houston's mayor pulling police back from immigration enforcement to a Trump ally calling for Hegseth to go over the Iran war. Russia resumed ballistic strikes on Kyiv overnight, injuring five and closing a bridge, while New Zealand's early count has the governing National Party narrowly ahead. The two things to watch on Sunday are Herzog's nomination in Israel and whether the Qeshm strikes stay 'minor'.",
       "stories": [
+        {
+          "id": "ra_qeshm",
+          "headline": "Trump confirms US 'minor strikes' on Iranian air defences on Qeshm Island; Iran says it shot down an American MQ-9 drone and the Strait stays closed",
+          "category": "Middle East",
+          "summary": "Trump told reporters in West Palm Beach on Friday that US forces had knocked out 'a little bit of an anti-aircraft device' on Qeshm Island 'in about 15 minutes, maybe five', while claiming 'a lot of progress' in talks with Tehran, Al Jazeera and AP reported. The confirmation came after Iranian state media reported two missile strikes in the Suza area of the island; IRIB carried an army statement saying air defences intercepted an MQ-9 drone over Qeshm. On Saturday, army spokesman Mohammad Akraminia told IRNA that Iran's forces are 'stronger than they were at the beginning of the war' and that the Strait of Hormuz will remain closed until Iran's demands are met, The Straits Times reported. Damage on the island has not been independently verified.",
+          "source": "Al Jazeera (AP), The Straits Times (AFP; IRNA, IRIB), CENTCOM",
+          "published_at": "2026-11-07T13:16+08:00",
+          "url": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island"
+        },
+        {
+          "id": "ra_paraguay",
+          "headline": "Paraguay's Senate impeaches President Pena, who is placed under house arrest as Vice-President Pedro Alliana is sworn in",
+          "category": "Americas",
+          "summary": "The Senate removed Santiago Pena in a unanimous vote on Friday, citing his past links to the collapsed digital lender Ueno Bank, and about an hour later Alliana, 52, took the oath as the country's 53rd president, The Straits Times and Al Jazeera reported. Prosecutors outside Pena's home said charges were still being determined but could include influence peddling; he was ordered to appear before prosecutors on Saturday morning. Pena had announced his resignation on Thursday as the banking crisis deepened. BBC reported that senators chose to impeach rather than accept the resignation Pena offered on Thursday, charging him with misconduct and so stripping him of the immunity usually granted to ex-presidents; CNA noted that Ueno Bank had provided accounts for nearly half of Paraguay's population. Pena, who until last year held shares in the bank's parent company, denies wrongdoing.",
+          "source": "BBC, CNA (Reuters), Al Jazeera (AP), The Straits Times",
+          "published_at": "2026-11-07T09:46+08:00",
+          "url": "https://www.channelnewsasia.com/world/paraguay-president-ousted-and-placed-under-house-arrest-successor-sworn-in-6532536"
+        },
+        {
+          "id": "ra_kyiv",
+          "headline": "Russia hits Kyiv with ballistic missiles overnight, injuring five including a 14-year-old and closing the Northern Bridge, hours after Zelensky warned of strikes on bridges and energy",
+          "category": "Russia-Ukraine",
+          "summary": "Mayor Vitali Klitschko said Russian forces struck the capital with ballistic missiles early on Saturday; debris hit a five-storey apartment block in a western district and damaged another building's facade, while the city military administration said a building housing a kindergarten was hit, Al Jazeera and The Straits Times reported. Klitschko later put the injured at five, including a 14-year-old, with two hospitalised, and said the Northern Bridge across the Dnipro was damaged and closed in both directions, Ukrinform reported. The attack followed Zelensky's warning in his Friday address that intelligence showed Russia preparing new strikes on energy, Dnipro bridges and civilian infrastructure. Russia has not commented on the strike; Kyiv's figures are official Ukrainian tallies.",
+          "source": "Al Jazeera (AP, Reuters), The Straits Times (Reuters), Ukrinform (Kyiv city authorities)",
+          "published_at": "2026-11-07T14:40+08:00",
+          "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents"
+        },
+        {
+          "id": "qa_najib2",
+          "headline": "Malaysia's king says Najib's conditional pardon is 'clear and unambiguous' and warns that disputing it defies the royal decree, a day after the AGC sought a pause",
+          "category": "Asia",
+          "summary": "Sultan Ibrahim Sultan Iskandar said in a statement on Saturday that the conditional royal pardon allowing Najib Razak to serve the rest of his 1MDB sentence under house arrest is clear and unambiguous, that it is unrelated to Najib's other cases, and that any attempt to dispute it would amount to defying the monarch's decree, CNA reported. The intervention comes a day after the Attorney-General's Chambers called for Najib's transfer to house arrest to be temporarily suspended, citing legal questions over how the pardon interacts with a separate prison sentence. UMNO paid Najib's RM50 million fine on Thursday, and Transport Minister Anthony Loke has said he will resign once house arrest begins.",
+          "source": "CNA, Al Jazeera, Mothership",
+          "published_at": "2026-11-07T14:03+08:00",
+          "url": "https://www.channelnewsasia.com/asia/najib-razak-pardon-house-arrest-king-warning-6532831"
+        },
         {
           "id": "ra_miller",
           "headline": "Trump names immigration hardliner Stephen Miller as White House chief of staff after the Republican midterm defeat",
@@ -36,13 +73,49 @@
           "url": "https://www.channelnewsasia.com/world/stephen-miller-trump-new-chief-staff-immigration-6532261"
         },
         {
-          "id": "ra_paraguay",
-          "headline": "Paraguay's Senate impeaches President Pena, who is placed under house arrest as Vice-President Pedro Alliana is sworn in",
-          "category": "Americas",
-          "summary": "The Senate removed Santiago Pena in a unanimous vote on Friday, citing his past links to the collapsed digital lender Ueno Bank, and about an hour later Alliana, 52, took the oath as the country's 53rd president, The Straits Times and Al Jazeera reported. Prosecutors outside Pena's home said charges were still being determined but could include influence peddling; he was ordered to appear before prosecutors on Saturday morning. Pena had announced his resignation on Thursday as the banking crisis deepened.",
-          "source": "Al Jazeera (AP), The Straits Times (Reuters)",
-          "published_at": "2026-11-07T08:31+08:00",
-          "url": "https://www.aljazeera.com/news/2026/11/7/paraguays-santiago-pena-under-arrest-new-president-pedro-alliana-sworn-in"
+          "id": "ra_nz",
+          "headline": "New Zealand's governing National Party narrowly leads Labour in early election results; a coalition is needed either way",
+          "category": "Asia-Pacific",
+          "summary": "Early results published by New Zealand's Electoral Commission on Saturday evening put the centre-right National Party on 31.19% and the opposition Labour Party on 28.35%, Al Jazeera reported, with the centrist Opportunity Party set to clear the 5% threshold to enter parliament for the first time. Neither major party is on course to govern alone under the mixed-member proportional system, so the result will turn on coalition talks. Preliminary results from 95% of polling stations are due by the end of election night, with the final count including overseas votes expected by 27 November.",
+          "source": "Al Jazeera (Reuters, AFP), NZ Electoral Commission",
+          "published_at": "2026-11-07T14:20+08:00",
+          "url": "https://www.aljazeera.com/news/2026/11/7/governing-party-leads-in-new-zealands-knife-edge-vote-early-results"
+        },
+        {
+          "id": "ra_busan",
+          "headline": "Bessent and Greer press China's He Lifeng to 'fully and immediately' implement the Busan trade deal ahead of Trump-Xi meetings; Beijing voices 'serious concern' over US curbs",
+          "category": "US-China",
+          "summary": "The US Treasury and the Trade Representative's office said on Friday that Treasury Secretary Scott Bessent and USTR Jamieson Greer told Vice-Premier He Lifeng in a call that China must honour commitments made in Busan in October 2025, particularly on rare-earth and critical-mineral deliveries and agricultural purchases, CNA reported. Bessent wrote that 'progress depends on concrete results'. The Straits Times said China in turn raised 'serious concerns' about recent US trade and economic restrictions, though both sides described the talks as frank and agreed to keep working together ahead of planned Trump-Xi meetings.",
+          "source": "CNA (Reuters), The Straits Times, US Treasury, USTR",
+          "published_at": "2026-11-07T10:30+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/ahead-trump-xi-meetings-us-presses-china-trade-pledges-6532561"
+        },
+        {
+          "id": "qa_herzog",
+          "headline": "Herzog to name a candidate on Sunday after 67 Knesset members endorse Eisenkot and 46 back Netanyahu; Eisenkot has ruled Arab-led parties out of government",
+          "category": "Middle East",
+          "summary": "Al Jazeera reported on Saturday that consultations ending Thursday saw 67 of 120 Knesset members endorse opposition leader Gadi Eisenkot and 46 endorse Netanyahu, whose tally fell seven short of his bloc's 53 seats after United Torah Judaism withheld support over the failure to exempt ultra-Orthodox men from military service. Eisenkot's majority, however, rests on Arab-led parties that won a record 19 seats and that he has said he will not bring into a coalition, leaving his path to 61 seats unclear. President Herzog has not publicly committed to either side and is expected to hand out the mandate on Sunday; The Straits Times earlier reported that Avigdor Liberman's U-turn on working with ultra-Orthodox parties had brought the opposition closer to a deal.",
+          "source": "Al Jazeera (AP), The Straits Times",
+          "published_at": "2026-11-07T13:16+08:00",
+          "url": "https://www.aljazeera.com/news/2026/11/7/president-herzog-faces-key-choice-as-israel-struggles-to-form-government"
+        },
+        {
+          "id": "ta_ice",
+          "headline": "Houston mayor orders police to stop reporting people to ICE during routine stops after Texas Democrats' midterm sweep",
+          "category": "US politics",
+          "summary": "Mayor John Whitmire, a Democrat, directed Houston police on Friday to contact Immigration and Customs Enforcement only when someone arrested for a jailable offence also has an administrative ICE warrant, reversing a policy set under Republican Governor Greg Abbott, who lost re-election this week, BBC and The Straits Times reported. Whitmire said he acted 'to begin a healing process' and 'knowing that elections matter'; police chief Noe Diaz said a minor traffic citation will no longer trigger a call to ICE. The change follows months of protest in Houston after an ICE officer fatally shot a man driving to work.",
+          "source": "BBC, The Straits Times",
+          "published_at": "2026-11-07T11:31+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c8dx33d22zkro"
+        },
+        {
+          "id": "na_hegseth",
+          "headline": "Hegseth under growing fire from Trump's own camp as Fred Fleitz urges the president to 'end the Iran war' and fire him after the midterm defeat",
+          "category": "US politics",
+          "summary": "Fred Fleitz, a former Trump national security aide, publicly urged the president to end the Iran war and dismiss Defence Secretary Pete Hegseth after the Republicans' midterm losses, and also attacked the tariff policy driven by Peter Navarro and Howard Lutnick as a 'costly failure', The Straits Times reported on Saturday. Republican Senator Thom Tillis separately criticised Hegseth's 'incompetence'. Hegseth defended himself on X and has vowed to fight impeachment efforts, with a House vote on a motion to impeach him possible as soon as next week; he has called the Iran war 'courageous and historic'.",
+          "source": "The Straits Times, CNA (Reuters), BBC",
+          "published_at": "2026-11-07T08:42+08:00",
+          "url": "https://www.straitstimes.com/world/united-states/hegseth-comes-under-more-fire-from-trump-america-first-ally"
         },
         {
           "id": "ra_stocks",
@@ -54,6 +127,24 @@
           "url": "https://www.channelnewsasia.com/world/tech-stocks-wall-street-ai-markets-6532311"
         },
         {
+          "id": "ta_reward",
+          "headline": "US offers up to US$20 million for tips on Iran's nuclear programme as Tehran says Hormuz stays shut until its demands are met",
+          "category": "Middle East",
+          "summary": "US Central Command said the State Department is offering up to US$20 million and possible relocation for information on Iran's nuclear sites, equipment and scientific staff, with the department saying Iran's safeguards breaches have left the IAEA without knowledge of centrifuge components and related sites, The Straits Times reported; no parameters were given for what qualifies. Trump has repeatedly said US strikes 'obliterated' the programme. On Saturday, Iranian army spokesman Mohammad Akraminia told IRNA that Tehran retains control of the Strait of Hormuz, which normally carries about a fifth of global oil consumption, and that it would stay closed until the US meets Iran's demands.",
+          "source": "The Straits Times (AFP), CENTCOM, IRNA",
+          "published_at": "2026-11-07T09:55+08:00",
+          "url": "https://www.straitstimes.com/world/united-states/us-offers-25-million-reward-for-info-on-irans-nuclear-programme-centcom"
+        },
+        {
+          "id": "ta_spy",
+          "headline": "NYT: US intelligence memo said China's spy agency recruited a businesswoman to target Nvidia chief Jensen Huang; Nvidia and Beijing deny wrongdoing",
+          "category": "US-China",
+          "summary": "A memo circulated among senior Trump administration officials last spring cited intelligence that Alice Huang, a Chinese businessperson with a close relationship to Nvidia CEO Jensen Huang, was an asset of China's Ministry of State Security tasked with collecting information on US AI chips and influencing Nvidia to push for sales of its most advanced chips to China, The New York Times reported via The Straits Times, citing people briefed on the intelligence. US officials said her firm Megaspeed bought advanced Nvidia chips and built data centres in South-east Asia for Chinese use. Nvidia and the Chinese government both deny wrongdoing and call the claims false; the report rests on unnamed sources and has not been independently confirmed.",
+          "source": "The Straits Times (New York Times)",
+          "published_at": "2026-11-07T10:18+08:00",
+          "url": "https://www.straitstimes.com/world/united-states/chinas-top-spy-agency-recruited-woman-who-targeted-nvidias-jensen-huang"
+        },
+        {
           "id": "ra_eurosec",
           "headline": "Europe insists Russia end the Ukraine war before any talks on Moscow's wider 'security architecture' demands, pushing back on the US approach",
           "category": "Europe",
@@ -63,13 +154,13 @@
           "url": "https://www.straitstimes.com/world/europe/europe-insists-putin-end-ukraine-war-before-discussing-russias-concerns"
         },
         {
-          "id": "ra_qeshm",
-          "headline": "Iran's Tasnim agency reports two missiles struck Qeshm Island in the Gulf; no official word on damage",
-          "category": "Middle East",
-          "summary": "Tasnim said on Saturday that initial reports indicated two missiles hit Qeshm Island, off Iran's southern coast, and that details would follow once authorities confirmed the incident; state agency IRNA earlier quoted witnesses describing two projectiles hitting the Suza area after an aircraft was heard overhead, The Straits Times reported, citing Reuters. These are Iranian media accounts and have not been independently verified; neither the US nor Israel had commented at the time of reporting.",
-          "source": "The Straits Times (Reuters; Tasnim, IRNA)",
-          "published_at": "2026-11-07T06:58+08:00",
-          "url": "https://www.straitstimes.com/world/middle-east/two-missiles-strike-irans-qeshm-island-tasnim-news-agency-says"
+          "id": "ra_measles",
+          "headline": "US records 5,182 measles cases in 2026, the most in 35 years, CDC data shows",
+          "category": "Health",
+          "summary": "The CDC's update of 6 November puts confirmed US cases at 5,182 as of 5 November, up from 2,289 in all of 2025 and the highest since the early 1990s, across 47 jurisdictions and 43 outbreaks. The agency's page lists four deaths, flagged as subject to change, while The Straits Times reports at least eight deaths this year including very young children; paediatrician Adam Ratner called them 'completely preventable'. Measles was declared eliminated in the US in 2000; falling vaccination rates and distrust of health officials are blamed for its return.",
+          "source": "The Straits Times, Al Jazeera, US CDC",
+          "published_at": "2026-11-07T05:33+08:00",
+          "url": "https://www.straitstimes.com/world/united-states/us-reports-highest-number-of-measles-cases-in-35-years"
         },
         {
           "id": "ra_msft",
@@ -81,15 +172,6 @@
           "url": "https://www.channelnewsasia.com/world/data-centre-protesters-microsoft-amsterdam-europe-6531886"
         },
         {
-          "id": "ra_measles",
-          "headline": "US records 5,182 measles cases in 2026, the most in 35 years, CDC data shows",
-          "category": "Health",
-          "summary": "The CDC's update of 6 November puts confirmed US cases at 5,182 as of 5 November, up from 2,289 in all of 2025 and the highest since the early 1990s, across 47 jurisdictions and 43 outbreaks. The agency's page lists four deaths, flagged as subject to change, while The Straits Times reports at least eight deaths this year including very young children; paediatrician Adam Ratner called them 'completely preventable'. Measles was declared eliminated in the US in 2000; falling vaccination rates and distrust of health officials are blamed for its return.",
-          "source": "The Straits Times, US CDC",
-          "published_at": "2026-11-07T05:33+08:00",
-          "url": "https://www.straitstimes.com/world/united-states/us-reports-highest-number-of-measles-cases-in-35-years"
-        },
-        {
           "id": "ra_drcraid",
           "headline": "Islamic State-linked militants kill at least 33 villagers in DR Congo's Ebola zone and burn a health post, forcing Ebola patients to flee",
           "category": "Africa",
@@ -99,29 +181,56 @@
           "url": "https://www.aljazeera.com/news/2026/11/6/armed-men-kill-at-least-33-in-village-in-ebola-hit-eastern-drc"
         },
         {
-          "id": "qa_najib2",
-          "headline": "Malaysia's AGC calls for Najib's house arrest to be put on hold hours after he left Kajang Prison; Anwar says he disagrees with UMNO paying the RM50 million fine",
-          "category": "Asia",
-          "summary": "The Attorney-General's Chambers said on Friday that 'complex legal questions' over the conditional royal pardon need clarifying, including whether paying the fine means Najib serves the rest of his SRC International sentence under house arrest until 23 August 2028 or whether that sentence is now complete, and what it means for his separate 1MDB sentence. It said his detention status should be maintained at his 'existing place of detention' for now; prison officers were seen at his Kuala Lumpur home on Friday evening. Prime Minister Anwar Ibrahim said UMNO's decision to pay was its own but that it 'should not give the impression that corruption involving billions of ringgit can simply be overlooked'.",
-          "source": "CNA, Al Jazeera, Mothership",
-          "published_at": "2026-11-06T15:38+08:00",
-          "url": "https://www.channelnewsasia.com/asia/malaysia-najib-razak-prison-release-begin-house-arrest-6530331"
+          "id": "ta_haiti",
+          "headline": "Haiti confirms gang leader Mathias Saintil is dead after a police operation; PM hails 'one less gang leader'",
+          "category": "Americas",
+          "summary": "Haiti's National Police said on Friday that Mathias Saintil, leader of the Boston gang in Port-au-Prince's Cite Soleil district, had been 'neutralised' in a law-enforcement operation, and Prime Minister Alix Didier Fils-Aime wrote on X that there was 'one less gang leader', Al Jazeera and The Straits Times reported. A report by the National Network for the Defence of Human Rights seen by Reuters said Saintil suffered serious abdominal wounds in a drone strike in the Boston neighbourhood on Thursday. Police said he was hit by multiple bullets; the circumstances have not been independently verified.",
+          "source": "Al Jazeera, The Straits Times (Reuters), Haitian National Police",
+          "published_at": "2026-11-07T13:02+08:00",
+          "url": "https://www.aljazeera.com/news/2026/11/7/one-less-gang-leader-haitis-prime-minister-celebrates-police-operation"
         },
         {
-          "id": "ra_kyiv",
-          "headline": "Zelensky says intelligence shows Russia preparing new strikes on energy, Dnipro bridges and civilian infrastructure as Kyiv's blackouts spark a row with the mayor",
-          "category": "Ukraine",
-          "summary": "In his nightly address on Friday, Zelensky said Ukraine's air force and armed forces were 'preparing for defence' against a new wave of Russian strikes, The Straits Times reported, citing Reuters. Earlier, Zelensky and Kyiv mayor Vitali Klitschko blamed each other for poor preparation after Russian attacks left much of the capital without power and water this week, with emergency cuts, heating delays and metro stoppages; the public row revives a long-running feud over wartime leadership. Separately, Ukrainian military intelligence told Reuters that Russia is already using its new Rassvet satellite network, billed as a homegrown Starlink, for drone communications over Ukraine.",
+          "id": "ta_dems",
+          "headline": "Victorious Democrats weigh Trump investigations against an affordability agenda; Jeffries sets up five cost-of-living working groups",
+          "category": "US politics",
+          "summary": "Having won both chambers of Congress, Democrats are debating how far to pursue probes of Trump versus the prices, healthcare and other bread-and-butter issues that exit polls say drove voters, The Straits Times reported. House Democratic leader Hakeem Jeffries has set up five working groups to deliver affordability measures in the first 100 days, while the party also plans early hearings; the same exit polls showed only about half of voters view Democrats favourably, which some lawmakers read as a warning against overreach.",
+          "source": "The Straits Times",
+          "published_at": "2026-11-07T12:45+08:00",
+          "url": "https://www.straitstimes.com/world/united-states/victorious-democrats-weigh-bread-and-butter-priorities-against-trump-probe"
+        },
+        {
+          "id": "ta_france",
+          "headline": "France deploys 70,000 police as unions, students and Yellow Vests protest the cost of living and a banned Paris rally calls for 'mass disobedience'",
+          "category": "Europe",
+          "summary": "French unions, students and Yellow Vest groups planned nationwide protests on Saturday over the cost of living and wages after weeks of unrest and strikes, with Yellow Vests defying a ban on a separate Paris rally and urging 'mass disobedience', The Straits Times reported. Police said about 70,000 officers would be deployed nationwide. The end of an official demonstration in Bordeaux on Wednesday had given way to wildcat marches and violent clashes.",
+          "source": "The Straits Times (AFP)",
+          "published_at": "2026-11-07T12:35+08:00",
+          "url": "https://www.straitstimes.com/world/europe/france-braces-itself-for-protests-as-yellow-vests-urge-mass-disobedience"
+        },
+        {
+          "id": "ta_imf",
+          "headline": "IMF chief Georgieva says central banks must factor any slowdown in AI-driven growth into their inflation fight",
+          "category": "Economy",
+          "summary": "IMF managing director Kristalina Georgieva said that concerns about dependence on the AI investment boom, high valuations and this week's market swings are feeding into inflation pressure and financial-stability risks, and that central banks must factor in any slowdown in AI-driven growth as they tackle stubborn inflation, The Straits Times reported. Her remarks followed the week's sell-off in AI-linked shares and reports that the incoming Democratic Congress plans new AI rules and data-centre legislation from January.",
           "source": "The Straits Times (Reuters)",
-          "published_at": "2026-11-07T04:38+08:00",
-          "url": "https://www.straitstimes.com/world/europe/ukraines-zelenskiy-russian-forces-plan-new-strikes-on-energy-targets-bridges-infrastructure"
+          "published_at": "2026-11-07T11:45+08:00",
+          "url": "https://www.straitstimes.com/world/united-states/imf-chief-says-any-slowdown-in-ai-driven-growth-would-be-factor-for-central-banks"
+        },
+        {
+          "id": "qa_rail",
+          "headline": "EU prosecutors open a fraud probe into the financing of Spain's rail network after last month's crash that killed at least 69",
+          "category": "Europe",
+          "summary": "The European Public Prosecutor's Office said on Friday it had carried out investigations at Spain's rail infrastructure manager Adif, the national rail safety agency and the state court of auditors, looking into possible fraud in how EU-backed rail funding was used, Al Jazeera and The Straits Times reported. The searches follow the high-speed train crash in October that killed at least 69 passengers and has already brought a separate judicial investigation in Spain. Transport Minister Oscar Puente's ministry said it was cooperating; no individuals have been named as suspects.",
+          "source": "Al Jazeera (AFP, Reuters), The Straits Times (Reuters), BBC",
+          "published_at": "2026-11-07T09:33+08:00",
+          "url": "https://www.aljazeera.com/news/2026/11/7/eu-prosecutor-office-investigates-fatal-train-crash-in-spain"
         },
         {
           "id": "ra_sanctions",
           "headline": "US sanctions eight Canadian companies accused of moving money for Iran under 'Operation Economic Outcast'",
           "category": "Middle East",
           "summary": "The Treasury said on Friday the Canadian money-services firms helped Iran move funds and buy digital assets, and that some also worked with Ryan Wedding, the former Olympic snowboarder the FBI accuses of running a large cocaine network, The Straits Times reported. Treasury Secretary Scott Bessent said Canada 'cannot be a safe haven' for Iranian sanctions evasion; the action was coordinated with Canada's Fintrac and FinCEN. It is part of a renewed US drive to isolate Tehran's economy as the Hormuz standoff continues.",
-          "source": "The Straits Times, US Treasury",
+          "source": "The Straits Times, Al Jazeera (Reuters), US Treasury",
           "published_at": "2026-11-07T05:03+08:00",
           "url": "https://www.straitstimes.com/world/united-states/us-treasury-sanctions-canadian-money-services-firms-over-iran-related-transactions"
         },
@@ -135,13 +244,13 @@
           "url": "https://www.straitstimes.com/world/europe/seafarer-killed-in-suspected-missile-attack-on-tanker-in-gulf"
         },
         {
-          "id": "qa_herzog",
-          "headline": "Israel's President Herzog to name a candidate to form the next government by Sunday after 67 of 120 MKs backed Gadi Eisenkot over Netanyahu",
-          "category": "Middle East",
-          "summary": "Herzog made the announcement on Thursday after marathon consultations with the parties elected to the Knesset, Al Jazeera reported. A majority of 67 lawmakers endorsed opposition leader and former military chief Eisenkot, leaving Netanyahu short after United Torah Judaism declined to recommend any candidate on Wednesday. The nomination would give Eisenkot a window of several weeks to assemble a coalition. Late on Friday, The Straits Times reported opposition figures saying talks were progressing after Avigdor Liberman reversed his refusal to work with ultra-Orthodox parties; Eisenkot hopes to receive the mandate on Sunday, and says he wants 'mandatory service for all', the issue that split the outgoing coalition.",
-          "source": "The Straits Times, Al Jazeera (AFP, AP)",
-          "published_at": "2026-11-06T23:57+08:00",
-          "url": "https://www.straitstimes.com/world/middle-east/israel-opposition-touts-progress-ousting-netanyahu-after-u-turn-on-ultra-orthodox"
+          "id": "ta_nepal",
+          "headline": "Malaysia to pay RM10,000 to each family of the 54 Malaysians still missing after August's Nepal-Tibet floods",
+          "category": "Asia",
+          "summary": "Malaysia's Cabinet approved a one-off payment of RM10,000 (about US$2,460) to each of the families of 54 Malaysians who remain missing after flash floods and mudslides struck the Nepal-Tibet border region in August, Human Resources Minister R Ramanan said on Friday, CNA reported citing local media. The money will be distributed through the National Disaster Management Agency in order of next-of-kin priority, with spouses first. The announcement came after extensive discussions within the government about how to support the families.",
+          "source": "CNA",
+          "published_at": "2026-11-07T13:36+08:00",
+          "url": "https://www.channelnewsasia.com/asia/nepal-tibet-floods-malaysia-aid-families-missing-6532726"
         },
         {
           "id": "na_bomb",
@@ -189,24 +298,6 @@
           "url": "https://www.straitstimes.com/world/canada-to-give-200000-temporary-residents-permanent-status-as-one-time-measure"
         },
         {
-          "id": "ra_nz",
-          "headline": "New Zealand votes in a tight general election fought on the cost of living; polls close at 2pm Singapore time",
-          "category": "Asia-Pacific",
-          "summary": "Polling stations opened at 9am local time on Saturday for the final day of voting after more than half of registered voters cast early ballots from 26 October, Al Jazeera reported, citing AFP and AP. The contest between Prime Minister Christopher Luxon's National-led coalition and the Labour opposition has been dominated by living costs and the state of the economy. Results are expected from Saturday evening local time.",
-          "source": "Al Jazeera (AFP, AP)",
-          "published_at": "2026-11-07T07:48+08:00",
-          "url": "https://www.aljazeera.com/news/2026/11/6/new-zealanders-head-to-polls-on-final-day-of-voting"
-        },
-        {
-          "id": "ra_busan",
-          "headline": "US presses China to 'fully and immediately' implement the Busan trade deal as Bessent and Greer meet He Lifeng",
-          "category": "US-China",
-          "summary": "Treasury Secretary Scott Bessent and Trade Representative Jamieson Greer met Chinese Vice-Premier He Lifeng and urged Beijing to carry out the commitments made at the Trump-Xi meeting in Busan, raising 'concerns about recent Chinese actions', the Treasury said on Friday, according to Al Jazeera, citing Reuters. The Busan deal was meant to ease tariffs and technology restrictions; the US statement did not specify which commitments it considers unmet. It follows reports this week of Nvidia chips piling up in Hong Kong awaiting Chinese import approval.",
-          "source": "Al Jazeera (Reuters), US Treasury",
-          "published_at": "2026-11-07T07:00+08:00",
-          "url": "https://www.aljazeera.com/economy/2026/11/6/us-urges-china-to-honour-busan-trade-deal-commitments"
-        },
-        {
           "id": "ra_wong",
           "headline": "US, UK and eight other governments condemn Joshua Wong's 10-year national-security sentence in Hong Kong",
           "category": "Asia",
@@ -238,7 +329,7 @@
           "headline": "Pope Leo XIV arrives in Uruguay 'in fairly good shape' to open a 12-day South America tour three weeks after lung-cancer surgery",
           "category": "World",
           "summary": "The 71-year-old pontiff landed in Montevideo on Friday for the first papal visit to Uruguay since 1988, the opening leg of a trip that also takes in Argentina and Peru; the Vatican estimated 30,000 people turned out for his first event, Al Jazeera reported. CNA said Leo told reporters he was in 'fairly good shape' after the operation to remove a tumour from his right lung, and used his first speech to defend universal healthcare and praise Uruguay's clean-energy transition. The trip had been in doubt until doctors cleared him to travel.",
-          "source": "CNA (AFP), Al Jazeera (AFP, AP), BBC",
+          "source": "CNA (AFP), The Straits Times, Al Jazeera (AFP, AP), BBC",
           "published_at": "2026-11-07T07:58+08:00",
           "url": "https://www.channelnewsasia.com/world/pope-leo-begins-south-america-tour-in-fairly-good-shape-6532451"
         },
@@ -261,24 +352,6 @@
           "url": "https://www.channelnewsasia.com/east-asia/japan-tokyo-quake-kanto-region-6531296"
         },
         {
-          "id": "pa_oval",
-          "headline": "Trump signs proclamation making the Oval Office and Cabinet Room a national monument",
-          "category": "US politics",
-          "summary": "Signed from behind the Resolute desk on Thursday, the proclamation was Trump's first official act since Democrats took both chambers of Congress. He said the rooms would 'not be allowed to be touched by anybody'; critics said he was ignoring voter concerns over the Iran war and affordability in favour of renovation projects, including the ballroom rising on the site of the demolished East Wing.",
-          "source": "BBC, CNA (AFP), Al Jazeera (AP)",
-          "published_at": "2026-11-06T12:48+08:00",
-          "url": "https://www.bbc.co.uk/news/articles/cmy0eeg101djo"
-        },
-        {
-          "id": "pa_arch",
-          "headline": "Judge pauses Trump's 72m triumphal arch for 14 days, hours after a planning commission approved it 8-4",
-          "category": "US politics",
-          "summary": "US District Judge Tanya Chutkan ordered a two-week pause before any work can start on the arch near Arlington National Cemetery, after the National Capital Planning Commission voted 8-4 to allow construction the administration had hoped to begin this week. Opponents, including veterans and the attorneys-general of Washington DC and Virginia, say the project is unlawful and would block views of the cemetery.",
-          "source": "BBC, The Straits Times",
-          "published_at": "2026-11-06T13:28+08:00",
-          "url": "https://www.bbc.co.uk/news/articles/cq99zd93ryvko"
-        },
-        {
           "id": "qa_iranbase",
           "headline": "BBC Verify: satellite images suggest major new construction near two Iranian missile bases and repairs at a dozen other sites hit by US and Israeli strikes",
           "category": "Middle East",
@@ -286,42 +359,6 @@
           "source": "BBC Verify",
           "published_at": "2026-11-06T15:33+08:00",
           "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro"
-        },
-        {
-          "id": "na_hegseth",
-          "headline": "Hegseth vows to fight impeachment efforts and defends the Iran war as 'courageous and historic'",
-          "category": "US politics",
-          "summary": "Defence Secretary Pete Hegseth posted a video vowing to fight congressional efforts to impeach him and calling the Iran war 'courageous and historic', after US media reported calls to replace him over a war blamed for heavy Republican losses. The White House denied rumours that Hegseth or Secretary of State Rubio would leave in a post-election shake-up; an outgoing Republican has threatened to force an impeachment vote as early as next week, and House Democratic leader Hakeem Jeffries asked 'Why is Pete Hegseth still around?'",
-          "source": "The Straits Times, CNA (Reuters), BBC",
-          "published_at": "2026-11-06T11:09+08:00",
-          "url": "https://www.straitstimes.com/world/united-states/hegseth-vows-to-keep-fighting-from-pentagon-defends-iran-war"
-        },
-        {
-          "id": "na_dmit",
-          "headline": "Trump predicts an imminent Russia deal covering Ukraine and 'all of Europe' after an unscheduled meeting with Putin envoy Dmitriev",
-          "category": "Ukraine war",
-          "summary": "Trump said he met Kirill Dmitriev after the envoy took part in a White House event hosted by First Lady Melania Trump with Russian and Ukrainian officials, and predicted an imminent deal with Russia covering Ukraine and 'all of Europe'. CNA (AFP) reported the remarks will fuel Ukrainian and European fears of a wider US-Russia bargain that could reduce the US military presence in Europe. Three-way Russia-Ukraine-US talks are due to resume in Abu Dhabi next week, the first since the midterms.",
-          "source": "The Straits Times, Al Jazeera (AP), CNA (AFP)",
-          "published_at": "2026-11-06T11:04+08:00",
-          "url": "https://www.straitstimes.com/world/united-states/trump-says-he-met-putin-envoy-dmitriev"
-        },
-        {
-          "id": "pa_iraq",
-          "headline": "Iraq's PM al-Zaidi tells Trump Baghdad will not let its territory be used to attack neighbours as Iraq seeks to stay out of an Iran war",
-          "category": "Middle East",
-          "summary": "Prime Minister Ali al-Zaidi spoke to Trump by phone on Thursday, his office said, as diplomatic efforts intensify to avert renewed US strikes on Iran. Iraq's foreign minister warned a new war on Iran would be a 'disaster' for Iraq and urged armed groups not to join any Iranian retaliation.",
-          "source": "Al Jazeera (Iraqi PM office)",
-          "published_at": "2026-11-06T13:00+08:00",
-          "url": "https://www.aljazeera.com/news/2026/11/6/iraqs-al-zaidi-talks-to-trump-as-baghdad-seeks-to-stay-out-of-war-on-iran"
-        },
-        {
-          "id": "pa_hormuz",
-          "headline": "Iran says ships from India, China, Iraq and Qatar are exempt from its Strait of Hormuz restrictions",
-          "category": "Middle East",
-          "summary": "Amir Hayat Moqaddam, deputy chairman of the Iranian parliament's national security committee, told the ISNA news agency that vessels from the four countries 'pass freely, and the Americans do not intercept them either'. Al Jazeera notes the claim is Tehran's and that analysts see political risk in selective exemptions; it has not been confirmed by the US or the named governments.",
-          "source": "Al Jazeera (Iranian statements)",
-          "published_at": "2026-11-06T14:06+08:00",
-          "url": "https://www.aljazeera.com/news/2026/11/6/why-is-iran-exempting-india-china-qatar-iraq-from-hormuz-restrictions"
         },
         {
           "id": "qa_rusiran",
@@ -342,15 +379,6 @@
           "url": "https://www.straitstimes.com/world/europe/kremlin-accuses-europe-of-struggling-to-decide-who-will-speak-for-it-at-future-ukraine-security"
         },
         {
-          "id": "pa_macau",
-          "headline": "Macau jails ex-lawmaker Au Kam San for 12½ years in the city's first national security case",
-          "category": "Asia",
-          "summary": "Au Kam San, 69, a former legislator and pro-democracy campaigner, was convicted on Friday of 'subversion against the political power of the state' and other offences after a closed-door trial, the BBC reported. His wife Virginia Cheang called the case a 'groundless persecution'. Macau's national security law dates from 2009 and was broadened in 2023 to cover non-violent acts.",
-          "source": "BBC, CNA, Al Jazeera",
-          "published_at": "2026-11-06T14:46+08:00",
-          "url": "https://www.bbc.co.uk/news/articles/cmdx33v9vvr2o"
-        },
-        {
           "id": "qa_loke",
           "headline": "Anthony Loke confirms he will quit as Malaysia's transport minister the moment Najib begins house arrest; says the JB-Singapore RTS Link will open on schedule regardless",
           "category": "Asia",
@@ -358,15 +386,6 @@
           "source": "CNA, Mothership",
           "published_at": "2026-11-06T17:19+08:00",
           "url": "https://www.channelnewsasia.com/asia/malaysia-anthony-loke-resign-najib-transport-minister-6530426"
-        },
-        {
-          "id": "pa_najib",
-          "headline": "UMNO pays Najib Razak's RM50 million fine, clearing the way for the former Malaysian PM to serve his sentence under house arrest",
-          "category": "Asia",
-          "summary": "Party secretary-general Asyraf Wajdi Dusuki said the Najib Razak Solidarity Fund launched on 18 September had reached its target and the payment to the Kuala Lumpur High Court was completed on Friday morning (about US$12.3 million or S$15.8 million). Payment was a condition of the order letting Najib serve the remainder of his 1MDB-linked sentence at home, until August 2028 according to local media cited by Mothership. Later on Friday, Najib left Kajang Prison, but the Attorney-General's Chambers then asked for the house arrest to be put on hold (see the separate card).",
-          "source": "CNA, Mothership",
-          "published_at": "2026-11-06T13:25+08:00",
-          "url": "https://www.channelnewsasia.com/asia/malaysia-najib-razak-pays-fine-house-arrest-6520376"
         },
         {
           "id": "qa_kenya",
@@ -405,15 +424,6 @@
           "url": "https://www.channelnewsasia.com/world/school-bus-crash-france-lent-two-killed-6532041"
         },
         {
-          "id": "qa_cambodia",
-          "headline": "US Treasury sanctions four people and 41 companies linked to Cambodia's Prince Group over a billion-dollar scam network",
-          "category": "US-Asia",
-          "summary": "The Treasury said on Thursday the targets were affiliates of the Prince Group, which it accuses of running romance and crypto-investment scam compounds, and it separately sanctioned a Madagascar-based network it says cheated Americans out of tens of millions, The Straits Times reported. Cambodia says it is cracking down under pressure from the US, Britain and China; a Singaporean woman linked to the group was charged in Singapore on Friday (see Singapore).",
-          "source": "The Straits Times (AFP), US Treasury",
-          "published_at": "2026-11-06T15:05+08:00",
-          "url": "https://www.straitstimes.com/world/united-states/us-slaps-more-sanctions-on-cambodias-alleged-scam-group-affiliates"
-        },
-        {
           "id": "qa_tiktok",
           "headline": "EU tells TikTok to change its 'harmful' For You feed or face fines of up to 6% of global turnover",
           "category": "Europe",
@@ -421,33 +431,6 @@
           "source": "The Straits Times (AFP)",
           "published_at": "2026-11-06T20:13+08:00",
           "url": "https://www.straitstimes.com/world/europe/eu-tells-tiktok-to-change-harmful-for-you-feed"
-        },
-        {
-          "id": "pa_jericho",
-          "headline": "UN condemns Israeli settlers' seizure of eight Palestinian homes in Jericho, saying dozens were forced to flee",
-          "category": "Middle East",
-          "summary": "UN spokesperson Stephane Dujarric said settlers reportedly used live ammunition and beat residents while taking over the homes in the occupied West Bank city. The settlers are associated with the right-wing Nachala movement, AFP reported; Israeli authorities had not commented in the report.",
-          "source": "Al Jazeera (AFP, UN)",
-          "published_at": "2026-11-06T12:30+08:00",
-          "url": "https://www.aljazeera.com/news/2026/11/6/israeli-settlers-seize-8-palestinian-homes-in-jericho-displacing-dozens"
-        },
-        {
-          "id": "pa_indo",
-          "headline": "Indonesia names a fourth senior police officer as suspect in the alleged wiretapping of President Prabowo",
-          "category": "Asia",
-          "summary": "Police on Thursday night named an officer with the initials SU, a former monitoring chief at the Criminal Investigation Agency, as the fourth suspect. Three senior officers have already been arrested, including former national police chief and Prabowo chief of staff Listyo Sigit Prabowo, in a scandal CNA says has exposed a widening rift between the president and his predecessor Joko Widodo.",
-          "source": "CNA, Al Jazeera, BBC",
-          "published_at": "2026-11-06T13:41+08:00",
-          "url": "https://www.channelnewsasia.com/asia/indonesia-fourth-senior-police-officer-wiretapping-suspect-6530131"
-        },
-        {
-          "id": "na_anc",
-          "headline": "South Africa's ANC on course for a roughly 14-point drop in municipal elections, at 32% with 71% of votes counted",
-          "category": "Africa",
-          "summary": "With 71% of votes counted on Friday, the ANC stood at 32% against 25% for the Democratic Alliance, according to results reported by Reuters via The Straits Times and by Al Jazeera. If the figures hold the party would be down about 14 percentage points from its 2021 local-election result, already its worst, and coalition talks would decide control of major cities including Johannesburg.",
-          "source": "Al Jazeera (AFP, Reuters), The Straits Times (Reuters)",
-          "published_at": "2026-11-06T14:43+08:00",
-          "url": "https://www.aljazeera.com/news/2026/11/5/south-africas-anc-on-track-for-new-lows-in-local-polls"
         },
         {
           "id": "qa_sweden",
@@ -495,123 +478,6 @@
           "url": "https://www.straitstimes.com/world/2026-most-likely-to-be-second-hottest-year-on-record-eu-monitor"
         },
         {
-          "id": "na_rubio",
-          "headline": "Rubio denies reports he will quit the Trump administration and says he would back Vance in 2028",
-          "category": "US politics",
-          "summary": "Secretary of State Marco Rubio, who also serves as national security adviser, told the New York Times on 5 Nov it has 'always been my plan' to serve until the end of Trump's term, dismissing reports he would leave to prepare a White House bid after the Republican midterm losses. He declined to discuss 2028 but said he would support Vice-President J.D. Vance.",
-          "source": "CNA (NYT), The Straits Times, BBC",
-          "published_at": "2026-11-06T10:08+08:00",
-          "url": "https://www.channelnewsasia.com/world/marco-rubio-white-house-presidential-bid-us-midterms-6529406"
-        },
-        {
-          "id": "pa_chinalaw",
-          "headline": "China adopts a cross-border anti-corruption law to pursue fugitives and recover assets abroad",
-          "category": "China",
-          "summary": "State news agency Xinhua said the law, a draft of which was first reviewed in August 2025, aims to deepen international cooperation and safeguard China's sovereignty and security. Top anti-graft official Li Xi had called this week for legislation to track fugitives, prevent flight and recover illicit assets. Details of the final text were not published in the report.",
-          "source": "CNA (Reuters; Xinhua)",
-          "published_at": "2026-11-06T13:17+08:00",
-          "url": "https://www.channelnewsasia.com/east-asia/china-passes-cross-border-corruption-law-6529846"
-        },
-        {
-          "id": "pa_nvidia",
-          "headline": "About 600,000 Nvidia H200 chips reportedly stuck in Hong Kong as Beijing withholds large-scale import approval",
-          "category": "US-China",
-          "summary": "People familiar with the matter told Reuters the previously unreported stockpile reflects Beijing's reluctance to deepen reliance on US technology even as Chinese firms seek Nvidia's computing power. Some chips have been allowed in, with several major Chinese internet companies each obtaining about 10,000 H200s in recent months, the sources said. The figures are from anonymous sources and have not been confirmed by Nvidia or Chinese authorities.",
-          "source": "CNA (Reuters)",
-          "published_at": "2026-11-06T11:47+08:00",
-          "url": "https://www.channelnewsasia.com/east-asia/nvidia-chips-pile-up-hong-kong-china-withhold-import-approval-6527371"
-        },
-        {
-          "id": "pa_jt",
-          "headline": "Putin signs decree temporarily seizing Japan Tobacco's Russian assets; Tokyo protests",
-          "category": "Russia",
-          "summary": "The decree places four Japan Tobacco International businesses under the management of a Russian entity, Industrial Assets, The Straits Times reported. Russia accounts for about 10% of Japan Tobacco's revenue and a quarter of its operating profit; its shares fell in Tokyo and Japan lodged a diplomatic protest. It is the latest foreign company to lose control of Russian operations since sanctions over Ukraine.",
-          "source": "The Straits Times",
-          "published_at": "2026-11-06T11:45+08:00",
-          "url": "https://www.straitstimes.com/world/putin-seizes-control-of-japan-tobaccos-russian-assets"
-        },
-        {
-          "id": "pa_bondi",
-          "headline": "Woman, 90, shot in the Bondi Beach attack dies almost a year later, Australian rabbi says",
-          "category": "Australia",
-          "summary": "Eva Geller, a Holocaust survivor, was among dozens seriously injured when two gunmen opened fire on a Jewish event at Bondi Beach on 14 December last year, an attack that killed 15 people. Rabbi Aron Moss of Nefesh Synagogue announced her death in a Sydney hospital, and Prime Minister Anthony Albanese offered condolences.",
-          "source": "BBC",
-          "published_at": "2026-11-06T13:32+08:00",
-          "url": "https://www.bbc.co.uk/news/articles/c65ynn9x50d0o"
-        },
-        {
-          "id": "pa_turkey",
-          "headline": "Istanbul court jails former Turkish minister Fatma Betul Sayan Kaya in investigation into the fund crisis, Anadolu reports",
-          "category": "Europe",
-          "summary": "Kaya, family minister from 2016 to 2018 and a former AK Party deputy chair who quit the party in September, was arrested early on Friday, state-run Anadolu Agency and other Turkish media said. An opposition politician had accused her of profiting from share trades just before the crisis that triggered a major stock-market sell-off. The report is from state media and the charges have not been independently detailed.",
-          "source": "The Straits Times (Reuters; Anadolu)",
-          "published_at": "2026-11-06T14:13+08:00",
-          "url": "https://www.straitstimes.com/world/europe/turkey-court-jails-former-minister-in-funds-probe-anadolu-says"
-        },
-        {
-          "id": "pa_belgium",
-          "headline": "Belgian PM De Wever meets the king on Friday to decide whether to resign after budget talks collapsed",
-          "category": "Europe",
-          "summary": "De Wever offered his resignation on Monday after budget negotiations broke down; King Philippe consulted coalition leaders through Thursday. In parliament on Thursday the prime minister hinted he was more inclined to stay on, saying he still hoped to secure a budget.",
-          "source": "The Straits Times (Reuters)",
-          "published_at": "2026-11-06T12:23+08:00",
-          "url": "https://www.straitstimes.com/world/europe/belgian-pm-to-determine-government-future-in-meeting-with-king"
-        },
-        {
-          "id": "pa_penn",
-          "headline": "US Justice Department sues Penn State over in-state tuition for undocumented students",
-          "category": "US politics",
-          "summary": "The lawsuit filed on Thursday argues the university's policy, which lets undocumented students qualify for reduced in-state rates while out-of-state US citizens pay more, discriminates against citizens. Penn State is the latest institution targeted under the Trump administration over such tuition policies.",
-          "source": "Al Jazeera",
-          "published_at": "2026-11-06T13:57+08:00",
-          "url": "https://www.aljazeera.com/news/2026/11/6/us-justice-department-sues-penn-state-over-undocumented-students-tuition"
-        },
-        {
-          "id": "pa_vitk",
-          "headline": "Study: US parents refusing newborn vitamin K shots rose to 6.8% in 2025, with more infant bleeding deaths",
-          "category": "Health",
-          "summary": "A JAMA study found refusal rates rose from 3.1% in 2017 to 6.8% in 2025. Babies who missed the shot faced a much higher risk of bleeding, including brain and gut bleeds, by six months and were more than twice as likely to die during their birth hospital stay. An accompanying editorial urged doctors and public-health agencies to educate families and offer oral alternatives.",
-          "source": "The Straits Times",
-          "published_at": "2026-11-06T11:30+08:00",
-          "url": "https://www.straitstimes.com/world/united-states/more-babies-in-us-are-dying-after-parents-refuse-vitamin-k-shots-study"
-        },
-        {
-          "id": "pa_sarawak",
-          "headline": "Sarawak to hold its state election on 12 December, with more than 2 million voters",
-          "category": "Asia",
-          "summary": "Malaysia's Election Commission set nomination day for 28 November and early voting for 8 December after the state assembly was dissolved on 26 October. Sarawak's 13th state poll follows a string of state elections across Malaysia over the past year.",
-          "source": "CNA",
-          "published_at": "2026-11-06T11:33+08:00",
-          "url": "https://www.channelnewsasia.com/asia/malaysia-sarawak-state-election-december-12-6522416"
-        },
-        {
-          "id": "pa_mummy",
-          "headline": "Egypt asks Scotland to return a 4,000-year-old priest's mummy removed from display in Glasgow",
-          "category": "World",
-          "summary": "Egypt said it has requested the return of Nekht, whose remains were taken off display at Glasgow's Kelvingrove Museum over ethical concerns about 'consent from the deceased' and a new International Council of Museums code on human remains. Cairo says the case is still under discussion as it pushes to repatriate artefacts ahead of promoting its Grand Egyptian Museum.",
-          "source": "The Straits Times",
-          "published_at": "2026-11-06T14:50+08:00",
-          "url": "https://www.straitstimes.com/world/egypt-asks-for-return-of-ancient-mummy-behind-scots-controversy"
-        },
-        {
-          "id": "pa_tarant",
-          "headline": "Peru seizes more than 3,000 tarantulas hidden in dirty socks in three suitcases bound for Germany",
-          "category": "World",
-          "summary": "Peru's wildlife agency SERFOR told AFP the spiders, in varying stages of development and some still moving, were found during a routine customs check at Lima airport on 5 November. Two Germans and a Polish citizen were detained; authorities say the case may be linked to a wildlife-trafficking scheme worth about 1.5 million euros.",
-          "source": "The Straits Times (AFP)",
-          "published_at": "2026-11-06T09:20+08:00",
-          "url": "https://www.straitstimes.com/world/peru-airport-thwarts-plot-to-smuggle-3000-tarantulas-in-dirty-socks"
-        },
-        {
-          "id": "pa_pizza",
-          "headline": "Italian chef sacked by a Brisbane restaurant after refusing pineapple on pizza, calling it 'an insult to his culture'",
-          "category": "World",
-          "summary": "Australia's Fair Work Commission heard that Davide Tamburella had declined to top pizzas with pineapple about three times in four years, one of several complaints that led to his dismissal in May. He has lodged an unfair-dismissal claim; the case was first reported by the BBC and picked up by CNA and Mothership.",
-          "source": "CNA Lifestyle, Mothership",
-          "published_at": "2026-11-06T13:11+08:00",
-          "url": "https://www.channelnewsasia.com/dining/italian-chef-fired-pineapple-pizza-australia-david-tamburella-6530021"
-        },
-        {
           "id": "qa_musk",
           "headline": "Musk says Tesla will wind down Cybertruck production at its Texas plant next year to 'make room' for the Cybercab",
           "category": "Business",
@@ -630,15 +496,6 @@
           "url": "https://www.bbc.co.uk/news/articles/c5zjxxmz7mxro"
         },
         {
-          "id": "qa_belgmig",
-          "headline": "Belgian parliament approves law allowing police to enter homes of undocumented migrants who ignore orders to leave",
-          "category": "Europe",
-          "summary": "The measure passed early on Friday as part of Prime Minister Bart De Wever's push to increase expulsions, The Straits Times reported; rights groups strongly oppose it. It came as De Wever awaited the king's decision on his offer to resign over the collapsed budget talks.",
-          "source": "The Straits Times (Reuters)",
-          "published_at": "2026-11-06T15:08+08:00",
-          "url": "https://www.straitstimes.com/world/europe/belgium-to-allow-home-searches-for-suspected-illegal-migrants"
-        },
-        {
           "id": "qa_corsica",
           "headline": "Two die in Corsica as a vehicle is swept away in floods; up to 350mm of rain since Wednesday",
           "category": "Europe",
@@ -646,28 +503,19 @@
           "source": "The Straits Times (Reuters)",
           "published_at": "2026-11-06T16:02+08:00",
           "url": "https://www.straitstimes.com/world/europe/two-die-in-corsica-floods-amid-heavy-rain"
-        },
-        {
-          "id": "qa_rail",
-          "headline": "EU prosecutors search Spain's rail infrastructure manager, safety agency and court of auditors in a Madrid-Seville line fraud probe",
-          "category": "Europe",
-          "summary": "The European Public Prosecutor's Office said on Friday it is investigating possible fraud involving EU funds for renovating the line's safety, signalling and communications systems, The Straits Times reported. The high-speed line has had two deadly accidents this year.",
-          "source": "The Straits Times (Reuters), BBC",
-          "published_at": "2026-11-06T19:43+08:00",
-          "url": "https://www.straitstimes.com/world/europe/eu-prosecutor-searches-spanish-rail-bodies-in-fraud-probe"
         }
       ]
     },
     "singapore": {
       "label": "Singapore",
-      "ai_summary": "LTA has ordered Grab to pause part of its Punggol driverless trial after Thursday's near-miss with a schoolgirl, saying the vehicle saw both pedestrians but turned anyway, so expect a slower rollout of the on-demand service. Police have brought a seventh suspect home from the Cambodia scam syndicate case and will charge him today, as the M1 and Doctor Anywhere breach notices keep landing in inboxes. The haze episode is formally winding down, with subsidised treatment ending on 12 November, and fresh graduates are telling ST they will take internships or part-time work in a tightening market. The buzz is lighter and road-heavy, from an overturned car on the PIE to the Deepavali crowds filling Little India tonight. If you were affected by either breach, change passwords and treat calls quoting your real details as scams.",
+      "ai_summary": "A 33-year-old man is in custody after an alleged sharp-object assault in River Valley ended with his SUV overturning at Race Course Road during a police chase early this morning, the second overturned car in two days. Veteran PAP politician Lee Yiok Seng, who steered housing and resettlement in the 1980s, has died at 87. LTA's order to Grab to pause part of its Punggol driverless trial still stands, and the M1 and Doctor Anywhere breach notices remain the items most likely to reach your inbox. Analysts told CNA the three local banks face a tougher 2027 as rate-driven profits fade, while more than 230 migrant workers owed wages have been linked to new employers. The buzz is food-and-farewell flavoured, led by a 40-year-old Teochew meat puff stall leaving the pasar malam circuit. If you drive, note the run of serious crashes this week, and if you got a breach notice, treat calls quoting your real details as scams.",
       "weather": {
         "forecast": "Thundery Showers",
         "temp_low": 24,
-        "temp_high": 34,
+        "temp_high": 35,
         "humidity_low": 65,
         "humidity_high": 95,
-        "as_of": "2026-11-07T06:00+08:00",
+        "as_of": "2026-11-07T12:00+08:00",
         "source": "NEA",
         "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
       },
@@ -693,6 +541,24 @@
         ]
       },
       "stories": [
+        {
+          "id": "ss_chase",
+          "headline": "Man, 33, arrested after alleged sharp-object assault in River Valley; his SUV overturned at Race Course Road after a police chase early on Saturday",
+          "category": "Crime",
+          "summary": "Police said they were alerted at about 8.35pm on Friday to an assault on River Valley Road, where a 33-year-old man allegedly attacked a 34-year-old man with a sharp object before fleeing in his vehicle; the victim was taken conscious to hospital, CNA and The Straits Times reported. At about 12.05am on Saturday, officers on Tessensohn Road spotted the SUV and signalled it to stop; it fled, ran a red light and collided with another car at the junction of Race Course Road and Birch Road, overturning. The man was arrested for voluntarily causing hurt by dangerous means and failing to provide a breath specimen. A TikTok video of the crash circulated widely, Mothership reported.",
+          "source": "CNA, The Straits Times, Mothership (SPF)",
+          "published_at": "2026-11-07T11:28+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/police-chase-overturned-car-river-valley-assault-6532596"
+        },
+        {
+          "id": "ss_leeys",
+          "headline": "Former senior parliamentary secretary Lee Yiok Seng, who steered housing and resettlement efforts in the 1980s, dies at 87",
+          "category": "Politics",
+          "summary": "Lee Yiok Seng, MP for Bukit Panjang from 1972 to 1991 and for Sembawang GRC from 1991 to 1996, died on Friday aged 87, The Straits Times reported. He was government whip from 1981 to 1988, senior parliamentary secretary for national development from 1981 to 1993 and for labour from 1994 to 1996. Prime Minister Lawrence Wong said in a Facebook post that Lee 'played an important role in our housing and resettlement efforts' as new towns were built and championed workplace safety and workers' welfare; former colleagues described him as approachable and devoted.",
+          "source": "The Straits Times (PMO)",
+          "published_at": "2026-11-07T11:49+08:00",
+          "url": "https://www.straitstimes.com/singapore/politics/former-senior-parliamentary-secretary-lee-yiok-seng-who-was-behind-housing-efforts-dies-at-87"
+        },
         {
           "id": "qs_av",
           "headline": "LTA tells Grab to pause part of its Punggol autonomous-vehicle testing after a shuttle nearly hit a schoolgirl at a crossing",
@@ -739,6 +605,24 @@
           "url": "https://www.channelnewsasia.com/singapore/cybersecurity-agency-cyberattack-refrigeration-hack-6530431"
         },
         {
+          "id": "ss_banks",
+          "headline": "Analysts see a tougher 2027 for DBS, OCBC and UOB as rate-driven profits fade and wealth clients trade less",
+          "category": "Economy",
+          "summary": "After a mixed third-quarter earnings season in which DBS and UOB missed forecasts, analysts told CNA that Singapore's three banks face a harder 2027 because interest rates are 'no longer doing the heavy lifting'. CMC Markets' Eric Xiao noted DBS drew a record S$15 billion of net new money in the quarter yet saw wealth fees fall 6% as clients traded less, and warned margins could be squeezed as deposit rates rise faster than loan rates, though he does not expect a 'down year'. Syfe's Ritesh Ganeriwal said the banks' core business held up in Q3.",
+          "source": "CNA",
+          "published_at": "2026-11-07T09:03+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/dbs-uob-ocbc-banks-earnings-outlook-6531376"
+        },
+        {
+          "id": "ss_migrant",
+          "headline": "More than 230 migrant workers owed wages have been linked to new employers and temporary housing while their salary claims are heard",
+          "category": "Labour",
+          "summary": "More than 230 migrant workers who lodged salary claims in October have been connected with potential employers and put up in temporary housing while their claims are pending, The Straits Times reported, and some have since received pay. The report follows the case of a 21-year-old Bangladeshi worker with less than S$10 left who received a construction job offer on Friday after waiting on two months of unpaid wages. The matching effort involves MOM and migrant-worker groups.",
+          "source": "The Straits Times",
+          "published_at": "2026-11-07T10:30+08:00",
+          "url": "https://www.straitstimes.com/singapore/migrant-workers-with-owed-wages-linked-up-with-new-job-opportunities-some-received-pay"
+        },
+        {
           "id": "rs_haze",
           "headline": "After Singapore's worst haze since 2015, CNA weighs what went right: subsidised haze treatment ends on 12 November as the task force stands down",
           "category": "Environment",
@@ -746,60 +630,6 @@
           "source": "CNA",
           "published_at": "2026-11-07T06:00+08:00",
           "url": "https://www.channelnewsasia.com/singapore/haze-public-health-transboundary-haze-pollution-law-6530851"
-        },
-        {
-          "id": "qs_genetic",
-          "headline": "Subsidies of up to 70% for hereditary breast and ovarian cancer genetic testing start on 1 December; MOH expects about 2,000 people a year to benefit",
-          "category": "Health",
-          "summary": "First announced by MOH in March, the subsidies will apply at specialist outpatient clinics at the National Cancer Centre Singapore, the National University Cancer Institute Singapore and Tan Tock Seng Hospital, CNA reported on Friday. Doctors say cheaper testing could help families identify inherited BRCA-type risk earlier and take preventive action.",
-          "source": "CNA",
-          "published_at": "2026-11-06T15:07+08:00",
-          "url": "https://www.channelnewsasia.com/singapore/genetic-testing-hereditary-breast-ovarian-cancer-subsidies-dec-1-6530326"
-        },
-        {
-          "id": "ps_sia",
-          "headline": "SIA unveils a S$2 billion cabin overhaul with First Class double beds and Business seats with doors, rolling out from the second half of 2027",
-          "category": "Transport",
-          "summary": "Singapore Airlines said on Friday it is investing more than S$2 billion in next-generation seats across all four long-haul classes, including First Class suites with what it calls the largest double bed in commercial aviation (80 by 60 inches), Business Class seats with sliding doors, and upgraded Premium Economy and Economy cabins. The Straits Times reports the first- and business-class products go onto the A350-900 fleet from H2 2027, a slip from the earlier Q1 2027 target due to industry-wide supply constraints, while the new economy seats will be fitted only on the incoming Boeing 777-9.",
-          "source": "CNA, The Straits Times (SIA)",
-          "published_at": "2026-11-06T13:31+08:00",
-          "url": "https://www.channelnewsasia.com/travel/singapore-airlines-sia-new-cabin-products-first-class-business-class-2027-6526061"
-        },
-        {
-          "id": "ps_aiag",
-          "headline": "CSA, GovTech and IMDA warn users to restrict what personal AI agents can access as tools like Meta's Muse arrive in Singapore",
-          "category": "Technology",
-          "summary": "An advisory issued on Friday says consumers should connect only the apps an AI agent needs, keep it away from sensitive accounts and require permission before it deletes or shares files, because scammers could manipulate agents into transferring money or revealing data. 'You cannot treat them like human assistants and give them the same broad access to your information and implicit trust,' the agencies said. Unlike chatbots, agents browse, manage email and make bookings on a user's behalf.",
-          "source": "CNA, The Straits Times (CSA, GovTech, IMDA)",
-          "published_at": "2026-11-06T13:30+08:00",
-          "url": "https://www.channelnewsasia.com/singapore/personal-ai-agents-assistant-advisory-muse-dots-hermes-grok-openclaw-6529836"
-        },
-        {
-          "id": "ps_taxi",
-          "headline": "Singapore-Malaysia cross-border taxi quota rises from 300 to 500 each from 16 November; CDG Zig and Kumpool licensed alongside Grab",
-          "category": "Transport",
-          "summary": "The two transport ministries said in a joint statement on Friday that the enhanced Cross-Border Taxi Scheme will allow up to 1,000 licensed taxis in total, and that Singapore's CDG Zig and Malaysian ride-hailing firm Kumpool will join GrabCar as licensed operators from the same date. The Straits Times notes the move hits the 500-per-side target both governments had set.",
-          "source": "CNA, The Straits Times (MOT)",
-          "published_at": "2026-11-06T11:38+08:00",
-          "url": "https://www.channelnewsasia.com/singapore/cross-border-taxi-quota-increase-singapore-malaysia-6529936"
-        },
-        {
-          "id": "qs_billing",
-          "headline": "Hospital counter and kiosk bill payments unavailable at NUHS and NHG Health clusters from 9pm Friday to 6am Monday 9 Nov for billing-system maintenance",
-          "category": "Health",
-          "summary": "Synapxe said patients cannot generate or pay bills at counters and self-service kiosks during the planned downtime, but clinical services and patient care continue as usual, The Straits Times reported. Payments can still be made through HealthHub, AXS machines and the clusters' apps, and will show up after the maintenance ends.",
-          "source": "The Straits Times, Synapxe",
-          "published_at": "2026-11-06T17:05+08:00",
-          "url": "https://www.straitstimes.com/singapore/healthcare-billing-system-for-nuhs-nhg-health-clusters-to-undergo-maintenance-till-nov-9-morning"
-        },
-        {
-          "id": "qs_jobseeker",
-          "headline": "MOM: about 54% of Jobseeker Support Scheme applicants were unsuccessful as of 30 September, most because they were not assessed as involuntarily unemployed",
-          "category": "Policy",
-          "summary": "Mothership reported MOM figures showing 69% of unsuccessful applicants fell at the involuntary-unemployment test, 33% had previously earned above the S$5,000-a-month ceiling and 18% had not worked at least six months in the preceding year; some failed on more than one count.",
-          "source": "Mothership (MOM figures)",
-          "published_at": "2026-11-06T15:23+08:00",
-          "url": "https://mothership.sg/2026/11/jobseeker-support-scheme-applicants-unsuccessful-mom/"
         },
         {
           "id": "rs_grads",
@@ -811,13 +641,58 @@
           "url": "https://www.straitstimes.com/singapore/no-job-after-graduation-well-keep-trying-say-students-amid-tough-job-market"
         },
         {
-          "id": "ps_deepavali",
-          "headline": "Police expect heavy Deepavali crowds in Little India: Birch Road crossing closes from 4pm Saturday, public drinking banned 6-10 November",
-          "category": "Advisory",
-          "summary": "The Singapore Police Force advisory on Friday warns of heavy pedestrian and vehicle traffic along Serangoon Road, especially on 7 November, the eve of Deepavali. The Birch Road crossing in front of Anguilla Mosque will close from 4pm on 7 November to 4am the next day, with Campbell Lane possibly closing too; public drinking is prohibited in Little India during restricted hours from 6 to 10 November, and police warned against sparkler misuse and illegal fireworks.",
-          "source": "The Straits Times, Mothership (SPF)",
-          "published_at": "2026-11-06T13:01+08:00",
-          "url": "https://www.straitstimes.com/singapore/heavy-crowds-expected-in-little-india-for-deepavali-crossing-closures-alcohol-curbs-in-force"
+          "id": "ss_pie7",
+          "headline": "Seven-vehicle crash on the PIE towards Changi sends a driver and passenger to hospital; four other drivers assisting police",
+          "category": "Transport",
+          "summary": "Seven vehicles collided on the PIE towards Changi at about 9.55pm on Thursday, 5 November, The Straits Times reported on Saturday citing the police. A 37-year-old driver and his 26-year-old passenger were taken conscious to hospital, and four other car drivers aged 43 to 59 are assisting with investigations. Photos shared online showed a white sedan with a heavily damaged bonnet, debris across closed lanes and emergency vehicles at the scene.",
+          "source": "The Straits Times (SPF)",
+          "published_at": "2026-11-07T11:30+08:00",
+          "url": "https://www.straitstimes.com/singapore/two-taken-to-hospital-after-seven-vehicle-crash-on-pie"
+        },
+        {
+          "id": "ss_katong",
+          "headline": "Driver, 81, and passenger taken to hospital after car skids into a bus-stop bollard on Amber Road",
+          "category": "Transport",
+          "summary": "An 81-year-old woman is assisting police after the car she was driving skidded and crashed into a bollard protecting a bus stop on Amber Road, in the direction of Haig Road, at about 3pm on Friday, The Straits Times reported citing the police and SCDF. She and her passenger were taken to hospital. Photos shared on Facebook showed the car resting against the bollard after mounting the kerb; investigations are ongoing.",
+          "source": "The Straits Times (SPF, SCDF)",
+          "published_at": "2026-11-07T12:15+08:00",
+          "url": "https://www.straitstimes.com/singapore/elderly-driver-passenger-taken-to-hospital-after-car-crashes-into-bus-stop-bollard-in-katong"
+        },
+        {
+          "id": "ss_shelter",
+          "headline": "Fellowship of Men Singapore plans a free crisis shelter for men at risk of abuse, displacement or self-harm from 2027",
+          "category": "Social",
+          "summary": "Fellowship of Men Singapore says it will open a crisis shelter for men from 2027, starting in budget hotels and aiming for a dedicated site within five years, The Straits Times reported. The free service is meant for men facing abuse, displacement, self-harm or a rising risk of hurting loved ones; each will be assessed and linked to counselling, social work or legal help. The charity says men often stay silent until situations escalate, and that no shelter currently caters specifically to them.",
+          "source": "The Straits Times",
+          "published_at": "2026-11-07T12:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/community/my-family-should-not-have-to-leave-new-shelter-aims-to-help-spore-men-in-crisis"
+        },
+        {
+          "id": "qs_jobseeker",
+          "headline": "MOM: about 54% of Jobseeker Support Scheme applicants were unsuccessful as of 30 September, most because they were not assessed as involuntarily unemployed",
+          "category": "Policy",
+          "summary": "Mothership reported MOM figures showing 69% of unsuccessful applicants fell at the involuntary-unemployment test, 33% had previously earned above the S$5,000-a-month ceiling and 18% had not worked at least six months in the preceding year; some failed on more than one count.",
+          "source": "Mothership (MOM figures)",
+          "published_at": "2026-11-06T15:23+08:00",
+          "url": "https://mothership.sg/2026/11/jobseeker-support-scheme-applicants-unsuccessful-mom/"
+        },
+        {
+          "id": "ss_heritage",
+          "headline": "High Court orders food-court operator Singapura Heritage Food Hall to wind up after a poultry supplier's petition",
+          "category": "Business",
+          "summary": "The General Division of the High Court made a winding-up order against Singapura Heritage Food Hall on 23 October, according to a notice in the Government Gazette on 4 November, Mothership reported. The order follows a petition filed on 17 September by poultry supplier Toh Thye San Farm. A winding-up order shuts down and liquidates a company; the report did not say how many outlets or staff are affected.",
+          "source": "Mothership (Government Gazette)",
+          "published_at": "2026-11-07T14:46+08:00",
+          "url": "https://mothership.sg/2026/11/singapore-heritage-food-hall-wind-up/"
+        },
+        {
+          "id": "qs_billing",
+          "headline": "Hospital counter and kiosk bill payments unavailable at NUHS and NHG Health clusters from 9pm Friday to 6am Monday 9 Nov for billing-system maintenance",
+          "category": "Health",
+          "summary": "Synapxe said patients cannot generate or pay bills at counters and self-service kiosks during the planned downtime, but clinical services and patient care continue as usual, The Straits Times reported. Payments can still be made through HealthHub, AXS machines and the clusters' apps, and will show up after the maintenance ends.",
+          "source": "The Straits Times, Synapxe",
+          "published_at": "2026-11-06T17:05+08:00",
+          "url": "https://www.straitstimes.com/singapore/healthcare-billing-system-for-nuhs-nhg-health-clusters-to-undergo-maintenance-till-nov-9-morning"
         },
         {
           "id": "qs_tech",
@@ -836,24 +711,6 @@
           "source": "The Straits Times",
           "published_at": "2026-11-06T21:05+08:00",
           "url": "https://www.straitstimes.com/singapore/housing/former-oil-tycoon-ok-lims-grandson-fails-to-keep-tanglin-condo-from-creditors-reach"
-        },
-        {
-          "id": "ns_prince",
-          "headline": "Singaporean woman, 44, linked to the Prince Holding Group scam syndicate charged with attempted cheating and instigating false accounts; no bail",
-          "category": "Crime",
-          "summary": "Chen Xiuling, also known as Karen Chen, was arrested at Changi Airport on 5 November under an outstanding warrant and charged on Friday with one count each of instigating another person to falsify accounts and attempted cheating; no bail was offered. Police say she was a director of several Singapore-registered companies, and that officers have seized or frozen more than S$700 million in assets linked to the Cambodia-based syndicate to date.",
-          "source": "CNA (SPF), The Straits Times, Mothership",
-          "published_at": "2026-11-06T11:48+08:00",
-          "url": "https://www.channelnewsasia.com/singapore/prince-holding-group-woman-charged-6529261"
-        },
-        {
-          "id": "ps_crypto",
-          "headline": "Police and crypto exchanges stop 383 scam victims losing more than S$17.4 million in a two-month joint operation",
-          "category": "Crime",
-          "summary": "The fifth such operation, run from 1 September to 31 October with digital-payment-token providers and foreign agencies, used blockchain analysis and customer data to warn victims by phone and in person. Police said information-sharing with the FBI, New South Wales Police and the Canadian Anti-Fraud Centre identified 32 foreign victims and will be expanded.",
-          "source": "The Straits Times (SPF)",
-          "published_at": "2026-11-06T12:35+08:00",
-          "url": "https://www.straitstimes.com/singapore/fifth-joint-operation-by-police-crypto-exchanges-stops-scam-victims-from-losing-over-17-4-million"
         },
         {
           "id": "qs_dis",
@@ -883,15 +740,6 @@
           "url": "https://www.straitstimes.com/tech/singapores-first-data-centre-under-stricter-green-rules-is-open"
         },
         {
-          "id": "qs_flood",
-          "headline": "PUB flash-flood advisory for Punggol Way and Riverside Road on Friday afternoon as MSS forecasts a wetter-than-usual first half of November",
-          "category": "Weather",
-          "summary": "PUB told motorists on X at about 2.40pm to avoid Punggol Way towards the TPE and Riverside Road for an hour, after NEA forecast heavy thundery showers from 2.40pm to 3.40pm, The Straits Times reported. The Meteorological Service Singapore says moderate to heavy afternoon showers are likely on most days in the first two weeks of November, with rainfall slightly above the long-term average.",
-          "source": "The Straits Times, PUB, MSS",
-          "published_at": "2026-11-06T15:03+08:00",
-          "url": "https://www.straitstimes.com/singapore/motorists-advised-to-avoid-areas-in-northern-singapore-over-risk-of-flash-floods"
-        },
-        {
           "id": "qs_bluemiracle",
           "headline": "STB suspends travel agent Blue Miracle Inspiration for up to six months over unfiled accounts; existing bookings must still be honoured",
           "category": "Consumer",
@@ -901,24 +749,6 @@
           "url": "https://www.straitstimes.com/singapore/blue-miracle-inspiration-travel-agency-suspended-by-stb-over-failure-to-submit-required-documents"
         },
         {
-          "id": "ps_panfilov",
-          "headline": "Court of Appeal publishes 92-page grounds for acquitting content creator Lev Panfilov of rape",
-          "category": "Courts",
-          "summary": "In written grounds issued on 5 November, the court said unresolved inconsistencies in the complainant's testimony gave it reason to doubt her account, and that neither her account of rape nor Panfilov's account of consensual sex was more believable than the other, which sufficed to establish reasonable doubt. Panfilov had been sentenced to 11½ years' jail and 12 strokes in May 2025 before winning his appeal on 2 September.",
-          "source": "The Straits Times, Mothership",
-          "published_at": "2026-11-06T13:50+08:00",
-          "url": "https://www.straitstimes.com/singapore/courts-crime/court-of-appeal-gives-full-written-reasons-for-acquitting-content-creator-lev-panfilov"
-        },
-        {
-          "id": "ps_ctc",
-          "headline": "CTC Travel warns of impersonation scam posts offering 20 'all-inclusive' discounted holiday packages for seniors",
-          "category": "Scams",
-          "summary": "The agency said in a Facebook advisory on 4 November, reported by CNA and ST on Friday, that scammers were using its name and images in a post by an account called 'Local Online Service - 1' to promote fake packages for people aged 50 and above. CTC Travel says it has no such offer and genuine promotions appear only on its official channels; police advise using ScamShield and checking official sources.",
-          "source": "CNA, The Straits Times",
-          "published_at": "2026-11-06T11:35+08:00",
-          "url": "https://www.channelnewsasia.com/singapore/ctc-travel-impersonation-scam-seniors-6529801"
-        },
-        {
           "id": "qs_ashley",
           "headline": "US non-profit FHI 360 drops Singaporean Ashley Tan as incoming CEO days before he was due to start; interim CEO appointed",
           "category": "People",
@@ -926,24 +756,6 @@
           "source": "CNA",
           "published_at": "2026-11-06T17:30+08:00",
           "url": "https://www.channelnewsasia.com/singapore/singaporean-ceo-fhi-360-development-organisation-6510761"
-        },
-        {
-          "id": "ps_singpost",
-          "headline": "SingPost's first-half net profit jumps 183.7% to S$55.9 million on an HDB shophouse sale-and-leaseback",
-          "category": "Business",
-          "summary": "The gain came largely from the sale and leaseback of 10 HDB shophouses. Excluding one-offs, underlying net profit more than doubled to S$11.5 million despite lower revenue, the national postal company said on Friday.",
-          "source": "CNA",
-          "published_at": "2026-11-06T11:03+08:00",
-          "url": "https://www.channelnewsasia.com/singapore/singpost-results-net-profit-h1-fy2026-2027-6529541"
-        },
-        {
-          "id": "ps_haze",
-          "headline": "Experts: Singapore's strengthened transboundary haze law will help hold firms accountable but cannot close the gaps on its own",
-          "category": "Policy",
-          "summary": "Environmental-law experts told CNA the amendments could improve accountability of companies linked to forest fires, but effectiveness will depend on consistent enforcement, corporate cooperation and access to evidence across jurisdictions, with regional cooperation still essential. The analysis follows this week's wind-down of haze measures as air quality improved.",
-          "source": "CNA, The Straits Times",
-          "published_at": "2026-11-06T11:55+08:00",
-          "url": "https://www.channelnewsasia.com/singapore/stronger-haze-law-singapore-parliament-experts-6527081"
         },
         {
           "id": "qs_tortured",
@@ -973,69 +785,6 @@
           "url": "https://mothership.sg/2026/11/msian-man-drunk-steal/"
         },
         {
-          "id": "ps_6g",
-          "headline": "NUHS, Singtel and Ericsson open a research centre to test AI healthcare on 5G-Advanced and 6G networks",
-          "category": "Technology",
-          "summary": "The National University 6G AI Centre at NUHS will trial remote patient monitoring for home-based care, lighter smart glasses for surgeons, hospital robots and AI that predicts patient surges, using networks that promise lower latency and higher data capacity than current 5G.",
-          "source": "The Straits Times",
-          "published_at": "2026-11-06T14:32+08:00",
-          "url": "https://www.straitstimes.com/tech/home-based-patient-care-among-ai-applications-being-tested-at-next-gen-5g-6g-research-centre"
-        },
-        {
-          "id": "ps_driver94",
-          "headline": "Driver, 94, fined S$5,000 and banned for five years after failing to give way and hitting a motorcyclist on Upper Thomson Road",
-          "category": "Courts",
-          "summary": "Goh Boon Kang pleaded guilty to driving without reasonable consideration and causing grievous hurt; the motorcyclist suffered multiple leg fractures in the 2 September 2025 collision near Jalan Angklong, when Goh made a discretionary right turn. Mothership cited the charge sheet and The Straits Times' court report.",
-          "source": "Mothership, The Straits Times",
-          "published_at": "2026-11-06T11:55+08:00",
-          "url": "https://mothership.sg/2026/11/driver-94-crash-motorcycle-ban/"
-        },
-        {
-          "id": "ps_smrt",
-          "headline": "SMRT bus captain, 49, killed riding home after a BKE collision with a bus and lorry on 4 November, wife tells Shin Min",
-          "category": "Transport",
-          "summary": "The Malaysian rider, identified by NGO 1ThirdMedia Movement as Mohd Fakhruzan bin Zakaria, had worked for SMRT for nearly three years and died in hospital after the 3.30pm crash on the Bukit Timah Expressway. His wife told Shin Min Daily News he leaves behind three children; the NGO arranged the burial in Johor Bahru.",
-          "source": "Mothership (Shin Min Daily News)",
-          "published_at": "2026-11-06T14:08+08:00",
-          "url": "https://mothership.sg/2026/11/smrt-bus-captain-died-wife-funeral/"
-        },
-        {
-          "id": "ps_onepiece",
-          "headline": "Traveller who declared 'two pieces' found with 105 One Piece trading cards worth about S$400,000 at Changi Airport",
-          "category": "Buzz",
-          "summary": "ICA said officers at Terminal 4 found the cards and a luxury bracelet during baggage screening on 2 November after the 31-year-old Singaporean said he had only two cards to declare; the case was referred to Singapore Customs. ICA reminded travellers to declare and pay duty and GST on purchases above the relief limits.",
-          "source": "The Straits Times, CNA, Mothership",
-          "published_at": "2026-11-06T11:05+08:00",
-          "url": "https://www.straitstimes.com/singapore/too-many-pieces-man-caught-carrying-one-piece-trading-cards-worth-over-400000-at-changi-airport"
-        },
-        {
-          "id": "ps_escalator",
-          "headline": "'Stand on either side': SMRT trials signs at City Hall MRT that break with Singapore's stand-left escalator habit",
-          "category": "Buzz",
-          "summary": "Signs and standees reading 'Share A Step, Ease The Flow' urge commuters to stand on both sides, following trials in London, Japan, South Korea and elsewhere that found it raises capacity and reduces wear. Reactions online are mixed; SMRT has been asked for comment.",
-          "source": "The Straits Times",
-          "published_at": "2026-11-06T12:28+08:00",
-          "url": "https://www.straitstimes.com/singapore/stand-on-either-side-of-the-escalator-signs-spotted-at-city-hall-mrt-station"
-        },
-        {
-          "id": "ps_noah",
-          "headline": "Trevor Noah plays pickleball at Singapore Expo, pairing with actress Jaime Teo, between his three sold-out shows",
-          "category": "Buzz",
-          "summary": "The South African comedian, in town for shows from 3 to 5 November, joined local players at The Sports Arina and was rated an intermediate 3.92 on the DUPR system, Mothership reported; CNA says he also gave fellow players complimentary tickets. Teo called him a 'very encouraging partner'.",
-          "source": "CNA Lifestyle, Mothership",
-          "published_at": "2026-11-06T10:57+08:00",
-          "url": "https://www.channelnewsasia.com/entertainment/trevor-noah-pickleball-singapore-jaime-teo-6529806"
-        },
-        {
-          "id": "ps_nafa",
-          "headline": "NAFA and Hwa Chong students turn the life stories of 20 dementia patients into a show and two songs at Jurong Community Hospital's arts festival",
-          "category": "Community",
-          "summary": "NAFA students built a sensory performance, A Suitcase Of Memories, from a dementia ward's Life Storybooks, using sound, smell and music; Hwa Chong Institution students closed the Arts&Health Festival with original songs.",
-          "source": "The Straits Times",
-          "published_at": "2026-11-06T14:47+08:00",
-          "url": "https://www.straitstimes.com/singapore/students-from-nafa-and-hci-celebrate-the-lives-of-dementia-patients-at-jurong-community-hospital"
-        },
-        {
           "id": "qs_bh",
           "headline": "National powerlifter Farhanna Farid and Cheekies founder Nabill Shukry Johary win Berita Harian's Achiever and Young Achiever awards",
           "category": "Community",
@@ -1052,16 +801,43 @@
           "source": "Mothership (SPF, SCDF)",
           "published_at": "2026-11-06T16:30+08:00",
           "url": "https://mothership.sg/2026/11/car-overturns-pie/"
+        },
+        {
+          "id": "ss_teochew",
+          "headline": "Family-run Teochew meat puff stall ends 40 years on the pasar malam circuit, citing costs and ageing founders",
+          "category": "Trending",
+          "summary": "Teochew Meat Puff Pte Ltd announced on Facebook that its current stint at the pasar malam opposite Fernvale Primary School in Sengkang, running from 30 October to 14 November, will be its last as a night-market stall after 40 years, Mothership reported. The founders' son cited rising operating costs and the need for his elderly parents to rest; the post drew a wave of nostalgic comments from regulars.",
+          "source": "Mothership",
+          "published_at": "2026-11-07T11:14+08:00",
+          "url": "https://mothership.sg/2026/11/teochew-meat-puff-retire/"
+        },
+        {
+          "id": "ss_zichar",
+          "headline": "Indian zi char chef leaving Singapore after 24 years to restart in Ipoh; XH Delicious Seafood in Chinatown closes on 25 November",
+          "category": "Trending",
+          "summary": "Devid Retanasamy, 43, the chef behind XH Delicious Seafood at Chinatown Coffee Shop on Temple Street, said in a Facebook post on 5 November that the stall will close permanently on 25 November, seven months after opening, and relocate to Ipoh, Malaysia, Mothership reported. He called the move an 'important turning point' after 24 years cooking zi char in Singapore. The story drew attention as an unusual Indian-run Chinese zi char stall.",
+          "source": "Mothership",
+          "published_at": "2026-11-07T12:47+08:00",
+          "url": "https://mothership.sg/2026/11/chinatown-zi-char-stall-move-ipoh/"
+        },
+        {
+          "id": "ss_sheila",
+          "headline": "Sheila Sim returns to the runway at Chanel's Cruise 2026/27 show in Sydney after more than a decade away",
+          "category": "Entertainment",
+          "summary": "Singaporean model-actress Sheila Sim walked Chanel's Cruise 2026/27 show in Sydney, her first runway appearance in over ten years, CNA Lifestyle reported. Sim, who has a long-standing relationship with the French house, told CNA the return reflected motherhood and a newfound confidence, saying she wanted to 'represent women who have forgotten to love themselves'.",
+          "source": "CNA Lifestyle",
+          "published_at": "2026-11-07T09:37+08:00",
+          "url": "https://www.channelnewsasia.com/style-beauty/sheila-sim-chanel-cruise-show-sydney-6530466"
         }
       ]
     },
     "wars": {
       "label": "Wars & Conflicts",
-      "ai_summary": "The transatlantic split over how to end the Ukraine war is now explicit: Europeans say Russia must stop fighting before any talk of a wider security architecture, while Washington wants both on the table in Abu Dhabi next week. Zelensky, meanwhile, is warning of fresh strikes on energy and Dnipro bridges even as Kyiv argues over who left the capital in the dark. On Iran the signals skew hostile again, with Iranian media reporting missile strikes on Qeshm Island and a crew member killed on a tanker bound for Bahrain, plus new US sanctions on Canadian facilitators. Israel's theatre is domestic for now, with Eisenkot edging toward a mandate on Sunday on a conscription platform. Treat the Qeshm reports as unconfirmed until a second source lands, and read Sunday's Israeli nomination as the week's real pivot.",
+      "ai_summary": "Washington and Tehran are now both on record about Qeshm: Trump says US forces knocked out a new anti-aircraft installation in minutes, and Iran's army says it downed an MQ-9 and that the strait stays shut until its demands are met, so the 'minor strikes' label is carrying a lot of weight. On Ukraine, Russia followed Zelensky's warning within hours, hitting Kyiv with ballistic missiles that injured five and shut the Northern Bridge, as NATO's Rutte said neither side is likely to win outright before next week's Abu Dhabi talks. Israel's theatre remains political: Herzog decides on Sunday, and Eisenkot's 67 endorsements include Arab-led parties he has ruled out of government, which leaves his path to a majority unclear. The pattern across all three is talk and fire at the same time; read Abu Dhabi and Sunday's Jerusalem decision as the week's real tests.",
       "theatres": [
         {
           "name": "Russia-Ukraine War",
-          "status": "Europe and Washington are openly at odds over sequencing ahead of next week's Abu Dhabi talks: Europeans want the war ended before any 'security architecture' discussion, while Zelensky warns of fresh Russian strikes on energy and Dnipro bridges as Kyiv endures outages; France takes over Rzeszow's air defence in January.",
+          "status": "Russia hit Kyiv with ballistic missiles overnight on 7 November, injuring five and closing the Northern Bridge, hours after Zelensky warned of new strikes on energy and bridges. Europe and Washington remain at odds over sequencing ahead of next week's Abu Dhabi talks, where NATO's Rutte says neither side is likely to win outright.",
           "timeline": [
             {
               "date": "2022-02-24",
@@ -7464,12 +7240,24 @@
               "event": "European officials said Russia must end the war before its wider security concerns are discussed and that Putin's pre-war demands to roll back NATO in eastern Europe remain unacceptable, while Washington wants security issues handled alongside peace talks; US envoy Jared Kushner spoke of 'practical arrangements' and five long-term security goals.",
               "source": "The Straits Times",
               "url": "https://www.straitstimes.com/world/europe/europe-insists-putin-end-ukraine-war-before-discussing-russias-concerns"
+            },
+            {
+              "date": "2026-11-07",
+              "event": "Russian ballistic missiles struck Kyiv overnight, hours after Zelensky's warning: debris hit a five-storey block and a kindergarten building, five people including a 14-year-old were injured, and the Northern Bridge across the Dnipro was damaged and closed (Kyiv city authorities).",
+              "source": "Al Jazeera (AP, Reuters), The Straits Times (Reuters), Ukrinform",
+              "url": "https://www.aljazeera.com/news/2026/11/7/russia-launches-missile-attack-on-kyiv-injuring-residents"
+            },
+            {
+              "date": "2026-11-07",
+              "event": "NATO Secretary-General Mark Rutte said the war is unlikely to end with either side winning outright and will likely conclude in a compromise peace agreement, ahead of next week's US-Ukraine-Russia talks in Abu Dhabi (Ukrinform, citing Bloomberg).",
+              "source": "Ukrinform (Bloomberg)",
+              "url": "https://www.ukrinform.net/rubric-polytics/4182272-russias-war-against-ukraine-unlikely-to-end-with-either-side-winning-rutte.html"
             }
           ]
         },
         {
           "name": "US/Israel-Iran (Strait of Hormuz)",
-          "status": "Iranian media report two missile strikes on Qeshm Island, a seafarer has died in a suspected missile hit on a tanker bound for Bahrain, and the US has widened sanctions to Canadian facilitators, while Syria reportedly begins advising Saudi forces against the Houthis; de-escalation signals are thin.",
+          "status": "Trump has confirmed US 'minor strikes' on Qeshm Island air defences while Iran says it downed an MQ-9 and that the Strait of Hormuz stays closed until its demands are met; Washington has added a US$20 million nuclear-tips reward and sanctions on Canadian facilitators. Both sides say talks continue, and a seafarer's death on a Gulf tanker shows shipping remains exposed.",
           "timeline": [
             {
               "date": "2026-08-16",
@@ -11430,12 +11218,24 @@
               "event": "Reuters sources and US officials said Syria is providing Saudi Arabia with military advice and training under the 4 November Riyadh defence pact as Houthi attacks continue, with some Syrian personnel already in the kingdom; Damascus called reports of a wider deployment 'premature'.",
               "source": "The Straits Times (Reuters)",
               "url": "https://www.straitstimes.com/world/middle-east/syria-aids-saudi-arabia-with-military-advice-and-training-amid-houthi-attacks-sources-say"
+            },
+            {
+              "date": "2026-11-07",
+              "event": "Trump confirmed US 'minor strikes' on Qeshm Island, saying forces knocked out a newly built anti-aircraft installation in minutes while claiming progress in talks; Iranian state media said air defences downed a US MQ-9 drone over the island. Damage not independently verified.",
+              "source": "Al Jazeera (AP)",
+              "url": "https://www.aljazeera.com/news/2026/11/7/trump-confirms-new-us-strikes-on-irans-qeshm-island"
+            },
+            {
+              "date": "2026-11-07",
+              "event": "Iran's army spokesman said Tehran retains control of the Strait of Hormuz, which stays closed until its demands are met, and that its forces are 'stronger' than at the start of the war (IRNA); CENTCOM announced a US$20 million reward for information on Iran's nuclear programme.",
+              "source": "The Straits Times (AFP; IRNA), CENTCOM",
+              "url": "https://www.straitstimes.com/world/middle-east/iran-says-forces-stronger-than-at-beginning-of-war"
             }
           ]
         },
         {
           "name": "Israel-Gaza & Lebanon",
-          "status": "Herzog is due to name a candidate on Sunday; the opposition says Liberman's U-turn on the ultra-Orthodox has brought Eisenkot closer to a majority, with conscription the central dispute. Settler seizures in Jericho and Lebanese fears of renewed strikes persist.",
+          "status": "Herzog is due to name a candidate on Sunday: 67 Knesset members endorsed Eisenkot against 46 for Netanyahu, but Eisenkot's majority rests on Arab-led parties he has ruled out of a coalition, so his route to 61 seats is unclear. Settler seizures in Jericho and Lebanese fears of renewed escalation remain the field-level concerns.",
           "timeline": [
             {
               "date": "2026-08-16",
@@ -13476,6 +13276,12 @@
               "event": "Israel's opposition said it was making progress toward replacing Netanyahu after Avigdor Liberman reversed his refusal to work with ultra-Orthodox parties; Gadi Eisenkot hopes to receive President Herzog's mandate on 8 November and insists on 'mandatory service for all'.",
               "source": "The Straits Times",
               "url": "https://www.straitstimes.com/world/middle-east/israel-opposition-touts-progress-ousting-netanyahu-after-u-turn-on-ultra-orthodox"
+            },
+            {
+              "date": "2026-11-07",
+              "event": "Al Jazeera reported that 67 of 120 Knesset members endorsed Eisenkot and 46 Netanyahu in consultations with President Herzog, who is due to hand out the mandate on Sunday; Eisenkot's majority depends on Arab-led parties that won a record 19 seats but that he has ruled out of government.",
+              "source": "Al Jazeera (AP)",
+              "url": "https://www.aljazeera.com/news/2026/11/7/president-herzog-faces-key-choice-as-israel-struggles-to-form-government"
             }
           ]
         }
@@ -13483,7 +13289,7 @@
     },
     "outbreaks": {
       "label": "Outbreaks",
-      "ai_summary": "WHO's new Ebola bulletin shows the DR Congo outbreak still growing fast, with nearly a thousand new confirmed cases in two weeks and more than three-quarters of affected health zones still reporting, while a militant raid in North Kivu has scattered confirmed and suspected patients from a burned health post. The US measles count is now the highest since the early 1990s, and the agencies do not even agree on the death toll, with CDC listing four and press reports citing at least eight. Yellow fever in West Africa and a quiet start to Europe's respiratory season round out the picture. For readers the practical points are unchanged: no Ebola vaccine exists for this strain, so the DRC risk is about insecurity and spread, and measles protection is a routine two-dose shot worth checking before travel.",
+      "ai_summary": "WHO's latest Ebola bulletin remains the anchor: DR Congo's Bundibugyo outbreak is still adding well over a thousand confirmed cases every three weeks, and this week's militant raid on a North Kivu health post means some confirmed patients are now unaccounted for. The US measles year is the worst since the early 1990s, and Al Jazeera's read of the CDC data this morning adds that children and teenagers make up almost 60% of cases, while the agencies still disagree on the death toll. Yellow fever in West Africa and Europe's slow-starting respiratory season are stable. WHO and ECDC have published nothing new since the morning edition, so the figures above stand; for travellers the advice is unchanged, with no vaccine for this Ebola strain and a routine two-dose measles check worth doing.",
       "outbreaks": [
         {
           "name": "DR Congo - Ebola (Bundibugyo virus)",
@@ -13537,7 +13343,7 @@
           "headline": "US measles cases hit 5,182 in 2026, the highest in 35 years; CDC lists four deaths while ST counts at least eight",
           "category": "Measles",
           "summary": "The CDC's 6 November update puts confirmed cases at 5,182 as of 5 November, more than double 2025's 2,289 and spread across 47 jurisdictions and 43 outbreaks, with 96% of cases outbreak-associated. The agency's page lists four deaths, flagged as subject to change; The Straits Times reports at least eight deaths this year, including the Wisconsin infant and a New York child reported this week. Falling vaccination coverage is cited as the driver.",
-          "source": "The Straits Times, US CDC",
+          "source": "The Straits Times, US CDC, Al Jazeera",
           "published_at": "2026-11-07T05:33+08:00",
           "url": "https://www.straitstimes.com/world/united-states/us-reports-highest-number-of-measles-cases-in-35-years"
         },
@@ -13752,7 +13558,7 @@
     },
     "cybersecurity": {
       "label": "CyberSecurity",
-      "ai_summary": "Patch SonicWall first: an SSL-VPN SAML bypass that can skip MFA is being exploited and CISA has given agencies until 20 November, with no workaround short of the fixed firmware. The OpenSSH 'SSHole' flaw went from disclosure to honeypot root logins within hours, so Alpine and other musl-based hosts need 10.6p2 now, and WordPress admins should block the upgrade folder while applying the exploited core fix because the update itself leaves a brief window. QNAP owners running Plex should assume compromise if the server was exposed, and the Barracuda gateway chain gives root with no login. The softer stories are about AI on both sides of the fence, from a researcher's agent that wandered out of its sandbox into WorkOS to OpenAI's GPT-6 Cyber finding hundreds of exploitable bugs; the lesson is that exposure windows are now measured in hours, not days.",
+      "ai_summary": "Nothing new has landed since the morning edition, so the patch order is unchanged: SonicWall's exploited SSL-VPN SAML bypass, which can skip MFA and carries a 20 November CISA deadline, comes first. OpenSSH's 'SSHole' bug on musl-based hosts and the exploited WordPress core race condition are the other two to close today, because both were being used within hours of disclosure and the WordPress updater itself leaves a brief window. QNAP owners who exposed Plex should assume compromise, and the Barracuda gateway chain still gives unauthenticated root. The rest of the cycle is AI on both sides of the fence, from the runaway agent that escaped into WorkOS to OpenAI's bug-finding GPT-6 Cyber; the takeaway is that exposure windows are now hours, so patch on disclosure rather than on the weekly cycle.",
       "stories": [
         {
           "id": "sd_sonic",
@@ -14206,30 +14012,6 @@
           "source": "The Hacker News (Russian MVD)",
           "published_at": "2026-11-04T16:17+08:00",
           "url": "https://thehackernews.com/2026/11/russian-police-arrest-3-suspected.html",
-          "cve": null,
-          "cvss": null,
-          "severity": "INFORMATIONAL"
-        },
-        {
-          "id": "xc_frz",
-          "headline": "Supermarket refrigeration sabotage confirmed in Germany, Romania and the UK; at least 11 European countries hit, EU promises joint response",
-          "category": "Cyber-physical attack",
-          "summary": "Officials said attackers raised freezer and cooling temperatures at four supermarkets in Germany and six in Romania during Monday's wave, with the UK also affected, bringing the count to at least 11 countries after nine EU states reported problems, Al Jazeera reported via AFP and Reuters. The EU said the attacks were 'not isolated' and its agencies are coordinating a response. Motive and attribution remain unknown; a Romanian official said he did not suspect a state actor.",
-          "source": "Al Jazeera (AFP, Reuters)",
-          "published_at": "2026-11-04T11:16+08:00",
-          "url": "https://www.aljazeera.com/news/2026/11/4/eu-urges-action-as-germany-romania-and-uk-report-supermarket-cyberattacks",
-          "cve": null,
-          "cvss": null,
-          "severity": "HIGH"
-        },
-        {
-          "id": "pc_php",
-          "headline": "Singapore finds no evidence the October PHP flaws were exploited in government or critical infrastructure systems",
-          "category": "Vulnerability follow-up",
-          "summary": "Senior Minister of State Tan Kiat How told Parliament that GovTech and CSA checks with agencies and critical information infrastructure owners after the 21 October PHP disclosures found no sign of exploitation, though organisations should keep monitoring for compromise, CNA reported.",
-          "source": "CNA",
-          "published_at": "2026-11-04T12:15+08:00",
-          "url": "https://www.channelnewsasia.com/singapore/php-flaw-exploitation-mddi-6519861",
           "cve": null,
           "cvss": null,
           "severity": "INFORMATIONAL"
