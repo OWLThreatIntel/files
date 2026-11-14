@@ -1,0 +1,571 @@
+{
+  "meta": {
+    "date": "2026-06-19",
+    "generated_at": "2026-06-19T21:05:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "BBC",
+      "CNA",
+      "The Straits Times",
+      "Mothership",
+      "NEA",
+      "LTA / data.gov.sg",
+      "WHO",
+      "The Hacker News",
+      "BleepingComputer",
+      "CISA KEV",
+      "NVD"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "The Middle East dominates again: a US-Iran deal signed this week is already under strain as fighting flares on the Israel-Lebanon border, where Lebanon says Israeli strikes killed 18 and Israel reports four soldiers killed by Hezbollah. US-Iran follow-up talks in Switzerland were called off, even as oil eased and shipping began moving back through the Strait of Hormuz. Elsewhere, gunmen killed 35 in an attack on Niger's main airport, Ukraine struck a Moscow oil refinery in its largest raid yet, and UK politics heated up after Andy Burnham won a key vote.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "Lebanon says Israeli strikes kill 18; Israel reports four soldiers killed by Hezbollah",
+          "category": "Middle East",
+          "summary": "Lebanon's authorities say Israeli strikes killed 18 people as cross-border fighting escalated sharply, while Israel says four of its soldiers were killed by Hezbollah. An Israeli minister said 'all of Lebanon must burn' after the soldiers' deaths. The flare-up is testing the days-old US-Iran agreement; figures are as reported by each side and not independently verified.",
+          "source": "BBC, The Straits Times, CNA",
+          "published_at": "2026-06-19T20:07+08:00",
+          "url": "https://www.bbc.com/news/articles/c23ymz1n9rmo"
+        },
+        {
+          "id": "ts2",
+          "headline": "US-Iran talks in Switzerland postponed as Lebanon fighting intensifies",
+          "category": "Diplomacy",
+          "summary": "Planned US-Iran meetings in Switzerland were called off as hostilities in Lebanon worsened, clouding prospects for a lasting truce just after the two sides signed a deal to end their war. Switzerland confirmed the Friday talks were off.",
+          "source": "BBC, The Straits Times, CNA",
+          "published_at": "2026-06-19T17:38+08:00",
+          "url": "https://www.bbc.com/news/articles/c8r2eme2n5do"
+        },
+        {
+          "id": "ts3",
+          "headline": "Oil eases as shipping resumes through Strait of Hormuz; Iran to waive transit fees",
+          "category": "Economy",
+          "summary": "Oil prices fell as supply began moving again through the Strait of Hormuz following the US-Iran agreement. Iran said it will waive Strait of Hormuz fees during a 60-day negotiation period.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-19T20:13+08:00",
+          "url": "https://www.channelnewsasia.com/world/oil-prices-fall-supply-moving-strait-hormuz-6194696"
+        },
+        {
+          "id": "ts4",
+          "headline": "Gunmen kill 35 in attack on Niger's biggest airport",
+          "category": "Africa",
+          "summary": "At least 35 people were killed when gunmen attacked Niger's largest airport, in one of the deadliest assaults in the country in recent months. Authorities have not confirmed which group was responsible.",
+          "source": "BBC",
+          "published_at": "2026-06-19T17:43+08:00",
+          "url": "https://www.bbc.com/news/articles/cdx7krkdqeno"
+        },
+        {
+          "id": "ts5",
+          "headline": "Ukraine strikes Moscow oil refinery in largest raid yet; residents report 'black rain'",
+          "category": "Russia-Ukraine",
+          "summary": "Ukraine launched what it called its largest attack on Russian territory, hitting a Moscow oil refinery; Moscow residents complained of 'black rain' afterwards. Damage assessments differ between the two sides.",
+          "source": "BBC, CNA",
+          "published_at": "2026-06-18T23:46+08:00",
+          "url": "https://www.bbc.com/news/articles/c98291g5rr1o"
+        },
+        {
+          "id": "ts6",
+          "headline": "Burnham wins key vote, paving way for possible challenge to UK PM Starmer",
+          "category": "World Politics",
+          "summary": "Greater Manchester mayor Andy Burnham won a key internal poll seen as a step toward a potential bid to challenge Prime Minister Keir Starmer for the UK Labour leadership.",
+          "source": "CNA, BBC",
+          "published_at": "2026-06-19T10:30+08:00",
+          "url": "https://www.channelnewsasia.com/world/starmer-rival-burnham-wins-key-uk-election-which-may-trigger-bid-oust-pm-6194756"
+        },
+        {
+          "id": "ts7",
+          "headline": "South Korea's Lee tells Trump sanctions on North Korea are 'ineffective'",
+          "category": "Asia-Pacific",
+          "summary": "South Korean President Lee said he told US President Trump that sanctions on North Korea have been ineffective, signalling a push for a different approach to Pyongyang's nuclear programme.",
+          "source": "CNA",
+          "published_at": "2026-06-19T15:31+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/south-korea-leader-donald-trump-ineffective-north-korea-nuclear-sanctions-6195301"
+        },
+        {
+          "id": "ts8",
+          "headline": "Apple to raise prices as AI boom pushes up chip costs",
+          "category": "Business",
+          "summary": "Apple signalled it will raise some prices as surging demand for AI infrastructure pushes up the cost of chips across the industry.",
+          "source": "BBC",
+          "published_at": "2026-06-18T22:03+08:00",
+          "url": "https://www.bbc.com/news/articles/c3wyxvqdx1zo"
+        },
+        {
+          "id": "ts9",
+          "headline": "India's Ambani announces what could be the country's biggest share sale",
+          "category": "Business",
+          "summary": "Asia's richest man Mukesh Ambani announced plans for what could become India's largest-ever share sale, involving his Reliance empire.",
+          "source": "BBC",
+          "published_at": "2026-06-19T18:13+08:00",
+          "url": "https://www.bbc.com/news/articles/cx2kerpkynko"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "A busy local news day: a fire forced 100 people to evacuate a Whampoa hawker centre (no injuries), MOH stripped Windsor Convalescent Home of its licence after repeated lapses, and police arrested 76 people — including a 15-year-old — in a drug operation. On the policy front, more families will qualify for CDAC support from 2027, free ComfortDelGro driverless shuttle rides open to the public on 22 June, and Singapore welcomed the US$73 million HIMARS upgrade. Expect thundery showers; COE for larger cars eased while Cat A again edged above Cat B.",
+      "weather": {
+        "forecast": "Thundery Showers",
+        "temp_low": 24,
+        "temp_high": 33,
+        "humidity_low": 60,
+        "humidity_high": 95,
+        "as_of": "2026-06-19T18:00+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jun 2026 · 2nd bidding",
+        "as_of": "2026-06-17",
+        "next_results": "2026-07-08",
+        "source": "LTA / The Straits Times",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          {
+            "code": "A",
+            "label": "Cars up to 1600cc & 97kW (EV ≤110kW)",
+            "premium": 123847,
+            "change": -2162
+          },
+          {
+            "code": "B",
+            "label": "Cars above 1600cc or 97kW (EV >110kW)",
+            "premium": 123502,
+            "change": -3487
+          }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "Fire breaks out at Whampoa hawker centre; 100 evacuated, no injuries",
+          "category": "Incident",
+          "summary": "A fire broke out at the Makan Place hawker centre in Whampoa, prompting the evacuation of about 100 people. SCDF responded and no injuries were reported.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-19T20:01+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/whampoa-hawker-centre-fire-makan-place-scdf-6195696"
+        },
+        {
+          "id": "sg2",
+          "headline": "Windsor Convalescent Home loses licence after repeated violations",
+          "category": "Health",
+          "summary": "MOH revoked the licence of Windsor Convalescent Home in Pasir Panjang after repeated lapses, including expired medicine and food, and a failure to sustain fixes flagged in a 2024 audit.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-19T19:55+08:00",
+          "url": "https://www.straitstimes.com/singapore/health/expired-medicine-expired-food-windsor-convalescent-home-lost-licence-after-repeated-violations"
+        },
+        {
+          "id": "sg3",
+          "headline": "76 people, including a 15-year-old, arrested in drug operation",
+          "category": "Crime",
+          "summary": "The Central Narcotics Bureau arrested 76 people, among them a 15-year-old, for suspected drug offences in an islandwide operation.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-19T18:28+08:00",
+          "url": "https://www.straitstimes.com/singapore/15-year-old-among-76-people-arrested-for-suspected-drug-offences-in-singapore"
+        },
+        {
+          "id": "sg4",
+          "headline": "More families to qualify for CDAC support from 2027 as income thresholds rise",
+          "category": "Community",
+          "summary": "The Chinese Development Assistance Council will raise its income eligibility thresholds from 2027, allowing more lower- and middle-income families to qualify for its support schemes.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-19T18:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/community/more-families-to-qualify-for-cdac-support-from-2027-as-income-eligibility-thresholds-rise"
+        },
+        {
+          "id": "sg5",
+          "headline": "PUB investigating brown tap water at Bedok Reservoir flats",
+          "category": "Utilities",
+          "summary": "PUB said it is investigating reports of brown tap water at flats near Bedok Reservoir, adding that no water-quality issues were detected in the mains supply.",
+          "source": "CNA",
+          "published_at": "2026-06-19T15:26+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/pub-brown-tap-water-bedok-reservoir-investigation-6195251"
+        },
+        {
+          "id": "sg6",
+          "headline": "US approves US$73 million rocket artillery upgrade sale to Singapore",
+          "category": "Defence",
+          "summary": "The US State Department approved a US$73 million (about S$94 million) sale of 18 HIMARS rocket-artillery upgrade kits to Singapore, MINDEF and the SAF said.",
+          "source": "CNA, Mothership",
+          "published_at": "2026-06-19T12:31+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/rocket-artillery-himars-upgrade-73-million-us-state-department-mindef-saf-6194886"
+        },
+        {
+          "id": "sg7",
+          "headline": "Free ComfortDelGro driverless shuttle rides open to the public from June 22",
+          "category": "Transport",
+          "summary": "ComfortDelGro will open free public rides on its driverless shuttle from 22 June, part of Singapore's push to expand autonomous-vehicle services.",
+          "source": "The Straits Times",
+          "published_at": "2026-06-19T11:56+08:00",
+          "url": "https://www.straitstimes.com/singapore/transport/free-comfortdelgro-driverless-shuttle-rides-open-to-the-public-from-june-22"
+        },
+        {
+          "id": "sg9",
+          "headline": "PM Wong urges upholding international law at ASEAN-Russia summit",
+          "category": "Foreign Relations",
+          "summary": "At the ASEAN-Russia summit in Kazan, PM Lawrence Wong urged countries to uphold international law in an increasingly volatile world; ASEAN and Russia reaffirmed commitments to deepen cooperation.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-06-19T10:04+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/pm-lawrence-wong-asean-russia-summit-international-law-6194526"
+        },
+        {
+          "id": "sg10",
+          "headline": "Tim Ho Wan to close its first Singapore outlet at Plaza Singapura after 13 years",
+          "category": "Trending",
+          "summary": "Dim sum chain Tim Ho Wan will close its original Singapore outlet at Plaza Singapura after 13 years, holding a farewell event on 12 July. The closure has prompted nostalgia among long-time customers.",
+          "source": "CNA",
+          "published_at": "2026-06-19T11:06+08:00",
+          "url": "https://www.channelnewsasia.com/dining/tim-ho-wan-closing-plaza-singapura-6194781"
+        },
+        {
+          "id": "sg11",
+          "headline": "Haidilao Singapore goes all-in on coriander with new soup base and cocktail",
+          "category": "Trending",
+          "summary": "Hotpot chain Haidilao has rolled out a coriander-themed menu in Singapore from 18 June, including a coriander soup base and a coriander cocktail — a love-it-or-hate-it move generating plenty of online chatter.",
+          "source": "Mothership",
+          "published_at": "2026-06-19T15:49+08:00",
+          "url": "https://mothership.sg/2026/06/haidilao-coriander-menu/"
+        },
+        {
+          "id": "sg12",
+          "headline": "Malaysian ringgit weakens to a six-month low against the Singapore dollar",
+          "category": "Trending",
+          "summary": "The Malaysian ringgit slipped to about RM3.20 to S$1, a six-month low against the Singapore dollar — welcome news for Singaporeans heading across the Causeway.",
+          "source": "Mothership",
+          "published_at": "2026-06-19T15:38+08:00",
+          "url": "https://mothership.sg/2026/06/malaysian-ringgit-weakens-3-20/"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "The new US-Iran deal is being tested almost immediately: follow-up talks in Switzerland were postponed as the Israel-Lebanon front escalated, with Lebanon reporting 18 killed by Israeli strikes and Israel saying Hezbollah killed four of its soldiers. Shipping is returning to the Strait of Hormuz and Iran says it will waive transit fees. In Ukraine, Kyiv launched its largest strike yet on a Moscow oil refinery, while Russia says it is open to talks but rejects ultimatums.",
+      "theatres": [
+        {
+          "name": "US–Iran / Strait of Hormuz",
+          "status": "Deal signed but immediately strained; Hormuz shipping resuming",
+          "timeline": [
+            {
+              "date": "2026-06-15",
+              "event": "Trump heralds an Iran deal as the war winds down, though questions and risks remain unresolved.",
+              "source": "BBC",
+              "url": "https://www.bbc.com/news/articles/c9824e0rz75o"
+            },
+            {
+              "date": "2026-06-17",
+              "event": "Iran sends tankers loaded with oil past the US military blockade as tensions over enforcement persist.",
+              "source": "BBC",
+              "url": "https://www.bbc.com/news/articles/cpq37yxexd9o"
+            },
+            {
+              "date": "2026-06-18",
+              "event": "The US and Iranian presidents sign a deal aiming to end the war; core sticking points remain.",
+              "source": "BBC",
+              "url": "https://www.bbc.com/news/articles/crr8z4z2er9o"
+            },
+            {
+              "date": "2026-06-19",
+              "event": "Planned US-Iran talks in Switzerland are postponed as Lebanon fighting intensifies; Iran says it will waive Strait of Hormuz fees during a 60-day negotiation period and shipping resumes.",
+              "source": "BBC, The Straits Times",
+              "url": "https://www.bbc.com/news/articles/c8r2eme2n5do"
+            }
+          ]
+        },
+        {
+          "name": "Israel–Lebanon",
+          "status": "Sharp escalation threatening the new US-Iran deal",
+          "timeline": [
+            {
+              "date": "2026-06-17",
+              "event": "Israel launches fresh strikes on Lebanon despite criticism from Trump.",
+              "source": "BBC",
+              "url": "https://www.bbc.com/news/articles/c7vyn17g832o"
+            },
+            {
+              "date": "2026-06-19",
+              "event": "Lebanon says Israeli strikes killed 18; Israel says four soldiers were killed by Hezbollah. An Israeli minister said 'all of Lebanon must burn'. Casualty figures are as reported by each side and not independently verified.",
+              "source": "BBC, The Straits Times",
+              "url": "https://www.bbc.com/news/articles/c23ymz1n9rmo"
+            }
+          ]
+        },
+        {
+          "name": "Russia–Ukraine",
+          "status": "Ongoing; Ukraine intensifies deep strikes into Russia",
+          "timeline": [
+            {
+              "date": "2026-06-18",
+              "event": "Ukraine launches what it calls its largest attack on Russian soil, hitting a Moscow oil refinery; residents report 'black rain'. Damage claims differ between the sides.",
+              "source": "BBC, CNA",
+              "url": "https://www.bbc.com/news/articles/c98291g5rr1o"
+            },
+            {
+              "date": "2026-06-19",
+              "event": "Russia tells European leaders it is open to talks but rejects ultimatums, amid divisions in Europe over contacts with Moscow.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/russia-tells-europe-yes-to-talks-no-to-ultimatums"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "The Bundibugyo Ebola outbreak in the Democratic Republic of the Congo and Uganda is escalating fast: WHO's latest update (19 June) reports 915 confirmed cases and 234 deaths, up sharply from a week earlier, partly due to expanded testing. The DRC accounts for the bulk of cases (case-fatality ratio about 26%), and insecurity is hampering response after armed men stormed a hospital. The cruise-ship hantavirus cluster has gone quiet, with no new WHO update since late May.",
+      "outbreaks": [
+        {
+          "name": "Bundibugyo Ebola — DR Congo & Uganda",
+          "status": "Escalating rapidly in DR Congo; insecurity hampering response",
+          "cases": 915,
+          "deaths": 234,
+          "countries": 2,
+          "as_of": "2026-06-19",
+          "scope_note": "Confirmed cases only: DR Congo 896 cases / 232 deaths (as of 17 Jun, CFR ~26%), Uganda 19 cases / 2 deaths (as of 18 Jun). Cases rose sharply since the 13 Jun update, partly from testing scale-up. Source: WHO DON608."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "WHO: Bundibugyo Ebola cases jump to 915 with 234 deaths across DRC and Uganda",
+          "category": "Ebola",
+          "summary": "WHO's latest Disease Outbreak News (19 June) reports 915 confirmed Bundibugyo virus cases and 234 deaths — 896 cases and 232 deaths in the DRC (CFR ~26%) and 19 cases and two deaths in Uganda. The rapid increase is partly attributed to expanded testing clearing a sample backlog.",
+          "source": "WHO",
+          "published_at": "2026-06-19",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON608"
+        },
+        {
+          "id": "ob2",
+          "headline": "Armed men storm DR Congo hospital; search under way for six-year-old Ebola patient",
+          "category": "Ebola",
+          "summary": "Armed men stormed a hospital in the DRC, after which authorities launched a search for a six-year-old Ebola patient, underscoring how insecurity is complicating the outbreak response.",
+          "source": "BBC",
+          "published_at": "2026-06-18",
+          "url": "https://www.bbc.com/news/articles/cvgep4l397eo"
+        },
+        {
+          "id": "ob3",
+          "headline": "DR Congo mourners learn how to grieve safely amid Ebola outbreak",
+          "category": "Ebola",
+          "summary": "As the Bundibugyo Ebola outbreak spreads, communities in the DRC are being taught how to conduct safe burials and grieve without risking further transmission.",
+          "source": "BBC",
+          "published_at": "2026-06-18",
+          "url": "https://www.bbc.com/news/articles/cj3gx8jl6d5o"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "Actively exploited flaws lead this cycle: CISA added a critical Splunk Enterprise RCE (CVE-2026-20253, CVSS 9.8) to its KEV catalog with a short patch deadline, and F5 shipped fixes for two critical NGINX RCE bugs. Identity and supply-chain attacks are surging — Salesforce disabled the Klue app after OAuth token abuse tied to the 'Icarus' data-theft wave, 145 Mastra npm packages were hijacked, and the 'FortiBleed' leak exposed VPN credentials for 73,000 Fortinet devices. Ransomware stayed busy with INC (830+ victims) and the EDR-killing 'Gentlemen', while police scrubbed nearly 15,000 SocGholish-infected sites.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "Salesforce disables Klue app after OAuth token abuse exposes customer data",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Salesforce disabled the Klue app integration after attackers abused OAuth tokens to access customer data. BleepingComputer links the Klue OAuth breach to the broader 'Icarus' Salesforce data-theft campaign.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-19T19:58+08:00",
+          "url": "https://thehackernews.com/2026/06/salesforce-disables-klue-app.html"
+        },
+        {
+          "id": "cs2",
+          "headline": "CISA: Splunk Enterprise flaw actively exploited — patch by Sunday",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-20253",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "CISA added a critical Splunk Enterprise remote code execution flaw (CVE-2026-20253, CVSS 9.8) to its Known Exploited Vulnerabilities catalog and set a short remediation deadline after confirming active exploitation.",
+          "source": "BleepingComputer, CISA KEV, NVD",
+          "published_at": "2026-06-19T18:39+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-splunk-enterprise-flaw-actively-exploited-patch-by-sunday/"
+        },
+        {
+          "id": "cs3",
+          "headline": "FortiBleed leak exposes VPN credentials for 73,000 Fortinet devices; CISA issues guidance",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A leak dubbed 'FortiBleed' exposed VPN credentials for about 73,000 Fortinet devices. CISA urged Fortinet users to secure their devices and rotate credentials.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-19T14:47+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-fortinet-users-to-secure-devices-after-fortibleed-leak/"
+        },
+        {
+          "id": "cs4",
+          "headline": "Apple patches Beats Studio Buds flaw letting nearby attackers eavesdrop",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Apple patched a flaw in Beats Studio Buds that could let an attacker in Bluetooth range activate the microphone and spy on conversations.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-19T14:36+08:00",
+          "url": "https://thehackernews.com/2026/06/apple-patches-beats-studio-buds-flaw.html"
+        },
+        {
+          "id": "cs5",
+          "headline": "Gentlemen ransomware uses multiple EDR killers to disable defenses",
+          "category": "Ransomware",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "The 'Gentlemen' ransomware operation deploys several EDR-killer tools to disable endpoint protection before encrypting systems, raising the bar for defenders.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-19T06:31+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/gentlemen-ransomware-uses-multiple-edr-killers-to-disable-defenses/"
+        },
+        {
+          "id": "cs6",
+          "headline": "Nintendo confirms data stolen in WebMD subsidiary cyberattack",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Nintendo confirmed that some data was stolen in a cyberattack on a WebMD subsidiary that handled certain services, exposing affected user information.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-19T02:31+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/nintendo-confirms-data-stolen-in-webmd-subsidiary-cyberattack/"
+        },
+        {
+          "id": "cs7",
+          "headline": "F5 patches two critical NGINX Open Source RCE flaws",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "F5 released fixes for two critical flaws in NGINX Open Source that could enable remote code execution. Administrators are urged to update promptly given NGINX's widespread deployment.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-19T01:32+08:00",
+          "url": "https://thehackernews.com/2026/06/f5-patches-two-critical-nginx-open.html"
+        },
+        {
+          "id": "cs8",
+          "headline": "Microsoft details Windows clipper malware using USB LNK worm and Tor-based C2",
+          "category": "Malware",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Microsoft detailed a Windows clipper malware campaign that spreads via a USB LNK (shortcut) worm and uses Tor-based command-and-control to swap victims' crypto wallet addresses.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-06-18T22:30+08:00",
+          "url": "https://thehackernews.com/2026/06/microsoft-details-windows-clipper.html"
+        },
+        {
+          "id": "cs9",
+          "headline": "INC ransomware emerges as major RaaS threat with 830+ victims since 2023",
+          "category": "Ransomware",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Researchers say the INC ransomware-as-a-service operation has claimed more than 830 victims since 2023, making it one of the more prolific RaaS threats in 2026.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-18T22:12+08:00",
+          "url": "https://thehackernews.com/2026/06/inc-ransomware-claims-830-victims-since.html"
+        },
+        {
+          "id": "cs10",
+          "headline": "DragonForce hackers abuse Microsoft Teams relays to hide C2 traffic",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "The DragonForce group is abusing Microsoft Teams relays to conceal Backdoor.Turn command-and-control traffic, blending malicious activity with legitimate collaboration traffic.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-18T21:30+08:00",
+          "url": "https://thehackernews.com/2026/06/dragonforce-hackers-abuse-microsoft.html"
+        },
+        {
+          "id": "cs11",
+          "headline": "Police clean nearly 15,000 SocGholish-infected sites tied to Evil Corp",
+          "category": "Law Enforcement",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Law enforcement scrubbed almost 15,000 websites infected with the SocGholish malware framework, which has been linked to the Evil Corp cybercrime group.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-18T21:25+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/law-enforcement-nukes-socgholish-malware-from-nearly-15-000-sites/"
+        },
+        {
+          "id": "cs12",
+          "headline": "ShapedPlugin update flow hijacked to infect WordPress sites",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Attackers hijacked the update mechanism of the ShapedPlugin WordPress plugin to push malicious code to sites that installed updates, a software supply-chain compromise.",
+          "source": "BleepingComputer",
+          "published_at": "2026-06-18T20:55+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/shapedplugin-update-flow-hacked-to-infect-wordpress-sites/"
+        },
+        {
+          "id": "cs13",
+          "headline": "Microsoft confirms RoguePlanet Defender zero-day; patch in development",
+          "category": "Zero-Day",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Microsoft confirmed a zero-day dubbed 'RoguePlanet' affecting Microsoft Defender and said a patch is in development. Defenders should watch for mitigation guidance.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-18T01:36+08:00",
+          "url": "https://thehackernews.com/2026/06/microsoft-confirms-rogueplanet-defender_02022423645.html"
+        },
+        {
+          "id": "cs14",
+          "headline": "Malicious JetBrains plugins steal AI API keys as Chrome extensions capture chats",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers found malicious JetBrains IDE plugins that steal AI API keys, alongside Chrome extensions that capture chatbot conversations — part of a wave targeting developers' AI tooling.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-17T21:51+08:00",
+          "url": "https://thehackernews.com/2026/06/malicious-jetbrains-plugins-steal-ai.html"
+        },
+        {
+          "id": "cs15",
+          "headline": "145 Mastra npm packages compromised via hijacked contributor account",
+          "category": "Supply Chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Attackers compromised about 145 npm packages from the Mastra project after hijacking a contributor account, injecting malicious code into the software supply chain.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-17T15:38+08:00",
+          "url": "https://thehackernews.com/2026/06/144-mastra-npm-packages-compromised-via.html"
+        },
+        {
+          "id": "cs16",
+          "headline": "CISA warns of actively exploited Joomla JCE flaw allowing PHP code execution",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-48907",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "CISA flagged active exploitation of a critical Joomla Content Editor (JCE) flaw (CVE-2026-48907, CVSS 9.8) that allows PHP code execution, adding it to the KEV catalog.",
+          "source": "The Hacker News, CISA KEV, NVD",
+          "published_at": "2026-06-17T13:50+08:00",
+          "url": "https://thehackernews.com/2026/06/cisa-warns-of-actively-exploited-joomla.html"
+        },
+        {
+          "id": "cs17",
+          "headline": "Google Vertex AI SDK flaw let attackers hijack model uploads via bucket squatting",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A flaw in the Google Vertex AI SDK could let attackers hijack model uploads through 'bucket squatting', potentially substituting malicious models in AI pipelines.",
+          "source": "The Hacker News",
+          "published_at": "2026-06-17T03:05+08:00",
+          "url": "https://thehackernews.com/2026/06/google-vertex-ai-sdk-flaw-let-attackers.html"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,876 @@
+{
+  "meta": {
+    "date": "2026-07-09",
+    "generated_at": "2026-07-09T21:00:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "BBC",
+      "CNA",
+      "The Straits Times",
+      "Mothership",
+      "Al Jazeera",
+      "WHO Disease Outbreak News",
+      "ECDC",
+      "CISA KEV",
+      "NVD",
+      "The Hacker News",
+      "BleepingComputer",
+      "NEA (data.gov.sg)",
+      "LTA (data.gov.sg)"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "The Gulf dominates the day: US and Iranian forces traded strikes for a second straight night after Trump declared the June ceasefire over, Iran says it hit American military targets in the Gulf, and tanker traffic through the Strait of Hormuz has slowed to a near standstill as crude climbs. Iran buried Ayatollah Ali Khamenei in Mashhad under the same bombardment. Elsewhere NATO wrapped a tense Ankara summit with fresh commitments to Ukraine, and Asia is bracing for Typhoon Bavi.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "US and Iran trade strikes for a second night after Trump declares ceasefire 'over'",
+          "category": "Conflict",
+          "summary": "US and Iranian forces exchanged strikes for a second consecutive night after President Donald Trump declared the June ceasefire 'over'. Iran's foreign minister Abbas Araghchi vowed a 'fearless' response; US Central Command has said it struck targets across Iran. Casualty claims from both sides remain unverified.",
+          "source": "BBC; The Straits Times",
+          "published_at": "2026-07-09T17:53+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cz75zjj5wp8o"
+        },
+        {
+          "id": "ts2",
+          "headline": "Iran says it hit US military targets in the Gulf as it buries Khamenei",
+          "category": "Conflict",
+          "summary": "Iran said its forces struck US military infrastructure in Gulf states in retaliation for American strikes, as the country buried slain Supreme Leader Ayatollah Ali Khamenei at the Imam Reza shrine in Mashhad. Iranian officials claimed the US attacks killed 14 people, a figure not independently confirmed.",
+          "source": "CNA; The Straits Times",
+          "published_at": "2026-07-09T20:06+08:00",
+          "url": "https://www.channelnewsasia.com/world/iran-us-military-gulf-ayatollah-khamenei-6243666"
+        },
+        {
+          "id": "ts3",
+          "headline": "Oil tanker traffic through Strait of Hormuz at near standstill",
+          "category": "Economy",
+          "summary": "Tanker movement through the Strait of Hormuz has slowed to a near halt as renewed US–Iran strikes strain the truce, according to The Straits Times. Crude extended its rally as the flare-up unsettled hopes of a durable peace.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-09T20:47+08:00",
+          "url": "https://www.straitstimes.com/world/middle-east/oil-tanker-traffic-through-hormuz-at-near-standstill-as-attacks-strain-iran-truce"
+        },
+        {
+          "id": "ts4",
+          "headline": "Ukraine to get licence to produce Patriot missiles, Trump says",
+          "category": "Geopolitics",
+          "summary": "Trump said the US would grant Ukraine a licence to manufacture Patriot interceptor missiles, while noting that American stockpiles had been drawn down by the war with Iran. NATO allies separately committed to sustaining military aid to Ukraine through 2027.",
+          "source": "BBC",
+          "published_at": "2026-07-09T01:18+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/ce8klree690o"
+        },
+        {
+          "id": "ts5",
+          "headline": "Trump tempers fury to end NATO summit on a high note",
+          "category": "Geopolitics",
+          "summary": "The NATO summit in Ankara closed on a conciliatory note after a turbulent few days, with alliance chief Mark Rutte likening Trump's broadsides to a 'family argument'. Trump said US troop levels in Europe would depend on Greenland and Iran.",
+          "source": "CNA; BBC",
+          "published_at": "2026-07-09T00:29+08:00",
+          "url": "https://www.channelnewsasia.com/world/trump-nato-summit-end-allies-ankara-6241641"
+        },
+        {
+          "id": "ts6",
+          "headline": "China's Xi mourns 'heavy losses' in shoe factory blaze",
+          "category": "Asia",
+          "summary": "President Xi Jinping acknowledged 'heavy losses' from a fire at a shoe factory in China, CNA reported, as authorities investigate the cause. Official casualty figures were still being confirmed.",
+          "source": "CNA",
+          "published_at": "2026-07-09T20:51+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/china-xi-fire-shoe-factory-heavy-losses-6244046"
+        },
+        {
+          "id": "ts7",
+          "headline": "China and Taiwan brace for Typhoon Bavi, possibly the most powerful storm in years",
+          "category": "Weather",
+          "summary": "Taiwan and coastal China are preparing for Typhoon Bavi, which forecasters say could be the strongest storm to hit the region in years. The system has already disrupted regional aviation, including 18 SIA and Scoot flights to and from Singapore.",
+          "source": "CNA",
+          "published_at": "2026-07-09T16:32+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/china-taiwan-super-typhoon-bavi-maysak-6242656"
+        },
+        {
+          "id": "ts8",
+          "headline": "South Korea's top court upholds ex-president Yoon's seven-year jail sentence",
+          "category": "Asia",
+          "summary": "South Korea's Supreme Court upheld a seven-year prison sentence for former president Yoon Suk Yeol over his short-lived declaration of martial law, closing the final avenue of appeal.",
+          "source": "CNA",
+          "published_at": "2026-07-09T11:28+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/south-korea-yoon-suk-yeol-martial-law-supreme-court-6242741"
+        },
+        {
+          "id": "ts9",
+          "headline": "Venezuela quake death toll rises to 3,811 as UN launches $388m relief appeal",
+          "category": "Disaster",
+          "summary": "The government says the death toll from Venezuela's earthquakes has climbed to 3,811. The UN has launched an appeal for US$388 million in relief funding, while Caracas presses for a swift debt deal and access to frozen funds.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-09T09:02+08:00",
+          "url": "https://www.straitstimes.com/world/death-toll-from-venezuela-quakes-rises-to-3811-as-government-seeks-frozen-funds"
+        },
+        {
+          "id": "ts10",
+          "headline": "Germany to buy US Tomahawks in shift towards long-range strike capability",
+          "category": "Geopolitics",
+          "summary": "Chancellor Friedrich Merz said Germany has agreed to acquire US Tomahawk cruise missiles, a step towards an independent long-range strike capability and a notable shift in German defence posture.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-09T19:57+08:00",
+          "url": "https://www.straitstimes.com/world/europe/germany-to-buy-us-tomahawks-in-shift-towards-own-long-range-capability"
+        },
+        {
+          "id": "ts11",
+          "headline": "Pakistan says death toll from militant attacks in south-west rises to 42",
+          "category": "Conflict",
+          "summary": "Pakistani authorities say 42 people have been killed in a wave of militant attacks in Balochistan province. No group had claimed responsibility at the time of reporting.",
+          "source": "CNA",
+          "published_at": "2026-07-09T03:30+08:00",
+          "url": "https://www.channelnewsasia.com/world/pakistan-militant-attacks-balochistan-kill-42-6242081"
+        },
+        {
+          "id": "ts12",
+          "headline": "Bonnie Tyler, singer of Total Eclipse of the Heart, dies at 75",
+          "category": "Obituary",
+          "summary": "Welsh singer Bonnie Tyler, whose raspy voice powered the 1983 global hit Total Eclipse of the Heart, has died aged 75.",
+          "source": "CNA",
+          "published_at": "2026-07-09T17:28+08:00",
+          "url": "https://www.channelnewsasia.com/world/bonnie-tyler-died-75-singer-6243501"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "Safety stories lead today: the Met Service says the thunderstorm cloud was kilometres away when lightning killed a man at Pasir Ris beach, a Tuas dormitory fire sent eight to hospital, and 13 libraries are closing their charging stations after safety incidents. On the wallet side, 1.5 million Singaporeans get up to S$850 in GST Voucher cash in August, and COE Category A has hit a record S$129,000. Typhoon Bavi has disrupted 18 SIA and Scoot flights.",
+      "weather": {
+        "forecast": "Partly Cloudy (Day)",
+        "temp_low": 26,
+        "temp_high": 34,
+        "humidity_low": 60,
+        "humidity_high": 90,
+        "as_of": "2026-07-09T17:31+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jul 2026 · 1st bidding",
+        "as_of": "2026-07-08",
+        "next_results": "2026-07-22",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          {
+            "code": "A",
+            "label": "Cars up to 1600cc & 130bhp",
+            "premium": 129000,
+            "change": 5153
+          },
+          {
+            "code": "B",
+            "label": "Cars above 1600cc or 130bhp",
+            "premium": 130889,
+            "change": 7387
+          }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "Thunderstorm cloud was 'a few kilometres' from fatal Pasir Ris lightning strike",
+          "category": "Weather",
+          "summary": "The Meteorological Service Singapore said the main thunderstorm cloud was several kilometres away when a lightning strike killed a man at Pasir Ris beach, underscoring that strikes can occur well away from the storm core. Outdoor sports operators are reviewing safety protocols.",
+          "source": "CNA; The Straits Times",
+          "published_at": "2026-07-09T20:35+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/pasir-ris-beach-fatal-lightning-strike-thunderstorm-man-dead-met-service-6243791"
+        },
+        {
+          "id": "sg2",
+          "headline": "1.5 million Singaporeans to receive GST Voucher cash payouts in August",
+          "category": "Cost of living",
+          "summary": "About 1.5 million Singaporeans will receive up to S$850 in GST Voucher cash in August, alongside MediSave top-ups of up to S$450 for eligible seniors. Payouts are made under the GST Voucher scheme.",
+          "source": "CNA; The Straits Times",
+          "published_at": "2026-07-09T10:50+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/gst-voucher-scheme-singaporeans-medisave-6242666"
+        },
+        {
+          "id": "sg3",
+          "headline": "Man charged over false bomb threats targeting Parliament House, PMO and HTX",
+          "category": "Crime",
+          "summary": "A 40-year-old man was charged over emailing false bomb threats to Prime Minister Lawrence Wong and targeting government buildings including Parliament House, the Prime Minister's Office and HTX.",
+          "source": "CNA; The Straits Times",
+          "published_at": "2026-07-09T12:36+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/pm-wong-bomb-threat-false-parliament-house-man-charged-6242836"
+        },
+        {
+          "id": "sg4",
+          "headline": "18 SIA and Scoot flights affected as Typhoon Bavi approaches Taiwan and China",
+          "category": "Transport",
+          "summary": "Singapore Airlines and Scoot said 18 flights to and from Singapore are affected as Typhoon Bavi bears down on Taiwan and southern China. Travellers on affected routes are advised to check their flight status.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-09T13:20+08:00",
+          "url": "https://www.straitstimes.com/singapore/18-sia-scoot-flights-to-and-from-spore-affected-as-typhoon-bavi-approaches-taiwan-and-china"
+        },
+        {
+          "id": "sg5",
+          "headline": "Eight taken to hospital after fire at Tuas dormitory",
+          "category": "Incident",
+          "summary": "Eight people were taken to hospital, two with minor burn injuries, after a fire broke out at a dormitory in Tuas. The Singapore Civil Defence Force extinguished the blaze.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-09T08:53+08:00",
+          "url": "https://www.straitstimes.com/singapore/8-taken-to-hospital-including-2-with-minor-burn-injuries-after-fire-in-tuas-dormitory"
+        },
+        {
+          "id": "sg6",
+          "headline": "13 public libraries to close charging stations; power bank rentals from July 27",
+          "category": "Public services",
+          "summary": "Thirteen public libraries will shut their device-charging stations following safety incidents, with power bank rentals to be offered from 27 July instead.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-09T08:30+08:00",
+          "url": "https://www.straitstimes.com/singapore/13-public-libraries-to-close-charging-stations-after-safety-incidents-power-bank-rentals-will-be"
+        },
+        {
+          "id": "sg7",
+          "headline": "Student accommodations manager pleads guilty to abusing six-year-old boy",
+          "category": "Courts",
+          "summary": "A manager at a student accommodation facility pleaded guilty to abusing a six-year-old boy in her care. A district judge described the treatment as 'not discipline, but torment'. Sentencing is pending.",
+          "source": "CNA; The Straits Times",
+          "published_at": "2026-07-09T18:39+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/child-abuse-student-accommodations-manager-crime-jail-6243416"
+        },
+        {
+          "id": "sg8",
+          "headline": "69 people, including a 15-year-old, under probe for unlicensed moneylending",
+          "category": "Crime",
+          "summary": "Police are investigating 69 people, the youngest aged 15, over suspected involvement in unlicensed moneylending and related harassment activities.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-09T16:41+08:00",
+          "url": "https://www.straitstimes.com/singapore/15-year-old-among-69-people-under-probe-for-unlicensed-moneylending-activities"
+        },
+        {
+          "id": "sg9",
+          "headline": "Public rating system for nursing homes 'worth studying', says MOH",
+          "category": "Health",
+          "summary": "The Ministry of Health said a public rating system for nursing homes is worth studying, as part of wider efforts to improve eldercare safety and transparency.",
+          "source": "CNA",
+          "published_at": "2026-07-09T15:59+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/nursing-home-elderly-rating-safety-moh-6242891"
+        },
+        {
+          "id": "sg10",
+          "headline": "Mao Shan Wang or not? Blockchain tagging lets shoppers check durian origins",
+          "category": "Trending",
+          "summary": "A blockchain-based tagging scheme now lets Singapore customers verify the origin and variety of the durians they buy, aiming to settle the perennial question of whether that Mao Shan Wang is the real thing.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-09T20:00+08:00",
+          "url": "https://www.straitstimes.com/tech/mao-shan-wang-or-not-blockchain-tagging-lets-spore-customers-check-durian-origins"
+        },
+        {
+          "id": "sg11",
+          "headline": "CJ Hendry's S$39 Juju World blind-box plushies resold for up to S$2,888",
+          "category": "Trending",
+          "summary": "Blind-box plush toys from artist CJ Hendry's Juju World, originally sold at S$39, are being listed by resellers on Carousell for as much as S$2,888, drawing complaints about scalping.",
+          "source": "Mothership",
+          "published_at": "2026-07-09T14:49+08:00",
+          "url": "https://mothership.sg/2026/07/cj-hendry-juju-world-scalpers/"
+        },
+        {
+          "id": "sg12",
+          "headline": "Delivery rider, 21, suspects S$50 cash-on-delivery order was loanshark harassment",
+          "category": "Trending",
+          "summary": "A 21-year-old Singaporean delivery rider said he suspected a S$50 cash-on-delivery order he picked up was being used as a vehicle for loanshark harassment, prompting discussion about riders being unwittingly drawn into such schemes.",
+          "source": "Mothership",
+          "published_at": "2026-07-09T11:59+08:00",
+          "url": "https://mothership.sg/2026/07/singapore-delivery-rider-suspected-loanshark-harassment/"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "The Gulf is the theatre that escalated: the June US–Iran truce has collapsed into a second night of exchanged strikes, with Iran claiming hits on US bases in the Gulf as it buried Khamenei. In Ukraine, Kyiv has widened its long-range drone campaign from Russian refineries to shadow-fleet tankers, and the Kremlin warns Western-backed escalation will only prolong the war. Israel's two truces — Gaza and Lebanon — are holding but fraying, with Amnesty now urging war-crimes investigations into strikes in Lebanon.",
+      "theatres": [
+        {
+          "name": "Russia–Ukraine War",
+          "status": "No ceasefire in year four: Ukraine's long-range drone campaign has hit Russian refineries and, on 8–9 July, Russian 'shadow-fleet' tankers, while the Kremlin says Western-backed escalation will only prolong the war.",
+          "timeline": [
+            {
+              "date": "2022-02-24",
+              "event": "Russia launched its full-scale invasion of Ukraine, with President Vladimir Putin announcing a 'special military operation'.",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2022/2/24/putin-orders-military-operations-in-eastern-ukraine-as-un-meets"
+            },
+            {
+              "date": "2026-06-28",
+              "event": "Ukraine intensified a sustained long-range drone campaign against Russian oil refineries; Kyiv's General Staff says the strikes have disabled a significant share of Russia's refining capacity.",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/6/28/ukraine-says-it-attacked-two-russian-oil-refineries"
+            },
+            {
+              "date": "2026-07-07",
+              "event": "At the NATO summit in Ankara, President Volodymyr Zelensky pressed allies for additional air-defence systems following renewed Russian missile barrages on Kyiv.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/c9d227e5zj6o"
+            },
+            {
+              "date": "2026-07-08",
+              "event": "Trump said the US would grant Ukraine a licence to produce Patriot interceptor missiles, noting American stockpiles had been depleted by the war with Iran.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/ce8klree690o"
+            },
+            {
+              "date": "2026-07-08",
+              "event": "A worsening fuel crisis produced long petrol-station queues across Russia, which the BBC linked to Ukraine's drone strikes on refineries.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cr7xk8j0j2do"
+            },
+            {
+              "date": "2026-07-09",
+              "event": "Ukraine's military said its drones struck about a dozen more Russian fuel tankers in the Sea of Azov overnight, claiming 36 vessels hit in four days to cut fuel to occupied Crimea. The claims are not independently verified.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/ukraine-says-it-hits-more-russian-fuel-tankers-as-crimea-campaign-intensifies"
+            },
+            {
+              "date": "2026-07-09",
+              "event": "Kremlin spokesman Dmitry Peskov said Washington was wrong to think that escalating Ukrainian strikes could end the war, warning it could prolong the fighting.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/kremlin-says-us-wrong-to-think-escalation-of-ukrainian-strikes-can-help-end-war"
+            },
+            {
+              "date": "2026-07-09",
+              "event": "NATO allies committed to sustaining military aid to Ukraine through 2027.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/europe/nato-allies-commit-to-giving-ukraine-military-aid-through-2027"
+            }
+          ]
+        },
+        {
+          "name": "US/Israel–Iran (Strait of Hormuz)",
+          "status": "The June ceasefire has collapsed: the US and Iran traded strikes for a second straight night on 8–9 July after Trump declared the truce 'over', and Iran says it struck US military targets in the Gulf as it buried Ayatollah Ali Khamenei in Mashhad.",
+          "timeline": [
+            {
+              "date": "2026-02-28",
+              "event": "The US and Israel launched a surprise assault on Iran; Iranian state media said Supreme Leader Ayatollah Ali Khamenei was killed in a strike on his Tehran compound on the war's first day.",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/2/28/irans-supreme-leader-ali-khamenei-killed-in-us-israeli-attacks-reports"
+            },
+            {
+              "date": "2026-06-17",
+              "event": "The US and Iran signed a 14-point memorandum of understanding setting out a 60-day ceasefire, safe passage through the Strait of Hormuz and a US suspension of oil sanctions.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/c932yqz8lggo"
+            },
+            {
+              "date": "2026-07-05",
+              "event": "Iran's new supreme leader, Mojtaba Khamenei, was absent from his father's state funeral, which authorities billed the 'funeral of the century'.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cevllyj9vv3o"
+            },
+            {
+              "date": "2026-07-06",
+              "event": "Large crowds filled central Tehran for Khamenei's funeral procession.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cdejj44kl70o"
+            },
+            {
+              "date": "2026-07-07",
+              "event": "After three oil tankers were hit in the Strait of Hormuz, US Central Command said it struck more than 80 targets in Iran; Iran's Revolutionary Guards said they retaliated against US military sites in Bahrain and Kuwait.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/cwykq59jwpvo"
+            },
+            {
+              "date": "2026-07-08",
+              "event": "Trump declared the ceasefire 'over' and threatened further strikes; Iran's Foreign Minister Abbas Araghchi vowed a 'fearless' response.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/clyw8w1g409o"
+            },
+            {
+              "date": "2026-07-09",
+              "event": "Iran said its forces struck US military infrastructure in Gulf states in response to US strikes on southern and eastern Iran. Iranian officials claimed the US attacks killed 14 people; the figure is not independently confirmed.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/iran-says-it-hits-us-military-targets-in-gulf-prepares-to-bury-slain-leader"
+            },
+            {
+              "date": "2026-07-09",
+              "event": "Khamenei was buried at the Imam Reza shrine in Mashhad amid a second night of US–Iran strikes; the Revolutionary Guards accused the US of bombing bridges on the Tehran–Mashhad rail line 'to overshadow' the funeral.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/c5yzm8m4peeo"
+            }
+          ]
+        },
+        {
+          "name": "Israel–Lebanon/Gaza",
+          "status": "Two fragile truces are fraying: the US-brokered Gaza ceasefire holds under a 'Board of Peace' administration now planning a pilot humanitarian zone near Rafah, while in Lebanon continued Israeli strikes have prompted Amnesty International to call for war-crimes investigations.",
+          "timeline": [
+            {
+              "date": "2023-10-07",
+              "event": "Hamas launched a cross-border attack on Israel that Israeli authorities say killed about 1,200 people and saw hostages seized, triggering Israel's war in Gaza.",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2023/10/7/what-happened-in-israel-a-breakdown-of-how-the-hamas-attack-unfolded"
+            },
+            {
+              "date": "2026-01-16",
+              "event": "The US declared phase two of the Trump-brokered Gaza ceasefire, under which a 'Board of Peace' oversees Gaza's transition.",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/1/16/us-declares-phase-two-of-gaza-ceasefire-but-what-did-phase-one-deliver"
+            },
+            {
+              "date": "2026-06-04",
+              "event": "Israel and Lebanon agreed a conditional, US-mediated ceasefire, pausing a war that began on 2 March 2026 when Hezbollah opened a front in support of Iran.",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/6/4/israel-and-lebanon-agree-to-conditional-ceasefire"
+            },
+            {
+              "date": "2026-07-06",
+              "event": "An Israeli drone strike on a car in Nabatieh al-Fawqa killed four people, including a headteacher — the deadliest attack since the Lebanon ceasefire, according to Lebanese state media. Israel said the car was deemed a threat.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/crlwwwyy70do"
+            },
+            {
+              "date": "2026-07-07",
+              "event": "Hamas moved to dissolve its Gaza government as a new interim administration took shape under the ceasefire framework.",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/7/7/what-is-the-new-gaza-administration-as-hamas-dissolves-government"
+            },
+            {
+              "date": "2026-07-07",
+              "event": "A lawyer said a detained Gaza doctor was severely beaten in an Israeli jail, highlighting continuing concerns over detainees during the truce.",
+              "source": "BBC",
+              "url": "https://www.bbc.co.uk/news/articles/c07yy3pgrlmo"
+            },
+            {
+              "date": "2026-07-08",
+              "event": "Trump's 'Board of Peace' said it was planning a pilot 'humanitarian zone' for civilians near Rafah in southern Gaza.",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/world/trump-board-peace-gaza-humanitarian-zone-rafah-6240961"
+            },
+            {
+              "date": "2026-07-09",
+              "event": "Amnesty International urged that Israeli strikes on Lebanese homes be investigated as war crimes, citing 24 civilians including 12 children killed in March strikes; Lebanese authorities put the war's toll above 4,300.",
+              "source": "The Straits Times",
+              "url": "https://www.straitstimes.com/world/middle-east/amnesty-urges-investigating-israeli-attacks-on-lebanon-as-war-crimes"
+            }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "The Bundibugyo Ebola outbreak in eastern DR Congo is the one to watch: WHO's last formal count was 1,481 confirmed cases and 454 deaths across DRC, Uganda and one exported case in France, but the DRC government's 8 July report puts DRC alone at 1,759 cases and 600 deaths, with a first suspected case in Tshopo province. Bangladesh is battling a measles resurgence of more than 120,000 suspected and confirmed cases with nearly 750 deaths. The cruise-linked hantavirus cluster remains contained at 13 cases, and Kerala's single Nipah case has produced no secondary infections.",
+      "outbreaks": [
+        {
+          "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
+          "status": "Still expanding; a newer DRC government tally materially exceeds the last formal WHO count",
+          "cases": 1481,
+          "deaths": 454,
+          "countries": 3,
+          "as_of": "2026-07-02",
+          "scope_note": "WHO-confirmed, DRC + Uganda + 1 exported case in France (DON612, published 3 Jul 2026): 1,481 confirmed cases (1,460 DRC as of 1 Jul, 20 Uganda as of 2 Jul, 1 France) and 454 deaths (452 DRC, CFR 30.9%; 2 Uganda). Includes 102 cases and 25 deaths among health workers across 36 health zones in Ituri, North Kivu and South Kivu. Diverging, more recent figure: the DRC government's situation report of 8 Jul 2026 reports 1,759 cases and 600 deaths for DRC only — not yet ratified in a WHO DON, and a different geographic scope. Do not add the two together."
+        },
+        {
+          "name": "Measles — Bangladesh",
+          "status": "Nationwide outbreak; still about 1,000 suspected cases a day, though the ministry says the rate is slowing",
+          "cases": ">120,000",
+          "deaths": "~750",
+          "countries": 1,
+          "as_of": "2026-07-09",
+          "scope_note": "Bangladesh government figures via BBC (9 Jul 2026): more than 120,000 suspected AND lab-confirmed measles cases combined since cases spiked in mid-March 2026, with nearly 750 deaths over the past four months. Suspected and confirmed are tracked separately by the Directorate General of Health Services — the 120,000 headline is the sum of both, not confirmed cases alone. An emergency vaccination drive with UNICEF has reached more than 18.4 million children."
+        },
+        {
+          "name": "Andes hantavirus — MV Hondius cruise ship",
+          "status": "Limited person-to-person spread aboard the ship; no ongoing off-ship transmission reported",
+          "cases": 13,
+          "deaths": 3,
+          "countries": "Multi-country (cruise-linked)",
+          "as_of": "2026-07-02",
+          "scope_note": "WHO DON611 (published 2 Jul 2026): 13 cases (12 confirmed, 1 probable) including 3 deaths (2 confirmed, 1 probable), CFR 23%. All 13 travelled aboard the Netherlands-flagged M/V Hondius. Cases were detected across multiple locations including South Africa, France and Tristan da Cunha; WHO does not publish a single country count for this event. Eight hospitalised cases have recovered; two remain in hospital."
+        },
+        {
+          "name": "Yellow fever — Global",
+          "status": "Sustained sylvatic transmission in Africa alongside a multi-year rise in the Americas",
+          "cases": 95,
+          "deaths": "Not reported by WHO for 2026",
+          "countries": 9,
+          "as_of": "2026-06-24",
+          "scope_note": "WHO DON610 (published 24 Jun 2026), covering January–May 2026: 16 confirmed cases across 3 African countries (Burkina Faso, Central African Republic, Cameroon) and 79 confirmed cases across 6 countries in the Americas (Bolivia, Brazil, Colombia, Ecuador, Peru, Venezuela) — 95 confirmed cases, 9 countries in total. These are two region-specific counts, not a single global surveillance tally. WHO gives no 2026 death total in this DON; a separate figure of 100 deaths refers to the Americas in late 2024–early 2025."
+        },
+        {
+          "name": "Nipah virus — India (Kerala)",
+          "status": "Single confirmed case; contact tracing under way with no secondary cases",
+          "cases": 1,
+          "deaths": 0,
+          "countries": 1,
+          "as_of": "2026-06-18",
+          "scope_note": "WHO DON609 (published 25 Jun 2026): one laboratory-confirmed case, an adult male in Kozhikode district, Kerala, confirmed by RT-PCR at NIV Pune. As of 18 Jun 2026, 104 contacts were being monitored (4 very-high-risk, 14 high-risk, 86 low-risk, including 45 health workers), with no secondary cases and no deaths reported in the DON. This is Kerala's sixth Nipah event since 2018."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "Suspected Ebola case in new Congo province as deaths reach 600",
+          "category": "Ebola",
+          "summary": "The DRC government's situation report published on the night of 8 July says the Bundibugyo outbreak has now infected 1,759 people and killed 600 in DR Congo, with two suspected cases in Kisangani, capital of previously unaffected Tshopo province. These figures are more recent than, and count a narrower scope than, WHO's last formal update of 1,481 cases and 454 deaths across DRC, Uganda and France.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-09T08:22+08:00",
+          "url": "https://www.straitstimes.com/world/new-congo-province-has-suspected-ebola-case-as-deaths-hit-600-report-says"
+        },
+        {
+          "id": "ob2",
+          "headline": "Bangladesh, once a measles success story, reports more than 120,000 cases",
+          "category": "Measles",
+          "summary": "Bangladesh has recorded more than 120,000 suspected and confirmed measles cases since a mid-March spike, with nearly 750 deaths in four months, according to government figures cited by the BBC. The government and UNICEF have vaccinated over 18.4 million children, but the country still logs about 1,000 suspected cases a day.",
+          "source": "BBC",
+          "published_at": "2026-07-09T06:03+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cj0gel72mlgo"
+        },
+        {
+          "id": "ob3",
+          "headline": "Ebola death toll in DR Congo surpasses 500",
+          "category": "Ebola",
+          "summary": "Al Jazeera reported the DR Congo Bundibugyo outbreak's death toll passing 500, an intermediate marker between WHO's 454 confirmed deaths (as of 1–2 July) and the DRC government's 600 figure reported on 8 July.",
+          "source": "Al Jazeera",
+          "published_at": "2026-07-06",
+          "url": "https://www.aljazeera.com/news/2026/7/6/ebola-death-toll-in-dr-congo-surpasses-500"
+        },
+        {
+          "id": "ob4",
+          "headline": "WHO reports rapid rise in Bundibugyo Ebola cases in DR Congo and Uganda",
+          "category": "Ebola",
+          "summary": "WHO's Disease Outbreak News DON612 recorded 1,481 confirmed cases and 454 deaths across DR Congo, Uganda and one exported case in France — an additional 564 confirmed cases and 220 deaths in DRC since the 19 June update, partly reflecting expanded surveillance and testing.",
+          "source": "WHO",
+          "published_at": "2026-07-03",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON612"
+        },
+        {
+          "id": "ob5",
+          "headline": "WHO: hantavirus cruise-ship cluster reaches 13 cases, three deaths",
+          "category": "Hantavirus",
+          "summary": "WHO's DON611 update confirmed Andes hantavirus infection in a probable case in Tristan da Cunha who fell ill after disembarking the M/V Hondius, bringing the cluster to 13 cases and three deaths. Early isolation prevented further transmission; eight hospitalised patients have recovered.",
+          "source": "WHO",
+          "published_at": "2026-07-02",
+          "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON611"
+        },
+        {
+          "id": "ob6",
+          "headline": "ECDC weekly threats report keeps Ebola and West Nile virus on its active list",
+          "category": "Surveillance",
+          "summary": "ECDC's Communicable Disease Threats Report for week 27 (27 June–3 July) continues to list Ebola, West Nile virus, Crimean-Congo haemorrhagic fever, MERS and Vibrio among active threats, alongside its EU/EEA respiratory-virus overview.",
+          "source": "ECDC",
+          "published_at": "2026-07-03",
+          "url": "https://www.ecdc.europa.eu/en/publications-data/communicable-disease-threats-report-27-june-3-july-2026-week-27"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "Patch first: a maximum-severity Adobe ColdFusion path traversal and a Langflow auth bypass are both in CISA's exploited catalog with federal deadlines, Ubiquiti shipped a CVSS 10.0 UniFi fix, and a Tenda router backdoor remains unpatched. AI development tooling is the emerging soft spot — GhostApproval symlink flaws let a hostile repo write into an agent's file system, HalluSquatting weaponises hallucinated package names, and a public GitHub issue can steer agentic workflows into leaking private code. Microsoft also patched a Defender zero-day granting SYSTEM.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "GodDamn ransomware uses PoisonX driver to disable endpoint defences",
+          "category": "Ransomware",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A ransomware operation tracked as GodDamn is deploying a malicious driver dubbed PoisonX to terminate endpoint protection before encryption, a bring-your-own-vulnerable-driver style technique that blinds EDR on the host.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-09T18:43+08:00",
+          "url": "https://thehackernews.com/2026/07/goddamn-ransomware-uses-poisonx-driver.html"
+        },
+        {
+          "id": "cs2",
+          "headline": "Interpol's Operation First Light 2026 nets 5,811 fraud arrests across 97 countries",
+          "category": "Law enforcement",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Interpol said Operation First Light 2026, which ran from 15 January to 30 April, led to 5,811 arrests across 97 countries and the seizure of US$293 million in illicit assets. Investigators identified more than 142,000 victims and blocked 31,014 bank accounts tied to business email compromise, romance and investment fraud.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-09T17:47+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/police-arrests-5-800-suspects-in-global-anti-fraud-crackdown/"
+        },
+        {
+          "id": "cs3",
+          "headline": "Microsoft patches RoguePlanet Defender zero-day granting SYSTEM privileges",
+          "category": "Zero-day",
+          "cve": "CVE-2026-50656",
+          "cvss": 7.8,
+          "severity": "HIGH",
+          "summary": "Microsoft patched an elevation-of-privilege race condition in the Microsoft Malware Protection Engine that let a local attacker spawn a SYSTEM shell on fully updated Windows 10 and 11 machines. BleepingComputer reports it was exploited as a zero-day before the fix.",
+          "source": "The Hacker News; BleepingComputer",
+          "published_at": "2026-07-09T16:48+08:00",
+          "url": "https://thehackernews.com/2026/07/microsoft-patches-rogueplanet-defender.html"
+        },
+        {
+          "id": "cs4",
+          "headline": "AssuranceAmerica breach exposes records of 6.9 million drivers",
+          "category": "Data breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Insurance provider AssuranceAmerica disclosed a data breach exposing the records of about 6.9 million drivers. The company is notifying affected individuals.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-09T15:47+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/assuranceamerica-data-breach-exposes-records-of-69-million-drivers/"
+        },
+        {
+          "id": "cs5",
+          "headline": "GhostApproval symlink flaws let malicious repos run code in AI coding agents",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-50549, CVE-2026-12958",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "Wiz researchers found AI coding assistants follow unchecked symlinks, so a malicious repository can redirect an agent's file writes — for example into ~/.ssh/authorized_keys — to achieve code execution. Cursor (CVE-2026-50549, CVSS 9.8) and Amazon Q Developer (CVE-2026-12958, CVSS 7.8) have CVEs; Claude Code, Augment, Google Antigravity and Windsurf are also named. Anthropic initially disputed the report, then added symlink checks in Claude Code 2.1.32.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-09T12:27+08:00",
+          "url": "https://thehackernews.com/2026/07/ghostapproval-symlink-flaws-could-let.html"
+        },
+        {
+          "id": "cs6",
+          "headline": "Fake Paysafe and Skrill SDKs on npm and PyPI steal credentials",
+          "category": "Supply chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Counterfeit payment-provider SDK packages impersonating Paysafe and Skrill were published to npm and PyPI, harvesting credentials from developers who installed them.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-09T03:54+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/fake-paysafe-skrill-sdks-on-npm-and-pypi-steal-credentials/"
+        },
+        {
+          "id": "cs7",
+          "headline": "Suspected China-aligned hackers exploit Roundcube flaws to spy on academics",
+          "category": "Exploited",
+          "cve": "CVE-2025-49113, CVE-2024-42009",
+          "cvss": 9.9,
+          "severity": "CRITICAL",
+          "summary": "Proofpoint tracks a cluster it calls UNK_MassTraction chaining a Roundcube stored-XSS flaw (CVE-2024-42009, CVSS 9.3) with a post-auth remote code execution bug (CVE-2025-49113, CVSS 9.9) to read and send victims' email. Targets since May have included physics and engineering researchers at universities.",
+          "source": "BleepingComputer; The Hacker News",
+          "published_at": "2026-07-09T02:56+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-roundcube-flaw-to-spy-on-academic-researchers/"
+        },
+        {
+          "id": "cs8",
+          "headline": "Entra passkey enrollment vishing campaign targets Microsoft 365 users",
+          "category": "Phishing",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Attackers are calling Microsoft 365 users and talking them through enrolling an attacker-controlled passkey in Entra ID, establishing durable account access that survives password resets.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-09T00:47+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/entra-passkey-enrollment-vishing-targets-microsoft-365-users/"
+        },
+        {
+          "id": "cs9",
+          "headline": "HalluSquatting attack tricks AI coding assistants into installing botnet malware",
+          "category": "Supply chain",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers registered package names that large language models reliably hallucinate, so an AI coding assistant suggesting a non-existent dependency installs attacker-controlled code instead — a variant of slopsquatting used here to deliver botnet malware.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-08T23:07+08:00",
+          "url": "https://thehackernews.com/2026/07/new-hallusquatting-attack-could-trick.html"
+        },
+        {
+          "id": "cs10",
+          "headline": "Ubiquiti patches max-severity UniFi flaws across Connect, Talk, Access and Protect",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-50746",
+          "cvss": 10.0,
+          "severity": "CRITICAL",
+          "summary": "Ubiquiti patched a new batch of critical UniFi vulnerabilities, led by an unauthenticated improper-access-control command injection in the UniFi Connect Application (CVE-2026-50746, CVSS 10.0), fixed in version 3.4.20. Six further critical CVEs affect Talk, Access, Protect and UniFi OS. These are distinct from CVE-2026-34908/34909/34910, added to CISA's KEV catalog on 23 June.",
+          "source": "The Hacker News; BleepingComputer",
+          "published_at": "2026-07-08T22:38+08:00",
+          "url": "https://thehackernews.com/2026/07/ubiquiti-patches-critical-unifi-flaws.html"
+        },
+        {
+          "id": "cs11",
+          "headline": "GitHub 'verified' commits can be rewritten into new hashes without breaking signatures",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "Researchers showed a signed, GitHub-'verified' commit can be rewritten to a different hash while retaining its verified badge, weakening a trust signal that many supply-chain review processes rely on. No CVE has been assigned.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-08T19:51+08:00",
+          "url": "https://thehackernews.com/2026/07/github-verified-commits-can-be.html"
+        },
+        {
+          "id": "cs12",
+          "headline": "KDDI says data breach affects more than 12 million people",
+          "category": "Data breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Japanese telecoms group KDDI said a data breach affects over 12 million people, according to the company's disclosure. It is one of the larger telco breaches disclosed in Japan in recent years.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-08T19:24+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/japanese-telecom-giant-kddi-says-data-breach-affects-12-million-people/"
+        },
+        {
+          "id": "cs13",
+          "headline": "CISA orders federal agencies to patch exploited Langflow auth bypass",
+          "category": "Exploited",
+          "cve": "CVE-2026-55255",
+          "cvss": 8.4,
+          "severity": "HIGH",
+          "summary": "CISA added an authorization bypass in Langflow, the AI agent and workflow builder, to its Known Exploited Vulnerabilities catalog on 7 July and directed federal agencies to patch it. The flaw, fixed in 1.9.1, stems from insecure direct object handling via a user-controlled key.",
+          "source": "BleepingComputer; The Hacker News",
+          "published_at": "2026-07-08T17:58+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-prioritize-patching-langflow-auth-bypass-flaw/"
+        },
+        {
+          "id": "cs14",
+          "headline": "China-linked UAT-7810 expands ORB network with new LONGLEASH malware",
+          "category": "Threat actor",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A China-linked cluster tracked as UAT-7810 is growing its operational relay box network using a new malware family called LONGLEASH, giving the actor rotating infrastructure that complicates attribution and blocking.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-08T17:04+08:00",
+          "url": "https://thehackernews.com/2026/07/china-linked-uat-7810-expands-orb.html"
+        },
+        {
+          "id": "cs15",
+          "headline": "CISA orders agencies to patch max-severity Adobe ColdFusion flaw by Friday",
+          "category": "Exploited",
+          "cve": "CVE-2026-48282",
+          "cvss": 10.0,
+          "severity": "CRITICAL",
+          "summary": "CISA added a maximum-severity Adobe ColdFusion path-traversal flaw to its KEV catalog on 7 July and gave federal agencies until Friday to patch. It affects ColdFusion 2025.9, 2023.20 and earlier.",
+          "source": "BleepingComputer; The Hacker News",
+          "published_at": "2026-07-08T15:16+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/cisa-orders-feds-to-patch-max-severity-coldfusion-flaw-by-friday/"
+        },
+        {
+          "id": "cs16",
+          "headline": "15-year-old GhostLock flaw enables root and container escape on most Linux distros",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-43499",
+          "cvss": 7.8,
+          "severity": "HIGH",
+          "summary": "A use-after-free in the Linux kernel's rt_mutex and futex code, present for roughly 15 years, lets any local user gain root and escape containers. A public proof-of-concept has been released, raising the urgency of patching.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-08T14:16+08:00",
+          "url": "https://thehackernews.com/2026/07/15-year-old-ghostlock-flaw-enables-root.html"
+        },
+        {
+          "id": "cs17",
+          "headline": "CISA flags two Joomla page-builder RCE flaws as actively exploited",
+          "category": "Exploited",
+          "cve": "CVE-2026-48908, CVE-2026-56290",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "Among four additions to CISA's KEV catalog on 7 July were unauthenticated arbitrary file-upload flaws in JoomShaper SP Page Builder (CVE-2026-48908) and Joomlack Page Builder CK (CVE-2026-56290), each rated CVSS 9.8 and each leading to full remote code execution on affected Joomla sites.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-08T13:33+08:00",
+          "url": "https://thehackernews.com/2026/07/cisa-adds-4-actively-exploited-adobe.html"
+        },
+        {
+          "id": "cs18",
+          "headline": "Accenture confirms breach after hacker offers stolen data for sale",
+          "category": "Data breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Accenture confirmed a data breach after a threat actor advertised stolen data for sale. The consultancy has not detailed the volume or nature of the exposed records.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-08T06:06+08:00",
+          "url": "https://www.bleepingcomputer.com/news/security/accenture-confirms-breach-after-hacker-offers-stolen-data-for-sale/"
+        },
+        {
+          "id": "cs19",
+          "headline": "Rogue Agent flaw could have let attackers hijack Google Dialogflow CX chatbots",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Varonis found Dialogflow CX's shared Code Block execution environment lacked isolation, so an actor with update rights on one agent could compromise other agents in the same Google Cloud project, read live chats and exfiltrate data, bypassing VPC Service Controls. Google mitigated the issue in June; no CVE was assigned.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-08T00:37+08:00",
+          "url": "https://thehackernews.com/2026/07/rogue-agent-flaw-could-have-let.html"
+        },
+        {
+          "id": "cs20",
+          "headline": "Public GitHub issue could trick agentic workflows into leaking private repo data",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A prompt-injection payload placed in a public GitHub issue can steer GitHub agentic workflows into reading private repository contents and writing them somewhere the attacker can see — a reminder that untrusted issue text is attacker-controlled input to an agent.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-07T22:04+08:00",
+          "url": "https://thehackernews.com/2026/07/public-github-issue-could-trick-github.html"
+        },
+        {
+          "id": "cs21",
+          "headline": "Writer AI flaw let agent previews leak session tokens across tenants",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Sand Security disclosed a one-click flaw in Writer AI where a shared agent preview link leaked session tokens across tenant boundaries, enabling account takeover including access to chats, documents and model credentials. It has been patched; no CVE was assigned and no formal CVSS published.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-07T21:27+08:00",
+          "url": "https://thehackernews.com/2026/07/writer-ai-flaw-could-let-agent-previews.html"
+        },
+        {
+          "id": "cs22",
+          "headline": "CERT/CC warns of hidden admin backdoor in Tenda router firmware",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-11405",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "Tenda's /bin/httpd web server contains an undocumented backdoor authentication path that grants full admin access when the normal password check fails. It affects the FH1201, W15E, AC10, AC5 and AC6 and remains unpatched, per CERT/CC.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-07T14:40+08:00",
+          "url": "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html"
+        },
+        {
+          "id": "cs23",
+          "headline": "BeyondTrust patches critical auth bypass flaws in Remote Support and PRA",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-40139, CVE-2026-40138",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "BeyondTrust fixed two pre-authentication flaws in Remote Support and Privileged Remote Access. CVE-2026-40139 (CVSS 9.8) allows unauthenticated remote access; CVE-2026-40138 (CVSS 8.1) permits an access-control bypass. Both are fixed in version 25.3.3.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-07T13:16+08:00",
+          "url": "https://thehackernews.com/2026/07/beyondtrust-patches-critical-auth.html"
+        },
+        {
+          "id": "cs24",
+          "headline": "Iran-linked hackers use new Cavern C2 framework against Israeli organisations",
+          "category": "Threat actor",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "An Iran-linked group is running a previously undocumented command-and-control framework named Cavern in intrusions against Israeli organisations, a campaign that tracks alongside the renewed military exchanges in the Gulf.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-07T02:34+08:00",
+          "url": "https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html"
+        },
+        {
+          "id": "cs25",
+          "headline": "16-year-old Linux KVM flaw lets guest VMs escape to the host on Intel and AMD",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-53359",
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A use-after-free in KVM's x86 shadow-MMU code, shared by Intel and AMD systems, can be triggered from inside a guest to corrupt host kernel memory and escape the virtual machine. Fixes landed in stable kernels on 4 July; NVD has not yet published a CVSS score.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-07T01:37+08:00",
+          "url": "https://thehackernews.com/2026/07/16-year-old-linux-kvm-flaw-lets-guest.html"
+        },
+        {
+          "id": "cs26",
+          "headline": "Threat actors probe Gitea Docker flaw 13 days after disclosure",
+          "category": "Exploited",
+          "cve": "CVE-2026-20896",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "Gitea Docker images up to 1.26.2 default to trusting all reverse proxies, letting any source IP spoof the X-WEBAUTH-USER header and impersonate users. Scanning for vulnerable instances began 13 days after disclosure.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-07T00:28+08:00",
+          "url": "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html"
+        }
+      ]
+    }
+  }
+}
