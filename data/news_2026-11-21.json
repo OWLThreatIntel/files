@@ -1,30 +1,30 @@
 {
   "meta": {
     "date": "2026-11-21",
-    "generated_at": "2026-11-21T09:11:01+08:00",
+    "generated_at": "2026-11-21T15:06:41+08:00",
     "edition": "Daily News Briefing",
     "sources": [
       "CNA (Singapore, World and Asia RSS via curl; article pages read)",
       "The Straits Times (Singapore and World RSS via curl; article pages read)",
       "BBC World, Middle East, Europe, Asia and US & Canada RSS (curl; article pages read)",
       "Al Jazeera RSS (article pages read)",
-      "Ukrinform (Kyiv and Kryvyi Rih casualty counts, DTEK, General Staff, Council of the EU, and its relay of a Financial Times report); the Kyiv Independent feed returned no items",
-      "BleepingComputer feed and /news/security/ listing via WebFetch, with four article pages read (new since the last edition: Bell Canada, the Cairn AI tool intrusion, the Chase/Visa/Mastercard vendor breach, and an N-able update merged into the existing card; sponsored posts and Windows feature updates skipped)",
-      "The Hacker News RSS (newest item 21 Nov 01:57 SGT; WhatsApp flaws carded and checked against the WhatsApp security advisory page; the Bazuka Android malware item was left out because the feed gave a headline only and the article page cannot be read; a sponsored post was skipped)",
-      "CISA KEV JSON (catalogue 2026.11.20; four additions on 20 Nov: Apache Roller, VMware vCenter, Cisco Expressway and SAP NetWeaver, noted on the existing cards)",
-      "NVD API (CVE-2026-76466, CVE-2026-123890, CVE-2026-129448 and CVE-2025-42884 records read); other CVSS scores are as reported by BleepingComputer and The Hacker News",
-      "WHO Disease Outbreak News OData API (DON630 on Ebola, published 20 Nov, read in full; DON627 chikungunya and DON626 MERS unchanged)",
-      "US CDC measles data page via WebFetch (updated 20 Nov, data to 19 Nov); the CDC outbreaks index page showed no listed investigations when fetched",
+      "Ukrinform (Dnipropetrovsk, Kharkiv, Rivne and Zaporizhzhia officials, the air force spokesman and the navy spokesman; the air force had not published an overnight tally when the feeds were read at 15:00); the Kyiv Independent feed returned no items",
+      "BleepingComputer feed and /news/security/ listing via WebFetch (nothing newer than the Bell Canada item of 21 Nov 02:51 SGT, already carded)",
+      "The Hacker News RSS (newest item 21 Nov 01:57 SGT, already carded; nothing new since the 09:00 edition)",
+      "CISA KEV JSON (catalogue 2026.11.20, unchanged since the 09:00 edition)",
+      "NVD API not queried this edition (no new CVEs); CVSS scores on existing cards are as verified in earlier editions or as reported by BleepingComputer and The Hacker News",
+      "WHO Disease Outbreak News OData API (newest is DON630 on Ebola, published 20 Nov; unchanged)",
+      "US CDC measles data page via WebFetch (re-read at 15:00: updated 20 Nov, data to 19 Nov; 5,838 cases, 43 outbreaks, 47 jurisdictions, 6 deaths, unchanged)",
       "ECDC CDTR feed (no new item since the week 46 respiratory update of 20 Nov)",
       "NEA 24-hour forecast and LTA COE results via data.gov.sg APIs (COE: Nov 2nd bidding of 18 Nov)",
-      "Mothership RSS (newest item 20 Nov 16:47) plus homepage scrape: one new link since the last edition, an explainer on Kylin Villa, timestamped from the article page and carded",
-      "09:00 edition built on the 20 Nov 21:00 edition with items older than 24 hours removed (28 Top Stories, 4 Singapore, 3 Outbreaks, 6 Cybersecurity); the Sentosa cable car hours were not stated in the text read; no new Lebanon developments were found in the feeds"
+      "Mothership RSS (stale, newest item 20 Nov 18:28) plus homepage scrape: 14 links not yet carded, each timestamped from the article page; two Singapore items carded (the KTPH statement and a renovation dispute), an item making allegations about a named individual and several Hong Kong, China and Malaysia items left out",
+      "15:00 edition built on the 09:00 edition with items older than 24 hours removed (12 Top Stories, 15 Singapore, 3 Cybersecurity); The Straits Times feature on primary school intakes could not be read and was not carded; the FBI database report rests on CNN as relayed by Reuters and is marked unconfirmed; no new Gaza or Lebanon strike reports were found in the feeds"
     ]
   },
   "sections": {
     "top_stories": {
       "label": "Top Stories",
-      "ai_summary": "Wall Street fell sharply on Friday: the Nasdaq lost 5.3% and the S&P 500 3.7%, tipping the S&P and the Dow into correction as Anthropic's shares gave back most of their first-day gain. Washington supplied much of the remaining news, with President Trump defending his description of Vladimir Putin as a friend and threatening a 'tremendous tax' on US firms that build AI data centres abroad. In Ukraine the strikes did not stop after Thursday night's barrage, and officials reported two more people killed in Kryvyi Rih. The Gulf stayed tense too, with missiles fired at Riyadh and a tanker set alight near the Strait of Hormuz. Asian markets reopen on Monday with that sell-off to digest, and the COP31 climate talks are still running past their deadline.",
+      "ai_summary": "Wall Street's sharp Friday sell-off, which pushed the S&P 500 and the Dow into correction, is still the story markets will open to on Monday. Since this morning the security news has grown: CNN reports that the FBI is investigating a suspected breach of its national crime database, the latest in a week of US cyber incidents. Russia's strikes on Ukraine continued through Saturday, with the injury toll in Kryvyi Rih rising to 52. In Washington, Trump said he would like Jensen Huang back at Nvidia and joked about his chief of staff running in 2028. Diplomacy produced thin results, as UN talks on autonomous weapons ended with only a promise of more talks and COP31 remains deadlocked, so watch Antalya this weekend for whether a climate deal emerges at all.",
       "stories": [
         {
           "id": "p21_markets",
@@ -39,10 +39,28 @@
           "id": "p21_trumpputin",
           "headline": "Trump says he and Putin had 'very good' talks on Ukraine and defends calling him a friend; Zelensky calls Putin 'a killer'",
           "category": "Russia-Ukraine",
-          "summary": "At a White House news conference on Friday, Trump said Putin had 'clearly expressed his desire' to end the war by diplomatic means, declined to discuss security guarantees for Ukraine without a deal, and said he 'can't speak' to whether Putin is a friend to the United States. Zelensky told CNN that for Ukrainians Putin is 'an enemy' and 'a killer'. Separately, the Financial Times, citing four sources, reports that Washington has told European and Ukrainian officials it wants a peace deal by early January, according to Ukrinform; that report has not been officially confirmed.",
-          "source": "The Straits Times / Al Jazeera / Ukrinform (FT)",
+          "summary": "At a White House news conference on Friday, Trump said Putin had 'clearly expressed his desire' to end the war by diplomatic means, declined to discuss security guarantees for Ukraine without a deal, and said he 'can't speak' to whether Putin is a friend to the United States. Zelensky told CNN that for Ukrainians Putin is 'an enemy' and 'a killer'. Separately, the Financial Times, citing four sources, reports that Washington has told European and Ukrainian officials it wants a peace deal by early January, according to Ukrinform; that report has not been officially confirmed. In the CNN interview Zelensky said it was up to Trump 'how to call Putin', the BBC reports; he added that describing Putin as a friend could make the Russian leader feel less pressure, according to Ukrinform.",
+          "source": "The Straits Times / BBC / Al Jazeera / Ukrinform (FT)",
           "published_at": "2026-11-21T02:50+08:00",
           "url": "https://www.straitstimes.com/world/europe/trump-says-he-putin-had-very-good-talks-on-ukraine"
+        },
+        {
+          "id": "p21_kryvyi",
+          "headline": "Russian strikes on Kryvyi Rih kill a woman and a seven-year-old boy; injury toll rises to 52, regional head says",
+          "category": "Russia-Ukraine war",
+          "summary": "Dnipropetrovsk regional head Oleksandr Hanzha said on Saturday that 52 people were injured in Kryvyi Rih, with 25 in hospital in serious condition, and that three more people were injured elsewhere in the region, which he said was attacked nearly 10 times since Friday evening. City official Oleksandr Vilkul later reported another strike by a jet-powered Shahed drone on an industrial facility in the city, causing a fire. Energy company DTEK said on Friday evening that one of its thermal power plants had stopped generating after a 'massive attack'. The figures come from Ukrainian officials, as reported by Ukrinform, and have not been independently verified.",
+          "source": "Ukrinform",
+          "published_at": "2026-11-21T14:59+08:00",
+          "url": "https://www.ukrinform.net/rubric-ato/4187053-russian-forces-attack-dnipropetrovsk-region-nearly-10-times-since-evening-two-killed-55-injured.html"
+        },
+        {
+          "id": "q21_strikes",
+          "headline": "Russian drone strike injures 11 near Kharkiv and an attack cuts power to 50 settlements in Rivne region, Ukrainian officials say",
+          "category": "Russia-Ukraine war",
+          "summary": "Ukraine's State Emergency Service said 11 people, two of them children, were injured when a drone hit a five-storey residential building in Solonytsivka, near Kharkiv. Rivne regional head Oleksandr Koval said 50 settlements in Sarny district lost electricity after an attack and that air raid alerts were delaying repairs. In Zaporizhzhia a kindergarten was hit and a 63-year-old man injured, officials said. Air force spokesman Yurii Ihnat said Russia is launching up to 200 drones each night and more than 100 by day. The accounts are from Ukrainian officials via Ukrinform and are not independently verified.",
+          "source": "Ukrinform",
+          "published_at": "2026-11-21T14:38+08:00",
+          "url": "https://www.ukrinform.net/rubric-ato/4187050-injury-toll-after-russian-attacks-in-kharkiv-region-rises-to-11-including-two-children.html"
         },
         {
           "id": "k20_kyiv",
@@ -52,15 +70,6 @@
           "source": "Ukrinform / BBC / The Straits Times (AFP)",
           "published_at": "2026-11-20T21:21+08:00",
           "url": "https://www.ukrinform.net/rubric-ato/4186847-death-toll-from-russian-attack-on-kyiv-rises-to-seven-17-injured.html"
-        },
-        {
-          "id": "p21_kryvyi",
-          "headline": "Russian strike on Kryvyi Rih kills a woman and a seven-year-old boy and injures 42, city official says",
-          "category": "Russia-Ukraine war",
-          "summary": "City official Oleksandr Vilkul said that as of 23:00 on Friday 42 people were injured, four of them children, with 27 in serious condition, and that 23 apartment buildings and a hospital were damaged, Ukrinform reports. Energy company DTEK said the same evening that one of its thermal power plants had stopped generating after a 'massive attack'. The figures come from Ukrainian officials and have not been independently verified.",
-          "source": "Ukrinform",
-          "published_at": "2026-11-21T05:58+08:00",
-          "url": "https://www.ukrinform.net/rubric-ato/4187003-two-killed-including-child-in-russian-strike-on-kryvyi-rih-injury-toll-rises-to-42.html"
         },
         {
           "id": "n20_poland",
@@ -84,10 +93,10 @@
           "id": "k20_houthi",
           "headline": "Saudi-led coalition says it destroyed three Houthi ballistic missiles fired at Riyadh, a day after striking Hodeidah port",
           "category": "Middle East",
-          "summary": "The coalition said on Saturday it had intercepted the missiles, the second Houthi attack on the Saudi capital in a few days; a Reuters witness saw a projectile cross the sky before a loud bang. On Friday the coalition said it had struck the Red Sea port of Hodeidah and Houthi missile and drone sites in Sanaa. The Houthis warned airlines to avoid Saudi airspace, threatened Saudi Red Sea ports and claimed attacks on a power station and a port in southern Saudi Arabia, The Straits Times reports, citing Reuters. US senators are due to vote as soon as the week of 30 Nov on a resolution opposing a proposed US-Saudi nuclear power agreement.",
-          "source": "The Straits Times (Reuters)",
-          "published_at": "2026-11-21T08:20+08:00",
-          "url": "https://www.straitstimes.com/world/middle-east/saudi-arabia-says-it-intercepts-three-houthi-missiles-targeting-riyadh"
+          "summary": "The coalition said on Saturday it had intercepted three ballistic missiles fired towards Riyadh, the second Houthi attack on the Saudi capital in a few days; a Reuters witness saw a projectile cross the sky before a loud bang. Hours later the coalition said it destroyed a drone fired towards the kingdom's south, and Saudi civil defence issued eight public alerts in 24 hours, Al Jazeera reports. On Friday the coalition said it had struck the Red Sea port of Hodeidah and Houthi missile and drone sites in Sanaa. The Houthis warned airlines to avoid Saudi airspace, threatened Saudi Red Sea ports and claimed attacks on a power station and a port in southern Saudi Arabia, The Straits Times reports, citing Reuters.",
+          "source": "Al Jazeera / The Straits Times (Reuters) / CNA",
+          "published_at": "2026-11-21T12:32+08:00",
+          "url": "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh"
         },
         {
           "id": "p21_tanker",
@@ -135,6 +144,33 @@
           "url": "https://www.channelnewsasia.com/world/eisenkot-israel-government-netanyahu-6570351"
         },
         {
+          "id": "q21_fbi",
+          "headline": "FBI investigating a suspected breach of its national crime database, CNN reports",
+          "category": "United States",
+          "summary": "CNN, citing two people briefed on the investigation, reported on Friday that the FBI is looking into a suspected breach of the National Crime Information Center, the database that federal, state and local police use to share warrants, criminal histories and background-check information. The FBI did not respond to a Reuters request for comment. It would be the second intrusion into an FBI system in recent months, after a September breach of an FBI jobs website, The Straits Times reports, citing Reuters. The report has not been officially confirmed.",
+          "source": "The Straits Times (Reuters, citing CNN)",
+          "published_at": "2026-11-21T12:05+08:00",
+          "url": "https://www.straitstimes.com/world/united-states/fbis-criminal-information-database-hacked-cnn-reports"
+        },
+        {
+          "id": "q21_huangback",
+          "headline": "Trump says he would 'love to see' Jensen Huang return to Nvidia and says he raised the matter with Xi",
+          "category": "US-China",
+          "summary": "President Trump told reporters on Friday that Huang was 'a good man' who 'made some bad decisions' and should be 'given a second chance' after making 'a big apology'. Huang resigned on 12 November after reports of a relationship with a woman alleged to be a Chinese spy who may have helped route restricted chips to China. Trump said he had discussed the matter with President Xi, which appeared to contradict Treasury Secretary Scott Bessent's statement earlier in the day that Huang did not come up, Al Jazeera reports.",
+          "source": "CNA / Al Jazeera",
+          "published_at": "2026-11-21T09:49+08:00",
+          "url": "https://www.aljazeera.com/news/2026/11/21/trump-calls-for-nvidia-to-reinstate-brilliant-jensen-huang"
+        },
+        {
+          "id": "p21_huang",
+          "headline": "Former Nvidia chief Jensen Huang agrees to testify at a public US Senate hearing, senator's aide says",
+          "category": "US-China",
+          "summary": "An aide to Republican Senator Tim Scott said on Friday that Huang had agreed to appear; no date was given, though the senator had asked for 3 December. It would be Huang's first public testimony since he stepped down on 12 November amid questions about his ties to a woman accused of being a Chinese spy. He has also agreed to a closed-door interview with three House committees on 1 December, The Straits Times reports, citing Reuters. A spokesperson for Huang declined to comment.",
+          "source": "The Straits Times (Reuters)",
+          "published_at": "2026-11-21T03:20+08:00",
+          "url": "https://www.straitstimes.com/world/former-nvidia-ceo-huang-agreed-to-testify-at-public-us-senate-hearing-senators-aide-says"
+        },
+        {
           "id": "p21_dc",
           "headline": "Trump threatens a 'tremendous tax' on US tech firms that build AI data centres abroad",
           "category": "United States",
@@ -162,13 +198,58 @@
           "url": "https://www.straitstimes.com/world/united-states/trump-xi-agreed-that-military-ai-decisions-should-involve-humans-bessent-says"
         },
         {
-          "id": "p21_huang",
-          "headline": "Former Nvidia chief Jensen Huang agrees to testify at a public US Senate hearing, senator's aide says",
-          "category": "US-China",
-          "summary": "An aide to Republican Senator Tim Scott said on Friday that Huang had agreed to appear; no date was given, though the senator had asked for 3 December. It would be Huang's first public testimony since he stepped down on 12 November amid questions about his ties to a woman accused of being a Chinese spy. He has also agreed to a closed-door interview with three House committees on 1 December, The Straits Times reports, citing Reuters. A spokesperson for Huang declined to comment.",
-          "source": "The Straits Times (Reuters)",
-          "published_at": "2026-11-21T03:20+08:00",
-          "url": "https://www.straitstimes.com/world/former-nvidia-ceo-huang-agreed-to-testify-at-public-us-senate-hearing-senators-aide-says"
+          "id": "q21_miller",
+          "headline": "Trump jokingly floats chief of staff Stephen Miller as a 2028 presidential candidate",
+          "category": "United States",
+          "summary": "At a White House press conference on Friday, Trump called Miller 'the most powerful man in the world' and said he had done better at the podium than Vice-President JD Vance and Secretary of State Marco Rubio, who were standing behind him. Neither Vance nor Rubio has said whether he will run. Trump named Miller chief of staff on 6 November in place of Susie Wiles, after the Republicans' midterm election losses, CNA reports.",
+          "source": "CNA",
+          "published_at": "2026-11-21T10:23+08:00",
+          "url": "https://www.channelnewsasia.com/world/donald-trump-us-presidency-stephen-miller-6571076"
+        },
+        {
+          "id": "p21_robots",
+          "headline": "UN talks on autonomous weapons end with a pledge to draw up new rules within two years, short of the binding treaty many states sought",
+          "category": "World",
+          "summary": "The Geneva talks closed on Saturday with agreement to hold further discussions on rules for weapons that can select and attack targets with little or no human oversight. About 100 countries had backed legally binding rules on a short timetable, but opposition from large arms producers including the US, Russia and Israel left open whether any future measures would be binding, CNA reports. Rights groups said the outcome fell short of what they had hoped for.",
+          "source": "CNA / The Straits Times",
+          "published_at": "2026-11-21T13:09+08:00",
+          "url": "https://www.channelnewsasia.com/world/united-nations-regulate-killer-robots-weapons-6571256"
+        },
+        {
+          "id": "j20_cop",
+          "headline": "COP31 runs into overtime in Antalya with countries deadlocked over a draft that omits fossil fuels",
+          "category": "Climate",
+          "summary": "A late session on Friday approved technical items but not the wider political deal, and summit president Murat Kurum said 'we are not there yet', Al Jazeera reports. Thursday's slimmer draft removed every mention of fossil fuels; the EU said it risked turning the meeting into 'a fossil summit' and Panama threatened to walk out. Campaign groups said the summit was on track to be the 'worst COP ever', The Straits Times reports.",
+          "source": "Al Jazeera / The Straits Times",
+          "published_at": "2026-11-21T07:06+08:00",
+          "url": "https://www.aljazeera.com/news/2026/11/20/fossil-fuel-talks-deadlock-pushes-cop31-climate-summit-into-overtime"
+        },
+        {
+          "id": "q21_vietnam",
+          "headline": "Vietnam abolishes the death penalty for drug trafficking and several other crimes",
+          "category": "Asia",
+          "summary": "A revised penal code passed by the National Assembly on Friday leaves capital punishment available for four offences: treason, murder, terrorism and illegal drug production. Crimes against humanity, war crimes, rebellion and rape of a juvenile were also removed from the list, with life imprisonment as the maximum sentence instead. Vietnam does not publish execution figures; Amnesty International estimated more than 1,200 people were on death row at the end of 2023, CNA reports.",
+          "source": "CNA",
+          "published_at": "2026-11-21T10:02+08:00",
+          "url": "https://www.channelnewsasia.com/asia/vietnam-death-penalty-abolish-crime-6571011"
+        },
+        {
+          "id": "q21_rohingya",
+          "headline": "Rohingya refugees in Bangladesh welcome the UN court's genocide ruling but say they want to go home",
+          "category": "Asia",
+          "summary": "Hundreds of refugees watched Thursday's International Court of Justice judgment on a big screen in the Cox's Bazar camps; many described it as a 'small victory' that offered some hope of a safe return to Myanmar, CNA reports. The court found Myanmar responsible for genocide against the Rohingya in its 2017 military operation, the first time it has ruled that a state committed genocide. Myanmar has called the ruling unfair.",
+          "source": "CNA",
+          "published_at": "2026-11-21T11:37+08:00",
+          "url": "https://www.channelnewsasia.com/asia/rohingya-bangladesh-myanmar-genocide-verdict-6571141"
+        },
+        {
+          "id": "n20_myanmar",
+          "headline": "Myanmar calls the UN court's Rohingya genocide ruling 'not fair'; General Assembly president urges it to 'bring Rohingya home'",
+          "category": "Asia",
+          "summary": "Myanmar's presidential spokeswoman rejected Thursday's International Court of Justice ruling that the country committed genocide against the Rohingya during a 2017 crackdown. Myanmar has always denied genocide, saying its actions targeted insurgents after attacks on security personnel, CNA reports, citing AFP.",
+          "source": "CNA (AFP)",
+          "published_at": "2026-11-20T17:36+08:00",
+          "url": "https://www.channelnewsasia.com/asia/myanmar-icj-genocide-rohingya-not-fair-6568946"
         },
         {
           "id": "p21_math",
@@ -183,19 +264,10 @@
           "id": "k20_ukeu",
           "headline": "UK and EU sign deals on food trade, carbon markets and youth mobility at a Brussels summit",
           "category": "Europe",
-          "summary": "Prime Minister Andy Burnham called Friday's agreement a 'landmark' and Commission President Ursula von der Leyen called it a 'turning point'. The three accords cut paperwork for food exports, link the two sides' emissions trading schemes and create a 'youth experience scheme' letting 100,000 under-30s from each side live in the other for up to three years, CNA reports; a disagreement over university fees is unresolved. Burnham said the UK would explore even closer ties, according to the BBC.",
+          "summary": "Prime Minister Andy Burnham called Friday's agreement a 'landmark' and Commission President Ursula von der Leyen called it a 'turning point'. The three accords cut paperwork for food exports, link the two sides' emissions trading schemes and create a 'youth experience scheme' letting 100,000 under-30s from each side live in the other for up to three years, CNA reports; a disagreement over university fees is unresolved. Burnham said the UK would explore even closer ties, according to the BBC. Foreign Secretary Ed Miliband told the BBC on Saturday that the deal will come into force whether or not a separate agreement on tuition fees is reached.",
           "source": "CNA / BBC / Al Jazeera",
           "published_at": "2026-11-21T04:10+08:00",
           "url": "https://www.channelnewsasia.com/world/burnham-eu-brexit-landmark-deal-brussels-summit-6570481"
-        },
-        {
-          "id": "j20_cop",
-          "headline": "COP31 runs into overtime in Antalya with countries deadlocked over a draft that omits fossil fuels",
-          "category": "Climate",
-          "summary": "A late session on Friday approved technical items but not the wider political deal, and summit president Murat Kurum said 'we are not there yet', Al Jazeera reports. Thursday's slimmer draft removed every mention of fossil fuels; the EU said it risked turning the meeting into 'a fossil summit' and Panama threatened to walk out. Campaign groups said the summit was on track to be the 'worst COP ever', The Straits Times reports.",
-          "source": "Al Jazeera / The Straits Times",
-          "published_at": "2026-11-21T07:06+08:00",
-          "url": "https://www.aljazeera.com/news/2026/11/20/fossil-fuel-talks-deadlock-pushes-cop31-climate-summit-into-overtime"
         },
         {
           "id": "p21_unsg",
@@ -288,15 +360,6 @@
           "url": "https://www.aljazeera.com/news/2026/11/20/us-targets-irans-ship-to-ship-transfers-can-tehran-break-the-blockade"
         },
         {
-          "id": "n20_myanmar",
-          "headline": "Myanmar calls the UN court's Rohingya genocide ruling 'not fair'; General Assembly president urges it to 'bring Rohingya home'",
-          "category": "Asia",
-          "summary": "Myanmar's presidential spokeswoman rejected Thursday's International Court of Justice ruling that the country committed genocide against the Rohingya during a 2017 crackdown. Myanmar has always denied genocide, saying its actions targeted insurgents after attacks on security personnel, CNA reports, citing AFP.",
-          "source": "CNA (AFP)",
-          "published_at": "2026-11-20T17:36+08:00",
-          "url": "https://www.channelnewsasia.com/asia/myanmar-icj-genocide-rohingya-not-fair-6568946"
-        },
-        {
           "id": "n20_japan",
           "headline": "China says Japan must 'correct its wrong words' on Taiwan after Xi declines a formal meeting with Takaichi",
           "category": "Asia",
@@ -304,33 +367,6 @@
           "source": "The Straits Times",
           "published_at": "2026-11-20T16:40+08:00",
           "url": "https://www.straitstimes.com/world/china-says-japan-must-change-attitude-after-xi-snub-of-takaichi"
-        },
-        {
-          "id": "k20_detente",
-          "headline": "Analysts say new US chip curbs and an unfinished tariff deal will test the Trump-Xi goodwill shown at APEC",
-          "category": "US-China",
-          "summary": "CNA's analysis of the Shenzhen meetings notes that Xi Jinping greeted Donald Trump on the red carpet on Wednesday, returning a gesture Trump made in September. Analysts quoted by CNA say fresh US restrictions on AI chips, a tariff agreement that is still incomplete and shifting politics in Washington could strain what they call a fragile detente. This is commentary rather than a new event.",
-          "source": "CNA",
-          "published_at": "2026-11-20T13:32+08:00",
-          "url": "https://www.channelnewsasia.com/east-asia/trump-xi-us-china-goodwill-ties-apec-analysis-6561621"
-        },
-        {
-          "id": "k20_chinatech",
-          "headline": "Tencent and Alibaba warn that new US limits on remote access to AI chips will slow their plans",
-          "category": "US-China",
-          "summary": "Tencent president Martin Lau said the new US rule 'sets everyone back in China', and Alibaba said it could affect some of its overseas data centre expansion and that it was still assessing the impact, CNA reports. The rules, issued this week after the resignation of Nvidia chief executive Jensen Huang, restrict Chinese firms' remote use of advanced chips through data centres in third countries.",
-          "source": "CNA",
-          "published_at": "2026-11-20T09:56+08:00",
-          "url": "https://www.channelnewsasia.com/east-asia/china-tech-firms-us-ai-curbs-nvidia-fallout-6566626"
-        },
-        {
-          "id": "k20_cars",
-          "headline": "US lawmakers near a deal to ban Chinese cars from the American market, Bloomberg sources say",
-          "category": "US-China",
-          "summary": "Republicans and Democrats from car-making states aim to send a bill to the president by the end of 2026, people familiar with the talks told Bloomberg, according to The Straits Times. Last-minute negotiations were aimed partly at sparing Mercedes-Benz, which is nearly 20% owned by Chinese entities. If enacted, the measure would shut out makers such as BYD and Geely. The account is based on unnamed sources and no bill text has been published.",
-          "source": "The Straits Times (Bloomberg)",
-          "published_at": "2026-11-20T10:14+08:00",
-          "url": "https://www.straitstimes.com/world/united-states/us-lawmakers-near-deal-to-ban-chinese-cars-spare-mercedes"
         },
         {
           "id": "j20_spain",
@@ -351,24 +387,6 @@
           "url": "https://www.bbc.co.uk/news/articles/cr930ney9d1po"
         },
         {
-          "id": "k20_marad",
-          "headline": "US maritime agency memo warned that the Iran blockade was pushing up Gulf shipping insurance, Al Jazeera reports",
-          "category": "Middle East",
-          "summary": "Al Jazeera says documents it obtained through a freedom of information request show the US Maritime Administration issued an internal alert in October, after US Central Command said it had disabled a Panama-flagged bulk carrier trying to breach the blockade. The memo said merchant ships 'now face kinetic action from both sides' and that this raised the likelihood of further war-risk premium spikes and crew refusals. The report rests on Al Jazeera's own documents and has not been corroborated elsewhere.",
-          "source": "Al Jazeera",
-          "published_at": "2026-11-20T14:03+08:00",
-          "url": "https://www.aljazeera.com/economy/2026/11/20/us-maritime-agency-warned-iran-blockade-was-adding-to-rising-gulf-premiums"
-        },
-        {
-          "id": "k20_permit",
-          "headline": "US Senate passes a bill to speed up permits for pipelines, power lines and other energy projects",
-          "category": "United States",
-          "summary": "Senators approved the 500-page measure by 62 votes to 33 on Thursday after a bipartisan compromise negotiated with the White House, The Straits Times reports, citing Bloomberg. It now goes to the House, where its prospects are uncertain. Supporters say the federal approval system has held up grid upgrades, AI data centres and clean energy projects.",
-          "source": "The Straits Times (Bloomberg)",
-          "published_at": "2026-11-20T12:24+08:00",
-          "url": "https://www.straitstimes.com/world/united-states/us-senate-passes-landmark-bill-to-overhaul-energy-permitting"
-        },
-        {
           "id": "k20_protest",
           "headline": "Students protest in at least 25 European countries over education funding, climate and conscription",
           "category": "Europe",
@@ -385,60 +403,6 @@
           "source": "BBC / CNA (AFP)",
           "published_at": "2026-11-20T18:16+08:00",
           "url": "https://www.bbc.co.uk/news/articles/cm3vgw1xevvwo"
-        },
-        {
-          "id": "k20_fuji",
-          "headline": "Chinese embassy in Japan warns against off-season Mount Fuji climbs after a missing hiker's family offers a reward",
-          "category": "Asia",
-          "summary": "Chen Jie, 25, disappeared on the mountain on 8 Nov. His family is offering 500,000 yuan (about US$75,000) to anyone who finds him alive, and the embassy said it feared the reward could encourage reckless attempts, the BBC reports.",
-          "source": "BBC",
-          "published_at": "2026-11-20T12:13+08:00",
-          "url": "https://www.bbc.co.uk/news/articles/c61wr088jnzzo"
-        },
-        {
-          "id": "k20_iowa",
-          "headline": "US Army to detonate five tonnes of degraded explosives in Iowa and warns of a toxic plume",
-          "category": "United States",
-          "summary": "The Army has urged people near Middletown to leave the area or stay indoors, the BBC reports. It says destroying the unstable material in place is the safest option, and that the resulting plume could carry dust containing lead over eastern Iowa and into Illinois.",
-          "source": "BBC",
-          "published_at": "2026-11-20T09:27+08:00",
-          "url": "https://www.bbc.co.uk/news/articles/cmlye2334wlyo"
-        },
-        {
-          "id": "k20_la",
-          "headline": "Los Angeles under flash flood warnings as an El Nino-fuelled storm crosses Southern California",
-          "category": "United States",
-          "summary": "The US National Weather Service warned of rain falling at up to 2.5cm in 30 minutes on Thursday morning local time, with warnings covering Malibu, Beverly Hills, downtown Los Angeles and the San Fernando Valley, The Straits Times reports, citing Bloomberg. Firefighters used a helicopter to rescue a woman trapped in the Sepulveda Basin, and residents near burn scars were on alert for mudslides.",
-          "source": "The Straits Times (Bloomberg)",
-          "published_at": "2026-11-20T11:10+08:00",
-          "url": "https://www.straitstimes.com/world/united-states/los-angeles-flood-threat-builds-as-el-nino-storm-sweeps-south"
-        },
-        {
-          "id": "k20_colombia",
-          "headline": "Thousands protest in Colombia against tax plans in a second nationwide demonstration",
-          "category": "Americas",
-          "summary": "Unions, students and opposition groups marched in Bogota and other cities on Thursday against proposals to lower the income tax threshold from about US$1,419 a month to about US$985, raise healthcare contributions and cut corporate taxes, Al Jazeera reports, citing AFP and Reuters. President Abelardo de la Espriella's government says the measures are needed with next year's deficit projected at 9.4% of GDP; it has already withdrawn a plan to raise taxes on basic foods.",
-          "source": "Al Jazeera (AFP, Reuters)",
-          "published_at": "2026-11-20T11:26+08:00",
-          "url": "https://www.aljazeera.com/news/2026/11/20/thousands-protest-colombias-tax-plans-amid-row-over-us-military-role"
-        },
-        {
-          "id": "k20_meta",
-          "headline": "Meta says it is re-evaluating its 2030 net zero target as AI data centres push emissions up",
-          "category": "Climate",
-          "summary": "In its annual sustainability report on Thursday, Meta said it was reviewing 'timelines, sequencing and interim milestones, including the 2030 timeframe'. It reported that net emissions rose 45% in 2025 to 11.8 million tonnes of carbon dioxide equivalent, Al Jazeera reports.",
-          "source": "Al Jazeera",
-          "published_at": "2026-11-20T09:29+08:00",
-          "url": "https://www.aljazeera.com/news/2026/11/20/meta-rethinks-2030-climate-goals-as-ai-data-centres-drive-emissions-up"
-        },
-        {
-          "id": "k20_tiktok",
-          "headline": "TikTok launches a tool worldwide to help public figures find and report deepfakes of themselves",
-          "category": "Technology",
-          "summary": "The 'likeness detection tool' lets politicians and accounts with large followings locate AI-generated content that uses their image without consent, and is being rolled out gradually, CNA and The Straits Times report. TikTok presented it as a safeguard against disinformation ahead of European elections next year.",
-          "source": "CNA / The Straits Times",
-          "published_at": "2026-11-20T13:56+08:00",
-          "url": "https://www.channelnewsasia.com/world/tiktok-tool-public-figures-detect-deepfakes-6568406"
         },
         {
           "id": "k20_fiona",
@@ -502,15 +466,6 @@
           "source": "Al Jazeera",
           "published_at": "2026-11-20T17:11+08:00",
           "url": "https://www.aljazeera.com/news-analysis/2026/11/20/pakistan-minister-visits-india-for-first-time-since-2025-war"
-        },
-        {
-          "id": "n20_nigeria",
-          "headline": "Nigeria's president asks parliament to decriminalise attempted suicide",
-          "category": "Africa",
-          "summary": "Bola Tinubu's proposal would replace prosecution with medical support for survivors, after years of calls for reform from mental health professionals. A separate bill with the same aim has already passed its second reading, the BBC reports.",
-          "source": "BBC",
-          "published_at": "2026-11-20T14:32+08:00",
-          "url": "https://www.bbc.co.uk/news/articles/cm3rgnvxj339o"
         },
         {
           "id": "n20_texas",
@@ -612,15 +567,6 @@
           "url": "https://www.straitstimes.com/world/two-salvadorans-killed-in-haiti-while-handling-explosives-military-says"
         },
         {
-          "id": "p21_robots",
-          "headline": "UN talks on autonomous weapons run past their deadline as negotiators weigh a non-binding deal",
-          "category": "World",
-          "summary": "Some countries, including Russia, were holding up agreement in Geneva on Friday on rules for weapons that can select and attack targets with little human oversight, The Straits Times reports, citing Reuters.",
-          "source": "The Straits Times (Reuters)",
-          "published_at": "2026-11-21T03:10+08:00",
-          "url": "https://www.straitstimes.com/world/europe/thorny-un-talks-on-regulating-killer-robots-drag-past-deadline"
-        },
-        {
           "id": "p21_barge",
           "headline": "At least four dead after a boat carrying mourners to a funeral capsizes in Nigeria's Bayelsa state",
           "category": "Africa",
@@ -651,8 +597,8 @@
           "id": "p21_zecler",
           "headline": "Three French police officers convicted over the 2020 beating of music producer Michel Zecler",
           "category": "Europe",
-          "summary": "A Paris court found the beating was aggravated by racism and that the officers signed a falsified report; CCTV showed about 30 blows. Each received a five-year sentence, partly suspended, and all were barred from police service, the BBC reports.",
-          "source": "BBC",
+          "summary": "A Paris court found the beating was aggravated by racism and that the officers signed a falsified report; CCTV showed about 30 blows. Each received a five-year sentence, partly suspended, and all were barred from police service, the BBC reports. According to Al Jazeera, citing AFP, the suspended portions were three years, three and a half years and four years, and the third officer is to serve his remaining year with an ankle tag.",
+          "source": "BBC / Al Jazeera (AFP)",
           "published_at": "2026-11-21T06:37+08:00",
           "url": "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo"
         },
@@ -682,19 +628,127 @@
           "source": "The Straits Times",
           "published_at": "2026-11-20T23:10+08:00",
           "url": "https://www.straitstimes.com/world/europe/german-minister-sorry-for-calling-pentagon-officials-view-stupid"
+        },
+        {
+          "id": "q21_metaindia",
+          "headline": "India's opposition youth wing clashes with police outside Meta offices over removed Instagram accounts",
+          "category": "Asia",
+          "summary": "The youth wing of the Congress party protested at Meta offices over the removal of some of its members' Instagram accounts, according to footage the group released on Saturday; images showed members entering a Meta office building in Mumbai on Friday. Meta declined to comment on the protests and has said it restricts content in India to comply with local laws. A spokesperson for Prime Minister Modi's party criticised the action; the government says it orders takedowns only where content breaks the law or threatens public safety or national security, CNA reports.",
+          "source": "CNA",
+          "published_at": "2026-11-21T14:14+08:00",
+          "url": "https://www.channelnewsasia.com/asia/india-congress-party-meta-protests-censorship-6571316"
+        },
+        {
+          "id": "q21_niugini",
+          "headline": "Air Niugini Boeing 767 makes an emergency landing in the Philippines; all 146 on board safe",
+          "category": "Asia",
+          "summary": "The flight from Hong Kong to Papua New Guinea diverted to Davao shortly after midnight on Saturday after the pilots saw an indication of possible sparks or fire in the right engine, the Civil Aviation Authority of the Philippines said. The 137 passengers and nine crew left by emergency slides and no injuries were reported; an investigation is under way, CNA reports.",
+          "source": "CNA",
+          "published_at": "2026-11-21T11:10+08:00",
+          "url": "https://www.channelnewsasia.com/asia/air-niugini-boeing-emergency-landing-philippines-6571121"
+        },
+        {
+          "id": "q21_basra",
+          "headline": "Fire at a power station near Basra in Iraq kills at least four and injures 30",
+          "category": "Middle East",
+          "summary": "Security officials said the toll from Saturday's fire at the Hartha power station north of Basra was expected to rise; the fire spread to neighbouring houses and halted the plant, which had been running at about 400 megawatts. Civil defence teams brought it under control and there was no official word on the cause, Iraq's state news agency reported, according to The Straits Times, citing Reuters.",
+          "source": "The Straits Times (Reuters)",
+          "published_at": "2026-11-21T14:25+08:00",
+          "url": "https://www.straitstimes.com/world/middle-east/iraq-fire-at-basra-power-station-kills-at-least-four-injures-30"
+        },
+        {
+          "id": "q21_mlambo",
+          "headline": "Phumzile Mlambo-Ngcuka, South Africa's first female deputy president and former head of UN Women, dies at 71",
+          "category": "Africa",
+          "summary": "South Africa's presidency announced her death late on Friday. A former teacher elected to parliament in 1994, she was deputy president from 2005 to 2008 and led UN Women for two terms from 2013, The Straits Times reports, citing Reuters.",
+          "source": "The Straits Times (Reuters)",
+          "published_at": "2026-11-21T13:45+08:00",
+          "url": "https://www.straitstimes.com/world/south-africas-first-female-deputy-president-and-un-official-dies"
+        },
+        {
+          "id": "q21_youtube",
+          "headline": "YouTube close to a settlement of about US$3 billion with US school districts over addiction claims, sources say",
+          "category": "Technology",
+          "summary": "People familiar with the matter said YouTube has an agreement in principle to pay around US$3 billion to thousands of school districts that accuse it of designing an addictive platform that harmed students' mental health, and to add safeguards for teenagers. The deal depends on a majority of districts signing on and could take months to finalise; Google and the plaintiffs' lawyers declined to comment, The Straits Times reports. The figure is unconfirmed.",
+          "source": "The Straits Times",
+          "published_at": "2026-11-21T11:50+08:00",
+          "url": "https://www.straitstimes.com/world/united-states/youtube-finalising-multibillion-dollar-settlement-with-us-schools-over-social-media-addiction-claims"
+        },
+        {
+          "id": "q21_roundup",
+          "headline": "US judge approves Bayer's US$7.25 billion settlement of Roundup weedkiller cancer claims",
+          "category": "United States",
+          "summary": "A Missouri judge on Friday called the nationwide settlement 'fair, reasonable, and adequate'. It covers Roundup users who already have non-Hodgkin lymphoma and those who fall ill in future. Bayer, which proposed the deal to end the litigation, had already paid about US$10 billion to resolve earlier claims, the BBC reports.",
+          "source": "BBC",
+          "published_at": "2026-11-21T11:49+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cwvg21gyl650o"
+        },
+        {
+          "id": "q21_phones",
+          "headline": "Strict phone bans in US schools are modestly improving test scores, large study finds",
+          "category": "United States",
+          "summary": "Harvard researchers who studied 3.3 million students across 4,600 schools found that schools locking phones away all day saw gains in mathematics and reading equal to about one or two extra weeks of school a year, with the strongest results in reading. Experts quoted said the effects are small but could matter if they build over time, The Straits Times reports.",
+          "source": "The Straits Times",
+          "published_at": "2026-11-21T12:00+08:00",
+          "url": "https://www.straitstimes.com/world/united-states/us-school-phone-bans-are-gradually-improving-test-scores-new-evidence-shows"
+        },
+        {
+          "id": "q21_peru",
+          "headline": "Strong earthquake shakes central Peru and is felt in Lima; no casualties or damage reported",
+          "category": "Americas",
+          "summary": "The quake struck the Andean region of Junin on Friday evening local time. Germany's GFZ research centre measured it at magnitude 6.8 and the US Geological Survey at 6.7, at a depth of more than 100km. Residents of Lima left their homes and lawmakers left Congress. Peru's Geophysical Institute said no damage or casualties had been reported, and the US tsunami warning system said there was no tsunami threat, The Straits Times reports, citing Reuters and AP.",
+          "source": "The Straits Times (Reuters, AP)",
+          "published_at": "2026-11-21T09:15+08:00",
+          "url": "https://www.straitstimes.com/world/magnitude-6-8-quake-in-perus-andean-region-sends-lima-residents-onto-streets"
+        },
+        {
+          "id": "q21_mexico",
+          "headline": "Mexican mobile users report widespread outages on Telcel, AT&T Mexico and Movistar",
+          "category": "Americas",
+          "summary": "Users began reporting lost signal, failed calls and data problems from about 11am local time on Friday, according to the outage tracker Downdetector. AT&T Mexico said its own network was operating normally; America Movil, which controls Telcel, and Movistar did not immediately comment. No cause has been given. Similar outages were reported in mid-October, The Straits Times reports, citing Reuters.",
+          "source": "The Straits Times (Reuters)",
+          "published_at": "2026-11-21T09:15+08:00",
+          "url": "https://www.straitstimes.com/world/europe/mexican-cell-carriers-facing-widespread-outages-users-report"
+        },
+        {
+          "id": "q21_frimpong",
+          "headline": "Funeral held in New York for a 15-year-old Ghanaian boy shot dead on his way to school",
+          "category": "United States",
+          "summary": "Javits Frimpong was shot and killed while walking to school in the Bronx; his death has prompted anger in Ghana and the US and renewed debate about gun violence. At Friday's funeral Mayor Zohran Mamdani said he 'deserved so much better', and his father and civil rights leaders also gave eulogies, the BBC reports.",
+          "source": "BBC / Al Jazeera",
+          "published_at": "2026-11-21T09:19+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/cv8e07825l90o"
+        },
+        {
+          "id": "q21_etsy",
+          "headline": "Etsy says it will revise new terms on AI training after sellers leave the site in protest",
+          "category": "Technology",
+          "summary": "Terms due to take effect on 16 December say Etsy and its partners may use sellers' content to 'develop, train, test and improve' AI tools. Longtime shop owners said this week they had left over the change, calling it exploitative. Etsy said it would revise the wording and would not use content to copy sellers' work, The Straits Times reports.",
+          "source": "The Straits Times",
+          "published_at": "2026-11-21T09:36+08:00",
+          "url": "https://www.straitstimes.com/world/united-states/many-etsy-sellers-close-up-shop-over-sites-new-ai-policy"
+        },
+        {
+          "id": "q21_afcra",
+          "headline": "Explainer: Africa's new credit rating agency plans its first sovereign ratings by the end of March",
+          "category": "Africa",
+          "summary": "The Africa Credit Rating Agency, based in Port Louis, Mauritius, says it is in talks with 15 governments. African governments have long argued that the big international agencies' methods do not reflect the continent's economies, a charge Moody's, S&P and Fitch dispute; a 2023 UN Development Programme study put the cost of subjective ratings to African countries at US$74.5 billion, Al Jazeera reports.",
+          "source": "Al Jazeera",
+          "published_at": "2026-11-21T09:36+08:00",
+          "url": "https://www.aljazeera.com/news/2026/11/21/can-africas-new-credit-rating-agency-change-how-the-continent-is-assessed"
         }
       ]
     },
     "singapore": {
       "label": "Singapore",
-      "ai_summary": "A greater share of each national service cohort will be trained as commanders, Defence Minister Chan Chun Sing said, because the SAF is moving to smaller, more dispersed units even as falling birth rates shrink each intake. Yesterday's supply and enforcement news still stands: Indonesia's piped gas is fully restored, and police have impounded far more deregistered vehicles than usual this year. The courts stayed busy with cases involving children and violence at work. The lighter talk is about places to go, led by free morning cable car rides within Sentosa that start today. For families with sons enlisting in the next few years, leadership training is becoming a more likely part of service, and the CPF top-ups for older Singaporeans remain the money item to watch.",
+      "ai_summary": "Singapore and China expect to conclude more than 20 joint deliverables when Vice-Premier Ding Xuexiang visits this weekend, Prime Minister Lawrence Wong said after meeting Premier Li Qiang. Two consumer notices landed today: Cold Storage pulled a batch of Homegrown apple juice over a toxin finding in Hong Kong, and NEA ordered a Tuas supermarket to stop selling Red Bull drinks without the deposit mark. The gambling regulator is also aware of influencers promoting a Pokemon card site that The Straits Times says breaks remote gambling laws. The lighter talk is about neighbourhood life, led by Joo Chiat's new diagonal crossing. If you have that apple juice at home, check the best-before date, and expect trade headlines from the China meeting over the next two days.",
       "weather": {
-        "forecast": "Thundery Showers",
-        "temp_low": 25,
-        "temp_high": 33,
+        "forecast": "Cloudy",
+        "temp_low": 24,
+        "temp_high": 31,
         "humidity_low": 60,
         "humidity_high": 95,
-        "as_of": "2026-11-21T06:00+08:00",
+        "as_of": "2026-11-21T12:00+08:00",
         "source": "NEA",
         "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
       },
@@ -721,6 +775,33 @@
       },
       "stories": [
         {
+          "id": "q21_jcbc",
+          "headline": "PM Wong: Singapore and China set to conclude more than 20 deliverables at this weekend's top-level bilateral meeting",
+          "category": "Foreign Relations",
+          "summary": "Prime Minister Lawrence Wong said during a meeting with Chinese Premier Li Qiang on Saturday that the deliverables are expected to span trade, digitalisation and financial integration, CNA reports. Chinese Vice-Premier Ding Xuexiang will be in Singapore on 22 and 23 November to co-chair the 22nd Joint Council for Bilateral Cooperation with Deputy Prime Minister Gan Kim Yong, the Prime Minister's Office said; they will review the Suzhou, Tianjin and Chongqing government-to-government projects, and Mr Ding will call on Mr Wong and Senior Minister Lee Hsien Loong, The Straits Times reports. The meeting follows Friday's launch of talks to upgrade the two countries' free trade agreement.",
+          "source": "CNA / The Straits Times",
+          "published_at": "2026-11-21T13:11+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/lawrence-wong-li-qiang-china-jcbc-6571181"
+        },
+        {
+          "id": "q21_juice",
+          "headline": "Cold Storage removes a batch of Homegrown apple juice after Hong Kong finds excess mycotoxin",
+          "category": "Food Safety",
+          "summary": "The Singapore Food Agency said on Saturday that Cold Storage, the importer, voluntarily removed the affected batch of Homegrown 100% Pure NZ Apple Juice and that it has issued a direction to ensure the product is not sold here. Hong Kong's Centre for Food Safety found patulin, a toxin produced by moulds, at 79 micrograms per kg in a one-litre bottle with a best-before date of 11 February 2027; the legal limit there is 50, The Straits Times reports.",
+          "source": "The Straits Times",
+          "published_at": "2026-11-21T14:07+08:00",
+          "url": "https://www.straitstimes.com/singapore/cold-storage-removes-homegrown-brand-apple-juice-after-hk-reports-of-excessive-levels-of-mycotoxins"
+        },
+        {
+          "id": "q21_redbull",
+          "headline": "NEA orders a Tuas supermarket to stop selling Red Bull drinks without the container deposit mark",
+          "category": "Environment",
+          "summary": "The National Environment Agency said on Saturday that Red Bull drinks imported and sold by Sadia Supermarket did not carry the Beverage Container Return Scheme mark, and that the retailer has removed them. Under the scheme, plastic bottles and cans from 150ml to three litres must carry the 10-cent deposit mark from 1 October; smaller retailers could apply for an extension until 31 October. NEA said the matter is specific to this retailer's imports, The Straits Times reports.",
+          "source": "The Straits Times",
+          "published_at": "2026-11-21T13:50+08:00",
+          "url": "https://www.straitstimes.com/singapore/sadia-supermarket-instructed-to-stop-selling-red-bull-drinks-without-return-label-nea"
+        },
+        {
           "id": "p21_ns",
           "headline": "Chan Chun Sing: a greater share of national servicemen will take leadership roles as cohorts shrink",
           "category": "Government",
@@ -739,22 +820,13 @@
           "url": "https://www.channelnewsasia.com/singapore/indonesias-piped-gas-supply-singapore-fully-restored-nov-12-meti-6569076"
         },
         {
-          "id": "k20_cpf",
-          "headline": "More than 782,000 Singaporeans born in 1976 or earlier to get CPF top-ups of up to S$1,500 by 8 Dec",
-          "category": "Policy",
-          "summary": "The Ministry of Manpower and CPF Board said on Friday that the S$1.04 billion top-up, announced in Budget 2026, will be credited automatically. Recipients must be citizens living in Singapore with CPF retirement savings below the 2026 Basic Retirement Sum of S$110,200, live in a home with an annual value of no more than S$31,000 and own no more than one property. Those aged 55 and above receive it in their Retirement Account and younger recipients in their Special Account.",
-          "source": "CNA / The Straits Times / Mothership",
-          "published_at": "2026-11-20T11:54+08:00",
-          "url": "https://www.channelnewsasia.com/singapore/cpf-top-up-seniors-retirement-savings-6568136"
-        },
-        {
-          "id": "k20_fta",
-          "headline": "Singapore and China launch talks to upgrade their free trade agreement after PM Wong meets Xi Jinping",
-          "category": "Foreign Relations",
-          "summary": "Prime Minister Lawrence Wong met President Xi in Shenzhen on Friday after the APEC leaders' meeting. Mr Wong said the upgrade would cover new areas such as the digital economy and cross-border data flows; the Ministry of Foreign Affairs said the talks would also cover government procurement and co-operation on artificial intelligence. The two leaders discussed emerging technologies, CNA reports.",
-          "source": "CNA",
-          "published_at": "2026-11-20T12:50+08:00",
-          "url": "https://www.channelnewsasia.com/singapore/china-lawrence-wong-xi-jinping-free-trade-agreement-6568266"
+          "id": "q21_oripas",
+          "headline": "Gambling regulator aware of Singapore influencers promoting a Pokemon card site with mystery-pack mechanics",
+          "category": "Courts & Crime",
+          "summary": "The Straits Times reports that at least 10 content creators have posted videos since September promoting a Malaysia-based site that sells virtual 'Oripas' blind packs, which the paper says breach Singapore's remote gambling laws; it is not naming the operator. Packs cost between 100 and 1,200 credits at S$1 a credit. The Ministry of Home Affairs has previously said people who sell Oripas may be committing gambling offences.",
+          "source": "The Straits Times",
+          "published_at": "2026-11-21T10:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/courts-crime/gambling-authority-aware-of-spore-influencers-promoting-oripas-site-linked-to-pokemon-cards"
         },
         {
           "id": "n20_dereg",
@@ -775,15 +847,6 @@
           "url": "https://www.straitstimes.com/singapore/housing/bca-rolls-out-new-escalator-safety-guide-as-accident-rates-stay-high"
         },
         {
-          "id": "k20_tuas",
-          "headline": "Work begins on Tuas Port's largest phase, with the first berths due in 2028",
-          "category": "Transport",
-          "summary": "The phase covers nearly 400 hectares of reclaimed land with 8.6km of wharf and water 23m deep, PSA said. Transport Minister Jeffrey Siow said that when the port is completed in the 2040s it will have 66 berths able to handle the equivalent of 65 million twenty-foot containers a year and will house all of Singapore's container operations. Tuas currently has 15 berths in operation, CNA and The Straits Times report.",
-          "source": "CNA / The Straits Times",
-          "published_at": "2026-11-20T12:30+08:00",
-          "url": "https://www.channelnewsasia.com/singapore/tuas-port-groundbreaking-largest-jeffrey-siow-psa-6564791"
-        },
-        {
           "id": "n20_gracefu",
           "headline": "Grace Fu: how far Singapore can cut emissions depends on global progress",
           "category": "Climate",
@@ -791,24 +854,6 @@
           "source": "The Straits Times",
           "published_at": "2026-11-20T20:00+08:00",
           "url": "https://www.straitstimes.com/world/slowed-momentum-on-climate-action-will-influence-how-far-spore-can-go-to-decarbonise-grace-fu"
-        },
-        {
-          "id": "k20_energy",
-          "headline": "Tan See Leng: energy ties with neighbours are 'not a zero-sum game', and an ASEAN power grid could draw trillions in investment",
-          "category": "Policy",
-          "summary": "In an interview given on 13 Nov and published on Friday, the minister said Singapore works with neighbouring governments so that energy is allocated for their own use before export. He said a regional grid could attract 'hundreds of billions, if not at least a couple of trillions' of investment, a case Singapore plans to make as ASEAN chair in 2027, and that diversifying fuel sources and suppliers is critical. Mothership notes that natural gas generates about 95% of Singapore's electricity.",
-          "source": "CNA / The Straits Times / Mothership",
-          "published_at": "2026-11-20T12:00+08:00",
-          "url": "https://www.channelnewsasia.com/singapore/asean-energy-resilience-trade-tan-see-leng-6564481"
-        },
-        {
-          "id": "k20_cte",
-          "headline": "CTE Exit 8A to the Tuas-bound PIE to close from midnight to 5am on six days in November and December",
-          "category": "Transport",
-          "summary": "The Urban Redevelopment Authority said the closures are for work on a pedestrian and cycling link across the PIE between Potong Pasir and Bendemeer, part of the Bishan-to-City Links project. Motorists should use Exit 7C and reach the PIE via Moulmein Road and Thomson Road, The Straits Times reports; the article lists the dates.",
-          "source": "The Straits Times",
-          "published_at": "2026-11-20T12:10+08:00",
-          "url": "https://www.straitstimes.com/singapore/cte-exit-to-temporarily-close-on-six-days-in-nov-and-dec-for-new-cycling-link-works"
         },
         {
           "id": "n20_govtech",
@@ -845,15 +890,6 @@
           "source": "The Straits Times",
           "published_at": "2026-11-20T16:50+08:00",
           "url": "https://www.straitstimes.com/tech/mistral-expands-singapore-ai-operations-with-science-hub-to-tap-demand-in-key-sectors"
-        },
-        {
-          "id": "k20_kla",
-          "headline": "US chip equipment maker KLA opens a 210,000 sq ft expansion in Ang Mo Kio, with at least 400 new jobs expected",
-          "category": "Business",
-          "summary": "The company said the addition makes Ang Mo Kio its largest manufacturing site worldwide. Deputy Prime Minister Gan Kim Yong, speaking at the launch on Friday, said Singapore must keep building the specialised capabilities that companies need, CNA reports. The new roles include mechanical design engineering and materials evaluation.",
-          "source": "CNA",
-          "published_at": "2026-11-20T13:21+08:00",
-          "url": "https://www.channelnewsasia.com/singapore/kla-semiconductor-equipment-manufacturing-chips-6568311"
         },
         {
           "id": "n20_su",
@@ -908,87 +944,6 @@
           "source": "Mothership",
           "published_at": "2026-11-20T15:20+08:00",
           "url": "https://mothership.sg/2026/11/woman-rubbish-chute-fires-punggol-same-person/"
-        },
-        {
-          "id": "j20_nail",
-          "headline": "Man, 60, charged with hurting a woman in an attempted robbery in Woodlands using a nail clipper's file",
-          "category": "Courts & Crime",
-          "summary": "Toa Sim Ho, a 60-year-old Malaysian, was charged on Friday with voluntarily causing hurt in a robbery attempt, The Straits Times reports. He is accused of holding on to a 29-year-old woman near a ground-floor lift lobby at Block 342 Woodlands Avenue 1 at about 5.30pm on 18 Nov and pointing the extended nail file at her chest while demanding money. Police said earlier that the two know each other and that he was arrested the same day.",
-          "source": "The Straits Times",
-          "published_at": "2026-11-20T11:42+08:00",
-          "url": "https://www.straitstimes.com/singapore/courts-crime/man-accused-of-hurting-woman-in-robbery-attempt-with-nail-clipper-knife-charged"
-        },
-        {
-          "id": "k20_rape",
-          "headline": "Man jailed 11 years and nine months and given 12 strokes of the cane for raping his 17-year-old stepdaughter",
-          "category": "Courts & Crime",
-          "summary": "He pleaded guilty in the High Court on Friday to one charge of rape, with a second charge taken into consideration, CNA reports. The prosecution said the victim delayed reporting because her step-siblings depended on him financially. He cannot be named, to protect her identity.",
-          "source": "CNA",
-          "published_at": "2026-11-20T11:51+08:00",
-          "url": "https://www.channelnewsasia.com/singapore/stepfather-rape-teen-stepdaughter-delay-police-report-financial-dependence-6568166"
-        },
-        {
-          "id": "k20_hougang",
-          "headline": "Man, 38, charged with attempted robbery causing grievous hurt at a Hougang home",
-          "category": "Courts & Crime",
-          "summary": "The man is accused of choking a 44-year-old woman at a private house near Kovan at about 2.20am on 17 Nov while trying to rob her of S$590,000 in cash, Mothership reports; he was charged on 18 Nov. Mothership, citing Shin Min Daily News, says the two are believed to know each other. The allegations have not been tested in court.",
-          "source": "Mothership",
-          "published_at": "2026-11-20T13:31+08:00",
-          "url": "https://mothership.sg/2026/11/man-choke-woman-rob-hougang/"
-        },
-        {
-          "id": "k20_ipoh",
-          "headline": "Singaporean, 29, charged in Malaysia with trafficking about 19kg of cannabis at Ipoh airport",
-          "category": "Courts & Crime",
-          "summary": "The man was charged on 19 Nov over cannabis allegedly found in his luggage at Sultan Azlan Shah Airport on 8 Nov, Mothership reports, citing Malaysian news agency Bernama. No plea was recorded because the case falls under the High Court. The charge is punishable by death or life imprisonment, and if the death penalty is not imposed the offender faces at least 12 strokes of the cane, Mothership reports.",
-          "source": "Mothership (Bernama)",
-          "published_at": "2026-11-20T10:37+08:00",
-          "url": "https://mothership.sg/2026/11/singaporean-man-cannabis-ipoh-airport/"
-        },
-        {
-          "id": "k20_amk",
-          "headline": "Woman taken to hospital after a car overturns in a two-car accident in Ang Mo Kio",
-          "category": "Incidents",
-          "summary": "Police and SCDF were alerted at about 9.15am on Friday to the accident on Ang Mo Kio Avenue 5 towards Buangkok Green. The 55-year-old driver was conscious when taken to Khoo Teck Puat Hospital; the other driver, 65, is assisting with investigations, The Straits Times reports.",
-          "source": "The Straits Times",
-          "published_at": "2026-11-20T13:10+08:00",
-          "url": "https://www.straitstimes.com/singapore/car-lands-upside-down-after-accident-in-ang-mo-kio-woman-taken-to-hospital"
-        },
-        {
-          "id": "k20_mosque",
-          "headline": "Design unveiled for a 4,000-capacity mosque in Tampines North with a 'bamboo lamp' minaret and roof terrace",
-          "category": "Community",
-          "summary": "Acting Minister-in-charge of Muslim Affairs Zaqy Mohamad presented the design on Friday. MUIS gathered views from about 700 people between September 2025 and February 2026, and the mosque at Tampines North Drive 5 will have barrier-free access and lifts, Mothership reports.",
-          "source": "Mothership",
-          "published_at": "2026-11-20T14:04+08:00",
-          "url": "https://mothership.sg/2026/11/new-4000-capacity-mosque-in-tampines-north-to-feature-bamboo-lamp-minaret-roof-terrace/"
-        },
-        {
-          "id": "k20_doulos",
-          "headline": "Floating book fair Doulos Hope returns to VivoCity from 24 Nov to 13 Dec; entry is free but must be booked",
-          "category": "Trending",
-          "summary": "The ship, run by non-profit GBA Ships, will carry more than 2,000 titles and is back in Singapore after about two years, CNA reports. Children need their own tickets and must be accompanied by an adult.",
-          "source": "CNA",
-          "published_at": "2026-11-20T10:32+08:00",
-          "url": "https://www.channelnewsasia.com/living/doulos-hope-singapore-2026-6567971"
-        },
-        {
-          "id": "k20_hawker",
-          "headline": "Former SIA stewardess to close her Woodlands teppanyaki hawker stall in January after two years of poor sales",
-          "category": "Trending",
-          "summary": "Cherry Tan said in an Instagram video on 17 Nov that the Kiang Kiang Taiwan Teppanyaki stall at Block 325 Woodlands Street 32 has taken S$300 to S$400 a day since February 2025. Her Bedok North outlet remains open but is barely breaking even, Mothership reports.",
-          "source": "Mothership",
-          "published_at": "2026-11-20T11:11+08:00",
-          "url": "https://mothership.sg/2026/11/ex-sia-stewardess-closes-hawker/"
-        },
-        {
-          "id": "k20_seatrium",
-          "headline": "Seatrium yards in Singapore and Batam are building 30,000-tonne offshore platforms for North Sea wind farms",
-          "category": "Business",
-          "summary": "A CNA feature reports that the converter platforms are being built for Dutch grid operator TenneT, and that each will carry enough wind power for about 1.5 million homes once installed.",
-          "source": "CNA",
-          "published_at": "2026-11-20T12:07+08:00",
-          "url": "https://www.channelnewsasia.com/singapore/wind-renewable-power-electricity-europe-seatrium-6568211"
         },
         {
           "id": "n20_cckfire",
@@ -1097,16 +1052,52 @@
           "source": "Mothership",
           "published_at": "2026-11-21T03:59+08:00",
           "url": "https://mothership.sg/2026/11/kylin-villa-history/"
+        },
+        {
+          "id": "q21_joochiat",
+          "headline": "Joo Chiat's diagonal 'scramble' crossing gets a positive early reception from residents and businesses",
+          "category": "Transport",
+          "summary": "The three-month trial at the junction of Joo Chiat Road and East Coast Road began on 16 November: all vehicle lights turn red together so pedestrians can cross in every direction, including diagonally. MP Goh Pei Ming said early indications were encouraging and that motorists and residents were still adapting. The Straits Times timed the pedestrian green light at 35 seconds, with about two minutes between changes.",
+          "source": "The Straits Times",
+          "published_at": "2026-11-21T10:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/transport/joo-chiats-shibuya-style-scramble-crossing-welcomed-by-residents-and-businesses"
+        },
+        {
+          "id": "q21_ktph",
+          "headline": "Khoo Teck Puat Hospital says there was no lapse in care after a woman's post about her father's death",
+          "category": "Health",
+          "summary": "In a Facebook post on 17 November a woman questioned how closely her 52-year-old father was monitored before he suffered a cardiac arrest during a stay at the hospital in September; he later died. The hospital said in a statement on 20 November that there was no lapse in the care given and that its staff did their best for the patient, Mothership reports. The family's account has not been independently verified.",
+          "source": "Mothership",
+          "published_at": "2026-11-21T12:23+08:00",
+          "url": "https://mothership.sg/2026/11/spore-woman-ktp-father/"
+        },
+        {
+          "id": "q21_reno",
+          "headline": "Bukit Batok homeowner says a S$64,000 renovation was left unfinished; contractor says work stopped over an unpaid sum",
+          "category": "Consumer",
+          "summary": "A 33-year-old woman told Shin Min Daily News that her four-room flat was left with defects and incomplete work after more than three months, and that she was quoted a further S$10,500. The renovation firm said work was suspended under the agreed payment terms, that the extra sum covered additional requests she had made, and that it remained willing to resolve the dispute, Mothership reports. Both accounts are the parties' own claims.",
+          "source": "Mothership (Shin Min Daily News)",
+          "published_at": "2026-11-21T10:54+08:00",
+          "url": "https://mothership.sg/2026/11/renovation-work-unfinished-70000/"
+        },
+        {
+          "id": "q21_doctor",
+          "headline": "Singapore humanitarian doctor Tam Wai Jia turns to stand-up comedy after a PTSD diagnosis",
+          "category": "Community",
+          "summary": "The Straits Times profiles the 39-year-old, who was diagnosed with complex post-traumatic stress disorder while living in Tanzania and began writing jokes about her life as part of her recovery, later staging a comedy show at her husband's suggestion. The piece is part of a series on people who have rebuilt their lives.",
+          "source": "The Straits Times",
+          "published_at": "2026-11-21T12:00+08:00",
+          "url": "https://www.straitstimes.com/singapore/community/life-after-medicine-very-serious-introvert-spore-doctor-does-comedy-amid-mid-life-pivot"
         }
       ]
     },
     "wars": {
       "label": "Wars & Conflicts",
-      "ai_summary": "Russia kept striking after its mass barrage: officials said a woman and a seven-year-old boy were killed and 42 people injured in Kryvyi Rih on Friday evening, and energy firm DTEK said one of its power plants stopped generating. Against that, Trump said his talks with Putin were 'very good' and the Financial Times reports that Washington wants a deal by early January, a timetable that worries Kyiv. Around Iran the fighting widened at the edges, with a tanker set on fire near the Strait of Hormuz and Saudi Arabia reporting three Houthi missiles shot down over Riyadh. In Gaza, medical sources said Israeli drone strikes killed seven people despite the ceasefire. Watch whether the January deadline talk turns into pressure on Ukraine, and whether the Saudi-Houthi exchange keeps climbing.",
+      "ai_summary": "Russian strikes carried on into Saturday, with the injury count from the attack on Kryvyi Rih rising to 52 and a drone hitting an apartment block near Kharkiv. Ukraine's air force spokesman said Russia now sends up to 200 drones a night and more than 100 by day, and a strike left 50 settlements in the western Rivne region without power. Around Iran, the Saudi-Houthi exchange continued, with the coalition reporting another drone shot down after the missiles aimed at Riyadh. Gaza and Lebanon produced no confirmed new fighting in the feeds read today, though Israeli coalition politics grew more tangled after reports of a private Netanyahu-Bennett meeting. Diplomacy is stalled behind Zelensky's rebuke of Trump for calling Putin a friend, so watch whether Washington's reported January deadline for a deal survives the week.",
       "theatres": [
         {
           "name": "Russia-Ukraine War",
-          "status": "Russia kept striking on 20 Nov after its mass overnight attack: a city official reported two people killed and 42 injured in Kryvyi Rih, and DTEK said one of its thermal power plants stopped generating. Kyiv's mayor raised the capital's toll from the overnight barrage to seven, with two more killed in Lviv. Ukraine's General Staff counted 157 clashes on 20 Nov. Trump said he and Putin held 'very good' talks; the Financial Times reports Washington wants a deal by early January, which has not been officially confirmed. The EU approved a further EUR 1 billion in military aid.",
+          "status": "Russian strikes continued on 21 Nov: the regional head put the Kryvyi Rih toll at two killed and 52 injured, a drone strike injured 11 people near Kharkiv and 50 settlements in Rivne region lost power, according to Ukrainian officials. Ukraine's air force spokesman said Russia is launching up to 200 drones a night. Zelensky told CNN that calling Putin a friend could ease the pressure on him, after Trump said the two had held 'very good' talks. The Financial Times reports that Washington wants a deal by early January, which has not been officially confirmed.",
           "timeline": [
             {
               "date": "2022-02-24",
@@ -8547,12 +8538,60 @@
               "event": "A Russian strike on Kryvyi Rih kills a 20-year-old woman and a seven-year-old boy and injures 42 people, four of them children, as of 23:00, city official Oleksandr Vilkul says; 23 apartment buildings and a hospital are damaged. A drone strike on a Kharkiv suburb injures six.",
               "source": "Ukrinform",
               "url": "https://www.ukrinform.net/rubric-ato/4187003-two-killed-including-child-in-russian-strike-on-kryvyi-rih-injury-toll-rises-to-42.html"
+            },
+            {
+              "date": "2026-11-21",
+              "event": "Dnipropetrovsk regional head Oleksandr Hanzha says the region was attacked nearly 10 times since Friday evening and puts the Kryvyi Rih toll at two killed and 52 injured, 25 of them in hospital in serious condition; three more people were injured in the Obukhivka community and infrastructure in the city of Dnipro was struck.",
+              "source": "Ukrinform",
+              "url": "https://www.ukrinform.net/rubric-ato/4187053-russian-forces-attack-dnipropetrovsk-region-nearly-10-times-since-evening-two-killed-55-injured.html"
+            },
+            {
+              "date": "2026-11-21",
+              "event": "City official Oleksandr Vilkul reports another strike on Kryvyi Rih, saying a jet-powered Shahed drone hit an industrial facility and started a fire.",
+              "source": "Ukrinform",
+              "url": "https://www.ukrinform.net/rubric-ato/4187031-russia-launches-another-attack-on-kryvyi-rih-fire-breaks-out-at-industrial-facility.html"
+            },
+            {
+              "date": "2026-11-21",
+              "event": "Ukraine's State Emergency Service says 11 people, two of them children, were injured when a strike drone hit a five-storey residential building in Solonytsivka in Kharkiv region.",
+              "source": "Ukrinform",
+              "url": "https://www.ukrinform.net/rubric-ato/4187050-injury-toll-after-russian-attacks-in-kharkiv-region-rises-to-11-including-two-children.html"
+            },
+            {
+              "date": "2026-11-21",
+              "event": "Rivne regional head Oleksandr Koval says 50 settlements in Sarny district are without electricity after a Russian attack and that continuous air raid alerts are delaying repairs.",
+              "source": "Ukrinform",
+              "url": "https://www.ukrinform.net/rubric-ato/4187034-more-than-50-settlements-without-electricity-in-sarny-district-following-russian-attack.html"
+            },
+            {
+              "date": "2026-11-21",
+              "event": "A kindergarten in Zaporizhzhia is hit and a 63-year-old man injured in a Russian attack that also set fire to a flat in a neighbouring building, regional officials say.",
+              "source": "Ukrinform",
+              "url": "https://www.ukrinform.net/rubric-ato/4187032-kindergarten-hit-in-russian-attack-on-zaporizhzhia-man-injured.html"
+            },
+            {
+              "date": "2026-11-21",
+              "event": "Air force spokesman Yurii Ihnat says Russia is launching up to 200 attack drones each night and more than 100 during the day, many of them jet-powered.",
+              "source": "Ukrinform",
+              "url": "https://www.ukrinform.net/rubric-ato/4186874-russia-launches-up-to-200-attack-drones-nightly-and-more-than-100-during-the-day-ihnat.html"
+            },
+            {
+              "date": "2026-11-21",
+              "event": "Ukrainian Navy spokesman Dmytro Pletenchuk says Russia is unlikely to put heavier loads on the Kerch Bridge even if it carries out repairs, and that debris from the collapsed road section is still blocking the Kerch-Yenikale shipping channel. This is Ukraine's assessment and is not independently confirmed.",
+              "source": "Ukrinform",
+              "url": "https://www.ukrinform.net/rubric-ato/4187033-russia-unlikely-to-increase-traffic-on-kerch-bridge-even-after-repairs-pletenchuk.html"
+            },
+            {
+              "date": "2026-11-21",
+              "event": "Zelensky tells CNN that calling Putin a friend could make the Russian leader feel less pressure and less accountable; he says Trump is free to describe Putin as he wishes but that to Ukraine he is 'an enemy' and 'a killer'.",
+              "source": "Ukrinform / BBC",
+              "url": "https://www.ukrinform.net/rubric-polytics/4187030-to-us-he-is-enemy-and-murderer-zelensky-on-putin-whom-trump-called-friend.html"
             }
           ]
         },
         {
           "name": "US/Israel-Iran (Strait of Hormuz)",
-          "status": "On 21 Nov the Saudi-led coalition said it destroyed three Houthi ballistic missiles fired at Riyadh, a day after it struck Hodeidah port and sites in Sanaa. On 20 Nov UKMTO said a tanker caught fire after being hit by an unknown projectile near the Strait of Hormuz; Iran's Revolutionary Guards said it had struck a mine. Iran's foreign minister said messages are still passing through mediators and that Tehran wants a deal, while Trump said Iran's terms were not acceptable to him. Iraqi forces entered Kataeb Hezbollah's Jurf al-Sakher stronghold on 20 Nov under a compromise, AFP reports.",
+          "status": "On 21 Nov the Saudi-led coalition said it destroyed three Houthi ballistic missiles fired at Riyadh and, hours later, a drone fired towards the kingdom's south; Al Jazeera counted eight Saudi public alerts in 24 hours. On 20 Nov UKMTO said a tanker caught fire after being hit by an unknown projectile near the Strait of Hormuz; Iran's Revolutionary Guards said it had struck a mine. Iran's foreign minister said messages are still passing through mediators and that Tehran wants a deal, while Trump said Iran's terms were not acceptable to him.",
           "timeline": [
             {
               "date": "2026-08-16",
@@ -13107,12 +13146,18 @@
               "event": "The Saudi-led coalition says it intercepted and destroyed three Houthi ballistic missiles fired towards Riyadh, the second attack on the Saudi capital in a few days; a Reuters witness reports a projectile and a loud bang over the city.",
               "source": "The Straits Times (Reuters)",
               "url": "https://www.straitstimes.com/world/middle-east/saudi-arabia-says-it-intercepts-three-houthi-missiles-targeting-riyadh"
+            },
+            {
+              "date": "2026-11-21",
+              "event": "Hours after the Riyadh interception, the Saudi-led coalition says it destroyed a Houthi drone fired towards southern Saudi Arabia. Al Jazeera reports that Saudi civil defence issued eight public emergency alerts in the 24 hours from Friday morning and that alerts have been issued for Riyadh three days running.",
+              "source": "Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/11/21/saudi-led-coalition-intercepts-three-houthi-missiles-headed-for-riyadh"
             }
           ]
         },
         {
           "name": "Israel-Gaza & Lebanon",
-          "status": "Medical sources told Al Jazeera that Israeli drone strikes killed seven Palestinians in central Gaza on 20 Nov; the report carried no Israeli military comment on those strikes. Israel said on 19 Nov that its tank operation in central Gaza had ended, and Al Jazeera reports unverified allegations that Israeli-backed local armed groups took part in it. In Israel, Gadi Eisenkot said he would not let coalition talks drag on. No new Lebanon developments were found in the feeds.",
+          "status": "No new strikes in Gaza or Lebanon were reported in the feeds read on 21 Nov. Medical sources told Al Jazeera that Israeli drone strikes killed seven Palestinians in central Gaza on 20 Nov; the report carried no Israeli military comment. In Israel, Al Jazeera, citing Israeli media, reports that Netanyahu held an undeclared meeting with Naftali Bennett that has strained the alliance led by Gadi Eisenkot, who is trying to form a government.",
           "timeline": [
             {
               "date": "2026-08-16",
@@ -15453,6 +15498,12 @@
               "event": "Medical sources tell Al Jazeera that Israeli drone strikes killed seven Palestinians in central Gaza: four in the Bureij camp, one in Nuseirat and two near the entrance to Deir el-Balah. The report includes no Israeli military comment on these strikes.",
               "source": "Al Jazeera",
               "url": "https://www.aljazeera.com/news/2026/11/20/israeli-drone-attacks-kill-seven-palestinians-in-central-gaza"
+            },
+            {
+              "date": "2026-11-21",
+              "event": "Al Jazeera, citing Israeli media, reports that Benjamin Netanyahu held an undeclared two-and-a-half-hour meeting with former prime minister Naftali Bennett on Wednesday, which his office called a 'security briefing'; sources in the alliance led by Gadi Eisenkot called it a 'strategic disaster', and Channel 12 reported that Bennett later argued for exploring a unity government with Netanyahu.",
+              "source": "Al Jazeera (Ynet, Channel 12)",
+              "url": "https://www.aljazeera.com/news/2026/11/21/can-israels-opposition-bloc-stay-united-against-netanyahu"
             }
           ]
         }
@@ -15460,7 +15511,7 @@
     },
     "outbreaks": {
       "label": "Outbreaks",
-      "ai_summary": "WHO's first formal Ebola bulletin in two weeks shows DR Congo's outbreak still adding roughly 1,400 confirmed cases every three weeks, with numbers falling in Ituri but rising in Nord Kivu. The new official count is higher than the government figures reported last week, so the gap between the two has closed for now. Outside DR Congo the picture is calmer: Kenya and Nigeria are counting down to being declared free of the virus, and patients evacuated to Europe have recovered. In the United States the CDC's weekly measles count rose again and now stands well above the figure reported a week ago. For travellers, Ebola risk remains concentrated in eastern DR Congo, and measles vaccination is worth checking before any trip to the Americas.",
+      "ai_summary": "DR Congo's Ebola outbreak is still adding roughly 1,400 confirmed cases every three weeks, according to the WHO bulletin published on Friday, and nothing newer has appeared since. The pattern inside the country is shifting rather than easing, with numbers falling in Ituri but rising in Nord Kivu. Elsewhere the Ebola picture is calmer, as Kenya and Nigeria count down to being declared free of the virus. In the United States the CDC's weekly measles count rose again and the country has lost its elimination status. For travellers, Ebola risk remains concentrated in eastern DR Congo, and measles vaccination is worth checking before any trip to the Americas.",
       "outbreaks": [
         {
           "name": "DR Congo - Ebola (Bundibugyo virus)",
@@ -15684,8 +15735,20 @@
     },
     "cybersecurity": {
       "label": "CyberSecurity",
-      "ai_summary": "CISA added four more flaws to its exploited list on Friday, among them the VMware vCenter bypass and a critical Cisco Expressway bug, which now belong at the top of the patch queue. The newer theme is AI in attackers' hands: Amazon says intruders used an autonomous tool to find and exploit an unknown flaw in medical imaging software, and Bell Canada blamed an 'agentic' intruder for a theft of business customer data. WhatsApp fixed three bugs, one of which may have been abused in spam, so update the app. Breach notices kept coming, from banks' marketing data to Austria's foreign ministry. If you run anything on the exploited list, treat this weekend as your patch window.",
+      "ai_summary": "CNN reports that the FBI is investigating a suspected breach of the national crime database that police forces across the US rely on, which would be the second FBI system intrusion in months if confirmed. For anyone running servers, the priority has not changed since Friday, when CISA added the VMware vCenter bypass and a critical Cisco Expressway bug to its exploited list. Neither The Hacker News nor BleepingComputer has published a new flaw or patch since the early hours, so the list of fixes to apply is the same as this morning's. AI-assisted intrusions remain the newer theme, with Amazon and Bell Canada both describing attackers using autonomous tools. Use the quiet weekend to clear the exploited-list patches, and update WhatsApp if you have not.",
       "stories": [
+        {
+          "id": "q21_fbi_c",
+          "headline": "FBI investigating a suspected breach of its National Crime Information Center database, CNN reports",
+          "category": "Breach",
+          "summary": "CNN, citing two people briefed on the investigation, reported on Friday that the FBI is looking into a suspected compromise of the database that law enforcement agencies across the US use to share warrants, criminal histories and background checks. No attacker, method or scale has been reported and the FBI did not respond to a Reuters request for comment, so treat this as unconfirmed. A September breach by the extortion group ShinyHunters accessed an FBI jobs website, The Straits Times reports, citing Reuters.",
+          "source": "The Straits Times (Reuters, citing CNN)",
+          "published_at": "2026-11-21T12:05+08:00",
+          "url": "https://www.straitstimes.com/world/united-states/fbis-criminal-information-database-hacked-cnn-reports",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH"
+        },
         {
           "id": "p21_austria",
           "headline": "Austria's foreign ministry says its website was hacked and staff contact details were viewed",
@@ -16045,42 +16108,6 @@
           "cve": "CVE-2026-115731",
           "cvss": 9.4,
           "severity": "CRITICAL"
-        },
-        {
-          "id": "f18_agentfw",
-          "headline": "Malicious versions of Microsoft's agent-framework Python package stole cloud credentials",
-          "category": "Supply chain",
-          "summary": "Versions 1.26.1 and 1.26.2 of the PyPI meta-package for Microsoft Agent Framework, published 33 minutes apart on 17 Nov, installed a startup hook that runs a credential stealer every time Python starts, according to Socket, Endor Labs, Wiz and other firms cited by The Hacker News. It collects credentials, environment data and cloud identity tokens and can request fresh tokens in CI pipelines, so rotating stored secrets may not be enough. Both versions have been quarantined; how the attacker gained publishing access is not known. Anyone who installed either version should treat that environment's credentials as compromised. BleepingComputer adds that the clean release to roll back to is 1.26.0.",
-          "source": "The Hacker News / BleepingComputer",
-          "published_at": "2026-11-18T14:45+08:00",
-          "url": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
-          "cve": null,
-          "cvss": null,
-          "severity": "HIGH"
-        },
-        {
-          "id": "e18_coldrelic",
-          "headline": "Google: Russia-linked Cold Relic used data stolen from one US organisation's cloud account to breach a second",
-          "category": "Threat campaign",
-          "summary": "Google's Mandiant and threat intelligence teams say the espionage group, formerly tracked as COLDRIVER and also known as Star Blizzard, compromised a US organisation's cloud productivity environment in late 2025 using stolen Super Admin credentials and repeated MFA push prompts that the victim eventually accepted. It then registered its own device, passkeys and backup codes to keep access, downloaded the organisation's entire cloud storage drive, and used the staff directory and stolen identities to break into a separate US organisation in 2026. Neither victim is named. The practical lessons are phishing-resistant MFA for administrator accounts and audits of newly registered devices and passkeys.",
-          "source": "The Hacker News (Google)",
-          "published_at": "2026-11-18T13:58+08:00",
-          "url": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
-          "cve": null,
-          "cvss": null,
-          "severity": "HIGH"
-        },
-        {
-          "id": "d18_java4shell",
-          "headline": "'Java4Shell': US and South Korean authorities urge urgent Java patching as Oracle and OpenJDK fix a pre-authentication code execution flaw",
-          "category": "Vulnerability",
-          "summary": "CVE-2026-114938 is a memory-corruption bug in Java's hardware-accelerated Base64 decoder. Researchers at Calif say it allows code execution without a login under the default settings of Keycloak, Jira, Confluence, Artifactory, Jenkins and PingFederate, and with a login on several other server products. It affects Java 17.0.6 and later, only on x86-64 Intel and AMD processors with AVX-512 VBMI. Oracle and the OpenJDK project have released fixes and Amazon has patched Corretto; The Hacker News says Red Hat's fixes are still being prepared. Oracle rates it 8.1 (CVSS 3.1, the score NVD lists) and Calif 9.2 (CVSS 4.0). Calif is withholding its exploit code, other labs have so far reproduced only crashes and a memory leak, and Canada's Cyber Centre said it knew of no attacks. CNA reports that CISA called for immediate patching and that South Korea's presidential office held an emergency meeting. Where patching must wait, Calif suggests running with -XX:-UseBASE64Intrinsics or -XX:UseAVX=2.",
-          "source": "The Hacker News / BleepingComputer / CNA (Reuters)",
-          "published_at": "2026-11-18T12:27+08:00",
-          "url": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
-          "cve": "CVE-2026-114938",
-          "cvss": 8.1,
-          "severity": "HIGH"
         }
       ]
     }
