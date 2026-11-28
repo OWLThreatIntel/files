@@ -1,0 +1,812 @@
+{
+ "meta": {
+  "date": "2026-08-10",
+  "generated_at": "2026-08-10T21:13:22+08:00",
+  "edition": "Daily News Briefing",
+  "sources": [
+   "BBC News",
+   "CNA",
+   "The Straits Times",
+   "Mothership",
+   "NEA (data.gov.sg)",
+   "LTA (data.gov.sg)",
+   "WHO Disease Outbreak News",
+   "ECDC",
+   "US CDC",
+   "CIDRAP",
+   "US FDA",
+   "CISA KEV",
+   "NVD",
+   "The Hacker News",
+   "BleepingComputer"
+  ]
+ },
+ "sections": {
+  "top_stories": {
+   "label": "Top Stories",
+   "ai_summary": "Ukrainian drones struck deep inside Russia's Tatarstan region, and Russian officials say 13 people were killed at Nizhnekamsk — one of the deadliest attacks on Russian soil since the full-scale invasion began. Diplomacy went backwards in the Middle East: Netanyahu formally rejected Trump's 15-point Gaza plan, while Iran's Revolutionary Guards said the Strait of Hormuz stays shut until Washington meets Tehran's terms. Extreme weather was the day's other thread, from Typhoon Dolphin forcing more than a million evacuations in eastern China to a fifth heatwave building across Europe after its hottest June–July on record. With both peace tracks stalled and oil still bottled up at Hormuz, energy and shipping costs stay the thing to watch this week.",
+   "stories": [
+    {
+     "id": "ts1",
+     "headline": "At least 13 killed in Ukrainian drone strike on Russia's Nizhnekamsk, officials say",
+     "category": "Wars & Conflicts",
+     "summary": "Russian officials say at least 13 people, including a child, were killed and dozens injured in a Ukrainian drone attack on industrial and civilian targets in Nizhnekamsk, in Tatarstan, about 1,000km from the front line. Injury figures reported by officials vary — BBC cites 75 injured, wire copy carried by The Straits Times cites 39. It is described as one of the heaviest civilian tolls inside Russia in months. Ukraine's general staff has said its drones struck refinery complexes in the city; it has not commented on the civilian casualties.",
+     "source": "BBC News; The Straits Times",
+     "published_at": "2026-08-10T20:54+08:00",
+     "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po"
+    },
+    {
+     "id": "ts2",
+     "headline": "Netanyahu says Israel rejects Trump's 15-point Gaza plan",
+     "category": "World Politics",
+     "summary": "Prime Minister Benjamin Netanyahu told a cabinet meeting that Israel rejects the US-drafted 15-point document, saying its military will not withdraw from Gaza until Hamas is \"genuinely\" disarmed. It is a public break with Washington on a plan the US had been pressing. The head of the US-backed Board of Peace has since said the rejected plan remains \"the only way forward\"; Hamas says it remains ready to proceed.",
+     "source": "BBC News; The Straits Times",
+     "published_at": "2026-08-10T05:25+08:00",
+     "url": "https://www.bbc.co.uk/news/articles/c5yw4lpe0yeo"
+    },
+    {
+     "id": "ts3",
+     "headline": "Iran's Revolutionary Guards say Hormuz stays shut until US meets Tehran's demands",
+     "category": "Geopolitics",
+     "summary": "Iran's Revolutionary Guards said the Strait of Hormuz will not reopen unless Washington meets Tehran's conditions, which Iranian officials say include compensation. Foreign Minister Abbas Araghchi has separately described a deal with Oman on alternative shipping lanes as being in its final stages. Around a fifth of the world's oil and gas normally moves through the strait, which has been effectively blockaded since the US operation against Iran began in February.",
+     "source": "CNA; The Straits Times",
+     "published_at": "2026-08-10T05:57+08:00",
+     "url": "https://www.channelnewsasia.com/world/us-iran-hormuz-reopening-demands-6308791"
+    },
+    {
+     "id": "ts4",
+     "headline": "Typhoon Dolphin makes landfall in eastern China after more than a million evacuations",
+     "category": "Weather & Disasters",
+     "summary": "Typhoon Dolphin came ashore on China's eastern coast, bringing strong winds and heavy rain across a region that includes Shanghai. Chinese authorities evacuated more than a million people and over 1,000 flights were cancelled after a top-level alert was issued over the weekend. The storm has since weakened as it moves inland, but travel disruption continues; Singapore Airlines was among carriers cancelling Singapore–Shanghai flights.",
+     "source": "BBC News; CNA",
+     "published_at": "2026-08-10T15:23+08:00",
+     "url": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o"
+    },
+    {
+     "id": "ts5",
+     "headline": "World's oceans recorded their hottest July on record",
+     "category": "Climate",
+     "summary": "Global ocean temperatures hit a record high for the month of July, according to monitoring data reported by the BBC, partly fuelled by developing El Niño conditions. The finding lands in the same week the EU's Copernicus monitor said western Europe had its hottest June–July on record, with wildfires burning in Spain, France, Greece and Canada.",
+     "source": "BBC News",
+     "published_at": "2026-08-10T18:24+08:00",
+     "url": "https://www.bbc.co.uk/news/articles/cpvw8vmmgrwo"
+    },
+    {
+     "id": "ts6",
+     "headline": "Europe braces for a fifth heatwave that could strain rivers, power and crops",
+     "category": "Climate",
+     "summary": "Forecasters expect temperatures in the mid-30s and up to 40°C across much of Europe in the coming days, in what would be the continent's fifth heatwave of the summer. The concern is compounding: low river levels affect cooling water for power stations and inland shipping, while crops are already stressed after the hottest June–July on record in western Europe, per the EU's Copernicus monitor.",
+     "source": "The Straits Times",
+     "published_at": "2026-08-10T20:28+08:00",
+     "url": "https://www.straitstimes.com/world/europe/europes-fifth-heatwave-risks-straining-rivers-power-and-crops"
+    },
+    {
+     "id": "ts7",
+     "headline": "Former Thai MP shoots dead local official, then confesses on a YouTube livestream",
+     "category": "Asia",
+     "summary": "Thai police say former lawmaker Chalong Riewrang fatally shot the chairman of the Provincial Administrative Organization in Nonthaburi, which borders Bangkok, in what they describe as a dispute over borrowed money. He then appeared on a YouTube livestream saying he had shot a government official.",
+     "source": "BBC News; CNA",
+     "published_at": "2026-08-10T17:51+08:00",
+     "url": "https://www.bbc.co.uk/news/articles/cqx7lje8l79o"
+    },
+    {
+     "id": "ts8",
+     "headline": "Alleged rebel leader killed in Colombia as new president targets armed groups",
+     "category": "World Politics",
+     "summary": "Colombia's military says it killed Hernando Forero Mosquera, described as the leader of an armed group, in an operation carried out days after the country's new president was sworn in. The strike is an early signal of how the incoming government intends to deal with Colombia's remaining armed groups.",
+     "source": "BBC News",
+     "published_at": "2026-08-10T20:23+08:00",
+     "url": "https://www.bbc.co.uk/news/articles/c5yrljp9x9eo"
+    },
+    {
+     "id": "ts9",
+     "headline": "Mali army says dozens of militants killed in battle for garrison, disputes claim it fell",
+     "category": "Africa",
+     "summary": "Mali's army says it killed dozens of militants in fierce fighting over a military base, and rejects claims by Islamist fighters that they had taken control of the garrison. The competing accounts have not been independently verified.",
+     "source": "BBC News",
+     "published_at": "2026-08-10T20:32+08:00",
+     "url": "https://www.bbc.co.uk/news/articles/cly8j7ygwvlo"
+    },
+    {
+     "id": "ts10",
+     "headline": "Indian police fire tear gas at students demanding exam reforms in Jharkhand",
+     "category": "Asia",
+     "summary": "Police used tear gas against thousands of students and job seekers who gathered in India's Jharkhand state to demand changes to public examinations. The protests follow the \"cockroach\" demonstrations in Delhi weeks earlier, and are part of a wider wave of anger over recruitment exams.",
+     "source": "BBC News; CNA",
+     "published_at": "2026-08-10T18:41+08:00",
+     "url": "https://www.bbc.co.uk/news/articles/c89nkz4vjyxo"
+    },
+    {
+     "id": "ts11",
+     "headline": "Syria says it has reached a deal with Moscow on the fate of Russian bases",
+     "category": "Geopolitics",
+     "summary": "Syria's government says it has agreed terms with Russia over the Tartous and Hmeimim facilities after about 18 months of talks, with Damascus taking over management of civilian facilities and integrating them gradually into civilian administration. Moscow has not published its own account of the terms.",
+     "source": "CNA; The Straits Times",
+     "published_at": "2026-08-09T23:40+08:00",
+     "url": "https://www.channelnewsasia.com/world/syria-russia-military-bases-agreement-6308561"
+    },
+    {
+     "id": "ts12",
+     "headline": "Yemeni military says Houthi attack on Mocha killed 7 and wounded 30",
+     "category": "Wars & Conflicts",
+     "summary": "Yemen's internationally recognised military says seven people, including military personnel and civilians, were killed and 30 wounded in a Houthi attack on the Red Sea port city of Mocha that hit civilian infrastructure and armed forces. The Houthis have not commented on this specific account; the group has been widening its attacks since Saudi Arabia signed a defence pact last week.",
+     "source": "The Straits Times",
+     "published_at": "2026-08-10T09:59+08:00",
+     "url": "https://www.straitstimes.com/world/middle-east/yemeni-military-says-houthi-attack-on-mocha-kills-7-wounds-30"
+    },
+    {
+     "id": "ts13",
+     "headline": "Iran appoints hardliner Mohsen Rezaei to head its top security body",
+     "category": "World Politics",
+     "summary": "Iran has named Mohsen Rezaei, a former Revolutionary Guards commander, as secretary of the Supreme National Security Council. He is described as a more outspoken public figure than his predecessor — a notable change while Tehran is negotiating over the Strait of Hormuz.",
+     "source": "The Straits Times",
+     "published_at": "2026-08-10T16:04+08:00",
+     "url": "https://www.straitstimes.com/world/middle-east/mohsen-rezaei-appointed-as-secretary-of-irans-top-security-body"
+    },
+    {
+     "id": "ts14",
+     "headline": "Myanmar floods affect at least 30,000 as conflict and crop losses threaten food security",
+     "category": "Asia",
+     "summary": "At least 30,000 people have been affected by flooding in Myanmar's Ayeyarwady region, CNA reports, centred on Lemyethna township where the Ngawun River embankment was breached on the night of 30 July. Rice-growing land was inundated, adding crop losses to a food-security picture already strained by the country's conflict.",
+     "source": "CNA",
+     "published_at": "2026-08-10T11:15+08:00",
+     "url": "https://www.channelnewsasia.com/asia/myanmar-ayeyarwady-flood-conflict-rice-food-security-6309056"
+    },
+    {
+     "id": "ts15",
+     "headline": "Alleged Irish crime boss Daniel Kinahan charged in Dublin after extradition",
+     "category": "World News",
+     "summary": "Daniel Kinahan has been charged with directing a criminal organisation after being extradited from the United Arab Emirates, and spent his first night in custody in Ireland. The case concerns one of the most-wanted figures in European organised crime.",
+     "source": "CNA; BBC News",
+     "published_at": "2026-08-10T06:13+08:00",
+     "url": "https://www.channelnewsasia.com/world/irish-daniel-kinahan-crime-kingpin-charged-6308821"
+    },
+    {
+     "id": "ts16",
+     "headline": "UEFA, AFC and CONCACAF publicly rebuke Infantino over abandoned World Cup stake sale",
+     "category": "Sport & Business",
+     "summary": "Three of FIFA's confederations signed an open letter criticising president Gianni Infantino over his proposal — later dropped — to sell 20 per cent of the World Cup's commercial rights to private investors for about US$4.2 billion. The rebuke is an unusually open revolt inside football's governing structure.",
+     "source": "CNA",
+     "published_at": "2026-08-10T17:43+08:00",
+     "url": "https://www.channelnewsasia.com/world/fifa-infantino-world-cup-stake-sale-uefa-afc-open-letter-6309481"
+    },
+    {
+     "id": "ts17",
+     "headline": "Philippines weighs a social media ban for minors after school violence and online extremism",
+     "category": "Asia",
+     "summary": "Philippine lawmakers are considering restricting social media access for minors, prompted by school violence and online radicalisation. Experts quoted by CNA warn a blanket ban could backfire and argue stronger platform safeguards, counselling and parental involvement would work better — an argument now running in several Southeast Asian capitals.",
+     "source": "CNA",
+     "published_at": "2026-08-10T14:25+08:00",
+     "url": "https://www.channelnewsasia.com/asia/philippines-social-media-ban-minor-school-violence-online-extremism-6309211"
+    }
+   ]
+  },
+  "singapore": {
+   "label": "Singapore",
+   "ai_summary": "Police say a 72-year-old Singaporean kidnapped in Malaysia has been rescued in Kedah after his family reported a ransom demand. The bigger day-to-day worry is the weather: NEA expects dry conditions to persist and has flagged haze risk if regional hotspots keep burning. Courts and public safety filled out the rest — a divorce ruling that lifted a wife's share of matrimonial assets after her husband failed to disclose a $1.4 million payout, plus a bystander who disarmed a knife-wielding man in Clementi. The lighter talk skewed to small acts of goodwill, led by a bus captain who paused his route to help put out a car fire. If you are sensitive to haze, this is the week to start checking the PSI before heading out.",
+   "weather": {
+    "forecast": "Partly Cloudy (Day)",
+    "temp_low": 27,
+    "temp_high": 35,
+    "humidity_low": 50,
+    "humidity_high": 85,
+    "as_of": "2026-08-10T18:41+08:00",
+    "source": "NEA",
+    "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+   },
+   "coe": {
+    "exercise": "Aug 2026 · 1st bidding",
+    "as_of": "2026-08-05",
+    "next_results": "2026-08-19",
+    "source": "LTA",
+    "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+    "categories": [
+     {
+      "code": "A",
+      "label": "Cars up to 1600cc & 130bhp",
+      "premium": 123890,
+      "change": -2110
+     },
+     {
+      "code": "B",
+      "label": "Cars above 1600cc or 130bhp",
+      "premium": 129910,
+      "change": 20
+     }
+    ]
+   },
+   "stories": [
+    {
+     "id": "sg1",
+     "headline": "Singaporean, 72, kidnapped in Malaysia rescued in Kedah after ransom demand",
+     "category": "Crime",
+     "summary": "Singapore police say a 72-year-old Singaporean man who was kidnapped in Malaysia is safe after being rescued in Kedah. His family raised the alarm after receiving information that he may have been kidnapped and that a ransom had been demanded for his release. Singapore and Malaysian police worked together on the case.",
+     "source": "The Straits Times; CNA",
+     "published_at": "2026-08-10T19:20+08:00",
+     "url": "https://www.straitstimes.com/singapore/singaporean-kidnapped-in-malaysia-safe-after-rescue-in-kedah-spore-police"
+    },
+    {
+     "id": "sg2",
+     "headline": "Man with knife in Clementi disarmed by member of the public",
+     "category": "Public Safety",
+     "summary": "A member of the public grabbed the knife from a man in Clementi and disarmed him before police arrived, CNA reports. The man was taken to hospital with self-inflicted wounds.",
+     "source": "CNA",
+     "published_at": "2026-08-10T16:41+08:00",
+     "url": "https://www.channelnewsasia.com/singapore/man-knife-clementi-disarmed-member-public-hospital-6309406"
+    },
+    {
+     "id": "sg3",
+     "headline": "NEA flags haze risk as dry weather persists; ST publishes protection guide",
+     "category": "Environment",
+     "summary": "NEA said on 9 August that dry conditions are expected to continue into next week, raising haze risk if hotspots in the region persist, and that the 28-agency Haze Task Force is ready to activate its plans if air quality slips into the unhealthy range. PSI readings reached the moderate range in central Singapore over the weekend. The Straits Times published an explainer today on how worrying the outlook is and how residents can protect themselves.",
+     "source": "The Straits Times; CNA",
+     "published_at": "2026-08-10T18:25+08:00",
+     "url": "https://www.straitstimes.com/singapore/environment/askst-how-worrying-is-spores-haze-outlook-and-how-can-you-protect-yourself"
+    },
+    {
+     "id": "sg4",
+     "headline": "CNA investigation: Singapore-registered firm used fake employees and intelligence-style recruitment",
+     "category": "Investigation",
+     "summary": "A CNA investigation found that a Singapore-registered company called Infoassa used fake employees and recruitment methods that mirror a foreign intelligence playbook. The firm had advertised at least six events at its premises over the past four months; CNA's checks found the most recent, on 7 August, never took place.",
+     "source": "CNA",
+     "published_at": "2026-08-10T06:00+08:00",
+     "url": "https://www.channelnewsasia.com/singapore/fake-think-tanks-recruit-foreign-intelligence-us-china-6306606"
+    },
+    {
+     "id": "sg5",
+     "headline": "Wife's share of matrimonial assets raised to 35% over husband's non-disclosure",
+     "category": "Courts",
+     "summary": "A court increased a wife's share of matrimonial assets to 35 per cent because her husband failed to disclose his finances properly, The Straits Times reports. He revealed a $1.4 million payout from a previous employer only after her lawyers pressed for more information.",
+     "source": "The Straits Times",
+     "published_at": "2026-08-10T17:45+08:00",
+     "url": "https://www.straitstimes.com/singapore/courts-crime/wifes-share-of-assets-bumped-up-to-35-in-divorce-due-to-husbands-lack-of-disclosure"
+    },
+    {
+     "id": "sg6",
+     "headline": "Carousell pulls listings of Trader Joe's seasoning containing poppy seeds",
+     "category": "Consumer",
+     "summary": "Carousell has removed listings for Trader Joe's Everything But The Bagel seasoning after The Straits Times highlighted that it contains poppy seeds, which are prohibited in Singapore. Buyers who import prohibited items risk enforcement action.",
+     "source": "The Straits Times",
+     "published_at": "2026-08-10T17:10+08:00",
+     "url": "https://www.straitstimes.com/singapore/carousell-removes-listings-of-trader-joes-seasoning-product-containing-poppy-seeds"
+    },
+    {
+     "id": "sg7",
+     "headline": "Havelock Palace apologises for cooking seafood foraged from Changi Beach",
+     "category": "Food & Dining",
+     "summary": "Chinese restaurant Havelock Palace has apologised after seafood foraged from Changi Beach was cooked in its kitchen, following a controversy over coastal foraging. The restaurant said it now prohibits food from unauthorised or unverified sources from entering its kitchen.",
+     "source": "The Straits Times; Mothership",
+     "published_at": "2026-08-10T16:50+08:00",
+     "url": "https://www.straitstimes.com/singapore/chinese-restaurant-havelock-palace-apologises-for-cooking-seafood-foraged-from-changi-beach"
+    },
+    {
+     "id": "sg8",
+     "headline": "Drivers and experts say licence suspensions bite harder than fines under stricter demerit rules",
+     "category": "Transport",
+     "summary": "Drivers and road-safety experts told CNA that licence suspensions change behaviour more effectively than fines under the tightened demerit-point regime, though habitual risk-takers may remain undeterred. Private-hire and delivery drivers are among those most exposed, because a suspension removes their income rather than just costing them money.",
+     "source": "CNA",
+     "published_at": "2026-08-10T06:00+08:00",
+     "url": "https://www.channelnewsasia.com/singapore/18-demerit-points-drivers-suspension-private-hire-6303391"
+    },
+    {
+     "id": "sg9",
+     "headline": "Experts urge looking past screen time to what young people actually do online",
+     "category": "Society",
+     "summary": "Researchers and clinicians told The Straits Times that the nature of young people's social media use matters more than the number of hours, and that interventions should be targeted accordingly. Parents and schools are urged to help young people reflect on how they use the platforms rather than simply cap time.",
+     "source": "The Straits Times",
+     "published_at": "2026-08-10T10:00+08:00",
+     "url": "https://www.straitstimes.com/tech/beyond-screen-time-examine-social-media-activities-for-more-targeted-intervention-experts"
+    },
+    {
+     "id": "sg10",
+     "headline": "NUS researchers develop light-controlled protein for gene activity in yeast",
+     "category": "Science",
+     "summary": "NUS researchers have created y-iLight, a red-light-responsive protein that switches gene activity on and off in yeast without added chemicals, The Straits Times reports. The team says the approach could make biotechnology processes cleaner and easier to control.",
+     "source": "The Straits Times",
+     "published_at": "2026-08-10T05:00+08:00",
+     "url": "https://www.straitstimes.com/singapore/nus-boffins-brandish-light-beams-for-biotechnology-breakthrough"
+    },
+    {
+     "id": "sg11",
+     "headline": "Shannon Tan finishes third at the PIF London Championship",
+     "category": "Sport",
+     "summary": "Singapore golfer Shannon Tan, 22, carded a nine-under 64 in the final round — the lowest score of the day — to finish third at the PIF London Championship.",
+     "source": "CNA",
+     "published_at": "2026-08-10T10:33+08:00",
+     "url": "https://www.channelnewsasia.com/singapore/golfer-shannon-tan-third-place-pif-london-championship-6308981"
+    },
+    {
+     "id": "sg12",
+     "headline": "'National Day gift': Tan Kiat How becomes a father for the third time on Aug 10",
+     "category": "Trending",
+     "summary": "Minister Tan Kiat How's wife went into labour during the National Day Parade; he took her to hospital after the parade and their third child was born on 10 August. He shared the news publicly, calling it a National Day gift.",
+     "source": "The Straits Times",
+     "published_at": "2026-08-10T16:09+08:00",
+     "url": "https://www.straitstimes.com/singapore/national-day-gift-tan-kiat-how-becomes-father-for-the-3rd-time-on-aug-10"
+    },
+    {
+     "id": "sg13",
+     "headline": "Bus captain pauses his route to help put out a Lamborghini fire at Holland Road",
+     "category": "Trending",
+     "summary": "A 51-year-old bus captain stopped his journey along Holland Road to help extinguish a burning Lamborghini, Mothership reports. The episode has been widely shared locally as an example of a driver going beyond the job.",
+     "source": "Mothership",
+     "published_at": "2026-08-09T22:39+08:00",
+     "url": "https://mothership.sg/2026/08/bus-captain-put-out-lambo-fire/"
+    },
+    {
+     "id": "sg14",
+     "headline": "Rescued unsold baked goods draw long queues at Fernvale",
+     "category": "Trending",
+     "summary": "A Singapore organisation redistributing unsold baked goods drew long queues at Fernvale, Mothership reports. Food-rescue giveaways have become a recurring draw in HDB neighbourhoods, mixing waste reduction with cost-of-living relief.",
+     "source": "Mothership",
+     "published_at": "2026-08-10T08:56+08:00",
+     "url": "https://mothership.sg/2026/08/singapore-organisation-rescue-unsold-baked-goods/"
+    },
+    {
+     "id": "sg15",
+     "headline": "She spent decades alone with a rare genetic condition — now she is building a community",
+     "category": "Human Interest",
+     "summary": "It took decades for Yessika Sutawijaya to meet another person with neurofibromatosis. The 45-year-old told CNA the experience led her to co-found a support group in Singapore so others with the rare condition can find the community she never had.",
+     "source": "CNA",
+     "published_at": "2026-08-10T06:49+08:00",
+     "url": "https://www.channelnewsasia.com/women/neurofibromatosis-support-group-singapore-6279901"
+    }
+   ]
+  },
+  "wars": {
+   "label": "Wars & Conflicts",
+   "ai_summary": "The Nizhnekamsk strike moves Ukraine's deep-strike campaign from infrastructure damage to civilian casualties: Russian officials now put the toll at 13 dead, having earlier described the same attack as fires at refinery complexes 1,000km from the front. On the ground the map is barely moving — Russia claims two more villages in the east while Ukraine's general staff reports continuing battles and does not confirm the losses. In the Gulf the blockade has hardened into a bargaining position rather than a fight: Iran's Revolutionary Guards now tie any Hormuz reopening to compensation and other US concessions, even as Houthi fire widens onto Yemen's own coast. Gaza is the theatre that went backwards, with Netanyahu rejecting the US 15-point document outright. The thing to watch is whether Ukraine's refinery campaign draws a heavier Russian answer on cities.",
+   "theatres": [
+    {
+     "name": "Russia–Ukraine War",
+     "status": "Ukraine's deep-strike campaign 1,000km into Tatarstan has now produced a heavy civilian toll — Russian officials say 13 died at Nizhnekamsk — while the ground war barely moves, with Russia claiming two more village captures that Kyiv does not confirm",
+     "timeline": [
+      {
+       "date": "2022-02-24",
+       "event": "Russia launches a full-scale invasion of Ukraine. Since then Russia has seized parts of the east, and the front lines have been largely static for a long period.",
+       "source": "BBC News",
+       "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo"
+      },
+      {
+       "date": "2026-08-04",
+       "event": "Russia says seven people were killed and 40 injured by a Ukrainian drone that hit a busy beach. Ukraine has not confirmed the account.",
+       "source": "BBC News",
+       "url": "https://www.bbc.co.uk/news/articles/cr7kmnyrdn7o"
+      },
+      {
+       "date": "2026-08-08",
+       "event": "Ukraine's general staff says its forces hit Russia's Ilsky and Syzran oil refineries overnight, causing fires at both. Local authorities in Krasnodar say the Ilsky fire was extinguished and blamed falling debris.",
+       "source": "BBC News; The Straits Times",
+       "url": "https://www.straitstimes.com/world/europe/fire-at-russias-ilsky-oil-refinery-put-out-after-ukrainian-drone-attack"
+      },
+      {
+       "date": "2026-08-09",
+       "event": "Ukrainian officials say overnight Russian missile strikes on the Kyiv region killed civilians including a child. BBC, citing the regional military administration, reported at least three dead; President Zelensky put the toll at four and said Ukraine has \"virtually no intact thermal power plants\" going into winter. These are Ukrainian official claims, not independently verified.",
+       "source": "BBC News; CNA/AFP",
+       "url": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo"
+      },
+      {
+       "date": "2026-08-09",
+       "event": "The Belgorod regional crisis centre says five people were killed and 25 injured, including two children, in an overnight Ukrainian drone attack on the Russian city; Russia's defence ministry claims more than 150 Ukrainian drones were destroyed. Russian official claims, not independently verified.",
+       "source": "The Straits Times",
+       "url": "https://www.straitstimes.com/world/europe/three-killed-in-ukrainian-drone-attack-on-belgorod-russian-authorities-say"
+      },
+      {
+       "date": "2026-08-09",
+       "event": "President Zelensky says the Odesa seaport was damaged in an overnight Russian attack and eight people were wounded in the city; Ukraine's energy ministry says power facilities in the region were hit, with supply restored to 90,000 consumers. Ukrainian official claims, not independently verified.",
+       "source": "The Straits Times",
+       "url": "https://www.straitstimes.com/world/europe/ukraines-odesa-port-sustains-damage-from-russian-attack-zelenskiy-says"
+      },
+      {
+       "date": "2026-08-09",
+       "event": "Zelensky says on X that a decision has been made to deploy 30,000 to 50,000 North Korean soldiers on Russian territory, up from his July estimate of 30,000, and urges South Korea to supply air-defence support. He did not say how he obtained the figure and it has not been independently verified.",
+       "source": "The Straits Times",
+       "url": "https://www.straitstimes.com/world/europe/ukraines-zelenskiy-says-up-to-50000-north-korean-troops-to-be-deployed-in-russia"
+      },
+      {
+       "date": "2026-08-10",
+       "event": "Russia's defence ministry says its forces captured two villages in eastern Ukraine; Ukraine's general staff reports continuing front-line battles and does not confirm the losses. Pope Leo separately renews his call for the war to end.",
+       "source": "The Straits Times; CNA",
+       "url": "https://www.straitstimes.com/world/europe/russia-says-it-captures-two-villages-in-eastern-ukraine-kyiv-reports-frontline-battles"
+      },
+      {
+       "date": "2026-08-10",
+       "event": "Ukraine's General Staff says drones struck the Tatarstan Oil Refining Complex and the TAIF-NK refinery at Nizhnekamsk, about 1,000km from the front, with a fire also reported at the Nizhnekamskneftekhim synthetic rubber plant. Russian state media report 12 people killed — a figure that has not been independently confirmed and that Ukrainian statements do not address.",
+       "source": "The Straits Times; Kyiv Independent",
+       "url": "https://www.straitstimes.com/world/europe/ukraine-kills-12-in-drone-strikes-on-russian-city-of-nizhnekamsk-state-media-reports"
+      },
+      {
+       "date": "2026-08-10",
+       "event": "Russian officials say at least 13 people, including a child, were killed and dozens injured in the Ukrainian drone attack on Nizhnekamsk — described as one of the heaviest civilian tolls inside Russia in months. Injury counts given by officials differ: BBC reports 75 injured, wire copy carried by The Straits Times reports 39. Ukraine's general staff has said its drones struck refinery complexes in the city and has not commented on the civilian casualties.",
+       "source": "BBC News; The Straits Times",
+       "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po"
+      }
+     ]
+    },
+    {
+     "name": "US/Israel–Iran (Strait of Hormuz)",
+     "status": "Tehran's Revolutionary Guards now tie any reopening of the strait to US concessions including compensation, so the blockade has hardened into a bargaining position — while Houthi fire has widened from Saudi targets to Yemen's own coast",
+     "timeline": [
+      {
+       "date": "2026-02-28",
+       "event": "The US military operation against Iran begins; Tehran effectively blockades the Strait of Hormuz, through which around a fifth of the world's oil and gas normally flows.",
+       "source": "BBC News",
+       "url": "https://www.bbc.co.uk/news/articles/c934j5y2lq9o"
+      },
+      {
+       "date": "2026-08-02",
+       "event": "President Donald Trump says he has cancelled planned strikes on Iran, conditional on a deal being made \"rapidly\".",
+       "source": "BBC News",
+       "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o"
+      },
+      {
+       "date": "2026-08-07",
+       "event": "Saudi Arabia, Türkiye and Pakistan sign the Mecca Joint Defence Agreement, a mutual-defence pact treating an armed attack on one as an attack on all three.",
+       "source": "BBC News; CNA",
+       "url": "https://www.bbc.co.uk/news/articles/c30418m4mj4o"
+      },
+      {
+       "date": "2026-08-08",
+       "event": "The UAE says a \"hostile Iranian attack\" struck an Adnoc-affiliated tanker with a missile in the strait, with no casualties. UKMTO separately reports a ship hit by an unknown projectile off Oman. Iran has not publicly confirmed the UAE account.",
+       "source": "BBC News; The Straits Times",
+       "url": "https://www.straitstimes.com/world/middle-east/uae-says-iran-attacked-adnoc-vessel-with-missile-in-strait-of-hormuz"
+      },
+      {
+       "date": "2026-08-09",
+       "event": "Turkish Foreign Minister Hakan Fidan says the Saudi–Türkiye–Pakistan pact is \"technically the same\" as NATO's Article 5, says it is not aimed at Iran, and names Egypt as a possible future member.",
+       "source": "The Straits Times",
+       "url": "https://www.straitstimes.com/world/middle-east/turkey-pakistan-saudi-arabia-defence-pact-technically-same-as-natos-article-5-turkish-minister-says"
+      },
+      {
+       "date": "2026-08-09",
+       "event": "Foreign Minister Abbas Araghchi says the agreement with Oman on new shipping lanes is in its \"final stages\" but repeats that the strait reopens only once the US meets other conditions, including compensation for what Tehran calls a violation of the June interim deal. Iran says it is not in direct talks with Washington.",
+       "source": "The Straits Times; CNA",
+       "url": "https://www.straitstimes.com/world/middle-east/iran-says-oman-deal-is-in-final-stages-but-us-must-act-to-open-hormuz"
+      },
+      {
+       "date": "2026-08-10",
+       "event": "Yemen's Houthis say they attacked Saudi Aramco's Jazan refinery. Saudi Arabia says the fire there has been extinguished and has not commented on the claim of responsibility. Yemen's internationally recognised military separately says a Houthi attack on the port city of Mocha killed seven people and wounded 30; the Houthis have not commented on that account.",
+       "source": "The Straits Times",
+       "url": "https://www.straitstimes.com/world/middle-east/yemeni-military-says-houthi-attack-on-mocha-kills-7-wounds-30"
+      },
+      {
+       "date": "2026-08-10",
+       "event": "Iran's Revolutionary Guards say the Strait of Hormuz will not reopen unless Washington meets Tehran's demands. Iran separately names a new head of its Supreme National Security Council, and President Trump says the US is \"low-keying it\" with Iran.",
+       "source": "CNA; The Straits Times",
+       "url": "https://www.channelnewsasia.com/world/us-iran-hormuz-reopening-demands-6308791"
+      },
+      {
+       "date": "2026-08-10",
+       "event": "Yemen's internationally recognised military says a Houthi attack on the Red Sea port city of Mocha killed seven people, including military personnel and civilians, and wounded 30, hitting civilian infrastructure and armed forces. The Houthis have not commented on this specific account.",
+       "source": "The Straits Times",
+       "url": "https://www.straitstimes.com/world/middle-east/yemeni-military-says-houthi-attack-on-mocha-kills-7-wounds-30"
+      }
+     ]
+    },
+    {
+     "name": "Israel–Gaza & Lebanon",
+     "status": "Netanyahu has publicly rejected the US 15-point document, ruling out any withdrawal until Hamas is \"genuinely\" disarmed; the plan's US sponsor calls it the only way forward, and Israeli troops have closed off a Palestinian Christian village in the West Bank",
+     "timeline": [
+      {
+       "date": "2026-07-31",
+       "event": "Hamas agrees a disarmament deal as part of a wider Gaza roadmap; analysts note the plan faces significant obstacles.",
+       "source": "BBC News",
+       "url": "https://www.bbc.co.uk/news/articles/c2dkje4p4klo"
+      },
+      {
+       "date": "2026-08-02",
+       "event": "At least 13 people are killed in Israeli strikes on Gaza after the Hamas disarmament agreement.",
+       "source": "BBC News",
+       "url": "https://www.bbc.co.uk/news/articles/czjlvvkzj20o"
+      },
+      {
+       "date": "2026-08-06",
+       "event": "Israel strikes south Lebanon after two soldiers were killed by an explosion. Rights groups separately say an Israeli attack that killed a Lebanese journalist appears to be a war crime; Israel has not accepted that characterisation.",
+       "source": "BBC News",
+       "url": "https://www.bbc.co.uk/news/articles/c998711dyjvo"
+      },
+      {
+       "date": "2026-08-08",
+       "event": "Lebanon says Israeli troops built an earth barrier in a village held by the Lebanese army — one of two \"pilot zones\" designated under a June agreement. Israel has not publicly responded to the specific allegation.",
+       "source": "The Straits Times",
+       "url": "https://www.straitstimes.com/world/middle-east/lebanon-says-israeli-troops-built-earth-barrier-in-lebanese-army-held-village"
+      },
+      {
+       "date": "2026-08-09",
+       "event": "Hamas says it remains ready to proceed with the US-backed Gaza plan and urges pressure on Israel, which says it did not agree to the latest part of the deal.",
+       "source": "CNA; The Straits Times",
+       "url": "https://www.channelnewsasia.com/world/hamas-ready-us-backed-gaza-plan-6307846"
+      },
+      {
+       "date": "2026-08-09",
+       "event": "Netanyahu tells a cabinet meeting that \"Israel rejects the 15-point document\" and that the military will carry out no withdrawal until Hamas is \"genuinely\" disarmed. Hamas has said handing over heavy weapons depends on Israel ending all forms of aggression and withdrawing from Gaza; National Security Minister Itamar Ben Gvir called the draft \"not acceptable\".",
+       "source": "BBC News; The Straits Times",
+       "url": "https://www.bbc.co.uk/news/articles/c5yw4lpe0yeo"
+      },
+      {
+       "date": "2026-08-10",
+       "event": "The head of the US-backed Board of Peace says the plan Netanyahu rejected is still \"the only way forward\". Israel's military separately closes the Palestinian Christian village of Taybeh in the occupied West Bank, saying the move is intended to halt settler attacks there.",
+       "source": "The Straits Times",
+       "url": "https://www.straitstimes.com/world/middle-east/israel-military-closes-palestinian-christian-village-taybeh-to-halt-settler-attacks"
+      }
+     ]
+    }
+   ]
+  },
+  "outbreaks": {
+   "label": "Outbreaks",
+   "ai_summary": "DR Congo's Bundibugyo Ebola epidemic remains the outbreak that matters most: it is already the largest ever recorded in the country, and Congolese reporting relayed by ECDC now runs several hundred cases ahead of WHO's last ratified count, so the official figure should jump at the next update. The US picture is milder but stubborn — measles is still setting a post-1991 pace with no deaths recorded this year, while the jalapeño Salmonella outbreak has widened into a recall of prepared supermarket foods. Nothing here changes day-to-day risk in Singapore; the practical item for readers is the recall, not the epidemics.",
+   "outbreaks": [
+    {
+     "name": "Ebola (Bundibugyo virus) — DR Congo",
+     "status": "Largest Ebola outbreak ever recorded in DR Congo and still expanding; Uganda declared free of the disease on 28 July",
+     "cases": 3626,
+     "deaths": 1589,
+     "countries": 3,
+     "as_of": "2026-07-30",
+     "scope_note": "WHO-confirmed cases only, as of 30 July 2026, read this run directly from WHO Disease Outbreak News 614 (published 1 August): DR Congo 3,605 confirmed cases with 1,587 deaths (case-fatality ratio 44%), Uganda 20 with 2 deaths, and France 1 — 3,626 cases and 1,589 deaths in total; two DR Congo patients were treated in Germany. WHO says this surpasses the 2018–2020 epidemic's 3,317 confirmed cases. Newer and not yet WHO-ratified: ECDC, citing DR Congo's own reporting and last updated 10 August, gives 4,209 confirmed cases and 1,916 deaths for DR Congo through 7 August.",
+     "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2026-DON614"
+    },
+    {
+     "name": "Measles — United States",
+     "status": "Highest US annual case count since 1991; no deaths recorded this year, with elimination status under review this month",
+     "cases": 2465,
+     "deaths": 0,
+     "countries": 1,
+     "as_of": "2026-08-06",
+     "scope_note": "US CDC surveillance data as of 6 August 2026: 2,465 confirmed cases in 2026, ahead of 2025's full-year total and the highest since 1991. CDC lists 38 outbreaks begun in 2026, with 94% of confirmed cases outbreak-associated, and 16 cases among international visitors. No measles deaths have been reported in the US in 2026, against three in 2025. cdc.gov again returned HTTP 403 to direct fetch this run, so these figures come from reporting of the CDC update rather than a page read directly.",
+     "url": "https://www.cdc.gov/measles/data-research/index.html"
+    },
+    {
+     "name": "Salmonella Javiana — United States (jalapeños)",
+     "status": "Traced to jalapeños grown in Sinaloa, Mexico; recall widened on 9 August to prepared supermarket foods",
+     "cases": 345,
+     "deaths": 0,
+     "countries": 1,
+     "as_of": "2026-08-05",
+     "scope_note": "CDC/FDA outbreak tally announced 6 August 2026: 345 illnesses across 27 states, 36 hospitalisations and no deaths, with illness onsets from 19 June to 20 July 2026. Traceback points to fresh jalapeños grown in Sinaloa, Mexico and distributed by Coast Citrus Distributors, mainly to restaurants and wholesale. Chipotle and QDOBA stopped serving the affected peppers. On 9–10 August Taylor Farms recalled more than a dozen prepared items made with the implicated peppers; the company says it is not aware of illnesses tied to its own products. CDC notes the true case count is likely higher.",
+     "url": "https://www.cdc.gov/salmonella/outbreaks/javiana-08-26/index.html"
+    }
+   ],
+   "stories": [
+    {
+     "id": "ob1",
+     "headline": "ECDC puts DR Congo's Ebola count at 4,209 confirmed cases, well ahead of WHO's ratified figure",
+     "category": "Ebola",
+     "summary": "ECDC's outbreak page, updated on 10 August, gives 4,209 confirmed cases and 1,916 deaths in DR Congo based on national reporting through 7 August. That is roughly 600 cases beyond the 3,605 WHO confirmed for DR Congo in its Disease Outbreak News of 1 August, which covered data to 30 July. The gap reflects reporting lag rather than a separate count; Uganda's arm of the outbreak was declared over on 28 July.",
+     "source": "ECDC; WHO Disease Outbreak News",
+     "published_at": "2026-08-10",
+     "url": "https://www.ecdc.europa.eu/en/ebola-outbreak-democratic-republic-congo-and-uganda"
+    },
+    {
+     "id": "ob2",
+     "headline": "Taylor Farms recalls salsa, guacamole and other prepared foods over salmonella risk",
+     "category": "Salmonella",
+     "summary": "Taylor Farms recalled more than a dozen prepared items, including salsa and guacamole, made with jalapeños linked to the Salmonella Javiana outbreak. The products were distributed across 26 US states. The company says it is not aware of any illnesses tied to its own products.",
+     "source": "The Straits Times; US FDA",
+     "published_at": "2026-08-10T10:07+08:00",
+     "url": "https://www.straitstimes.com/world/united-states/taylor-farms-recalls-salsa-and-guacamole-over-salmonella-risk"
+    },
+    {
+     "id": "ob3",
+     "headline": "US measles total reaches 2,465 as a federal panel prepares to weigh elimination status",
+     "category": "Measles",
+     "summary": "CDC's weekly update put the 2026 US measles total at 2,465 confirmed cases as of 6 August, after almost 100 new infections were added. That is above 2025's full-year total and the highest annual count since 1991. A national verification committee is due to meet in mid-August on whether the US retains its measles elimination status.",
+     "source": "CIDRAP; US CDC",
+     "published_at": "2026-08-07",
+     "url": "https://www.cidrap.umn.edu/measles/cdc-adds-almost-100-new-cases-expanding-us-measles-outbreak"
+    }
+   ]
+  },
+  "cybersecurity": {
+   "label": "CyberSecurity",
+   "ai_summary": "Two flaws are being exploited right now and both need attention today: Progress Kemp LoadMaster (CVE-2026-8037, CVSS 9.6) landed in CISA's Known Exploited Vulnerabilities catalog after hundreds of reported exploit attempts, and Metabase's unauthenticated SQL-injection zero-day carries a CVSS of 10.0 with no CVE at all, so scanners keyed to NVD feeds will simply miss it. N-able also shipped a second N-central hotfix as attackers kept adapting. The research end of the week was about trust boundaries — new attacks that defeat passkeys without breaking their cryptography, and CSS tricks that escape an email into the webmail interface around it. On the breach side, LexisNexis pulled three Nexis services offline and Valve told Steam hardware buyers their shipping details were taken. Patch the two exploited flaws first; treat the rest as reading.",
+   "stories": [
+    {
+     "id": "cs1",
+     "headline": "New passkey attacks can recover synced private keys or bypass phishing-resistant MFA",
+     "category": "Security Research",
+     "cve": null,
+     "cvss": null,
+     "severity": "HIGH",
+     "summary": "Three separate research efforts demonstrated ways to defeat passkey protections without breaking the underlying cryptography. The techniques reuse signed authentication material exposed by Windows, abuse a cloud-synced passkey system from malware already resident on the victim's machine, and bypass phishing-resistant MFA. No CVE has been assigned; the takeaway is that passkey deployments still depend on endpoint and sync-service integrity.",
+     "source": "The Hacker News",
+     "published_at": "2026-08-10T20:25+08:00",
+     "url": "https://thehackernews.com/2026/08/new-passkey-attacks-can-recover-synced.html"
+    },
+    {
+     "id": "cs2",
+     "headline": "LexisNexis takes Nexis services offline after suspicious activity on a vendor's servers",
+     "category": "Incident",
+     "cve": null,
+     "cvss": null,
+     "severity": "HIGH",
+     "summary": "LexisNexis disconnected from servers hosted by a third-party vendor after detecting suspicious activity, taking Nexis Diligence, the Nexis Metabase API and Nexis Newsdesk offline. Nexis Solutions president Todd Larsen said the investigation is ongoing with a cybersecurity forensic firm, and that Nexis does not use Metabase Cloud and has no connection to the Metabase zero-day. No data theft has been confirmed.",
+     "source": "BleepingComputer",
+     "published_at": "2026-08-10T20:11+08:00",
+     "url": "https://www.bleepingcomputer.com/news/security/lexisnexis-shuts-down-services-after-suspicious-activity-on-servers/"
+    },
+    {
+     "id": "cs3",
+     "headline": "Valve notifies Steam hardware buyers of a breach at its European shipping partner",
+     "category": "Data Breach",
+     "cve": null,
+     "cvss": null,
+     "severity": "MEDIUM",
+     "summary": "Valve says attackers had access to servers at CEVA Logistics, its European shipping partner, between 29 July and 1 August 2026, exposing names, addresses, phone numbers, email addresses and the type and price of products ordered. Payment details, passwords and Steam Guard codes were not affected because CEVA does not hold them. Valve is notifying customers whose orders shipped in that window and warns of phishing that reuses the stolen details.",
+     "source": "BleepingComputer",
+     "published_at": "2026-08-10T19:47+08:00",
+     "url": "https://www.bleepingcomputer.com/news/security/valve-notifies-steam-hardware-customers-of-a-data-breach/"
+    },
+    {
+     "id": "cs4",
+     "headline": "TrueConf server flaws exploited to swap client installers for the PhantomCore backdoor",
+     "category": "Supply Chain",
+     "cve": null,
+     "cvss": null,
+     "severity": "HIGH",
+     "summary": "Kaspersky says the threat actor Head Mare exploited a vulnerability chain in unpatched TrueConf video-conferencing servers, detected in July 2026, to replace client installers with trojanised versions carrying the PhantomCore backdoor. Targets were Russian companies in instrumentation, electronics, transport, energy, IT and software development. Organisations running self-hosted TrueConf should patch the server and verify installer integrity.",
+     "source": "The Hacker News; BleepingComputer",
+     "published_at": "2026-08-10T19:33+08:00",
+     "url": "https://thehackernews.com/2026/08/head-mare-exploits-trueconf-flaws-to.html"
+    },
+    {
+     "id": "cs5",
+     "headline": "Critical Progress Kemp LoadMaster flaw added to CISA KEV after active exploitation",
+     "category": "Exploited Vulnerability",
+     "cve": "CVE-2026-8037",
+     "cvss": 9.6,
+     "severity": "CRITICAL",
+     "summary": "CISA added CVE-2026-8037 to its Known Exploited Vulnerabilities catalog on 7 August after reports of exploitation in the wild; The Hacker News cites 792 reported exploit attempts. NVD rates it CVSS 9.6 (critical): an unauthenticated OS command injection in the API of Progress ADC products that allows arbitrary command execution on the LoadMaster appliance. Federal agencies face a KEV remediation deadline; everyone else should treat internet-facing LoadMasters as urgent.",
+     "source": "BleepingComputer; The Hacker News; CISA KEV; NVD",
+     "published_at": "2026-08-10T17:49+08:00",
+     "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-progress-loadmaster-flaw-exploited-in-attacks/"
+    },
+    {
+     "id": "cs6",
+     "headline": "Malicious 'Solidity Pro' VS Code extensions steal crypto wallets, API keys and credentials",
+     "category": "Supply Chain",
+     "cve": null,
+     "cvss": null,
+     "severity": "HIGH",
+     "summary": "Researchers flagged malicious Visual Studio Code extensions published as helper-beeps.solidity-pro and web3devtoolsx.solidity-pro, which delivered a browser wallet and credential stealer aimed at blockchain developers. Neither is still available on Open VSX, but the associated GitHub repository remained up. Developers who installed either should rotate API keys and move wallet funds.",
+     "source": "The Hacker News",
+     "published_at": "2026-08-10T15:38+08:00",
+     "url": "https://thehackernews.com/2026/08/solidity-pro-vs-code-extensions-steal.html"
+    },
+    {
+     "id": "cs7",
+     "headline": "OpenAI pauses some internal work on its Astra model over cyber capability",
+     "category": "AI Security",
+     "cve": null,
+     "cvss": null,
+     "severity": "INFORMATIONAL",
+     "summary": "OpenAI said it is pausing some internal activities involving its upcoming Astra model after an internal evaluation found significant advances in agentic coding and cybersecurity capability. The company said it is adding security controls for higher-capability models, including isolated environments. It is one of the first public cases of a lab throttling its own work on capability-threshold grounds.",
+     "source": "The Hacker News",
+     "published_at": "2026-08-10T13:50+08:00",
+     "url": "https://thehackernews.com/2026/08/openais-next-ai-model-astra-shows-cyber.html"
+    },
+    {
+     "id": "cs8",
+     "headline": "Atlassian Rovo can be tricked into sending Jira and Confluence data to attackers",
+     "category": "AI Security",
+     "cve": null,
+     "cvss": null,
+     "severity": "HIGH",
+     "summary": "Two security firms independently found that attacker-controlled instructions can make Atlassian's Rovo assistant collect Jira or Confluence data accessible to the signed-in user and send it to an external server. PromptArmor hid the instructions in content Rovo reads, including an uploaded file. Only one of the two routes is confirmed closed, so teams using Rovo should assume prompt-injection exposure remains.",
+     "source": "The Hacker News",
+     "published_at": "2026-08-08T16:54+08:00",
+     "url": "https://thehackernews.com/2026/08/atlassian-rovo-can-be-tricked-into.html"
+    },
+    {
+     "id": "cs9",
+     "headline": "New CSS attacks break out of an email to steal webmail passwords and tokens",
+     "category": "Security Research",
+     "cve": null,
+     "cvss": null,
+     "severity": "HIGH",
+     "summary": "PortSwigger research shows content inside an email can escape its message boundary and interfere with the surrounding webmail interface. Chains demonstrated against Outlook, Gmail, Fastmail, Proton Mail, Yahoo Mail and AOL Mail can capture passwords, take over third-party accounts, leak tokens, hijack trusted UI actions and manipulate AI tools that read email. Fixes are provider-side; users cannot mitigate this themselves.",
+     "source": "The Hacker News",
+     "published_at": "2026-08-08T16:03+08:00",
+     "url": "https://thehackernews.com/2026/08/new-css-attacks-can-break-webmail.html"
+    },
+    {
+     "id": "cs10",
+     "headline": "Metabase SQL-injection zero-day exploited in the wild — CVSS 10.0, no CVE assigned",
+     "category": "Zero-Day",
+     "cve": null,
+     "cvss": 10.0,
+     "severity": "CRITICAL",
+     "summary": "Metabase warned that a maximum-severity flaw in its business-intelligence software has been exploited as a zero-day, tracked as GHSA-vwf4-m7j8-wcjf with no CVE identifier — so scanners relying on NVD feeds will not flag exposed instances. The unauthenticated POST /api/session/reset_password endpoint allows arbitrary SQL injection into the application database, giving admin access and credentials for every connected database. Branches 0.58.0 through 0.63.x are affected; fixes are in x.58.24, x.59.21, x.60.17, x.61.11, x.62.9 and x.63.5. BleepingComputer reports customer data theft at companies including Framework.",
+     "source": "The Hacker News; BleepingComputer",
+     "published_at": "2026-08-08T14:58+08:00",
+     "url": "https://thehackernews.com/2026/08/metabase-zero-day-exploited-in-wild.html"
+    },
+    {
+     "id": "cs11",
+     "headline": "N-able ships a second N-central hotfix as attackers keep reaching managed systems",
+     "category": "Exploited Vulnerability",
+     "cve": "CVE-2026-18577",
+     "cvss": 8.2,
+     "severity": "HIGH",
+     "summary": "N-able released Hotfix 2 for N-central after continued exploitation of a recently disclosed flaw in the remote monitoring and management product, saying it is expanding protections as threat actors evolve their techniques. NVD records CVE-2026-18577 (CVSS 8.2) as an incomplete patch for CVE-2026-18556, both authentication-bypass issues; CISA added them to the KEV catalog on 3 and 4 August. N-central is an MSP tool, so a compromise reaches downstream customer estates.",
+     "source": "The Hacker News; CISA KEV; NVD",
+     "published_at": "2026-08-08T14:57+08:00",
+     "url": "https://thehackernews.com/2026/08/n-central-attackers-reach-managed.html"
+    },
+    {
+     "id": "cs12",
+     "headline": "Unlimited Technology Systems breach affects 3.8 million people",
+     "category": "Data Breach",
+     "cve": null,
+     "cvss": null,
+     "severity": "MEDIUM",
+     "summary": "Physical-security and technology services provider Unlimited Technology Systems disclosed a breach affecting about 3.8 million people, BleepingComputer reports. Notifications are going out to those affected.",
+     "source": "BleepingComputer",
+     "published_at": "2026-08-08T03:30+08:00",
+     "url": "https://www.bleepingcomputer.com/news/security/unlimited-technology-systems-breach-impacts-38-million-people/"
+    },
+    {
+     "id": "cs13",
+     "headline": "Nearly 800 malicious npm packages deliver a cross-platform RAT and infostealer",
+     "category": "Supply Chain",
+     "cve": null,
+     "cvss": null,
+     "severity": "HIGH",
+     "summary": "A cluster of close to 800 malicious packages was published to the npm registry, using randomly generated or AI-generated typo-squatted names and all delivering the same remote-access trojan and infostealer payload targeting Windows, macOS and Linux. Build pipelines that install dependencies without pinning or review are the exposure here.",
+     "source": "The Hacker News",
+     "published_at": "2026-08-08T02:48+08:00",
+     "url": "https://thehackernews.com/2026/08/nearly-800-malicious-npm-packages.html"
+    },
+    {
+     "id": "cs14",
+     "headline": "ClickFix attacks push a macOS infostealer that drains crypto wallets",
+     "category": "Malware",
+     "cve": null,
+     "cvss": null,
+     "severity": "HIGH",
+     "summary": "ClickFix-style lures — fake error messages that tell the victim to paste a command into their own terminal — are being used to install a macOS stealer capable of draining cryptocurrency wallets. The technique bypasses download-based defences because the user runs the payload themselves.",
+     "source": "The Hacker News; BleepingComputer",
+     "published_at": "2026-08-08T02:29+08:00",
+     "url": "https://thehackernews.com/2026/08/clickfix-attacks-deliver-macos-stealer.html"
+    },
+    {
+     "id": "cs15",
+     "headline": "UNC6671 uses vishing against personal phones to steal SaaS data",
+     "category": "Threat Actor",
+     "cve": null,
+     "cvss": null,
+     "severity": "HIGH",
+     "summary": "The extortion group tracked as UNC6671, linked to BlackFile, is calling employees on their personal phones to talk them through granting access, then stealing data from corporate SaaS applications. BleepingComputer ties the same activity to a run of attacks on hedge funds. Because the initial contact happens off corporate infrastructure, help-desk and MFA-reset procedures are the control that matters.",
+     "source": "The Hacker News; BleepingComputer",
+     "published_at": "2026-08-08T02:16+08:00",
+     "url": "https://thehackernews.com/2026/08/unc6671-vishing-attacks-target-personal.html"
+    },
+    {
+     "id": "cs16",
+     "headline": "Levi Strauss says hackers stole corporate data in a cyberattack",
+     "category": "Data Breach",
+     "cve": null,
+     "cvss": null,
+     "severity": "MEDIUM",
+     "summary": "Levi Strauss & Co. confirmed that attackers stole corporate data in a cyberattack, BleepingComputer reports. The company has not detailed the scope or whether customer data is involved.",
+     "source": "BleepingComputer",
+     "published_at": "2026-08-07T23:48+08:00",
+     "url": "https://www.bleepingcomputer.com/news/security/levi-strauss-and-co-says-hackers-stole-corporate-data-in-cyberattack/"
+    },
+    {
+     "id": "cs17",
+     "headline": "North Carolina Ports confirms a cyberattack disrupting operations",
+     "category": "Critical Infrastructure",
+     "cve": null,
+     "cvss": null,
+     "severity": "MEDIUM",
+     "summary": "North Carolina Ports confirmed a cyberattack that has disrupted its operations, BleepingComputer reports. Port IT incidents tend to spill into freight scheduling and customs processing well beyond the operator itself.",
+     "source": "BleepingComputer",
+     "published_at": "2026-08-07T21:34+08:00",
+     "url": "https://www.bleepingcomputer.com/news/security/north-carolina-ports-confirms-cyberattack-disrupting-operations/"
+    }
+   ]
+  }
+ }
+}

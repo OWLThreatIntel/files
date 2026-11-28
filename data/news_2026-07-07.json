@@ -1,0 +1,427 @@
+{
+  "meta": {
+    "date": "2026-07-07",
+    "generated_at": "2026-07-07T21:00:00+08:00",
+    "edition": "Daily News Briefing",
+    "sources": [
+      "BBC",
+      "Channel NewsAsia",
+      "The Straits Times",
+      "Mothership",
+      "NEA (data.gov.sg)",
+      "LTA (data.gov.sg)",
+      "WHO Disease Outbreak News",
+      "The Hacker News",
+      "BleepingComputer",
+      "CISA KEV",
+      "NVD"
+    ]
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "The day is dominated by the Middle East: tankers were hit in the Strait of Hormuz as Iran held mass funeral processions for Ayatollah Khamenei, while Trump warned of a deal or the US 'finishing the job.' NATO's summit pushed arms deals and Ukraine's air-defence needs after deadly Russian strikes near Kyiv. Markets wobbled as South Korea's KOSPI plunged about 8%.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "Tankers struck in Strait of Hormuz as Iran mourns Khamenei",
+          "category": "Middle East",
+          "summary": "At least one oil tanker was hit by an 'unknown projectile' in the Strait of Hormuz region, a maritime agency said, as huge crowds in Iran held funeral processions for Supreme Leader Ayatollah Ali Khamenei. Tehran says there will be no talks unless President Trump halts his threats; Trump said there would either be a deal with Iran or the US would 'finish the job.'",
+          "source": "CNA, The Straits Times, BBC",
+          "published_at": "2026-07-07T20:31+08:00",
+          "url": "https://www.channelnewsasia.com/world/iran-khamenei-funeral-hormuz-tankers-hit-6237986"
+        },
+        {
+          "id": "ts2",
+          "headline": "NATO summit spotlights arms deals and a push to keep Trump on side",
+          "category": "Geopolitics",
+          "summary": "At the NATO summit, allies showcased new defence purchases — including Swedish Saab early-warning aircraft over a US rival and a strategic A400M airlift fleet — as members pushed to win over President Trump on burden-sharing. Alliance chief Mark Rutte said talks would also cover tensions in the Strait of Hormuz.",
+          "source": "The Straits Times, CNA",
+          "published_at": "2026-07-07T20:37+08:00",
+          "url": "https://www.straitstimes.com/world/europe/nato-to-launch-strategic-airlift-fleet-of-a400m-rutte-says"
+        },
+        {
+          "id": "ts3",
+          "headline": "Russian strikes kill 24 near Kyiv; Zelensky to press NATO for air defences",
+          "category": "Russia-Ukraine",
+          "summary": "Russian strikes killed 24 people in the Kyiv region on the eve of the NATO summit, and President Zelensky is pressing allies for more air-defence systems, the BBC reported. Separately, Kyiv says its forces struck eight Russian 'shadow fleet' tankers — a claim not independently verified.",
+          "source": "CNA, BBC",
+          "published_at": "2026-07-07T12:18+08:00",
+          "url": "https://www.channelnewsasia.com/world/russian-strikes-kill-24-in-kyiv-region-eve-nato-summit-6234056"
+        },
+        {
+          "id": "ts4",
+          "headline": "Explosions injure 18 in Damascus during Macron's visit",
+          "category": "Middle East",
+          "summary": "Explosions struck near a hotel housing French President Emmanuel Macron during a visit to Syria's capital, injuring 18 people, the BBC reported. The blasts came as Macron met Syria's new authorities; French officials said he was unharmed.",
+          "source": "BBC, CNA",
+          "published_at": "2026-07-07T19:16+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c2eylx1jj9ko"
+        },
+        {
+          "id": "ts5",
+          "headline": "South Korea's KOSPI plunges about 8%, triggering circuit breakers",
+          "category": "Markets",
+          "summary": "South Korea's KOSPI tumbled about 8%, triggering trading circuit breakers for the sixth time this year amid a sharp sell-off in AI-related stocks, CNA reported.",
+          "source": "CNA",
+          "published_at": "2026-07-07T13:49+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/south-korea-kospi-falls-ai-circuit-breakers-6237301"
+        },
+        {
+          "id": "ts6",
+          "headline": "French court shortens Le Pen's ban, opening door to a presidential run",
+          "category": "World Politics",
+          "summary": "A French appeals court shortened Marine Le Pen's ban from public office but ordered her to wear an electronic ankle tag, a ruling that could clear the way for a presidential bid, The Straits Times reported.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-07T20:17+08:00",
+          "url": "https://www.straitstimes.com/world/europe/french-court-shortens-le-pens-ban-from-office-but-orders-electronic-tag"
+        },
+        {
+          "id": "ts7",
+          "headline": "China storm death toll rises to 15 as Typhoon Maysak floods the south",
+          "category": "Asia",
+          "summary": "The death toll from storms in China rose to 15 with hundreds injured, as Typhoon Maysak triggered catastrophic flooding and put the city of Nanning on top alert, CNA reported.",
+          "source": "CNA",
+          "published_at": "2026-07-07T09:27+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/china-storms-dead-hubei-guangxi-typhoon-bavi-maysak-6236716"
+        },
+        {
+          "id": "ts8",
+          "headline": "More than 1,000 arrested in global human-trafficking crackdown",
+          "category": "World",
+          "summary": "More than 1,000 people were arrested in a coordinated international operation against human-trafficking networks, the BBC reported.",
+          "source": "BBC",
+          "published_at": "2026-07-07T01:24+08:00",
+          "url": "https://www.bbc.co.uk/news/articles/c5yzzzdwqjko"
+        },
+        {
+          "id": "ts9",
+          "headline": "China's DeepSeek developing its own AI chip, sources say",
+          "category": "Technology",
+          "summary": "Chinese AI firm DeepSeek is developing its own AI chip, sources told CNA, a move that could reduce reliance on foreign semiconductors amid US export curbs.",
+          "source": "CNA",
+          "published_at": "2026-07-07T18:50+08:00",
+          "url": "https://www.channelnewsasia.com/east-asia/deepseek-china-ai-chip-developing-6238206"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "Parliament was all about transport: proposed jail and lower alcohol limits for dangerous and drink-driving, a new offence for holding your phone at the wheel, S$800m for transport research, and help for cabbies and private-hire drivers facing the driverless-vehicle shift. NEA flagged a fast-growing dengue cluster in Yio Chu Kang. Expect thundery showers today. In lighter news, Jackie Chan charmed a local school.",
+      "weather": {
+        "forecast": "Thundery Showers",
+        "temp_low": 25,
+        "temp_high": 33,
+        "humidity_low": 60,
+        "humidity_high": 90,
+        "as_of": "2026-07-07T17:33+08:00",
+        "source": "NEA",
+        "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+      },
+      "coe": {
+        "exercise": "Jun 2026 · 2nd bidding",
+        "as_of": "2026-06-17",
+        "next_results": "2026-07-08",
+        "source": "LTA",
+        "url": "https://data.gov.sg/datasets/d_69b3380ad7e51aff3a7dcc84eba52b8a/view",
+        "categories": [
+          { "code": "A", "label": "Cars up to 1600cc & 130bhp", "premium": 123847, "change": -2162 },
+          { "code": "B", "label": "Cars above 1600cc or 130bhp", "premium": 123502, "change": -3487 }
+        ]
+      },
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "Tougher penalties for dangerous driving, lower drink-driving limits proposed",
+          "category": "Policy",
+          "summary": "The Government proposed harsher penalties for dangerous driving causing grievous hurt, lower blood-alcohol limits, and jail for first-time drink-driving offenders, under changes tabled in Parliament.",
+          "source": "CNA, The Straits Times, Mothership",
+          "published_at": "2026-07-07T12:19+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/dangerous-driving-jail-drink-alcohol-limit-drugs-parliament-6224456"
+        },
+        {
+          "id": "sg2",
+          "headline": "Holding a phone while driving set to become an offence",
+          "category": "Policy",
+          "summary": "Under proposed changes to road traffic law, drivers caught merely holding a mobile phone while driving could face fines of up to S$1,000 and up to six months' jail, CNA and The Straits Times reported.",
+          "source": "CNA, The Straits Times, Mothership",
+          "published_at": "2026-07-07T12:26+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/mobile-phones-driving-holding-road-traffic-smartwatch-parliament-6226391"
+        },
+        {
+          "id": "sg3",
+          "headline": "Taxi, private-hire drivers to get support amid driverless-vehicle shift",
+          "category": "Transport",
+          "summary": "Taxi and private-hire drivers will get career-conversion programmes and up to S$1,600 in training incentives to take up new roles as Singapore expands autonomous vehicles, CNA reported.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-07T18:50+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/autonomous-vehicle-career-conversion-training-incentives-taxi-phv-driver-6237936"
+        },
+        {
+          "id": "sg4",
+          "headline": "Singapore to invest S$800 million in transport research over five years",
+          "category": "Transport",
+          "summary": "Singapore will invest S$800 million in transport research and innovation over the next five years under RIE2030, as Parliament backed a long-term transport strategy, CNA and The Straits Times reported.",
+          "source": "CNA, The Straits Times",
+          "published_at": "2026-07-07T18:25+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/s800-million-transport-research-parliament-motion-rie2030-6237911"
+        },
+        {
+          "id": "sg5",
+          "headline": "NEA flags fast-growing dengue cluster in Yio Chu Kang",
+          "category": "Health",
+          "summary": "The National Environment Agency reported a fast-growing dengue cluster in the Yio Chu Kang/Lentor area with 135 cases so far, urging residents to remove stagnant water and take precautions.",
+          "source": "CNA (NEA)",
+          "published_at": "2026-07-07T17:14+08:00",
+          "url": "https://www.channelnewsasia.com/singapore/dengue-cluster-yio-chu-kang-lentor-nea-6237831"
+        },
+        {
+          "id": "sg6",
+          "headline": "17 arrested, over S$720,000 seized in islandwide gambling bust",
+          "category": "Crime",
+          "summary": "Police arrested 17 people and seized more than S$720,000 in an islandwide operation against illegal gambling, The Straits Times reported.",
+          "source": "The Straits Times",
+          "published_at": "2026-07-07T19:42+08:00",
+          "url": "https://www.straitstimes.com/singapore/17-people-arrested-over-720000-seized-in-islandwide-gambling-bust"
+        },
+        {
+          "id": "sg7",
+          "headline": "Jackie Chan visits Singapore school and breaks into song",
+          "category": "Buzz",
+          "summary": "Actor Jackie Chan visited Pei Chun Public School, telling pupils 'without dreams, you'll never succeed' and breaking into song before he left, Mothership reported.",
+          "source": "Mothership",
+          "published_at": "2026-07-07T12:49+08:00",
+          "url": "https://mothership.sg/2026/07/jackie-chan-visit-singapore-school/"
+        },
+        {
+          "id": "sg8",
+          "headline": "Boon Lay woman fights upstairs noise with a screaming rubber chicken",
+          "category": "Buzz",
+          "summary": "A 62-year-old Boon Lay resident losing sleep over noise from the unit above has hit back with a screaming rubber chicken and banging pots, in a neighbourly dispute that has drawn attention online, Mothership reported.",
+          "source": "Mothership",
+          "published_at": "2026-07-07T14:33+08:00",
+          "url": "https://mothership.sg/2026/07/boon-lay-woman-noise-screaming-chicken/"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "Russia–Ukraine is the most active theatre: Russian strikes killed 24 in the Kyiv region ahead of the NATO summit, where Zelensky is pressing for air defences, while Kyiv claims strikes on Russian 'shadow-fleet' tankers. In the Middle East, a fragile US–Iran truce holds as Iran mourns Khamenei and tankers are hit in the Strait of Hormuz; in Gaza, Israeli strikes continue, Hamas says it will dissolve its governing body, and Israel–Lebanon talks are set for Rome.",
+      "theatres": [
+        {
+          "name": "Russia–Ukraine",
+          "status": "Heavy Russian strikes on Kyiv; Ukraine claims hits on Russia's 'shadow fleet' as Zelensky lobbies NATO for air defence",
+          "timeline": [
+            { "date": "2026-07-06", "event": "Russian strikes kill 24 people in the Kyiv region on the eve of the NATO summit.", "source": "CNA", "url": "https://www.channelnewsasia.com/world/russian-strikes-kill-24-in-kyiv-region-eve-nato-summit-6234056" },
+            { "date": "2026-07-07", "event": "Analysis of intercept data suggests Ukraine is increasingly struggling to shoot down Russian ballistic missiles.", "source": "The Straits Times", "url": "https://www.straitstimes.com/world/europe/ukraine-now-struggles-to-intercept-ballistic-missiles-data-show" },
+            { "date": "2026-07-07", "event": "Zelensky to press the NATO summit for more air-defence systems after intense Russian strikes.", "source": "BBC", "url": "https://www.bbc.co.uk/news/articles/c9d227e5zj6o" },
+            { "date": "2026-07-07", "event": "Ukraine says its forces struck eight Russian 'shadow fleet' tankers (Kyiv claim, not independently verified).", "source": "The Straits Times", "url": "https://www.straitstimes.com/world/europe/ukraine-strikes-eight-russian-shadow-fleet-tankers-kyiv-says" }
+          ]
+        },
+        {
+          "name": "US–Iran / Strait of Hormuz",
+          "status": "Fragile truce holds; Iran mourns Khamenei; tankers struck in the Strait of Hormuz",
+          "timeline": [
+            { "date": "2026-07-07", "event": "Trump says there will either be a deal with Iran or the US will 'finish the job.'", "source": "CNA", "url": "https://www.channelnewsasia.com/world/trump-iran-us-deal-says-will-finish-job-6235951" },
+            { "date": "2026-07-07", "event": "An oil tanker is hit by an 'unknown projectile' in the Strait of Hormuz region, a maritime agency says.", "source": "CNA", "url": "https://www.channelnewsasia.com/world/oil-tanker-hit-strait-hormuz-6236736" },
+            { "date": "2026-07-07", "event": "Huge crowds in Iran hold funeral processions for Supreme Leader Ayatollah Ali Khamenei; Tehran says no talks unless Trump halts threats.", "source": "The Straits Times", "url": "https://www.straitstimes.com/world/middle-east/ship-hit-in-hormuz-as-millions-march-for-ayatollah-iran-says-no-talks-unless-trump-halts-threats" }
+          ]
+        },
+        {
+          "name": "Israel–Gaza / Lebanon",
+          "status": "Sporadic strikes continue; Hamas says it will dissolve its Gaza governing body; Israel–Lebanon talks set for Rome",
+          "timeline": [
+            { "date": "2026-07-06", "event": "Hamas announces the dissolution of its Gaza governing body.", "source": "CNA", "url": "https://www.channelnewsasia.com/world/hamas-dissolve-gaza-governing-body-6235066" },
+            { "date": "2026-07-07", "event": "Israel and Lebanon agree to hold talks in Rome in mid-July.", "source": "The Straits Times", "url": "https://www.straitstimes.com/world/middle-east/israel-lebanon-to-hold-talks-in-rome-in-mid-july" },
+            { "date": "2026-07-07", "event": "Israeli strikes kill two people in Gaza, medics say.", "source": "The Straits Times", "url": "https://www.straitstimes.com/world/middle-east/israeli-strikes-kill-two-people-in-gaza-medics-say" }
+          ]
+        }
+      ]
+    },
+    "outbreaks": {
+      "label": "Outbreaks",
+      "ai_summary": "WHO says the Bundibugyo Ebola outbreak in DR Congo is still expanding — 1,481 confirmed cases and 454 deaths as of early July, a fatality rate near 31%, with over 100 health workers infected and one imported case in France. The Andes hantavirus cluster from the MV Hondius cruise holds at 13 cases and 3 deaths, human-to-human spread confirmed aboard but off-ship risk low. WHO has also flagged a Nipah case in Kerala.",
+      "outbreaks": [
+        {
+          "name": "Ebola (Bundibugyo virus) — DR Congo & Uganda",
+          "status": "Still in expansion phase (WHO, 3 Jul); crude CFR ~31%",
+          "cases": 1481,
+          "deaths": 454,
+          "countries": 3,
+          "as_of": "2026-07-03",
+          "scope_note": "Confirmed cases only: DRC 1,460 cases / 452 deaths (as of 1 Jul, CFR 30.9%), Uganda 20 / 2, plus one imported case in France linked to DRC. 102 health workers infected. Source: WHO DON612."
+        },
+        {
+          "name": "Andes hantavirus — MV Hondius cruise",
+          "status": "Human-to-human spread confirmed aboard ship; off-ship risk low",
+          "cases": 13,
+          "deaths": 3,
+          "countries": 33,
+          "as_of": "2026-07-02",
+          "scope_note": "12 confirmed + 1 probable case, all M/V Hondius travellers; 3 deaths (ages 69, 70, 79); CFR 23%. Contacts traced across 33 countries/territories. Source: WHO DON611."
+        }
+      ],
+      "stories": [
+        {
+          "id": "ob1",
+          "headline": "WHO says DR Congo Ebola outbreak still in 'expansion phase'",
+          "category": "Ebola",
+          "summary": "WHO said the Bundibugyo Ebola outbreak in DR Congo remains in an expansion phase, with confirmed cases and deaths rising rapidly; the latest WHO figures put the outbreak at 1,481 confirmed cases and 454 deaths across DRC, Uganda and one imported case in France.",
+          "source": "The Straits Times, WHO",
+          "published_at": "2026-07-07T17:26+08:00",
+          "url": "https://www.straitstimes.com/world/ebola-outbreak-in-congo-still-in-expansion-phase-who-says"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "Vulnerabilities lead this cycle. A max-severity Adobe ColdFusion flaw (CVE-2026-48282, CVSS 10) is being exploited within hours of disclosure; a critical Gitea Docker flaw (CVE-2026-20896) is being probed in the wild; BeyondTrust patched critical auth-bypass bugs in its remote-access tools; and a China-aligned group is exploiting Roundcube webmail at universities. Also notable: a 16-year-old 'Januscape' Linux KVM VM-escape flaw, a hidden backdoor in Tenda routers, and Iran-linked hackers deploying a new 'Cavern' C2 against Israeli targets.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "Critical Gitea Docker flaw being probed in the wild",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-20896",
+          "cvss": 9.8,
+          "severity": "CRITICAL",
+          "summary": "Threat actors are attempting to exploit CVE-2026-20896 (CVSS 9.8), a critical flaw in Gitea Docker images, roughly 13 days after disclosure, Sysdig said via The Hacker News. Administrators running affected Gitea container images should patch.",
+          "source": "The Hacker News, Sysdig, NVD",
+          "published_at": "2026-07-07",
+          "url": "https://thehackernews.com/2026/07/threat-actors-probe-gitea-docker-flaw.html"
+        },
+        {
+          "id": "cs2",
+          "headline": "China-aligned hackers exploit Roundcube webmail at universities",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2024-42009",
+          "cvss": 9.3,
+          "severity": "CRITICAL",
+          "summary": "A suspected China-aligned cluster is exploiting Roundcube webmail flaws — including CVE-2024-42009 (CVSS 9.3) — at physics and engineering departments of US and Canadian universities, The Hacker News reported. Organisations running Roundcube should ensure they are patched.",
+          "source": "The Hacker News, NVD",
+          "published_at": "2026-07-07",
+          "url": "https://thehackernews.com/2026/07/suspected-china-aligned-hackers-exploit.html"
+        },
+        {
+          "id": "cs3",
+          "headline": "BeyondTrust patches critical auth-bypass flaws in remote-access tools",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-40138",
+          "cvss": 9.2,
+          "severity": "CRITICAL",
+          "summary": "BeyondTrust released fixes for two critical flaws in Remote Support (RS) and Privileged Remote Access (PRA). The headline bug, CVE-2026-40138 (CVSS 9.2), is an authentication weakness that could let unauthenticated attackers take control of affected appliances; about 2,000 instances remain exposed online, though no exploitation is yet reported. Two high-severity issues were also patched.",
+          "source": "The Hacker News, BleepingComputer, NVD",
+          "published_at": "2026-07-07",
+          "url": "https://www.bleepingcomputer.com/news/security/beyondtrust-warns-of-critical-flaws-in-remote-access-software/"
+        },
+        {
+          "id": "cs4",
+          "headline": "16-year-old 'Januscape' Linux KVM flaw lets guest VMs escape to host",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-53359",
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "A use-after-free bug in Linux's KVM hypervisor, dubbed 'Januscape' (CVE-2026-53359), can be triggered from a guest VM to corrupt host-kernel state and escape to the host on Intel and AMD x86 systems, The Hacker News and BleepingComputer reported. The 16-year-old flaw sits in the shadow-MMU code; patch when fixes are available.",
+          "source": "The Hacker News, BleepingComputer",
+          "published_at": "2026-07-07",
+          "url": "https://www.bleepingcomputer.com/news/linux/new-januscape-linux-kernel-flaw-allows-vm-escape-on-intel-amd-devices/"
+        },
+        {
+          "id": "cs5",
+          "headline": "CERT/CC warns of hidden admin backdoor in Tenda router firmware",
+          "category": "Vulnerability",
+          "cve": "CVE-2026-11405",
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Several firmware versions from Chinese network-device maker Tenda embed an undocumented authentication backdoor (CVE-2026-11405) that grants administrative access to the devices' web management interfaces, the CERT Coordination Center warned via The Hacker News.",
+          "source": "The Hacker News, CERT/CC",
+          "published_at": "2026-07-07",
+          "url": "https://thehackernews.com/2026/07/certcc-warns-of-hidden-admin-backdoor.html"
+        },
+        {
+          "id": "cs6",
+          "headline": "Iran-linked hackers deploy new 'Cavern' C2 against Israeli organisations",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "An Iranian group affiliated with the Ministry of Intelligence and Security (MOIS) is using a previously undocumented modular command-and-control framework dubbed 'Cavern' (aka Cav3rn) to target Israeli organisations, The Hacker News reported.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-07",
+          "url": "https://thehackernews.com/2026/07/iran-linked-hackers-use-new-cavern-c2.html"
+        },
+        {
+          "id": "cs7",
+          "headline": "Fake IT-support calls on Microsoft Teams push EtherRAT malware",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Attackers are impersonating IT support in Microsoft Teams calls to trick employees into running commands that install EtherRAT malware, BleepingComputer reported — a reminder to verify support contacts out of band.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-07",
+          "url": "https://www.bleepingcomputer.com/news/security/fake-it-support-calls-on-microsoft-teams-push-etherrat-malware/"
+        },
+        {
+          "id": "cs8",
+          "headline": "Max-severity Adobe ColdFusion flaw now exploited in attacks",
+          "category": "Exploited Vulnerability",
+          "cve": "CVE-2026-48282",
+          "cvss": 10.0,
+          "severity": "CRITICAL",
+          "summary": "A maximum-severity Adobe ColdFusion flaw, CVE-2026-48282 (CVSS 10.0), is being exploited in the wild within hours of disclosure, BleepingComputer reported; Adobe patched it on 1 July and Canada's cyber centre confirmed ongoing attacks. Affected versions include ColdFusion 2025.9, 2023.20 and earlier — patch immediately.",
+          "source": "BleepingComputer, NVD",
+          "published_at": "2026-07-06",
+          "url": "https://www.bleepingcomputer.com/news/security/max-severity-adobe-coldfusion-flaw-now-exploited-in-attacks/"
+        },
+        {
+          "id": "cs9",
+          "headline": "Opera GX flaw let malicious sites silently install data-stealing mods",
+          "category": "Vulnerability",
+          "cve": null,
+          "cvss": null,
+          "severity": "MEDIUM",
+          "summary": "A flaw in Opera GX, the gaming-focused Opera browser, let a malicious website silently install a browser add-on and lift data from pages a victim visits — in a proof of concept, researchers reconstructed a signed-in user's full Gmail address from a single visit, The Hacker News reported.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-06",
+          "url": "https://thehackernews.com/2026/07/opera-gx-flaw-let-malicious-sites-auto.html"
+        },
+        {
+          "id": "cs10",
+          "headline": "'SkillCloak' lets malicious AI-agent skills evade static scanners",
+          "category": "Research",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "Researchers at HKUST showed that scanners meant to catch malicious add-on 'skills' for AI coding agents can be fooled by simple self-extracting packing changes that leave the malware working — a warning for teams relying on static checks of agent skills, The Hacker News reported.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-06",
+          "url": "https://thehackernews.com/2026/07/new-skillcloak-technique-lets-malicious.html"
+        },
+        {
+          "id": "cs11",
+          "headline": "China-nexus hackers use fake Indian tax-filing utility to deploy DcRAT",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "A suspected China-nexus cluster is targeting Indian taxpayers, tax professionals and corporate finance teams with a fake tax-filing utility that delivers the DcRAT remote-access trojan to steal data, The Hacker News reported.",
+          "source": "The Hacker News",
+          "published_at": "2026-07-06",
+          "url": "https://thehackernews.com/2026/07/suspected-china-nexus-hackers-use-fake.html"
+        },
+        {
+          "id": "cs12",
+          "headline": "'JadePuffer' ransomware used an AI agent to automate the whole attack",
+          "category": "Threat Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "BleepingComputer reported on JadePuffer ransomware that used an AI agent to automate an entire intrusion end to end — an early example of agent-driven attack tooling defenders should watch.",
+          "source": "BleepingComputer",
+          "published_at": "2026-07-04",
+          "url": "https://www.bleepingcomputer.com/news/security/jadepuffer-ransomware-used-ai-agent-to-automate-entire-attack/"
+        }
+      ]
+    }
+  }
+}

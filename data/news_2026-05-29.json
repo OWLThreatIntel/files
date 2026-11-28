@@ -1,0 +1,340 @@
+{
+  "meta": {
+    "date": "2026-05-29",
+    "generated_at": "2026-05-29T21:10:00+08:00",
+    "edition": "Daily News Briefing — Evening SGT",
+    "sources": [
+      "CNN",
+      "Axios",
+      "CNBC",
+      "Al Jazeera",
+      "The Washington Post",
+      "The Hill (AP)",
+      "Euronews",
+      "IISS",
+      "MINDEF Singapore",
+      "The Straits Times",
+      "Mothership",
+      "Bloomberg",
+      "NEA (weather.gov.sg)",
+      "Ukrinform (Ukraine General Staff)",
+      "WHO",
+      "ECDC",
+      "US CDC",
+      "DRC Ministry of Health",
+      "Uganda Ministry of Health",
+      "BleepingComputer",
+      "The Hacker News",
+      "CISA",
+      "Rapid7",
+      "WithSecure"
+    ],
+    "notes": "Evening edition, compiled at 21:10 SGT. Top Stories and Singapore filtered to the last 24 hours (cutoff ~2026-05-28 21:00 SGT); Wars and Health Outbreaks to the last 14 days, freshest first; CyberSecurity to the last 7 days (cutoff ~2026-05-22), ordered newest-first with severity as the tiebreaker. All figures re-verified against current sources this run, not carried forward — the Ebola tally was updated to ECDC's 29 May (13:30) figures after a DRC data revision, and a Google Chrome cookie-protection item and Cisco/Windows CVEs were dropped after their real publication dates (Apr/May 14) put them outside the cyber window. Contested war claims are attributed to the party making them; casualty and military figures from parties to a conflict are treated as claims. The US-Iran MOU is attributed to US officials via Axios and CNN — Trump has said he wants a couple of days to consider it and VP Vance called signing 'TBD'; Iranian state media (Fars) disputes Trump's characterisation, saying the strait stays under Iranian control. Outbreak stats are sourced from ECDC's 29 May update (the single source of truth for the health stat bar)."
+  },
+  "sections": {
+    "top_stories": {
+      "label": "Top Stories",
+      "ai_summary": "Diplomacy is inching forward on two fronts while the fighting continues. US officials say negotiators have agreed a 60-day memorandum with Iran to extend the truce and reopen the Strait of Hormuz, but President Trump says he wants a few days to think it over and VP Vance calls signing 'TBD'. On Lebanon, Israeli and Lebanese military officials met at the Pentagon today after a deadly Israeli escalation killed at least 19 on 28 May; the State Department called the talks 'highly productive', with another round set for 2-3 June. And Asia's top defence summit, the Shangri-La Dialogue, opened in Singapore with Vietnam's President To Lam delivering the keynote.",
+      "stories": [
+        {
+          "id": "ts1",
+          "headline": "Trump weighs whether to back a 60-day US-Iran memo; Vance says signing is 'TBD'",
+          "category": "World / Diplomacy",
+          "summary": "US officials say negotiators have agreed a 60-day memorandum of understanding with Iran to extend the ceasefire, reopen the Strait of Hormuz and open a negotiating window on Iran's nuclear programme, according to Axios and CNN. Under the draft, shipping through the strait would be 'unrestricted', Iran would clear all mines within 30 days and the US would lift its naval blockade proportionally, while the fate of Iran's near-weapons-grade uranium is deferred to the talks. President Trump has not signed off — officials say he 'wants a couple of days to think about it' — and Vice-President JD Vance said it is 'TBD' whether Trump signs, citing unresolved language on enrichment. Iranian state media (Fars) disputes Trump's framing, saying the strait remains under Iranian control.",
+          "source": "Axios / CNN / CNBC",
+          "published_at": "2026-05-29",
+          "url": "https://www.axios.com/2026/05/28/iran-peace-deal-trump-approval"
+        },
+        {
+          "id": "ts2",
+          "headline": "Shangri-La Dialogue opens in Singapore; Vietnam's To Lam delivers the keynote",
+          "category": "World / Security",
+          "summary": "The 23rd IISS Shangri-La Dialogue, Asia's premier defence summit, opened in Singapore on 29 May and runs through 31 May, hosted by Defence Minister Chan Chun Sing. Vietnam's Communist Party chief and President To Lam delivered the opening keynote — the first general secretary of a communist party to do so — stressing strategic autonomy, sovereignty, international law and peaceful dispute resolution, in line with Hanoi's 'four no's' defence policy. US Secretary of Defense Pete Hegseth is due to address America's Indo-Pacific strategy in the first plenary on 30 May, with the war in Iran, US commitments in Asia and Taiwan high on the agenda.",
+          "source": "IISS / MINDEF Singapore",
+          "published_at": "2026-05-29",
+          "url": "https://www.iiss.org/events/shangri-la-dialogue/shangri-la-dialogue-2026/"
+        },
+        {
+          "id": "ts3",
+          "headline": "Israeli and Lebanese officers meet at the Pentagon after a deadly escalation in Lebanon",
+          "category": "World / Conflict",
+          "summary": "Israeli and Lebanese military officials held their first security talks at the Pentagon on 29 May under US facilitation; the State Department described the Washington track as 'highly productive' and said the sides would reconvene on 2-3 June. The meeting followed a sharp Israeli escalation: Lebanese health authorities said at least 19 people were killed and 58 wounded in strikes across Lebanon on 28 May, including a woman and two children in Choueifat near Beirut's airport — the first strike on the capital's outskirts in weeks. Israel said it targeted Hezbollah infrastructure; Lebanon's army said one of its soldiers was killed. Hezbollah has dismissed the talks.",
+          "source": "The Washington Post / The Hill (AP) / Al Jazeera",
+          "published_at": "2026-05-29",
+          "url": "https://www.washingtonpost.com/world/2026/05/28/lebanon-israel-hezbollah-airstrikes-tyre-washington-talks/878c4fe0-5a69-11f1-8a9d-afb1148204e1_story.html"
+        },
+        {
+          "id": "ts4",
+          "headline": "Ukraine says Russian drones hit merchant ships in the Black Sea overnight",
+          "category": "World / Conflict",
+          "summary": "Ukraine's military reported that Russian strike drones attacked three foreign merchant vessels in the Black Sea overnight into 29 May, including a Turkish cargo ship leaving the Odesa region that caught fire, with two crew injured — a Ukrainian account not independently verified. Ukraine's General Staff also reported about 267 combat clashes over the previous day, concentrated again on the Pokrovsk and Huliaipole sectors, and said it struck the Lukoil refinery in Volgograd overnight. Figures from each side in the war are treated as claims.",
+          "source": "Ukrinform (Ukraine General Staff)",
+          "published_at": "2026-05-29",
+          "url": "https://www.ukrinform.net/rubric-ato"
+        }
+      ]
+    },
+    "singapore": {
+      "label": "Singapore",
+      "ai_summary": "It's a big diplomacy weekend for Singapore. The Shangri-La Dialogue opened today through Sunday, with Vietnam's President To Lam — in town on a state visit — giving the keynote and US defence chief Pete Hegseth speaking tomorrow; PM Lawrence Wong held bilaterals with US and French defence officials on the sidelines, and Singapore and Vietnam pledged to keep trade flows open. Weather-wise, NEA's evening forecast is cloudy tonight and partly cloudy tomorrow, 26-34°C, with a fairly high chance of rain.",
+      "stories": [
+        {
+          "id": "sg1",
+          "headline": "Singapore opens the 23rd Shangri-La Dialogue; To Lam gives the keynote",
+          "category": "Defence / Diplomacy",
+          "summary": "Singapore is hosting the IISS Shangri-La Dialogue from 29 to 31 May, with Defence Minister Chan Chun Sing hosting and 44 countries represented. Vietnam's President To Lam delivered the opening keynote on 29 May — the first Vietnamese leader to do so at the summit — emphasising strategic autonomy, sovereignty and peaceful dispute resolution. US defence chief Pete Hegseth speaks in the first plenary on 30 May. Motorists should expect road restrictions around the Shangri-La hotel near Orchard over the weekend.",
+          "source": "MINDEF Singapore / IISS",
+          "published_at": "2026-05-29",
+          "url": "https://www.mindef.gov.sg/news-and-events/latest-releases/28may26-nr/"
+        },
+        {
+          "id": "sg2",
+          "headline": "PM Wong holds defence bilaterals; Singapore and Vietnam pledge open trade",
+          "category": "Foreign Relations",
+          "summary": "Prime Minister Lawrence Wong met senior US and French defence officials on the sidelines of the Shangri-La Dialogue on 29 May, discussing defence ties and regional stability. Separately, on the back of President To Lam's visit, Singapore and Vietnam issued a joint statement pledging to keep trade flows unimpeded and their markets open and connected, underscoring closer economic and strategic ties between the two countries.",
+          "source": "The Straits Times / CNA",
+          "published_at": "2026-05-29",
+          "url": "https://www.straitstimes.com/singapore"
+        },
+        {
+          "id": "sg3",
+          "headline": "Tonight's weather: cloudy, with a fairly high chance of rain",
+          "category": "Weather",
+          "summary": "Singapore's National Environment Agency 24-hour forecast, last updated at 5.32pm on 29 May, is for cloudy skies tonight and partly cloudy conditions tomorrow, with a 55-95% chance of rain over the period. Temperatures are forecast between about 26C and 34C, with southerly winds of 10 to 20 km/h.",
+          "source": "NEA (weather.gov.sg)",
+          "published_at": "2026-05-29T17:32+08:00",
+          "url": "https://www.weather.gov.sg/weather-forecast-24hrforecast/"
+        },
+        {
+          "id": "sg4",
+          "headline": "Malaysian man to be charged over impersonation-scam role",
+          "category": "Crime / Courts",
+          "summary": "A 27-year-old Malaysian man is due to be charged on 30 May over his suspected involvement in a government-official impersonation scam, after he allegedly helped scam syndicates collect cash and valuables from victims in Singapore, according to local reports. Police have repeatedly warned the public that government agencies will not ask people to transfer money or hand over cash and valuables over the phone.",
+          "source": "CNA / The Straits Times",
+          "published_at": "2026-05-29",
+          "url": "https://www.channelnewsasia.com/singapore"
+        }
+      ]
+    },
+    "wars": {
+      "label": "Wars & Conflicts",
+      "ai_summary": "Diplomacy advanced on two tracks even as the fighting went on. US officials say a 60-day US-Iran memorandum has been agreed to extend the truce and reopen the Strait of Hormuz, but Trump wants a few days to decide and Vance calls signing 'TBD'; Iran disputes who controls the strait. On Lebanon, Israeli and Lebanese officers met at the Pentagon on 29 May — talks the US calls 'highly productive', resuming 2-3 June — after strikes Lebanese authorities say killed at least 19 on 28 May. In Ukraine, fighting stayed heavy around Pokrovsk and Huliaipole, and Kyiv says Russian drones hit merchant ships in the Black Sea overnight into 29 May.",
+      "theatres": [
+        {
+          "name": "US / Israel–Iran & the Strait of Hormuz",
+          "status": "Deal drafted, not signed — US officials say a 60-day memorandum has been agreed to extend the truce, reopen Hormuz (unrestricted shipping, mines cleared within 30 days, blockade lifted proportionally) and defer Iran's uranium to talks. Trump 'wants a couple of days to think about it' and VP Vance calls signing 'TBD'; Iranian state media disputes Trump's framing, saying the strait stays under Iranian control",
+          "timeline": [
+            {
+              "date": "2026-02-28",
+              "event": "The US and Israel launch an air war on Iran, striking nuclear and military sites; transit through the Strait of Hormuz collapses to a fraction of normal levels.",
+              "source": "Britannica",
+              "url": "https://www.britannica.com/event/2026-Iran-war"
+            },
+            {
+              "date": "2026-04-08",
+              "event": "A US-Iran ceasefire takes effect, mediated by Pakistan; on 21 April President Trump says he is extending it indefinitely. It is repeatedly tested in the weeks that follow.",
+              "source": "Wikipedia (2026 Iran war ceasefire)",
+              "url": "https://en.wikipedia.org/wiki/2026_Iran_war_ceasefire"
+            },
+            {
+              "date": "2026-05-25",
+              "event": "US forces carry out 'self-defence' strikes on Iranian missile-launch sites and boats near the strait at Bandar Abbas, saying the boats were attempting to lay mines; Iran calls it a ceasefire violation and threatens to retaliate. Oil jumps more than 3%.",
+              "source": "CNN / NBC News",
+              "url": "https://www.cnn.com/2026/05/25/world/live-news/iran-war-us-peace-deal"
+            },
+            {
+              "date": "2026-05-28",
+              "event": "US officials say negotiators have reached a tentative 60-day memorandum of understanding: shipping through Hormuz would be 'unrestricted', Iran would clear all mines within 30 days and the US would lift its blockade proportionally, while the fate of Iran's near-weapons-grade uranium is deferred to the talks. Officials say Trump 'wants a couple of days to think about it'.",
+              "source": "Axios / CNN",
+              "url": "https://www.axios.com/2026/05/28/iran-peace-deal-trump-approval"
+            },
+            {
+              "date": "2026-05-29",
+              "event": "VP JD Vance says it is 'TBD' whether Trump signs the MOU, citing unresolved 'language points' on enrichment and Iran's highly enriched stockpile. Iranian state media (Fars) disputes Trump's characterisation, saying the Strait of Hormuz remains under Iranian control. The hardest nuclear issues remain open.",
+              "source": "CNN / Axios",
+              "url": "https://www.cnn.com/2026/05/29/world/live-news/iran-trump-war-news"
+            }
+          ]
+        },
+        {
+          "name": "Israel–Lebanon / Hezbollah",
+          "status": "Talks amid strikes — Israeli and Lebanese military officials met at the Pentagon on 29 May; the State Department called the Washington track 'highly productive' and said the sides would reconvene on 2-3 June. The talks followed a sharp escalation in which Lebanese authorities say at least 19 were killed on 28 May, including a strike on Choueifat near Beirut's airport. Hezbollah has dismissed the talks",
+          "timeline": [
+            {
+              "date": "2026-03-02",
+              "event": "Fighting between Israel and Hezbollah escalates sharply after Hezbollah fires at Israel in support of Iran; a wave of Israeli strikes and displacement follows.",
+              "source": "Reuters / Al Jazeera",
+              "url": "https://www.aljazeera.com/news/2026/5/28/israel-intensifies-attacks-on-southern-lebanon-killing-at-least-16-people"
+            },
+            {
+              "date": "2026-05-27",
+              "event": "Israel declares a large swathe of southern Lebanon a 'combat zone' and orders residents, including in Tyre, to evacuate north of the Zahrani river — a far larger area than past Litani-line orders. Residents flee toward Sidon.",
+              "source": "Reuters / US News",
+              "url": "https://www.usnews.com/news/world/articles/2026-05-27/israel-declares-new-swathe-of-lebanon-a-combat-zone-warns-residents-to-leave"
+            },
+            {
+              "date": "2026-05-28",
+              "event": "Lebanese health authorities say at least 19 people were killed and 58 wounded in Israeli attacks across Lebanon, including a woman and two children in Choueifat near Beirut's airport (the first strike near the capital in weeks), six members of one family on the Adloun Highway, and five people in a strike in Sidon. Israel says it struck Hezbollah infrastructure; Lebanon's army says one of its soldiers was killed.",
+              "source": "Al Jazeera / The Washington Post",
+              "url": "https://www.washingtonpost.com/world/2026/05/28/lebanon-israel-hezbollah-airstrikes-tyre-washington-talks/878c4fe0-5a69-11f1-8a9d-afb1148204e1_story.html"
+            },
+            {
+              "date": "2026-05-29",
+              "event": "Israeli and Lebanese military officials hold their first security talks at the Pentagon under US facilitation. The State Department calls the Washington track 'highly productive' and says the sides will reconvene on 2-3 June. Hezbollah has dismissed the talks and urged Lebanon's leadership to withdraw.",
+              "source": "The Hill (AP) / The Washington Post",
+              "url": "https://thehill.com/homenews/ap/ap-international/ap-israeli-strikes-kill-at-least-14-across-southern-lebanon-ahead-of-washington-talks/"
+            }
+          ]
+        },
+        {
+          "name": "Russia–Ukraine War",
+          "status": "Active — Ukraine's General Staff reports about 267 combat clashes over the past day, with Russia's most active assaults again on the Pokrovsk and Huliaipole sectors. Kyiv says Russian drones attacked three foreign merchant vessels in the Black Sea overnight into 29 May, including a Turkish cargo ship leaving Odesa (fire, two crew injured), and that it struck the Lukoil refinery in Volgograd. Figures from each side are treated as claims",
+          "timeline": [
+            {
+              "date": "2022-02-24",
+              "event": "Russia launches its full-scale invasion of Ukraine.",
+              "source": "BBC",
+              "url": "https://www.bbc.com/news/world-europe-60504334"
+            },
+            {
+              "date": "2026-05-24",
+              "event": "Russia hits Kyiv with a mass overnight barrage. Ukraine's Air Force says Russia used about 600 drones and 90 missiles, including an Oreshnik missile that struck Bila Tserkva; Ukrainian authorities report at least four killed and around 100 injured. By locations damaged, it was among the largest attacks on Kyiv of the war (a Ukrainian account).",
+              "source": "NPR / Kyiv Independent (Ukrainian Air Force)",
+              "url": "https://www.npr.org/2026/05/24/nx-s1-5833050/russia-uses-hypersonic-oreshnik-missile-in-mass-attack-on-kyiv"
+            },
+            {
+              "date": "2026-05-28",
+              "event": "Ukraine's General Staff reports about 267 combat clashes over the day, with Russia's most active assaults on the Pokrovsk and Huliaipole sectors. Ukraine says it neutralised 217 of 232 Russian drones launched overnight (Ukrainian claims).",
+              "source": "Ukrinform (Ukraine General Staff)",
+              "url": "https://www.ukrinform.net/rubric-ato"
+            },
+            {
+              "date": "2026-05-29",
+              "event": "Kyiv says Russian strike drones attacked three foreign merchant vessels in the Black Sea overnight, including a Turkish cargo ship leaving the Odesa region that caught fire, injuring two crew. Ukraine also says it struck the Lukoil refinery in Volgograd overnight into 29 May (Ukrainian claims, not independently verified).",
+              "source": "Ukrinform (Ukraine General Staff)",
+              "url": "https://www.ukrinform.net/rubric-ato"
+            }
+          ]
+        }
+      ]
+    },
+    "hantavirus": {
+      "label": "Health Outbreaks",
+      "ai_summary": "Two outbreaks, very different scales. The bigger worry remains a rare Bundibugyo-strain Ebola epidemic in eastern DR Congo and Uganda: ECDC's 29 May update puts it at 134 confirmed cases and 18 deaths, with around 900 further suspected cases in Congo and no licensed vaccine for this strain, which the WHO has at its highest alert level. DRC revised its suspected tallies down this week after removing non-cases. The separate MV Hondius cruise-ship hantavirus cluster is far smaller and steady at 13 cases and 3 deaths; everyday risk for most readers remains very low.",
+      "stats": {
+        "cases": 134,
+        "deaths": 18,
+        "countries": 2,
+        "as_of": "2026-05-29",
+        "scope_note": "Confirmed cases only, DR Congo + Uganda combined (DRC 125 confirmed / 17 deaths; Uganda 9 confirmed / 1 death = 134 / 18), per ECDC's update of 29 May 2026 (13:30) drawing on the DRC and Uganda health ministries. A further ~906 suspected (not lab-confirmed) cases and ~223 suspected deaths in DRC are counted separately, not added here; DRC revised these down this week after removing non-cases and reclassifying some as confirmed, so agency tallies vary. Figures refer to the Bundibugyo-strain Ebola epidemic, not the separate MV Hondius hantavirus cluster (13 cases / 3 deaths)."
+      },
+      "stories": [
+        {
+          "id": "hv1",
+          "headline": "Confirmed Bundibugyo Ebola cases reach 134 across DR Congo and Uganda",
+          "category": "Outbreak",
+          "summary": "ECDC's 29 May update puts the Bundibugyo-strain Ebola epidemic at 134 confirmed cases and 18 deaths: DR Congo reports 125 confirmed cases and 17 deaths across Ituri, North Kivu and South Kivu, plus about 906 suspected cases and 223 suspected deaths, while Uganda reports 9 confirmed cases and 1 death (several DRC-linked). DRC revised its suspected tallies downward this week after removing non-cases and reclassifying some as confirmed. The WHO declared the epidemic a Public Health Emergency of International Concern on 17 May. There is no licensed vaccine or specific therapeutic for this strain, so contact-tracing, isolation and early supportive care are the main tools.",
+          "source": "ECDC / US CDC / WHO",
+          "published_at": "2026-05-29",
+          "url": "https://www.ecdc.europa.eu/en/ebola-virus-disease-outbreak-democratic-republic-congo-and-uganda"
+        },
+        {
+          "id": "hv2",
+          "headline": "WHO urges no travel bans as it keeps Ebola at its highest alert",
+          "category": "Public Health",
+          "summary": "After determining the epidemic a Public Health Emergency of International Concern on 17 May, the WHO's emergency committee issued temporary recommendations urging that confirmed, probable and suspected Ebola cases and their contacts avoid international travel, but explicitly advised against flight suspensions or border closures, warning they can push movement to unmonitored crossings. The outbreak is unfolding in a difficult context of humanitarian crisis, insecurity and high population movement in eastern DRC.",
+          "source": "WHO",
+          "published_at": "2026-05-17",
+          "url": "https://www.who.int/news/item/17-05-2026-epidemic-of-ebola-disease-in-the-democratic-republic-of-the-congo-and-uganda-determined-a-public-health-emergency-of-international-concern"
+        },
+        {
+          "id": "hv3",
+          "headline": "Cruise-ship hantavirus cluster holds at 13 cases and 3 deaths",
+          "category": "Public Health",
+          "summary": "In its latest update, dated 26 May, Europe's disease agency ECDC reported 13 cases (11 confirmed, 2 probable) and 3 deaths in the Andes hantavirus cluster linked to the cruise ship MV Hondius, whose passengers and crew came from 23 countries — one new case and no new deaths since the previous update. ECDC has not declared the cluster over, as more cases could surface during the long incubation period, but rates the risk to the general public as very low.",
+          "source": "ECDC / WHO",
+          "published_at": "2026-05-26",
+          "url": "https://www.ecdc.europa.eu/en/infectious-disease-topics/hantavirus-infection/surveillance-and-updates/andes-hantavirus-outbreak"
+        }
+      ]
+    },
+    "cybersecurity": {
+      "label": "CyberSecurity",
+      "ai_summary": "Actively-exploited flaws and big breaches dominate this cycle. Attackers are abusing a FortiClient EMS authentication-bypass bug (CVE-2026-35616) to push a new 'EKZ' credential stealer disguised as a Fortinet patch, and Rapid7 disclosed an unpatched Gogs self-hosted Git zero-day that hands code execution to any logged-in user. CISA also flagged a maximum-severity LiteSpeed cPanel flaw that gives attackers root on hosting servers. On the breach side, Carnival confirmed an incident exposing nearly 6 million people, and Charter confirmed a breach after a ShinyHunters extortion threat. Patch internet-facing platforms and rotate credentials now.",
+      "stories": [
+        {
+          "id": "cs1",
+          "headline": "FortiClient EMS flaw exploited to push new 'EKZ' credential stealer",
+          "category": "Actively Exploited",
+          "cve": "CVE-2026-35616",
+          "cvss": null,
+          "severity": "CRITICAL",
+          "summary": "Attackers are exploiting an authentication-bypass / improper access-control flaw in FortiClient Enterprise Management Server (EMS) to deliver an undocumented credential stealer called EKZ, BleepingComputer reported on 28 May. By abusing the flaw they modify EMS configurations and VPN policies, then deploy malicious scripts disguised as legitimate Fortinet patches through VPN workflows; EKZ harvests credentials, cookies and financial data from Chromium and Firefox browsers. Fortinet has released an emergency patch and confirmed in-the-wild exploitation, and CISA ordered federal agencies to secure their instances. The CVSS is not stated in the report; Fortinet classes the bug as critical.",
+          "source": "BleepingComputer / Fortinet",
+          "published_at": "2026-05-28",
+          "url": "https://www.bleepingcomputer.com/news/security/new-fortinet-forticlient-ems-flaw-cve-2026-35616-exploited-in-attacks/"
+        },
+        {
+          "id": "cs2",
+          "headline": "Unpatched Gogs zero-day lets any logged-in user run code on the server",
+          "category": "Zero-Day",
+          "cve": null,
+          "cvss": 9.4,
+          "severity": "CRITICAL",
+          "summary": "Rapid7 disclosed an unpatched zero-day in the widely used Gogs self-hosted Git service that lets any authenticated, non-admin user achieve remote code execution, BleepingComputer reported on 28 May. The argument-injection flaw (CWE-88) abuses the 'Rebase before merging' merge operation by injecting the --exec flag into git rebase via a malicious branch name, letting an attacker read all repositories, dump credentials and pivot across the network. Rapid7 says it reported the issue in March but no fix has shipped; a Metasploit module is public. The 9.4 CVSSv4 score is Rapid7-supplied and no CVE has been assigned yet. Gogs' default open-registration setup can let unauthenticated attackers self-provision the needed access.",
+          "source": "BleepingComputer / Rapid7",
+          "published_at": "2026-05-28",
+          "url": "https://www.bleepingcomputer.com/news/security/new-gogs-zero-day-flaw-lets-hackers-get-remote-code-execution/"
+        },
+        {
+          "id": "cs3",
+          "headline": "Carnival confirms data breach affecting nearly 6 million people",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "Carnival Corporation, the world's largest cruise operator, confirmed a breach affecting nearly 6 million people and began notifying them, BleepingComputer reported on 28 May. The company says attackers gained access through a compromised employee account in an April social-engineering attack, exposing names, addresses, dates of birth and government-issued ID numbers tied to a loyalty programme. The ShinyHunters extortion group has been linked to the theft; Carnival says it cut off the access and brought in outside investigators.",
+          "source": "BleepingComputer",
+          "published_at": "2026-05-28",
+          "url": "https://www.bleepingcomputer.com/news/security/carnival-cruise-confirms-data-breach-affecting-nearly-6-million-people/"
+        },
+        {
+          "id": "cs4",
+          "headline": "'GreyVibe' hackers use ChatGPT and Gemini to power attacks on Ukraine",
+          "category": "Threat Actor Campaign",
+          "cve": null,
+          "cvss": null,
+          "severity": "INFORMATIONAL",
+          "summary": "A likely Russian-aligned threat group tracked as GreyVibe is using AI tools — including ChatGPT, Google Gemini and Ideogram — to generate convincing lures and to help build custom malware, in an espionage campaign focused on Ukrainian and Ukraine-related organisations, BleepingComputer reported on 28 May citing WithSecure. The toolkit includes a PowerShell RAT, LegionRelay, that can steal files, capture screenshots, lift browser credentials and exfiltrate Telegram/WhatsApp data. WithSecure links the activity to a Russian-speaking actor via panel language, code comments and a Moscow-time (UTC+3) C2 configuration, while stopping short of a firm nation-state attribution.",
+          "source": "BleepingComputer / WithSecure",
+          "published_at": "2026-05-28",
+          "url": "https://www.bleepingcomputer.com/news/security/greyvibe-hackers-use-chatgpt-gemini-to-power-cyberattacks/"
+        },
+        {
+          "id": "cs5",
+          "headline": "Maximum-severity LiteSpeed cPanel flaw exploited to seize hosting servers",
+          "category": "Actively Exploited",
+          "cve": "CVE-2026-48172",
+          "cvss": 10.0,
+          "severity": "CRITICAL",
+          "summary": "A maximum-severity flaw in the LiteSpeed cPanel user-end plugin lets any logged-in cPanel user run scripts as 'root', effectively taking over an entire shared-hosting server and every site on it. CISA added it to its Known Exploited Vulnerabilities catalog on 27 May and gave federal agencies just four days to fix it, confirming real-world exploitation. Hosting operators running the plugin should update without delay.",
+          "source": "The Hacker News / CISA",
+          "published_at": "2026-05-27",
+          "url": "https://thehackernews.com/2026/05/litespeed-cpanel-plugin-cve-2026-48172.html"
+        },
+        {
+          "id": "cs6",
+          "headline": "Charter Communications confirms breach after ShinyHunters extortion threat",
+          "category": "Data Breach",
+          "cve": null,
+          "cvss": null,
+          "severity": "HIGH",
+          "summary": "US telecoms and broadband provider Charter Communications confirmed a data breach after the ShinyHunters extortion group threatened to leak stolen data, BleepingComputer reported around 26 May. The group claims to have stolen tens of millions of records (it has cited 40-42 million) via a voice-phishing attack that compromised an employee's Microsoft Entra account and was used to export records from Charter's Salesforce instance. Charter says no sensitive personal information or customer proprietary network information was exfiltrated; the larger figures are the attackers' unverified claims.",
+          "source": "BleepingComputer",
+          "published_at": "2026-05-26",
+          "url": "https://www.bleepingcomputer.com/news/security/charter-confirms-data-breach-after-shinyhunters-extortion-threat/"
+        }
+      ]
+    }
+  }
+}
